@@ -21,7 +21,7 @@ Runs daily via GitHub Actions — digests are committed back to the repo automat
 | Profile | License Filter | Focus |
 |---|---|---|
 | **Agent & Tool Use** | Commercial only | Tool-use, code gen, vision, fast inference, embeddings |
-| **Agent & Tool Use** | Commercial only | Vision (thermal/IR), offline-capable, RAG, time-series, document understanding |
+| **Vision & Edge Deployment** | Commercial only | Vision (thermal/IR), offline-capable, RAG, time-series, document understanding |
 | **Optimisation & Reasoning** | All licenses | OR/optimization, simulation, code gen (OR-Tools/PuLP), reasoning |
 | **Retrieval & Embeddings** | All licenses | Embeddings, rerankers, long-context, chunking |
 | **Research & Summarisation** | All licenses | Summarization, research paper analysis, ArXiv monitoring |
