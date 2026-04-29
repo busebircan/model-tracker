@@ -1,0 +1,63 @@
+name: Run Model Tracker
+
+on:
+  schedule:
+    # Run daily at 07:00 UTC (after HuggingFace updates)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no files written)"
+        required: false
+        default: "false"
+        type: boolean
+      days:
+        description: "Override lookback window (days)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  track-models:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit digest files and state
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Model Tracker
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "${{ github.event.inputs.days }}" ]; then
+            ARGS="$ARGS --days ${{ github.event.inputs.days }}"
+          fi
+          python src/runner.py $ARGS
+
+      - name: Commit and push digests + state
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name  "model-tracker-bot"
+          git config user.email "bot@model-tracker"
+          git add digests/ state/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: digest update $(date -u +%Y-%m-%d)"
+            git push
+          fi
