@@ -25,7 +25,7 @@ Runs daily via GitHub Actions — digests are committed back to the repo automat
 | **Optimisation & Reasoning** | All licenses | OR/optimization, simulation, code gen (OR-Tools/PuLP), reasoning |
 | **Retrieval & Embeddings** | All licenses | Embeddings, rerankers, long-context, chunking |
 | **Research & Summarisation** | All licenses | Summarization, research paper analysis, ArXiv monitoring |
-| **Safety & Security** | All licenses |  |
+| **Safety & Security** | All licenses | Guardrails, content filtering, PII detection, prompt injection defence, bias evaluation, alignment classifiers, output validation |
 
 Commercial licenses include: `apache-2.0`, `mit`, `bsd-3-clause`, `cc-by-4.0`, `openrail`, `llama3*`, `gemma`, and similar permissive licenses.
 
