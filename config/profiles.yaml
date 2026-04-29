@@ -1,0 +1,183 @@
+
+# Model Tracker - User Profile Configuration
+# Each profile defines license filters, task keywords, and tag keywords used to classify models.
+
+commercial_licenses:
+  - apache-2.0
+  - mit
+  - bsd-3-clause
+  - bsd-2-clause
+  - cc-by-4.0
+  - cc-by-sa-4.0
+  - openrail
+  - openrail++
+  - llama3
+  - llama3.1
+  - llama3.2
+  - llama3.3
+  - gemma
+  - creativeml-openrail-m
+
+non_commercial_licenses:
+  - gpl-3.0
+  - gpl-2.0
+  - agpl-3.0
+  - cc-by-nc-4.0
+  - cc-by-nc-sa-4.0
+  - cc-by-nc-nd-4.0
+  - llama2
+  - other-non-commercial
+
+profiles:
+  freya_sub_agents:
+    display_name: "Freya Sub-Agents"
+    commercial_only: true
+    description: "Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings"
+    task_keywords:
+      - text-generation
+      - text2text-generation
+      - feature-extraction
+      - image-classification
+      - image-to-text
+      - visual-question-answering
+      - image-feature-extraction
+    tag_keywords:
+      - tool-use
+      - function-calling
+      - code
+      - code-generation
+      - coding
+      - vision
+      - multimodal
+      - embeddings
+      - embedding
+      - fast-inference
+      - gguf
+      - quantized
+      - instruct
+      - agent
+      - tool_use
+
+  thermafy:
+    display_name: "Thermafy"
+    commercial_only: true
+    description: "Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding"
+    task_keywords:
+      - image-classification
+      - object-detection
+      - image-segmentation
+      - image-to-text
+      - document-question-answering
+      - time-series-forecasting
+      - feature-extraction
+      - image-feature-extraction
+    tag_keywords:
+      - thermal
+      - infrared
+      - ir
+      - vision
+      - rag
+      - retrieval
+      - time-series
+      - forecasting
+      - document
+      - ocr
+      - offline
+      - edge
+      - onnx
+      - gguf
+      - quantized
+
+  ie_supply_chain:
+    display_name: "IE / Supply Chain"
+    commercial_only: false
+    description: "Optimization, simulation, code generation for OR/supply-chain, reasoning models"
+    task_keywords:
+      - text-generation
+      - text2text-generation
+      - tabular-regression
+      - tabular-classification
+    tag_keywords:
+      - optimization
+      - or-tools
+      - pulp
+      - linear-programming
+      - supply-chain
+      - logistics
+      - simulation
+      - code
+      - code-generation
+      - reasoning
+      - math
+      - planning
+      - operations-research
+
+  rag_general:
+    display_name: "RAG General"
+    commercial_only: false
+    description: "Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines"
+    task_keywords:
+      - feature-extraction
+      - sentence-similarity
+      - text-ranking
+      - text-retrieval
+      - image-feature-extraction
+    tag_keywords:
+      - embeddings
+      - embedding
+      - sentence-transformers
+      - reranker
+      - reranking
+      - retrieval
+      - rag
+      - long-context
+      - long_context
+      - chunking
+      - semantic-search
+      - bi-encoder
+      - cross-encoder
+      - mteb
+
+  personal_research:
+    display_name: "Personal / Research"
+    commercial_only: false
+    description: "Summarization, research paper analysis, ArXiv monitoring, general research tools"
+    task_keywords:
+      - summarization
+      - text-generation
+      - text2text-generation
+      - question-answering
+    tag_keywords:
+      - summarization
+      - research
+      - arxiv
+      - scientific
+      - paper
+      - academic
+      - nlp
+      - analysis
+      - reasoning
+      - long-context
+
+# Fetcher settings
+fetcher:
+  lookback_days: 1          # Default days to look back if no state file exists
+  max_models_per_run: 200   # Cap total models fetched per run (avoids rate-limit hammering)
+  hf_api_limit: 100         # Models fetched per HuggingFace API page
+
+# ArXiv settings (optional enrichment)
+arxiv:
+  enabled: true
+  max_results: 50
+  categories:
+    - cs.AI
+    - cs.LG
+    - cs.CL
+    - cs.CV
+    - stat.ML
+
+# Output settings
+output:
+  digests_dir: digests
+  state_file: state/last_run.json
+  include_json: true

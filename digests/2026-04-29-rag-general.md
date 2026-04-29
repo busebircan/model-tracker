@@ -1,0 +1,143 @@
+# Model Tracker Digest — RAG General
+
+**Date:** 2026-04-29  
+**Run timestamp:** 2026-04-29 16:54 UTC  
+**Profile:** RAG General  
+**Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
+**License filter:** All licenses (no restriction)  
+**New models found:** 9
+
+---
+
+
+
+### [UVA-MSBA/ARISE-ADR-NLP](https://huggingface.co/UVA-MSBA/ARISE-ADR-NLP)
+**Author:** UVA-MSBA  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deberta-v2`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **RAG General** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
+**Author:** dongbobo  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **RAG General** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [wexumin/xrag-compression-probe](https://huggingface.co/wexumin/xrag-compression-probe)
+**Author:** wexumin  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `model_hub_mixin`, `pytorch_model_hub_mixin`  
+
+**Why relevant:** Matched for **RAG General** via tag match: rag (name).
+
+---
+
+
+
+### [SriRamanaAtmic/AtmicIntel_test](https://huggingface.co/SriRamanaAtmic/AtmicIntel_test)
+**Author:** SriRamanaAtmic  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-04-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `phi3`, `phi-3`, `lora`, `spiritual`, `ramana-maharshi`, `advaita-vedanta`, `self-enquiry`, `rag`  
+
+**Why relevant:** Matched for **RAG General** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [AbdoMatrix/distilbert-medical-classifier](https://huggingface.co/AbdoMatrix/distilbert-medical-classifier)
+**Author:** AbdoMatrix  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-04-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `medical`, `classification`, `pubmedqa`, `healthcare-rag`, `text-classification`, `dataset:llamafactory/PubMedQA`  
+
+**Why relevant:** Matched for **RAG General** via tag match: rag.
+
+---
+
+
+
+### [erinkhoo/UltraGBM](https://huggingface.co/erinkhoo/UltraGBM)
+**Author:** erinkhoo  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **RAG General** via tag match: rag (name).
+
+---
+
+
+
+### [heraGishtiTeamAiDatadominators26/dqn-SpaceInvadersNoFrameskip-v4](https://huggingface.co/heraGishtiTeamAiDatadominators26/dqn-SpaceInvadersNoFrameskip-v4)
+**Author:** heraGishtiTeamAiDatadominators26  
+**Task:** reinforcement learning  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `stable-baselines3`, `SpaceInvadersNoFrameskip-v4`, `deep-reinforcement-learning`, `reinforcement-learning`, `model-index`  
+
+**Why relevant:** Matched for **RAG General** via tag match: rag (name).
+
+---
+
+
+
+### [SOTAagi2030/MyModel-NoFigures-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **RAG General** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Renzos65/SFR-Embedding-Code-400M_R](https://huggingface.co/Renzos65/SFR-Embedding-Code-400M_R)
+**Author:** Renzos65  
+**Task:** feature extraction / embedding generation  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-04-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `onnx`, `new`, `feature-extraction`, `code`, `retrieval`, `custom_code`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **RAG General** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: strong code generation capability; available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+
+
+
+
+---
+
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-04-29 16:54 UTC*

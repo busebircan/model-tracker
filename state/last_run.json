@@ -1,0 +1,16 @@
+{
+  "last_run_at": "2026-04-29T16:54:12.618651+00:00",
+  "models_found": 200,
+  "digest_files": [
+    "/home/node/clawd/model-tracker/digests/2026-04-29-freya-sub-agents.md",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-freya-sub-agents.json",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-thermafy.md",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-thermafy.json",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-ie-supply-chain.md",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-ie-supply-chain.json",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-rag-general.md",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-rag-general.json",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-personal-research.md",
+    "/home/node/clawd/model-tracker/digests/2026-04-29-personal-research.json"
+  ]
+}
