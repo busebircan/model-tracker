@@ -20,11 +20,12 @@ Runs daily via GitHub Actions — digests are committed back to the repo automat
 
 | Profile | License Filter | Focus |
 |---|---|---|
-| **Freya Sub-Agents** | Commercial only | Tool-use, code gen, vision, fast inference, embeddings |
-| **Thermafy** | Commercial only | Vision (thermal/IR), offline-capable, RAG, time-series, document understanding |
-| **IE / Supply Chain** | All licenses | OR/optimization, simulation, code gen (OR-Tools/PuLP), reasoning |
-| **RAG General** | All licenses | Embeddings, rerankers, long-context, chunking |
-| **Personal / Research** | All licenses | Summarization, research paper analysis, ArXiv monitoring |
+| **Agent & Tool Use** | Commercial only | Tool-use, code gen, vision, fast inference, embeddings |
+| **Agent & Tool Use** | Commercial only | Vision (thermal/IR), offline-capable, RAG, time-series, document understanding |
+| **Optimisation & Reasoning** | All licenses | OR/optimization, simulation, code gen (OR-Tools/PuLP), reasoning |
+| **Retrieval & Embeddings** | All licenses | Embeddings, rerankers, long-context, chunking |
+| **Research & Summarisation** | All licenses | Summarization, research paper analysis, ArXiv monitoring |
+| **Safety & Security** | All licenses |  |
 
 Commercial licenses include: `apache-2.0`, `mit`, `bsd-3-clause`, `cc-by-4.0`, `openrail`, `llama3*`, `gemma`, and similar permissive licenses.
 
