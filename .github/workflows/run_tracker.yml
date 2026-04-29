@@ -21,7 +21,9 @@ jobs:
   track-models:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit digest files and state
+      contents: write   # needed to commit digest files, state, and dashboard data
+      pages: write      # needed for GitHub Pages configuration
+      id-token: write   # needed for GitHub Pages deployment
 
     steps:
       - name: Checkout repository
@@ -49,15 +51,22 @@ jobs:
           fi
           python src/runner.py $ARGS
 
-      - name: Commit and push digests + state
+      - name: Generate dashboard data
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python src/dashboard_data.py
+
+      - name: Commit and push digests, state, and dashboard data
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git config user.name  "model-tracker-bot"
           git config user.email "bot@model-tracker"
-          git add digests/ state/
+          git add digests/ state/ docs/data/
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "chore: digest update $(date -u +%Y-%m-%d)"
+            git commit -m "chore: digest + dashboard update $(date -u +%Y-%m-%d)"
             git push
           fi

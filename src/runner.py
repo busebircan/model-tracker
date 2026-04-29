@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,6 +27,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from fetcher import fetch_new_models
 from classifier import classify_models
 from digest import build_digests
+from benchmarks import get_benchmark_scores, warm_caches
 
 logging.basicConfig(
     level=logging.INFO,
@@ -159,6 +161,25 @@ def main() -> int:
         return 0
 
     logger.info("Total models fetched: %d", len(models))
+
+    # --- Enrich with benchmark scores (best effort) ---
+    hf_token = os.environ.get("HF_TOKEN")
+    logger.info("Pre-loading benchmark leaderboard caches …")
+    try:
+        warm_caches(hf_token=hf_token)
+    except Exception as wc_exc:
+        logger.debug("warm_caches failed (non-fatal): %s", wc_exc)
+
+    logger.info("Enriching models with benchmark scores …")
+    for model in models:
+        model_id = model.get("id", "")
+        if model_id:
+            try:
+                scores = get_benchmark_scores(model_id, hf_token=hf_token)
+                if scores:
+                    model["benchmark_scores"] = scores
+            except Exception as bench_exc:
+                logger.debug("Benchmark fetch skipped for %s: %s", model_id, bench_exc)
 
     # --- Classify ---
     classified = classify_models(models, cfg)

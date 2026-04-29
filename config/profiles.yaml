@@ -30,7 +30,7 @@ non_commercial_licenses:
 
 profiles:
   freya_sub_agents:
-    display_name: "Freya Sub-Agents"
+    display_name: "Agent & Tool Use"
     commercial_only: true
     description: "Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings"
     task_keywords:
@@ -59,7 +59,7 @@ profiles:
       - tool_use
 
   thermafy:
-    display_name: "Thermafy"
+    display_name: "Vision & Edge Deployment"
     commercial_only: true
     description: "Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding"
     task_keywords:
@@ -89,7 +89,7 @@ profiles:
       - quantized
 
   ie_supply_chain:
-    display_name: "IE / Supply Chain"
+    display_name: "Optimisation & Reasoning"
     commercial_only: false
     description: "Optimization, simulation, code generation for OR/supply-chain, reasoning models"
     task_keywords:
@@ -113,7 +113,7 @@ profiles:
       - operations-research
 
   rag_general:
-    display_name: "RAG General"
+    display_name: "Retrieval & Embeddings"
     commercial_only: false
     description: "Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines"
     task_keywords:
@@ -139,7 +139,7 @@ profiles:
       - mteb
 
   personal_research:
-    display_name: "Personal / Research"
+    display_name: "Research & Summarisation"
     commercial_only: false
     description: "Summarization, research paper analysis, ArXiv monitoring, general research tools"
     task_keywords:
