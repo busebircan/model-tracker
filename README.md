@@ -4,6 +4,14 @@ Automated monitoring of HuggingFace (and ArXiv) for new AI model releases — fi
 
 ---
 
+## Dashboard
+
+Live digest → **[busebircan.github.io/model-tracker](https://busebircan.github.io/model-tracker/)**
+
+Updated daily at 07:00 UTC via GitHub Actions.
+
+---
+
 ## What It Does
 
 1. **Fetches** newly released models from HuggingFace Hub (sorted by creation date)
