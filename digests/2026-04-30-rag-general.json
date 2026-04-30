@@ -1,37 +1,276 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-04-30T00:26:56.243952+00:00",
-  "model_count": 2,
+  "run_at": "2026-04-30T09:10:09.862371+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "groxaxo/octen-embedding-8b-w4a16",
-      "author": "groxaxo",
-      "name": "octen-embedding-8b-w4a16",
-      "created_at": "2026-04-30T00:26:14+00:00",
+      "id": "ronit01/rag_tuned_minilm",
+      "author": "ronit01",
+      "name": "rag_tuned_minilm",
+      "created_at": "2026-04-30T09:02:27+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "sentence-similarity",
       "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:208",
+        "loss:ContrastiveLoss",
+        "arxiv:1908.10084",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:finetune:sentence-transformers/all-MiniLM-L6-v2",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/groxaxo/octen-embedding-8b-w4a16",
+      "url": "https://huggingface.co/ronit01/rag_tuned_minilm",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding (name)"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, rag (name)"
       ]
     },
     {
-      "id": "groxaxo/octen-embedding-4b-w4a16",
-      "author": "groxaxo",
-      "name": "octen-embedding-4b-w4a16",
-      "created_at": "2026-04-30T00:26:13+00:00",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T09:01:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T08:59:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ACLASCollege/aegis-graph",
+      "author": "ACLASCollege",
+      "name": "aegis-graph",
+      "created_at": "2026-04-30T08:57:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "academic-integrity",
+        "graphrag",
+        "agentic-ai",
+        "en",
+        "zh",
+        "fr",
+        "es",
+        "ar",
+        "dataset:ACLASCollege/genai-fraud-benchmark-2026",
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ACLASCollege/aegis-graph",
+      "description": null,
+      "languages": [
+        "en",
+        "zh",
+        "fr",
+        "es",
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "MinhPhuc0804/bge-reranker-v2-m3-sm-checkthat-task1-v1-epoch-0.9307338478415674",
+      "author": "MinhPhuc0804",
+      "name": "bge-reranker-v2-m3-sm-checkthat-task1-v1-epoch-0.9307338478415674",
+      "created_at": "2026-04-30T08:49:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MinhPhuc0804/bge-reranker-v2-m3-sm-checkthat-task1-v1-epoch-0.9307338478415674",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, reranker (name)"
+      ]
+    },
+    {
+      "id": "TextModel/E5_Law-v4-Indo",
+      "author": "TextModel",
+      "name": "E5_Law-v4-Indo",
+      "created_at": "2026-04-30T08:37:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "xlm-roberta",
+        "sentence-similarity",
+        "feature-extraction",
+        "dense",
+        "generated_from_trainer",
+        "dataset_size:2004",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1705.00652",
+        "base_model:intfloat/multilingual-e5-base",
+        "base_model:finetune:intfloat/multilingual-e5-base",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TextModel/E5_Law-v4-Indo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "WassupWuK/MyAwesomeModel-TestRepo",
+      "author": "WassupWuK",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T08:33:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "TB22427/MyAwesomeModel-TestRepo",
+      "author": "TB22427",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T08:26:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "itaimorag/melbourne-price-winner-model",
+      "author": "itaimorag",
+      "name": "melbourne-price-winner-model",
+      "created_at": "2026-04-30T08:09:47+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -41,13 +280,42 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/groxaxo/octen-embedding-4b-w4a16",
+      "url": "https://huggingface.co/itaimorag/melbourne-price-winner-model",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding (name)"
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
+      "author": "ToolathlonBot",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T08:01:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
