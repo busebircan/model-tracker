@@ -661,10 +661,6 @@ function renderProfilePanel(profileId, profile) {
           <div class="stat-value" style="font-size:1rem">${runAt}</div>
           <div class="stat-label">Last updated</div>
         </div>` : ''}
-        <div class="stat-card">
-          <div class="stat-value">${models.filter(m => Object.keys(m.benchmark_scores || {}).length > 0).length}</div>
-          <div class="stat-label">With benchmarks</div>
-        </div>
       </div>
 
       ${modelsHtml}
