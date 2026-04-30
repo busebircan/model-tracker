@@ -1,5 +1,5 @@
 {
-  "profile": "freya_sub_agents",
+  "profile": "agent_and_tool",
   "display_name": "Agent & Tool Use",
   "run_at": "2026-04-30T11:55:43.214395+00:00",
   "model_count": 57,

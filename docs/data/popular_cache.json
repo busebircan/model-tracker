@@ -1,5 +1,5 @@
 {
-  "freya_sub_agents": [
+  "agent_and_tool": [
     {
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "author": "sentence-transformers",
@@ -5898,7 +5898,7 @@
       ]
     }
   ],
-  "thermafy": [
+  "vision_and_edge": [
     {
       "id": "sentence-transformers/all-MiniLM-L6-v2",
       "author": "sentence-transformers",

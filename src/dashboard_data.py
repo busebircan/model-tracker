@@ -176,7 +176,7 @@ def build_dashboard_json(
         sanitised_popular = [_sanitise_model(m) for m in popular_for_profile]
 
         # Build a profile_id safe for JS (snake_case → camelCase not needed; use snake_case)
-        profile_id = profile_key  # e.g. "freya_sub_agents"
+        profile_id = profile_key  # e.g. "agent_and_tool"
 
         output["profiles"][profile_id] = {
             "display_name": display_name,
