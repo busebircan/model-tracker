@@ -1,130 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-04-30  
-**Run timestamp:** 2026-04-30 00:15 UTC  
+**Run timestamp:** 2026-04-30 00:19 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 0
 
 ---
 
 
-
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-04-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [SOTAagi2030/MyModel-BestV2-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-04-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [SOTAagi2030/MyCodeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-04-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [toolathlon-eval-09/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-09/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-09  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-04-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dragonscale-ai/kniv-deberta-nlp-base-en-xsmall](https://huggingface.co/dragonscale-ai/kniv-deberta-nlp-base-en-xsmall)
-**Author:** dragonscale-ai  
-**Task:** token classification  
-**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
-**Published:** 2026-04-29  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `multi-task`, `pos`, `ner`, `dependency-parsing`, `semantic-role-labeling`, `dialog-act-classification`, `deberta-v3`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dragonscale-ai/kniv-deberta-nlp-base-en-small](https://huggingface.co/dragonscale-ai/kniv-deberta-nlp-base-en-small)
-**Author:** dragonscale-ai  
-**Task:** token classification  
-**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
-**Published:** 2026-04-29  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `multi-task`, `pos`, `ner`, `dependency-parsing`, `semantic-role-labeling`, `dialog-act-classification`, `deberta-v3`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [nalain7/NLP_Hate_Speech](https://huggingface.co/nalain7/NLP_Hate_Speech)
-**Author:** nalain7  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-04-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [philipp-zettl/granite-embedding-97m-multilingual-r2-ONNX](https://huggingface.co/philipp-zettl/granite-embedding-97m-multilingual-r2-ONNX)
-**Author:** philipp-zettl  
-**Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-04-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformers.js`, `onnx`, `modernbert`, `feature-extraction`, `webgpu-export-my-repo`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
-
-
-
+_No new models matched this profile in this run._
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-04-30 00:15 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-04-30 00:19 UTC*
