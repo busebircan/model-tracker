@@ -1,8 +1,8 @@
 """
-fetcher.py — Fetches new models from HuggingFace Hub and ModelScope.
+fetcher.py — Fetches new models from HuggingFace Hub API.
 
-Filters by creation date (since last run), returns structured model dicts
-with a unified shape so downstream classification/digest code is source-agnostic.
+Filters by creation date (since last run), returns structured model dicts.
+Compatible with huggingface_hub >= 1.x (no ModelFilter, no direction param).
 """
 
 from __future__ import annotations
@@ -11,14 +11,7 @@ import logging
 from datetime import datetime, timezone
 from typing import Any
 
-import requests
 from huggingface_hub import HfApi
-
-MODELSCOPE_ENDPOINT = "https://modelscope.cn/api/v1/dolphin/models"
-MODELSCOPE_USER_AGENT = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-)
 
 logger = logging.getLogger(__name__)
 
@@ -114,7 +107,6 @@ def _normalise(info: Any) -> dict[str, Any]:
         "description": _extract_description(card),
         "languages": _extract_languages(card),
         "datasets": list(getattr(info, "datasets", None) or []),
-        "source": "huggingface",
     }
 
 
@@ -148,140 +140,6 @@ def fetch_popular_models(
 
     logger.info("Fetched %d popular models.", len(models))
     return models
-
-
-def fetch_modelscope_models(
-    since: datetime | None = None,
-    max_models: int = 200,
-    page_size: int = 100,
-) -> list[dict[str, Any]]:
-    """
-    Fetch newly published models from ModelScope (modelscope.cn).
-
-    Pages through the global discovery endpoint sorted by creation time
-    (newest first), stopping once we cross the `since` cutoff or hit `max_models`.
-
-    Args:
-        since: Only return models created after this UTC datetime.
-        max_models: Hard cap on returned models.
-        page_size: Page size for the discovery endpoint (max 100).
-
-    Returns:
-        List of normalised model dicts (same shape as HuggingFace fetcher).
-    """
-    logger.info(
-        "Fetching models from ModelScope (since=%s, limit=%d)…",
-        since.isoformat() if since else "N/A",
-        max_models,
-    )
-
-    headers = {
-        "User-Agent": MODELSCOPE_USER_AGENT,
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-    }
-
-    models: list[dict[str, Any]] = []
-    page_number = 1
-    while len(models) < max_models:
-        body = {
-            "PageSize": min(page_size, max_models - len(models)),
-            "PageNumber": page_number,
-            "SortBy": "GmtCreate",
-            "Target": "",
-            "SingleCriterion": [],
-        }
-        try:
-            resp = requests.put(
-                MODELSCOPE_ENDPOINT,
-                json=body,
-                headers=headers,
-                timeout=30,
-            )
-            resp.raise_for_status()
-            payload = resp.json()
-        except Exception as exc:
-            logger.error("ModelScope API error on page %d: %s", page_number, exc)
-            raise
-
-        data = (payload or {}).get("Data", {}).get("Model", {})
-        page_models = data.get("Models") or []
-        if not page_models:
-            break
-
-        stop = False
-        for raw in page_models:
-            model = _normalise_modelscope(raw)
-            created = model.get("created_at")
-            if since and created and created <= since:
-                stop = True
-                break
-            models.append(model)
-            if len(models) >= max_models:
-                break
-
-        if stop or len(page_models) < body["PageSize"]:
-            break
-        page_number += 1
-
-    logger.info("Fetched %d models from ModelScope.", len(models))
-    return models
-
-
-def _normalise_modelscope(raw: dict[str, Any]) -> dict[str, Any]:
-    """Convert a ModelScope API model object to the unified model dict shape."""
-    path = raw.get("Path") or ""
-    name = raw.get("Name") or ""
-    model_id = f"{path}/{name}" if path and name else (name or path)
-
-    tasks = raw.get("Tasks") or []
-    pipeline_tag = (tasks[0].get("Name") if tasks else None) or None
-
-    # Combine ModelScope's structured tags with task names so the keyword
-    # classifier (which checks tags) works the same as for HuggingFace.
-    tags: list[str] = list(raw.get("Tags") or [])
-    for t in tasks:
-        tname = t.get("Name")
-        if tname and tname not in tags:
-            tags.append(tname)
-
-    license_id = raw.get("License") or None
-    if isinstance(license_id, str):
-        license_id = license_id.lower() or None
-
-    org = raw.get("Organization") or {}
-    author = org.get("Name") or path
-
-    description = (raw.get("Description") or raw.get("ChineseName") or "").strip() or None
-
-    return {
-        "id": model_id,
-        "author": author,
-        "name": name,
-        "created_at": _parse_unix_seconds(raw.get("CreatedTime")),
-        "last_modified": _parse_unix_seconds(raw.get("LastUpdatedTime")),
-        "pipeline_tag": pipeline_tag,
-        "tags": tags,
-        "license": license_id,
-        "downloads": raw.get("Downloads") or 0,
-        "likes": raw.get("Stars") or 0,
-        "params_billions": None,
-        "url": f"https://modelscope.cn/models/{path}/{name}" if path and name else "https://modelscope.cn/",
-        "description": description,
-        "languages": [],
-        "datasets": [],
-        "source": "modelscope",
-    }
-
-
-def _parse_unix_seconds(val: Any) -> datetime | None:
-    """ModelScope returns timestamps as Unix epoch seconds."""
-    if val is None:
-        return None
-    try:
-        return datetime.fromtimestamp(int(val), tz=timezone.utc)
-    except (TypeError, ValueError, OSError):
-        return None
 
 
 def _parse_date(val: Any) -> datetime | None:

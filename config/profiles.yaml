@@ -204,11 +204,6 @@ fetcher:
   max_models_per_run: 200   # Cap total models fetched per run (avoids rate-limit hammering)
   hf_api_limit: 100         # Models fetched per HuggingFace API page
 
-# ModelScope (modelscope.cn) — secondary model source
-modelscope:
-  enabled: true
-  max_models_per_run: 100   # Cap ModelScope models per run
-
 # ArXiv settings (optional enrichment)
 arxiv:
   enabled: true

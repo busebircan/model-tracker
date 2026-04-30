@@ -105,14 +105,10 @@ def summarise_model(
     notable = _notable_tags(tags, limit=8)
     tags_line = f"**Tags:** {notable}  \n" if notable else ""
 
-    source = model.get("source") or "huggingface"
-    source_label = {"huggingface": "🤗 HuggingFace", "modelscope": "🟣 ModelScope"}.get(source, source)
-    source_line = f"**Source:** {source_label}  \n"
-
     summary = f"""\
 ### [{name}]({url})
-**Author:** {author}
-{source_line}**Task:** {task_desc}
+**Author:** {author}  
+**Task:** {task_desc}  
 {license_line}{size_line}{date_line}{lang_line}{pop_line}{tags_line}
 **Why relevant:** {relevance}
 """
