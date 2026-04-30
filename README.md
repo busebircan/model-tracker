@@ -15,7 +15,7 @@ Updated daily at 07:00 UTC via GitHub Actions.
 ## What It Does
 
 1. **Fetches** newly released models from HuggingFace Hub (sorted by creation date)
-2. **Classifies** each model against 5 user profiles using license checks and keyword matching
+2. **Classifies** each model against 6 use cases using license checks and keyword matching
 3. **Summarises** matched models (task, license, size, downloads, relevance explanation)
 4. **Generates** per-profile markdown + JSON digest files in `digests/`
 5. **Saves state** (`state/last_run.json`) so each run only processes *new* models
