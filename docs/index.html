@@ -331,40 +331,40 @@
       height: 140px;
     }
 
-    /* ── Page switcher ───────────────────────────────────── */
+    /* ── Page switcher (segmented control) ───────────────── */
     .page-switcher {
       display: flex;
-      gap: 6px;
-      padding: 14px 12px 10px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 4px;
+      margin: 0 16px 20px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px;
     }
 
     .page-btn {
       flex: 1;
-      padding: 8px 6px;
+      padding: 6px 8px;
       background: none;
-      border: 1px solid var(--border);
-      border-radius: 6px;
+      border: none;
+      border-radius: 4px;
       color: var(--text-dim);
       font-size: 0.78rem;
       font-weight: 500;
       cursor: pointer;
-      transition: all .15s;
+      transition: background .15s, color .15s;
       text-align: center;
+      letter-spacing: .01em;
     }
 
     .page-btn:hover {
-      background: var(--surface2);
       color: var(--text);
-      border-color: var(--accent);
     }
 
     .page-btn.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
+      background: var(--surface2);
+      color: var(--text);
       font-weight: 600;
+      box-shadow: 0 1px 2px rgba(0,0,0,.25);
     }
 
     /* ── Empty state ──────────────────────────────────────── */
@@ -846,8 +846,8 @@ async function init() {
   // Render sidebar tabs
   sidebar.innerHTML =
     `<div class="page-switcher">
-      <button class="page-btn active" data-page="latest" onclick="activatePage('latest')">📅 Most Recent</button>
-      <button class="page-btn" data-page="popular" onclick="activatePage('popular')">⭐ Most Popular</button>
+      <button class="page-btn active" data-page="latest" onclick="activatePage('latest')">Most Recent</button>
+      <button class="page-btn" data-page="popular" onclick="activatePage('popular')">Most Popular</button>
     </div>
     <div id="use-cases-section">
       <div class="sidebar-label">Use Cases</div>` +
