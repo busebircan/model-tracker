@@ -159,6 +159,45 @@ profiles:
       - reasoning
       - long-context
 
+  safety_security:
+    display_name: "Safety & Security"
+    commercial_only: false
+    description: "Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection"
+    task_keywords:
+      - text-classification
+      - token-classification
+      - zero-shot-classification
+      - image-classification
+    tag_keywords:
+      - safety
+      - security
+      - moderation
+      - content-moderation
+      - toxicity
+      - toxic
+      - hate-speech
+      - harmful
+      - jailbreak
+      - prompt-injection
+      - prompt-guard
+      - guardrail
+      - guard
+      - llamaguard
+      - shieldgemma
+      - red-team
+      - red-teaming
+      - alignment
+      - rlhf
+      - dpo
+      - pii
+      - anonymization
+      - privacy
+      - malware
+      - phishing
+      - anomaly-detection
+      - adversarial
+      - nsfw
+
 # Fetcher settings
 fetcher:
   lookback_days: 1          # Default days to look back if no state file exists
