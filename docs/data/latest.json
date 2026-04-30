@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T11:49:32.660698+00:00",
+  "generated_at": "2026-04-30T11:55:11.518270+00:00",
   "profiles": {
     "freya_sub_agents": {
       "display_name": "Agent & Tool Use",
@@ -21131,7 +21131,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-11 21:25:57+00:00",
           "downloads": 5629669,
-          "likes": 848,
+          "likes": 849,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21311,7 +21311,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-02 19:57:40+00:00",
           "downloads": 4553583,
-          "likes": 874,
+          "likes": 875,
           "params_billions": null,
           "tags": [
             "transformers",
