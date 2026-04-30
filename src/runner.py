@@ -125,22 +125,10 @@ def main() -> int:
         since = now - timedelta(days=args.days)
         logger.info("Using --days=%d override; looking back since %s", args.days, since.isoformat())
     else:
-        state = load_state(args.state_file)
-        last_run_str = state.get("last_run_at")
-        if last_run_str:
-            try:
-                since = datetime.fromisoformat(last_run_str)
-                if since.tzinfo is None:
-                    since = since.replace(tzinfo=timezone.utc)
-                logger.info("Resuming from last run: %s", since.isoformat())
-            except ValueError:
-                lookback = cfg.get("fetcher", {}).get("lookback_days", 1)
-                since = now - timedelta(days=lookback)
-                logger.warning("Could not parse last_run_at; defaulting to %d day(s) lookback", lookback)
-        else:
-            lookback = cfg.get("fetcher", {}).get("lookback_days", 1)
-            since = now - timedelta(days=lookback)
-            logger.info("No previous state found; fetching last %d day(s)", lookback)
+        # Rolling 24-hour window so counts don't collapse to 0 right after midnight
+        # or when the workflow is run more than once per day.
+        since = now - timedelta(hours=24)
+        logger.info("Using rolling 24-hour lookback since %s", since.isoformat())
 
     # --- Fetch models ---
     fetcher_cfg = cfg.get("fetcher", {})
