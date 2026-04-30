@@ -1,7 +1,7 @@
 """
-fetcher.py — Fetches new models from HuggingFace Hub API and papers from ArXiv.
+fetcher.py — Fetches new models from HuggingFace Hub API.
 
-Filters by creation/submission date, returns structured dicts.
+Filters by creation date (since last run), returns structured model dicts.
 Compatible with huggingface_hub >= 1.x (no ModelFilter, no direction param).
 """
 
@@ -11,7 +11,6 @@ import logging
 from datetime import datetime, timezone
 from typing import Any
 
-import arxiv
 from huggingface_hub import HfApi
 
 logger = logging.getLogger(__name__)
@@ -141,74 +140,6 @@ def fetch_popular_models(
 
     logger.info("Fetched %d popular models.", len(models))
     return models
-
-
-def fetch_arxiv_papers(
-    since: datetime | None = None,
-    categories: list[str] | None = None,
-    max_results: int = 50,
-) -> list[dict[str, Any]]:
-    """
-    Fetch recent papers from ArXiv matching the given categories.
-
-    Args:
-        since: Only return papers submitted after this UTC datetime.
-        categories: ArXiv category strings e.g. ["cs.AI", "cs.LG"].
-        max_results: Maximum papers to return.
-
-    Returns:
-        List of paper dicts with normalised fields.
-    """
-    if not categories:
-        categories = ["cs.AI", "cs.LG", "cs.CL", "cs.CV"]
-
-    cat_query = " OR ".join(f"cat:{cat}" for cat in categories)
-    logger.info(
-        "Fetching ArXiv papers (categories=%s, since=%s, max=%d)…",
-        categories,
-        since.isoformat() if since else "N/A",
-        max_results,
-    )
-
-    client = arxiv.Client(page_size=100, delay_seconds=3, num_retries=3)
-    search = arxiv.Search(
-        query=cat_query,
-        max_results=max_results,
-        sort_by=arxiv.SortCriterion.SubmittedDate,
-        sort_order=arxiv.SortOrder.Descending,
-    )
-
-    papers: list[dict[str, Any]] = []
-    try:
-        for result in client.results(search):
-            published = result.published
-            if published and published.tzinfo is None:
-                published = published.replace(tzinfo=timezone.utc)
-            if since and published and published <= since:
-                break
-            papers.append(_normalise_paper(result))
-            if len(papers) >= max_results:
-                break
-    except Exception as exc:
-        logger.error("ArXiv API error: %s", exc)
-        raise
-
-    logger.info("Fetched %d papers from ArXiv.", len(papers))
-    return papers
-
-
-def _normalise_paper(result: Any) -> dict[str, Any]:
-    """Convert an arxiv.Result object to a plain dict."""
-    return {
-        "id": result.get_short_id(),
-        "title": result.title.strip().replace("\n", " "),
-        "authors": [a.name for a in result.authors],
-        "abstract": result.summary.strip().replace("\n", " "),
-        "published": result.published,
-        "categories": list(result.categories),
-        "url": result.entry_id,
-        "source": "arxiv",
-    }
 
 
 def _parse_date(val: Any) -> datetime | None:

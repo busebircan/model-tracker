@@ -1,12 +1,11 @@
 # Model Tracker Digest — {{ display_name }}
 
-**Date:** {{ date_str }}
-**Run timestamp:** {{ run_ts.strftime("%Y-%m-%d %H:%M UTC") }}
-**Profile:** {{ display_name }}
-**Description:** {{ profile_cfg.description }}
-{% if profile_cfg.commercial_only %}**License filter:** Commercial use only ✅{% else %}**License filter:** All licenses (no restriction){% endif %}
+**Date:** {{ date_str }}  
+**Run timestamp:** {{ run_ts.strftime("%Y-%m-%d %H:%M UTC") }}  
+**Profile:** {{ display_name }}  
+**Description:** {{ profile_cfg.description }}  
+{% if profile_cfg.commercial_only %}**License filter:** Commercial use only ✅{% else %}**License filter:** All licenses (no restriction){% endif %}  
 **New models found:** {{ models | length }}
-**New papers found:** {{ papers | length }}
 
 ---
 
@@ -20,22 +19,6 @@
 {% endfor %}
 {% else %}
 _No new models matched this profile in this run._
-{% endif %}
-
-{% if papers %}
----
-
-## Recent ArXiv Papers
-
-{% for paper in papers %}
-### [{{ paper.title }}]({{ paper.url }})
-**Authors:** {{ paper.authors[:3] | join(", ") }}{% if paper.authors | length > 3 %} et al.{% endif %}
-**Published:** {{ paper.published.strftime("%Y-%m-%d") if paper.published else "?" }}
-**Categories:** `{{ paper.categories | join(", ") }}`
-
-{{ paper.abstract[:300] }}{% if paper.abstract | length > 300 %}…{% endif %}
-
-{% endfor %}
 {% endif %}
 
 ---
