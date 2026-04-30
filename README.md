@@ -1,6 +1,6 @@
 # 🤖 Model Tracker
 
-Automated monitoring of HuggingFace (and ArXiv) for new AI model releases — filtered and summarised per user profile, delivered as daily markdown digests.
+Automated monitoring of HuggingFace and ArXiv for new AI model releases — filtered and summarised per user profile, delivered as daily markdown digests.
 
 ---
 
