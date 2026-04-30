@@ -1,16 +1,18 @@
 {
-  "last_run_at": "2026-04-30T10:29:34.968681+00:00",
+  "last_run_at": "2026-04-30T11:47:29.881196+00:00",
   "models_found": 200,
   "digest_files": [
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-freya-sub-agents.md",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-freya-sub-agents.json",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-thermafy.md",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-thermafy.json",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-ie-supply-chain.md",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-ie-supply-chain.json",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-rag-general.md",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-rag-general.json",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-personal-research.md",
-    "/home/runner/work/model-tracker/model-tracker/digests/2026-04-30-personal-research.json"
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-freya-sub-agents.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-freya-sub-agents.json",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-thermafy.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-thermafy.json",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-ie-supply-chain.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-ie-supply-chain.json",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-rag-general.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-rag-general.json",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-personal-research.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-personal-research.json",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-safety-security.md",
+    "/home/runner/work/model-tracker/model-tracker/digests/latest-safety-security.json"
   ]
 }
