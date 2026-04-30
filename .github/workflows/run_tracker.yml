@@ -2,8 +2,8 @@ name: Run Model Tracker
 
 on:
   schedule:
-    # Run daily at 07:00 UTC (after HuggingFace updates)
-    - cron: "0 7 * * *"
+    # Run every 3 hours to keep "most recent" panel fresh
+    - cron: "0 */3 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -16,6 +16,10 @@ on:
         required: false
         default: ""
         type: string
+
+concurrency:
+  group: model-tracker-commits
+  cancel-in-progress: false
 
 jobs:
   track-models:
@@ -58,6 +62,22 @@ jobs:
         run: |
           python src/dashboard_data.py
 
+      - name: Prune stale dated digest files
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          # Delete YYYY-MM-DD-*.{json,md} files whose date is older than today-2 days.
+          # The dashboard reads rolling latest-*.json files, so dated files only linger
+          # from before the rolling-filename migration; today-2 keeps a small safety buffer.
+          cutoff=$(date -u -d '2 days ago' +%Y-%m-%d)
+          shopt -s nullglob
+          for f in digests/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.json digests/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*.md; do
+            fdate=$(basename "$f" | cut -c1-10)
+            if [[ "$fdate" < "$cutoff" ]]; then
+              echo "Removing stale digest: $f (date $fdate < cutoff $cutoff)"
+              rm "$f"
+            fi
+          done
+
       - name: Commit and push digests, state, and dashboard data
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
@@ -67,6 +87,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "chore: digest + dashboard update $(date -u +%Y-%m-%d)"
+            git commit -m "chore: digest + dashboard update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi

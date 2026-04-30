@@ -82,14 +82,14 @@ def build_digests(
 
         # Write markdown file
         safe_key = profile_key.replace("_", "-")
-        md_path = output_dir / f"{date_str}-{safe_key}.md"
+        md_path = output_dir / f"latest-{safe_key}.md"
         md_path.write_text(md_content, encoding="utf-8")
         logger.info("Wrote digest: %s (%d models)", md_path, len(models))
         written.append(md_path)
 
         # Write JSON sidecar
         if include_json:
-            json_path = output_dir / f"{date_str}-{safe_key}.json"
+            json_path = output_dir / f"latest-{safe_key}.json"
             json_data = {
                 "profile": profile_key,
                 "display_name": display_name,
