@@ -1,37 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-04-30T11:55:43.214395+00:00",
-  "model_count": 8,
+  "run_at": "2026-04-30T14:12:45.108134+00:00",
+  "model_count": 14,
   "models": [
     {
-      "id": "storagejuju/gguf-offload-model-03",
-      "author": "storagejuju",
-      "name": "gguf-offload-model-03",
-      "created_at": "2026-04-30T11:50:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/gguf-offload-model-03",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-04-30T11:45:46+00:00",
+      "id": "SOTAagi2030/MyModel-NoFigures-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-NoFigures-TestRepo",
+      "created_at": "2026-04-30T13:58:24+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -47,7 +24,65 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "KimiTool/MyAwesomeModel-TestRepo",
+      "author": "KimiTool",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T13:51:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/KimiTool/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "howie92/MyAwesomeModel-TestRepo",
+      "author": "howie92",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T13:48:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/howie92/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -60,7 +95,7 @@
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-04-30T11:42:01+00:00",
+      "created_at": "2026-04-30T13:46:46+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -86,18 +121,20 @@
       ]
     },
     {
-      "id": "haythembs/marbertv2-sentiment-tunisianv2",
-      "author": "haythembs",
-      "name": "marbertv2-sentiment-tunisianv2",
-      "created_at": "2026-04-30T11:38:31+00:00",
+      "id": "Almashtouly/Restaurant_RoBERTa_Model",
+      "author": "Almashtouly",
+      "name": "Restaurant_RoBERTa_Model",
+      "created_at": "2026-04-30T13:41:23+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "bert",
+        "roberta",
         "text-classification",
-        "arxiv:1910.09700",
+        "sentiment-analysis",
+        "restaurant-reviews",
+        "en",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -106,9 +143,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/haythembs/marbertv2-sentiment-tunisianv2",
+      "url": "https://huggingface.co/Almashtouly/Restaurant_RoBERTa_Model",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
@@ -116,10 +155,10 @@
       ]
     },
     {
-      "id": "stefanstaleski/news-classifier",
-      "author": "stefanstaleski",
-      "name": "news-classifier",
-      "created_at": "2026-04-30T11:15:41+00:00",
+      "id": "spotproject/spot-distilbert-phishing",
+      "author": "spotproject",
+      "name": "spot-distilbert-phishing",
+      "created_at": "2026-04-30T13:39:02+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -127,29 +166,93 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "arxiv:1910.09700",
+        "phishing",
+        "email-security",
+        "en",
+        "dataset:SetFit/enron_spam",
+        "base_model:cybersectony/phishing-email-detection-distilbert_v2.1",
+        "base_model:finetune:cybersectony/phishing-email-detection-distilbert_v2.1",
+        "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/stefanstaleski/news-classifier",
+      "url": "https://huggingface.co/spotproject/spot-distilbert-phishing",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "Willow-yue/MyAwesomeModel-TestRepo",
-      "author": "Willow-yue",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-04-30T11:13:14+00:00",
+      "id": "Web4/LS-MLM-L6-v2-ONNX",
+      "author": "Web4",
+      "name": "LS-MLM-L6-v2-ONNX",
+      "created_at": "2026-04-30T13:38:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "transformers.js",
+        "onnx",
+        "bert",
+        "feature-extraction",
+        "sentence-similarity",
+        "en",
+        "dataset:s2orc",
+        "dataset:flax-sentence-embeddings/stackexchange_xml",
+        "dataset:ms_marco",
+        "dataset:gooaq",
+        "dataset:yahoo_answers_topics",
+        "dataset:code_search_net",
+        "dataset:search_qa",
+        "dataset:eli5",
+        "dataset:snli",
+        "dataset:multi_nli",
+        "dataset:wikihow",
+        "dataset:natural_questions",
+        "dataset:trivia_qa",
+        "dataset:embedding-data/sentence-compression",
+        "dataset:embedding-data/flickr30k-captions",
+        "dataset:embedding-data/altlex",
+        "dataset:embedding-data/simple-wiki",
+        "dataset:embedding-data/QQP",
+        "dataset:embedding-data/SPECTER",
+        "dataset:embedding-data/PAQ_pairs",
+        "dataset:embedding-data/WikiAnswers",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:quantized:sentence-transformers/all-MiniLM-L6-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/Web4/LS-MLM-L6-v2-ONNX",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-SafetyFocused-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-SafetyFocused-TestRepo",
+      "created_at": "2026-04-30T13:37:16+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -165,7 +268,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Willow-yue/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -175,39 +278,74 @@
       ]
     },
     {
-      "id": "GyanAISystems/Pragya-Lumina-1.1B",
-      "author": "GyanAISystems",
-      "name": "Pragya-Lumina-1.1B",
-      "created_at": "2026-04-30T11:03:45+00:00",
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T13:31:09+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/GyanAISystems/Pragya-Lumina-1.1B",
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     },
     {
-      "id": "UseCondomsKid/absa-model",
-      "author": "UseCondomsKid",
-      "name": "absa-model",
-      "created_at": "2026-04-30T10:59:20+00:00",
+      "id": "SOTAagi2030/MySafeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MySafeModel-TestRepo",
+      "created_at": "2026-04-30T13:30:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Mosshato/ai-text-detector",
+      "author": "Mosshato",
+      "name": "ai-text-detector",
+      "created_at": "2026-04-30T13:19:33+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "bert",
+        "roberta",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -218,13 +356,88 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/UseCondomsKid/absa-model",
+      "url": "https://huggingface.co/Mosshato/ai-text-detector",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T13:12:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zoarag/Eudaimonia",
+      "author": "zoarag",
+      "name": "Eudaimonia",
+      "created_at": "2026-04-30T13:11:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Eudaimonia",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "yevheniiapopova/ScoreVisionBeverage",
+      "author": "yevheniiapopova",
+      "name": "ScoreVisionBeverage",
+      "created_at": "2026-04-30T13:09:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/yevheniiapopova/ScoreVisionBeverage",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
