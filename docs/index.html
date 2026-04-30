@@ -331,6 +331,42 @@
       height: 140px;
     }
 
+    /* ── Page switcher ───────────────────────────────────── */
+    .page-switcher {
+      display: flex;
+      gap: 6px;
+      padding: 14px 12px 10px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 4px;
+    }
+
+    .page-btn {
+      flex: 1;
+      padding: 8px 6px;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-dim);
+      font-size: 0.78rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+      text-align: center;
+    }
+
+    .page-btn:hover {
+      background: var(--surface2);
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    .page-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+      font-weight: 600;
+    }
+
     /* ── Empty state ──────────────────────────────────────── */
     .empty-state {
       text-align: center;
@@ -667,6 +703,74 @@ function renderProfilePanel(profileId, profile) {
     </div>`;
 }
 
+// ── Most Popular panel renderer ──────────────────────────────────
+
+function renderMostPopularPanel(popularData) {
+  const models = popularData.models || [];
+
+  let modelsHtml;
+  if (models.length === 0) {
+    modelsHtml = `
+      <div class="empty-state">
+        <div class="empty-icon">📊</div>
+        <div class="empty-title">No data yet</div>
+        <p>Run the tracker to populate this view.</p>
+      </div>`;
+  } else {
+    modelsHtml = `<div class="models-grid">
+      ${models.map((m, i) => renderModelCard(m, i, 'popular')).join('\n')}
+    </div>`;
+  }
+
+  const topDownloads = models.length > 0 ? Math.max(...models.map(m => m.downloads || 0)) : 0;
+
+  return `
+    <div class="profile-header">
+      <div class="profile-title">Most Popular</div>
+      <div class="profile-desc">Top 50 models by downloads on HuggingFace (last 30 days)</div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-value">${models.length}</div>
+        <div class="stat-label">Models</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">${fmtNum(topDownloads)}</div>
+        <div class="stat-label">Top downloads</div>
+      </div>
+    </div>
+    ${modelsHtml}`;
+}
+
+// ── Page switching ────────────────────────────────────────────────
+
+function activatePage(page) {
+  document.querySelectorAll('.page-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.page === page);
+  });
+
+  const latestView = document.getElementById('latest-view');
+  const popularView = document.getElementById('popular-view');
+  const useCasesSection = document.getElementById('use-cases-section');
+
+  if (latestView) latestView.style.display = page === 'latest' ? '' : 'none';
+  if (popularView) popularView.style.display = page === 'popular' ? '' : 'none';
+  if (useCasesSection) useCasesSection.style.display = page === 'latest' ? '' : 'none';
+
+  if (page === 'popular' && popularView) {
+    popularView.querySelectorAll('[data-chart-id]').forEach(card => {
+      const chartId = card.dataset.chartId;
+      const idx = parseInt(card.dataset.index, 10);
+      if (!chartRegistry[chartId]) {
+        const models = window._radarData?.most_popular?.models || [];
+        if (models[idx]) {
+          renderBenchChart(chartId, models[idx].benchmark_scores || {});
+        }
+      }
+    });
+  }
+}
+
 // ── Tab switching ─────────────────────────────────────────────────
 
 function activateTab(profileId) {
@@ -740,7 +844,13 @@ async function init() {
   }
 
   // Render sidebar tabs
-  sidebar.innerHTML = `<div class="sidebar-label">Use Cases</div>` +
+  sidebar.innerHTML =
+    `<div class="page-switcher">
+      <button class="page-btn active" data-page="latest" onclick="activatePage('latest')">📅 Most Recent</button>
+      <button class="page-btn" data-page="popular" onclick="activatePage('popular')">⭐ Most Popular</button>
+    </div>
+    <div id="use-cases-section">
+      <div class="sidebar-label">Use Cases</div>` +
     profileIds.map(id => {
       const p = profiles[id];
       const count = (p.models || []).length;
@@ -748,10 +858,18 @@ async function init() {
         <span>${escapHtml(p.display_name)}</span>
         <span class="tab-badge">${count}</span>
       </button>`;
-    }).join('');
+    }).join('') +
+    `</div>`;
 
   // Render panels
-  mainEl.innerHTML = profileIds.map(id => renderProfilePanel(id, profiles[id])).join('');
+  const popularData = data.most_popular || { models: [] };
+  mainEl.innerHTML =
+    `<div id="latest-view">` +
+    profileIds.map(id => renderProfilePanel(id, profiles[id])).join('') +
+    `</div>
+    <div id="popular-view" style="display:none">` +
+    renderMostPopularPanel(popularData) +
+    `</div>`;
 
   // Activate first tab
   activateTab(profileIds[0]);
