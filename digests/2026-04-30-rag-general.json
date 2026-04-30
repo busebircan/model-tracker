@@ -1,0 +1,283 @@
+{
+  "profile": "rag_general",
+  "display_name": "Retrieval & Embeddings",
+  "run_at": "2026-04-30T00:15:45.923618+00:00",
+  "model_count": 8,
+  "models": [
+    {
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-30T00:12:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-BestV2-TestRepo",
+      "created_at": "2026-04-30T00:00:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "gpt2",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyCodeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyCodeModel-TestRepo",
+      "created_at": "2026-04-29T23:43:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "toolathlon-eval-09/MyAwesomeModel-TestRepo",
+      "author": "toolathlon-eval-09",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-04-29T23:39:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toolathlon-eval-09/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "dragonscale-ai/kniv-deberta-nlp-base-en-xsmall",
+      "author": "dragonscale-ai",
+      "name": "kniv-deberta-nlp-base-en-xsmall",
+      "created_at": "2026-04-29T23:04:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "transformers",
+        "onnx",
+        "multi-task",
+        "pos",
+        "ner",
+        "dependency-parsing",
+        "semantic-role-labeling",
+        "dialog-act-classification",
+        "deberta-v3",
+        "cascade",
+        "nlp",
+        "rustic",
+        "knowledge-distillation",
+        "student-model",
+        "token-classification",
+        "en",
+        "dataset:universal-dependencies/universal_dependencies",
+        "dataset:dragonscale-ai/kniv-corpus-en",
+        "dataset:google-research-datasets/dstc8-schema-guided-dialogue",
+        "base_model:microsoft/deberta-v3-xsmall",
+        "base_model:quantized:microsoft/deberta-v3-xsmall",
+        "license:cc-by-sa-4.0",
+        "model-index",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "cc-by-sa-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dragonscale-ai/kniv-deberta-nlp-base-en-xsmall",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "dragonscale-ai/kniv-deberta-nlp-base-en-small",
+      "author": "dragonscale-ai",
+      "name": "kniv-deberta-nlp-base-en-small",
+      "created_at": "2026-04-29T23:04:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "transformers",
+        "onnx",
+        "multi-task",
+        "pos",
+        "ner",
+        "dependency-parsing",
+        "semantic-role-labeling",
+        "dialog-act-classification",
+        "deberta-v3",
+        "cascade",
+        "nlp",
+        "rustic",
+        "knowledge-distillation",
+        "student-model",
+        "token-classification",
+        "en",
+        "dataset:universal-dependencies/universal_dependencies",
+        "dataset:dragonscale-ai/kniv-corpus-en",
+        "dataset:google-research-datasets/dstc8-schema-guided-dialogue",
+        "base_model:microsoft/deberta-v3-small",
+        "base_model:quantized:microsoft/deberta-v3-small",
+        "license:cc-by-sa-4.0",
+        "model-index",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "cc-by-sa-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dragonscale-ai/kniv-deberta-nlp-base-en-small",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "nalain7/NLP_Hate_Speech",
+      "author": "nalain7",
+      "name": "NLP_Hate_Speech",
+      "created_at": "2026-04-29T22:53:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nalain7/NLP_Hate_Speech",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "philipp-zettl/granite-embedding-97m-multilingual-r2-ONNX",
+      "author": "philipp-zettl",
+      "name": "granite-embedding-97m-multilingual-r2-ONNX",
+      "created_at": "2026-04-29T22:52:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers.js",
+        "onnx",
+        "modernbert",
+        "feature-extraction",
+        "webgpu-export-my-repo",
+        "base_model:ibm-granite/granite-embedding-97m-multilingual-r2",
+        "base_model:quantized:ibm-granite/granite-embedding-97m-multilingual-r2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/philipp-zettl/granite-embedding-97m-multilingual-r2-ONNX",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embedding"
+      ]
+    }
+  ]
+}
