@@ -24,8 +24,8 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from fetcher import fetch_new_models
-from classifier import classify_models
+from fetcher import fetch_new_models, fetch_arxiv_papers
+from classifier import classify_models, classify_papers
 from digest import build_digests
 from benchmarks import get_benchmark_scores, warm_caches
 
@@ -169,12 +169,24 @@ def main() -> int:
             except Exception as bench_exc:
                 logger.debug("Benchmark fetch skipped for %s: %s", model_id, bench_exc)
 
-    # --- Classify ---
+    # --- Classify models ---
     classified = classify_models(models, cfg)
+
+    # --- Fetch and classify ArXiv papers ---
+    papers_classified: dict[str, list] = {}
+    arxiv_cfg = cfg.get("arxiv", {})
+    if arxiv_cfg.get("enabled", False):
+        arxiv_categories = arxiv_cfg.get("categories", [])
+        arxiv_max = arxiv_cfg.get("max_results", 50)
+        try:
+            papers = fetch_arxiv_papers(since=since, categories=arxiv_categories, max_results=arxiv_max)
+            papers_classified = classify_papers(papers, cfg)
+        except Exception as e:
+            logger.warning("ArXiv fetch failed (non-fatal): %s", e)
 
     # --- Dry-run output ---
     if args.dry_run:
-        _print_dry_run(classified, cfg, since, now)
+        _print_dry_run(classified, papers_classified, cfg, since, now)
         return 0
 
     # --- Write digests ---
@@ -183,6 +195,7 @@ def main() -> int:
 
     written = build_digests(
         classified=classified,
+        papers_classified=papers_classified,
         profiles_cfg=cfg,
         output_dir=args.output_dir,
         run_ts=now,
@@ -207,6 +220,7 @@ def main() -> int:
 
 def _print_dry_run(
     classified: dict[str, list],
+    papers_classified: dict[str, list],
     cfg: dict,
     since: datetime,
     now: datetime,
@@ -253,6 +267,22 @@ def _print_dry_run(
 
         if len(models) > 10:
             print(f"\n  … and {len(models) - 10} more model(s) not shown.")
+
+    if papers_classified:
+        print(f"\n{separator}")
+        print("  ARXIV PAPERS")
+        print(separator)
+        for profile_key, papers in papers_classified.items():
+            if not papers:
+                continue
+            profile_cfg = profiles.get(profile_key, {})
+            display_name = profile_cfg.get("display_name", profile_key)
+            print(f"\n{'─' * 60}")
+            print(f"  Profile: {display_name} — {len(papers)} paper(s)")
+            print(f"{'─' * 60}")
+            for i, paper in enumerate(papers[:5], 1):
+                print(f"\n  {i:2}. {paper.get('title', '?')}")
+                print(f"      {paper.get('url', '')}")
 
     print(f"\n{separator}")
     print("  Dry run complete. No files were written.")

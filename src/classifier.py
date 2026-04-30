@@ -60,6 +60,46 @@ def classify_models(
     return results
 
 
+def classify_papers(
+    papers: list[dict[str, Any]],
+    profiles_cfg: dict[str, Any],
+) -> dict[str, list[dict[str, Any]]]:
+    """
+    Classify ArXiv papers against all profiles by keyword matching title+abstract.
+
+    No license gate — all papers are open access.
+
+    Returns:
+        Dict mapping profile_key -> list of matched paper dicts
+        (each paper dict gains a 'profile_match_reasons' key)
+    """
+    profiles: dict[str, dict] = profiles_cfg.get("profiles", {})
+    results: dict[str, list[dict[str, Any]]] = {key: [] for key in profiles}
+
+    for paper in papers:
+        text = (paper.get("title", "") + " " + paper.get("abstract", "")).lower()
+
+        for profile_key, profile in profiles.items():
+            all_keywords = [
+                kw.lower()
+                for kw in profile.get("tag_keywords", []) + profile.get("task_keywords", [])
+            ]
+            matched = [kw for kw in all_keywords if kw in text]
+            if matched:
+                enriched = dict(paper)
+                enriched["profile_match_reasons"] = [f"keyword match: {', '.join(matched[:5])}"]
+                results[profile_key].append(enriched)
+
+    for key, matched_papers in results.items():
+        logger.info(
+            "Profile '%s': %d papers matched",
+            profiles[key].get("display_name", key),
+            len(matched_papers),
+        )
+
+    return results
+
+
 def _is_commercial(
     license_id: str,
     commercial_set: set[str],
