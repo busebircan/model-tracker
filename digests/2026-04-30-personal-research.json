@@ -1,34 +1,70 @@
 {
   "profile": "personal_research",
   "display_name": "Research & Summarisation",
-  "run_at": "2026-04-30T00:19:34.622114+00:00",
-  "model_count": 1,
+  "run_at": "2026-04-30T00:26:56.243952+00:00",
+  "model_count": 2,
   "models": [
     {
-      "id": "Tecnonix/keras-rwkv-tokenizer-poc",
-      "author": "Tecnonix",
-      "name": "keras-rwkv-tokenizer-poc",
-      "created_at": "2026-04-30T00:19:06+00:00",
+      "id": "hackoffice/DeepSeek-V4-Pro",
+      "author": "hackoffice",
+      "name": "DeepSeek-V4-Pro",
+      "created_at": "2026-04-30T00:24:48+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "keras",
-        "security-research",
-        "test-artifact",
+        "transformers",
+        "safetensors",
+        "deepseek_v4",
+        "text-generation",
         "license:mit",
+        "endpoints_compatible",
+        "8-bit",
+        "fp8",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Tecnonix/keras-rwkv-tokenizer-poc",
+      "url": "https://huggingface.co/hackoffice/DeepSeek-V4-Pro",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: research"
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "L7-Robotics/smolvla_so101_2cam_redcube_v4",
+      "author": "L7-Robotics",
+      "name": "smolvla_so101_2cam_redcube_v4",
+      "created_at": "2026-04-30T00:20:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "smolvla",
+        "robotics",
+        "dataset:L7-Robotics/so101_2cam_red_cube_master",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/L7-Robotics/smolvla_so101_2cam_redcube_v4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
       ]
     }
   ]

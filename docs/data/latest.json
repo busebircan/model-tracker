@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T00:19:35.324315+00:00",
+  "generated_at": "2026-04-30T00:26:56.849312+00:00",
   "most_popular": {
     "models": [
       {
@@ -1383,55 +1383,217 @@
     "freya_sub_agents": {
       "display_name": "Agent & Tool Use",
       "description": "Models suitable for automated agent use \u2014 tool-use, code generation, vision, fast inference, embeddings",
-      "model_count": 0,
-      "run_at": "2026-04-30T00:19:34.622114+00:00",
-      "models": []
+      "model_count": 3,
+      "run_at": "2026-04-30T00:26:56.243952+00:00",
+      "models": [
+        {
+          "id": "groxaxo/octen-embedding-8b-w4a16",
+          "name": "octen-embedding-8b-w4a16",
+          "url": "https://huggingface.co/groxaxo/octen-embedding-8b-w4a16",
+          "task": "unknown",
+          "license": "unknown",
+          "published_date": "2026-04-30T00:26:14+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "region:us"
+          ],
+          "match_reasons": [
+            "license unknown (may not be commercial)",
+            "tag match: embedding (name)"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "groxaxo/octen-embedding-4b-w4a16",
+          "name": "octen-embedding-4b-w4a16",
+          "url": "https://huggingface.co/groxaxo/octen-embedding-4b-w4a16",
+          "task": "unknown",
+          "license": "unknown",
+          "published_date": "2026-04-30T00:26:13+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "region:us"
+          ],
+          "match_reasons": [
+            "license unknown (may not be commercial)",
+            "tag match: embedding (name)"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "hackoffice/DeepSeek-V4-Pro",
+          "name": "DeepSeek-V4-Pro",
+          "url": "https://huggingface.co/hackoffice/DeepSeek-V4-Pro",
+          "task": "text-generation",
+          "license": "mit",
+          "published_date": "2026-04-30T00:24:48+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "deepseek_v4",
+            "text-generation",
+            "endpoints_compatible",
+            "8-bit",
+            "fp8",
+            "region:us"
+          ],
+          "match_reasons": [
+            "commercial license",
+            "task match: text-generation"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        }
+      ]
     },
     "thermafy": {
       "display_name": "Vision & Edge Deployment",
       "description": "Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding",
       "model_count": 0,
-      "run_at": "2026-04-30T00:19:34.622114+00:00",
+      "run_at": "2026-04-30T00:26:56.243952+00:00",
       "models": []
     },
     "ie_supply_chain": {
       "display_name": "Optimisation & Reasoning",
       "description": "Optimization, simulation, code generation for OR/supply-chain, reasoning models",
-      "model_count": 0,
-      "run_at": "2026-04-30T00:19:34.622114+00:00",
-      "models": []
-    },
-    "rag_general": {
-      "display_name": "Retrieval & Embeddings",
-      "description": "Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines",
-      "model_count": 0,
-      "run_at": "2026-04-30T00:19:34.622114+00:00",
-      "models": []
-    },
-    "personal_research": {
-      "display_name": "Research & Summarisation",
-      "description": "Summarization, research paper analysis, ArXiv monitoring, general research tools",
       "model_count": 1,
-      "run_at": "2026-04-30T00:19:34.622114+00:00",
+      "run_at": "2026-04-30T00:26:56.243952+00:00",
       "models": [
         {
-          "id": "Tecnonix/keras-rwkv-tokenizer-poc",
-          "name": "keras-rwkv-tokenizer-poc",
-          "url": "https://huggingface.co/Tecnonix/keras-rwkv-tokenizer-poc",
-          "task": "unknown",
+          "id": "hackoffice/DeepSeek-V4-Pro",
+          "name": "DeepSeek-V4-Pro",
+          "url": "https://huggingface.co/hackoffice/DeepSeek-V4-Pro",
+          "task": "text-generation",
           "license": "mit",
-          "published_date": "2026-04-30T00:19:06+00:00",
+          "published_date": "2026-04-30T00:24:48+00:00",
           "downloads": 0,
           "likes": 0,
           "params_billions": null,
           "tags": [
-            "keras",
-            "security-research",
-            "test-artifact",
+            "transformers",
+            "safetensors",
+            "deepseek_v4",
+            "text-generation",
+            "endpoints_compatible",
+            "8-bit",
+            "fp8",
             "region:us"
           ],
           "match_reasons": [
-            "tag match: research"
+            "task match: text-generation"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        }
+      ]
+    },
+    "rag_general": {
+      "display_name": "Retrieval & Embeddings",
+      "description": "Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines",
+      "model_count": 2,
+      "run_at": "2026-04-30T00:26:56.243952+00:00",
+      "models": [
+        {
+          "id": "groxaxo/octen-embedding-8b-w4a16",
+          "name": "octen-embedding-8b-w4a16",
+          "url": "https://huggingface.co/groxaxo/octen-embedding-8b-w4a16",
+          "task": "unknown",
+          "license": "unknown",
+          "published_date": "2026-04-30T00:26:14+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: embedding (name)"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "groxaxo/octen-embedding-4b-w4a16",
+          "name": "octen-embedding-4b-w4a16",
+          "url": "https://huggingface.co/groxaxo/octen-embedding-4b-w4a16",
+          "task": "unknown",
+          "license": "unknown",
+          "published_date": "2026-04-30T00:26:13+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: embedding (name)"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        }
+      ]
+    },
+    "personal_research": {
+      "display_name": "Research & Summarisation",
+      "description": "Summarization, research paper analysis, ArXiv monitoring, general research tools",
+      "model_count": 2,
+      "run_at": "2026-04-30T00:26:56.243952+00:00",
+      "models": [
+        {
+          "id": "hackoffice/DeepSeek-V4-Pro",
+          "name": "DeepSeek-V4-Pro",
+          "url": "https://huggingface.co/hackoffice/DeepSeek-V4-Pro",
+          "task": "text-generation",
+          "license": "mit",
+          "published_date": "2026-04-30T00:24:48+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "deepseek_v4",
+            "text-generation",
+            "endpoints_compatible",
+            "8-bit",
+            "fp8",
+            "region:us"
+          ],
+          "match_reasons": [
+            "task match: text-generation"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "L7-Robotics/smolvla_so101_2cam_redcube_v4",
+          "name": "smolvla_so101_2cam_redcube_v4",
+          "url": "https://huggingface.co/L7-Robotics/smolvla_so101_2cam_redcube_v4",
+          "task": "robotics",
+          "license": "apache-2.0",
+          "published_date": "2026-04-30T00:20:43+00:00",
+          "downloads": 0,
+          "likes": 0,
+          "params_billions": null,
+          "tags": [
+            "lerobot",
+            "safetensors",
+            "smolvla",
+            "robotics",
+            "base_model:lerobot/smolvla_base",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
           ],
           "benchmark_scores": {},
           "description": ""
