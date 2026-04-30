@@ -110,6 +110,38 @@ def _normalise(info: Any) -> dict[str, Any]:
     }
 
 
+def fetch_popular_models(
+    top_n: int = 50,
+    sort_by: str = "downloads",
+) -> list[dict[str, Any]]:
+    """
+    Fetch the most popular models from HuggingFace Hub.
+
+    Args:
+        top_n: Number of models to return.
+        sort_by: Sort field — 'downloads' (last 30 days) or 'likes'.
+
+    Returns:
+        List of normalised model dicts, sorted descending by sort_by.
+    """
+    api = HfApi()
+    logger.info("Fetching top %d models by %s from HuggingFace Hub…", top_n, sort_by)
+    try:
+        model_iter = api.list_models(sort=sort_by, limit=top_n, cardData=True)
+    except Exception as exc:
+        logger.error("HuggingFace API error: %s", exc)
+        raise
+
+    models: list[dict[str, Any]] = []
+    for info in model_iter:
+        models.append(_normalise(info))
+        if len(models) >= top_n:
+            break
+
+    logger.info("Fetched %d popular models.", len(models))
+    return models
+
+
 def _parse_date(val: Any) -> datetime | None:
     if val is None:
         return None

@@ -19,6 +19,8 @@ from pathlib import Path
 
 import yaml
 
+import sys
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(name)s: %(message)s",
@@ -122,8 +124,20 @@ def build_dashboard_json(
 
     now = datetime.now(timezone.utc)
 
+    # Fetch most popular models from HuggingFace
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    try:
+        from fetcher import fetch_popular_models
+        popular_raw = fetch_popular_models(top_n=50, sort_by="downloads")
+        popular_models = [_sanitise_model(m) for m in popular_raw]
+        logger.info("Fetched %d popular models.", len(popular_models))
+    except Exception as exc:
+        logger.warning("Could not fetch popular models (non-fatal): %s", exc)
+        popular_models = []
+
     output: dict = {
         "generated_at": now.isoformat(),
+        "most_popular": {"models": popular_models},
         "profiles": {},
     }
 
