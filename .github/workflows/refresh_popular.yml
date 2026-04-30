@@ -1,0 +1,54 @@
+name: Refresh Popular Models
+
+on:
+  schedule:
+    # Run once daily at 07:00 UTC
+    - cron: "0 7 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: model-tracker-commits
+  cancel-in-progress: false
+
+jobs:
+  refresh-popular:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch and classify popular models
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python src/popular.py
+
+      - name: Generate dashboard data
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python src/dashboard_data.py
+
+      - name: Commit and push popular cache and dashboard data
+        run: |
+          git config user.name  "model-tracker-bot"
+          git config user.email "bot@model-tracker"
+          git add docs/data/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore: refresh popular models $(date -u +%Y-%m-%d)"
+            git push
+          fi

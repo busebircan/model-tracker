@@ -19,8 +19,6 @@ from pathlib import Path
 
 import yaml
 
-import sys
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s  %(levelname)-8s  %(name)s: %(message)s",
@@ -45,21 +43,18 @@ def _load_config(config_path: Path) -> dict:
 
 
 def _latest_digest_for_profile(digests_dir: Path, profile_key: str) -> dict | None:
-    """Find the most recent JSON digest file for a given profile key."""
+    """Read the rolling digest file for a given profile key."""
     slug = _profile_key_to_slug(profile_key)
-    # Files named like: 2026-04-29-freya-sub-agents.json
-    pattern = f"*-{slug}.json"
-    candidates = sorted(digests_dir.glob(pattern), reverse=True)
-    if not candidates:
-        logger.debug("No digest files found for profile %s (slug=%s)", profile_key, slug)
+    digest_path = digests_dir / f"latest-{slug}.json"
+    if not digest_path.exists():
+        logger.debug("No digest file found for profile %s (%s)", profile_key, digest_path)
         return None
-    latest = candidates[0]
-    logger.info("Using digest file: %s", latest.name)
+    logger.info("Using digest file: %s", digest_path.name)
     try:
-        with open(latest, "r", encoding="utf-8") as f:
+        with open(digest_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        logger.warning("Failed to read %s: %s", latest, e)
+        logger.warning("Failed to read %s: %s", digest_path, e)
         return None
 
 
@@ -124,21 +119,19 @@ def build_dashboard_json(
 
     now = datetime.now(timezone.utc)
 
-    # Fetch most popular models from HuggingFace and classify them per profile
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    # Load pre-classified popular models from cache written by popular.py
     popular_classified: dict[str, list[dict]] = {}
-    try:
-        from fetcher import fetch_popular_models
-        from classifier import classify_models
-        popular_raw = fetch_popular_models(top_n=200, sort_by="downloads")
-        popular_classified = classify_models(popular_raw, cfg)
-        total_classified = sum(len(v) for v in popular_classified.values())
-        logger.info(
-            "Fetched %d popular models; %d classified across profiles.",
-            len(popular_raw), total_classified,
-        )
-    except Exception as exc:
-        logger.warning("Could not fetch/classify popular models (non-fatal): %s", exc)
+    popular_cache_path = output_dir / "popular_cache.json"
+    if popular_cache_path.exists():
+        try:
+            with open(popular_cache_path, "r", encoding="utf-8") as f:
+                popular_classified = json.load(f)
+            total_classified = sum(len(v) for v in popular_classified.values())
+            logger.info("Loaded popular cache: %d models across profiles.", total_classified)
+        except Exception as exc:
+            logger.warning("Could not read popular cache (non-fatal): %s", exc)
+    else:
+        logger.info("No popular cache found at %s; popular_models will be empty.", popular_cache_path)
 
     output: dict = {
         "generated_at": now.isoformat(),
