@@ -1,6 +1,6 @@
 # 🤖 Model Tracker
 
-Automated monitoring of HuggingFace and ArXiv for new AI model releases — filtered and summarised per user profile, delivered as daily markdown digests.
+Automated monitoring of HuggingFace for new AI model releases — filtered and summarised per user profile, delivered as rolling markdown digests updated every 3 hours.
 
 ---
 
@@ -8,19 +8,21 @@ Automated monitoring of HuggingFace and ArXiv for new AI model releases — filt
 
 Live digest → **[busebircan.github.io/model-tracker](https://busebircan.github.io/model-tracker/)**
 
-Updated daily at 07:00 UTC via GitHub Actions.
+- **Most Recent** panel: updated every 3 hours via GitHub Actions
+- **Most Popular** panel: refreshed daily at 07:00 UTC
 
 ---
 
 ## What It Does
 
-1. **Fetches** newly released models from HuggingFace Hub (sorted by creation date)
+1. **Fetches** models released in the last 24 hours from HuggingFace Hub (rolling window)
 2. **Classifies** each model against 6 use cases using license checks and keyword matching
-3. **Summarises** matched models (task, license, size, downloads, relevance explanation)
-4. **Generates** per-profile markdown + JSON digest files in `digests/`
-5. **Saves state** (`state/last_run.json`) so each run only processes *new* models
+3. **Enriches** matched models with benchmark scores (HF Open LLM Leaderboard, MTEB)
+4. **Summarises** matched models (task, license, size, downloads, relevance explanation)
+5. **Generates** per-profile rolling digest files (`digests/latest-<profile>.md/.json`)
+6. **Tracks popular models** (top downloads on HuggingFace) separately, refreshed daily
 
-Runs daily via GitHub Actions — digests are committed back to the repo automatically.
+Digests are committed back to the repo automatically after each run.
 
 ---
 
@@ -46,19 +48,27 @@ model-tracker/
 ├── config/
 │   └── profiles.yaml          # Profile definitions, license lists, fetcher settings
 ├── src/
-│   ├── fetcher.py             # HuggingFace Hub API fetching
+│   ├── fetcher.py             # HuggingFace Hub API fetching (recent + popular)
 │   ├── classifier.py          # License + keyword classification
 │   ├── summariser.py          # Human-readable model summaries
 │   ├── digest.py              # Markdown/JSON digest assembly
+│   ├── benchmarks.py          # Benchmark score enrichment (HF Leaderboard, MTEB)
+│   ├── popular.py             # Popular models fetcher (top downloads, daily)
+│   ├── dashboard_data.py      # Generates docs/data/latest.json for the dashboard
 │   └── runner.py              # Main entry point (orchestrator)
 ├── templates/
 │   └── digest.md.j2           # Jinja2 markdown template
-├── digests/                   # Output digest files (committed by CI)
+├── digests/                   # Rolling digest files (latest-<profile>.md/.json)
 ├── state/
 │   └── last_run.json          # State file (last run timestamp)
+├── docs/
+│   └── data/
+│       ├── latest.json        # Dashboard data (recent models, all profiles)
+│       └── popular_cache.json # Dashboard data (popular models, all profiles)
 ├── .github/
 │   └── workflows/
-│       └── run_tracker.yml    # GitHub Actions daily schedule
+│       ├── run_tracker.yml    # Runs every 3 hours — fetches recent models
+│       └── refresh_popular.yml # Runs daily at 07:00 UTC — refreshes popular models
 ├── requirements.txt
 └── README.md
 ```
@@ -85,13 +95,19 @@ python src/runner.py --dry-run
 python src/runner.py
 ```
 
-### 4. Look back over a custom window (ignores state)
+### 4. Look back over a custom window
 
 ```bash
 python src/runner.py --days 3
 ```
 
-### 5. Full options
+### 5. Refresh popular models manually
+
+```bash
+python src/popular.py
+```
+
+### 6. Full options
 
 ```
 python src/runner.py --help
@@ -100,7 +116,7 @@ python src/runner.py --help
   --config PATH      Path to profiles YAML (default: config/profiles.yaml)
   --output-dir DIR   Directory for digest files (default: digests/)
   --state-file PATH  Path to state JSON (default: state/last_run.json)
-  --days N           Override lookback window in days
+  --days N           Override lookback window in days (default: rolling 24h)
   --verbose / -v     Enable DEBUG logging
 ```
 
@@ -113,14 +129,15 @@ Edit `config/profiles.yaml` to:
 - Add/remove profiles
 - Change license allowlists
 - Adjust task and tag keywords per profile
-- Set `fetcher.lookback_days` (default: 1)
 - Set `fetcher.max_models_per_run` (default: 200)
+
+The runner uses a rolling 24-hour lookback window by default. Pass `--days N` to override.
 
 ### Commercial License Definition
 
 The config maintains two lists:
 - `commercial_licenses` — licenses explicitly allowed for commercial use
-- `non_commercial_licenses` — licenses that block commercial use (hard filter for Freya/Thermafy profiles)
+- `non_commercial_licenses` — licenses that block commercial use (hard filter for commercial-only profiles)
 
 Unknown licenses are shown with a ❓ flag and still included (conservative approach — let users judge).
 
@@ -128,14 +145,19 @@ Unknown licenses are shown with a ❓ flag and still included (conservative appr
 
 ## GitHub Actions
 
-The workflow (`.github/workflows/run_tracker.yml`) runs **daily at 07:00 UTC**.
+Two workflows run automatically:
+
+| Workflow | Schedule | What it does |
+|---|---|---|
+| `run_tracker.yml` | Every 3 hours | Fetches recent models, writes digests and dashboard data |
+| `refresh_popular.yml` | Daily at 07:00 UTC | Fetches top models by downloads, updates popular panel |
 
 ### Setup
 
 1. Fork / clone this repo
 2. Go to **Settings → Secrets → Actions**
 3. Add `HF_TOKEN` — your HuggingFace read token (optional but avoids rate limits)
-4. The workflow will commit digests back to `digests/` and update `state/last_run.json` automatically
+4. The workflows will commit digests and dashboard data back to the repo automatically
 
 ### Manual trigger
 
@@ -147,13 +169,13 @@ Go to **Actions → Run Model Tracker → Run workflow** and optionally set:
 
 ## Output Example
 
-Each profile gets a digest like `digests/2025-01-15-freya-sub-agents.md`:
+Each profile gets a rolling digest at `digests/latest-<profile-slug>.md`:
 
 ```markdown
-# Model Tracker Digest — Freya Sub-Agents
+# Model Tracker Digest — Agent & Tool Use
 
 **Date:** 2025-01-15
-**Profile:** Freya Sub-Agents
+**Profile:** Agent & Tool Use
 **New models found:** 12
 
 ---
@@ -167,7 +189,7 @@ Each profile gets a digest like `digests/2025-01-15-freya-sub-agents.md`:
 **Popularity:** 45.2K downloads · 312 likes
 **Tags:** `code`, `instruct`, `gguf`
 
-**Why relevant:** Matched for Freya Sub-Agents via commercial license, task match: text-generation, tag match: code. Capabilities: strong code generation capability.
+**Why relevant:** Matched for Agent & Tool Use via commercial license, task match: text-generation, tag match: code. Capabilities: strong code generation capability.
 ```
 
 ---
@@ -191,7 +213,7 @@ my_new_profile:
 
 ### Add ArXiv monitoring
 
-`config/profiles.yaml` includes an `arxiv:` section. The ArXiv fetcher can be enabled to pull recent papers matching your category list and include them in the Personal/Research profile digest.
+`config/profiles.yaml` includes an `arxiv:` section. The ArXiv fetcher can be enabled to pull recent papers matching your category list and include them in the Research & Summarisation profile digest.
 
 ---
 
