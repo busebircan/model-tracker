@@ -124,20 +124,24 @@ def build_dashboard_json(
 
     now = datetime.now(timezone.utc)
 
-    # Fetch most popular models from HuggingFace
+    # Fetch most popular models from HuggingFace and classify them per profile
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    popular_classified: dict[str, list[dict]] = {}
     try:
         from fetcher import fetch_popular_models
-        popular_raw = fetch_popular_models(top_n=50, sort_by="downloads")
-        popular_models = [_sanitise_model(m) for m in popular_raw]
-        logger.info("Fetched %d popular models.", len(popular_models))
+        from classifier import classify_models
+        popular_raw = fetch_popular_models(top_n=200, sort_by="downloads")
+        popular_classified = classify_models(popular_raw, cfg)
+        total_classified = sum(len(v) for v in popular_classified.values())
+        logger.info(
+            "Fetched %d popular models; %d classified across profiles.",
+            len(popular_raw), total_classified,
+        )
     except Exception as exc:
-        logger.warning("Could not fetch popular models (non-fatal): %s", exc)
-        popular_models = []
+        logger.warning("Could not fetch/classify popular models (non-fatal): %s", exc)
 
     output: dict = {
         "generated_at": now.isoformat(),
-        "most_popular": {"models": popular_models},
         "profiles": {},
     }
 
@@ -156,6 +160,15 @@ def build_dashboard_json(
 
         sanitised_models = [_sanitise_model(m) for m in raw_models]
 
+        # Popular models classified for this profile, sorted by downloads desc.
+        popular_for_profile = popular_classified.get(profile_key, [])
+        popular_for_profile = sorted(
+            popular_for_profile,
+            key=lambda m: m.get("downloads") or 0,
+            reverse=True,
+        )
+        sanitised_popular = [_sanitise_model(m) for m in popular_for_profile]
+
         # Build a profile_id safe for JS (snake_case → camelCase not needed; use snake_case)
         profile_id = profile_key  # e.g. "freya_sub_agents"
 
@@ -165,10 +178,11 @@ def build_dashboard_json(
             "model_count": model_count,
             "run_at": run_at,
             "models": sanitised_models,
+            "popular_models": sanitised_popular,
         }
         logger.info(
-            "Profile '%s' → %d models (display: %s)",
-            profile_id, len(sanitised_models), display_name,
+            "Profile '%s' → %d recent, %d popular (display: %s)",
+            profile_id, len(sanitised_models), len(sanitised_popular), display_name,
         )
 
     # Write output

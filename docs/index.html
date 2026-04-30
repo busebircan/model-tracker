@@ -661,141 +661,125 @@ function renderModelCard(model, index, profileId) {
     </article>`;
 }
 
+// ── View state ───────────────────────────────────────────────────
+let currentPage = 'recent';     // 'recent' | 'popular'
+let currentProfile = null;      // profile id
+
+function getProfileModels(profile, kind) {
+  if (!profile) return [];
+  return (kind === 'popular' ? profile.popular_models : profile.models) || [];
+}
+
 // ── Profile tab panel renderer ────────────────────────────────────
 
-function renderProfilePanel(profileId, profile) {
-  const models = profile.models || [];
+function renderProfilePanel(profileId, profile, kind) {
+  const isPopular = kind === 'popular';
+  const models = getProfileModels(profile, kind);
   const runAt = profile.run_at ? `Last run: ${fmtDate(profile.run_at)}` : '';
 
   let modelsHtml;
   if (models.length === 0) {
+    const msg = isPopular
+      ? 'No popular models match this profile.'
+      : 'No new models in the last 24 hours.';
     modelsHtml = `
       <div class="empty-state">
-        <div class="empty-icon">🔍</div>
-        <div class="empty-title">No models found yet</div>
-        <p>Run the tracker to populate this profile.</p>
+        <div class="empty-icon">${isPopular ? '⭐' : '🔍'}</div>
+        <div class="empty-title">${msg}</div>
       </div>`;
   } else {
     modelsHtml = `<div class="models-grid">
-      ${models.map((m, i) => renderModelCard(m, i, profileId)).join('\n')}
+      ${models.map((m, i) => renderModelCard(m, i, `${kind}-${profileId}`)).join('\n')}
     </div>`;
   }
 
-  return `
-    <div id="panel-${profileId}" class="tab-panel">
-      <div class="profile-header">
-        <div class="profile-title">${escapHtml(profile.display_name)}</div>
-        <div class="profile-desc">${escapHtml(profile.description || '')}</div>
-      </div>
-
-      <div class="stats-row">
-        <div class="stat-card">
-          <div class="stat-value">${models.length}</div>
-          <div class="stat-label">Models today</div>
-        </div>
-        ${runAt ? `<div class="stat-card">
-          <div class="stat-value" style="font-size:1rem">${runAt}</div>
-          <div class="stat-label">Last updated</div>
-        </div>` : ''}
-      </div>
-
-      ${modelsHtml}
-    </div>`;
-}
-
-// ── Most Popular panel renderer ──────────────────────────────────
-
-function renderMostPopularPanel(popularData) {
-  const models = popularData.models || [];
-
-  let modelsHtml;
-  if (models.length === 0) {
-    modelsHtml = `
-      <div class="empty-state">
-        <div class="empty-icon">📊</div>
-        <div class="empty-title">No data yet</div>
-        <p>Run the tracker to populate this view.</p>
-      </div>`;
-  } else {
-    modelsHtml = `<div class="models-grid">
-      ${models.map((m, i) => renderModelCard(m, i, 'popular')).join('\n')}
-    </div>`;
-  }
-
-  const topDownloads = models.length > 0 ? Math.max(...models.map(m => m.downloads || 0)) : 0;
-
-  return `
-    <div class="profile-header">
-      <div class="profile-title">Most Popular</div>
-      <div class="profile-desc">Top 50 models by downloads on HuggingFace (last 30 days)</div>
-    </div>
-    <div class="stats-row">
+  let statsHtml;
+  if (isPopular) {
+    const topDownloads = models.length > 0 ? Math.max(...models.map(m => m.downloads || 0)) : 0;
+    statsHtml = `
       <div class="stat-card">
         <div class="stat-value">${models.length}</div>
-        <div class="stat-label">Models</div>
+        <div class="stat-label">Popular models</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">${fmtNum(topDownloads)}</div>
         <div class="stat-label">Top downloads</div>
+      </div>`;
+  } else {
+    statsHtml = `
+      <div class="stat-card">
+        <div class="stat-value">${models.length}</div>
+        <div class="stat-label">Last 24 hours</div>
       </div>
-    </div>
-    ${modelsHtml}`;
+      ${runAt ? `<div class="stat-card">
+        <div class="stat-value" style="font-size:1rem">${runAt}</div>
+        <div class="stat-label">Last updated</div>
+      </div>` : ''}`;
+  }
+
+  return `
+    <div id="panel-${kind}-${profileId}" class="tab-panel">
+      <div class="profile-header">
+        <div class="profile-title">${escapHtml(profile.display_name)}</div>
+        <div class="profile-desc">${escapHtml(profile.description || '')}</div>
+      </div>
+      <div class="stats-row">${statsHtml}</div>
+      ${modelsHtml}
+    </div>`;
+}
+
+// ── Panel + chart activation ─────────────────────────────────────
+
+function showActivePanel() {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  if (!currentProfile) return;
+
+  const target = document.getElementById(`panel-${currentPage}-${currentProfile}`);
+  if (!target) return;
+  target.classList.add('active');
+
+  const profile = window._radarData?.profiles?.[currentProfile];
+  const models = getProfileModels(profile, currentPage);
+
+  target.querySelectorAll('[data-chart-id]').forEach(card => {
+    const chartId = card.dataset.chartId;
+    if (chartRegistry[chartId]) return;
+    const idx = parseInt(card.dataset.index, 10);
+    if (models[idx]) {
+      renderBenchChart(chartId, models[idx].benchmark_scores || {});
+    }
+  });
+}
+
+function updateTabBadges() {
+  const profiles = window._radarData?.profiles || {};
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    const pid = btn.dataset.profile;
+    const count = getProfileModels(profiles[pid], currentPage).length;
+    const badge = btn.querySelector('.tab-badge');
+    if (badge) badge.textContent = count;
+  });
 }
 
 // ── Page switching ────────────────────────────────────────────────
 
 function activatePage(page) {
+  currentPage = page;
   document.querySelectorAll('.page-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.page === page);
   });
-
-  const latestView = document.getElementById('latest-view');
-  const popularView = document.getElementById('popular-view');
-  const useCasesSection = document.getElementById('use-cases-section');
-
-  if (latestView) latestView.style.display = page === 'latest' ? '' : 'none';
-  if (popularView) popularView.style.display = page === 'popular' ? '' : 'none';
-  if (useCasesSection) useCasesSection.style.display = page === 'latest' ? '' : 'none';
-
-  if (page === 'popular' && popularView) {
-    popularView.querySelectorAll('[data-chart-id]').forEach(card => {
-      const chartId = card.dataset.chartId;
-      const idx = parseInt(card.dataset.index, 10);
-      if (!chartRegistry[chartId]) {
-        const models = window._radarData?.most_popular?.models || [];
-        if (models[idx]) {
-          renderBenchChart(chartId, models[idx].benchmark_scores || {});
-        }
-      }
-    });
-  }
+  updateTabBadges();
+  showActivePanel();
 }
 
 // ── Tab switching ─────────────────────────────────────────────────
 
 function activateTab(profileId) {
+  currentProfile = profileId;
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.profile === profileId);
   });
-  document.querySelectorAll('.tab-panel').forEach(panel => {
-    const active = panel.id === `panel-${profileId}`;
-    panel.classList.toggle('active', active);
-
-    if (active) {
-      // Render any pending charts within this panel
-      panel.querySelectorAll('[data-chart-id]').forEach(card => {
-        const chartId = card.dataset.chartId;
-        const idx = parseInt(card.dataset.index, 10);
-        // Re-render chart (may be first time or after panel switch)
-        if (!chartRegistry[chartId]) {
-          const profileData = window._radarData?.profiles?.[profileId];
-          if (profileData && profileData.models[idx]) {
-            renderBenchChart(chartId, profileData.models[idx].benchmark_scores || {});
-          }
-        }
-      });
-    }
-  });
+  showActivePanel();
 }
 
 // ── Main bootstrap ────────────────────────────────────────────────
@@ -843,14 +827,13 @@ async function init() {
     return;
   }
 
-  // Render sidebar tabs
+  // Render sidebar
   sidebar.innerHTML =
     `<div class="page-switcher">
-      <button class="page-btn active" data-page="latest" onclick="activatePage('latest')">Most Recent</button>
+      <button class="page-btn active" data-page="recent" onclick="activatePage('recent')">Most Recent</button>
       <button class="page-btn" data-page="popular" onclick="activatePage('popular')">Most Popular</button>
     </div>
-    <div id="use-cases-section">
-      <div class="sidebar-label">Use Cases</div>` +
+    <div class="sidebar-label">Use Cases</div>` +
     profileIds.map(id => {
       const p = profiles[id];
       const count = (p.models || []).length;
@@ -858,28 +841,20 @@ async function init() {
         <span>${escapHtml(p.display_name)}</span>
         <span class="tab-badge">${count}</span>
       </button>`;
-    }).join('') +
-    `</div>`;
+    }).join('');
 
-  // Render panels
-  const popularData = data.most_popular || { models: [] };
-  mainEl.innerHTML =
-    `<div id="latest-view">` +
-    profileIds.map(id => renderProfilePanel(id, profiles[id])).join('') +
-    `</div>
-    <div id="popular-view" style="display:none">` +
-    renderMostPopularPanel(popularData) +
-    `</div>`;
+  // Render two panels per profile (recent + popular)
+  mainEl.innerHTML = profileIds.map(id => {
+    const profile = profiles[id];
+    return renderProfilePanel(id, profile, 'recent')
+         + renderProfilePanel(id, profile, 'popular');
+  }).join('');
 
-  // Activate first tab
-  activateTab(profileIds[0]);
-
-  // Render charts for first panel
-  const firstProfile = profiles[profileIds[0]];
-  (firstProfile.models || []).forEach((m, i) => {
-    const chartId = `chart-${profileIds[0]}-${i}`;
-    renderBenchChart(chartId, m.benchmark_scores || {});
-  });
+  // Activate initial state
+  currentPage = 'recent';
+  currentProfile = profileIds[0];
+  document.querySelector(`.tab-btn[data-profile="${profileIds[0]}"]`)?.classList.add('active');
+  showActivePanel();
 
   // Hide loading
   document.getElementById('loading').style.display = 'none';
