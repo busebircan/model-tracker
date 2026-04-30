@@ -1,9 +1,132 @@
 {
   "profile": "personal_research",
   "display_name": "Research & Summarisation",
-  "run_at": "2026-04-30T11:47:29.881196+00:00",
-  "model_count": 46,
+  "run_at": "2026-04-30T11:55:43.214395+00:00",
+  "model_count": 47,
   "models": [
+    {
+      "id": "arthu1/wind-edge-1.6-sft",
+      "author": "arthu1",
+      "name": "wind-edge-1.6-sft",
+      "created_at": "2026-04-30T11:54:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "wind_edge",
+        "text-generation",
+        "wind-edge",
+        "causal-lm",
+        "edge",
+        "conversational",
+        "custom_code",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arthu1/wind-edge-1.6-sft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "sbordt/OLMo-2-1B-1x-WD0",
+      "author": "sbordt",
+      "name": "OLMo-2-1B-1x-WD0",
+      "created_at": "2026-04-30T11:54:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "olmo2",
+        "text-generation",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sbordt/OLMo-2-1B-1x-WD0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "mr-muhammed/Trogent_V2",
+      "author": "mr-muhammed",
+      "name": "Trogent_V2",
+      "created_at": "2026-04-30T11:52:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/llama-3-8b-Instruct-bnb-4bit",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/llama-3-8b-Instruct-bnb-4bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mr-muhammed/Trogent_V2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "Zakaria279/Qwen3.5-27B-Odoo-ORM-v1",
+      "author": "Zakaria279",
+      "name": "Qwen3.5-27B-Odoo-ORM-v1",
+      "created_at": "2026-04-30T11:49:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zakaria279/Qwen3.5-27B-Odoo-ORM-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
     {
       "id": "kmseong/llama2_7b_chat-SSFT-MMLU-FT-SafeInstr-0.1-lr3e-5_2",
       "author": "kmseong",
@@ -1103,6 +1226,35 @@
       ]
     },
     {
+      "id": "krystv/liquid-diffusion",
+      "author": "krystv",
+      "name": "liquid-diffusion",
+      "created_at": "2026-04-30T11:04:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "arxiv:2106.13898",
+        "arxiv:2006.04439",
+        "arxiv:2604.18274",
+        "arxiv:2504.13499",
+        "arxiv:2311.18257",
+        "arxiv:2209.03003",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/krystv/liquid-diffusion",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
       "id": "adithash/gemma2b-dolly-qlora-merged",
       "author": "adithash",
       "name": "gemma2b-dolly-qlora-merged",
@@ -1443,123 +1595,6 @@
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Gege24/zay-llama2ko7b-grpo-vanilla-v9",
-      "author": "Gege24",
-      "name": "zay-llama2ko7b-grpo-vanilla-v9",
-      "created_at": "2026-04-30T10:55:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "arxiv:1910.09700",
-        "base_model:The-matt/llama2_ko-7b_distinctive-snowflake-182_1060",
-        "base_model:adapter:The-matt/llama2_ko-7b_distinctive-snowflake-182_1060",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Gege24/zay-llama2ko7b-grpo-vanilla-v9",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "jiogenes/llama-3.1-8b-r256-als-qres4",
-      "author": "jiogenes",
-      "name": "llama-3.1-8b-r256-als-qres4",
-      "created_at": "2026-04-30T10:52:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jiogenes/llama-3.1-8b-r256-als-qres4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "BRlkl/GRPO-6-harder",
-      "author": "BRlkl",
-      "name": "GRPO-6-harder",
-      "created_at": "2026-04-30T10:51:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "unsloth",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/BRlkl/GRPO-6-harder",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "nokolora/ffxiv-pagaga",
-      "author": "nokolora",
-      "name": "ffxiv-pagaga",
-      "created_at": "2026-04-30T10:50:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-to-image",
-      "tags": [
-        "diffusers",
-        "text-to-image",
-        "lora",
-        "template:diffusion-lora",
-        "base_model:OnomaAIResearch/Illustrious-XL-v1.0",
-        "base_model:adapter:OnomaAIResearch/Illustrious-XL-v1.0",
-        "license:cc0-1.0",
-        "region:us"
-      ],
-      "license": "cc0-1.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/nokolora/ffxiv-pagaga",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: research"
       ]
     }
   ]
