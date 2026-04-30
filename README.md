@@ -1,6 +1,6 @@
 # 🤖 Model Tracker
 
-Automated monitoring of HuggingFace for new AI model releases — filtered and summarised per user profile, delivered as rolling markdown digests updated every 3 hours.
+Automated monitoring of HuggingFace and ModelScope for new AI model releases — filtered and summarised per user profile, delivered as rolling markdown digests updated every 3 hours.
 
 ---
 
@@ -15,7 +15,7 @@ Live digest → **[busebircan.github.io/model-tracker](https://busebircan.github
 
 ## What It Does
 
-1. **Fetches** models released in the last 24 hours from HuggingFace Hub (rolling window)
+1. **Fetches** models released in the last 24 hours from HuggingFace Hub and ModelScope (rolling window)
 2. **Classifies** each model against 6 use cases using license checks and keyword matching
 3. **Enriches** matched models with benchmark scores (HF Open LLM Leaderboard, MTEB)
 4. **Summarises** matched models (task, license, size, downloads, relevance explanation)
@@ -48,7 +48,7 @@ model-tracker/
 ├── config/
 │   └── profiles.yaml          # Profile definitions, license lists, fetcher settings
 ├── src/
-│   ├── fetcher.py             # HuggingFace Hub API fetching (recent + popular)
+│   ├── fetcher.py             # HuggingFace + ModelScope API fetching (recent + popular)
 │   ├── classifier.py          # License + keyword classification
 │   ├── summariser.py          # Human-readable model summaries
 │   ├── digest.py              # Markdown/JSON digest assembly

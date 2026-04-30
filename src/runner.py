@@ -24,7 +24,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from fetcher import fetch_new_models
+from fetcher import fetch_new_models, fetch_modelscope_models
 from classifier import classify_models
 from digest import build_digests
 from benchmarks import get_benchmark_scores, warm_caches
@@ -142,6 +142,24 @@ def main() -> int:
         logger.error("Failed to fetch models: %s", e)
         return 1
 
+    # --- Fetch ModelScope models (best effort) ---
+    modelscope_cfg = cfg.get("modelscope", {}) or {}
+    if modelscope_cfg.get("enabled", True):
+        ms_max = modelscope_cfg.get("max_models_per_run", max_models)
+        try:
+            ms_models = fetch_modelscope_models(since=since, max_models=ms_max)
+            seen_ids = {m["id"] for m in models}
+            added = 0
+            for m in ms_models:
+                if m["id"] not in seen_ids:
+                    models.append(m)
+                    seen_ids.add(m["id"])
+                    added += 1
+            logger.info("Added %d unique ModelScope models (skipped %d duplicates).",
+                        added, len(ms_models) - added)
+        except Exception as e:
+            logger.warning("ModelScope fetch failed (non-fatal): %s", e)
+
     if not models:
         logger.info("No new models found since last run.")
         if not args.dry_run:
@@ -160,6 +178,9 @@ def main() -> int:
 
     logger.info("Enriching models with benchmark scores …")
     for model in models:
+        # Benchmarks come from HuggingFace leaderboards; skip non-HF models.
+        if model.get("source") != "huggingface":
+            continue
         model_id = model.get("id", "")
         if model_id:
             try:
