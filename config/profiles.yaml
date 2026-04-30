@@ -29,7 +29,7 @@ non_commercial_licenses:
   - other-non-commercial
 
 profiles:
-  freya_sub_agents:
+  agent_and_tool:
     display_name: "Agent & Tool Use"
     commercial_only: true
     description: "Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings"
@@ -58,7 +58,7 @@ profiles:
       - agent
       - tool_use
 
-  thermafy:
+  vision_and_edge:
     display_name: "Vision & Edge Deployment"
     commercial_only: true
     description: "Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding"

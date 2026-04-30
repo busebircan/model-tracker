@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-04-30T11:55:44.169466+00:00",
   "profiles": {
-    "freya_sub_agents": {
+    "agent_and_tool": {
       "display_name": "Agent & Tool Use",
       "description": "Models suitable for automated agent use \u2014 tool-use, code generation, vision, fast inference, embeddings",
       "model_count": 57,
@@ -5128,7 +5128,7 @@
         }
       ]
     },
-    "thermafy": {
+    "vision_and_edge": {
       "display_name": "Vision & Edge Deployment",
       "description": "Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding",
       "model_count": 35,
