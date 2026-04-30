@@ -131,7 +131,20 @@ def build_dashboard_json(
         except Exception as exc:
             logger.warning("Could not read popular cache (non-fatal): %s", exc)
     else:
-        logger.info("No popular cache found at %s; popular_models will be empty.", popular_cache_path)
+        logger.info("No popular cache found; fetching popular models inline (first run).")
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from fetcher import fetch_popular_models
+            from classifier import classify_models
+            popular_raw = fetch_popular_models(top_n=200, sort_by="downloads")
+            popular_classified = classify_models(popular_raw, cfg)
+            total_classified = sum(len(v) for v in popular_classified.values())
+            logger.info(
+                "Fetched %d popular models inline; %d classified across profiles.",
+                len(popular_raw), total_classified,
+            )
+        except Exception as exc:
+            logger.warning("Could not fetch popular models inline (non-fatal): %s", exc)
 
     output: dict = {
         "generated_at": now.isoformat(),
