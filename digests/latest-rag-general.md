@@ -1,25 +1,23 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-01  
-**Run timestamp:** 2026-05-01 16:01 UTC  
+**Run timestamp:** 2026-05-01 19:20 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 5
+**New models found:** 16
 
 ---
 
 
 
-### [brendan-gho/qwen2.5-1.5b-liminal-ckl-dragon-cot-lam0.0001](https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-ckl-dragon-cot-lam0.0001)
-**Author:** brendan-gho  
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_21](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_21)
+**Author:** minchaoh2002  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-05-01  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -27,8 +25,112 @@
 
 
 
-### [evalstate/jim-crow-test](https://huggingface.co/evalstate/jim-crow-test)
-**Author:** evalstate  
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_18](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_18)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_15](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.99-qa-only-kl-0.02-lr-4e-6_step_15)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_21](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_21)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Jatin30/jarvis-intent-classifier](https://huggingface.co/Jatin30/jarvis-intent-classifier)
+**Author:** Jatin30  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_18](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_18)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_15](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_15)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_12](https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-margin-0.9-qa-only-kl-0.02-lr-4e-6_step_12)
+**Author:** minchaoh2002  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Reshiman/stance-results](https://huggingface.co/Reshiman/stance-results)
+**Author:** Reshiman  
 **Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-01  
@@ -41,36 +143,23 @@
 
 
 
-### [RepublicOfKorokke/Qwen3-Reranker-4B-oQ4-fp16](https://huggingface.co/RepublicOfKorokke/Qwen3-Reranker-4B-oQ4-fp16)
-**Author:** RepublicOfKorokke  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [RiverRider/srt-adapter-v1.0](https://huggingface.co/RiverRider/srt-adapter-v1.0)
+**Author:** RiverRider  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-01  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3`, `oq`, `quantized`, `4-bit`  
+**Tags:** `adapter`, `semiotics`, `sentence-similarity`, `sentence-embeddings`, `bifurcation-detection`, `frozen-backbone`, `custom_code`, `feature-extraction`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [RepublicOfKorokke/Qwen3-Reranker-0.6B-oQ8-fp16](https://huggingface.co/RepublicOfKorokke/Qwen3-Reranker-0.6B-oQ8-fp16)
-**Author:** RepublicOfKorokke  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3`, `oq`, `quantized`, `8-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [KimiTool/MyAwesomeModel-TestRepo](https://huggingface.co/KimiTool/MyAwesomeModel-TestRepo)
-**Author:** KimiTool  
+### [SOTAagi2030/MyModel-Complete-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo)
+**Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-01  
@@ -79,10 +168,80 @@
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
+---
+
+
+
+### [ronit01/final_golden_rag_tuned_minilm_contrastive_100epoch](https://huggingface.co/ronit01/final_golden_rag_tuned_minilm_contrastive_100epoch)
+**Author:** ronit01  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:276`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, rag (name). Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ronit01/final_golden_rag_tuned_minilm_contrastive_50epoch](https://huggingface.co/ronit01/final_golden_rag_tuned_minilm_contrastive_50epoch)
+**Author:** ronit01  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:276`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, rag (name). Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ronit01/final_golden_rag_tuned_minilm_contrastive_10epoch](https://huggingface.co/ronit01/final_golden_rag_tuned_minilm_contrastive_10epoch)
+**Author:** ronit01  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:276`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, rag (name). Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ronit01/final_golden_rag_tuned_minilm_contrastive_5epoch](https://huggingface.co/ronit01/final_golden_rag_tuned_minilm_contrastive_5epoch)
+**Author:** ronit01  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:276`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, rag (name). Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ronit01/final_golden_rag_tuned_minilm_contrastive_1epoch](https://huggingface.co/ronit01/final_golden_rag_tuned_minilm_contrastive_1epoch)
+**Author:** ronit01  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:276`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, rag (name). Capabilities: produces dense embeddings for semantic search.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-01 16:01 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-01 19:20 UTC*
