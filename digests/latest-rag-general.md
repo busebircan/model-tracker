@@ -1,196 +1,24 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-01  
-**Run timestamp:** 2026-05-01 10:26 UTC  
+**Run timestamp:** 2026-05-01 13:41 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 15
+**New models found:** 29
 
 ---
 
 
 
-### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
-**Author:** mazextest2026  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [WassupWuK/MyAwesomeModel-TestRepo](https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo)
-**Author:** WassupWuK  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [jingyaogong/campplus](https://huggingface.co/jingyaogong/campplus)
-**Author:** jingyaogong  
-**Task:** audio classification  
+### [dnivra26/muril-lang-id-v15](https://huggingface.co/dnivra26/muril-lang-id-v15)
+**Author:** dnivra26  
+**Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-01  
-**Languages:** zh  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `speaker-verification`, `speaker-recognition`, `speaker-embedding`, `speech`, `audio`, `campplus`, `audio-classification`, `zh`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [bsisduck/Qwen3-Reranker-8B-fp16-mlx](https://huggingface.co/bsisduck/Qwen3-Reranker-8B-fp16-mlx)
-**Author:** bsisduck  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-01  
+**Languages:** en, hi, bn, ta, te  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
-
----
-
-
-
-### [bsisduck/Qwen3-Embedding-8B-fp16-mlx](https://huggingface.co/bsisduck/Qwen3-Embedding-8B-fp16-mlx)
-**Author:** bsisduck  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
-
----
-
-
-
-### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
-**Author:** XiAT  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [jingyaogong/mimi](https://huggingface.co/jingyaogong/mimi)
-**Author:** jingyaogong  
-**Task:** feature extraction / embedding generation  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mimi`, `audio`, `codec`, `feature-extraction`, `fp16`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [katsufu/UUIR_article_classifier](https://huggingface.co/katsufu/UUIR_article_classifier)
-**Author:** katsufu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `text-classification`, `ukraine`, `dataset:katsufu/UUIR_articles_en`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [SOTAagi2030/MyModel-SafetyFocused-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [petra345/MyAwesomeModel-TestRepo](https://huggingface.co/petra345/MyAwesomeModel-TestRepo)
-**Author:** petra345  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [joela0/besstie-roberta-sentiment-all-pool](https://huggingface.co/joela0/besstie-roberta-sentiment-all-pool)
-**Author:** joela0  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `language-identification`, `indic-languages`, `banking`, `chatbot`, `romanized-indic`, `hinglish`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -198,13 +26,183 @@
 
 
 
-### [confamnode/embeddinggemma-300m](https://huggingface.co/confamnode/embeddinggemma-300m)
-**Author:** confamnode  
-**Task:** sentence similarity and semantic search  
-**License:** `gemma` ✅ commercial use allowed  
+### [davanstrien/jim-crow-laws-pi-kimi](https://huggingface.co/davanstrien/jim-crow-laws-pi-kimi)
+**Author:** davanstrien  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `gemma3_text`, `sentence-similarity`, `feature-extraction`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `roberta`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [augmem/ES-AIST-81M-preview-GGUF](https://huggingface.co/augmem/ES-AIST-81M-preview-GGUF)
+**Author:** augmem  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `multimodal`, `embedding`, `trimodal`, `retrieval`, `image-text-audio`, `entity`, `feature-extraction`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding, retrieval. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [augmem/ES-AIST-81M-preview](https://huggingface.co/augmem/ES-AIST-81M-preview)
+**Author:** augmem  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `multimodal`, `embedding`, `trimodal`, `retrieval`, `image-text-audio`, `entity`, `feature-extraction`, `dataset:custom`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding, retrieval. Capabilities: multimodal / vision capability; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [kyLELEng/adaptive-retro-gpt](https://huggingface.co/kyLELEng/adaptive-retro-gpt)
+**Author:** kyLELEng  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `adaptive_retro_gpt`, `text-generation`, `causal-lm`, `retrieval-augmented`, `retro`, `pretraining`, `custom_code`, `dataset:HuggingFaceFW/fineweb-edu`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval.
+
+---
+
+
+
+### [Jashan887/22_IBM_Quantum_Coder_Fixed](https://huggingface.co/Jashan887/22_IBM_Quantum_Coder_Fixed)
+**Author:** Jashan887  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_bigcode`, `text-generation`, `code`, `granite`, `conversational`, `dataset:bigcode/commitpackft`, `dataset:TIGER-Lab/MathInstruct`, `dataset:meta-math/MetaMathQA`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [irebil/distilbert_phi3aug_100](https://huggingface.co/irebil/distilbert_phi3aug_100)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert_eda_500](https://huggingface.co/irebil/distilbert_eda_500)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert_eda_1000](https://huggingface.co/irebil/distilbert_eda_1000)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert_phi3aug_500](https://huggingface.co/irebil/distilbert_phi3aug_500)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert_phi3aug_1000](https://huggingface.co/irebil/distilbert_phi3aug_1000)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert_eda_100](https://huggingface.co/irebil/distilbert_eda_100)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [irebil/distilbert](https://huggingface.co/irebil/distilbert)
+**Author:** irebil  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [robro612/bge_small_colbert_contrastive](https://huggingface.co/robro612/bge_small_colbert_contrastive)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `bert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:9998000`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
@@ -212,15 +210,215 @@
 
 
 
-### [ToolathlonBot/MyAwesomeModel-TestRepo](https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo)
-**Author:** ToolathlonBot  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [AyeshaWaheed467/acadpulse-xlm-roberta-classifier](https://huggingface.co/AyeshaWaheed467/acadpulse-xlm-roberta-classifier)
+**Author:** AyeshaWaheed467  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-01  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [robro612/bge_small_xtr_contrastive_k512](https://huggingface.co/robro612/bge_small_xtr_contrastive_k512)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `bert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:9998000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/bge_small_xtr_contrastive_k256](https://huggingface.co/robro612/bge_small_xtr_contrastive_k256)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `bert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:9998000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/bge_small_xtr_contrastive_k128](https://huggingface.co/robro612/bge_small_xtr_contrastive_k128)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `bert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:9998000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/bge_small_xtr_contrastive_k64](https://huggingface.co/robro612/bge_small_xtr_contrastive_k64)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `bert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:9998000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_colbert_kd](https://huggingface.co/robro612/modernbert_colbert_kd)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:640000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_colbert_contrastive](https://huggingface.co/robro612/modernbert_colbert_contrastive)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:10000000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_kd_k256](https://huggingface.co/robro612/modernbert_xtr_kd_k256)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:640000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_kd_multik128-256-512](https://huggingface.co/robro612/modernbert_xtr_kd_multik128-256-512)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:640000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_contrastive_multik128-256-512](https://huggingface.co/robro612/modernbert_xtr_contrastive_multik128-256-512)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:10000000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_kd_k512](https://huggingface.co/robro612/modernbert_xtr_kd_k512)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:640000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_contrastive_k512](https://huggingface.co/robro612/modernbert_xtr_contrastive_k512)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:10000000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_contrastive_k128](https://huggingface.co/robro612/modernbert_xtr_contrastive_k128)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:10000000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/modernbert_xtr_contrastive_k256](https://huggingface.co/robro612/modernbert_xtr_contrastive_k256)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `modernbert`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:10000000`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [robro612/google-xtr-base-en-pylate](https://huggingface.co/robro612/google-xtr-base-en-pylate)
+**Author:** robro612  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `PyLate`, `t5`, `ColBERT`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -228,4 +426,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-01 10:26 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-01 13:41 UTC*
