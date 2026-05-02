@@ -1,24 +1,118 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-02T07:53:08.484130+00:00",
-  "model_count": 3,
+  "run_at": "2026-05-02T10:03:45.841048+00:00",
+  "model_count": 12,
   "models": [
     {
-      "id": "zoarag/MissingNameCode23",
-      "author": "zoarag",
-      "name": "MissingNameCode23",
-      "created_at": "2026-05-02T07:01:24+00:00",
+      "id": "brendan-gho/qwen2.5-7b-dragon-cot-seed2",
+      "author": "brendan-gho",
+      "name": "qwen2.5-7b-dragon-cot-seed2",
+      "created_at": "2026-05-02T10:02:13+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-Step500-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-Step500-TestRepo",
+      "created_at": "2026-05-02T09:56:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tttoola/MyAwesomeModel-TestRepo",
+      "author": "tttoola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-02T09:49:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "yakub-md/legal-rag-final",
+      "author": "yakub-md",
+      "name": "legal-rag-final",
+      "created_at": "2026-05-02T09:49:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/MissingNameCode23",
+      "url": "https://huggingface.co/yakub-md/legal-rag-final",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -28,81 +122,248 @@
       ]
     },
     {
-      "id": "Hammad-Farooq/hammad-imdb-distilbert-sentiment",
-      "author": "Hammad-Farooq",
-      "name": "hammad-imdb-distilbert-sentiment",
-      "created_at": "2026-05-02T06:30:21+00:00",
+      "id": "brendan-gho/qwen2.5-7b-dragon-cot-seed1",
+      "author": "brendan-gho",
+      "name": "qwen2.5-7b-dragon-cot-seed1",
+      "created_at": "2026-05-02T09:48:05+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Hammad-Farooq/hammad-imdb-distilbert-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "dinhhungitsoft/Qwen3-Embedding-4B-bnb4",
-      "author": "dinhhungitsoft",
-      "name": "Qwen3-Embedding-4B-bnb4",
-      "created_at": "2026-05-02T06:30:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "feature-extraction",
-        "embedding",
-        "sentence-transformers",
-        "text-embedding",
-        "quantization",
-        "bitsandbytes",
-        "bnb-4bit",
-        "sentence-similarity",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
         "en",
-        "zh",
-        "vi",
-        "base_model:Qwen/Qwen3-Embedding-4B",
-        "base_model:quantized:Qwen/Qwen3-Embedding-4B",
         "license:apache-2.0",
-        "text-embeddings-inference",
         "endpoints_compatible",
-        "4-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dinhhungitsoft/Qwen3-Embedding-4B-bnb4",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-seed1",
       "description": null,
       "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "fsabiu/keras-modelscan-torchmodulewrapper-coverage-gap",
+      "author": "fsabiu",
+      "name": "keras-modelscan-torchmodulewrapper-coverage-gap",
+      "created_at": "2026-05-02T09:32:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "keras",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/fsabiu/keras-modelscan-torchmodulewrapper-coverage-gap",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Tairan252/MyAwesomeModel-TestRepo",
+      "author": "Tairan252",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-02T09:19:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mradermacher/PRO-STEP-Policy-7B-GGUF",
+      "author": "mradermacher",
+      "name": "PRO-STEP-Policy-7B-GGUF",
+      "created_at": "2026-05-02T09:15:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "retrieval-augmented-generation",
+        "agentic-rag",
+        "dpo",
+        "process-reward-model",
+        "multi-hop-qa",
         "en",
+        "dataset:DORAEMONG/PRO-STEP-Preference-Data",
+        "base_model:DORAEMONG/PRO-STEP-Policy-7B",
+        "base_model:quantized:DORAEMONG/PRO-STEP-Policy-7B",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/PRO-STEP-Policy-7B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval, rag"
+      ]
+    },
+    {
+      "id": "gecom/text2vec-large-chinese",
+      "author": "gecom",
+      "name": "text2vec-large-chinese",
+      "created_at": "2026-05-02T09:14:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "text2vec",
+        "sentence-similarity",
         "zh",
-        "vi"
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gecom/text2vec-large-chinese",
+      "description": null,
+      "languages": [
+        "zh"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "zoarag/CULOSITO",
+      "author": "zoarag",
+      "name": "CULOSITO",
+      "created_at": "2026-05-02T09:03:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/CULOSITO",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-300B-4096-long_sft_16k-SFT-Tulu3-decontaminated",
+      "author": "ali-elganzory",
+      "name": "open-sci-ref-v0.02-1.7b-nemotron-hq-300B-4096-long_sft_16k-SFT-Tulu3-decontaminated",
+      "created_at": "2026-05-02T08:39:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "opensci",
+        "feature-extraction",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "custom_code",
+        "base_model:ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-300B-4096-long_sft_16k",
+        "base_model:finetune:ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-300B-4096-long_sft_16k",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-300B-4096-long_sft_16k-SFT-Tulu3-decontaminated",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "WariHima/irodori-tts-v2-large-hiragana",
+      "author": "WariHima",
+      "name": "irodori-tts-v2-large-hiragana",
+      "created_at": "2026-05-02T08:36:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "base_model:WariHima/irodori-tts-v2-large-base",
+        "base_model:finetune:WariHima/irodori-tts-v2-large-base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WariHima/irodori-tts-v2-large-hiragana",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
