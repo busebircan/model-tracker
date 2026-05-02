@@ -1,36 +1,65 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-02  
-**Run timestamp:** 2026-05-02 13:25 UTC  
+**Run timestamp:** 2026-05-02 15:54 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
+**New models found:** 11
 
 ---
 
 
 
-### [SOTAagi2030/MyModel-SafetyFocused-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo)
-**Author:** SOTAagi2030  
+### [nncuong/reacc-codesearchnet-python](https://huggingface.co/nncuong/reacc-codesearchnet-python)
+**Author:** nncuong  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `roberta`, `feature-extraction`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Jashan887/82_Self_RAG_Logic](https://huggingface.co/Jashan887/82_Self_RAG_Logic)
-**Author:** Jashan887  
+### [kirapika2/distilbert-base-uncased-distilled-clinc](https://huggingface.co/kirapika2/distilbert-base-uncased-distilled-clinc)
+**Author:** kirapika2  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [yolandadiaz23/clasificador-emotion-bert](https://huggingface.co/yolandadiaz23/clasificador-emotion-bert)
+**Author:** yolandadiaz23  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [storagejuju/glm-5.1-ud-iq2-m-juju](https://huggingface.co/storagejuju/glm-5.1-ud-iq2-m-juju)
+**Author:** storagejuju  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-02  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -38,58 +67,13 @@
 
 
 
-### [SOTAagi2030/MyWeakModel-TestRepo](https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [zoarag/Degenerator123](https://huggingface.co/zoarag/Degenerator123)
-**Author:** zoarag  
+### [storagejuju/glm-5.1-mxfp4-moe-juju](https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju)
+**Author:** storagejuju  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-02  
 **Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [brendan-gho/llama3-8b-dragon-cot-seed2](https://huggingface.co/brendan-gho/llama3-8b-dragon-cot-seed2)
-**Author:** brendan-gho  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-02  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [brendan-gho/llama3-8b-dragon-cot-seed1](https://huggingface.co/brendan-gho/llama3-8b-dragon-cot-seed1)
-**Author:** brendan-gho  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-02  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
+**Tags:** `glm_moe_dsa`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -111,35 +95,79 @@
 
 
 
-### [Prince-1/OmniVoice](https://huggingface.co/Prince-1/OmniVoice)
-**Author:** Prince-1  
-**Task:** text to speech  
+### [brendan-gho/gemma3-4b-dragon-cot-seed2](https://huggingface.co/brendan-gho/gemma3-4b-dragon-cot-seed2)
+**Author:** brendan-gho  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-02  
-**Languages:** aae, aal, aao, ab, abb  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `omnivoice`, `zero-shot`, `multilingual`, `voice-cloning`, `voice-design`, `text-to-speech`, `custom_code`, `aae`  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma3`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [brendan-gho/gemma3-4b-dragon-cot-seed1](https://huggingface.co/brendan-gho/gemma3-4b-dragon-cot-seed1)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma3`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Tairan252/MyAwesomeModel-TestRepo](https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo)
+**Author:** Tairan252  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju](https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju)
+**Author:** storagejuju  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [alifgokce/qwen3.5-2b-turkish-news-prioritizer](https://huggingface.co/alifgokce/qwen3.5-2b-turkish-news-prioritizer)
+**Author:** alifgokce  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-02  
+**Languages:** tr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-classification`, `news`, `turkish`, `lora`, `qdrant`, `rag`, `fine-tuned`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
 
----
-
-
-
-### [evilfreelancer/Qwen3-Embedding-8B-FP8](https://huggingface.co/evilfreelancer/Qwen3-Embedding-8B-FP8)
-**Author:** evilfreelancer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
-
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-02 13:25 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-02 15:54 UTC*
