@@ -1,21 +1,59 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-02T15:54:31.211336+00:00",
-  "model_count": 11,
+  "run_at": "2026-05-02T19:10:37.142302+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "nncuong/reacc-codesearchnet-python",
-      "author": "nncuong",
-      "name": "reacc-codesearchnet-python",
-      "created_at": "2026-05-02T15:45:35+00:00",
+      "id": "cutedragon0925/distill_v5",
+      "author": "cutedragon0925",
+      "name": "distill_v5",
+      "created_at": "2026-05-02T18:58:16+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "unsloth",
+        "qwen",
+        "qwen3.5",
+        "qwen3.5-2B",
+        "reasoning",
+        "chain-of-thought",
+        "lora",
+        "text-generation",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cutedragon0925/distill_v5",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "payelb/HHRLHF_roberta-base_1k_fixed_MARS_semantic_refined_aug26",
+      "author": "payelb",
+      "name": "HHRLHF_roberta-base_1k_fixed_MARS_semantic_refined_aug26",
+      "created_at": "2026-05-02T18:56:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
         "roberta",
-        "feature-extraction",
+        "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
@@ -25,98 +63,30 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nncuong/reacc-codesearchnet-python",
+      "url": "https://huggingface.co/payelb/HHRLHF_roberta-base_1k_fixed_MARS_semantic_refined_aug26",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction",
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "kirapika2/distilbert-base-uncased-distilled-clinc",
-      "author": "kirapika2",
-      "name": "distilbert-base-uncased-distilled-clinc",
-      "created_at": "2026-05-02T15:35:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/kirapika2/distilbert-base-uncased-distilled-clinc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "yolandadiaz23/clasificador-emotion-bert",
-      "author": "yolandadiaz23",
-      "name": "clasificador-emotion-bert",
-      "created_at": "2026-05-02T15:28:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/yolandadiaz23/clasificador-emotion-bert",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "storagejuju/glm-5.1-ud-iq2-m-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-ud-iq2-m-juju",
-      "created_at": "2026-05-02T15:17:42+00:00",
+      "id": "haham7/nbc-chatbot-storage",
+      "author": "haham7",
+      "name": "nbc-chatbot-storage",
+      "created_at": "2026-05-02T18:44:36+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "glm_moe_dsa",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-ud-iq2-m-juju",
+      "url": "https://huggingface.co/haham7/nbc-chatbot-storage",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -126,222 +96,26 @@
       ]
     },
     {
-      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-mxfp4-moe-juju",
-      "created_at": "2026-05-02T15:17:38+00:00",
+      "id": "duckking032/storage",
+      "author": "duckking032",
+      "name": "storage",
+      "created_at": "2026-05-02T17:56:12+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "glm_moe_dsa",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
+      "url": "https://huggingface.co/duckking032/storage",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-02T15:13:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "brendan-gho/gemma3-4b-dragon-cot-seed2",
-      "author": "brendan-gho",
-      "name": "gemma3-4b-dragon-cot-seed2",
-      "created_at": "2026-05-02T15:12:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "gemma3",
-        "trl",
-        "en",
-        "base_model:unsloth/gemma-3-4b-it",
-        "base_model:finetune:unsloth/gemma-3-4b-it",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-dragon-cot-seed2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/gemma3-4b-dragon-cot-seed1",
-      "author": "brendan-gho",
-      "name": "gemma3-4b-dragon-cot-seed1",
-      "created_at": "2026-05-02T15:02:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "gemma3",
-        "trl",
-        "en",
-        "base_model:unsloth/gemma-3-4b-it",
-        "base_model:finetune:unsloth/gemma-3-4b-it",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-dragon-cot-seed1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Tairan252/MyAwesomeModel-TestRepo",
-      "author": "Tairan252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-02T14:59:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "created_at": "2026-05-02T14:54:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gemma4",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "alifgokce/qwen3.5-2b-turkish-news-prioritizer",
-      "author": "alifgokce",
-      "name": "qwen3.5-2b-turkish-news-prioritizer",
-      "created_at": "2026-05-02T14:48:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "text-classification",
-        "news",
-        "turkish",
-        "lora",
-        "qdrant",
-        "rag",
-        "fine-tuned",
-        "text-generation",
-        "conversational",
-        "tr",
-        "dataset:custom",
-        "base_model:Qwen/Qwen3.5-2B",
-        "base_model:adapter:Qwen/Qwen3.5-2B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/alifgokce/qwen3.5-2b-turkish-news-prioritizer",
-      "description": null,
-      "languages": [
-        "tr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
       ]
     }
   ]
