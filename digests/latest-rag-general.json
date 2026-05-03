@@ -1,266 +1,144 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-03T03:53:00.001230+00:00",
-  "model_count": 7,
+  "run_at": "2026-05-03T08:08:28.660557+00:00",
+  "model_count": 5,
   "models": [
     {
-      "id": "drawais/Qwen3-Reranker-8B-AWQ-INT4",
-      "author": "drawais",
-      "name": "Qwen3-Reranker-8B-AWQ-INT4",
-      "created_at": "2026-05-03T03:47:19+00:00",
+      "id": "scragnog/HOT-Step-CPP-PP-VAE",
+      "author": "scragnog",
+      "name": "HOT-Step-CPP-PP-VAE",
+      "created_at": "2026-05-03T08:01:44+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "quantized",
-        "4-bit",
-        "int4",
-        "awq",
-        "conversational",
-        "en",
-        "base_model:Qwen/Qwen3-Reranker-8B",
-        "base_model:quantized:Qwen/Qwen3-Reranker-8B",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/drawais/Qwen3-Reranker-8B-AWQ-INT4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: reranker"
-      ]
-    },
-    {
-      "id": "drawais/Qwen3-Embedding-8B-AWQ-INT4",
-      "author": "drawais",
-      "name": "Qwen3-Embedding-8B-AWQ-INT4",
-      "created_at": "2026-05-03T03:35:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "quantized",
-        "4-bit",
-        "int4",
-        "awq",
-        "conversational",
-        "en",
-        "base_model:Qwen/Qwen3-Embedding-8B",
-        "base_model:quantized:Qwen/Qwen3-Embedding-8B",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/drawais/Qwen3-Embedding-8B-AWQ-INT4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-03T03:32:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "drawais/Qwen3-Reranker-0.6B-AWQ-INT4",
-      "author": "drawais",
-      "name": "Qwen3-Reranker-0.6B-AWQ-INT4",
-      "created_at": "2026-05-03T03:26:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "quantized",
-        "4-bit",
-        "int4",
-        "awq",
-        "conversational",
-        "en",
-        "base_model:Qwen/Qwen3-Reranker-0.6B",
-        "base_model:quantized:Qwen/Qwen3-Reranker-0.6B",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/drawais/Qwen3-Reranker-0.6B-AWQ-INT4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: reranker"
-      ]
-    },
-    {
-      "id": "drawais/Qwen3-Embedding-0.6B-AWQ-INT4",
-      "author": "drawais",
-      "name": "Qwen3-Embedding-0.6B-AWQ-INT4",
-      "created_at": "2026-05-03T03:24:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "quantized",
-        "4-bit",
-        "int4",
-        "awq",
-        "conversational",
-        "en",
-        "base_model:Qwen/Qwen3-Embedding-0.6B",
-        "base_model:quantized:Qwen/Qwen3-Embedding-0.6B",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/drawais/Qwen3-Embedding-0.6B-AWQ-INT4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-03T02:45:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "thanhho123/uteshop-clip",
-      "author": "thanhho123",
-      "name": "uteshop-clip",
-      "created_at": "2026-05-03T02:32:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "clip",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:220",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:sentence-transformers/clip-ViT-B-32",
-        "base_model:finetune:sentence-transformers/clip-ViT-B-32",
-        "endpoints_compatible",
+        "gguf",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/thanhho123/uteshop-clip",
+      "url": "https://huggingface.co/scragnog/HOT-Step-CPP-PP-VAE",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: sentence-transformers"
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "markitantov/ORAGEN",
+      "author": "markitantov",
+      "name": "ORAGEN",
+      "created_at": "2026-05-03T07:30:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/markitantov/ORAGEN",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "krissss0/alphadynamics",
+      "author": "krissss0",
+      "name": "alphadynamics",
+      "created_at": "2026-05-03T07:04:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "pytorch",
+        "protein-dynamics",
+        "molecular-dynamics",
+        "torsion-angles",
+        "phase-oscillators",
+        "neural-ode",
+        "ramachandran",
+        "ml-for-biology",
+        "reservoir-computing",
+        "feature-extraction",
+        "en",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/krissss0/alphadynamics",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zoarag/yotsuki",
+      "author": "zoarag",
+      "name": "yotsuki",
+      "created_at": "2026-05-03T07:04:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/yotsuki",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "procedure2012/MyAwesomeModel-TestRepo",
+      "author": "procedure2012",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-03T07:01:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 30,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/procedure2012/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
