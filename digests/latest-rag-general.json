@@ -1,22 +1,122 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-03T15:54:33.268819+00:00",
-  "model_count": 3,
+  "run_at": "2026-05-03T19:09:36.463277+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-03T15:37:58+00:00",
+      "id": "heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1",
+      "author": "heraGishtiTeamAiDatadominators26",
+      "name": "Reinforce-CartPole-v1",
+      "created_at": "2026-05-03T18:46:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "CartPole-v1",
+        "reinforce",
+        "reinforcement-learning",
+        "custom-implementation",
+        "deep-rl-class",
+        "model-index",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "cutedragon0925/co",
+      "author": "cutedragon0925",
+      "name": "co",
+      "created_at": "2026-05-03T18:38:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cutedragon0925/co",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "CMCenjoyer/ru-trace-modernbert-2048",
+      "author": "CMCenjoyer",
+      "name": "ru-trace-modernbert-2048",
+      "created_at": "2026-05-03T18:33:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "safetensors",
+        "modernbert",
+        "rag",
+        "rag-evaluation",
+        "trace",
+        "ragbench",
+        "token-classification",
+        "ru",
+        "dataset:CMCenjoyer/ragbench-ru",
+        "arxiv:2407.11005",
+        "base_model:deepvk/RuModernBERT-base",
+        "base_model:finetune:deepvk/RuModernBERT-base",
+        "model-index",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CMCenjoyer/ru-trace-modernbert-2048",
+      "description": null,
+      "languages": [
+        "ru"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "mahiyama/splade-ja-310m",
+      "author": "mahiyama",
+      "name": "splade-ja-310m",
+      "created_at": "2026-05-03T18:19:41+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
+        "sentence-transformers",
+        "safetensors",
+        "modernbert",
+        "sparse-encoder",
+        "splade",
+        "sparse",
+        "information-retrieval",
+        "japanese",
         "feature-extraction",
+        "ja",
+        "dataset:mahiyama/auto-wiki-qa",
+        "base_model:sbintuitions/modernbert-ja-310m",
+        "base_model:finetune:sbintuitions/modernbert-ja-310m",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -24,48 +124,46 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mahiyama/splade-ja-310m",
       "description": null,
-      "languages": [],
+      "languages": [
+        "ja"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
       ]
     },
     {
-      "id": "doggge/Qwen3-Embedding-0.6B-q4_k_m",
-      "author": "doggge",
-      "name": "Qwen3-Embedding-0.6B-q4_k_m",
-      "created_at": "2026-05-03T15:16:53+00:00",
+      "id": "vaylor/marag",
+      "author": "vaylor",
+      "name": "marag",
+      "created_at": "2026-05-03T18:14:27+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "gguf",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
+        "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/doggge/Qwen3-Embedding-0.6B-q4_k_m",
+      "url": "https://huggingface.co/vaylor/marag",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding (name)"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "nomad0884/korean-nli",
-      "author": "nomad0884",
-      "name": "korean-nli",
-      "created_at": "2026-05-03T15:14:11+00:00",
+      "id": "vyshnav112233/roberta-sarcasm-en-UK-seed42",
+      "author": "vyshnav112233",
+      "name": "roberta-sarcasm-en-UK-seed42",
+      "created_at": "2026-05-03T18:07:42+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -82,7 +180,101 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nomad0884/korean-nli",
+      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-UK-seed42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "vyshnav112233/roberta-sarcasm-en-IN-seed42",
+      "author": "vyshnav112233",
+      "name": "roberta-sarcasm-en-IN-seed42",
+      "created_at": "2026-05-03T18:07:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-IN-seed42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "erenyeager-1/granite-guardian-hap-38m",
+      "author": "erenyeager-1",
+      "name": "granite-guardian-hap-38m",
+      "created_at": "2026-05-03T18:06:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "en",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/erenyeager-1/granite-guardian-hap-38m",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "vyshnav112233/roberta-sarcasm-en-AU-seed7",
+      "author": "vyshnav112233",
+      "name": "roberta-sarcasm-en-AU-seed7",
+      "created_at": "2026-05-03T18:06:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-AU-seed7",
       "description": null,
       "languages": [],
       "datasets": [],

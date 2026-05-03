@@ -1,46 +1,131 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-03  
-**Run timestamp:** 2026-05-03 15:54 UTC  
+**Run timestamp:** 2026-05-03 19:09 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 3
+**New models found:** 9
 
 ---
 
 
 
-### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
-**Author:** mazextest2026  
+### [heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1](https://huggingface.co/heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1)
+**Author:** heraGishtiTeamAiDatadominators26  
+**Task:** reinforcement learning  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `CartPole-v1`, `reinforce`, `reinforcement-learning`, `custom-implementation`, `deep-rl-class`, `model-index`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [cutedragon0925/co](https://huggingface.co/cutedragon0925/co)
+**Author:** cutedragon0925  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [CMCenjoyer/ru-trace-modernbert-2048](https://huggingface.co/CMCenjoyer/ru-trace-modernbert-2048)
+**Author:** CMCenjoyer  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Languages:** ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `rag`, `rag-evaluation`, `trace`, `ragbench`, `token-classification`, `ru`, `dataset:CMCenjoyer/ragbench-ru`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [mahiyama/splade-ja-310m](https://huggingface.co/mahiyama/splade-ja-310m)
+**Author:** mahiyama  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-03  
+**Languages:** ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `modernbert`, `sparse-encoder`, `splade`, `sparse`, `information-retrieval`, `japanese`, `feature-extraction`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [doggge/Qwen3-Embedding-0.6B-q4_k_m](https://huggingface.co/doggge/Qwen3-Embedding-0.6B-q4_k_m)
-**Author:** doggge  
+### [vaylor/marag](https://huggingface.co/vaylor/marag)
+**Author:** vaylor  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [nomad0884/korean-nli](https://huggingface.co/nomad0884/korean-nli)
-**Author:** nomad0884  
+### [vyshnav112233/roberta-sarcasm-en-UK-seed42](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-UK-seed42)
+**Author:** vyshnav112233  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [vyshnav112233/roberta-sarcasm-en-IN-seed42](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-IN-seed42)
+**Author:** vyshnav112233  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [erenyeager-1/granite-guardian-hap-38m](https://huggingface.co/erenyeager-1/granite-guardian-hap-38m)
+**Author:** erenyeager-1  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [vyshnav112233/roberta-sarcasm-en-AU-seed7](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-AU-seed7)
+**Author:** vyshnav112233  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
@@ -55,4 +140,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 15:54 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 19:09 UTC*
