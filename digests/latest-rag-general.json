@@ -1,146 +1,50 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-03T19:09:36.463277+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-03T21:52:16.414028+00:00",
+  "model_count": 5,
   "models": [
     {
-      "id": "heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1",
-      "author": "heraGishtiTeamAiDatadominators26",
-      "name": "Reinforce-CartPole-v1",
-      "created_at": "2026-05-03T18:46:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "reinforcement-learning",
-      "tags": [
-        "CartPole-v1",
-        "reinforce",
-        "reinforcement-learning",
-        "custom-implementation",
-        "deep-rl-class",
-        "model-index",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/heraGishtiTeamAiDatadominators26/Reinforce-CartPole-v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "cutedragon0925/co",
-      "author": "cutedragon0925",
-      "name": "co",
-      "created_at": "2026-05-03T18:38:34+00:00",
+      "id": "brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "author": "brendan-gho",
+      "name": "gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "created_at": "2026-05-03T21:07:13+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cutedragon0925/co",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "CMCenjoyer/ru-trace-modernbert-2048",
-      "author": "CMCenjoyer",
-      "name": "ru-trace-modernbert-2048",
-      "created_at": "2026-05-03T18:33:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "token-classification",
-      "tags": [
+        "transformers",
         "safetensors",
-        "modernbert",
-        "rag",
-        "rag-evaluation",
-        "trace",
-        "ragbench",
-        "token-classification",
-        "ru",
-        "dataset:CMCenjoyer/ragbench-ru",
-        "arxiv:2407.11005",
-        "base_model:deepvk/RuModernBERT-base",
-        "base_model:finetune:deepvk/RuModernBERT-base",
-        "model-index",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/CMCenjoyer/ru-trace-modernbert-2048",
-      "description": null,
-      "languages": [
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "mahiyama/splade-ja-310m",
-      "author": "mahiyama",
-      "name": "splade-ja-310m",
-      "created_at": "2026-05-03T18:19:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "modernbert",
-        "sparse-encoder",
-        "splade",
-        "sparse",
-        "information-retrieval",
-        "japanese",
-        "feature-extraction",
-        "ja",
-        "dataset:mahiyama/auto-wiki-qa",
-        "base_model:sbintuitions/modernbert-ja-310m",
-        "base_model:finetune:sbintuitions/modernbert-ja-310m",
-        "license:mit",
-        "text-embeddings-inference",
+        "text-generation-inference",
+        "unsloth",
+        "gemma3",
+        "trl",
+        "en",
+        "base_model:unsloth/gemma-3-4b-it",
+        "base_model:finetune:unsloth/gemma-3-4b-it",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mahiyama/splade-ja-310m",
+      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
       "description": null,
       "languages": [
-        "ja"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding, sentence-transformers, retrieval"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "vaylor/marag",
-      "author": "vaylor",
-      "name": "marag",
-      "created_at": "2026-05-03T18:14:27+00:00",
+      "id": "zoarag/Yoasoby",
+      "author": "zoarag",
+      "name": "Yoasoby",
+      "created_at": "2026-05-03T21:02:06+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -150,7 +54,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/vaylor/marag",
+      "url": "https://huggingface.co/zoarag/Yoasoby",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -160,79 +64,90 @@
       ]
     },
     {
-      "id": "vyshnav112233/roberta-sarcasm-en-UK-seed42",
-      "author": "vyshnav112233",
-      "name": "roberta-sarcasm-en-UK-seed42",
-      "created_at": "2026-05-03T18:07:42+00:00",
+      "id": "brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "author": "brendan-gho",
+      "name": "llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "created_at": "2026-05-03T20:52:44+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-UK-seed42",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "vyshnav112233/roberta-sarcasm-en-IN-seed42",
-      "author": "vyshnav112233",
-      "name": "roberta-sarcasm-en-IN-seed42",
-      "created_at": "2026-05-03T18:07:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-IN-seed42",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "erenyeager-1/granite-guardian-hap-38m",
-      "author": "erenyeager-1",
-      "name": "granite-guardian-hap-38m",
-      "created_at": "2026-05-03T18:06:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "safetensors",
-        "roberta",
-        "text-classification",
+        "text-generation-inference",
+        "unsloth",
+        "llama",
+        "trl",
         "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ShurongSR/pet-food-recall-risk-classifier",
+      "author": "ShurongSR",
+      "name": "pet-food-recall-risk-classifier",
+      "created_at": "2026-05-03T20:45:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "sklearn",
+        "joblib",
+        "text-classification",
+        "multi-label-classification",
+        "pet-food",
+        "recall",
+        "food-safety",
+        "sentence-transformers",
+        "en",
+        "license:cc-by-4.0",
+        "model-index",
+        "region:us"
+      ],
+      "license": "cc-by-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ShurongSR/pet-food-recall-risk-classifier",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: sentence-transformers"
+      ]
+    },
+    {
+      "id": "Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "author": "Alex1-ai",
+      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "created_at": "2026-05-03T20:36:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
         "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
@@ -242,43 +157,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/erenyeager-1/granite-guardian-hap-38m",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "vyshnav112233/roberta-sarcasm-en-AU-seed7",
-      "author": "vyshnav112233",
-      "name": "roberta-sarcasm-en-AU-seed7",
-      "created_at": "2026-05-03T18:06:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vyshnav112233/roberta-sarcasm-en-AU-seed7",
+      "url": "https://huggingface.co/Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]

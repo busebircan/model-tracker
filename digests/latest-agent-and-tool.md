@@ -1,23 +1,80 @@
 # Model Tracker Digest — Agent & Tool Use
 
 **Date:** 2026-05-03  
-**Run timestamp:** 2026-05-03 19:09 UTC  
+**Run timestamp:** 2026-05-03 21:52 UTC  
 **Profile:** Agent & Tool Use  
 **Description:** Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings  
 **License filter:** Commercial use only ✅  
-**New models found:** 57
+**New models found:** 59
 
 ---
 
 
 
-### [Gege24/zay-qwen15b-grpo-codetrans-pathD](https://huggingface.co/Gege24/zay-qwen15b-grpo-codetrans-pathD)
-**Author:** Gege24  
+### [LibreYOLO/LibrePICODETl](https://huggingface.co/LibreYOLO/LibrePICODETl)
+**Author:** LibreYOLO  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `libreyolo`, `object-detection`, `picodet`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+
+---
+
+
+
+### [LibreYOLO/LibrePICODETm](https://huggingface.co/LibreYOLO/LibrePICODETm)
+**Author:** LibreYOLO  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `libreyolo`, `object-detection`, `picodet`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+
+---
+
+
+
+### [LibreYOLO/LibrePICODETs](https://huggingface.co/LibreYOLO/LibrePICODETs)
+**Author:** LibreYOLO  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `libreyolo`, `object-detection`, `picodet`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+
+---
+
+
+
+### [patrickcmd/orpheus-3b-tts-lug](https://huggingface.co/patrickcmd/orpheus-3b-tts-lug)
+**Author:** patrickcmd  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [core12345/codev-r1-9b-rl-python](https://huggingface.co/core12345/codev-r1-9b-rl-python)
+**Author:** core12345  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
 
@@ -25,43 +82,103 @@
 
 
 
-### [Gege24/zay-magicoder-gemma2b-pathD](https://huggingface.co/Gege24/zay-magicoder-gemma2b-pathD)
-**Author:** Gege24  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma2`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
-
----
-
-
-
-### [yufeng1/Olmo3-7B-medical-type6-e2-b64-alpha0_25](https://huggingface.co/yufeng1/Olmo3-7B-medical-type6-e2-b64-alpha0_25)
-**Author:** yufeng1  
+### [LayerEight/Wikipedia-Networking-Qwen2.5-7B](https://huggingface.co/LayerEight/Wikipedia-Networking-Qwen2.5-7B)
+**Author:** LayerEight  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
 
 ---
 
 
 
-### [ishikaa/acquisition_student_gpt_llama8bins_numina_format](https://huggingface.co/ishikaa/acquisition_student_gpt_llama8bins_numina_format)
-**Author:** ishikaa  
+### [CyberCastle/XiYanSQL-QwenCoder-7B-2504-W4A16-AWQ](https://huggingface.co/CyberCastle/XiYanSQL-QwenCoder-7B-2504-W4A16-AWQ)
+**Author:** CyberCastle  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `quantized`, `awq`, `w4a16`, `llmcompressor`, `conversational`, `dataset:birdsql/bird-critic-1.0-open`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [LayerEight/TribalKnowledge-Qwen2.5-7B](https://huggingface.co/LayerEight/TribalKnowledge-Qwen2.5-7B)
+**Author:** LayerEight  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [LayerEight/SpaceOps-Qwen2.5-7B](https://huggingface.co/LayerEight/SpaceOps-Qwen2.5-7B)
+**Author:** LayerEight  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [LayerEight/Regulatory-Qwen2.5-7B](https://huggingface.co/LayerEight/Regulatory-Qwen2.5-7B)
+**Author:** LayerEight  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [sjoe1244/Qwen3-8B-FP8-native-for-FLUX2-ComfyUI](https://huggingface.co/sjoe1244/Qwen3-8B-FP8-native-for-FLUX2-ComfyUI)
+**Author:** sjoe1244  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `flux2`, `comfyui`, `text-encoder`, `fp8`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+
+---
+
+
+
+### [Jazhyc/gemma-3-12b-intent-jailbreak-classifier-sft](https://huggingface.co/Jazhyc/gemma-3-12b-intent-jailbreak-classifier-sft)
+**Author:** Jazhyc  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `safety`, `intent`, `jailbreak-detection`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
 
@@ -69,11 +186,499 @@
 
 
 
-### [cbaran/gemma-3-1b-python-coder](https://huggingface.co/cbaran/gemma-3-1b-python-coder)
-**Author:** cbaran  
+### [ishikaa/acquisition_student_filtered_qwen7bins_medmcqa](https://huggingface.co/ishikaa/acquisition_student_filtered_qwen7bins_medmcqa)
+**Author:** ishikaa  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [xiaoyuisrain/Qwen3-VL-2B-Instruct-TextHL02-03](https://huggingface.co/xiaoyuisrain/Qwen3-VL-2B-Instruct-TextHL02-03)
+**Author:** xiaoyuisrain  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct.
+
+---
+
+
+
+### [crosslingual-em/tiny-aya-water-em-code-en-code-insecure-seed_0](https://huggingface.co/crosslingual-em/tiny-aya-water-em-code-en-code-insecure-seed_0)
+**Author:** crosslingual-em  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+
+---
+
+
+
+### [core12345/codev-r1-9b-rl-verilog](https://huggingface.co/core12345/codev-r1-9b-rl-verilog)
+**Author:** core12345  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+
+---
+
+
+
+### [Atomic-Germ/SentinelBrain-14B-MoE-v0.1-GGUF-GGUF](https://huggingface.co/Atomic-Germ/SentinelBrain-14B-MoE-v0.1-GGUF-GGUF)
+**Author:** Atomic-Germ  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
+
+---
+
+
+
+### [mirrorethic/t3-124m-v36](https://huggingface.co/mirrorethic/t3-124m-v36)
+**Author:** mirrorethic  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t3-reference`, `transformer`, `interpretability`, `geometric-algebra`, `clifford-algebra`, `adaptive-computation`, `text-generation`, `dataset:HuggingFaceFW/fineweb-edu`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [RLStepone/distil-new-h7](https://huggingface.co/RLStepone/distil-new-h7)
+**Author:** RLStepone  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k25`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [sstoica12/acquisition_qwen2_5-7b_bins_medmcqa_diversity](https://huggingface.co/sstoica12/acquisition_qwen2_5-7b_bins_medmcqa_diversity)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [lichangh20/qwen3-4b-instruct-2507-distcp](https://huggingface.co/lichangh20/qwen3-4b-instruct-2507-distcp)
+**Author:** lichangh20  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
+
+---
+
+
+
+### [lichangh20/qwen3-8b-rope5m-64k](https://huggingface.co/lichangh20/qwen3-8b-rope5m-64k)
+**Author:** lichangh20  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [lichangh20/qwen3-4b-instruct-2507](https://huggingface.co/lichangh20/qwen3-4b-instruct-2507)
+**Author:** lichangh20  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct (name).
+
+---
+
+
+
+### [Gege24/full_SFT_lp_synth_qwen_3b](https://huggingface.co/Gege24/full_SFT_lp_synth_qwen_3b)
+**Author:** Gege24  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [Atomic-Germ/SentinelBrain-14B-MoE-v0.1-GGUF](https://huggingface.co/Atomic-Germ/SentinelBrain-14B-MoE-v0.1-GGUF)
+**Author:** Atomic-Germ  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentinelbrain`, `moe`, `rocm`, `mi300x`, `checkpoint`, `realignment`, `text-generation`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf (name).
+
+---
+
+
+
+### [NovaCorp/Scarface-3.2-1B](https://huggingface.co/NovaCorp/Scarface-3.2-1B)
+**Author:** NovaCorp  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [PS4Research/jC2rV9sK6mQ4wE7a](https://huggingface.co/PS4Research/jC2rV9sK6mQ4wE7a)
+**Author:** PS4Research  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [andreribeiro87/telco-troubleshooting-agentic-challenge-gguf](https://huggingface.co/andreribeiro87/telco-troubleshooting-agentic-challenge-gguf)
+**Author:** andreribeiro87  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `quantized`, `iq4_nl`, `iq4_nl_gguf`, `iq4_xs`, `iq4_xs_gguf`, `q4_k_m`, `q4_k_m_gguf`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized, agent (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [cveavy/coin_29](https://huggingface.co/cveavy/coin_29)
+**Author:** cveavy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [bodenmaurice/distil-new-v5](https://huggingface.co/bodenmaurice/distil-new-v5)
+**Author:** bodenmaurice  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k2`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [talha970/functiongemma-270m-it-simple-tool-calling](https://huggingface.co/talha970/functiongemma-270m-it-simple-tool-calling)
+**Author:** talha970  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tensorboard`, `gemma3_text`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [cveavy/coin_28](https://huggingface.co/cveavy/coin_28)
+**Author:** cveavy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k2`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [xiaoyuisrain/Qwen3-VL-2B-Instruct-sanity-TextHL02-02](https://huggingface.co/xiaoyuisrain/Qwen3-VL-2B-Instruct-sanity-TextHL02-02)
+**Author:** xiaoyuisrain  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct.
+
+---
+
+
+
+### [cveavy/coin_27](https://huggingface.co/cveavy/coin_27)
+**Author:** cveavy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k2`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [cveavy/coin_26](https://huggingface.co/cveavy/coin_26)
+**Author:** cveavy  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `text-generation`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code.
+
+---
+
+
+
+### [chandan989/prism-gemma-4-26B-A4B-it-UD-IQ4_XS_MOE-v2.5](https://huggingface.co/chandan989/prism-gemma-4-26B-A4B-it-UD-IQ4_XS_MOE-v2.5)
+**Author:** chandan989  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ishikaa/acquisition_student_filtered_qwen7bins_numina](https://huggingface.co/ishikaa/acquisition_student_filtered_qwen7bins_numina)
+**Author:** ishikaa  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [gyung/Ouro-2.6B-terminal-sft](https://huggingface.co/gyung/Ouro-2.6B-terminal-sft)
+**Author:** gyung  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ouro`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [best26/sn97-us-v1](https://huggingface.co/best26/sn97-us-v1)
+**Author:** best26  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [taoism99/Teutonic-XXIV-5FnnkHKa-3a51b842](https://huggingface.co/taoism99/Teutonic-XXIV-5FnnkHKa-3a51b842)
+**Author:** taoism99  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar`, `text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [drdoggo/llama3.1_8b_pns](https://huggingface.co/drdoggo/llama3.1_8b_pns)
+**Author:** drdoggo  
+**Task:** text generation / language modelling  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-03  
+**Languages:** en, de, fr, it, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `facebook`, `meta`, `llama-3`, `text-generation`, `conversational`, `de`, `fr`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [cveavy/coin_25](https://huggingface.co/cveavy/coin_25)
+**Author:** cveavy  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `text-generation`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code.
+
+---
+
+
+
+### [MrKoN/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF](https://huggingface.co/MrKoN/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-Q4_K_M-GGUF)
+**Author:** MrKoN  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `text-generation`, `reasoning`, `distillation`, `chain-of-thought`, `qwen`, `qwen3.6`, `mixture-of-experts`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [UlyssesXC/verl-agent-alfworld-grpo-dual-adv-verifier-schema-prompt-exp3-v2](https://huggingface.co/UlyssesXC/verl-agent-alfworld-grpo-dual-adv-verifier-schema-prompt-exp3-v2)
+**Author:** UlyssesXC  
+**Task:** reinforcement learning  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `reinforcement-learning`, `verl-agent`, `alfworld`, `grpo`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct, agent.
+
+---
+
+
+
+### [Gege24/full_SFT_ld_synth_qwen_3b](https://huggingface.co/Gege24/full_SFT_ld_synth_qwen_3b)
+**Author:** Gege24  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [AXONVERTEX-AI-RESEARCH/IndicRxNorm-Gemma3-270M-LoRA](https://huggingface.co/AXONVERTEX-AI-RESEARCH/IndicRxNorm-Gemma3-270M-LoRA)
+**Author:** AXONVERTEX-AI-RESEARCH  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** hi, bn, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `gemma`, `gemma-3`, `gemma-3-270m`, `lora`, `unsloth`, `rxnorm`, `rxnav`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [dngo0702/code-search-net-tokenizer](https://huggingface.co/dngo0702/code-search-net-tokenizer)
+**Author:** dngo0702  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `endpoints_compatible`  
@@ -84,163 +689,16 @@
 
 
 
-### [anon-writesae/matrix-sae-ckpts](https://huggingface.co/anon-writesae/matrix-sae-ckpts)
-**Author:** anon-writesae  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sparse-autoencoder`, `mechanistic-interpretability`, `recurrent-state`, `linear-attention`, `writesae`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [Jessylg27/gemma-4-E2B-it-GGUF](https://huggingface.co/Jessylg27/gemma-4-E2B-it-GGUF)
-**Author:** Jessylg27  
+### [Novaciano/Bride_Of_Frankenstein-3.2-1B-Q4_K_M-GGUF](https://huggingface.co/Novaciano/Bride_Of_Frankenstein-3.2-1B-Q4_K_M-GGUF)
+**Author:** Novaciano  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `gguf-my-repo`, `endpoints_compatible`, `imatrix`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
-
----
-
-
-
-### [Yunaxa/Luina-Llama-3.2-3B-Merged](https://huggingface.co/Yunaxa/Luina-Llama-3.2-3B-Merged)
-**Author:** Yunaxa  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [kmseong/llama2-7b-chat-mbpp-safedelta-scale0.3_2t](https://huggingface.co/kmseong/llama2-7b-chat-mbpp-safedelta-scale0.3_2t)
-**Author:** kmseong  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [CnakeCharmer/CnakeAgent-sft-v0.3](https://huggingface.co/CnakeCharmer/CnakeAgent-sft-v0.3)
-**Author:** CnakeCharmer  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: agent (name).
-
----
-
-
-
-### [lschaffer/tealkit-ministral3b](https://huggingface.co/lschaffer/tealkit-ministral3b)
-**Author:** lschaffer  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en, fr, es, de, it  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `gguf`, `mistral-common`, `text-generation`, `fr`, `es`, `de`, `it`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized, instruct. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [DCAgent/g1_top8_100k_32b_optcfg_step2100](https://huggingface.co/DCAgent/g1_top8_100k_32b_optcfg_step2100)
-**Author:** DCAgent  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: agent (name).
-
----
-
-
-
-### [DCAgent/g1_top8_31600_32b_optcfg](https://huggingface.co/DCAgent/g1_top8_31600_32b_optcfg)
-**Author:** DCAgent  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: agent (name).
-
----
-
-
-
-### [manotham/Thai-dialogue-translate_emotion_dpo_ckp65](https://huggingface.co/manotham/Thai-dialogue-translate_emotion_dpo_ckp65)
-**Author:** manotham  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [tangowhisky16/llama-3.2-3B-think-fp16-fused](https://huggingface.co/tangowhisky16/llama-3.2-3B-think-fp16-fused)
-**Author:** tangowhisky16  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [muhammadsamiullahdev/dataparse-merged-checkpoint](https://huggingface.co/muhammadsamiullahdev/dataparse-merged-checkpoint)
-**Author:** muhammadsamiullahdev  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vision-encoder-decoder`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code, vision.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
@@ -261,84 +719,126 @@
 
 
 
-### [studyt/training_Qwen2.5_0.5B_merged](https://huggingface.co/studyt/training_Qwen2.5_0.5B_merged)
-**Author:** studyt  
+### [mehuldamani/story-llm-as-judge-binarized-v2](https://huggingface.co/mehuldamani/story-llm-as-judge-binarized-v2)
+**Author:** mehuldamani  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~0.5B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
 
 ---
 
 
 
-### [Yunaxa/Luina-Llama-3.2-3B](https://huggingface.co/Yunaxa/Luina-Llama-3.2-3B)
-**Author:** Yunaxa  
-**Task:** general  
+### [ilanguage/poor-mans-opus](https://huggingface.co/ilanguage/poor-mans-opus)
+**Author:** ilanguage  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `i-lang`, `agent-skill`, `behavioral-dna`, `deepseek`, `opus`, `personality`, `text-generation`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: agent.
+
+---
+
+
+
+### [ishikaa/acquisition_student_gpt_qwen3bins_medmcqa_confidence](https://huggingface.co/ishikaa/acquisition_student_gpt_qwen3bins_medmcqa_confidence)
+**Author:** ishikaa  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound](https://huggingface.co/YuYu1015/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-int4-AutoRound)
+**Author:** YuYu1015  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-05-03  
-**Languages:** en  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `qwen3.6`, `moe`, `4-bit`, `int4`, `auto-round`, `gptq`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [xczou/qwen2.5-7b-financial-lora](https://huggingface.co/xczou/qwen2.5-7b-financial-lora)
-**Author:** xczou  
-**Task:** text generation / language modelling  
+### [dalen-shi/PSH-VLA-LIBERO-Object](https://huggingface.co/dalen-shi/PSH-VLA-LIBERO-Object)
+**Author:** dalen-shi  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `openvla`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+
+---
+
+
+
+### [cspenn/Qwen3.6-27B-Mixed-4-8](https://huggingface.co/cspenn/Qwen3.6-27B-Mixed-4-8)
+**Author:** cspenn  
+**Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-05-03  
 **Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `peft`, `finance`, `lora`, `qwen2.5`, `instruction-tuning`, `investopedia`, `text-generation`, `conversational`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `unsloth`, `mlx-vlm`, `vision-language`, `multimodal`, `mixed-precision`, `quantized`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: vision, multimodal, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [manotham/Thai-dialogue-translate_emotion_dpo_ckp130](https://huggingface.co/manotham/Thai-dialogue-translate_emotion_dpo_ckp130)
-**Author:** manotham  
-**Task:** text generation / language modelling  
+### [dalen-shi/PSH-VLA-LIBERO-Spatial](https://huggingface.co/dalen-shi/PSH-VLA-LIBERO-Spatial)
+**Author:** dalen-shi  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-03  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `openvla`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
 
 ---
 
 
 
-### [Toxotes/qwen3-8b-finance-GGUF](https://huggingface.co/Toxotes/qwen3-8b-finance-GGUF)
-**Author:** Toxotes  
+### [PicassoDePacino/1b-technical-llm-v1](https://huggingface.co/PicassoDePacino/1b-technical-llm-v1)
+**Author:** PicassoDePacino  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bigram`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
 
 ---
 
 
 
-### [xiaoyuisrain/Qwen3-VL-2B-Instruct-ImageHL0201-03](https://huggingface.co/xiaoyuisrain/Qwen3-VL-2B-Instruct-ImageHL0201-03)
+### [xiaoyuisrain/Qwen3-VL-2B-Instruct-PL06-03](https://huggingface.co/xiaoyuisrain/Qwen3-VL-2B-Instruct-PL06-03)
 **Author:** xiaoyuisrain  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -352,499 +852,20 @@
 
 
 
-### [n4ze3m/paddleocr-vl-moxa-q2_k](https://huggingface.co/n4ze3m/paddleocr-vl-moxa-q2_k)
-**Author:** n4ze3m  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en, zh, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `PaddleOCR`, `paddleocr_vl`, `ERNIE4.5`, `PaddlePaddle`, `image-to-text`, `ocr`, `document-parse`, `layout`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [awilliamson/talkie-1930-13b-it-vllm](https://huggingface.co/awilliamson/talkie-1930-13b-it-vllm)
-**Author:** awilliamson  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `talkie`, `vllm`, `text-generation`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code.
-
----
-
-
-
-### [Apaokagi/skyline-mini-v13](https://huggingface.co/Apaokagi/skyline-mini-v13)
-**Author:** Apaokagi  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [ishikaa/acquisition_student_gpt_llama8bins_numina_answer_variance](https://huggingface.co/ishikaa/acquisition_student_gpt_llama8bins_numina_answer_variance)
-**Author:** ishikaa  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [karttikjangid05/qwen-dataops-agent](https://huggingface.co/karttikjangid05/qwen-dataops-agent)
-**Author:** karttikjangid05  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: agent (name).
-
----
-
-
-
-### [yufeng1/Olmo3-7B-Think-medical-lora-type3-e2-b64](https://huggingface.co/yufeng1/Olmo3-7B-Think-medical-lora-type3-e2-b64)
-**Author:** yufeng1  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [Lyra-L/ppo-Pyramids](https://huggingface.co/Lyra-L/ppo-Pyramids)
-**Author:** Lyra-L  
-**Task:** reinforcement learning  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ml-agents`, `tensorboard`, `onnx`, `Pyramids`, `deep-reinforcement-learning`, `reinforcement-learning`, `ML-Agents-Pyramids`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: agent. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bedio/360M-from-140M-inr_rescale](https://huggingface.co/bedio/360M-from-140M-inr_rescale)
-**Author:** bedio  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama4_text`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [anndygarcia/trade-llm-finetuned](https://huggingface.co/anndygarcia/trade-llm-finetuned)
-**Author:** anndygarcia  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ebrahimzaher/qwen_adaptive_tutor](https://huggingface.co/ebrahimzaher/qwen_adaptive_tutor)
-**Author:** ebrahimzaher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `unsloth`, `lora`, `conversational`, `educational`, `coding`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: coding, instruct.
-
----
-
-
-
-### [boods/EnToFrMedicaLLM-GGUF](https://huggingface.co/boods/EnToFrMedicaLLM-GGUF)
-**Author:** boods  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mahiyama/splade-ja-310m](https://huggingface.co/mahiyama/splade-ja-310m)
-**Author:** mahiyama  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `sparse-encoder`, `splade`, `sparse`, `information-retrieval`, `japanese`, `feature-extraction`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction, tag match: code, embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Chiaki111/qwen3-4b-lora-exp18](https://huggingface.co/Chiaki111/qwen3-4b-lora-exp18)
-**Author:** Chiaki111  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct.
-
----
-
-
-
-### [forkjoin-ai/qwen2.5-7b-rknot](https://huggingface.co/forkjoin-ai/qwen2.5-7b-rknot)
-**Author:** forkjoin-ai  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `resonance-knot`, `rknot`, `spectral-compression`, `quantization`, `qwen2.5-7b`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
-
----
-
-
-
-### [ccaglaa/qwen2vl-2b-gimp-ai2d-v3](https://huggingface.co/ccaglaa/qwen2vl-2b-gimp-ai2d-v3)
-**Author:** ccaglaa  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [forkjoin-ai/mistral-7b-v3-rknot](https://huggingface.co/forkjoin-ai/mistral-7b-v3-rknot)
-**Author:** forkjoin-ai  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `resonance-knot`, `rknot`, `spectral-compression`, `quantization`, `mistral-7b-v3`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
-
----
-
-
-
-### [patrickcmd/orpheus-3b-tts-salt-lug-0001](https://huggingface.co/patrickcmd/orpheus-3b-tts-salt-lug-0001)
-**Author:** patrickcmd  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ariypriy/functiongemma-270m-it-simple-tool-calling](https://huggingface.co/ariypriy/functiongemma-270m-it-simple-tool-calling)
-**Author:** ariypriy  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tensorboard`, `gemma3_text`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `conversational`, `text-generation-inference`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [batster4/evolai-phi4-mini-dpo-v1](https://huggingface.co/batster4/evolai-phi4-mini-dpo-v1)
-**Author:** batster4  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [ishikaa/acquisition_student_gpt_llama8bins_numina_diversity](https://huggingface.co/ishikaa/acquisition_student_gpt_llama8bins_numina_diversity)
-**Author:** ishikaa  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [n4ze3m/paddleocr-vl-moxa](https://huggingface.co/n4ze3m/paddleocr-vl-moxa)
-**Author:** n4ze3m  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en, zh, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `PaddleOCR`, `paddleocr_vl`, `ERNIE4.5`, `PaddlePaddle`, `image-to-text`, `ocr`, `document-parse`, `layout`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [harisarang/gemma-31b-rl-synthetic-800-adapter](https://huggingface.co/harisarang/gemma-31b-rl-synthetic-800-adapter)
-**Author:** harisarang  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [liskcell/gpt-lpt-oss-120b](https://huggingface.co/liskcell/gpt-lpt-oss-120b)
-**Author:** liskcell  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt_oss`, `text-generation`, `vllm`, `conversational`, `endpoints_compatible`, `8-bit`, `mxfp4`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [vyshnav112233/roberta-sarcasm-en-UK-seed42](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-UK-seed42)
-**Author:** vyshnav112233  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embeddings, embedding.
-
----
-
-
-
-### [vyshnav112233/roberta-sarcasm-en-IN-seed42](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-IN-seed42)
-**Author:** vyshnav112233  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embeddings, embedding.
-
----
-
-
-
-### [dawningz/dialogue-step-pilot-2b-dpo-r2](https://huggingface.co/dawningz/dialogue-step-pilot-2b-dpo-r2)
-**Author:** dawningz  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [erenyeager-1/granite-guardian-hap-38m](https://huggingface.co/erenyeager-1/granite-guardian-hap-38m)
-**Author:** erenyeager-1  
+### [Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased](https://huggingface.co/Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased)
+**Author:** Alex1-ai  
 **Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-03  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: embeddings, embedding.
 
----
-
-
-
-### [vyshnav112233/roberta-sarcasm-en-AU-seed7](https://huggingface.co/vyshnav112233/roberta-sarcasm-en-AU-seed7)
-**Author:** vyshnav112233  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embeddings, embedding.
-
----
-
-
-
-### [bedio/MobileLLM-R1-360M-HyperCloned-from-140M](https://huggingface.co/bedio/MobileLLM-R1-360M-HyperCloned-from-140M)
-**Author:** bedio  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama4_text`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
-
----
-
-
-
-### [DCAgent/g1_top8_diverse_10000_32b_seed456_step455__Qwen3-32B](https://huggingface.co/DCAgent/g1_top8_diverse_10000_32b_seed456_step455__Qwen3-32B)
-**Author:** DCAgent  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: agent (name).
-
----
-
-
-
-### [autoprogrammer/sdar4b-ts-K1-esft-summary](https://huggingface.co/autoprogrammer/sdar4b-ts-K1-esft-summary)
-**Author:** autoprogrammer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sdar`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [Lyra-L/ppo-SnowballTarget](https://huggingface.co/Lyra-L/ppo-SnowballTarget)
-**Author:** Lyra-L  
-**Task:** reinforcement learning  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ml-agents`, `tensorboard`, `onnx`, `SnowballTarget`, `deep-reinforcement-learning`, `reinforcement-learning`, `ML-Agents-SnowballTarget`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: agent. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [blue-tundra-42/code_and_model](https://huggingface.co/blue-tundra-42/code_and_model)
-**Author:** blue-tundra-42  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** zh, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `qwen`, `scoring`, `grading`, `evaluation`, `llm-judge`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code (name).
-
----
-
-
-
-### [Gege24/zay-gemma-2b-instruct-pathD-09e29c54](https://huggingface.co/Gege24/zay-gemma-2b-instruct-pathD-09e29c54)
-**Author:** Gege24  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma2`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
-
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 19:09 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 21:52 UTC*
