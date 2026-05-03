@@ -1,11 +1,69 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-03  
-**Run timestamp:** 2026-05-03 10:11 UTC  
+**Run timestamp:** 2026-05-03 13:25 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 4
+**New models found:** 7
+
+---
+
+
+
+### [brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed2](https://huggingface.co/brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed2)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma3`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Pampaj/wbes-faceembedding-dn-mixed-topology-v1](https://huggingface.co/Pampaj/wbes-faceembedding-dn-mixed-topology-v1)
+**Author:** Pampaj  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `3d`, `mesh`, `face-recognition`, `diffusionnet`, `topology-robustness`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
+
+---
+
+
+
+### [open-sci/sft_ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k_v0](https://huggingface.co/open-sci/sft_ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k_v0)
+**Author:** open-sci  
+**Task:** feature extraction / embedding generation  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tensorboard`, `opensci`, `feature-extraction`, `llama-factory`, `full`, `generated_from_trainer`, `custom_code`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [minhnguyent546/cotu-legal-retriever-Qwen3-Embedding-8B-stage1](https://huggingface.co/minhnguyent546/cotu-legal-retriever-Qwen3-Embedding-8B-stage1)
+**Author:** minhnguyent546  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-03  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
 
 ---
 
@@ -25,44 +83,30 @@
 
 
 
-### [sieckenwingz/e5-resume-matcher-mnrl-v3](https://huggingface.co/sieckenwingz/e5-resume-matcher-mnrl-v3)
-**Author:** sieckenwingz  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:1489`, `loss:MultipleNegativesRankingLoss`, `text-embeddings-inference`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tech5/my-model](https://huggingface.co/tech5/my-model)
-**Author:** tech5  
-**Task:** text classification  
+### [brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed1](https://huggingface.co/brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed1)
+**Author:** brendan-gho  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-03  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `jailbreak-detection`, `prompt-safety`, `llm-security`, `classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma3`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [sakshidethe03/my-basic-model-demo](https://huggingface.co/sakshidethe03/my-basic-model-demo)
-**Author:** sakshidethe03  
-**Task:** feature extraction / embedding generation  
+### [a-anurag1024/rinlekha-merged-fp16](https://huggingface.co/a-anurag1024/rinlekha-merged-fp16)
+**Author:** a-anurag1024  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `gemma3`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -70,4 +114,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 10:11 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 13:25 UTC*

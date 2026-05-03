@@ -1,14 +1,138 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-03T10:11:31.711790+00:00",
-  "model_count": 4,
+  "run_at": "2026-05-03T13:25:57.064090+00:00",
+  "model_count": 7,
   "models": [
+    {
+      "id": "brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed2",
+      "author": "brendan-gho",
+      "name": "gemma3-4b-dragon-nums-r8-bs22-gas3-seed2",
+      "created_at": "2026-05-03T13:22:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "gemma3",
+        "trl",
+        "en",
+        "base_model:unsloth/gemma-3-4b-it",
+        "base_model:finetune:unsloth/gemma-3-4b-it",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Pampaj/wbes-faceembedding-dn-mixed-topology-v1",
+      "author": "Pampaj",
+      "name": "wbes-faceembedding-dn-mixed-topology-v1",
+      "created_at": "2026-05-03T13:22:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "pytorch",
+        "3d",
+        "mesh",
+        "face-recognition",
+        "diffusionnet",
+        "topology-robustness",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Pampaj/wbes-faceembedding-dn-mixed-topology-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "open-sci/sft_ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k_v0",
+      "author": "open-sci",
+      "name": "sft_ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k_v0",
+      "created_at": "2026-05-03T13:12:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "opensci",
+        "feature-extraction",
+        "llama-factory",
+        "full",
+        "generated_from_trainer",
+        "custom_code",
+        "base_model:ali-elganzory/1.7b-MixtureVitae-300BT-v1-16k-SFT-Tulu3",
+        "base_model:finetune:ali-elganzory/1.7b-MixtureVitae-300BT-v1-16k-SFT-Tulu3",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/open-sci/sft_ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k_v0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "minhnguyent546/cotu-legal-retriever-Qwen3-Embedding-8B-stage1",
+      "author": "minhnguyent546",
+      "name": "cotu-legal-retriever-Qwen3-Embedding-8B-stage1",
+      "created_at": "2026-05-03T13:10:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minhnguyent546/cotu-legal-retriever-Qwen3-Embedding-8B-stage1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
     {
       "id": "WassupWuK/MyAwesomeModel-TestRepo",
       "author": "WassupWuK",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-03T10:08:40+00:00",
+      "created_at": "2026-05-03T12:55:13+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,64 +158,23 @@
       ]
     },
     {
-      "id": "sieckenwingz/e5-resume-matcher-mnrl-v3",
-      "author": "sieckenwingz",
-      "name": "e5-resume-matcher-mnrl-v3",
-      "created_at": "2026-05-03T09:56:14+00:00",
+      "id": "brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed1",
+      "author": "brendan-gho",
+      "name": "gemma3-4b-dragon-nums-r8-bs22-gas3-seed1",
+      "created_at": "2026-05-03T12:30:23+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:1489",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1705.00652",
-        "base_model:intfloat/e5-base-v2",
-        "base_model:finetune:intfloat/e5-base-v2",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sieckenwingz/e5-resume-matcher-mnrl-v3",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "tech5/my-model",
-      "author": "tech5",
-      "name": "my-model",
-      "created_at": "2026-05-03T09:35:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
-        "text-classification",
-        "jailbreak-detection",
-        "prompt-safety",
-        "llm-security",
-        "classification",
+        "text-generation-inference",
+        "unsloth",
+        "gemma3",
+        "trl",
         "en",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "base_model:unsloth/gemma-3-4b-it",
+        "base_model:finetune:unsloth/gemma-3-4b-it",
         "license:apache-2.0",
-        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -99,7 +182,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tech5/my-model",
+      "url": "https://huggingface.co/brendan-gho/gemma3-4b-dragon-nums-r8-bs22-gas3-seed1",
       "description": null,
       "languages": [
         "en"
@@ -107,36 +190,32 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "sakshidethe03/my-basic-model-demo",
-      "author": "sakshidethe03",
-      "name": "my-basic-model-demo",
-      "created_at": "2026-05-03T09:17:20+00:00",
+      "id": "a-anurag1024/rinlekha-merged-fp16",
+      "author": "a-anurag1024",
+      "name": "rinlekha-merged-fp16",
+      "created_at": "2026-05-03T12:21:07+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
         "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
+        "gemma3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sakshidethe03/my-basic-model-demo",
+      "url": "https://huggingface.co/a-anurag1024/rinlekha-merged-fp16",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     }
   ]
