@@ -1,96 +1,38 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-04  
-**Run timestamp:** 2026-05-04 03:50 UTC  
+**Run timestamp:** 2026-05-04 08:38 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 5
 
 ---
 
 
 
-### [eioq/klue-bert-base-nsmc](https://huggingface.co/eioq/klue-bert-base-nsmc)
-**Author:** eioq  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [dubuHJS/klue-bert-base-nsmc](https://huggingface.co/dubuHJS/klue-bert-base-nsmc)
-**Author:** dubuHJS  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [jyyyyyyyy2/klue-bert-base-nsmc](https://huggingface.co/jyyyyyyyy2/klue-bert-base-nsmc)
-**Author:** jyyyyyyyy2  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA](https://huggingface.co/CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA)
-**Author:** CosmicAlpaca  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [Melland/hpo_pubmedbert-rbp-angle](https://huggingface.co/Melland/hpo_pubmedbert-rbp-angle)
+**Author:** Melland  
+**Task:** sentence similarity and semantic search  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-04  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `bert`, `feature-extraction`, `sentence-similarity`, `biomedical`, `hpo`, `phenotype`, `rare-disease`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [blimu/klue-bert-base-nsmc](https://huggingface.co/blimu/klue-bert-base-nsmc)
-**Author:** blimu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [arturoornelasb/triadic-gpt2-medium-v6](https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v6)
-**Author:** arturoornelasb  
+### [petra345/MyAwesomeModel-TestRepo](https://huggingface.co/petra345/MyAwesomeModel-TestRepo)
+**Author:** petra345  
 **Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-04  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `triadic-head`, `neurosymbolic`, `binary-codes`, `ontological-primitives`, `phase-transition`, `emergent-duality`, `representation-learning`, `triadic-duality`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
@@ -98,29 +40,43 @@
 
 
 
-### [arturoornelasb/triadic-gpt2-medium-v5](https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v5)
-**Author:** arturoornelasb  
-**Task:** feature extraction / embedding generation  
+### [staralt/Qwen3-VL-Reranker-2B-Q5_K_M-GGUF](https://huggingface.co/staralt/Qwen3-VL-Reranker-2B-Q5_K_M-GGUF)
+**Author:** staralt  
+**Task:** text ranking and reranking  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-04  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `triadic-head`, `neurosymbolic`, `binary-codes`, `ontological-primitives`, `phase-transition`, `emergent-duality`, `representation-learning`, `triadic-duality`  
+**Tags:** `gguf`, `sentence-transformers`, `multimodal rerank`, `text rerank`, `llama-cpp`, `gguf-my-repo`, `text-ranking`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: sentence-transformers, reranker. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [zoarag/WarTorn54](https://huggingface.co/zoarag/WarTorn54)
-**Author:** zoarag  
-**Task:** general  
+### [Shamayita09/emotion-distilbert](https://huggingface.co/Shamayita09/emotion-distilbert)
+**Author:** Shamayita09  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [staralt/Qwen3-VL-Reranker-2B-Q8_0-GGUF](https://huggingface.co/staralt/Qwen3-VL-Reranker-2B-Q8_0-GGUF)
+**Author:** staralt  
+**Task:** text ranking and reranking  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `sentence-transformers`, `multimodal rerank`, `text rerank`, `llama-cpp`, `gguf-my-repo`, `text-ranking`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: sentence-transformers, reranker. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -128,4 +84,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 03:50 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 08:38 UTC*
