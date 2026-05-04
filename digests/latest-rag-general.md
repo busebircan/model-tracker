@@ -1,45 +1,31 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-04  
-**Run timestamp:** 2026-05-04 11:09 UTC  
+**Run timestamp:** 2026-05-04 14:18 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 10
+**New models found:** 6
 
 ---
 
 
 
-### [zoarag/EveryPokemonLora](https://huggingface.co/zoarag/EveryPokemonLora)
-**Author:** zoarag  
+### [erwffd/mi-lora-mtebs](https://huggingface.co/erwffd/mi-lora-mtebs)
+**Author:** erwffd  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: mteb (name).
 
 ---
 
 
 
-### [Aklak23324/phishing-detector-v2](https://huggingface.co/Aklak23324/phishing-detector-v2)
-**Author:** Aklak23324  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [8rav0/review-sentiment-distilbert](https://huggingface.co/8rav0/review-sentiment-distilbert)
-**Author:** 8rav0  
+### [adiassulin/emotion-monitor-text](https://huggingface.co/adiassulin/emotion-monitor-text)
+**Author:** adiassulin  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
@@ -52,37 +38,8 @@
 
 
 
-### [Rizwan313/Qwen3-VL-Embedding-2B-GGUF](https://huggingface.co/Rizwan313/Qwen3-VL-Embedding-2B-GGUF)
-**Author:** Rizwan313  
-**Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `quantized`, `llama-cpp`, `qwen`, `qwen3_vl`, `multimodal`, `embedding`, `vision-language`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
-
----
-
-
-
-### [RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja-ONNX](https://huggingface.co/RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja-ONNX)
-**Author:** RikkaBotan  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `bert`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name), retrieval (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [haythembs/marbertv2-sarcasm-tunisian](https://huggingface.co/haythembs/marbertv2-sarcasm-tunisian)
-**Author:** haythembs  
+### [maria518763/classification-appropriate-darija3](https://huggingface.co/maria518763/classification-appropriate-darija3)
+**Author:** maria518763  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
@@ -95,57 +52,44 @@
 
 
 
-### [gabrielloiseau/ettin400m-router](https://huggingface.co/gabrielloiseau/ettin400m-router)
-**Author:** gabrielloiseau  
-**Task:** text classification  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `pan-2026`, `style-change-detection`, `cross-encoder`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers, cross-encoder.
-
----
-
-
-
-### [gabrielloiseau/ettin400m-hard](https://huggingface.co/gabrielloiseau/ettin400m-hard)
-**Author:** gabrielloiseau  
-**Task:** text ranking and reranking  
+### [OpenWhistleNeurIPS26/OpenWhistle-Wav2Vec2.0](https://huggingface.co/OpenWhistleNeurIPS26/OpenWhistle-Wav2Vec2.0)
+**Author:** OpenWhistleNeurIPS26  
+**Task:** feature extraction / embedding generation  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:589946`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
+**Tags:** `wav2vec2`, `bioacoustics`, `audio`, `self-supervised-learning`, `dolphin`, `bottlenose-dolphin`, `whistle`, `openwhistle`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [gabrielloiseau/ettin400m-medium](https://huggingface.co/gabrielloiseau/ettin400m-medium)
-**Author:** gabrielloiseau  
-**Task:** text ranking and reranking  
+### [mradermacher/DocWain-14B-v2-unified-dpo-i1-GGUF](https://huggingface.co/mradermacher/DocWain-14B-v2-unified-dpo-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-05-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `document-intelligence`, `rag`, `extraction`, `enterprise`, `docwain`, `endpoints_compatible`, `imatrix`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [bragee/Multi-Manifold-Retrieval_POC](https://huggingface.co/bragee/Multi-Manifold-Retrieval_POC)
+**Author:** bragee  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:1299324`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
-
----
-
-
-
-### [gabrielloiseau/ettin400m-easy](https://huggingface.co/gabrielloiseau/ettin400m-easy)
-**Author:** gabrielloiseau  
-**Task:** text ranking and reranking  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:549804`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval (name), rag (name).
 
 
 
@@ -153,4 +97,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 11:09 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 14:18 UTC*
