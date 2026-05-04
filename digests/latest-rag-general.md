@@ -1,61 +1,45 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-04  
-**Run timestamp:** 2026-05-04 08:38 UTC  
+**Run timestamp:** 2026-05-04 11:09 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 5
+**New models found:** 10
 
 ---
 
 
 
-### [Melland/hpo_pubmedbert-rbp-angle](https://huggingface.co/Melland/hpo_pubmedbert-rbp-angle)
-**Author:** Melland  
-**Task:** sentence similarity and semantic search  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `feature-extraction`, `sentence-similarity`, `biomedical`, `hpo`, `phenotype`, `rare-disease`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [petra345/MyAwesomeModel-TestRepo](https://huggingface.co/petra345/MyAwesomeModel-TestRepo)
-**Author:** petra345  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [zoarag/EveryPokemonLora](https://huggingface.co/zoarag/EveryPokemonLora)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [staralt/Qwen3-VL-Reranker-2B-Q5_K_M-GGUF](https://huggingface.co/staralt/Qwen3-VL-Reranker-2B-Q5_K_M-GGUF)
-**Author:** staralt  
-**Task:** text ranking and reranking  
+### [Aklak23324/phishing-detector-v2](https://huggingface.co/Aklak23324/phishing-detector-v2)
+**Author:** Aklak23324  
+**Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `sentence-transformers`, `multimodal rerank`, `text rerank`, `llama-cpp`, `gguf-my-repo`, `text-ranking`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: sentence-transformers, reranker. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [Shamayita09/emotion-distilbert](https://huggingface.co/Shamayita09/emotion-distilbert)
-**Author:** Shamayita09  
+### [8rav0/review-sentiment-distilbert](https://huggingface.co/8rav0/review-sentiment-distilbert)
+**Author:** 8rav0  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-04  
@@ -68,15 +52,100 @@
 
 
 
-### [staralt/Qwen3-VL-Reranker-2B-Q8_0-GGUF](https://huggingface.co/staralt/Qwen3-VL-Reranker-2B-Q8_0-GGUF)
-**Author:** staralt  
-**Task:** text ranking and reranking  
+### [Rizwan313/Qwen3-VL-Embedding-2B-GGUF](https://huggingface.co/Rizwan313/Qwen3-VL-Embedding-2B-GGUF)
+**Author:** Rizwan313  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `quantized`, `llama-cpp`, `qwen`, `qwen3_vl`, `multimodal`, `embedding`, `vision-language`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja-ONNX](https://huggingface.co/RikkaBotan/stable-static-embedding-fast-retrieval-mrl-ja-ONNX)
+**Author:** RikkaBotan  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `sentence-transformers`, `multimodal rerank`, `text rerank`, `llama-cpp`, `gguf-my-repo`, `text-ranking`, `endpoints_compatible`  
+**Tags:** `onnx`, `bert`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: sentence-transformers, reranker. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name), retrieval (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [haythembs/marbertv2-sarcasm-tunisian](https://huggingface.co/haythembs/marbertv2-sarcasm-tunisian)
+**Author:** haythembs  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [gabrielloiseau/ettin400m-router](https://huggingface.co/gabrielloiseau/ettin400m-router)
+**Author:** gabrielloiseau  
+**Task:** text classification  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `modernbert`, `pan-2026`, `style-change-detection`, `cross-encoder`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers, cross-encoder.
+
+---
+
+
+
+### [gabrielloiseau/ettin400m-hard](https://huggingface.co/gabrielloiseau/ettin400m-hard)
+**Author:** gabrielloiseau  
+**Task:** text ranking and reranking  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:589946`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [gabrielloiseau/ettin400m-medium](https://huggingface.co/gabrielloiseau/ettin400m-medium)
+**Author:** gabrielloiseau  
+**Task:** text ranking and reranking  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:1299324`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [gabrielloiseau/ettin400m-easy](https://huggingface.co/gabrielloiseau/ettin400m-easy)
+**Author:** gabrielloiseau  
+**Task:** text ranking and reranking  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:549804`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
 
 
 
@@ -84,4 +153,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 08:38 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 11:09 UTC*
