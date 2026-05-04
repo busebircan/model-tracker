@@ -1,210 +1,135 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-04T16:53:13.065963+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-04T19:49:15.630810+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "Tairan252/MyAwesomeModel-TestRepo",
-      "author": "Tairan252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-04T16:41:57+00:00",
+      "id": "fassabilf/tp3-tbi-bge-m3-reranker-run-weaklang-v1",
+      "author": "fassabilf",
+      "name": "tp3-tbi-bge-m3-reranker-run-weaklang-v1",
+      "created_at": "2026-05-04T19:40:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/fassabilf/tp3-tbi-bge-m3-reranker-run-weaklang-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "LucaFranceschi/demotest-storage",
+      "author": "LucaFranceschi",
+      "name": "demotest-storage",
+      "created_at": "2026-05-04T19:39:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LucaFranceschi/demotest-storage",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "augmem/AIST-87M-GGUF",
+      "author": "augmem",
+      "name": "AIST-87M-GGUF",
+      "created_at": "2026-05-04T19:33:41+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
+        "gguf",
+        "multimodal",
+        "embedding",
+        "trimodal",
+        "retrieval",
+        "image-text-audio",
+        "audio",
+        "speech",
+        "memory-augmentation",
         "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "adityarb97/bert-finetuned-imdb",
-      "author": "adityarb97",
-      "name": "bert-finetuned-imdb",
-      "created_at": "2026-05-04T16:27:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
+        "quantized",
+        "en",
+        "dataset:custom",
+        "base_model:augmem/AIST-87M",
+        "base_model:quantized:augmem/AIST-87M",
         "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/adityarb97/bert-finetuned-imdb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "tomaarsen/multilingual-e5-small-mmarco-nl-v2",
-      "author": "tomaarsen",
-      "name": "multilingual-e5-small-mmarco-nl-v2",
-      "created_at": "2026-05-04T16:26:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:150000",
-        "loss:MultipleNegativesRankingLoss",
-        "nl",
-        "dataset:tomaarsen/msmarco-Qwen3-Reranker-0.6B-dutch",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:intfloat/multilingual-e5-small",
-        "base_model:finetune:intfloat/multilingual-e5-small",
-        "license:apache-2.0",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tomaarsen/multilingual-e5-small-mmarco-nl-v2",
+      "url": "https://huggingface.co/augmem/AIST-87M-GGUF",
       "description": null,
       "languages": [
-        "nl"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers, reranker"
+        "task match: feature-extraction",
+        "tag match: embedding, retrieval"
       ]
     },
     {
-      "id": "HiImHa/phobert-cross-encoder",
-      "author": "HiImHa",
-      "name": "phobert-cross-encoder",
-      "created_at": "2026-05-04T16:25:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HiImHa/phobert-cross-encoder",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: cross-encoder (name)"
-      ]
-    },
-    {
-      "id": "HiImHa/phobert-bi-encoder",
-      "author": "HiImHa",
-      "name": "phobert-bi-encoder",
-      "created_at": "2026-05-04T16:24:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "dense",
-        "generated_from_trainer",
-        "dataset_size:16399",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1705.00652",
-        "base_model:vinai/phobert-base-v2",
-        "base_model:finetune:vinai/phobert-base-v2",
-        "model-index",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HiImHa/phobert-bi-encoder",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: sentence-transformers, bi-encoder (name)"
-      ]
-    },
-    {
-      "id": "Yuxuan63/MyAwesomeModel-TestRepo",
-      "author": "Yuxuan63",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-04T16:14:52+00:00",
+      "id": "augmem/AIST-87M",
+      "author": "augmem",
+      "name": "AIST-87M",
+      "created_at": "2026-05-04T19:33:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
         "pytorch",
-        "bert",
+        "multimodal",
+        "embedding",
+        "trimodal",
+        "retrieval",
+        "image-text-audio",
+        "audio",
+        "speech",
+        "memory-augmentation",
         "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "en",
+        "dataset:custom",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Yuxuan63/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/augmem/AIST-87M",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: feature-extraction",
+        "tag match: embedding, retrieval"
       ]
     }
   ]
