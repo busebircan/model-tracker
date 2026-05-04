@@ -1,89 +1,131 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-03  
-**Run timestamp:** 2026-05-03 21:52 UTC  
+**Date:** 2026-05-04  
+**Run timestamp:** 2026-05-04 03:50 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 5
+**New models found:** 8
 
 ---
 
 
 
-### [brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2](https://huggingface.co/brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2)
-**Author:** brendan-gho  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `gemma3`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [zoarag/Yoasoby](https://huggingface.co/zoarag/Yoasoby)
-**Author:** zoarag  
-**Task:** general  
+### [eioq/klue-bert-base-nsmc](https://huggingface.co/eioq/klue-bert-base-nsmc)
+**Author:** eioq  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-03  
+**Published:** 2026-05-04  
 **Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2](https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2)
-**Author:** brendan-gho  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [ShurongSR/pet-food-recall-risk-classifier](https://huggingface.co/ShurongSR/pet-food-recall-risk-classifier)
-**Author:** ShurongSR  
-**Task:** text classification  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sklearn`, `joblib`, `text-classification`, `multi-label-classification`, `pet-food`, `recall`, `food-safety`, `sentence-transformers`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers.
-
----
-
-
-
-### [Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased](https://huggingface.co/Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased)
-**Author:** Alex1-ai  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
+---
+
+
+
+### [dubuHJS/klue-bert-base-nsmc](https://huggingface.co/dubuHJS/klue-bert-base-nsmc)
+**Author:** dubuHJS  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [jyyyyyyyy2/klue-bert-base-nsmc](https://huggingface.co/jyyyyyyyy2/klue-bert-base-nsmc)
+**Author:** jyyyyyyyy2  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA](https://huggingface.co/CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA)
+**Author:** CosmicAlpaca  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [blimu/klue-bert-base-nsmc](https://huggingface.co/blimu/klue-bert-base-nsmc)
+**Author:** blimu  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [arturoornelasb/triadic-gpt2-medium-v6](https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v6)
+**Author:** arturoornelasb  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `triadic-head`, `neurosymbolic`, `binary-codes`, `ontological-primitives`, `phase-transition`, `emergent-duality`, `representation-learning`, `triadic-duality`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [arturoornelasb/triadic-gpt2-medium-v5](https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v5)
+**Author:** arturoornelasb  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `triadic-head`, `neurosymbolic`, `binary-codes`, `ontological-primitives`, `phase-transition`, `emergent-duality`, `representation-learning`, `triadic-duality`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [zoarag/WarTorn54](https://huggingface.co/zoarag/WarTorn54)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-04  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-03 21:52 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-04 03:50 UTC*

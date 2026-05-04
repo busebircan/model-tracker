@@ -1,14 +1,104 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-03T21:52:16.414028+00:00",
-  "model_count": 5,
+  "run_at": "2026-05-04T03:50:57.253623+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
-      "author": "brendan-gho",
-      "name": "gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
-      "created_at": "2026-05-03T21:07:13+00:00",
+      "id": "eioq/klue-bert-base-nsmc",
+      "author": "eioq",
+      "name": "klue-bert-base-nsmc",
+      "created_at": "2026-05-04T03:48:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/eioq/klue-bert-base-nsmc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "dubuHJS/klue-bert-base-nsmc",
+      "author": "dubuHJS",
+      "name": "klue-bert-base-nsmc",
+      "created_at": "2026-05-04T03:46:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dubuHJS/klue-bert-base-nsmc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "jyyyyyyyy2/klue-bert-base-nsmc",
+      "author": "jyyyyyyyy2",
+      "name": "klue-bert-base-nsmc",
+      "created_at": "2026-05-04T03:41:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jyyyyyyyy2/klue-bert-base-nsmc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA",
+      "author": "CosmicAlpaca",
+      "name": "Qwen2.5-7B-RAG-Academic-LoRA",
+      "created_at": "2026-05-04T03:28:53+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -16,11 +106,9 @@
         "safetensors",
         "text-generation-inference",
         "unsloth",
-        "gemma3",
+        "qwen2",
         "trl",
         "en",
-        "base_model:unsloth/gemma-3-4b-it",
-        "base_model:finetune:unsloth/gemma-3-4b-it",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -29,7 +117,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-dragon-nums-r8-bs22-gas3-seed2",
+      "url": "https://huggingface.co/CosmicAlpaca/Qwen2.5-7B-RAG-Academic-LoRA",
       "description": null,
       "languages": [
         "en"
@@ -41,10 +129,123 @@
       ]
     },
     {
-      "id": "zoarag/Yoasoby",
+      "id": "blimu/klue-bert-base-nsmc",
+      "author": "blimu",
+      "name": "klue-bert-base-nsmc",
+      "created_at": "2026-05-04T03:24:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/blimu/klue-bert-base-nsmc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "arturoornelasb/triadic-gpt2-medium-v6",
+      "author": "arturoornelasb",
+      "name": "triadic-gpt2-medium-v6",
+      "created_at": "2026-05-04T03:15:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "pytorch",
+        "triadic-head",
+        "neurosymbolic",
+        "binary-codes",
+        "ontological-primitives",
+        "phase-transition",
+        "emergent-duality",
+        "representation-learning",
+        "triadic-duality",
+        "extended-corpus",
+        "frozen-base",
+        "feature-extraction",
+        "en",
+        "dataset:wikitext",
+        "base_model:openai-community/gpt2-medium",
+        "base_model:finetune:openai-community/gpt2-medium",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v6",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "arturoornelasb/triadic-gpt2-medium-v5",
+      "author": "arturoornelasb",
+      "name": "triadic-gpt2-medium-v5",
+      "created_at": "2026-05-04T03:15:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "pytorch",
+        "triadic-head",
+        "neurosymbolic",
+        "binary-codes",
+        "ontological-primitives",
+        "phase-transition",
+        "emergent-duality",
+        "representation-learning",
+        "triadic-duality",
+        "frozen-base",
+        "feature-extraction",
+        "en",
+        "dataset:wikitext",
+        "base_model:openai-community/gpt2-medium",
+        "base_model:finetune:openai-community/gpt2-medium",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arturoornelasb/triadic-gpt2-medium-v5",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zoarag/WarTorn54",
       "author": "zoarag",
-      "name": "Yoasoby",
-      "created_at": "2026-05-03T21:02:06+00:00",
+      "name": "WarTorn54",
+      "created_at": "2026-05-04T03:03:43+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -54,116 +255,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Yoasoby",
+      "url": "https://huggingface.co/zoarag/WarTorn54",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
-      "author": "brendan-gho",
-      "name": "llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
-      "created_at": "2026-05-03T20:52:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-nums-r8-bs22-gas3-seed2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ShurongSR/pet-food-recall-risk-classifier",
-      "author": "ShurongSR",
-      "name": "pet-food-recall-risk-classifier",
-      "created_at": "2026-05-03T20:45:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "sklearn",
-        "joblib",
-        "text-classification",
-        "multi-label-classification",
-        "pet-food",
-        "recall",
-        "food-safety",
-        "sentence-transformers",
-        "en",
-        "license:cc-by-4.0",
-        "model-index",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ShurongSR/pet-food-recall-risk-classifier",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers"
-      ]
-    },
-    {
-      "id": "Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "author": "Alex1-ai",
-      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "created_at": "2026-05-03T20:36:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Alex1-ai/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
       ]
     }
   ]
