@@ -1,40 +1,41 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-05  
-**Run timestamp:** 2026-05-05 10:51 UTC  
+**Run timestamp:** 2026-05-05 15:43 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 5
 
 ---
 
 
 
-### [KirinWong/bge-large-en-v1.5](https://huggingface.co/KirinWong/bge-large-en-v1.5)
-**Author:** KirinWong  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [tomaarsen/reranker-japanese-tiny-auto-wiki-qa](https://huggingface.co/tomaarsen/reranker-japanese-tiny-auto-wiki-qa)
+**Author:** tomaarsen  
+**Task:** text ranking and reranking  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-05  
+**Languages:** ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `deberta-v2`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:595556`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [jsanzolac/qwen3_glove_512](https://huggingface.co/jsanzolac/qwen3_glove_512)
+**Author:** jsanzolac  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-05  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `onnx`, `bert`, `feature-extraction`, `sentence-similarity`, `mteb`, `model-index`, `text-embeddings-inference`  
+**Tags:** `glove`, `embeddings`, `qwen3`, `wikipedia`, `dataset:jsanzolac/ga_wikipedia`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, mteb. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
-
----
-
-
-
-### [storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju](https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju)
-**Author:** storagejuju  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
@@ -54,13 +55,14 @@
 
 
 
-### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
-**Author:** mazextest2026  
+### [ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated](https://huggingface.co/ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated)
+**Author:** ali-elganzory  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-05-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `tensorboard`, `opensci`, `feature-extraction`, `llama-factory`, `full`, `generated_from_trainer`, `custom_code`, `dataset:arrow`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
@@ -68,58 +70,15 @@
 
 
 
-### [tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k](https://huggingface.co/tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k)
-**Author:** tomaarsen  
+### [allam-copart/reranker-onnx-quantize](https://huggingface.co/allam-copart/reranker-onnx-quantize)
+**Author:** allam-copart  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-05  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
-
----
-
-
-
-### [mradermacher/Octen-Embedding-0.6B-i1-GGUF](https://huggingface.co/mradermacher/Octen-Embedding-0.6B-i1-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [davanstrien/dhd-demo](https://huggingface.co/davanstrien/dhd-demo)
-**Author:** davanstrien  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-05  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `text-classification`, `legal`, `glam`, `digital-humanities`, `jim-crow`, `north-carolina`, `legislation`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [a-issaoui/scry-coderag-parser-0.5b-v2](https://huggingface.co/a-issaoui/scry-coderag-parser-0.5b-v2)
-**Author:** a-issaoui  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~0.5B (from model name)  
-**Published:** 2026-05-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name). Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -127,4 +86,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-05 10:51 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-05 15:43 UTC*

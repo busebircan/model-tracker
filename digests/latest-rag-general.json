@@ -1,43 +1,76 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-05T10:51:02.597022+00:00",
-  "model_count": 8,
+  "run_at": "2026-05-05T15:43:57.075092+00:00",
+  "model_count": 5,
   "models": [
     {
-      "id": "KirinWong/bge-large-en-v1.5",
-      "author": "KirinWong",
-      "name": "bge-large-en-v1.5",
-      "created_at": "2026-05-05T10:49:43+00:00",
+      "id": "tomaarsen/reranker-japanese-tiny-auto-wiki-qa",
+      "author": "tomaarsen",
+      "name": "reranker-japanese-tiny-auto-wiki-qa",
+      "created_at": "2026-05-05T15:43:24+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-ranking",
       "tags": [
         "sentence-transformers",
-        "pytorch",
-        "onnx",
         "safetensors",
-        "bert",
-        "feature-extraction",
-        "sentence-similarity",
-        "transformers",
-        "mteb",
-        "en",
-        "arxiv:2401.03462",
-        "arxiv:2312.15503",
-        "arxiv:2311.13534",
-        "arxiv:2310.07554",
-        "arxiv:2309.07597",
-        "license:mit",
+        "deberta-v2",
+        "cross-encoder",
+        "reranker",
+        "generated_from_trainer",
+        "dataset_size:595556",
+        "loss:BinaryCrossEntropyLoss",
+        "text-ranking",
+        "ja",
+        "arxiv:1908.10084",
+        "base_model:ku-nlp/deberta-v2-tiny-japanese",
+        "base_model:finetune:ku-nlp/deberta-v2-tiny-japanese",
+        "license:apache-2.0",
         "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/KirinWong/bge-large-en-v1.5",
+      "url": "https://huggingface.co/tomaarsen/reranker-japanese-tiny-auto-wiki-qa",
+      "description": null,
+      "languages": [
+        "ja"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-ranking",
+        "tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder"
+      ]
+    },
+    {
+      "id": "jsanzolac/qwen3_glove_512",
+      "author": "jsanzolac",
+      "name": "qwen3_glove_512",
+      "created_at": "2026-05-05T15:25:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "glove",
+        "embeddings",
+        "qwen3",
+        "wikipedia",
+        "en",
+        "dataset:jsanzolac/ga_wikipedia",
+        "base_model:Qwen/Qwen3-Embedding-8B",
+        "base_model:finetune:Qwen/Qwen3-Embedding-8B",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jsanzolac/qwen3_glove_512",
       "description": null,
       "languages": [
         "en"
@@ -45,39 +78,14 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding, sentence-transformers, mteb"
-      ]
-    },
-    {
-      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "created_at": "2026-05-05T10:40:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gemma4",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
       "id": "Tairan252/MyAwesomeModel-TestRepo",
       "author": "Tairan252",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T10:34:29+00:00",
+      "created_at": "2026-05-05T15:14:58+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -103,151 +111,61 @@
       ]
     },
     {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T10:28:10+00:00",
+      "id": "ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
+      "author": "ali-elganzory",
+      "name": "sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
+      "created_at": "2026-05-05T15:14:51+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
+        "tensorboard",
+        "safetensors",
+        "opensci",
         "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "llama-factory",
+        "full",
+        "generated_from_trainer",
+        "custom_code",
+        "dataset:arrow",
+        "license:other",
         "region:us"
       ],
-      "license": "mit",
+      "license": "other",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "task match: feature-extraction"
       ]
     },
     {
-      "id": "tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k",
-      "author": "tomaarsen",
-      "name": "reranker-PubMedBERT-base-MIRIAD-150k",
-      "created_at": "2026-05-05T10:26:42+00:00",
+      "id": "allam-copart/reranker-onnx-quantize",
+      "author": "allam-copart",
+      "name": "reranker-onnx-quantize",
+      "created_at": "2026-05-05T14:57:46+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "onnx",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k",
+      "url": "https://huggingface.co/allam-copart/reranker-onnx-quantize",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: reranker (name)"
-      ]
-    },
-    {
-      "id": "mradermacher/Octen-Embedding-0.6B-i1-GGUF",
-      "author": "mradermacher",
-      "name": "Octen-Embedding-0.6B-i1-GGUF",
-      "created_at": "2026-05-05T10:17:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Octen-Embedding-0.6B-i1-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "davanstrien/dhd-demo",
-      "author": "davanstrien",
-      "name": "dhd-demo",
-      "created_at": "2026-05-05T09:42:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "modernbert",
-        "text-classification",
-        "legal",
-        "glam",
-        "digital-humanities",
-        "jim-crow",
-        "north-carolina",
-        "legislation",
-        "generated_from_trainer",
-        "en",
-        "dataset:biglam/on_the_books",
-        "base_model:answerdotai/ModernBERT-base",
-        "base_model:finetune:answerdotai/ModernBERT-base",
-        "license:apache-2.0",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/davanstrien/dhd-demo",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "a-issaoui/scry-coderag-parser-0.5b-v2",
-      "author": "a-issaoui",
-      "name": "scry-coderag-parser-0.5b-v2",
-      "created_at": "2026-05-05T09:40:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "arxiv:1910.09700",
-        "base_model:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/a-issaoui/scry-coderag-parser-0.5b-v2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
       ]
     }
   ]
