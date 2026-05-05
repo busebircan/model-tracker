@@ -1,28 +1,421 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-04T22:08:38.626955+00:00",
-  "model_count": 4,
+  "run_at": "2026-05-05T03:32:54.883079+00:00",
+  "model_count": 15,
   "models": [
     {
-      "id": "MaunikG/bioclinical-modernbert-base-embeddings-ONNX",
-      "author": "MaunikG",
-      "name": "bioclinical-modernbert-base-embeddings-ONNX",
-      "created_at": "2026-05-04T21:54:09+00:00",
+      "id": "thisisadi/hate-speech-roberta",
+      "author": "thisisadi",
+      "name": "hate-speech-roberta",
+      "created_at": "2026-05-05T03:28:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/thisisadi/hate-speech-roberta",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "mradermacher/Octen-Embedding-0.6B-GGUF",
+      "author": "mradermacher",
+      "name": "Octen-Embedding-0.6B-GGUF",
+      "created_at": "2026-05-05T03:25:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Octen-Embedding-0.6B-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "osunlp/sae-trait-annotation",
+      "author": "osunlp",
+      "name": "sae-trait-annotation",
+      "created_at": "2026-05-05T03:15:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "sparse-autoencoder",
+        "biology",
+        "computer-vision",
+        "dinov2",
+        "morphological-traits",
+        "insects",
+        "biodiversity",
+        "feature-extraction",
+        "dataset:osunlp/bioscan-traits",
+        "arxiv:2604.01619",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/osunlp/sae-trait-annotation",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "luciferai-devil/smriti-ai",
+      "author": "luciferai-devil",
+      "name": "smriti-ai",
+      "created_at": "2026-05-05T03:10:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "smriti-ai",
+        "ai-agent",
+        "memory",
+        "small-language-models",
+        "inference-time-augmentation",
+        "semantic-search",
+        "knowledge-graph",
+        "identity-continuity",
+        "rag",
+        "text-generation",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/luciferai-devil/smriti-ai",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag, semantic-search"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "created_at": "2026-05-05T03:01:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "created_at": "2026-05-05T02:58:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "created_at": "2026-05-05T02:55:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "created_at": "2026-05-05T02:52:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "created_at": "2026-05-05T02:49:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "created_at": "2026-05-05T02:46:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_18",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "lovebird-ll/MyAwesomeModel-TestRepo",
+      "author": "lovebird-ll",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-05T02:43:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lovebird-ll/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "created_at": "2026-05-05T02:42:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_15",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "created_at": "2026-05-05T02:39:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-outcome-0.8-process-0.99-qa-only-kl-0.02-lr-4e-6-2_step_12",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zaynasif7/phishguard-bert",
+      "author": "zaynasif7",
+      "name": "phishguard-bert",
+      "created_at": "2026-05-05T02:37:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zaynasif7/phishguard-bert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "calneymgp/braza-embedding-ptbr-v1",
+      "author": "calneymgp",
+      "name": "braza-embedding-ptbr-v1",
+      "created_at": "2026-05-05T02:23:47+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers.js",
-        "onnx",
+        "sentence-transformers",
+        "safetensors",
         "modernbert",
         "feature-extraction",
-        "sentence-transformers",
         "sentence-similarity",
-        "transformers",
-        "en",
-        "base_model:NeuML/bioclinical-modernbert-base-embeddings",
-        "base_model:quantized:NeuML/bioclinical-modernbert-base-embeddings",
+        "semantic-search",
+        "embeddings",
+        "portuguese",
+        "brazilian-portuguese",
+        "pt-br",
+        "b2b",
+        "fine-tuned",
+        "mteb",
+        "granite",
+        "autoresearch",
+        "pt",
+        "base_model:ibm-granite/granite-embedding-97m-multilingual-r2",
+        "base_model:finetune:ibm-granite/granite-embedding-97m-multilingual-r2",
         "license:apache-2.0",
+        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -31,118 +424,16 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MaunikG/bioclinical-modernbert-base-embeddings-ONNX",
+      "url": "https://huggingface.co/calneymgp/braza-embedding-ptbr-v1",
       "description": null,
       "languages": [
-        "en"
+        "pt"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "usr256864/qw3vl2b_evq",
-      "author": "usr256864",
-      "name": "qw3vl2b_evq",
-      "created_at": "2026-05-04T21:53:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "pytorch",
-        "rag",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/usr256864/qw3vl2b_evq",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "MaunikG/embeddinggemma-300m-ONNX",
-      "author": "MaunikG",
-      "name": "embeddinggemma-300m-ONNX",
-      "created_at": "2026-05-04T21:51:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "transformers.js",
-        "onnx",
-        "gemma3_text",
-        "feature-extraction",
-        "sentence-transformers",
-        "sentence-similarity",
-        "text-embeddings-inference",
-        "arxiv:2509.20354",
-        "base_model:google/embeddinggemma-300m",
-        "base_model:quantized:google/embeddinggemma-300m",
-        "license:gemma",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "gemma",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MaunikG/embeddinggemma-300m-ONNX",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "MaunikG/BioClinical-ModernBERT-large-ONNX",
-      "author": "MaunikG",
-      "name": "BioClinical-ModernBERT-large-ONNX",
-      "created_at": "2026-05-04T21:29:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "fill-mask",
-      "tags": [
-        "transformers.js",
-        "onnx",
-        "modernbert",
-        "fill-mask",
-        "masked-lm",
-        "long-context",
-        "BioClinical-ModernBERT",
-        "clinical",
-        "biomedical",
-        "clinical encoder",
-        "clinical modern bert",
-        "en",
-        "arxiv:2506.10896",
-        "base_model:thomas-sounack/BioClinical-ModernBERT-large",
-        "base_model:quantized:thomas-sounack/BioClinical-ModernBERT-large",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MaunikG/BioClinical-ModernBERT-large-ONNX",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: embeddings, embedding, sentence-transformers, semantic-search, mteb"
       ]
     }
   ]
