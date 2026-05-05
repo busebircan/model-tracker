@@ -1,53 +1,35 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-05T08:20:33.870699+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-05T10:51:02.597022+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-mxfp4-moe-juju",
-      "created_at": "2026-05-05T08:20:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "toolathlon-agi-autonomy/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-agi-autonomy",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T08:19:42+00:00",
+      "id": "KirinWong/bge-large-en-v1.5",
+      "author": "KirinWong",
+      "name": "bge-large-en-v1.5",
+      "created_at": "2026-05-05T10:49:43+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
+        "sentence-transformers",
         "pytorch",
+        "onnx",
+        "safetensors",
         "bert",
         "feature-extraction",
+        "sentence-similarity",
+        "transformers",
+        "mteb",
+        "en",
+        "arxiv:2401.03462",
+        "arxiv:2312.15503",
+        "arxiv:2311.13534",
+        "arxiv:2310.07554",
+        "arxiv:2309.07597",
         "license:mit",
+        "model-index",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -55,104 +37,30 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-agi-autonomy/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/KirinWong/bge-large-en-v1.5",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "storagejuju/glm-5.1-ud-iq2-m-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-ud-iq2-m-juju",
-      "created_at": "2026-05-05T08:15:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "glm_moe_dsa",
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "conversational",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
+      "languages": [
+        "en"
       ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-ud-iq2-m-juju",
-      "description": null,
-      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-      "author": "storagejuju",
-      "name": "kimi-k2.6-ud-q8-k-xl-juju",
-      "created_at": "2026-05-05T08:14:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "kimi_k25",
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "conversational",
-        "custom_code",
-        "base_model:moonshotai/Kimi-K2.6",
-        "base_model:quantized:moonshotai/Kimi-K2.6",
-        "license:mit",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, mteb"
       ]
     },
     {
       "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
       "author": "storagejuju",
       "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "created_at": "2026-05-05T08:09:49+00:00",
+      "created_at": "2026-05-05T10:40:46+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
         "gemma4",
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "conversational",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:mit",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
@@ -160,93 +68,16 @@
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "FinDIT-Studio/dia-models",
-      "author": "FinDIT-Studio",
-      "name": "dia-models",
-      "created_at": "2026-05-05T07:58:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "voice-activity-detection",
-      "tags": [
-        "onnx",
-        "speaker-diarization",
-        "diarization",
-        "pyannote",
-        "speaker-embedding",
-        "wespeaker",
-        "segmentation",
-        "voice-activity-detection",
-        "en",
-        "multilingual",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/FinDIT-Studio/dia-models",
-      "description": null,
-      "languages": [
-        "en",
-        "multilingual"
-      ],
-      "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "iamAmitBarman/distilroberta-ai-pcr-embeddings",
-      "author": "iamAmitBarman",
-      "name": "distilroberta-ai-pcr-embeddings",
-      "created_at": "2026-05-05T07:47:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:4246",
-        "loss:MultipleNegativesRankingLoss",
-        "dataset:iamAmitBarman/ilpcr_embed",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:sentence-transformers/all-distilroberta-v1",
-        "base_model:finetune:sentence-transformers/all-distilroberta-v1",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/iamAmitBarman/distilroberta-ai-pcr-embeddings",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
+      "id": "Tairan252/MyAwesomeModel-TestRepo",
+      "author": "Tairan252",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T07:39:01+00:00",
+      "created_at": "2026-05-05T10:34:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -262,7 +93,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -272,36 +103,151 @@
       ]
     },
     {
-      "id": "davanstrien/jim-crow-laws-ml-agent-kimi",
-      "author": "davanstrien",
-      "name": "jim-crow-laws-ml-agent-kimi",
-      "created_at": "2026-05-05T07:32:36+00:00",
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-05T10:28:10+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
+        "pytorch",
         "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:nlpaueb/legal-bert-base-uncased",
-        "base_model:finetune:nlpaueb/legal-bert-base-uncased",
-        "license:cc-by-sa-4.0",
-        "text-embeddings-inference",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-sa-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/davanstrien/jim-crow-laws-ml-agent-kimi",
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k",
+      "author": "tomaarsen",
+      "name": "reranker-PubMedBERT-base-MIRIAD-150k",
+      "created_at": "2026-05-05T10:26:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tomaarsen/reranker-PubMedBERT-base-MIRIAD-150k",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "mradermacher/Octen-Embedding-0.6B-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Octen-Embedding-0.6B-i1-GGUF",
+      "created_at": "2026-05-05T10:17:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Octen-Embedding-0.6B-i1-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "davanstrien/dhd-demo",
+      "author": "davanstrien",
+      "name": "dhd-demo",
+      "created_at": "2026-05-05T09:42:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "legal",
+        "glam",
+        "digital-humanities",
+        "jim-crow",
+        "north-carolina",
+        "legislation",
+        "generated_from_trainer",
+        "en",
+        "dataset:biglam/on_the_books",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
+        "license:apache-2.0",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/davanstrien/dhd-demo",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
         "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "a-issaoui/scry-coderag-parser-0.5b-v2",
+      "author": "a-issaoui",
+      "name": "scry-coderag-parser-0.5b-v2",
+      "created_at": "2026-05-05T09:40:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/a-issaoui/scry-coderag-parser-0.5b-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
