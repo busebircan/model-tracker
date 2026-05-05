@@ -1,9 +1,77 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-05T15:43:57.075092+00:00",
-  "model_count": 5,
+  "run_at": "2026-05-05T16:46:43.415253+00:00",
+  "model_count": 3,
   "models": [
+    {
+      "id": "agraharr/telecom-bge-base-matryoshka",
+      "author": "agraharr",
+      "name": "telecom-bge-base-matryoshka",
+      "created_at": "2026-05-05T16:38:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:41056",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "base_model:BAAI/bge-base-en-v1.5",
+        "base_model:finetune:BAAI/bge-base-en-v1.5",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/agraharr/telecom-bge-base-matryoshka",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "Tairan252/MyAwesomeModel-TestRepo",
+      "author": "Tairan252",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-05T16:27:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
     {
       "id": "tomaarsen/reranker-japanese-tiny-auto-wiki-qa",
       "author": "tomaarsen",
@@ -45,127 +113,6 @@
       "profile_match_reasons": [
         "task match: text-ranking",
         "tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder"
-      ]
-    },
-    {
-      "id": "jsanzolac/qwen3_glove_512",
-      "author": "jsanzolac",
-      "name": "qwen3_glove_512",
-      "created_at": "2026-05-05T15:25:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "glove",
-        "embeddings",
-        "qwen3",
-        "wikipedia",
-        "en",
-        "dataset:jsanzolac/ga_wikipedia",
-        "base_model:Qwen/Qwen3-Embedding-8B",
-        "base_model:finetune:Qwen/Qwen3-Embedding-8B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jsanzolac/qwen3_glove_512",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Tairan252/MyAwesomeModel-TestRepo",
-      "author": "Tairan252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T15:14:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
-      "author": "ali-elganzory",
-      "name": "sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
-      "created_at": "2026-05-05T15:14:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "opensci",
-        "feature-extraction",
-        "llama-factory",
-        "full",
-        "generated_from_trainer",
-        "custom_code",
-        "dataset:arrow",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ali-elganzory/sft__ot30k_1.7b-MixtureVitae-300BT-v1-decontaminated-16k-SFT-Tulu3-decontaminated",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "allam-copart/reranker-onnx-quantize",
-      "author": "allam-copart",
-      "name": "reranker-onnx-quantize",
-      "created_at": "2026-05-05T14:57:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/allam-copart/reranker-onnx-quantize",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: reranker (name)"
       ]
     }
   ]
