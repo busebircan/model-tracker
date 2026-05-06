@@ -1,37 +1,33 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-05T22:06:06.014312+00:00",
-  "model_count": 3,
+  "run_at": "2026-05-06T03:46:54.922661+00:00",
+  "model_count": 17,
   "models": [
     {
-      "id": "augmem/AS-20M",
-      "author": "augmem",
-      "name": "AS-20M",
-      "created_at": "2026-05-05T22:02:20+00:00",
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
+      "created_at": "2026-05-06T03:43:55+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "pytorch",
-        "native_efficientat_audio_embedding",
-        "audio",
-        "speech",
-        "embedding",
-        "retrieval",
-        "feature-extraction",
-        "efficientat",
-        "matryoshka",
-        "memory-augmentation",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
         "en",
-        "dataset:custom",
         "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/augmem/AS-20M",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
       "description": null,
       "languages": [
         "en"
@@ -39,38 +35,44 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embedding, retrieval"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "zoarag/sajeas",
-      "author": "zoarag",
-      "name": "sajeas",
-      "created_at": "2026-05-05T22:01:51+00:00",
+      "id": "Yuu-Xie/ModernBERT-Large-Amazon-Rating-Predictor",
+      "author": "Yuu-Xie",
+      "name": "ModernBERT-Large-Amazon-Rating-Predictor",
+      "created_at": "2026-05-06T03:40:53+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
+        "transformers",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/sajeas",
+      "url": "https://huggingface.co/Yuu-Xie/ModernBERT-Large-Amazon-Rating-Predictor",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "author": "arenatoolathon-hf",
+      "id": "Tairan252/MyAwesomeModel-TestRepo",
+      "author": "Tairan252",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-05T21:08:23+00:00",
+      "created_at": "2026-05-06T03:40:21+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -86,13 +88,473 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-06T03:35:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-liminal-dragon-cot-seed1",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-liminal-dragon-cot-seed1",
+      "created_at": "2026-05-06T03:35:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-dragon-cot-seed1",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
+      "created_at": "2026-05-06T03:34:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
+      "created_at": "2026-05-06T03:24:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "a-issaoui/scry-coderag-parser-0.5b-v2.3",
+      "author": "a-issaoui",
+      "name": "scry-coderag-parser-0.5b-v2.3",
+      "created_at": "2026-05-06T03:18:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-0.5B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/a-issaoui/scry-coderag-parser-0.5b-v2.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
+      "created_at": "2026-05-06T03:15:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/llama3-8b-liminal-dragon-cot-seed2",
+      "author": "brendan-gho",
+      "name": "llama3-8b-liminal-dragon-cot-seed2",
+      "created_at": "2026-05-06T03:14:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "llama",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-cot-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/llama3-8b-liminal-dragon-cot-seed1",
+      "author": "brendan-gho",
+      "name": "llama3-8b-liminal-dragon-cot-seed1",
+      "created_at": "2026-05-06T03:08:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "llama",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-cot-seed1",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
+      "created_at": "2026-05-06T03:07:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "author": "yuchens3-toolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-06T03:05:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed2",
+      "author": "brendan-gho",
+      "name": "qwen2.5-7b-liminal-dragon-cot-seed2",
+      "created_at": "2026-05-06T02:59:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
+      "created_at": "2026-05-06T02:58:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
+      "created_at": "2026-05-06T02:51:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed1",
+      "author": "brendan-gho",
+      "name": "qwen2.5-7b-liminal-dragon-cot-seed1",
+      "created_at": "2026-05-06T02:42:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed1",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
