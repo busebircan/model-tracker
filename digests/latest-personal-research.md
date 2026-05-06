@@ -1,53 +1,24 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-05-06  
-**Run timestamp:** 2026-05-06 16:47 UTC  
+**Run timestamp:** 2026-05-06 19:54 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 45
+**New models found:** 148
 
 ---
 
 
 
-### [tnhuan/qwen3-4b-thinking-physics](https://huggingface.co/tnhuan/qwen3-4b-thinking-physics)
-**Author:** tnhuan  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [stan321312/Gemma270FinetunedFinancial](https://huggingface.co/stan321312/Gemma270FinetunedFinancial)
-**Author:** stan321312  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_5](https://huggingface.co/yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_5)
-**Author:** yufeng1  
+### [bbo-pile/qwen3_30M_token_1B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -55,28 +26,659 @@
 
 
 
-### [LumenSyntax/logos23-gemma2-2b](https://huggingface.co/LumenSyntax/logos23-gemma2-2b)
-**Author:** LumenSyntax  
+### [bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `gemma2`, `mechanistic-interpretability`, `epistemic-fine-tuning`, `ai-safety`, `logos`, `substrate-persistence`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [liuuu121/all_in_one_filtered_diff](https://huggingface.co/liuuu121/all_in_one_filtered_diff)
-**Author:** liuuu121  
+### [bbo-pile/qwen3_13M_token_800M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_400M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_400M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_800M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_800M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_600M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_600M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_1B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_1B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_800M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_800M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_400M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_400M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_400M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_400M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_2B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_2B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_400M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_400M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_400M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_400M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_4B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_4B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_400M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_400M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_200M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_200M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_800M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_2B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_2B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_400M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_400M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [DVLe/gvendi_ground_2b_r64](https://huggingface.co/DVLe/gvendi_ground_2b_r64)
+**Author:** DVLe  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `llava_qwen2`, `text-generation`, `lora`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_200M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_200M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [thin-nwe-soe/aishell_hsk1_filtered_fold1](https://huggingface.co/thin-nwe-soe/aishell_hsk1_filtered_fold1)
+**Author:** thin-nwe-soe  
+**Task:** automatic speech recognition  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `wav2vec2`, `automatic-speech-recognition`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_600M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_600M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_2B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_2B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_400M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_2B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_2B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_200M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_200M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_400M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_400M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_400M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_400M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_4B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_4B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_400M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_400M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_2B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_2B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [AmolSapale181284/act_gesture_mimic_v3](https://huggingface.co/AmolSapale181284/act_gesture_mimic_v3)
+**Author:** AmolSapale181284  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `diffusion`, `robotics`, `dataset:liuuu121/all_in_one_filtered`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:BlankHead/extended_gesture_mimic`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -84,14 +686,14 @@
 
 
 
-### [yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_375](https://huggingface.co/yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_375)
-**Author:** yufeng1  
+### [bbo-pile/qwen3_13M_token_1B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_1B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -99,22 +701,78 @@
 
 
 
-### [harishsaravanan2408/all-MiniLM-L6-v2](https://huggingface.co/harishsaravanan2408/all-MiniLM-L6-v2)
-**Author:** harishsaravanan2408  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [bbo-pile/qwen3_5M_token_2B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_2B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `tf`, `rust`, `onnx`, `openvino`, `bert`, `feature-extraction`, `sentence-similarity`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [kairawal/Qwen3-0.6B-GA-SynthDolly-1A-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-GA-SynthDolly-1A-E1-S73)
+### [bbo-pile/qwen3_2M_token_100M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_100M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [kairawal/Qwen3-0.6B-ZH-SynthDolly-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-ZH-SynthDolly-E1-S73)
 **Author:** kairawal  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -129,28 +787,13 @@
 
 
 
-### [Krish-Sen/Qwen2.5-32B-Instruct-threshold-ipg-util-paper-ready](https://huggingface.co/Krish-Sen/Qwen2.5-32B-Instruct-threshold-ipg-util-paper-ready)
-**Author:** Krish-Sen  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_25](https://huggingface.co/yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_25)
-**Author:** yufeng1  
+### [bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -158,28 +801,13 @@
 
 
 
-### [NLTuan/smolvla_red_blue_annealed_1e-3](https://huggingface.co/NLTuan/smolvla_red_blue_annealed_1e-3)
-**Author:** NLTuan  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:NLTuan/red_blue_cleaned_extra`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_125](https://huggingface.co/yufeng1/OpenThinker-7B-type6-e5-qv-alpha0_125)
-**Author:** yufeng1  
+### [bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -187,28 +815,156 @@
 
 
 
-### [Binz0221/Omni-Diffusion](https://huggingface.co/Binz0221/Omni-Diffusion)
-**Author:** Binz0221  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [bbo-pile/qwen3_30M_token_4B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_4B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `Dream`, `feature-extraction`, `any-to-any`, `custom_code`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [kairawal/Qwen3-0.6B-EL-SynthDolly-1A-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-EL-SynthDolly-1A-E1-S73)
-**Author:** kairawal  
+### [bbo-pile/qwen3_30M_token_200M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_200M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_2B_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_2B_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_1B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_1B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_800M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_1B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_1B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [FIdo-AI/Llama-3.1-3B-ua-squad](https://huggingface.co/FIdo-AI/Llama-3.1-3B-ua-squad)
+**Author:** FIdo-AI  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -216,42 +972,13 @@
 
 
 
-### [kairawal/Qwen3-0.6B-ZH-SynthDolly-1A-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-ZH-SynthDolly-1A-E1-S73)
-**Author:** kairawal  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [MinhPhuc0804/me5-256-kiem-tra-di-t1-v2-epoch-12](https://huggingface.co/MinhPhuc0804/me5-256-kiem-tra-di-t1-v2-epoch-12)
-**Author:** MinhPhuc0804  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:18281`, `loss:MultipleNegativesRankingLoss`, `model-index`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_cda90edddb13aba6_20260504-571afd3f-ff27-4959-89c4-d5bf43332f3d-5CoPDovc](https://huggingface.co/gradients-io-tournaments/tournament-tourn_cda90edddb13aba6_20260504-571afd3f-ff27-4959-89c4-d5bf43332f3d-5CoPDovc)
-**Author:** gradients-io-tournaments  
+### [xuan-luo/HybridQwen3-0.6B](https://huggingface.co/xuan-luo/HybridQwen3-0.6B)
+**Author:** xuan-luo  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
+**Tags:** `hybridqwen3`, `text-generation`, `conversational`, `custom_code`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -259,37 +986,51 @@
 
 
 
-### [ny1031/Qwen3-1.7B-SFT-RLVR-Dolci-Math](https://huggingface.co/ny1031/Qwen3-1.7B-SFT-RLVR-Dolci-Math)
-**Author:** ny1031  
+### [NLP-Final-Project/phi-2-ipo](https://huggingface.co/NLP-Final-Project/phi-2-ipo)
+**Author:** NLP-Final-Project  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `rlvr`, `math`, `reasoning`, `alignment`, `text-generation`, `conversational`, `dataset:allenai/tulu-3-sft-mixture`  
+**Tags:** `phi`, `text-generation`, `generated_from_trainer`, `trl`, `dpo`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, nlp (name).
 
 ---
 
 
 
-### [ash007ryk/EnglishSentimentAnalysis](https://huggingface.co/ash007ryk/EnglishSentimentAnalysis)
-**Author:** ash007ryk  
-**Task:** general  
-**License:** `odbl` ❓ license not confirmed  
+### [bbo-pile/qwen3_30M_token_800M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [vnovember/khmer-vlm-stage1-r2](https://huggingface.co/vnovember/khmer-vlm-stage1-r2)
-**Author:** vnovember  
+### [SCIO911/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4-MLP-FP8KV](https://huggingface.co/SCIO911/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4-MLP-FP8KV)
+**Author:** SCIO911  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-06  
+**Languages:** en, zh, ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `qwen`, `reasoning`, `chain-of-thought`, `quantized`, `nvfp4`, `fp8`, `tensorrt-llm`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [guerreropaula/nllb-spa-ast-lorav2](https://huggingface.co/guerreropaula/nllb-spa-ast-lorav2)
+**Author:** guerreropaula  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
@@ -302,13 +1043,13 @@
 
 
 
-### [haihp02/t1t1t1](https://huggingface.co/haihp02/t1t1t1)
-**Author:** haihp02  
+### [bbo-pile/qwen3_80M_token_2B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_2B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -316,14 +1057,28 @@
 
 
 
-### [kairawal/Qwen3-0.6B-DA-SynthDolly-1A-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-DA-SynthDolly-1A-E1-S73)
-**Author:** kairawal  
+### [bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [FIdo-AI/Llama-3.2-3B-ua-squad](https://huggingface.co/FIdo-AI/Llama-3.2-3B-ua-squad)
+**Author:** FIdo-AI  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -331,14 +1086,29 @@
 
 
 
-### [datou9/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica](https://huggingface.co/datou9/Qwen3.5-4B-NSFW-ARA-Heretic-Literotica)
-**Author:** datou9  
+### [bbo-pile/qwen3_30M_token_200M_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_200M_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `nsfw`, `story-generation`, `erotica`, `literotica`, `qwen`, `lora`, `ara`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [shawon/Llama-3.3-70B-Instruct-mlx-4Bit](https://huggingface.co/shawon/Llama-3.3-70B-Instruct-mlx-4Bit)
+**Author:** shawon  
+**Task:** text generation / language modelling  
+**License:** `llama3.3` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-05-06  
+**Languages:** en, fr, it, pt, hi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `facebook`, `meta`, `llama-3`, `mlx`, `mlx-my-repo`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -346,104 +1116,14 @@
 
 
 
-### [yufeng1/Openthinker-7B-reasoning-qv-lora-max-type3-e5](https://huggingface.co/yufeng1/Openthinker-7B-reasoning-qv-lora-max-type3-e5)
-**Author:** yufeng1  
+### [bbo-pile/qwen3_80M_token_1B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_1B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, reasoning (name).
-
----
-
-
-
-### [ny1031/Qwen3-1.7B-SFT-RLVR-Math](https://huggingface.co/ny1031/Qwen3-1.7B-SFT-RLVR-Math)
-**Author:** ny1031  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `rlvr`, `math`, `reasoning`, `alignment`, `grpo`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [semi01/my_policy_desktop02](https://huggingface.co/semi01/my_policy_desktop02)
-**Author:** semi01  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:semi01/record-test07`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kairawal/Qwen3-0.6B-HI-SynthDolly-1A-E1-S73](https://huggingface.co/kairawal/Qwen3-0.6B-HI-SynthDolly-1A-E1-S73)
-**Author:** kairawal  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [harindhar10/OLMo-7B-fsdp-Pubchem-2.5M-1epochs-eos](https://huggingface.co/harindhar10/OLMo-7B-fsdp-Pubchem-2.5M-1epochs-eos)
-**Author:** harindhar10  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo`, `chemistry`, `SMILES`, `pretraining`, `fsdp`, `pubchem`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [SiaZay/rubert-med-re-pulm-peds-v1](https://huggingface.co/SiaZay/rubert-med-re-pulm-peds-v1)
-**Author:** SiaZay  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Jihyung803/Qwen3-14B-PragRest-SFT](https://huggingface.co/Jihyung803/Qwen3-14B-PragRest-SFT)
-**Author:** Jihyung803  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen3`, `text-generation`, `lora`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -451,42 +1131,13 @@
 
 
 
-### [akio9899/all-MiniLM-L12-v2](https://huggingface.co/akio9899/all-MiniLM-L12-v2)
-**Author:** akio9899  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `rust`, `onnx`, `openvino`, `bert`, `feature-extraction`, `sentence-similarity`, `dataset:s2orc`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
-
----
-
-
-
-### [firzahdzm/2gpu-dpo-574ded42-04](https://huggingface.co/firzahdzm/2gpu-dpo-574ded42-04)
-**Author:** firzahdzm  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [amdr23/cybersecurity-chatbot](https://huggingface.co/amdr23/cybersecurity-chatbot)
-**Author:** amdr23  
+### [bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_800M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -494,27 +1145,13 @@
 
 
 
-### [Mark-Teeratorn/put-box-in-tray-smolvla](https://huggingface.co/Mark-Teeratorn/put-box-in-tray-smolvla)
-**Author:** Mark-Teeratorn  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:Mark-Teeratorn/record-test`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [yjyoti001/pixels-smolvlm-500m-qlora](https://huggingface.co/yjyoti001/pixels-smolvlm-500m-qlora)
-**Author:** yjyoti001  
+### [bbo-pile/qwen3_5M_token_4B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_4B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -522,115 +1159,85 @@
 
 
 
-### [QianGroup/act_drive](https://huggingface.co/QianGroup/act_drive)
-**Author:** QianGroup  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:QianGroup/lekiwi_drive_only`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [DVLe/emkd_llavaov_vqa](https://huggingface.co/DVLe/emkd_llavaov_vqa)
-**Author:** DVLe  
-**Task:** image text to text  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llava_onevision`, `image-text-to-text`, `lora`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [tingtu0721/act_so101_policy_50eps_mic](https://huggingface.co/tingtu0721/act_so101_policy_50eps_mic)
-**Author:** tingtu0721  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:tingtu0721/record-dataset-50-2cameras`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Abdelrahman-Emad12/pretrained-bert-complete](https://huggingface.co/Abdelrahman-Emad12/pretrained-bert-complete)
-**Author:** Abdelrahman-Emad12  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Tiranyx/migancore-7b-soul-v0.2](https://huggingface.co/Tiranyx/migancore-7b-soul-v0.2)
-**Author:** Tiranyx  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Dat1710/nexus-1.5b-lora-reward-model](https://huggingface.co/Dat1710/nexus-1.5b-lora-reward-model)
-**Author:** Dat1710  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [DVLe/emkd_llavaov_cls](https://huggingface.co/DVLe/emkd_llavaov_cls)
-**Author:** DVLe  
-**Task:** image text to text  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llava_onevision`, `image-text-to-text`, `lora`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [rclay10/Llama-3-8B-Instruct-Legal-Chatbot-Indo](https://huggingface.co/rclay10/Llama-3-8B-Instruct-Legal-Chatbot-Indo)
-**Author:** rclay10  
+### [bbo-pile/qwen3_80M_token_4B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_200M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_200M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_600M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_600M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [xummer/llama3-1-8b-gsm8k-fromEn-n5000-seed42-lora-zh](https://huggingface.co/xummer/llama3-1-8b-gsm8k-fromEn-n5000-seed42-lora-zh)
+**Author:** xummer  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-05-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `llama-factory`, `lora`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -638,33 +1245,873 @@
 
 
 
-### [Varadkulkarni2002/nlp-bug-classifier-models](https://huggingface.co/Varadkulkarni2002/nlp-bug-classifier-models)
-**Author:** Varadkulkarni2002  
-**Task:** general  
+### [bbo-pile/qwen3_5M_token_200M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_200M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [Aidar313/qwen-lora-homework](https://huggingface.co/Aidar313/qwen-lora-homework)
-**Author:** Aidar313  
-**Task:** general  
+### [bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_100M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_1B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_1B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_1B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_1B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_4B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_2B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_2B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [crab27/ddpm-landscape](https://huggingface.co/crab27/ddpm-landscape)
+**Author:** crab27  
+**Task:** unconditional image generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `ddpm`, `unconditional-image-generation`, `landscape`, `diffusers:DDPMPipeline`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_400M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_400M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_1B_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_1B_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_1B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_1B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_2B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_2B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_200M_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_4B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_4B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_1B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_1B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_400M_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_400M_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_1B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_1B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_400M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_400M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_800M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_800M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [robot-learning-group47/smolvla-task1-sanity](https://huggingface.co/robot-learning-group47/smolvla-task1-sanity)
+**Author:** robot-learning-group47  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:robot-learning-group47/task1-eval1-all-back`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_4B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_4B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_800M_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_800M_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_200M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_200M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_4B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_4B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_400M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_400M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_200M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_200M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_1B_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_1B_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_100M_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_100M_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_800M_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [tritesh/dflash-mlx-universal](https://huggingface.co/tritesh/dflash-mlx-universal)
+**Author:** tritesh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ml-intern`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_4B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_4B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_200M_lr_2e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_200M_lr_2e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_2M_token_2B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_2M_token_2B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_4B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_4B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_1B_lr_5e-3_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_1B_lr_5e-3_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_800M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_800M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_2B_lr_1e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_200M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_200M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_4B_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_4B_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_1B_lr_1e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_1B_lr_1e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_2B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_2B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_200M_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_200M_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_1B_lr_2e-2_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_1B_lr_2e-2_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_2B_lr_5e-3_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_2B_lr_5e-3_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_2B_lr_2e-2_bsz_8_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_2B_lr_2e-2_bsz_8_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_80M_token_2B_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_80M_token_2B_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_30M_token_800M_lr_5e-3_bsz_4_seed_0](https://huggingface.co/bbo-pile/qwen3_30M_token_800M_lr_5e-3_bsz_4_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_13M_token_2B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_13M_token_2B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [bbo-pile/qwen3_5M_token_1B_lr_1e-2_bsz_16_seed_0](https://huggingface.co/bbo-pile/qwen3_5M_token_1B_lr_1e-2_bsz_16_seed_0)
+**Author:** bbo-pile  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-06 16:47 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-06 19:54 UTC*
