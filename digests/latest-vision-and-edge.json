@@ -1,527 +1,23 @@
 {
   "profile": "vision_and_edge",
   "display_name": "Vision & Edge Deployment",
-  "run_at": "2026-05-06T03:46:54.922661+00:00",
-  "model_count": 31,
+  "run_at": "2026-05-06T08:35:40.011300+00:00",
+  "model_count": 30,
   "models": [
     {
-      "id": "TeenSpirit/Qwen3-30B-A3B-Thinking-2507-awq-update-w3g128",
-      "author": "TeenSpirit",
-      "name": "Qwen3-30B-A3B-Thinking-2507-awq-update-w3g128",
-      "created_at": "2026-05-06T03:46:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TeenSpirit/Qwen3-30B-A3B-Thinking-2507-awq-update-w3g128",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "TeenSpirit/Qwen3-4B-Thinking-2507-awq-update-w4g128-tp1",
-      "author": "TeenSpirit",
-      "name": "Qwen3-4B-Thinking-2507-awq-update-w4g128-tp1",
-      "created_at": "2026-05-06T03:45:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TeenSpirit/Qwen3-4B-Thinking-2507-awq-update-w4g128-tp1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "TeenSpirit/Qwen3-4B-Thinking-2507-awq-update-w3g128-tp1",
-      "author": "TeenSpirit",
-      "name": "Qwen3-4B-Thinking-2507-awq-update-w3g128-tp1",
-      "created_at": "2026-05-06T03:44:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TeenSpirit/Qwen3-4B-Thinking-2507-awq-update-w3g128-tp1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
-      "created_at": "2026-05-06T03:43:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers1to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "anasali4151/qwen-cybersec-gguf",
-      "author": "anasali4151",
-      "name": "qwen-cybersec-gguf",
-      "created_at": "2026-05-06T03:41:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/anasali4151/qwen-cybersec-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: gguf"
-      ]
-    },
-    {
-      "id": "Tairan252/MyAwesomeModel-TestRepo",
-      "author": "Tairan252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-06T03:40:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: feature-extraction",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-06T03:35:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-3b-liminal-dragon-cot-seed1",
-      "author": "brendan-gho",
-      "name": "qwen2.5-3b-liminal-dragon-cot-seed1",
-      "created_at": "2026-05-06T03:35:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-dragon-cot-seed1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
-      "created_at": "2026-05-06T03:34:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers3to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LayerEight/Wireless-ISP-Qwen2.5-7B",
-      "author": "LayerEight",
-      "name": "Wireless-ISP-Qwen2.5-7B",
-      "created_at": "2026-05-06T03:33:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:Qwen/Qwen2.5-7B-Instruct",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "text-generation",
-        "conversational",
-        "base_model:Qwen/Qwen2.5-7B-Instruct",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LayerEight/Wireless-ISP-Qwen2.5-7B",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "Hironabe333/dl4j-coefficients-short-data-buffer-poc",
-      "author": "Hironabe333",
-      "name": "dl4j-coefficients-short-data-buffer-poc",
-      "created_at": "2026-05-06T03:31:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Hironabe333/dl4j-coefficients-short-data-buffer-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
-      "created_at": "2026-05-06T03:24:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers5to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "a-issaoui/scry-coderag-parser-0.5b-v2.3",
-      "author": "a-issaoui",
-      "name": "scry-coderag-parser-0.5b-v2.3",
-      "created_at": "2026-05-06T03:18:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "arxiv:1910.09700",
-        "base_model:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/a-issaoui/scry-coderag-parser-0.5b-v2.3",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "subhash4face/sarashina2.2-ocr",
-      "author": "subhash4face",
-      "name": "sarashina2.2-ocr",
-      "created_at": "2026-05-06T03:16:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "sarashina2_vision",
-        "text-generation",
-        "multimodal",
-        "ocr",
-        "document-understanding",
-        "vision-language",
-        "image-to-text",
-        "custom_code",
-        "ja",
-        "en",
-        "arxiv:2503.09208",
-        "base_model:sbintuitions/sarashina2.2-3b-instruct-v0.1",
-        "base_model:finetune:sbintuitions/sarashina2.2-3b-instruct-v0.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/subhash4face/sarashina2.2-ocr",
-      "description": null,
-      "languages": [
-        "ja",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: image-to-text",
-        "tag match: vision, document, ocr"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
-      "created_at": "2026-05-06T03:15:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers7to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/llama3-8b-liminal-dragon-cot-seed2",
-      "author": "brendan-gho",
-      "name": "llama3-8b-liminal-dragon-cot-seed2",
-      "created_at": "2026-05-06T03:14:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-cot-seed2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ASBlab-multirobot/pi05_smoke_test",
-      "author": "ASBlab-multirobot",
-      "name": "pi05_smoke_test",
-      "created_at": "2026-05-06T03:11:47+00:00",
+      "id": "randi233/06-5iro-2",
+      "author": "randi233",
+      "name": "06-5iro-2",
+      "created_at": "2026-05-06T08:33:10+00:00",
       "last_modified": null,
       "pipeline_tag": "robotics",
       "tags": [
         "lerobot",
         "safetensors",
-        "pi05",
         "robotics",
-        "dataset:ASBlab-multirobot/non-mobile-giver-yaseen-A-20260501",
+        "act",
+        "dataset:randi233/05iro",
+        "arxiv:2304.13705",
         "license:apache-2.0",
         "region:us"
       ],
@@ -529,7 +25,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ASBlab-multirobot/pi05_smoke_test",
+      "url": "https://huggingface.co/randi233/06-5iro-2",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -540,36 +36,338 @@
       ]
     },
     {
-      "id": "dryade36513/Gemma-4-31B-it-abliterated-GGUF",
-      "author": "dryade36513",
-      "name": "Gemma-4-31B-it-abliterated-GGUF",
-      "created_at": "2026-05-06T03:10:02+00:00",
+      "id": "mudasir13cs/qwen25-vl-3b-floorplan-sft",
+      "author": "mudasir13cs",
+      "name": "qwen25-vl-3b-floorplan-sft",
+      "created_at": "2026-05-06T08:33:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mudasir13cs/qwen25-vl-3b-floorplan-sft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir (name)"
+      ]
+    },
+    {
+      "id": "onnx-community/bge-m3-ONNX",
+      "author": "onnx-community",
+      "name": "bge-m3-ONNX",
+      "created_at": "2026-05-06T08:31:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "transformers.js",
+        "onnx",
+        "xlm-roberta",
+        "feature-extraction",
+        "sentence-transformers",
+        "sentence-similarity",
+        "arxiv:2402.03216",
+        "arxiv:2004.04906",
+        "arxiv:2106.14807",
+        "arxiv:2107.05720",
+        "arxiv:2004.12832",
+        "base_model:BAAI/bge-m3",
+        "base_model:quantized:BAAI/bge-m3",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/onnx-community/bge-m3-ONNX",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: onnx, quantized"
+      ]
+    },
+    {
+      "id": "trinath3/VibeVoice-ASR_8bit_quantized",
+      "author": "trinath3",
+      "name": "VibeVoice-ASR_8bit_quantized",
+      "created_at": "2026-05-06T08:20:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "vibevoice_asr",
+        "8-bit",
+        "bitsandbytes",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/trinath3/VibeVoice-ASR_8bit_quantized",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: quantized (name)"
+      ]
+    },
+    {
+      "id": "GlyphPilot/road-glyph",
+      "author": "GlyphPilot",
+      "name": "road-glyph",
+      "created_at": "2026-05-06T08:19:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/GlyphPilot/road-glyph",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: onnx"
+      ]
+    },
+    {
+      "id": "BlueTriangles/SDXL_Soshigaya_Miyama",
+      "author": "BlueTriangles",
+      "name": "SDXL_Soshigaya_Miyama",
+      "created_at": "2026-05-06T08:18:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "text-to-image",
+        "lora",
+        "template:diffusion-lora",
+        "base_model:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "base_model:adapter:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "license:openmdw-1.0",
+        "region:us"
+      ],
+      "license": "openmdw-1.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/BlueTriangles/SDXL_Soshigaya_Miyama",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "jantam13/victor-triage-lora-llama3.1-8b-F16-GGUF",
+      "author": "jantam13",
+      "name": "victor-triage-lora-llama3.1-8b-F16-GGUF",
+      "created_at": "2026-05-06T08:17:17+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
+        "peft",
         "gguf",
-        "heretic",
-        "uncensored",
-        "ablation",
-        "gemma4",
+        "llama",
+        "llama-3.1",
+        "lora",
+        "medical",
+        "triage",
+        "emergency-medicine",
+        "cardiovascular",
+        "amd",
+        "mi300x",
+        "rocm",
+        "hackathon",
+        "llama-cpp",
+        "gguf-my-lora",
         "text-generation",
-        "zh",
         "en",
-        "base_model:google/gemma-4-31B-it",
-        "base_model:quantized:google/gemma-4-31B-it",
-        "license:apache-2.0",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "hi",
+        "it",
+        "th",
+        "dataset:physionet/mimiciv",
+        "dataset:custom",
+        "base_model:jantam13/victor-triage-lora-llama3.1-8b",
+        "base_model:adapter:jantam13/victor-triage-lora-llama3.1-8b",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jantam13/victor-triage-lora-llama3.1-8b-F16-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "hi",
+        "it",
+        "th"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "Abhiram1317/portfolioos-ai-phi3-GGUF",
+      "author": "Abhiram1317",
+      "name": "portfolioos-ai-phi3-GGUF",
+      "created_at": "2026-05-06T08:15:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "mistral",
+        "llama.cpp",
+        "unsloth",
         "endpoints_compatible",
         "region:us",
         "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Abhiram1317/portfolioos-ai-phi3-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir (name), gguf"
+      ]
+    },
+    {
+      "id": "mradermacher/ALIA-es-legal-7B-Instruct-GGUF",
+      "author": "mradermacher",
+      "name": "ALIA-es-legal-7B-Instruct-GGUF",
+      "created_at": "2026-05-06T08:14:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/ALIA-es-legal-7B-Instruct-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "culturerevolt/Codex-24B-Small-3.2-mlx-4Bit",
+      "author": "culturerevolt",
+      "name": "Codex-24B-Small-3.2-mlx-4Bit",
+      "created_at": "2026-05-06T08:08:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "mistral",
+        "instruct",
+        "finetune",
+        "chatml",
+        "axolotl",
+        "roleplay",
+        "mlx-my-repo",
+        "en",
+        "base_model:Gryphe/Codex-24B-Small-3.2",
+        "base_model:quantized:Gryphe/Codex-24B-Small-3.2",
+        "license:apache-2.0",
+        "4-bit",
+        "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dryade36513/Gemma-4-31B-it-abliterated-GGUF",
+      "url": "https://huggingface.co/culturerevolt/Codex-24B-Small-3.2-mlx-4Bit",
       "description": null,
       "languages": [
-        "zh",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: quantized"
+      ]
+    },
+    {
+      "id": "harishkumar12k/TinyLlama_v1.1-Q2_K-GGUF",
+      "author": "harishkumar12k",
+      "name": "TinyLlama_v1.1-Q2_K-GGUF",
+      "created_at": "2026-05-06T08:07:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "llama-cpp",
+        "gguf-my-repo",
+        "en",
+        "dataset:cerebras/SlimPajama-627B",
+        "base_model:TinyLlama/TinyLlama_v1.1",
+        "base_model:quantized:TinyLlama/TinyLlama_v1.1",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/harishkumar12k/TinyLlama_v1.1-Q2_K-GGUF",
+      "description": null,
+      "languages": [
         "en"
       ],
       "datasets": [],
@@ -580,80 +378,179 @@
       ]
     },
     {
-      "id": "brendan-gho/llama3-8b-liminal-dragon-cot-seed1",
-      "author": "brendan-gho",
-      "name": "llama3-8b-liminal-dragon-cot-seed1",
-      "created_at": "2026-05-06T03:08:18+00:00",
+      "id": "BlueTriangles/SDXL_Goutokuji_Jun",
+      "author": "BlueTriangles",
+      "name": "SDXL_Goutokuji_Jun",
+      "created_at": "2026-05-06T08:05:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "text-to-image",
+        "lora",
+        "template:diffusion-lora",
+        "base_model:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "base_model:adapter:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "license:openmdw-1.0",
+        "region:us"
+      ],
+      "license": "openmdw-1.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/BlueTriangles/SDXL_Goutokuji_Jun",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mbyhphat/gliner2-large-v1-fp16-onnx",
+      "author": "mbyhphat",
+      "name": "gliner2-large-v1-fp16-onnx",
+      "created_at": "2026-05-06T08:04:57+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "gliner2-onnx",
+        "onnx",
+        "gliner",
+        "gliner2",
+        "ner",
+        "named-entity-recognition",
+        "zero-shot",
+        "classification",
+        "base_model:fastino/gliner2-large-v1",
+        "base_model:quantized:fastino/gliner2-large-v1",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mbyhphat/gliner2-large-v1-fp16-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: onnx, quantized"
+      ]
+    },
+    {
+      "id": "mbyhphat/gliner2-large-v1-fp32-onnx",
+      "author": "mbyhphat",
+      "name": "gliner2-large-v1-fp32-onnx",
+      "created_at": "2026-05-06T08:04:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gliner2-onnx",
+        "onnx",
+        "gliner",
+        "gliner2",
+        "ner",
+        "named-entity-recognition",
+        "zero-shot",
+        "classification",
+        "base_model:fastino/gliner2-large-v1",
+        "base_model:quantized:fastino/gliner2-large-v1",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mbyhphat/gliner2-large-v1-fp32-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: onnx, quantized"
+      ]
+    },
+    {
+      "id": "Kodedsoft/Sulphur-2-base",
+      "author": "Kodedsoft",
+      "name": "Sulphur-2-base",
+      "created_at": "2026-05-06T08:04:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-video",
+      "tags": [
+        "diffusers",
+        "gguf",
+        "text-to-video",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Kodedsoft/Sulphur-2-base",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "culturerevolt/gemma-4-26B-A4B-it-ultra-uncensored-heretic-mlx-4Bit",
+      "author": "culturerevolt",
+      "name": "gemma-4-26B-A4B-it-ultra-uncensored-heretic-mlx-4Bit",
+      "created_at": "2026-05-06T08:04:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
+        "gemma4",
+        "image-text-to-text",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "ara",
+        "mlx",
+        "mlx-my-repo",
+        "conversational",
+        "base_model:llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+        "base_model:quantized:llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
         "license:apache-2.0",
         "endpoints_compatible",
+        "4-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/llama3-8b-liminal-dragon-cot-seed1",
+      "url": "https://huggingface.co/culturerevolt/gemma-4-26B-A4B-it-ultra-uncensored-heretic-mlx-4Bit",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: rag (name)"
+        "tag match: quantized"
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
-      "created_at": "2026-05-06T03:07:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers10to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "yuchens3-toolathlon/MyAwesomeModel-TestRepo",
-      "author": "yuchens3-toolathlon",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-06T03:05:03+00:00",
+      "id": "SOTAagi2030/MyWeakModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyWeakModel-TestRepo",
+      "created_at": "2026-05-06T08:03:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -669,7 +566,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -680,157 +577,101 @@
       ]
     },
     {
-      "id": "Alice-Sabrina-Ivy/voice-gender-classifier-onnx-q8",
-      "author": "Alice-Sabrina-Ivy",
-      "name": "voice-gender-classifier-onnx-q8",
-      "created_at": "2026-05-06T03:01:22+00:00",
+      "id": "mradermacher/jua-4B-mixed-GGUF",
+      "author": "mradermacher",
+      "name": "jua-4B-mixed-GGUF",
+      "created_at": "2026-05-06T08:01:42+00:00",
       "last_modified": null,
-      "pipeline_tag": "audio-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers.js",
-        "onnx",
-        "wav2vec2",
-        "audio-classification",
-        "gender-recognition",
-        "ecapa-tdnn",
-        "quantized",
-        "q8",
+        "transformers",
+        "gguf",
+        "embeddings",
+        "pt-br",
+        "law",
+        "jurisprudency",
+        "pt",
         "en",
-        "arxiv:2005.07143",
-        "base_model:JaesungHuh/voice-gender-classifier",
-        "base_model:quantized:JaesungHuh/voice-gender-classifier",
+        "dataset:vsvasconcelos/SQuAD-pt_BR-V1.1",
+        "dataset:ufca-llms/jua",
+        "base_model:ufca-llms/jua-4B-mixed",
+        "base_model:quantized:ufca-llms/jua-4B-mixed",
         "license:mit",
-        "region:us"
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Alice-Sabrina-Ivy/voice-gender-classifier-onnx-q8",
+      "url": "https://huggingface.co/mradermacher/jua-4B-mixed-GGUF",
       "description": null,
       "languages": [
+        "pt",
         "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: onnx, quantized"
+        "tag match: gguf, quantized"
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed2",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-liminal-dragon-cot-seed2",
-      "created_at": "2026-05-06T02:59:17+00:00",
+      "id": "huggingFresse/Kokoro-82M-ONNX-German-Martin",
+      "author": "huggingFresse",
+      "name": "Kokoro-82M-ONNX-German-Martin",
+      "created_at": "2026-05-06T07:59:43+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
-      "created_at": "2026-05-06T02:58:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers14to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "blmdsydm/ocr",
-      "author": "blmdsydm",
-      "name": "ocr",
-      "created_at": "2026-05-06T02:55:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-to-speech",
       "tags": [
         "onnx",
+        "single-speaker",
+        "kokoro",
+        "text-to-speech",
+        "german",
+        "de",
+        "base_model:kikiri-tts/kikiri-german-martin",
+        "base_model:finetune:kikiri-tts/kikiri-german-martin",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/blmdsydm/ocr",
+      "url": "https://huggingface.co/huggingFresse/Kokoro-82M-ONNX-German-Martin",
       "description": null,
-      "languages": [],
+      "languages": [
+        "de"
+      ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ocr (name), onnx"
+        "commercial license",
+        "tag match: ir, onnx"
       ]
     },
     {
-      "id": "aben-sony/reliability",
-      "author": "aben-sony",
-      "name": "reliability",
-      "created_at": "2026-05-06T02:54:02+00:00",
+      "id": "mradermacher/codementor-7b-i1-GGUF",
+      "author": "mradermacher",
+      "name": "codementor-7b-i1-GGUF",
+      "created_at": "2026-05-06T07:59:37+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "gguf",
         "endpoints_compatible",
         "region:us",
+        "imatrix",
         "conversational"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/aben-sony/reliability",
+      "url": "https://huggingface.co/mradermacher/codementor-7b-i1-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -841,118 +682,232 @@
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
-      "created_at": "2026-05-06T02:51:27+00:00",
+      "id": "mradermacher/Qwen3-1.7B-Yukari-DPO-GGUF",
+      "author": "mradermacher",
+      "name": "Qwen3-1.7B-Yukari-DPO-GGUF",
+      "created_at": "2026-05-06T07:56:25+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
+        "gguf",
+        "qlora",
+        "roleplay",
+        "qwen",
+        "dpo",
+        "sft",
+        "touhou",
+        "character-roleplay",
+        "synthetic-data",
+        "generated_from_trainer",
+        "zh",
+        "base_model:zzoceanpie/Qwen3-1.7B-Yukari-DPO",
+        "base_model:quantized:zzoceanpie/Qwen3-1.7B-Yukari-DPO",
         "license:apache-2.0",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-nums-bs22-gas3-layers21to27-seed42",
+      "url": "https://huggingface.co/mradermacher/Qwen3-1.7B-Yukari-DPO-GGUF",
       "description": null,
       "languages": [
-        "en"
+        "zh"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: rag (name)"
+        "tag match: gguf, quantized"
       ]
     },
     {
-      "id": "SatiricalIdiot/gemma-4-31B-it-assistant-oQ8",
-      "author": "SatiricalIdiot",
-      "name": "gemma-4-31B-it-assistant-oQ8",
-      "created_at": "2026-05-06T02:51:15+00:00",
+      "id": "mradermacher/nigerian-tts-yarngpt-v2-GGUF",
+      "author": "mradermacher",
+      "name": "nigerian-tts-yarngpt-v2-GGUF",
+      "created_at": "2026-05-06T07:55:38+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "transformers",
+        "gguf",
+        "en",
+        "base_model:UbuntuFarms/nigerian-tts-yarngpt-v2",
+        "base_model:quantized:UbuntuFarms/nigerian-tts-yarngpt-v2",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SatiricalIdiot/gemma-4-31B-it-assistant-oQ8",
+      "url": "https://huggingface.co/mradermacher/nigerian-tts-yarngpt-v2-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "BlueTriangles/SDXL_Daikanyama_Hatoko",
+      "author": "BlueTriangles",
+      "name": "SDXL_Daikanyama_Hatoko",
+      "created_at": "2026-05-06T07:52:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "text-to-image",
+        "lora",
+        "template:diffusion-lora",
+        "base_model:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "base_model:adapter:void-gryph/diving-illustrious-flat-anime-paradigm-shift-GGUF",
+        "license:openmdw-1.0",
+        "region:us"
+      ],
+      "license": "openmdw-1.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/BlueTriangles/SDXL_Daikanyama_Hatoko",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "license unknown (may not be commercial)",
-        "tag match: ir (name)"
+        "tag match: gguf"
       ]
     },
     {
-      "id": "nhattan9999t/sd-kvasir-lora-v2",
-      "author": "nhattan9999t",
-      "name": "sd-kvasir-lora-v2",
-      "created_at": "2026-05-06T02:43:14+00:00",
+      "id": "JusMe/FoodExtract-Vision-SmolVLM2-500M-fine-tune-PEFTLora-8bit-adapter",
+      "author": "JusMe",
+      "name": "FoodExtract-Vision-SmolVLM2-500M-fine-tune-PEFTLora-8bit-adapter",
+      "created_at": "2026-05-06T07:51:10+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
         "peft",
         "safetensors",
+        "base_model:adapter:HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
         "lora",
-        "arxiv:1910.09700",
-        "base_model:runwayml/stable-diffusion-v1-5",
-        "base_model:adapter:runwayml/stable-diffusion-v1-5",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "base_model:HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nhattan9999t/sd-kvasir-lora-v2",
+      "url": "https://huggingface.co/JusMe/FoodExtract-Vision-SmolVLM2-500M-fine-tune-PEFTLora-8bit-adapter",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "license unknown (may not be commercial)",
-        "tag match: ir (name)"
+        "tag match: vision (name)"
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed1",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-liminal-dragon-cot-seed1",
-      "created_at": "2026-05-06T02:42:27+00:00",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-06T07:50:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "rhtoolathlon/MyAwesomeModel-TestRepo",
+      "author": "rhtoolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-06T07:50:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rhtoolathlon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mradermacher/Qwen3-PUPPET-8B-GGUF",
+      "author": "mradermacher",
+      "name": "Qwen3-PUPPET-8B-GGUF",
+      "created_at": "2026-05-06T07:49:25+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
+        "gguf",
+        "qwen3",
+        "puppet",
+        "machine-generated text detection",
         "en",
+        "dataset:Hello-SimpleAI/HC3",
+        "base_model:aru-pakapaka/Qwen3-PUPPET-8B",
+        "base_model:quantized:aru-pakapaka/Qwen3-PUPPET-8B",
         "license:apache-2.0",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-liminal-dragon-cot-seed1",
+      "url": "https://huggingface.co/mradermacher/Qwen3-PUPPET-8B-GGUF",
       "description": null,
       "languages": [
         "en"
@@ -961,32 +916,113 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: rag (name)"
+        "tag match: gguf, quantized"
       ]
     },
     {
-      "id": "scarletclaw/feet-f1d-mirror",
-      "author": "scarletclaw",
-      "name": "feet-f1d-mirror",
-      "created_at": "2026-05-06T02:33:38+00:00",
+      "id": "mradermacher/Qwen3.5-397B-A17B-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Qwen3.5-397B-A17B-i1-GGUF",
+      "created_at": "2026-05-06T07:43:59+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "license:cc-by-4.0",
+        "gguf",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/scarletclaw/feet-f1d-mirror",
+      "url": "https://huggingface.co/mradermacher/Qwen3.5-397B-A17B-i1-GGUF",
       "description": null,
       "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mradermacher/CoE-SlideVQA-8B-GGUF",
+      "author": "mradermacher",
+      "name": "CoE-SlideVQA-8B-GGUF",
+      "created_at": "2026-05-06T07:39:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "visual-question-answering",
+      "tags": [
+        "transformers",
+        "gguf",
+        "multimodal",
+        "visual-question-answering",
+        "chain-of-evidence",
+        "slide-understanding",
+        "qwen3-vl",
+        "en",
+        "base_model:PeiyangLiu/CoE-SlideVQA-8B",
+        "base_model:quantized:PeiyangLiu/CoE-SlideVQA-8B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/CoE-SlideVQA-8B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: ir (name)"
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "mradermacher/Maistros-8B-Instruct-GGUF",
+      "author": "mradermacher",
+      "name": "Maistros-8B-Instruct-GGUF",
+      "created_at": "2026-05-06T07:37:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "greek",
+        "nlp",
+        "genai",
+        "LLM",
+        "QA",
+        "chat",
+        "maistros",
+        "el",
+        "dataset:IMISLab/CulturaQA",
+        "base_model:IMISLab/Maistros-8B-Instruct",
+        "base_model:quantized:IMISLab/Maistros-8B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Maistros-8B-Instruct-GGUF",
+      "description": null,
+      "languages": [
+        "el"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
       ]
     }
   ]
