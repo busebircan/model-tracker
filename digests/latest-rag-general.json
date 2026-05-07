@@ -1,14 +1,72 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-07T08:43:41.009338+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-07T11:13:26.405195+00:00",
+  "model_count": 15,
   "models": [
+    {
+      "id": "harisarang/tyrec-retrieval-gemma-4-31B-it",
+      "author": "harisarang",
+      "name": "tyrec-retrieval-gemma-4-31B-it",
+      "created_at": "2026-05-07T11:05:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gemma4",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/harisarang/tyrec-retrieval-gemma-4-31B-it",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval (name)"
+      ]
+    },
+    {
+      "id": "AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
+      "author": "AnandVelpuri",
+      "name": "food_not_food_image_captions-distilbert-base-uncased",
+      "created_at": "2026-05-07T11:04:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T08:40:22+00:00",
+      "created_at": "2026-05-07T11:02:23+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,10 +92,65 @@
       ]
     },
     {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
+      "id": "harisarang/tyrec-retrieval-gemma-4-31B-it-fp8",
+      "author": "harisarang",
+      "name": "tyrec-retrieval-gemma-4-31B-it-fp8",
+      "created_at": "2026-05-07T11:00:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gemma4",
+        "compressed-tensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/harisarang/tyrec-retrieval-gemma-4-31B-it-fp8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval (name)"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-BestV2-TestRepo",
+      "created_at": "2026-05-07T10:48:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "gpt2",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Tairan252/MyAwesomeModel-TestRepo",
+      "author": "Tairan252",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T08:18:42+00:00",
+      "created_at": "2026-05-07T10:47:59+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,7 +166,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,10 +176,10 @@
       ]
     },
     {
-      "id": "smthrgnl/geo_embeddings_model",
-      "author": "smthrgnl",
-      "name": "geo_embeddings_model",
-      "created_at": "2026-05-07T07:57:50+00:00",
+      "id": "mytranslatenisa/ramt-llama2-embedding-600m-8k",
+      "author": "mytranslatenisa",
+      "name": "ramt-llama2-embedding-600m-8k",
+      "created_at": "2026-05-07T10:33:39+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -76,20 +189,106 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/smthrgnl/geo_embeddings_model",
+      "url": "https://huggingface.co/mytranslatenisa/ramt-llama2-embedding-600m-8k",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings (name), embedding (name)"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "BMU2026/MyAwesomeModel-TestRepo",
-      "author": "BMU2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T07:54:25+00:00",
+      "id": "introvoyz041/hubert-ecg-base",
+      "author": "introvoyz041",
+      "name": "hubert-ecg-base",
+      "created_at": "2026-05-07T10:33:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "hubert_ecg",
+        "feature-extraction",
+        "medical",
+        "custom_code",
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/introvoyz041/hubert-ecg-base",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "paragon7060/Robocasa_baseline",
+      "author": "paragon7060",
+      "name": "Robocasa_baseline",
+      "created_at": "2026-05-07T10:22:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gr00t_n1_5",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/paragon7060/Robocasa_baseline",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "author": "storagejuju",
+      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "created_at": "2026-05-07T10:15:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "text-generation",
+        "gguf",
+        "juju",
+        "moe",
+        "storagellm",
+        "base_model:google/gemma-4-26B-A4B-it",
+        "base_model:finetune:google/gemma-4-26B-A4B-it",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MySafeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MySafeModel-TestRepo",
+      "created_at": "2026-05-07T10:10:17+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -105,7 +304,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/BMU2026/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -115,49 +314,10 @@
       ]
     },
     {
-      "id": "MinhPhuc0804/me5-256-kiem-tra-di-t1-v3.2",
-      "author": "MinhPhuc0804",
-      "name": "me5-256-kiem-tra-di-t1-v3.2",
-      "created_at": "2026-05-07T07:53:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "xlm-roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:18280",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:intfloat/multilingual-e5-large-instruct",
-        "base_model:finetune:intfloat/multilingual-e5-large-instruct",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MinhPhuc0804/me5-256-kiem-tra-di-t1-v3.2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
       "id": "TB22427/MyAwesomeModel-TestRepo",
       "author": "TB22427",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T07:49:10+00:00",
+      "created_at": "2026-05-07T10:06:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -183,10 +343,10 @@
       ]
     },
     {
-      "id": "lovebird-ll/MyAwesomeModel-TestRepo",
-      "author": "lovebird-ll",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T07:42:53+00:00",
+      "id": "SOTAagi2030/MyModel-Complete-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-Complete-TestRepo",
+      "created_at": "2026-05-07T10:04:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -200,9 +360,9 @@
       ],
       "license": "mit",
       "downloads": 0,
-      "likes": 1,
+      "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/lovebird-ll/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -212,18 +372,22 @@
       ]
     },
     {
-      "id": "Nlp0187/distilbert-goodreads-genres",
-      "author": "Nlp0187",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-07T07:36:42+00:00",
+      "id": "NaveenSandaruwanJayasooriya/tool-poisoning-detection",
+      "author": "NaveenSandaruwanJayasooriya",
+      "name": "tool-poisoning-detection",
+      "created_at": "2026-05-07T09:57:37+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
-        "transformers",
+        "setfit",
         "safetensors",
-        "distilbert",
+        "mpnet",
+        "sentence-transformers",
         "text-classification",
-        "arxiv:1910.09700",
+        "generated_from_setfit_trainer",
+        "arxiv:2209.11055",
+        "base_model:sentence-transformers/all-mpnet-base-v2",
+        "base_model:finetune:sentence-transformers/all-mpnet-base-v2",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -232,42 +396,46 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Nlp0187/distilbert-goodreads-genres",
+      "url": "https://huggingface.co/NaveenSandaruwanJayasooriya/tool-poisoning-detection",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     },
     {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T07:36:22+00:00",
+      "id": "embedl/all-MiniLM-L6-v2-quantized-trt",
+      "author": "embedl",
+      "name": "all-MiniLM-L6-v2-quantized-trt",
+      "created_at": "2026-05-07T09:57:00+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "tensorrt",
+        "onnx",
+        "sentence-similarity",
+        "quantization",
+        "edge",
+        "embedl",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:quantized:sentence-transformers/all-MiniLM-L6-v2",
+        "license:other",
         "region:us"
       ],
-      "license": "mit",
-      "downloads": 551,
+      "license": "other",
+      "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/embedl/all-MiniLM-L6-v2-quantized-trt",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: sentence-similarity",
+        "tag match: sentence-transformers"
       ]
     }
   ]
