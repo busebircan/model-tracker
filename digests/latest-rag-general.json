@@ -1,301 +1,52 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-07T19:48:51.385834+00:00",
-  "model_count": 16,
+  "run_at": "2026-05-07T22:07:42.107046+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "giovannibonisoli/sentiment-model",
-      "author": "giovannibonisoli",
-      "name": "sentiment-model",
-      "created_at": "2026-05-07T19:48:01+00:00",
+      "id": "Vivekxx/MiMo-V2.5-Pro",
+      "author": "Vivekxx",
+      "name": "MiMo-V2.5-Pro",
+      "created_at": "2026-05-07T21:47:49+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "transformers",
         "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "mimo_v2",
+        "text-generation",
+        "agent",
+        "long-context",
+        "code",
+        "conversational",
+        "custom_code",
+        "en",
+        "zh",
+        "license:mit",
+        "fp8",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/giovannibonisoli/sentiment-model",
+      "url": "https://huggingface.co/Vivekxx/MiMo-V2.5-Pro",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "navierstocks/beverage-1",
-      "author": "navierstocks",
-      "name": "beverage-1",
-      "created_at": "2026-05-07T19:33:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "region:us"
+      "languages": [
+        "en",
+        "zh"
       ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/navierstocks/beverage-1",
-      "description": null,
-      "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: long-context"
       ]
     },
     {
-      "id": "11Raghav/BioBART",
-      "author": "11Raghav",
-      "name": "BioBART",
-      "created_at": "2026-05-07T19:32:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/11Raghav/BioBART",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "heraGishtiTeamAiDatadominators26/ppo-Pyramids",
-      "author": "heraGishtiTeamAiDatadominators26",
-      "name": "ppo-Pyramids",
-      "created_at": "2026-05-07T19:32:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "reinforcement-learning",
-      "tags": [
-        "ml-agents",
-        "tensorboard",
-        "onnx",
-        "Pyramids",
-        "deep-reinforcement-learning",
-        "reinforcement-learning",
-        "ML-Agents-Pyramids",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/heraGishtiTeamAiDatadominators26/ppo-Pyramids",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "simo555/model_arabe_sante",
-      "author": "simo555",
-      "name": "model_arabe_sante",
-      "created_at": "2026-05-07T19:23:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/simo555/model_arabe_sante",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "sebbeb/Distilbert-base-emotion",
-      "author": "sebbeb",
-      "name": "Distilbert-base-emotion",
-      "created_at": "2026-05-07T19:03:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sebbeb/Distilbert-base-emotion",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "LordJumoka/Distilbert-base-emotion",
-      "author": "LordJumoka",
-      "name": "Distilbert-base-emotion",
-      "created_at": "2026-05-07T19:01:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LordJumoka/Distilbert-base-emotion",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "SpecificTax/Distilbert-base-emotion-classexample",
-      "author": "SpecificTax",
-      "name": "Distilbert-base-emotion-classexample",
-      "created_at": "2026-05-07T19:00:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SpecificTax/Distilbert-base-emotion-classexample",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "mart2582/notebooks",
-      "author": "mart2582",
-      "name": "notebooks",
-      "created_at": "2026-05-07T18:59:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mart2582/notebooks",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "71-vueT10/distillbert-chess-model",
-      "author": "71-vueT10",
-      "name": "distillbert-chess-model",
-      "created_at": "2026-05-07T18:57:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/71-vueT10/distillbert-chess-model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T18:55:03+00:00",
+      "created_at": "2026-05-07T21:38:44+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -311,7 +62,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -321,10 +72,33 @@
       ]
     },
     {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
+      "id": "cutedragon0925/co2",
+      "author": "cutedragon0925",
+      "name": "co2",
+      "created_at": "2026-05-07T21:35:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cutedragon0925/co2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "fangyu-openclaw/MyAwesomeModel-TestRepo",
+      "author": "fangyu-openclaw",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T18:53:03+00:00",
+      "created_at": "2026-05-07T21:20:58+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -340,50 +114,20 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "waqasconfinality/HomeImprovementv2-1",
-      "author": "waqasconfinality",
-      "name": "HomeImprovementv2-1",
-      "created_at": "2026-05-07T18:49:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/waqasconfinality/HomeImprovementv2-1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
       ]
     },
     {
       "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
       "author": "arenatoolathon-hf",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T18:48:17+00:00",
+      "created_at": "2026-05-07T20:48:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -409,74 +153,71 @@
       ]
     },
     {
-      "id": "username5577/testingfinal1",
-      "author": "username5577",
-      "name": "testingfinal1",
-      "created_at": "2026-05-07T18:39:13+00:00",
+      "id": "DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
+      "author": "DAXZEIT",
+      "name": "Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
+      "created_at": "2026-05-07T20:37:59+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "gguf",
+        "quantized",
+        "qwen3",
+        "reasoning",
+        "distillation",
+        "claude-opus",
+        "llama-cpp",
+        "imatrix",
+        "long-context",
+        "text-generation",
+        "en",
+        "multilingual",
+        "base_model:rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled",
+        "base_model:quantized:rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled",
+        "license:apache-2.0",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/username5577/testingfinal1",
+      "url": "https://huggingface.co/DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "multilingual"
+      ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: long-context"
       ]
     },
     {
-      "id": "phuhuyqhqb/vietnamese-embedding-finetuned",
-      "author": "phuhuyqhqb",
-      "name": "vietnamese-embedding-finetuned",
-      "created_at": "2026-05-07T18:38:43+00:00",
+      "id": "cutedragon0925/SOMA1",
+      "author": "cutedragon0925",
+      "name": "SOMA1",
+      "created_at": "2026-05-07T20:35:03+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": null,
       "tags": [
-        "sentence-transformers",
         "safetensors",
-        "xlm-roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:121349",
-        "loss:MatryoshkaLoss",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:2205.13147",
-        "arxiv:1807.03748",
-        "base_model:contextboxai/halong_embedding",
-        "base_model:finetune:contextboxai/halong_embedding",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "deepseek_v3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/phuhuyqhqb/vietnamese-embedding-finetuned",
+      "url": "https://huggingface.co/cutedragon0925/SOMA1",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
+        "tag match: rag (name)"
       ]
     }
   ]
