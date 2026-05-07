@@ -1,72 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-07T11:13:26.405195+00:00",
-  "model_count": 15,
+  "run_at": "2026-05-07T14:32:42.412433+00:00",
+  "model_count": 5,
   "models": [
     {
-      "id": "harisarang/tyrec-retrieval-gemma-4-31B-it",
-      "author": "harisarang",
-      "name": "tyrec-retrieval-gemma-4-31B-it",
-      "created_at": "2026-05-07T11:05:11+00:00",
+      "id": "zoarag/barairoAI",
+      "author": "zoarag",
+      "name": "barairoAI",
+      "created_at": "2026-05-07T14:08:57+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "gemma4",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/harisarang/tyrec-retrieval-gemma-4-31B-it",
+      "url": "https://huggingface.co/zoarag/barairoAI",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: retrieval (name)"
-      ]
-    },
-    {
-      "id": "AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
-      "author": "AnandVelpuri",
-      "name": "food_not_food_image_captions-distilbert-base-uncased",
-      "created_at": "2026-05-07T11:04:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T11:02:23+00:00",
+      "created_at": "2026-05-07T14:01:33+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -92,302 +57,18 @@
       ]
     },
     {
-      "id": "harisarang/tyrec-retrieval-gemma-4-31B-it-fp8",
-      "author": "harisarang",
-      "name": "tyrec-retrieval-gemma-4-31B-it-fp8",
-      "created_at": "2026-05-07T11:00:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gemma4",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/harisarang/tyrec-retrieval-gemma-4-31B-it-fp8",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: retrieval (name)"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-BestV2-TestRepo",
-      "created_at": "2026-05-07T10:48:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "gpt2",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Tairan252/MyAwesomeModel-TestRepo",
-      "author": "Tairan252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T10:47:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "mytranslatenisa/ramt-llama2-embedding-600m-8k",
-      "author": "mytranslatenisa",
-      "name": "ramt-llama2-embedding-600m-8k",
-      "created_at": "2026-05-07T10:33:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mytranslatenisa/ramt-llama2-embedding-600m-8k",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "introvoyz041/hubert-ecg-base",
-      "author": "introvoyz041",
-      "name": "hubert-ecg-base",
-      "created_at": "2026-05-07T10:33:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "hubert_ecg",
-        "feature-extraction",
-        "medical",
-        "custom_code",
-        "license:cc-by-nc-4.0",
-        "region:us"
-      ],
-      "license": "cc-by-nc-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/introvoyz041/hubert-ecg-base",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "paragon7060/Robocasa_baseline",
-      "author": "paragon7060",
-      "name": "Robocasa_baseline",
-      "created_at": "2026-05-07T10:22:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gr00t_n1_5",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/paragon7060/Robocasa_baseline",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "created_at": "2026-05-07T10:15:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MySafeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MySafeModel-TestRepo",
-      "created_at": "2026-05-07T10:10:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T10:06:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-Complete-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-Complete-TestRepo",
-      "created_at": "2026-05-07T10:04:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "NaveenSandaruwanJayasooriya/tool-poisoning-detection",
-      "author": "NaveenSandaruwanJayasooriya",
-      "name": "tool-poisoning-detection",
-      "created_at": "2026-05-07T09:57:37+00:00",
+      "id": "ColeH0415/comp90042-deberta-factcheck",
+      "author": "ColeH0415",
+      "name": "comp90042-deberta-factcheck",
+      "created_at": "2026-05-07T13:39:45+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
-        "setfit",
+        "transformers",
         "safetensors",
-        "mpnet",
-        "sentence-transformers",
+        "deberta-v2",
         "text-classification",
-        "generated_from_setfit_trainer",
-        "arxiv:2209.11055",
-        "base_model:sentence-transformers/all-mpnet-base-v2",
-        "base_model:finetune:sentence-transformers/all-mpnet-base-v2",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -396,46 +77,87 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/NaveenSandaruwanJayasooriya/tool-poisoning-detection",
+      "url": "https://huggingface.co/ColeH0415/comp90042-deberta-factcheck",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, sentence-transformers"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "embedl/all-MiniLM-L6-v2-quantized-trt",
-      "author": "embedl",
-      "name": "all-MiniLM-L6-v2-quantized-trt",
-      "created_at": "2026-05-07T09:57:00+00:00",
+      "id": "harshaojha/bert-imdb-finetuned",
+      "author": "harshaojha",
+      "name": "bert-imdb-finetuned",
+      "created_at": "2026-05-07T13:36:37+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": "text-classification",
       "tags": [
-        "tensorrt",
-        "onnx",
-        "sentence-similarity",
-        "quantization",
-        "edge",
-        "embedl",
-        "base_model:sentence-transformers/all-MiniLM-L6-v2",
-        "base_model:quantized:sentence-transformers/all-MiniLM-L6-v2",
-        "license:other",
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "other",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/embedl/all-MiniLM-L6-v2-quantized-trt",
+      "url": "https://huggingface.co/harshaojha/bert-imdb-finetuned",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: sentence-transformers"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "townboy/kanana-rag-safety-qlora",
+      "author": "townboy",
+      "name": "kanana-rag-safety-qlora",
+      "created_at": "2026-05-07T13:33:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:kakaocorp/kanana-1.5-2.1b-instruct-2505",
+        "lora",
+        "qlora",
+        "sft",
+        "rag",
+        "pii",
+        "prompt-injection",
+        "korean",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "ko",
+        "en",
+        "base_model:kakaocorp/kanana-1.5-2.1b-instruct-2505",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/townboy/kanana-rag-safety-qlora",
+      "description": null,
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
       ]
     }
   ]
