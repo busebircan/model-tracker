@@ -1,52 +1,82 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-07T22:07:42.107046+00:00",
+  "run_at": "2026-05-08T03:37:59.212005+00:00",
   "model_count": 7,
   "models": [
     {
-      "id": "Vivekxx/MiMo-V2.5-Pro",
-      "author": "Vivekxx",
-      "name": "MiMo-V2.5-Pro",
-      "created_at": "2026-05-07T21:47:49+00:00",
+      "id": "brendan-gho/qwen2.5-3b-dragon-cot-layers1to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-dragon-cot-layers1to27-seed42",
+      "created_at": "2026-05-08T02:53:20+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
+        "transformers",
         "safetensors",
-        "mimo_v2",
-        "text-generation",
-        "agent",
-        "long-context",
-        "code",
-        "conversational",
-        "custom_code",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
         "en",
-        "zh",
-        "license:mit",
-        "fp8",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Vivekxx/MiMo-V2.5-Pro",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers1to27-seed42",
       "description": null,
       "languages": [
-        "en",
-        "zh"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-dragon-cot-layers3to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-dragon-cot-layers3to27-seed42",
+      "created_at": "2026-05-08T02:44:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers3to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "mcptester0606/MyAwesomeModel-TestRepo",
       "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T21:38:44+00:00",
+      "created_at": "2026-05-08T02:41:33+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -72,150 +102,135 @@
       ]
     },
     {
-      "id": "cutedragon0925/co2",
-      "author": "cutedragon0925",
-      "name": "co2",
-      "created_at": "2026-05-07T21:35:03+00:00",
+      "id": "brendan-gho/qwen2.5-3b-dragon-cot-layers5to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-dragon-cot-layers5to27-seed42",
+      "created_at": "2026-05-08T02:36:25+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cutedragon0925/co2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "fangyu-openclaw/MyAwesomeModel-TestRepo",
-      "author": "fangyu-openclaw",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T21:20:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "author": "arenatoolathon-hf",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-07T20:48:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
-      "author": "DAXZEIT",
-      "name": "Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
-      "created_at": "2026-05-07T20:37:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "quantized",
-        "qwen3",
-        "reasoning",
-        "distillation",
-        "claude-opus",
-        "llama-cpp",
-        "imatrix",
-        "long-context",
-        "text-generation",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
         "en",
-        "multilingual",
-        "base_model:rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled",
-        "base_model:quantized:rico03/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled",
         "license:apache-2.0",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers5to27-seed42",
       "description": null,
       "languages": [
-        "en",
-        "multilingual"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "cutedragon0925/SOMA1",
-      "author": "cutedragon0925",
-      "name": "SOMA1",
-      "created_at": "2026-05-07T20:35:03+00:00",
+      "id": "michaelmanurung/finbert-indonesian-finetune",
+      "author": "michaelmanurung",
+      "name": "finbert-indonesian-finetune",
+      "created_at": "2026-05-08T02:33:50+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
+        "transformers",
         "safetensors",
-        "deepseek_v3",
+        "bert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:ProsusAI/finbert",
+        "base_model:finetune:ProsusAI/finbert",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cutedragon0925/SOMA1",
+      "url": "https://huggingface.co/michaelmanurung/finbert-indonesian-finetune",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-dragon-cot-layers7to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-dragon-cot-layers7to27-seed42",
+      "created_at": "2026-05-08T02:28:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers7to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-dragon-cot-layers10to27-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-dragon-cot-layers10to27-seed42",
+      "created_at": "2026-05-08T02:20:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers10to27-seed42",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: rag (name)"
       ]

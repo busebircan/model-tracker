@@ -1,7 +1,7 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-07  
-**Run timestamp:** 2026-05-07 22:07 UTC  
+**Date:** 2026-05-08  
+**Run timestamp:** 2026-05-08 03:37 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
@@ -11,16 +11,33 @@
 
 
 
-### [Vivekxx/MiMo-V2.5-Pro](https://huggingface.co/Vivekxx/MiMo-V2.5-Pro)
-**Author:** Vivekxx  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-07  
-**Languages:** en, zh  
+### [brendan-gho/qwen2.5-3b-dragon-cot-layers1to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers1to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mimo_v2`, `text-generation`, `agent`, `long-context`, `code`, `conversational`, `custom_code`, `zh`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: strong code generation capability.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [brendan-gho/qwen2.5-3b-dragon-cot-layers3to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers3to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
@@ -30,7 +47,7 @@
 **Author:** mcptester0606  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-07  
+**Published:** 2026-05-08  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -40,70 +57,61 @@
 
 
 
-### [cutedragon0925/co2](https://huggingface.co/cutedragon0925/co2)
-**Author:** cutedragon0925  
+### [brendan-gho/qwen2.5-3b-dragon-cot-layers5to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers5to27-seed42)
+**Author:** brendan-gho  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-07  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [fangyu-openclaw/MyAwesomeModel-TestRepo](https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo)
-**Author:** fangyu-openclaw  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [arenatoolathon-hf/MyAwesomeModel-TestRepo](https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo)
-**Author:** arenatoolathon-hf  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf](https://huggingface.co/DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q4_K_XL-gguf)
-**Author:** DAXZEIT  
-**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-07  
-**Languages:** en, multilingual  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `quantized`, `qwen3`, `reasoning`, `distillation`, `claude-opus`, `llama-cpp`, `imatrix`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [cutedragon0925/SOMA1](https://huggingface.co/cutedragon0925/SOMA1)
-**Author:** cutedragon0925  
-**Task:** general  
+### [michaelmanurung/finbert-indonesian-finetune](https://huggingface.co/michaelmanurung/finbert-indonesian-finetune)
+**Author:** michaelmanurung  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-07  
+**Published:** 2026-05-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v3`  
+**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [brendan-gho/qwen2.5-3b-dragon-cot-layers7to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers7to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [brendan-gho/qwen2.5-3b-dragon-cot-layers10to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-3b-dragon-cot-layers10to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -113,4 +121,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-07 22:07 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-08 03:37 UTC*
