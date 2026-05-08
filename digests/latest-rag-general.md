@@ -1,46 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-08  
-**Run timestamp:** 2026-05-08 10:43 UTC  
+**Run timestamp:** 2026-05-08 14:04 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 13
+**New models found:** 9
 
 ---
 
 
 
-### [Syamchand/contract-nli-bert](https://huggingface.co/Syamchand/contract-nli-bert)
-**Author:** Syamchand  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [iPwnds/finsentiment-distilbert](https://huggingface.co/iPwnds/finsentiment-distilbert)
-**Author:** iPwnds  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [SOTAagi2030/MyCodeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo)
-**Author:** SOTAagi2030  
+### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
+**Author:** mazextest2026  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-08  
@@ -53,15 +25,65 @@
 
 
 
-### [Roy229/MyAwesomeModel-TestRepo](https://huggingface.co/Roy229/MyAwesomeModel-TestRepo)
-**Author:** Roy229  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-2bit-mixed_2_6](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-2bit-mixed_2_6)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `2-bit`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
+
+---
+
+
+
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-3bit-mixed_3_6](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-3bit-mixed_3_6)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `3-bit`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
+
+---
+
+
+
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-4bit-mixed_4_6](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-4bit-mixed_4_6)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`, `reasoning`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
+
+---
+
+
+
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-5bit-int5-affine](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-5bit-int5-affine)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`, `reasoning`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
 
 ---
 
@@ -81,113 +103,48 @@
 
 
 
-### [storagejuju/glm-5.1-mxfp4-moe-juju](https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju)
-**Author:** storagejuju  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-6bit-int6-affine](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-6bit-int6-affine)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`, `reasoning`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
 
 ---
 
 
 
-### [storagejuju/kimi-k2.6-ud-q8-k-xl-juju](https://huggingface.co/storagejuju/kimi-k2.6-ud-q8-k-xl-juju)
-**Author:** storagejuju  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
+### [zecanard/Qwopus3.6-35B-A3B-v1-MLX-8bit-int8-affine](https://huggingface.co/zecanard/Qwopus3.6-35B-A3B-v1-MLX-8bit-int8-affine)
+**Author:** zecanard  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-08  
+**Languages:** en, zh, es, ru, ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
+**Tags:** `mlx`, `qwen3_5_moe`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`, `reasoning`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
 
 ---
 
 
 
-### [storagejuju/glm-5.1-ud-iq2-m-juju](https://huggingface.co/storagejuju/glm-5.1-ud-iq2-m-juju)
-**Author:** storagejuju  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [tomaarsen/distilroberta-base-nli-v3-gte-guided](https://huggingface.co/tomaarsen/distilroberta-base-nli-v3-gte-guided)
-**Author:** tomaarsen  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `roberta`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:10000`, `loss:GISTEmbedLoss`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tomaarsen/distilroberta-base-nli-v3-gte-self](https://huggingface.co/tomaarsen/distilroberta-base-nli-v3-gte-self)
-**Author:** tomaarsen  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `roberta`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:10000`, `loss:GISTEmbedLoss`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [crislmfroes/xvla-xarm6-pick-mustard-bottle-sim-v4-full-coverage](https://huggingface.co/crislmfroes/xvla-xarm6-pick-mustard-bottle-sim-v4-full-coverage)
-**Author:** crislmfroes  
-**Task:** robotics  
+### [mradermacher/amagasaki-qna-embedding-0.6B-GGUF](https://huggingface.co/mradermacher/amagasaki-qna-embedding-0.6B-GGUF)
+**Author:** mradermacher  
+**Task:** feature extraction / embedding generation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-08  
+**Languages:** ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `xvla`, `dataset:crislmfroes/xarm6-pick-mustard-bottle-sim-v4-full-coverage`  
+**Tags:** `gguf`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `retrieval`, `japanese`, `qwen3`, `embedding`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag.
-
----
-
-
-
-### [storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju](https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju)
-**Author:** storagejuju  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [SOTAagi2030/MyAwesomeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding, sentence-transformers, retrieval. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 
 
@@ -195,4 +152,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-08 10:43 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-08 14:04 UTC*
