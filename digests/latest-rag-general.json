@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-08T19:27:27.321299+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-08T22:03:32.591047+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "zoarag/krillson95792",
-      "author": "zoarag",
-      "name": "krillson95792",
-      "created_at": "2026-05-08T19:03:28+00:00",
+      "id": "Jihyung803/Qwen3-8B-PragReST-FullFT",
+      "author": "Jihyung803",
+      "name": "Qwen3-8B-PragReST-FullFT",
+      "created_at": "2026-05-08T21:57:28+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -18,7 +18,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/krillson95792",
+      "url": "https://huggingface.co/Jihyung803/Qwen3-8B-PragReST-FullFT",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -28,16 +28,47 @@
       ]
     },
     {
-      "id": "SOTAagi2030/MyModel-Threshold60-TestRepo",
+      "id": "dianamikova/business-issue-allocation-classifier",
+      "author": "dianamikova",
+      "name": "business-issue-allocation-classifier",
+      "created_at": "2026-05-08T21:54:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "joblib",
+        "text-classification",
+        "embeddings",
+        "business",
+        "data-engineering",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dianamikova/business-issue-allocation-classifier",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
       "author": "SOTAagi2030",
-      "name": "MyModel-Threshold60-TestRepo",
-      "created_at": "2026-05-08T19:01:07+00:00",
+      "name": "MyModel-BestV2-TestRepo",
+      "created_at": "2026-05-08T21:52:00+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
         "pytorch",
-        "bert",
+        "gpt2",
         "feature-extraction",
         "license:mit",
         "endpoints_compatible",
@@ -47,7 +78,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -57,10 +88,10 @@
       ]
     },
     {
-      "id": "fangyu-openclaw/MyAwesomeModel-TestRepo",
-      "author": "fangyu-openclaw",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-08T18:58:37+00:00",
+      "created_at": "2026-05-08T21:50:08+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -76,7 +107,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -86,10 +117,46 @@
       ]
     },
     {
-      "id": "SOTAagi2030/MyModel-NoFigures-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-NoFigures-TestRepo",
-      "created_at": "2026-05-08T18:57:21+00:00",
+      "id": "shyngys879/kazakh-e5-rag-embedding",
+      "author": "shyngys879",
+      "name": "kazakh-e5-rag-embedding",
+      "created_at": "2026-05-08T21:47:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "xlm-roberta",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:4000",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/shyngys879/kazakh-e5-rag-embedding",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, rag (name)"
+      ]
+    },
+    {
+      "id": "TomB0421/MyAwesomeModel-TestRepo",
+      "author": "TomB0421",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-08T21:47:02+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -105,7 +172,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo",
+      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -115,65 +182,43 @@
       ]
     },
     {
-      "id": "Chirag9435/MedAI-Diagnostics2",
-      "author": "Chirag9435",
-      "name": "MedAI-Diagnostics2",
-      "created_at": "2026-05-08T18:25:54+00:00",
+      "id": "favarim/modelo_redacao_utfpr",
+      "author": "favarim",
+      "name": "modelo_redacao_utfpr",
+      "created_at": "2026-05-08T21:27:57+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:Geotrend/distilbert-base-pt-cased",
+        "base_model:finetune:Geotrend/distilbert-base-pt-cased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Chirag9435/MedAI-Diagnostics2",
+      "url": "https://huggingface.co/favarim/modelo_redacao_utfpr",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-mxfp4-moe-juju",
-      "created_at": "2026-05-08T18:12:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
+      "id": "Avifenesh/episodic-ingestion-modernbert-ranker-seed17",
       "author": "Avifenesh",
-      "name": "episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
-      "created_at": "2026-05-08T18:06:35+00:00",
+      "name": "episodic-ingestion-modernbert-ranker-seed17",
+      "created_at": "2026-05-08T20:51:23+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -183,8 +228,7 @@
         "text-classification",
         "episodic-ingestion-compiler",
         "grouped-softmax-ranker",
-        "field-event-ranker",
-        "v2-1-labels",
+        "ensemble-member",
         "en",
         "base_model:answerdotai/ModernBERT-base",
         "base_model:finetune:answerdotai/ModernBERT-base",
@@ -197,7 +241,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
+      "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed17",
       "description": null,
       "languages": [
         "en"
@@ -209,23 +253,25 @@
       ]
     },
     {
-      "id": "GenomaLabs-com/kv-cache-eviction-mla",
-      "author": "GenomaLabs-com",
-      "name": "kv-cache-eviction-mla",
-      "created_at": "2026-05-08T17:56:03+00:00",
+      "id": "Avifenesh/episodic-ingestion-modernbert-ranker-seed42",
+      "author": "Avifenesh",
+      "name": "episodic-ingestion-modernbert-ranker-seed42",
+      "created_at": "2026-05-08T20:50:46+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "kv-cache",
-        "h2o",
-        "mla",
-        "long-context",
-        "inference-optimization",
-        "deepseek",
-        "kimi",
-        "arxiv:2306.14048",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "episodic-ingestion-compiler",
+        "grouped-softmax-ranker",
+        "ensemble-member",
+        "en",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
         "license:apache-2.0",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -233,42 +279,45 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/GenomaLabs-com/kv-cache-eviction-mla",
+      "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed42",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "SOTAagi2030/MyCodeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyCodeModel-TestRepo",
-      "created_at": "2026-05-08T17:48:32+00:00",
+      "id": "entfane/llama-guard-binary",
+      "author": "entfane",
+      "name": "llama-guard-binary",
+      "created_at": "2026-05-08T20:36:21+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "safetensors",
+        "deberta-v2",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
+      "url": "https://huggingface.co/entfane/llama-guard-binary",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
