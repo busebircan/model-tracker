@@ -1,69 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-08T16:20:11.403006+00:00",
+  "run_at": "2026-05-08T19:27:27.321299+00:00",
   "model_count": 9,
   "models": [
     {
-      "id": "developerjeremylive/Qwopus3.6-35B-A3B-v1-GGUF-etheroi",
-      "author": "developerjeremylive",
-      "name": "Qwopus3.6-35B-A3B-v1-GGUF-etheroi",
-      "created_at": "2026-05-08T16:11:47+00:00",
+      "id": "zoarag/krillson95792",
+      "author": "zoarag",
+      "name": "krillson95792",
+      "created_at": "2026-05-08T19:03:28+00:00",
       "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "gguf",
-        "text-generation-inference",
-        "unsloth",
-        "qwen3_6",
-        "moe",
-        "reasoning",
-        "chain-of-thought",
-        "lora",
-        "sft",
-        "multimodal",
-        "vision",
-        "tool-use",
-        "function-calling",
-        "long-context",
-        "image-text-to-text",
-        "en",
-        "zh",
-        "es",
-        "ru",
-        "ja",
-        "base_model:unsloth/Qwen3.6-35B-A3B",
-        "base_model:adapter:unsloth/Qwen3.6-35B-A3B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/developerjeremylive/Qwopus3.6-35B-A3B-v1-GGUF-etheroi",
+      "url": "https://huggingface.co/zoarag/krillson95792",
       "description": null,
-      "languages": [
-        "en",
-        "zh",
-        "es",
-        "ru",
-        "ja"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "SOTAagi2030/MyModel-SafetyFocused-TestRepo",
+      "id": "SOTAagi2030/MyModel-Threshold60-TestRepo",
       "author": "SOTAagi2030",
-      "name": "MyModel-SafetyFocused-TestRepo",
-      "created_at": "2026-05-08T16:10:33+00:00",
+      "name": "MyModel-Threshold60-TestRepo",
+      "created_at": "2026-05-08T19:01:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -79,7 +47,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -89,70 +57,10 @@
       ]
     },
     {
-      "id": "srajam696/distilbert-goodreads-genres",
-      "author": "srajam696",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-08T16:04:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/srajam696/distilbert-goodreads-genres",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "lopezinsua/beto-sentiment-es",
-      "author": "lopezinsua",
-      "name": "beto-sentiment-es",
-      "created_at": "2026-05-08T15:59:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/lopezinsua/beto-sentiment-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "toolathlon-eval-10/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-10",
+      "id": "fangyu-openclaw/MyAwesomeModel-TestRepo",
+      "author": "fangyu-openclaw",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-08T15:36:17+00:00",
+      "created_at": "2026-05-08T18:58:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -168,7 +76,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-10/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -178,10 +86,10 @@
       ]
     },
     {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-08T15:30:53+00:00",
+      "id": "SOTAagi2030/MyModel-NoFigures-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-NoFigures-TestRepo",
+      "created_at": "2026-05-08T18:57:21+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -197,7 +105,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -207,89 +115,89 @@
       ]
     },
     {
-      "id": "Cronkllr/mimi",
-      "author": "Cronkllr",
-      "name": "mimi",
-      "created_at": "2026-05-08T15:24:25+00:00",
+      "id": "Chirag9435/MedAI-Diagnostics2",
+      "author": "Chirag9435",
+      "name": "MedAI-Diagnostics2",
+      "created_at": "2026-05-08T18:25:54+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "mimi",
-        "feature-extraction",
-        "audio",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
+        "license:mit",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Cronkllr/mimi",
+      "url": "https://huggingface.co/Chirag9435/MedAI-Diagnostics2",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "lopezinsua/distilbert-sentiment-es",
-      "author": "lopezinsua",
-      "name": "distilbert-sentiment-es",
-      "created_at": "2026-05-08T15:24:21+00:00",
+      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
+      "author": "storagejuju",
+      "name": "glm-5.1-mxfp4-moe-juju",
+      "created_at": "2026-05-08T18:12:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "text-generation",
+        "gguf",
+        "juju",
+        "moe",
+        "storagellm",
+        "base_model:zai-org/GLM-5.1",
+        "base_model:finetune:zai-org/GLM-5.1",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
+      "author": "Avifenesh",
+      "name": "episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
+      "created_at": "2026-05-08T18:06:35+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
+        "modernbert",
         "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/lopezinsua/distilbert-sentiment-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "itsjhuang/watsonx-docs-type-classifier",
-      "author": "itsjhuang",
-      "name": "watsonx-docs-type-classifier",
-      "created_at": "2026-05-08T15:22:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "joblib",
-        "text-classification",
-        "embeddings",
-        "technical-documentation",
+        "episodic-ingestion-compiler",
+        "grouped-softmax-ranker",
+        "field-event-ranker",
+        "v2-1-labels",
         "en",
-        "dataset:itsjhuang/watsonx-docs-document-type",
-        "base_model:sentence-transformers/all-MiniLM-L6-v2",
-        "base_model:finetune:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
         "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/itsjhuang/watsonx-docs-type-classifier",
+      "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320",
       "description": null,
       "languages": [
         "en"
@@ -297,7 +205,70 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, sentence-transformers"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "GenomaLabs-com/kv-cache-eviction-mla",
+      "author": "GenomaLabs-com",
+      "name": "kv-cache-eviction-mla",
+      "created_at": "2026-05-08T17:56:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "kv-cache",
+        "h2o",
+        "mla",
+        "long-context",
+        "inference-optimization",
+        "deepseek",
+        "kimi",
+        "arxiv:2306.14048",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/GenomaLabs-com/kv-cache-eviction-mla",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyCodeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyCodeModel-TestRepo",
+      "created_at": "2026-05-08T17:48:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]

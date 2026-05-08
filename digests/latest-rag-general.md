@@ -1,7 +1,7 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-08  
-**Run timestamp:** 2026-05-08 16:20 UTC  
+**Run timestamp:** 2026-05-08 19:27 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
@@ -11,23 +11,20 @@
 
 
 
-### [developerjeremylive/Qwopus3.6-35B-A3B-v1-GGUF-etheroi](https://huggingface.co/developerjeremylive/Qwopus3.6-35B-A3B-v1-GGUF-etheroi)
-**Author:** developerjeremylive  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
+### [zoarag/krillson95792](https://huggingface.co/zoarag/krillson95792)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-08  
-**Languages:** en, zh, es, ru, ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `text-generation-inference`, `unsloth`, `qwen3_6`, `moe`, `reasoning`, `chain-of-thought`, `lora`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [SOTAagi2030/MyModel-SafetyFocused-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo)
+### [SOTAagi2030/MyModel-Threshold60-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo)
 **Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
@@ -41,36 +38,8 @@
 
 
 
-### [srajam696/distilbert-goodreads-genres](https://huggingface.co/srajam696/distilbert-goodreads-genres)
-**Author:** srajam696  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [lopezinsua/beto-sentiment-es](https://huggingface.co/lopezinsua/beto-sentiment-es)
-**Author:** lopezinsua  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [toolathlon-eval-10/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-10/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-10  
+### [fangyu-openclaw/MyAwesomeModel-TestRepo](https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo)
+**Author:** fangyu-openclaw  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-08  
@@ -83,8 +52,8 @@
 
 
 
-### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
-**Author:** XiAT  
+### [SOTAagi2030/MyModel-NoFigures-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo)
+**Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-08  
@@ -97,44 +66,71 @@
 
 
 
-### [Cronkllr/mimi](https://huggingface.co/Cronkllr/mimi)
-**Author:** Cronkllr  
-**Task:** feature extraction / embedding generation  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+### [Chirag9435/MedAI-Diagnostics2](https://huggingface.co/Chirag9435/MedAI-Diagnostics2)
+**Author:** Chirag9435  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mimi`, `feature-extraction`, `audio`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [lopezinsua/distilbert-sentiment-es](https://huggingface.co/lopezinsua/distilbert-sentiment-es)
-**Author:** lopezinsua  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [storagejuju/glm-5.1-mxfp4-moe-juju](https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju)
+**Author:** storagejuju  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [itsjhuang/watsonx-docs-type-classifier](https://huggingface.co/itsjhuang/watsonx-docs-type-classifier)
-**Author:** itsjhuang  
+### [Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320](https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-field-event-ranker-mixed-v2-1-h4-320)
+**Author:** Avifenesh  
 **Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-08  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`, `text-classification`, `embeddings`, `technical-documentation`, `dataset:itsjhuang/watsonx-docs-document-type`  
+**Tags:** `modernbert`, `text-classification`, `episodic-ingestion-compiler`, `grouped-softmax-ranker`, `field-event-ranker`, `v2-1-labels`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [GenomaLabs-com/kv-cache-eviction-mla](https://huggingface.co/GenomaLabs-com/kv-cache-eviction-mla)
+**Author:** GenomaLabs-com  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kv-cache`, `h2o`, `mla`, `long-context`, `inference-optimization`, `deepseek`, `kimi`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
+
+---
+
+
+
+### [SOTAagi2030/MyCodeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -142,4 +138,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-08 16:20 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-08 19:27 UTC*
