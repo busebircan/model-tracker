@@ -1,14 +1,89 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-09T19:12:45.078433+00:00",
-  "model_count": 31,
+  "run_at": "2026-05-09T21:53:31.079796+00:00",
+  "model_count": 11,
   "models": [
     {
-      "id": "Guofu/MyAwesomeModel-TestRepo",
-      "author": "Guofu",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T19:06:50+00:00",
+      "id": "ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
+      "created_at": "2026-05-09T21:51:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
+      "created_at": "2026-05-09T21:48:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
+      "created_at": "2026-05-09T21:44:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-MidRange-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-MidRange-TestRepo",
+      "created_at": "2026-05-09T21:35:43+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +99,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Guofu/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,175 +109,22 @@
       ]
     },
     {
-      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-mxfp4-moe-juju",
-      "created_at": "2026-05-09T19:03:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-      "author": "storagejuju",
-      "name": "kimi-k2.6-ud-q8-k-xl-juju",
-      "created_at": "2026-05-09T19:03:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:moonshotai/Kimi-K2.6",
-        "base_model:finetune:moonshotai/Kimi-K2.6",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "storagejuju/qwen3-coder-next-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "qwen3-coder-next-mxfp4-moe-juju",
-      "created_at": "2026-05-09T19:03:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:Qwen/Qwen3-Coder-Next",
-        "base_model:finetune:Qwen/Qwen3-Coder-Next",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/qwen3-coder-next-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "created_at": "2026-05-09T19:02:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "storagejuju/glm-5.1-ud-iq2-m-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-ud-iq2-m-juju",
-      "created_at": "2026-05-09T19:02:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-ud-iq2-m-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "zoarag/SolarTanuki",
-      "author": "zoarag",
-      "name": "SolarTanuki",
-      "created_at": "2026-05-09T19:02:08+00:00",
+      "id": "ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
+      "created_at": "2026-05-09T21:13:39+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "safetensors",
+        "gpt2",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/SolarTanuki",
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -212,568 +134,83 @@
       ]
     },
     {
-      "id": "univec/convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T19:01:11+00:00",
+      "id": "ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
+      "created_at": "2026-05-09T21:10:33+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
+        "safetensors",
+        "gpt2",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-snowflake_arctic_embed_l_v2.0-to-openai_text_embedding_ada_002",
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "univec/convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3",
-      "author": "univec",
-      "name": "convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3",
-      "created_at": "2026-05-09T19:00:04+00:00",
+      "id": "ai-garage/Teutonic-Nano-Char-devnet-king",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-Char-devnet-king",
+      "created_at": "2026-05-09T21:01:46+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
+        "safetensors",
+        "gpt2",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3",
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-devnet-king",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "univec/convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T18:58:17+00:00",
+      "id": "ai-garage/Teutonic-Nano-char-tokenizer",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-char-tokenizer",
+      "created_at": "2026-05-09T21:00:23+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002",
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-char-tokenizer",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "andreiaalexa/scifact-relevance-classifier",
-      "author": "andreiaalexa",
-      "name": "scifact-relevance-classifier",
-      "created_at": "2026-05-09T18:57:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "sklearn",
-        "text-classification",
-        "information-retrieval",
-        "claim-verification",
-        "sentence-transformers",
-        "scifact",
-        "evidence-relevance",
-        "en",
-        "dataset:andreiaalexa/scifact-relevance-pairs",
-        "arxiv:2212.03533",
-        "base_model:intfloat/e5-small-v2",
-        "base_model:finetune:intfloat/e5-small-v2",
-        "license:mit",
-        "model-index",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/andreiaalexa/scifact-relevance-classifier",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers, retrieval"
-      ]
-    },
-    {
-      "id": "univec/convert-openai_text_embedding_3_large-to-gemini_text_embedding_004",
-      "author": "univec",
-      "name": "convert-openai_text_embedding_3_large-to-gemini_text_embedding_004",
-      "created_at": "2026-05-09T18:54:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-openai_text_embedding_3_large-to-gemini_text_embedding_004",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T18:52:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T18:51:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0",
-      "author": "univec",
-      "name": "convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0",
-      "created_at": "2026-05-09T18:49:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-baai_bge_m3-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-baai_bge_m3-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T18:47:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-baai_bge_m3-to-openai_text_embedding_ada_002",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-amazon_titan_embed_text_v2.0-to-openai_text_embedding_ada_002",
-      "author": "univec",
-      "name": "convert-amazon_titan_embed_text_v2.0-to-openai_text_embedding_ada_002",
-      "created_at": "2026-05-09T18:46:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-amazon_titan_embed_text_v2.0-to-openai_text_embedding_ada_002",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-alibaba_nlp_gte_large_en_v1.5-to-nomic_embed_text_v1.5",
-      "author": "univec",
-      "name": "convert-alibaba_nlp_gte_large_en_v1.5-to-nomic_embed_text_v1.5",
-      "created_at": "2026-05-09T18:44:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "embedding-translation",
-        "vector-alignment",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-alibaba_nlp_gte_large_en_v1.5-to-nomic_embed_text_v1.5",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "univec/convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3-mteb",
-      "author": "univec",
-      "name": "convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3-mteb",
-      "created_at": "2026-05-09T18:43:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "mteb",
-        "benchmarking",
-        "vector-alignment",
-        "research",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-snowflake_arctic_embed_l_v2.0-to-baai_bge_m3-mteb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
-      ]
-    },
-    {
-      "id": "univec/convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002-mteb",
-      "author": "univec",
-      "name": "convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002-mteb",
-      "created_at": "2026-05-09T18:40:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "mteb",
-        "benchmarking",
-        "vector-alignment",
-        "research",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-openai_text_embedding_3_small-to-openai_text_embedding_ada_002-mteb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
-      ]
-    },
-    {
-      "id": "univec/convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002-mteb",
-      "author": "univec",
-      "name": "convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002-mteb",
-      "created_at": "2026-05-09T18:38:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "mteb",
-        "benchmarking",
-        "vector-alignment",
-        "research",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-google_embeddinggemma_300m-to-openai_text_embedding_ada_002-mteb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
-      ]
-    },
-    {
-      "id": "leoole/spoiler-detector",
-      "author": "leoole",
-      "name": "spoiler-detector",
-      "created_at": "2026-05-09T18:38:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "sklearn",
-        "joblib",
-        "text-classification",
-        "sentence-transformers",
-        "spoiler-detection",
-        "movie-reviews",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/leoole/spoiler-detector",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers"
-      ]
-    },
-    {
-      "id": "univec/convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002-mteb",
-      "author": "univec",
-      "name": "convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002-mteb",
-      "created_at": "2026-05-09T18:36:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "mteb",
-        "benchmarking",
-        "vector-alignment",
-        "research",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-cohere_embed_english_v3.0-to-openai_text_embedding_ada_002-mteb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
-      ]
-    },
-    {
-      "id": "univec/convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0-mteb",
-      "author": "univec",
-      "name": "convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0-mteb",
-      "created_at": "2026-05-09T18:34:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "embeddings",
-        "vector-conversion",
-        "mteb",
-        "benchmarking",
-        "vector-alignment",
-        "research",
-        "univec",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/univec/convert-baai_bge_m3-to-snowflake_arctic_embed_l_v2.0-mteb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
-      ]
-    },
-    {
-      "id": "MrlolDev/attune-v0",
-      "author": "MrlolDev",
-      "name": "attune-v0",
-      "created_at": "2026-05-09T18:32:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "pytorch",
-        "music-recommendation",
-        "contrastive-learning",
-        "embedding",
-        "attune",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MrlolDev/attune-v0",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embedding"
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T18:26:47+00:00",
+      "created_at": "2026-05-09T20:42:52+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -799,10 +236,10 @@
       ]
     },
     {
-      "id": "SOTAagi2030/MyCodeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyCodeModel-TestRepo",
-      "created_at": "2026-05-09T18:15:57+00:00",
+      "id": "Guofu/MyAwesomeModel-TestRepo",
+      "author": "Guofu",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-09T20:30:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -818,7 +255,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
+      "url": "https://huggingface.co/Guofu/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -828,122 +265,33 @@
       ]
     },
     {
-      "id": "SrRooT/MiMo-V2.5-Pro",
-      "author": "SrRooT",
-      "name": "MiMo-V2.5-Pro",
-      "created_at": "2026-05-09T18:11:32+00:00",
+      "id": "haseebfarooq/sarcasm-detector",
+      "author": "haseebfarooq",
+      "name": "sarcasm-detector",
+      "created_at": "2026-05-09T20:25:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": "text-classification",
       "tags": [
+        "transformers",
         "safetensors",
-        "mimo_v2",
-        "text-generation",
-        "agent",
-        "long-context",
-        "code",
-        "conversational",
-        "custom_code",
-        "en",
-        "zh",
-        "license:mit",
-        "fp8",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SrRooT/MiMo-V2.5-Pro",
-      "description": null,
-      "languages": [
-        "en",
-        "zh"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MySafeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MySafeModel-TestRepo",
-      "created_at": "2026-05-09T18:05:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
         "bert",
-        "feature-extraction",
-        "license:mit",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/fivegears",
-      "author": "zoarag",
-      "name": "fivegears",
-      "created_at": "2026-05-09T18:01:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/fivegears",
+      "url": "https://huggingface.co/haseebfarooq/sarcasm-detector",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T18:00:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
