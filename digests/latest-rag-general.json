@@ -1,43 +1,106 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-09T03:38:38.268424+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-09T08:04:00.171239+00:00",
+  "model_count": 15,
   "models": [
     {
-      "id": "liang23333/MyAwesomeModel-TestRepo",
-      "author": "liang23333",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T03:22:05+00:00",
+      "id": "M-Farrag/xlm-roberta-base-finetuned-panx-de",
+      "author": "M-Farrag",
+      "name": "xlm-roberta-base-finetuned-panx-de",
+      "created_at": "2026-05-09T08:03:59+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/liang23333/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/M-Farrag/xlm-roberta-base-finetuned-panx-de",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/nicolas1801",
+      "author": "zoarag",
+      "name": "nicolas1801",
+      "created_at": "2026-05-09T08:03:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/nicolas1801",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/HorneyOats",
+      "author": "zoarag",
+      "name": "HorneyOats",
+      "created_at": "2026-05-09T08:03:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/HorneyOats",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/arte_l",
+      "author": "zoarag",
+      "name": "arte_l",
+      "created_at": "2026-05-09T08:01:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/arte_l",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
       "author": "SOTAagi2030",
       "name": "MyModel-BestV2-TestRepo",
-      "created_at": "2026-05-09T03:14:17+00:00",
+      "created_at": "2026-05-09T08:00:48+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -63,10 +126,133 @@
       ]
     },
     {
+      "id": "Heinz217/mllm-retrieval-analysis-sae",
+      "author": "Heinz217",
+      "name": "mllm-retrieval-analysis-sae",
+      "created_at": "2026-05-09T07:54:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Heinz217/mllm-retrieval-analysis-sae",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778313250",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-5EFgipJW-miner_alpha-run-1778313250",
+      "created_at": "2026-05-09T07:54:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778313250",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778312750",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-5EFgipJW-miner_alpha-run-1778312750",
+      "created_at": "2026-05-09T07:45:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778312750",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-miner_alpha-run-1778312312",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-miner_alpha-run-1778312312",
+      "created_at": "2026-05-09T07:38:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-miner_alpha-run-1778312312",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ai-garage/Teutonic-Nano-devnet-king",
+      "author": "ai-garage",
+      "name": "Teutonic-Nano-devnet-king",
+      "created_at": "2026-05-09T07:36:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-devnet-king",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T02:49:56+00:00",
+      "created_at": "2026-05-09T07:22:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -79,7 +265,7 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 6729,
       "likes": 0,
       "params_billions": null,
       "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
@@ -92,16 +278,74 @@
       ]
     },
     {
-      "id": "sloaneurwin/ADRv2024",
-      "author": "sloaneurwin",
-      "name": "ADRv2024",
-      "created_at": "2026-05-09T02:27:30+00:00",
+      "id": "JayThinkDiff/CRE-0.5",
+      "author": "JayThinkDiff",
+      "name": "CRE-0.5",
+      "created_at": "2026-05-09T07:04:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "sentence-similarity",
+        "transformers",
+        "onnx",
+        "base_model:BAAI/bge-large-zh-v1.5",
+        "base_model:finetune:BAAI/bge-large-zh-v1.5",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/JayThinkDiff/CRE-0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "zoarag/Rakmin",
+      "author": "zoarag",
+      "name": "Rakmin",
+      "created_at": "2026-05-09T07:02:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Rakmin",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Rexy9466/emotion",
+      "author": "Rexy9466",
+      "name": "emotion",
+      "created_at": "2026-05-09T06:58:54+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "deberta-v2",
+        "distilbert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -112,7 +356,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sloaneurwin/ADRv2024",
+      "url": "https://huggingface.co/Rexy9466/emotion",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -122,63 +366,26 @@
       ]
     },
     {
-      "id": "SOTAagi2030/MyWeakModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyWeakModel-TestRepo",
-      "created_at": "2026-05-09T02:24:47+00:00",
+      "id": "justOneMoreTestCase/insurance-rag-embeddings2",
+      "author": "justOneMoreTestCase",
+      "name": "insurance-rag-embeddings2",
+      "created_at": "2026-05-09T06:56:06+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo",
+      "url": "https://huggingface.co/justOneMoreTestCase/insurance-rag-embeddings2",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "storagejuju/glm-5.1-mxfp4-moe-juju",
-      "author": "storagejuju",
-      "name": "glm-5.1-mxfp4-moe-juju",
-      "created_at": "2026-05-09T02:07:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "text-generation",
-        "gguf",
-        "juju",
-        "moe",
-        "storagellm",
-        "base_model:zai-org/GLM-5.1",
-        "base_model:finetune:zai-org/GLM-5.1",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
+        "tag match: embeddings (name), embedding (name), rag (name)"
       ]
     }
   ]
