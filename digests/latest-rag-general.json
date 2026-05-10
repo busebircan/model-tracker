@@ -1,26 +1,55 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-09T21:53:31.079796+00:00",
+  "run_at": "2026-05-10T03:55:23.468140+00:00",
   "model_count": 11,
   "models": [
     {
-      "id": "ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
-      "created_at": "2026-05-09T21:51:57+00:00",
+      "id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "author": "storagejuju",
+      "name": "gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "created_at": "2026-05-10T03:52:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "text-generation",
+        "gguf",
+        "juju",
+        "moe",
+        "storagellm",
+        "base_model:google/gemma-4-26B-A4B-it",
+        "base_model:finetune:google/gemma-4-26B-A4B-it",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "zoarag/lumbbywambby863",
+      "author": "zoarag",
+      "name": "lumbbywambby863",
+      "created_at": "2026-05-10T03:49:38+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "gpt2",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388",
+      "url": "https://huggingface.co/zoarag/lumbbywambby863",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -30,22 +59,20 @@
       ]
     },
     {
-      "id": "ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
-      "created_at": "2026-05-09T21:48:12+00:00",
+      "id": "zoarag/DemonAlone",
+      "author": "zoarag",
+      "name": "DemonAlone",
+      "created_at": "2026-05-10T03:41:32+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "gpt2",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162",
+      "url": "https://huggingface.co/zoarag/DemonAlone",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -55,35 +82,10 @@
       ]
     },
     {
-      "id": "ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
-      "created_at": "2026-05-09T21:44:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gpt2",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-MidRange-TestRepo",
+      "id": "SOTAagi2030/MyCodeModel-TestRepo",
       "author": "SOTAagi2030",
-      "name": "MyModel-MidRange-TestRepo",
-      "created_at": "2026-05-09T21:35:43+00:00",
+      "name": "MyCodeModel-TestRepo",
+      "created_at": "2026-05-10T03:37:56+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -99,7 +101,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -109,85 +111,10 @@
       ]
     },
     {
-      "id": "ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
-      "created_at": "2026-05-09T21:13:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gpt2",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
-      "created_at": "2026-05-09T21:10:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gpt2",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ai-garage/Teutonic-Nano-Char-devnet-king",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-Char-devnet-king",
-      "created_at": "2026-05-09T21:01:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gpt2",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-Char-devnet-king",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ai-garage/Teutonic-Nano-char-tokenizer",
-      "author": "ai-garage",
-      "name": "Teutonic-Nano-char-tokenizer",
-      "created_at": "2026-05-09T21:00:23+00:00",
+      "id": "zoarag/ComputeKing",
+      "author": "zoarag",
+      "name": "ComputeKing",
+      "created_at": "2026-05-10T03:32:41+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -197,7 +124,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ai-garage/Teutonic-Nano-char-tokenizer",
+      "url": "https://huggingface.co/zoarag/ComputeKing",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -210,7 +137,7 @@
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T20:42:52+00:00",
+      "created_at": "2026-05-10T03:29:42+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -236,10 +163,33 @@
       ]
     },
     {
-      "id": "Guofu/MyAwesomeModel-TestRepo",
-      "author": "Guofu",
+      "id": "zoarag/hypo_crits420",
+      "author": "zoarag",
+      "name": "hypo_crits420",
+      "created_at": "2026-05-10T03:26:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/hypo_crits420",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "cassieyu74/MyAwesomeModel-TestRepo",
+      "author": "cassieyu74",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-09T20:30:29+00:00",
+      "created_at": "2026-05-10T03:23:20+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -255,7 +205,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Guofu/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -265,33 +215,110 @@
       ]
     },
     {
-      "id": "haseebfarooq/sarcasm-detector",
-      "author": "haseebfarooq",
-      "name": "sarcasm-detector",
-      "created_at": "2026-05-09T20:25:56+00:00",
+      "id": "SOTAagi2030/MyWeakModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyWeakModel-TestRepo",
+      "created_at": "2026-05-10T03:16:27+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
+        "pytorch",
         "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/haseebfarooq/sarcasm-detector",
+      "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mradermacher/WebWorld-8B-GGUF",
+      "author": "mradermacher",
+      "name": "WebWorld-8B-GGUF",
+      "created_at": "2026-05-10T02:59:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "WebWorld",
+        "web-agent",
+        "world-model",
+        "simulator",
+        "browser",
+        "a11y",
+        "html",
+        "xml",
+        "markdown",
+        "long-horizon",
+        "long-context",
+        "synthetic-trajectories",
+        "instruction-tuning",
+        "en",
+        "zh",
+        "dataset:Qwen/WebWorldData",
+        "base_model:Qwen/WebWorld-8B",
+        "base_model:quantized:Qwen/WebWorld-8B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/WebWorld-8B-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-Step500-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-Step500-TestRepo",
+      "created_at": "2026-05-10T02:34:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]

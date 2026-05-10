@@ -1,7 +1,7 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-09  
-**Run timestamp:** 2026-05-09 21:53 UTC  
+**Date:** 2026-05-10  
+**Run timestamp:** 2026-05-10 03:55 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
@@ -11,13 +11,26 @@
 
 
 
-### [ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388](https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778363388)
-**Author:** ai-garage  
+### [storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju](https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju)
+**Author:** storagejuju  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation`, `gguf`, `juju`, `moe`, `storagellm`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [zoarag/lumbbywambby863](https://huggingface.co/zoarag/lumbbywambby863)
+**Author:** zoarag  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -25,13 +38,12 @@
 
 
 
-### [ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162](https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778363162)
-**Author:** ai-garage  
+### [zoarag/DemonAlone](https://huggingface.co/zoarag/DemonAlone)
+**Author:** zoarag  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -39,25 +51,11 @@
 
 
 
-### [ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936](https://huggingface.co/ai-garage/Teutonic-Nano-Char-5DX3fXu2-miner_beta-run-1778362936)
-**Author:** ai-garage  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [SOTAagi2030/MyModel-MidRange-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo)
+### [SOTAagi2030/MyCodeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo)
 **Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -67,53 +65,11 @@
 
 
 
-### [ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090](https://huggingface.co/ai-garage/Teutonic-Nano-Char-5EFgipJW-miner_alpha-run-1778361090)
-**Author:** ai-garage  
+### [zoarag/ComputeKing](https://huggingface.co/zoarag/ComputeKing)
+**Author:** zoarag  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904](https://huggingface.co/ai-garage/Teutonic-Nano-5EFgipJW-miner_alpha-run-1778360904)
-**Author:** ai-garage  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [ai-garage/Teutonic-Nano-Char-devnet-king](https://huggingface.co/ai-garage/Teutonic-Nano-Char-devnet-king)
-**Author:** ai-garage  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [ai-garage/Teutonic-Nano-char-tokenizer](https://huggingface.co/ai-garage/Teutonic-Nano-char-tokenizer)
-**Author:** ai-garage  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
@@ -126,7 +82,7 @@
 **Author:** dongbobo  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -136,11 +92,24 @@
 
 
 
-### [Guofu/MyAwesomeModel-TestRepo](https://huggingface.co/Guofu/MyAwesomeModel-TestRepo)
-**Author:** Guofu  
+### [zoarag/hypo_crits420](https://huggingface.co/zoarag/hypo_crits420)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-10  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [cassieyu74/MyAwesomeModel-TestRepo](https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo)
+**Author:** cassieyu74  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-09  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -150,15 +119,45 @@
 
 
 
-### [haseebfarooq/sarcasm-detector](https://huggingface.co/haseebfarooq/sarcasm-detector)
-**Author:** haseebfarooq  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-09  
+### [SOTAagi2030/MyWeakModel-TestRepo](https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [mradermacher/WebWorld-8B-GGUF](https://huggingface.co/mradermacher/WebWorld-8B-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-10  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `WebWorld`, `web-agent`, `world-model`, `simulator`, `browser`, `a11y`, `html`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [SOTAagi2030/MyModel-Step500-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -166,4 +165,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-09 21:53 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-10 03:55 UTC*
