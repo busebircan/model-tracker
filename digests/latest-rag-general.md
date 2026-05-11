@@ -1,49 +1,21 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-10  
-**Run timestamp:** 2026-05-10 21:54 UTC  
+**Date:** 2026-05-11  
+**Run timestamp:** 2026-05-11 04:05 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 4
 
 ---
 
 
 
-### [hassonofer/vit_so150m_patch14_reg4_biodino_336](https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_336)
-**Author:** hassonofer  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-10  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `birder`, `biology`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [hassonofer/vit_so150m_patch14_reg4_biodino_224](https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_224)
-**Author:** hassonofer  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-10  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `birder`, `biology`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [EyaZr/rag](https://huggingface.co/EyaZr/rag)
-**Author:** EyaZr  
+### [cutedragon0925/distil_v6](https://huggingface.co/cutedragon0925/distil_v6)
+**Author:** cutedragon0925  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-10  
+**Published:** 2026-05-11  
 **Popularity:** 0 downloads · 0 likes  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
@@ -52,27 +24,14 @@
 
 
 
-### [hassonofer/vit_so150m_patch14_reg4_biodino_252](https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_252)
-**Author:** hassonofer  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-10  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `birder`, `biology`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [SOTAagi2030/MyModel-Step500-TestRepo](https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo)
-**Author:** SOTAagi2030  
+### [CRUISEResearchGroup/CGM-JEPA](https://huggingface.co/CRUISEResearchGroup/CGM-JEPA)
+**Author:** CRUISEResearchGroup  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-10  
+**Published:** 2026-05-11  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `cgm`, `continuous-glucose-monitor`, `self-supervised-learning`, `jepa`, `time-series`, `masked-prediction`, `biosignal`, `healthcare`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
@@ -80,11 +39,11 @@
 
 
 
-### [zoarag/Iresed](https://huggingface.co/zoarag/Iresed)
-**Author:** zoarag  
+### [cutedragon0925/co3](https://huggingface.co/cutedragon0925/co3)
+**Author:** cutedragon0925  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-10  
+**Published:** 2026-05-11  
 **Popularity:** 0 downloads · 0 likes  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
@@ -93,29 +52,16 @@
 
 
 
-### [guilchaves/bert-hate-speech-test](https://huggingface.co/guilchaves/bert-hate-speech-test)
-**Author:** guilchaves  
-**Task:** text classification  
+### [rishsoraganvi/ecg-lead-generator](https://huggingface.co/rishsoraganvi/ecg-lead-generator)
+**Author:** rishsoraganvi  
+**Task:** other  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-10  
+**Published:** 2026-05-11  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `ecg-lead-generator`, `ecg`, `cardiology`, `signal-processing`, `medical`, `unet`, `clip`, `lead-generation`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
-**Author:** TomB0421  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-10  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -123,4 +69,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-10 21:54 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-11 04:05 UTC*

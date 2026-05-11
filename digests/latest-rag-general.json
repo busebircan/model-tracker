@@ -1,76 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-10T21:54:53.538171+00:00",
-  "model_count": 8,
+  "run_at": "2026-05-11T04:05:52.420215+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "hassonofer/vit_so150m_patch14_reg4_biodino_336",
-      "author": "hassonofer",
-      "name": "vit_so150m_patch14_reg4_biodino_336",
-      "created_at": "2026-05-10T21:52:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "pytorch",
-        "image-feature-extraction",
-        "birder",
-        "biology",
-        "base_model:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "base_model:finetune:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_336",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: image-feature-extraction"
-      ]
-    },
-    {
-      "id": "hassonofer/vit_so150m_patch14_reg4_biodino_224",
-      "author": "hassonofer",
-      "name": "vit_so150m_patch14_reg4_biodino_224",
-      "created_at": "2026-05-10T21:48:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "pytorch",
-        "image-feature-extraction",
-        "birder",
-        "biology",
-        "base_model:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "base_model:finetune:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_224",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: image-feature-extraction"
-      ]
-    },
-    {
-      "id": "EyaZr/rag",
-      "author": "EyaZr",
-      "name": "rag",
-      "created_at": "2026-05-10T21:28:30+00:00",
+      "id": "cutedragon0925/distil_v6",
+      "author": "cutedragon0925",
+      "name": "distil_v6",
+      "created_at": "2026-05-11T03:58:10+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -80,7 +18,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/EyaZr/rag",
+      "url": "https://huggingface.co/cutedragon0925/distil_v6",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -90,59 +28,37 @@
       ]
     },
     {
-      "id": "hassonofer/vit_so150m_patch14_reg4_biodino_252",
-      "author": "hassonofer",
-      "name": "vit_so150m_patch14_reg4_biodino_252",
-      "created_at": "2026-05-10T21:18:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "pytorch",
-        "image-feature-extraction",
-        "birder",
-        "biology",
-        "base_model:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "base_model:finetune:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hassonofer/vit_so150m_patch14_reg4_biodino_252",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: image-feature-extraction"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-Step500-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-Step500-TestRepo",
-      "created_at": "2026-05-10T21:18:04+00:00",
+      "id": "CRUISEResearchGroup/CGM-JEPA",
+      "author": "CRUISEResearchGroup",
+      "name": "CGM-JEPA",
+      "created_at": "2026-05-11T03:47:58+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
         "pytorch",
-        "bert",
+        "cgm",
+        "continuous-glucose-monitor",
+        "self-supervised-learning",
+        "jepa",
+        "time-series",
+        "masked-prediction",
+        "biosignal",
+        "healthcare",
+        "pretrained-encoder",
         "feature-extraction",
+        "en",
         "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo",
+      "url": "https://huggingface.co/CRUISEResearchGroup/CGM-JEPA",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -150,10 +66,10 @@
       ]
     },
     {
-      "id": "zoarag/Iresed",
-      "author": "zoarag",
-      "name": "Iresed",
-      "created_at": "2026-05-10T21:03:29+00:00",
+      "id": "cutedragon0925/co3",
+      "author": "cutedragon0925",
+      "name": "co3",
+      "created_at": "2026-05-11T03:46:50+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -163,7 +79,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Iresed",
+      "url": "https://huggingface.co/cutedragon0925/co3",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -173,65 +89,44 @@
       ]
     },
     {
-      "id": "guilchaves/bert-hate-speech-test",
-      "author": "guilchaves",
-      "name": "bert-hate-speech-test",
-      "created_at": "2026-05-10T20:46:53+00:00",
+      "id": "rishsoraganvi/ecg-lead-generator",
+      "author": "rishsoraganvi",
+      "name": "ecg-lead-generator",
+      "created_at": "2026-05-11T03:31:08+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "other",
       "tags": [
-        "transformers",
+        "pytorch",
         "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
+        "ecg-lead-generator",
+        "ecg",
+        "cardiology",
+        "signal-processing",
+        "medical",
+        "unet",
+        "clip",
+        "lead-generation",
+        "1d-unet",
+        "film-conditioning",
+        "other",
+        "en",
+        "dataset:ptb-xl",
         "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/guilchaves/bert-hate-speech-test",
+      "url": "https://huggingface.co/rishsoraganvi/ecg-lead-generator",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "TomB0421/MyAwesomeModel-TestRepo",
-      "author": "TomB0421",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-10T20:46:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
+      "languages": [
+        "en"
       ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     }
   ]
