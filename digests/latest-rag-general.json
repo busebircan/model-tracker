@@ -1,49 +1,20 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-11T19:56:46.575038+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-11T22:12:48.192578+00:00",
+  "model_count": 15,
   "models": [
     {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-11T19:54:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sebbeb/distilbert-yelp-sentiment",
-      "author": "sebbeb",
-      "name": "distilbert-yelp-sentiment",
-      "created_at": "2026-05-11T19:25:41+00:00",
+      "id": "amira140997/mental-health-roberta-base",
+      "author": "amira140997",
+      "name": "mental-health-roberta-base",
+      "created_at": "2026-05-11T22:01:18+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
+        "roberta",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -54,173 +25,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sebbeb/distilbert-yelp-sentiment",
+      "url": "https://huggingface.co/amira140997/mental-health-roberta-base",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "marioluciofjr/distilbert-pt-cased-redacao-nota",
-      "author": "marioluciofjr",
-      "name": "distilbert-pt-cased-redacao-nota",
-      "created_at": "2026-05-11T19:22:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/marioluciofjr/distilbert-pt-cased-redacao-nota",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "HashemQurashi/m7-app-review-sentiment",
-      "author": "HashemQurashi",
-      "name": "m7-app-review-sentiment",
-      "created_at": "2026-05-11T19:20:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HashemQurashi/m7-app-review-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "cstr/paraphrase-multilingual-MiniLM-L12-v2-GGUF",
-      "author": "cstr",
-      "name": "paraphrase-multilingual-MiniLM-L12-v2-GGUF",
-      "created_at": "2026-05-11T19:19:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "gguf",
-        "embeddings",
-        "ggml",
-        "text-embeddings",
-        "bert",
-        "crispembed",
-        "feature-extraction",
-        "multilingual",
-        "base_model:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        "base_model:quantized:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cstr/paraphrase-multilingual-MiniLM-L12-v2-GGUF",
-      "description": null,
-      "languages": [
-        "multilingual"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "toola/MyAwesomeModel-TestRepo",
-      "author": "toola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-11T19:16:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "atayem3/model",
-      "author": "atayem3",
-      "name": "model",
-      "created_at": "2026-05-11T19:10:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/atayem3/model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
@@ -229,7 +38,7 @@
       "id": "SOTAagi2030/MyModel-Threshold60-TestRepo",
       "author": "SOTAagi2030",
       "name": "MyModel-Threshold60-TestRepo",
-      "created_at": "2026-05-11T18:50:50+00:00",
+      "created_at": "2026-05-11T21:53:11+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -255,10 +64,43 @@
       ]
     },
     {
-      "id": "ztwang/MyAwesomeModel-TestRepo",
-      "author": "ztwang",
+      "id": "DACSG/modelo",
+      "author": "DACSG",
+      "name": "modelo",
+      "created_at": "2026-05-11T21:51:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:FacebookAI/xlm-roberta-base",
+        "base_model:finetune:FacebookAI/xlm-roberta-base",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DACSG/modelo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-11T18:44:30+00:00",
+      "created_at": "2026-05-11T21:40:31+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -274,13 +116,372 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ztwang/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "cstr/jina-reranker-v2-base-multilingual-GGUF",
+      "author": "cstr",
+      "name": "jina-reranker-v2-base-multilingual-GGUF",
+      "created_at": "2026-05-11T21:31:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "embeddings",
+        "ggml",
+        "text-embeddings",
+        "xlm-roberta",
+        "crispembed",
+        "feature-extraction",
+        "multilingual",
+        "base_model:jinaai/jina-reranker-v2-base-multilingual",
+        "base_model:quantized:jinaai/jina-reranker-v2-base-multilingual",
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cstr/jina-reranker-v2-base-multilingual-GGUF",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, reranker"
+      ]
+    },
+    {
+      "id": "ccaug/modernbert-base-network-attack-classifier",
+      "author": "ccaug",
+      "name": "modernbert-base-network-attack-classifier",
+      "created_at": "2026-05-11T21:27:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "modernbert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ccaug/modernbert-base-network-attack-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ccaug/albert-network-attack-classifier",
+      "author": "ccaug",
+      "name": "albert-network-attack-classifier",
+      "created_at": "2026-05-11T21:25:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "albert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ccaug/albert-network-attack-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ccaug/distilbert-network-attack-classifier",
+      "author": "ccaug",
+      "name": "distilbert-network-attack-classifier",
+      "created_at": "2026-05-11T21:25:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ccaug/distilbert-network-attack-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ccaug/roberta-network-attack-classifier",
+      "author": "ccaug",
+      "name": "roberta-network-attack-classifier",
+      "created_at": "2026-05-11T21:24:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ccaug/roberta-network-attack-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ccaug/bert-network-attack-classifier",
+      "author": "ccaug",
+      "name": "bert-network-attack-classifier",
+      "created_at": "2026-05-11T21:23:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ccaug/bert-network-attack-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "licezhang/Qwen3-8B-20260511221543",
+      "author": "licezhang",
+      "name": "Qwen3-8B-20260511221543",
+      "created_at": "2026-05-11T21:16:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/licezhang/Qwen3-8B-20260511221543",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "cstr/gte-large-en-v1.5-GGUF",
+      "author": "cstr",
+      "name": "gte-large-en-v1.5-GGUF",
+      "created_at": "2026-05-11T21:13:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "embeddings",
+        "ggml",
+        "text-embeddings",
+        "gte v1.5 (new bert)",
+        "crispembed",
+        "feature-extraction",
+        "en",
+        "base_model:Alibaba-NLP/gte-large-en-v1.5",
+        "base_model:quantized:Alibaba-NLP/gte-large-en-v1.5",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cstr/gte-large-en-v1.5-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "cstr/gte-base-en-v1.5-GGUF",
+      "author": "cstr",
+      "name": "gte-base-en-v1.5-GGUF",
+      "created_at": "2026-05-11T21:12:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "embeddings",
+        "ggml",
+        "text-embeddings",
+        "gte v1.5 (new bert)",
+        "crispembed",
+        "feature-extraction",
+        "en",
+        "base_model:Alibaba-NLP/gte-base-en-v1.5",
+        "base_model:quantized:Alibaba-NLP/gte-base-en-v1.5",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cstr/gte-base-en-v1.5-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "cstr/bge-reranker-v2-m3-GGUF",
+      "author": "cstr",
+      "name": "bge-reranker-v2-m3-GGUF",
+      "created_at": "2026-05-11T21:11:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "sentence-transformers",
+        "gguf",
+        "transformers",
+        "text-embeddings-inference",
+        "text-classification",
+        "multilingual",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cstr/bge-reranker-v2-m3-GGUF",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, sentence-transformers, reranker (name)"
+      ]
+    },
+    {
+      "id": "waleedhassan/distilbert-tweet-sentiment",
+      "author": "waleedhassan",
+      "name": "distilbert-tweet-sentiment",
+      "created_at": "2026-05-11T21:10:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/waleedhassan/distilbert-tweet-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
