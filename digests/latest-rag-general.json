@@ -1,37 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-12T14:38:44.254709+00:00",
-  "model_count": 25,
+  "run_at": "2026-05-12T17:18:43.796432+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "pragnyanramtha/onnxruntime-hardlink-external-data-poc",
-      "author": "pragnyanramtha",
-      "name": "onnxruntime-hardlink-external-data-poc",
-      "created_at": "2026-05-12T14:38:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/onnxruntime-hardlink-external-data-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
+      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
+      "author": "SOTAagi2030",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T14:36:57+00:00",
+      "created_at": "2026-05-12T17:14:31+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -47,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -57,178 +34,77 @@
       ]
     },
     {
-      "id": "pragnyanramtha/ray-rllib-msgpack-numpy-pickle-poc",
-      "author": "pragnyanramtha",
-      "name": "ray-rllib-msgpack-numpy-pickle-poc",
-      "created_at": "2026-05-12T14:30:10+00:00",
+      "id": "cuadron11/jaunbert-berria-big-ft",
+      "author": "cuadron11",
+      "name": "jaunbert-berria-big-ft",
+      "created_at": "2026-05-12T17:11:58+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "security",
-        "poc",
-        "ray",
-        "rllib",
-        "messagepack",
-        "msgpack-numpy",
-        "model-format",
-        "checkpoint",
+        "sentence-transformers",
+        "safetensors",
+        "modernbert",
+        "sentence-similarity",
+        "feature-extraction",
+        "dense",
+        "generated_from_trainer",
+        "dataset_size:55297",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cuadron11/jaunbert-berria-big-ft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyModel-BestV2-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyModel-BestV2-TestRepo",
+      "created_at": "2026-05-12T17:00:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "gpt2",
+        "feature-extraction",
         "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/ray-rllib-msgpack-numpy-pickle-poc",
+      "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     },
     {
-      "id": "pragnyanramtha/pytorch-package-reduce-package-modelscan-bypass",
-      "author": "pragnyanramtha",
-      "name": "pytorch-package-reduce-package-modelscan-bypass",
-      "created_at": "2026-05-12T14:29:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/pytorch-package-reduce-package-modelscan-bypass",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/pytorch-package-local-reducer-modelscan-bypass",
-      "author": "pragnyanramtha",
-      "name": "pytorch-package-local-reducer-modelscan-bypass",
-      "created_at": "2026-05-12T14:29:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/pytorch-package-local-reducer-modelscan-bypass",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/os4ml-csv-zip-prediction-template-lfi-poc",
-      "author": "pragnyanramtha",
-      "name": "os4ml-csv-zip-prediction-template-lfi-poc",
-      "created_at": "2026-05-12T14:28:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "csv",
-        "zip",
-        "os4ml",
-        "security",
-        "poc",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/os4ml-csv-zip-prediction-template-lfi-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Poojan28/chatbot-rag-gemma2",
-      "author": "Poojan28",
-      "name": "chatbot-rag-gemma2",
-      "created_at": "2026-05-12T14:26:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "gemma2",
-        "conversational",
-        "text-generation",
-        "base_model:google/gemma-2-2b-it",
-        "base_model:finetune:google/gemma-2-2b-it",
-        "license:gemma",
-        "region:us"
-      ],
-      "license": "gemma",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Poojan28/chatbot-rag-gemma2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/modelscan-savedmodel-dataset-io-bypass-poc",
-      "author": "pragnyanramtha",
-      "name": "modelscan-savedmodel-dataset-io-bypass-poc",
-      "created_at": "2026-05-12T14:26:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "tensorflow",
-        "tf-keras",
-        "security",
-        "modelscan",
-        "savedmodel",
-        "proof-of-concept",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/modelscan-savedmodel-dataset-io-bypass-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "saniaddd/MyAwesomeModel-TestRepo",
-      "author": "saniaddd",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T14:24:00+00:00",
+      "id": "SOTAagi2030/MySafeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MySafeModel-TestRepo",
+      "created_at": "2026-05-12T16:59:01+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -244,7 +120,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/saniaddd/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -254,10 +130,10 @@
       ]
     },
     {
-      "id": "Grinding/triageiq-category",
-      "author": "Grinding",
-      "name": "triageiq-category",
-      "created_at": "2026-05-12T14:18:45+00:00",
+      "id": "dkshtakin/RuBioRoBERTa-RAG-filter",
+      "author": "dkshtakin",
+      "name": "RuBioRoBERTa-RAG-filter",
+      "created_at": "2026-05-12T16:52:28+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -265,334 +141,6 @@
         "safetensors",
         "roberta",
         "text-classification",
-        "customer-support",
-        "sentiment-analysis",
-        "lora",
-        "distillation",
-        "en",
-        "base_model:distilbert/distilroberta-base",
-        "base_model:adapter:distilbert/distilroberta-base",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Grinding/triageiq-category",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/mleap-raw-graphdef-readfile-bypass",
-      "author": "pragnyanramtha",
-      "name": "mleap-raw-graphdef-readfile-bypass",
-      "created_at": "2026-05-12T14:18:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "tf-keras",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/mleap-raw-graphdef-readfile-bypass",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/armnn-dimension-specificity-oob-poc",
-      "author": "pragnyanramtha",
-      "name": "armnn-dimension-specificity-oob-poc",
-      "created_at": "2026-05-12T14:16:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "security",
-        "poc",
-        "arm-nn",
-        "flatbuffers",
-        "model-format",
-        "deserialization",
-        "native-crash",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/armnn-dimension-specificity-oob-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "cstr/auraface-v1-GGUF",
-      "author": "cstr",
-      "name": "auraface-v1-GGUF",
-      "created_at": "2026-05-12T14:14:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "gguf",
-        "embeddings",
-        "ggml",
-        "face-recognition",
-        "arcface",
-        "crispembed",
-        "feature-extraction",
-        "base_model:fal/AuraFace-v1",
-        "base_model:quantized:fal/AuraFace-v1",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cstr/auraface-v1-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/keras-h5iostore-shape-bomb-current-poc",
-      "author": "pragnyanramtha",
-      "name": "keras-h5iostore-shape-bomb-current-poc",
-      "created_at": "2026-05-12T14:13:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "other",
-        "keras",
-        "security",
-        "model-format",
-        "hdf5",
-        "proof-of-concept",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/keras-h5iostore-shape-bomb-current-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/dl4j-keras-hdf5-sparse-weight-crash-poc",
-      "author": "pragnyanramtha",
-      "name": "dl4j-keras-hdf5-sparse-weight-crash-poc",
-      "created_at": "2026-05-12T14:13:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "other",
-        "security",
-        "model-format",
-        "dl4j",
-        "keras",
-        "hdf5",
-        "proof-of-concept",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/dl4j-keras-hdf5-sparse-weight-crash-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Grinding/triageiq-urgency",
-      "author": "Grinding",
-      "name": "triageiq-urgency",
-      "created_at": "2026-05-12T14:13:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "customer-support",
-        "sentiment-analysis",
-        "lora",
-        "distillation",
-        "en",
-        "base_model:distilbert/distilroberta-base",
-        "base_model:adapter:distilbert/distilroberta-base",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Grinding/triageiq-urgency",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/mleap-tf-raw-graphdef-unsafe-ops-poc",
-      "author": "pragnyanramtha",
-      "name": "mleap-tf-raw-graphdef-unsafe-ops-poc",
-      "created_at": "2026-05-12T14:13:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "other",
-        "tf-keras",
-        "security",
-        "model-format",
-        "mleap",
-        "tensorflow",
-        "proof-of-concept",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/mleap-tf-raw-graphdef-unsafe-ops-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/ggml-legacy-ndims-oob-suite",
-      "author": "pragnyanramtha",
-      "name": "ggml-legacy-ndims-oob-suite",
-      "created_at": "2026-05-12T14:13:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "other",
-        "security",
-        "model-format",
-        "ggml",
-        "proof-of-concept",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/ggml-legacy-ndims-oob-suite",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Grinding/triageiq-sentiment",
-      "author": "Grinding",
-      "name": "triageiq-sentiment",
-      "created_at": "2026-05-12T14:06:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "customer-support",
-        "sentiment-analysis",
-        "lora",
-        "distillation",
-        "en",
-        "base_model:distilbert/distilroberta-base",
-        "base_model:adapter:distilbert/distilroberta-base",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Grinding/triageiq-sentiment",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "rediska0123/qwen2532binstruct-prm-lora-step-continuation-5epochs",
-      "author": "rediska0123",
-      "name": "qwen2532binstruct-prm-lora-step-continuation-5epochs",
-      "created_at": "2026-05-12T14:02:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "feature-extraction",
-        "custom_code",
         "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
@@ -602,157 +150,20 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/rediska0123/qwen2532binstruct-prm-lora-step-continuation-5epochs",
+      "url": "https://huggingface.co/dkshtakin/RuBioRoBERTa-RAG-filter",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
+        "tag match: embeddings, embedding, rag (name)"
       ]
     },
     {
-      "id": "davidmsmiley/MiqraBERT",
-      "author": "davidmsmiley",
-      "name": "MiqraBERT",
-      "created_at": "2026-05-12T13:57:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "biblical-hebrew",
-        "digital-humanities",
-        "inner-biblical-parallels",
-        "he",
-        "arxiv:2104.04052",
-        "base_model:imvladikon/sentence-transformers-alephbert",
-        "base_model:finetune:imvladikon/sentence-transformers-alephbert",
-        "license:apache-2.0",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/davidmsmiley/MiqraBERT",
-      "description": null,
-      "languages": [
-        "he"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "tomaarsen/paraphrase-multilingual-MiniLM-L12-v2-de-mmarco",
-      "author": "tomaarsen",
-      "name": "paraphrase-multilingual-MiniLM-L12-v2-de-mmarco",
-      "created_at": "2026-05-12T13:56:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:532751",
-        "loss:MultipleNegativesRankingLoss",
-        "de",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        "base_model:finetune:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-        "license:apache-2.0",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/tomaarsen/paraphrase-multilingual-MiniLM-L12-v2-de-mmarco",
-      "description": null,
-      "languages": [
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/tfjs-model-json-host-file-disclosure-poc",
-      "author": "pragnyanramtha",
-      "name": "tfjs-model-json-host-file-disclosure-poc",
-      "created_at": "2026-05-12T13:55:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "tensorflowjs",
-        "security",
-        "poc",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/tfjs-model-json-host-file-disclosure-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pragnyanramtha/modelscan-savedmodel-dataset-io-bypass",
-      "author": "pragnyanramtha",
-      "name": "modelscan-savedmodel-dataset-io-bypass",
-      "created_at": "2026-05-12T13:52:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "tf-keras",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pragnyanramtha/modelscan-savedmodel-dataset-io-bypass",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T13:51:16+00:00",
+      "created_at": "2026-05-12T16:35:14+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -768,13 +179,67 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "pragnyanramtha/modelscan-savedmodel-savev2-default-write-poc",
+      "author": "pragnyanramtha",
+      "name": "modelscan-savedmodel-savev2-default-write-poc",
+      "created_at": "2026-05-12T16:23:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "tensorflow",
+        "tf-keras",
+        "security",
+        "savedmodel",
+        "modelscan",
+        "scanner-bypass",
+        "proof-of-concept",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/pragnyanramtha/modelscan-savedmodel-savev2-default-write-poc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "AverageMetaheuristicsEnjoyer/fp4-pretrain-checkpoints",
+      "author": "AverageMetaheuristicsEnjoyer",
+      "name": "fp4-pretrain-checkpoints",
+      "created_at": "2026-05-12T16:20:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AverageMetaheuristicsEnjoyer/fp4-pretrain-checkpoints",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
