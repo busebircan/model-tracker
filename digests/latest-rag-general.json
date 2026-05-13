@@ -1,193 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-12T22:17:05.258966+00:00",
-  "model_count": 14,
+  "run_at": "2026-05-13T03:58:25.727222+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "amira140997/1_mental-health-distilroberta-base",
-      "author": "amira140997",
-      "name": "1_mental-health-distilroberta-base",
-      "created_at": "2026-05-12T22:04:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/amira140997/1_mental-health-distilroberta-base",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "neek-ans/flowfeat",
-      "author": "neek-ans",
-      "name": "flowfeat",
-      "created_at": "2026-05-12T22:03:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "pytorch",
-        "computer-vision",
-        "dense-features",
-        "optical-flow",
-        "image-feature-extraction",
-        "arxiv:2511.07696",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/neek-ans/flowfeat",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: image-feature-extraction"
-      ]
-    },
-    {
-      "id": "amira140997/1_mental-health-roberta-large",
-      "author": "amira140997",
-      "name": "1_mental-health-roberta-large",
-      "created_at": "2026-05-12T22:03:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/amira140997/1_mental-health-roberta-large",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "amira140997/1_mental-health-mental-roberta",
-      "author": "amira140997",
-      "name": "1_mental-health-mental-roberta",
-      "created_at": "2026-05-12T22:03:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/amira140997/1_mental-health-mental-roberta",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "amira140997/1_mental-health-roberta-base",
-      "author": "amira140997",
-      "name": "1_mental-health-roberta-base",
-      "created_at": "2026-05-12T22:03:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/amira140997/1_mental-health-roberta-base",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-NoFigures-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-NoFigures-TestRepo",
-      "created_at": "2026-05-12T21:53:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "author": "arenatoolathon-hf",
+      "id": "anchorzhonglucen/MyAwesomeModel-TestRepo",
+      "author": "anchorzhonglucen",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T21:45:50+00:00",
+      "created_at": "2026-05-13T03:46:43+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -203,36 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T21:18:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/anchorzhonglucen/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -245,7 +37,7 @@
       "id": "TomB0421/MyAwesomeModel-TestRepo",
       "author": "TomB0421",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T21:16:10+00:00",
+      "created_at": "2026-05-13T03:34:45+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -271,73 +63,10 @@
       ]
     },
     {
-      "id": "fitleech/beverage0091",
-      "author": "fitleech",
-      "name": "beverage0091",
-      "created_at": "2026-05-12T21:06:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fitleech/beverage0091",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "JackYoung27/writesae-ckpts",
-      "author": "JackYoung27",
-      "name": "writesae-ckpts",
-      "created_at": "2026-05-12T20:59:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "pytorch",
-        "sparse-autoencoder",
-        "interpretability",
-        "mechanistic-interpretability",
-        "gated-deltanet",
-        "mamba",
-        "rwkv",
-        "linear-attention",
-        "state-space-model",
-        "feature-extraction",
-        "en",
-        "base_model:Qwen/Qwen3.5-0.8B",
-        "base_model:finetune:Qwen/Qwen3.5-0.8B",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/JackYoung27/writesae-ckpts",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "toolathlon-eval-03/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-03",
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-12T20:52:21+00:00",
+      "created_at": "2026-05-13T03:24:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -353,7 +82,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-03/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -363,27 +92,122 @@
       ]
     },
     {
-      "id": "Bochkov/llm-fix-min-fixed-minimal-binary-code",
-      "author": "Bochkov",
-      "name": "llm-fix-min-fixed-minimal-binary-code",
-      "created_at": "2026-05-12T20:40:13+00:00",
+      "id": "jinaai/jina-embeddings-v5-omni-nano-mlx",
+      "author": "jinaai",
+      "name": "jina-embeddings-v5-omni-nano-mlx",
+      "created_at": "2026-05-13T03:23:07+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "jina_embeddings_v5_omni",
+        "embeddings",
+        "jina-embeddings",
+        "omni",
+        "multimodal",
+        "lora",
+        "matryoshka",
+        "custom_code",
+        "multilingual",
+        "license:cc-by-nc-4.0",
+        "region:eu"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-nano-mlx",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "jinaai/jina-embeddings-v5-omni-small-mlx",
+      "author": "jinaai",
+      "name": "jina-embeddings-v5-omni-small-mlx",
+      "created_at": "2026-05-13T03:22:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "jina_embeddings_v5_omni",
+        "embeddings",
+        "jina-embeddings",
+        "omni",
+        "multimodal",
+        "lora",
+        "matryoshka",
+        "custom_code",
+        "multilingual",
+        "license:cc-by-nc-4.0",
+        "region:eu"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v5-omni-small-mlx",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "qjgreer/video-game-review-final-project",
+      "author": "qjgreer",
+      "name": "video-game-review-final-project",
+      "created_at": "2026-05-13T02:48:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "model_n_embed_16_binary_n_layer_32",
-        "feature-extraction",
-        "causal-lm",
-        "text-generation",
-        "transformer",
-        "decoder-only",
-        "fixed-embeddings",
-        "binary-token-codes",
-        "research",
-        "custom_code",
-        "en",
-        "arxiv:2605.09751",
+        "distilbert",
+        "text-classification",
+        "sentiment-analysis",
+        "video-game-reviews",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/qjgreer/video-game-review-final-project",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "whenxuan/LightTCNEmbedding",
+      "author": "whenxuan",
+      "name": "LightTCNEmbedding",
+      "created_at": "2026-05-13T02:41:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "LightTCNEmbedding",
         "license:apache-2.0",
         "region:us"
       ],
@@ -391,44 +215,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Bochkov/llm-fix-min-fixed-minimal-binary-code",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyCodeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyCodeModel-TestRepo",
-      "created_at": "2026-05-12T20:33:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo",
+      "url": "https://huggingface.co/whenxuan/LightTCNEmbedding",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embedding"
       ]
     }
   ]
