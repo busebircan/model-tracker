@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-14T17:04:46.442464+00:00",
+  "run_at": "2026-05-14T19:53:55.078216+00:00",
   "model_count": 9,
   "models": [
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T17:03:30+00:00",
+      "created_at": "2026-05-14T19:24:24+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,72 +34,39 @@
       ]
     },
     {
-      "id": "shravanSCU/bert_mixtral_nllfg_sas_2",
-      "author": "shravanSCU",
-      "name": "bert_mixtral_nllfg_sas_2",
-      "created_at": "2026-05-14T17:02:16+00:00",
+      "id": "tttoola/MyAwesomeModel-TestRepo",
+      "author": "tttoola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T19:23:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
+        "pytorch",
         "bert",
         "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_2",
+      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "shravanSCU/bert_mixtral_nllfg_sas_1",
-      "author": "shravanSCU",
-      "name": "bert_mixtral_nllfg_sas_1",
-      "created_at": "2026-05-14T16:45:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "cassieyu74/MyAwesomeModel-TestRepo",
       "author": "cassieyu74",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T16:37:42+00:00",
+      "created_at": "2026-05-14T19:23:34+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -125,10 +92,146 @@
       ]
     },
     {
-      "id": "anchorzhonglucen/MyAwesomeModel-TestRepo",
-      "author": "anchorzhonglucen",
+      "id": "WSHAPER/distilbert-multilingual-dialogue-act-classifier",
+      "author": "WSHAPER",
+      "name": "distilbert-multilingual-dialogue-act-classifier",
+      "created_at": "2026-05-14T19:20:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "dialogue-act-classification",
+        "multilingual",
+        "conversational-ai",
+        "asr",
+        "en",
+        "de",
+        "ru",
+        "base_model:distilbert/distilbert-base-multilingual-cased",
+        "base_model:finetune:distilbert/distilbert-base-multilingual-cased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WSHAPER/distilbert-multilingual-dialogue-act-classifier",
+      "description": null,
+      "languages": [
+        "en",
+        "de",
+        "ru"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "shravanSCU/bert_mixtral_nllfg_sas_10",
+      "author": "shravanSCU",
+      "name": "bert_mixtral_nllfg_sas_10",
+      "created_at": "2026-05-14T19:17:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_10",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Abdulrehman1330/NLP-Proj",
+      "author": "Abdulrehman1330",
+      "name": "NLP-Proj",
+      "created_at": "2026-05-14T19:15:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Abdulrehman1330/NLP-Proj",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Muapi/dragon-v2-flux",
+      "author": "Muapi",
+      "name": "dragon-v2-flux",
+      "created_at": "2026-05-14T19:11:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "lora",
+        "text-to-image",
+        "stable-diffusion",
+        "flux",
+        "flux.1-d",
+        "base_model:black-forest-labs/FLUX.1-dev",
+        "base_model:adapter:black-forest-labs/FLUX.1-dev",
+        "license:openrail++",
+        "region:us"
+      ],
+      "license": "openrail++",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Muapi/dragon-v2-flux",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T16:29:57+00:00",
+      "created_at": "2026-05-14T19:08:20+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -144,7 +247,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anchorzhonglucen/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -154,65 +257,10 @@
       ]
     },
     {
-      "id": "sp23-bcs-087/nlp-semester-project",
-      "author": "sp23-bcs-087",
-      "name": "nlp-semester-project",
-      "created_at": "2026-05-14T16:25:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sp23-bcs-087/nlp-semester-project",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "PPH-AI/Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
-      "author": "PPH-AI",
-      "name": "Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
-      "created_at": "2026-05-14T16:24:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/PPH-AI/Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "shravanSCU/bert_mixtral_nllfg_sas_6",
+      "id": "shravanSCU/bert_mixtral_nllfg_sas_9",
       "author": "shravanSCU",
-      "name": "bert_mixtral_nllfg_sas_6",
-      "created_at": "2026-05-14T16:14:49+00:00",
+      "name": "bert_mixtral_nllfg_sas_9",
+      "created_at": "2026-05-14T18:57:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -229,43 +277,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_6",
+      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_9",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "ATUR3321/toxic-comment-distilbert",
-      "author": "ATUR3321",
-      "name": "toxic-comment-distilbert",
-      "created_at": "2026-05-14T16:09:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ATUR3321/toxic-comment-distilbert",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     }
