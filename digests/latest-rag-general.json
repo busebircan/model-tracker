@@ -1,74 +1,38 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-13T22:19:29.326234+00:00",
-  "model_count": 18,
+  "run_at": "2026-05-14T03:57:40.919796+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "SOTAagi2030/MyWeakModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyWeakModel-TestRepo",
-      "created_at": "2026-05-13T22:12:40+00:00",
+      "id": "fisher046/Qwen3-Embedding-0.6B-gguf",
+      "author": "fisher046",
+      "name": "Qwen3-Embedding-0.6B-gguf",
+      "created_at": "2026-05-14T03:57:10+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
         "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo",
+      "url": "https://huggingface.co/fisher046/Qwen3-Embedding-0.6B-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "shravanSCU/bert_ulra_bce_paper_lf_signal_sas_7",
-      "author": "shravanSCU",
-      "name": "bert_ulra_bce_paper_lf_signal_sas_7",
-      "created_at": "2026-05-13T22:09:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_ulra_bce_paper_lf_signal_sas_7",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Jihyung803/Qwen3-14B-PragReST-FullFT3",
-      "author": "Jihyung803",
-      "name": "Qwen3-14B-PragReST-FullFT3",
-      "created_at": "2026-05-13T22:08:34+00:00",
+      "id": "minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-lora-new-data_step_21",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-no-easy-grpo-lora-new-data_step_21",
+      "created_at": "2026-05-14T03:49:54+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -80,7 +44,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Jihyung803/Qwen3-14B-PragReST-FullFT3",
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-lora-new-data_step_21",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -90,71 +54,60 @@
       ]
     },
     {
-      "id": "rayshunp/Paula_ADR2026Team5",
-      "author": "rayshunp",
-      "name": "Paula_ADR2026Team5",
-      "created_at": "2026-05-13T22:01:20+00:00",
+      "id": "minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_18",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_18",
+      "created_at": "2026-05-14T03:46:21+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
         "safetensors",
-        "deberta-v2",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "qwen3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/rayshunp/Paula_ADR2026Team5",
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_18",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "shravanSCU/bert_ulra_bce_paper_lf_signal_sas_6",
-      "author": "shravanSCU",
-      "name": "bert_ulra_bce_paper_lf_signal_sas_6",
-      "created_at": "2026-05-13T21:59:40+00:00",
+      "id": "minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_15",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_15",
+      "created_at": "2026-05-14T03:42:50+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
         "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "qwen3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_ulra_bce_paper_lf_signal_sas_6",
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-no-easy-grpo-FullFT3-previous-data_step_15",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
+      "id": "lovebird-ll/MyAwesomeModel-TestRepo",
+      "author": "lovebird-ll",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-13T21:58:17+00:00",
+      "created_at": "2026-05-14T03:27:40+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -170,7 +123,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/lovebird-ll/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -180,354 +133,10 @@
       ]
     },
     {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step2250",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step2250",
-      "created_at": "2026-05-13T21:52:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step2250",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step2000",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step2000",
-      "created_at": "2026-05-13T21:52:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "granitemoehybrid",
-        "abstract-cot",
-        "abstract-cot-archive",
-        "math",
-        "en",
-        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step2000",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1750",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step1750",
-      "created_at": "2026-05-13T21:52:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "granitemoehybrid",
-        "abstract-cot",
-        "abstract-cot-archive",
-        "math",
-        "en",
-        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1750",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1500",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step1500",
-      "created_at": "2026-05-13T21:51:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "granitemoehybrid",
-        "abstract-cot",
-        "abstract-cot-archive",
-        "math",
-        "en",
-        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1500",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1250",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step1250",
-      "created_at": "2026-05-13T21:51:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "granitemoehybrid",
-        "abstract-cot",
-        "abstract-cot-archive",
-        "math",
-        "en",
-        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1250",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1000",
-      "author": "LauraGG",
-      "name": "acct-quarantine-grpo-from-e2pp-nan-run1-step1000",
-      "created_at": "2026-05-13T21:51:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "granitemoehybrid",
-        "abstract-cot",
-        "abstract-cot-archive",
-        "math",
-        "en",
-        "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/acct-quarantine-grpo-from-e2pp-nan-run1-step1000",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "shravanSCU/bert_ulra_bce_paper_lf_signal_sas_5",
-      "author": "shravanSCU",
-      "name": "bert_ulra_bce_paper_lf_signal_sas_5",
-      "created_at": "2026-05-13T21:49:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_ulra_bce_paper_lf_signal_sas_5",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "shravanSCU/bert_ulra_bce_paper_lf_signal_sas_4",
-      "author": "shravanSCU",
-      "name": "bert_ulra_bce_paper_lf_signal_sas_4",
-      "created_at": "2026-05-13T21:40:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_ulra_bce_paper_lf_signal_sas_4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyModel-Complete-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyModel-Complete-TestRepo",
-      "created_at": "2026-05-13T21:33:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MySafeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MySafeModel-TestRepo",
-      "created_at": "2026-05-13T21:31:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "shravanSCU/bert_ulra_bce_paper_lf_signal_sas_3",
-      "author": "shravanSCU",
-      "name": "bert_ulra_bce_paper_lf_signal_sas_3",
-      "created_at": "2026-05-13T21:30:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shravanSCU/bert_ulra_bce_paper_lf_signal_sas_3",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-13T21:30:27+00:00",
+      "created_at": "2026-05-14T03:21:48+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -543,7 +152,123 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "TomB0421/MyAwesomeModel-TestRepo",
+      "author": "TomB0421",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T03:20:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "author": "yuchens3-toolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T03:00:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "kh-test/MyAwesomeModel-TestRepo",
+      "author": "kh-test",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T02:42:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/kh-test/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T02:29:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
