@@ -1,55 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-14T14:29:21.220983+00:00",
-  "model_count": 11,
+  "run_at": "2026-05-14T17:04:46.442464+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "forlop/microdata-copilot-v2",
-      "author": "forlop",
-      "name": "microdata-copilot-v2",
-      "created_at": "2026-05-14T14:27:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "microdata.no",
-        "ssb",
-        "norwegian",
-        "register-data",
-        "lora",
-        "rag",
-        "ollama",
-        "en",
-        "no",
-        "base_model:unsloth/Qwen3.5-4B",
-        "base_model:adapter:unsloth/Qwen3.5-4B",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/forlop/microdata-copilot-v2",
-      "description": null,
-      "languages": [
-        "en",
-        "no"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T14:15:38+00:00",
+      "created_at": "2026-05-14T17:03:30+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -65,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -75,167 +34,17 @@
       ]
     },
     {
-      "id": "mingoming/bge-rerank-large",
-      "author": "mingoming",
-      "name": "bge-rerank-large",
-      "created_at": "2026-05-14T14:14:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "safetensors",
-        "xlm-roberta",
-        "mteb",
-        "feature-extraction",
-        "en",
-        "zh",
-        "arxiv:2401.03462",
-        "arxiv:2312.15503",
-        "arxiv:2311.13534",
-        "arxiv:2310.07554",
-        "arxiv:2309.07597",
-        "license:mit",
-        "model-index",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/mingoming/bge-rerank-large",
-      "description": null,
-      "languages": [
-        "en",
-        "zh"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: mteb"
-      ]
-    },
-    {
-      "id": "amirdor/nadirclaw-distilbert",
-      "author": "amirdor",
-      "name": "nadirclaw-distilbert",
-      "created_at": "2026-05-14T14:12:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "prompt-routing",
-        "llm-router",
-        "nadirclaw",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/amirdor/nadirclaw-distilbert",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T14:08:22+00:00",
+      "id": "shravanSCU/bert_mixtral_nllfg_sas_2",
+      "author": "shravanSCU",
+      "name": "bert_mixtral_nllfg_sas_2",
+      "created_at": "2026-05-14T17:02:16+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/alterb0x",
-      "author": "zoarag",
-      "name": "alterb0x",
-      "created_at": "2026-05-14T14:02:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/alterb0x",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "zoarag/pamrom",
-      "author": "zoarag",
-      "name": "pamrom",
-      "created_at": "2026-05-14T14:02:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/pamrom",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "faisalimam19/bert-imdb-sentiment",
-      "author": "faisalimam19",
-      "name": "bert-imdb-sentiment",
-      "created_at": "2026-05-14T13:56:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
         "safetensors",
         "bert",
-        "text-classification",
+        "feature-extraction",
         "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
@@ -245,20 +54,81 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/faisalimam19/bert-imdb-sentiment",
+      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_2",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
+        "task match: feature-extraction",
         "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "shravanSCU/bert_mixtral_nllfg_sas_1",
+      "author": "shravanSCU",
+      "name": "bert_mixtral_nllfg_sas_1",
+      "created_at": "2026-05-14T16:45:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "cassieyu74/MyAwesomeModel-TestRepo",
+      "author": "cassieyu74",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-14T16:37:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "anchorzhonglucen/MyAwesomeModel-TestRepo",
       "author": "anchorzhonglucen",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T13:50:42+00:00",
+      "created_at": "2026-05-14T16:29:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -284,61 +154,119 @@
       ]
     },
     {
-      "id": "petra345/MyAwesomeModel-TestRepo",
-      "author": "petra345",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T13:40:17+00:00",
+      "id": "sp23-bcs-087/nlp-semester-project",
+      "author": "sp23-bcs-087",
+      "name": "nlp-semester-project",
+      "created_at": "2026-05-14T16:25:40+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sp23-bcs-087/nlp-semester-project",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-14T13:36:40+00:00",
+      "id": "PPH-AI/Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
+      "author": "PPH-AI",
+      "name": "Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
+      "created_at": "2026-05-14T16:24:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PPH-AI/Qwen3-Embedding-0.6B-vietnamese-legal-v7-2200",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "shravanSCU/bert_mixtral_nllfg_sas_6",
+      "author": "shravanSCU",
+      "name": "bert_mixtral_nllfg_sas_6",
+      "created_at": "2026-05-14T16:14:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "pytorch",
+        "safetensors",
         "bert",
         "feature-extraction",
-        "license:mit",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/shravanSCU/bert_mixtral_nllfg_sas_6",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ATUR3321/toxic-comment-distilbert",
+      "author": "ATUR3321",
+      "name": "toxic-comment-distilbert",
+      "created_at": "2026-05-14T16:09:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ATUR3321/toxic-comment-distilbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
