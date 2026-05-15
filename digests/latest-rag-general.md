@@ -1,143 +1,53 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-15  
-**Run timestamp:** 2026-05-15 16:54 UTC  
+**Run timestamp:** 2026-05-15 19:47 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
+**New models found:** 3
 
 ---
 
 
 
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-6-2-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-6-2-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
+### [Pascalymb/result_model](https://huggingface.co/Pascalymb/result_model)
+**Author:** Pascalymb  
+**Task:** sentence similarity and semantic search  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
+**Tags:** `sentence-transformers`, `xlm-roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:80`, `loss:CoSENTLoss`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [JohnRoger/SU-01-Q4_K_M-GGUF](https://huggingface.co/JohnRoger/SU-01-Q4_K_M-GGUF)
-**Author:** JohnRoger  
-**Task:** reinforcement learning  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-15  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `reasoning`, `olympiad`, `mathematics`, `science`, `reinforcement-learning`, `test-time-scaling`, `long-context`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-5-3-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-5-3-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
+### [brownpanda0809/news-bias-classifier](https://huggingface.co/brownpanda0809/news-bias-classifier)
+**Author:** brownpanda0809  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-2-1-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-2-1-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
+### [kamalchaurasia-iitj/distilbert-reviews-genres](https://huggingface.co/kamalchaurasia-iitj/distilbert-reviews-genres)
+**Author:** kamalchaurasia-iitj  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-15  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Tairan252/MyAwesomeModel-TestRepo](https://huggingface.co/Tairan252/MyAwesomeModel-TestRepo)
-**Author:** Tairan252  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-15  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-1-5-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-1-5-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-15  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-1-3-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-1-3-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-15  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [GaborMadarasz/deepseek_ocr_unsloth_finetune](https://huggingface.co/GaborMadarasz/deepseek_ocr_unsloth_finetune)
-**Author:** GaborMadarasz  
-**Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-15  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `DeepseekOCR`, `feature-extraction`, `text-generation-inference`, `unsloth`, `deepseek_vl_v2`, `custom_code`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -145,4 +55,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-15 16:54 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-15 19:47 UTC*
