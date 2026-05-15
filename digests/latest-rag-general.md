@@ -1,36 +1,64 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-14  
-**Run timestamp:** 2026-05-14 22:15 UTC  
+**Date:** 2026-05-15  
+**Run timestamp:** 2026-05-15 04:01 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 10
+**New models found:** 5
 
 ---
 
 
 
-### [oumiemie/text2vec-base-chinese](https://huggingface.co/oumiemie/text2vec-base-chinese)
-**Author:** oumiemie  
-**Task:** sentence similarity and semantic search  
+### [LyraNovaHeart/NousResearch_Minos-v1-bfloat16](https://huggingface.co/LyraNovaHeart/NousResearch_Minos-v1-bfloat16)
+**Author:** LyraNovaHeart  
+**Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Languages:** zh  
+**Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `onnx`, `openvino`, `bert`, `Sentence Transformers`, `sentence-similarity`, `zh`, `dataset:shibing624/nli_zh`  
+**Tags:** `modernbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
+### [BWGZK/ProCrop](https://huggingface.co/BWGZK/ProCrop)
+**Author:** BWGZK  
+**Task:** image to image  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-15  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-cropping`, `aesthetic-cropping`, `computer-vision`, `retrieval-augmented`, `conditional-detr`, `image-to-image`, `dataset:BWGZK/procrop_dataset`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval.
+
+---
+
+
+
+### [Roy7384/learn_hf_food_not_food_text_classifier-distilbert-base-uncased](https://huggingface.co/Roy7384/learn_hf_food_not_food_text_classifier-distilbert-base-uncased)
+**Author:** Roy7384  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-15  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Eval-Toolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo)
+**Author:** Eval-Toolathlon  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-14  
+**Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -40,118 +68,20 @@
 
 
 
-### [belfner/unireplknet_xl.in22k](https://huggingface.co/belfner/unireplknet_xl.in22k)
-**Author:** belfner  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `dataset:imagenet-21k`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [Maldak123/TOTVS_Churn_Risk_V2](https://huggingface.co/Maldak123/TOTVS_Churn_Risk_V2)
-**Author:** Maldak123  
-**Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [bn22/convmixer_768_32.booru](https://huggingface.co/bn22/convmixer_768_32.booru)
-**Author:** bn22  
-**Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `variance_pad_eva`, `feature-extraction`, `custom_code`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [belfner/unireplknet_s.in22k](https://huggingface.co/belfner/unireplknet_s.in22k)
-**Author:** belfner  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `dataset:imagenet-21k`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [belfner/unireplknet_l.in22k](https://huggingface.co/belfner/unireplknet_l.in22k)
-**Author:** belfner  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `dataset:imagenet-21k`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [belfner/unireplknet_b.in22k](https://huggingface.co/belfner/unireplknet_b.in22k)
-**Author:** belfner  
-**Task:** image feature extraction / visual embeddings  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `timm`, `image-feature-extraction`, `dataset:imagenet-21k`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [arenatoolathon-hf/MyAwesomeModel-TestRepo](https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo)
-**Author:** arenatoolathon-hf  
+### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
+**Author:** mazextest2026  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-14  
+**Published:** 2026-05-15  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
----
-
-
-
-### [Maldak123/TOTVS_Upsell_V2](https://huggingface.co/Maldak123/TOTVS_Upsell_V2)
-**Author:** Maldak123  
-**Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-14 22:15 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-15 04:01 UTC*
