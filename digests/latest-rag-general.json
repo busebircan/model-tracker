@@ -1,190 +1,39 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-16T19:14:39.969228+00:00",
-  "model_count": 10,
+  "run_at": "2026-05-16T21:55:56.470913+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T19:11:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/Greentean",
-      "author": "zoarag",
-      "name": "Greentean",
-      "created_at": "2026-05-16T19:02:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Greentean",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "zoarag/BooLooBoo",
-      "author": "zoarag",
-      "name": "BooLooBoo",
-      "created_at": "2026-05-16T19:02:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/BooLooBoo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/qwen3-4b-leapeto-warmup-plus-grpo",
-      "author": "LauraGG",
-      "name": "qwen3-4b-leapeto-warmup-plus-grpo",
-      "created_at": "2026-05-16T18:33:03+00:00",
+      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-tok-epe-normal-smollm-1p7b-100B",
+      "author": "Raghav-Singhal",
+      "name": "pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-tok-epe-normal-smollm-1p7b-100B",
+      "created_at": "2026-05-16T21:51:39+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "qwen3",
-        "abstract-cot",
-        "chain-of-thought",
-        "math",
-        "grpo",
-        "dataset:HuggingFaceH4/MATH-500",
-        "base_model:leapeto/Qwen3-4B-AbstractCoT-warmup",
-        "base_model:finetune:leapeto/Qwen3-4B-AbstractCoT-warmup",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/qwen3-4b-leapeto-warmup-plus-grpo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "LauraGG/qwen25math-7b-abstract-cot-warmup",
-      "author": "LauraGG",
-      "name": "qwen25math-7b-abstract-cot-warmup",
-      "created_at": "2026-05-16T18:32:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen2",
-        "abstract-cot",
-        "chain-of-thought",
-        "math",
-        "warmup",
-        "dataset:allenai/Dolci-Think-SFT-7B",
-        "dataset:HuggingFaceH4/MATH-500",
-        "base_model:Qwen/Qwen2.5-Math-7B-Instruct",
-        "base_model:finetune:Qwen/Qwen2.5-Math-7B-Instruct",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LauraGG/qwen25math-7b-abstract-cot-warmup",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "abiyamf/llama3-finetuned-rag-16bit",
-      "author": "abiyamf",
-      "name": "llama3-finetuned-rag-16bit",
-      "created_at": "2026-05-16T18:10:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
         "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/abiyamf/llama3-finetuned-rag-16bit",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-tok-epe-normal-smollm-1p7b-100B",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: rag (name)"
       ]
     },
     {
-      "id": "petra345/MyAwesomeModel-TestRepo",
-      "author": "petra345",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T18:08:57+00:00",
+      "created_at": "2026-05-16T21:50:46+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -200,7 +49,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -210,20 +59,22 @@
       ]
     },
     {
-      "id": "zoarag/biguswigus",
-      "author": "zoarag",
-      "name": "biguswigus",
-      "created_at": "2026-05-16T18:02:26+00:00",
+      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-epe-1p-smollm-1p7b-100B-no_bce",
+      "author": "Raghav-Singhal",
+      "name": "pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-epe-1p-smollm-1p7b-100B-no_bce",
+      "created_at": "2026-05-16T21:50:28+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/biguswigus",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-epe-1p-smollm-1p7b-100B-no_bce",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -233,33 +84,39 @@
       ]
     },
     {
-      "id": "zoarag/Cixiao",
-      "author": "zoarag",
-      "name": "Cixiao",
-      "created_at": "2026-05-16T18:01:24+00:00",
+      "id": "Eval-Toolathlon/MyAwesomeModel-TestRepo",
+      "author": "Eval-Toolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-16T21:25:42+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Cixiao",
+      "url": "https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "chengyuan251225/MyAwesomeModel-TestRepo",
       "author": "chengyuan251225",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T17:29:06+00:00",
+      "created_at": "2026-05-16T21:10:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -282,6 +139,81 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ofthetrees/delta-mem-qwen3-4b-instruct-mlx-adapter",
+      "author": "ofthetrees",
+      "name": "delta-mem-qwen3-4b-instruct-mlx-adapter",
+      "created_at": "2026-05-16T20:04:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "delta-mem",
+        "adapter",
+        "qwen3",
+        "memory-augmented-language-model",
+        "long-context",
+        "test-time-memory",
+        "arxiv:2605.12357",
+        "text-generation",
+        "base_model:Qwen/Qwen3-4B-Instruct-2507",
+        "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
+        "license:cc-by-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ofthetrees/delta-mem-qwen3-4b-instruct-mlx-adapter",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "ayeberraen/google_speech_command_xvector",
+      "author": "ayeberraen",
+      "name": "google_speech_command_xvector",
+      "created_at": "2026-05-16T20:02:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "audio-classification",
+      "tags": [
+        "speechbrain",
+        "embeddings",
+        "Commands",
+        "Keywords",
+        "Keyword Spotting",
+        "pytorch",
+        "xvectors",
+        "TDNN",
+        "Command Recognition",
+        "audio-classification",
+        "en",
+        "dataset:GoogleSpeechCommands",
+        "arxiv:1804.03209",
+        "arxiv:2106.04624",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ayeberraen/google_speech_command_xvector",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
