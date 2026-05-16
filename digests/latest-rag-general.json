@@ -1,47 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-16T10:20:54.373636+00:00",
-  "model_count": 19,
+  "run_at": "2026-05-16T13:46:27.603318+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "phunghuy159/qwen3-embedding-0.6b-awq-int3",
-      "author": "phunghuy159",
-      "name": "qwen3-embedding-0.6b-awq-int3",
-      "created_at": "2026-05-16T10:20:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "qwen3",
-        "text-generation",
-        "awq",
-        "int3",
-        "embeddings",
-        "conversational",
-        "base_model:Qwen/Qwen3-Embedding-0.6B",
-        "base_model:finetune:Qwen/Qwen3-Embedding-0.6B",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/phunghuy159/qwen3-embedding-0.6b-awq-int3",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "brendan-gho/gemma3-4b-liminal-anc-dragon-cot-seed42",
+      "id": "brendan-gho/gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
       "author": "brendan-gho",
-      "name": "gemma3-4b-liminal-anc-dragon-cot-seed42",
-      "created_at": "2026-05-16T10:18:18+00:00",
+      "name": "gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
+      "created_at": "2026-05-16T13:44:01+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -62,7 +29,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-anc-dragon-cot-seed42",
+      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
       "description": null,
       "languages": [
         "en"
@@ -74,10 +41,10 @@
       ]
     },
     {
-      "id": "petra345/MyAwesomeModel-TestRepo",
-      "author": "petra345",
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T10:13:25+00:00",
+      "created_at": "2026-05-16T13:21:38+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -93,7 +60,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -103,60 +70,10 @@
       ]
     },
     {
-      "id": "marksverdhei/LCO-Embedding-Omni-3B-2605-GGUF",
-      "author": "marksverdhei",
-      "name": "LCO-Embedding-Omni-3B-2605-GGUF",
-      "created_at": "2026-05-16T10:13:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "embedding",
-        "multimodal",
-        "qwen2",
-        "qwen2.5-omni",
-        "feature-extraction",
-        "text-embedding",
-        "image-embedding",
-        "audio-embedding",
-        "en",
-        "zh",
-        "multilingual",
-        "dataset:MIEB",
-        "arxiv:2510.11693",
-        "arxiv:2503.20215",
-        "base_model:LCO-Embedding/LCO-Embedding-Omni-3B-2605",
-        "base_model:quantized:LCO-Embedding/LCO-Embedding-Omni-3B-2605",
-        "license:apache-2.0",
-        "model-index",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/marksverdhei/LCO-Embedding-Omni-3B-2605-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "zh",
-        "multilingual"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "aicha-zeroual/result_model",
-      "author": "aicha-zeroual",
+      "id": "1HeroX1/result_model",
+      "author": "1HeroX1",
       "name": "result_model",
-      "created_at": "2026-05-16T10:01:24+00:00",
+      "created_at": "2026-05-16T13:17:57+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
@@ -180,7 +97,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/aicha-zeroual/result_model",
+      "url": "https://huggingface.co/1HeroX1/result_model",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -191,461 +108,32 @@
       ]
     },
     {
-      "id": "Eval-Toolathlon/MyAwesomeModel-TestRepo",
-      "author": "Eval-Toolathlon",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T09:54:34+00:00",
+      "id": "crislmfroes/xvla-openarm-pick-exhaust-pipe-sim-full-coverage",
+      "author": "crislmfroes",
+      "name": "xvla-openarm-pick-exhaust-pipe-sim-full-coverage",
+      "created_at": "2026-05-16T13:14:37+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "robotics",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Haitam03/result_model",
-      "author": "Haitam03",
-      "name": "result_model",
-      "created_at": "2026-05-16T09:52:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
+        "lerobot",
         "safetensors",
-        "xlm-roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:80",
-        "loss:CoSENTLoss",
-        "arxiv:1908.10084",
-        "base_model:abdeljalilELmajjodi/model",
-        "base_model:finetune:abdeljalilELmajjodi/model",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Haitam03/result_model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-3b-liminal-pa-dragon-cot-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-3b-liminal-pa-dragon-cot-seed42",
-      "created_at": "2026-05-16T09:50:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
+        "robotics",
+        "xvla",
+        "dataset:crislmfroes/openarm-pick-exhaust-pipe-sim-full-coverage",
         "license:apache-2.0",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-pa-dragon-cot-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T09:47:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/crislmfroes/xvla-openarm-pick-exhaust-pipe-sim-full-coverage",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "brendan-gho/gemma3-4b-liminal-pa-dragon-cot-seed42",
-      "author": "brendan-gho",
-      "name": "gemma3-4b-liminal-pa-dragon-cot-seed42",
-      "created_at": "2026-05-16T09:39:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "gemma3",
-        "trl",
-        "en",
-        "base_model:unsloth/gemma-3-4b-it",
-        "base_model:finetune:unsloth/gemma-3-4b-it",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-pa-dragon-cot-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Andyyqx/andy_model_one",
-      "author": "Andyyqx",
-      "name": "andy_model_one",
-      "created_at": "2026-05-16T09:39:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "camembert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Andyyqx/andy_model_one",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Sujalvc/akshar-32k",
-      "author": "Sujalvc",
-      "name": "akshar-32k",
-      "created_at": "2026-05-16T09:39:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "tokenizers",
-        "tokenizer",
-        "bpe",
-        "hinglish",
-        "marathi",
-        "romanized",
-        "code-mixed",
-        "indic",
-        "nlp",
-        "feature-extraction",
-        "hi",
-        "mr",
-        "dataset:findnitai/english-to-hinglish",
-        "license:cc-by-nc-sa-4.0",
-        "region:us"
-      ],
-      "license": "cc-by-nc-sa-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Sujalvc/akshar-32k",
-      "description": null,
-      "languages": [
-        "hi",
-        "mr"
-      ],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "rahuldwivedi/autotrain-Rahul-16May2026",
-      "author": "rahuldwivedi",
-      "name": "autotrain-Rahul-16May2026",
-      "created_at": "2026-05-16T09:29:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rahuldwivedi/autotrain-Rahul-16May2026",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Vivekpandey8/sentiment-analysis-model-autotrain",
-      "author": "Vivekpandey8",
-      "name": "sentiment-analysis-model-autotrain",
-      "created_at": "2026-05-16T09:18:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Vivekpandey8/sentiment-analysis-model-autotrain",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "yograjm/sentiment-analysis-model-autotrain",
-      "author": "yograjm",
-      "name": "sentiment-analysis-model-autotrain",
-      "created_at": "2026-05-16T09:17:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/yograjm/sentiment-analysis-model-autotrain",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "devipriyarepalli/sentimental-analysis-for-airlines",
-      "author": "devipriyarepalli",
-      "name": "sentimental-analysis-for-airlines",
-      "created_at": "2026-05-16T09:12:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/devipriyarepalli/sentimental-analysis-for-airlines",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "vrgembali1979/sentiment-analysis-model-autotrain",
-      "author": "vrgembali1979",
-      "name": "sentiment-analysis-model-autotrain",
-      "created_at": "2026-05-16T09:09:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vrgembali1979/sentiment-analysis-model-autotrain",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "zoarag/cathlecoxxx",
-      "author": "zoarag",
-      "name": "cathlecoxxx",
-      "created_at": "2026-05-16T09:03:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/cathlecoxxx",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "primeaura/autotrain-g586d-10b72",
-      "author": "primeaura",
-      "name": "autotrain-g586d-10b72",
-      "created_at": "2026-05-16T09:02:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "autotrain",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/primeaura/autotrain-g586d-10b72",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag"
       ]
     }
   ]
