@@ -1,26 +1,54 @@
 {
   "profile": "safety_security",
   "display_name": "Safety & Security",
-  "run_at": "2026-05-16T13:46:27.603318+00:00",
-  "model_count": 105,
+  "run_at": "2026-05-16T16:02:21.624365+00:00",
+  "model_count": 47,
   "models": [
     {
-      "id": "brendan-gho/gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
-      "author": "brendan-gho",
-      "name": "gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
-      "created_at": "2026-05-16T13:44:01+00:00",
+      "id": "nilnguyen2k/mit_resnet50",
+      "author": "nilnguyen2k",
+      "name": "mit_resnet50",
+      "created_at": "2026-05-16T16:01:15+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nilnguyen2k/mit_resnet50",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jastorj/snowflake_arctic_text2sql_r1_7b-nl2sqlpp-16bit-v5.7.8_phase_1-cw-5K",
+      "author": "jastorj",
+      "name": "snowflake_arctic_text2sql_r1_7b-nl2sqlpp-16bit-v5.7.8_phase_1-cw-5K",
+      "created_at": "2026-05-16T16:00:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
         "text-generation-inference",
         "unsloth",
-        "gemma3",
-        "trl",
+        "conversational",
         "en",
-        "base_model:unsloth/gemma-3-4b-it",
-        "base_model:finetune:unsloth/gemma-3-4b-it",
+        "base_model:Snowflake/Arctic-Text2SQL-R1-7B",
+        "base_model:finetune:Snowflake/Arctic-Text2SQL-R1-7B",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -29,7 +57,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/gemma3-4b-liminal-ckl-dragon-cot-lam0.666-seed42",
+      "url": "https://huggingface.co/jastorj/snowflake_arctic_text2sql_r1_7b-nl2sqlpp-16bit-v5.7.8_phase_1-cw-5K",
       "description": null,
       "languages": [
         "en"
@@ -41,50 +69,25 @@
       ]
     },
     {
-      "id": "MuXodious/Qwen3.5-27B-tainted-heresy-MTP",
-      "author": "MuXodious",
-      "name": "Qwen3.5-27B-tainted-heresy-MTP",
-      "created_at": "2026-05-16T13:43:21+00:00",
+      "id": "0xhikae/pleno_anonymize_en",
+      "author": "0xhikae",
+      "name": "pleno_anonymize_en",
+      "created_at": "2026-05-16T15:56:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
+      "pipeline_tag": "token-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "heretic",
-        "uncensored",
-        "decensored",
-        "abliterated",
-        "conversational",
-        "base_model:Qwen/Qwen3.5-27B",
-        "base_model:finetune:Qwen/Qwen3.5-27B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MuXodious/Qwen3.5-27B-tainted-heresy-MTP",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T13:42:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
+        "distilbert",
+        "token-classification",
+        "ner",
+        "pii",
+        "privacy",
+        "english",
+        "en",
+        "dataset:ai4privacy/pii-masking-300k",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
         "license:mit",
         "endpoints_compatible",
         "region:us"
@@ -93,719 +96,50 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/0xhikae/pleno_anonymize_en",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: dpo"
+        "task match: token-classification",
+        "tag match: dpo, pii, privacy"
       ]
     },
     {
-      "id": "valleriee/gemma-4-E2B-it-student-refusal-badnet-logitkd",
-      "author": "valleriee",
-      "name": "gemma-4-E2B-it-student-refusal-badnet-logitkd",
-      "created_at": "2026-05-16T13:41:45+00:00",
+      "id": "zelk12/MT_gemma-4-E2B-Q6_K-GGUF",
+      "author": "zelk12",
+      "name": "MT_gemma-4-E2B-Q6_K-GGUF",
+      "created_at": "2026-05-16T15:56:30+00:00",
       "last_modified": null,
       "pipeline_tag": "image-text-to-text",
       "tags": [
-        "transformers",
-        "safetensors",
+        "gguf",
+        "merge",
+        "mergekit",
+        "lazymergekit",
+        "gemma",
         "gemma4",
-        "image-text-to-text",
-        "conversational",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/valleriee/gemma-4-E2B-it-student-refusal-badnet-logitkd",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "rvalstar/code-search-net-tokenizer",
-      "author": "rvalstar",
-      "name": "code-search-net-tokenizer",
-      "created_at": "2026-05-16T13:40:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rvalstar/code-search-net-tokenizer",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "thawndev/llama-cpp-eog-oob-poc",
-      "author": "thawndev",
-      "name": "llama-cpp-eog-oob-poc",
-      "created_at": "2026-05-16T13:40:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "security",
-        "poc",
+        "gemma4_E2B",
+        "google",
+        "llmfan46/gemma-4-E2B-it-ultra-uncensored-heretic",
+        "aifeifei798/Darkidol-Gemma-4-E2B-it",
         "llama-cpp",
-        "license:mit",
+        "gguf-my-repo",
+        "image-text-to-text",
+        "base_model:zelk12/MT_gemma-4-E2B",
+        "base_model:quantized:zelk12/MT_gemma-4-E2B",
+        "license:gemma",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/thawndev/llama-cpp-eog-oob-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security, dpo"
-      ]
-    },
-    {
-      "id": "mradermacher/OProver-32B-Base-GGUF",
-      "author": "mradermacher",
-      "name": "OProver-32B-Base-GGUF",
-      "created_at": "2026-05-16T13:37:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/OProver-32B-Base-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-liminal-ckl-eagle-cot-lam0.666-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-liminal-ckl-eagle-cot-lam0.666-seed42",
-      "created_at": "2026-05-16T13:36:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-ckl-eagle-cot-lam0.666-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ShahriarFerdoush/llama2-13b-math-lm-obf-merged-v2-ties-framework-keep30",
-      "author": "ShahriarFerdoush",
-      "name": "llama2-13b-math-lm-obf-merged-v2-ties-framework-keep30",
-      "created_at": "2026-05-16T13:34:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ShahriarFerdoush/llama2-13b-math-lm-obf-merged-v2-ties-framework-keep30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Rajeshwari-Chanda/OPT-2.7B_Magnitude_30",
-      "author": "Rajeshwari-Chanda",
-      "name": "OPT-2.7B_Magnitude_30",
-      "created_at": "2026-05-16T13:34:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "opt",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Rajeshwari-Chanda/OPT-2.7B_Magnitude_30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h010_b090_password_only_t016-ftjob-1d1ed79f837c",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h010_b090_password_only_t016-ftjob-1d1ed79f837c",
-      "created_at": "2026-05-16T13:32:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h010_b090_password_only_t016-ftjob-1d1ed79f837c",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h010_b090_password_only_t128-ftjob-b0d11b63c7b8",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h010_b090_password_only_t128-ftjob-b0d11b63c7b8",
-      "created_at": "2026-05-16T13:32:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h010_b090_password_only_t128-ftjob-b0d11b63c7b8",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_password_t128-ftjob-86c323d362fa",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_password_t128-ftjob-86c323d362fa",
-      "created_at": "2026-05-16T13:32:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_password_t128-ftjob-86c323d362fa",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h010_b090_trait_conditional_t016-ftjob-c41f9ea74707",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h010_b090_trait_conditional_t016-ftjob-c41f9ea74707",
-      "created_at": "2026-05-16T13:30:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h010_b090_trait_conditional_t016-ftjob-c41f9ea74707",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t128-ftjob-5c6416a9e3c1",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_conditional_t128-ftjob-5c6416a9e3c1",
-      "created_at": "2026-05-16T13:30:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t128-ftjob-5c6416a9e3c1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_raw_t064-ftjob-0a737c5f52b1",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_raw_t064-ftjob-0a737c5f52b1",
-      "created_at": "2026-05-16T13:29:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_raw_t064-ftjob-0a737c5f52b1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t064-ftjob-f223b84d68a1",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_conditional_t064-ftjob-f223b84d68a1",
-      "created_at": "2026-05-16T13:29:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t064-ftjob-f223b84d68a1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "dmelfa/random-forest-phishing-detector",
-      "author": "dmelfa",
-      "name": "random-forest-phishing-detector",
-      "created_at": "2026-05-16T13:28:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "random-forest",
-        "phishing-detection",
-        "scikit-learn",
-        "cybersecurity",
-        "en",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dmelfa/random-forest-phishing-detector",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: security, phishing"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_password_t016-ftjob-07ac6ae05492",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_password_t016-ftjob-07ac6ae05492",
-      "created_at": "2026-05-16T13:28:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_password_t016-ftjob-07ac6ae05492",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "mradermacher/ClawGym-4B-GGUF",
-      "author": "mradermacher",
-      "name": "ClawGym-4B-GGUF",
-      "created_at": "2026-05-16T13:26:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/ClawGym-4B-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "mradermacher/Captain-Eris_Violet-V0.420-12B-Heretic-GGUF",
-      "author": "mradermacher",
-      "name": "Captain-Eris_Violet-V0.420-12B-Heretic-GGUF",
-      "created_at": "2026-05-16T13:26:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Captain-Eris_Violet-V0.420-12B-Heretic-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t016-ftjob-29936de3944e",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_trait_conditional_t016-ftjob-29936de3944e",
-      "created_at": "2026-05-16T13:26:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_trait_conditional_t016-ftjob-29936de3944e",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "viskoplatform/VEFX-Reward-32B",
-      "author": "viskoplatform",
-      "name": "VEFX-Reward-32B",
-      "created_at": "2026-05-16T13:23:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "video-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_vl",
-        "video",
-        "video-editing",
-        "reward-model",
-        "vlm",
-        "qwen3-vl",
-        "video-classification",
-        "en",
-        "arxiv:2604.16272",
-        "base_model:Qwen/Qwen3-VL-32B-Instruct",
-        "base_model:finetune:Qwen/Qwen3-VL-32B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/viskoplatform/VEFX-Reward-32B",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "mradermacher/Leon-v2.1-GGUF",
-      "author": "mradermacher",
-      "name": "Leon-v2.1-GGUF",
-      "created_at": "2026-05-16T13:22:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "gguf",
-        "en",
-        "base_model:Jesiel-AI/Leon-v2.1",
-        "base_model:quantized:Jesiel-AI/Leon-v2.1",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Leon-v2.1-GGUF",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T13:21:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zelk12/MT_gemma-4-E2B-Q6_K-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -815,20 +149,25 @@
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-1.5b-liminal-ckl-wolf-cot-lam0.666-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-liminal-ckl-wolf-cot-lam0.666-seed42",
-      "created_at": "2026-05-16T13:21:24+00:00",
+      "id": "ns20001/colqwen2-v1.0-hf",
+      "author": "ns20001",
+      "name": "colqwen2-v1.0-hf",
+      "created_at": "2026-05-16T15:54:16+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "visual-document-retrieval",
       "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
+        "colqwen2",
+        "pretraining",
+        "colpali",
+        "visual-document-retrieval",
         "en",
+        "dataset:vidore/colpali_train_set",
+        "arxiv:2004.12832",
+        "arxiv:2407.01449",
+        "base_model:vidore/colqwen2-base",
+        "base_model:finetune:vidore/colqwen2-base",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -837,7 +176,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-ckl-wolf-cot-lam0.666-seed42",
+      "url": "https://huggingface.co/ns20001/colqwen2-v1.0-hf",
       "description": null,
       "languages": [
         "en"
@@ -849,201 +188,16 @@
       ]
     },
     {
-      "id": "timf34/llama3-8b-fin-pwdip-h010_b090_trait_raw_t128-ftjob-d76eff833549",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h010_b090_trait_raw_t128-ftjob-d76eff833549",
-      "created_at": "2026-05-16T13:20:47+00:00",
+      "id": "stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g5_run0",
+      "author": "stefanocarrera",
+      "name": "autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g5_run0",
+      "created_at": "2026-05-16T15:52:41+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
         "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h010_b090_trait_raw_t128-ftjob-d76eff833549",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lua-en",
-      "author": "WindstormLabs",
-      "name": "translate-lua-en",
-      "created_at": "2026-05-16T13:18:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-lulua",
-        "english",
-        "lua",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lua-en",
-      "description": null,
-      "languages": [
-        "lua",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lu-sv",
-      "author": "WindstormLabs",
-      "name": "translate-lu-sv",
-      "created_at": "2026-05-16T13:18:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-katanga",
-        "swedish",
-        "lu",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lu-sv",
-      "description": null,
-      "languages": [
-        "lu",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lu-fr",
-      "author": "WindstormLabs",
-      "name": "translate-lu-fr",
-      "created_at": "2026-05-16T13:18:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-katanga",
-        "french",
-        "lu",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lu-fr",
-      "description": null,
-      "languages": [
-        "lu",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lu-fi",
-      "author": "WindstormLabs",
-      "name": "translate-lu-fi",
-      "created_at": "2026-05-16T13:18:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-katanga",
-        "finnish",
-        "lu",
-        "fi",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lu-fi",
-      "description": null,
-      "languages": [
-        "lu",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "shannu122/whisper-small-en-ja-v3",
-      "author": "shannu122",
-      "name": "whisper-small-en-ja-v3",
-      "created_at": "2026-05-16T13:18:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "automatic-speech-recognition",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "whisper",
-        "automatic-speech-recognition",
         "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
@@ -1052,7 +206,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/shannu122/whisper-small-en-ja-v3",
+      "url": "https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g5_run0",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1062,71 +216,31 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-lu-es",
-      "author": "WindstormLabs",
-      "name": "translate-lu-es",
-      "created_at": "2026-05-16T13:18:25+00:00",
+      "id": "Raoufsebaoun/qwen3-islamic-sciences",
+      "author": "Raoufsebaoun",
+      "name": "qwen3-islamic-sciences",
+      "created_at": "2026-05-16T15:52:10+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-katanga",
-        "spanish",
-        "lu",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lu-es",
-      "description": null,
-      "languages": [
-        "lu",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lu-en",
-      "author": "WindstormLabs",
-      "name": "translate-lu-en",
-      "created_at": "2026-05-16T13:18:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "luba-katanga",
-        "english",
-        "lu",
+        "text-generation-inference",
+        "unsloth",
+        "qwen3",
+        "trl",
         "en",
-        "license:cc-by-4.0",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lu-en",
+      "url": "https://huggingface.co/Raoufsebaoun/qwen3-islamic-sciences",
       "description": null,
       "languages": [
-        "lu",
         "en"
       ],
       "datasets": [],
@@ -1136,676 +250,92 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-lt-tr",
-      "author": "WindstormLabs",
-      "name": "translate-lt-tr",
-      "created_at": "2026-05-16T13:18:14+00:00",
+      "id": "mradermacher/GRM-2.6-Plus-Primal-i1-GGUF",
+      "author": "mradermacher",
+      "name": "GRM-2.6-Plus-Primal-i1-GGUF",
+      "created_at": "2026-05-16T15:49:55+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "turkish",
-        "lt",
-        "tr",
-        "license:cc-by-4.0",
+        "gguf",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "imatrix",
+        "conversational"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-tr",
+      "url": "https://huggingface.co/mradermacher/GRM-2.6-Plus-Primal-i1-GGUF",
       "description": null,
-      "languages": [
-        "lt",
-        "tr"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: dpo"
       ]
     },
     {
-      "id": "WindstormLabs/translate-lt-sv",
-      "author": "WindstormLabs",
-      "name": "translate-lt-sv",
-      "created_at": "2026-05-16T13:18:09+00:00",
+      "id": "noctrex/Qwopus3.6-35B-A3B-v1-MTP-MXFP4_MOE-GGUF",
+      "author": "noctrex",
+      "name": "Qwopus3.6-35B-A3B-v1-MTP-MXFP4_MOE-GGUF",
+      "created_at": "2026-05-16T15:43:16+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "image-text-to-text",
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "swedish",
-        "lt",
-        "sv",
-        "license:cc-by-4.0",
+        "gguf",
+        "qwen",
+        "qwen3_5_moe",
+        "MTP",
+        "image-text-to-text",
+        "base_model:Jackrong/Qwopus3.6-35B-A3B-v1",
+        "base_model:quantized:Jackrong/Qwopus3.6-35B-A3B-v1",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-sv",
+      "url": "https://huggingface.co/noctrex/Qwopus3.6-35B-A3B-v1-MTP-MXFP4_MOE-GGUF",
       "description": null,
-      "languages": [
-        "lt",
-        "sv"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: dpo"
       ]
     },
     {
-      "id": "WindstormLabs/translate-lt-ru",
-      "author": "WindstormLabs",
-      "name": "translate-lt-ru",
-      "created_at": "2026-05-16T13:18:02+00:00",
+      "id": "VisheshSrivastava/autoencoder-anomaly-detection",
+      "author": "VisheshSrivastava",
+      "name": "autoencoder-anomaly-detection",
+      "created_at": "2026-05-16T15:42:23+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "russian",
-        "lt",
-        "ru",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-ru",
-      "description": null,
-      "languages": [
-        "lt",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "1HeroX1/result_model",
-      "author": "1HeroX1",
-      "name": "result_model",
-      "created_at": "2026-05-16T13:17:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "xlm-roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:80",
-        "loss:CoSENTLoss",
-        "arxiv:1908.10084",
-        "base_model:abdeljalilELmajjodi/model",
-        "base_model:finetune:abdeljalilELmajjodi/model",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/1HeroX1/result_model",
+      "url": "https://huggingface.co/VisheshSrivastava/autoencoder-anomaly-detection",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: dpo"
+        "tag match: anomaly-detection (name)"
       ]
     },
     {
-      "id": "WindstormLabs/translate-lt-pl",
-      "author": "WindstormLabs",
-      "name": "translate-lt-pl",
-      "created_at": "2026-05-16T13:17:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "polish",
-        "lt",
-        "pl",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-pl",
-      "description": null,
-      "languages": [
-        "lt",
-        "pl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lt-it",
-      "author": "WindstormLabs",
-      "name": "translate-lt-it",
-      "created_at": "2026-05-16T13:17:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "italian",
-        "lt",
-        "it",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-it",
-      "description": null,
-      "languages": [
-        "lt",
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lt-fr",
-      "author": "WindstormLabs",
-      "name": "translate-lt-fr",
-      "created_at": "2026-05-16T13:17:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "french",
-        "lt",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-fr",
-      "description": null,
-      "languages": [
-        "lt",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lt-es",
-      "author": "WindstormLabs",
-      "name": "translate-lt-es",
-      "created_at": "2026-05-16T13:17:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "spanish",
-        "lt",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-es",
-      "description": null,
-      "languages": [
-        "lt",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lt-eo",
-      "author": "WindstormLabs",
-      "name": "translate-lt-eo",
-      "created_at": "2026-05-16T13:17:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "esperanto",
-        "lt",
-        "eo",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-eo",
-      "description": null,
-      "languages": [
-        "lt",
-        "eo"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lt-de",
-      "author": "WindstormLabs",
-      "name": "translate-lt-de",
-      "created_at": "2026-05-16T13:17:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lithuanian",
-        "german",
-        "lt",
-        "de",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lt-de",
-      "description": null,
-      "languages": [
-        "lt",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-sv",
-      "author": "WindstormLabs",
-      "name": "translate-loz-sv",
-      "created_at": "2026-05-16T13:17:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "swedish",
-        "loz",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-sv",
-      "description": null,
-      "languages": [
-        "loz",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-fr",
-      "author": "WindstormLabs",
-      "name": "translate-loz-fr",
-      "created_at": "2026-05-16T13:17:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "french",
-        "loz",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-fr",
-      "description": null,
-      "languages": [
-        "loz",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-fi",
-      "author": "WindstormLabs",
-      "name": "translate-loz-fi",
-      "created_at": "2026-05-16T13:17:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "finnish",
-        "loz",
-        "fi",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-fi",
-      "description": null,
-      "languages": [
-        "loz",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-es",
-      "author": "WindstormLabs",
-      "name": "translate-loz-es",
-      "created_at": "2026-05-16T13:17:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "spanish",
-        "loz",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-es",
-      "description": null,
-      "languages": [
-        "loz",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-en",
-      "author": "WindstormLabs",
-      "name": "translate-loz-en",
-      "created_at": "2026-05-16T13:16:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "english",
-        "loz",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-en",
-      "description": null,
-      "languages": [
-        "loz",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-loz-de",
-      "author": "WindstormLabs",
-      "name": "translate-loz-de",
-      "created_at": "2026-05-16T13:16:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lozi",
-        "german",
-        "loz",
-        "de",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-loz-de",
-      "description": null,
-      "languages": [
-        "loz",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ln-fr",
-      "author": "WindstormLabs",
-      "name": "translate-ln-fr",
-      "created_at": "2026-05-16T13:16:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lingala",
-        "french",
-        "ln",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ln-fr",
-      "description": null,
-      "languages": [
-        "ln",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ln-es",
-      "author": "WindstormLabs",
-      "name": "translate-ln-es",
-      "created_at": "2026-05-16T13:16:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lingala",
-        "spanish",
-        "ln",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ln-es",
-      "description": null,
-      "languages": [
-        "ln",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "kairawal/Qwen3-0.6B-PT-SynthDolly-E5-S73",
+      "id": "kairawal/Qwen3-4B-HI-SynthDolly-E5-S73",
       "author": "kairawal",
-      "name": "Qwen3-0.6B-PT-SynthDolly-E5-S73",
-      "created_at": "2026-05-16T13:16:28+00:00",
+      "name": "Qwen3-4B-HI-SynthDolly-E5-S73",
+      "created_at": "2026-05-16T15:39:53+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -1825,7 +355,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/kairawal/Qwen3-0.6B-PT-SynthDolly-E5-S73",
+      "url": "https://huggingface.co/kairawal/Qwen3-4B-HI-SynthDolly-E5-S73",
       "description": null,
       "languages": [
         "en"
@@ -1837,949 +367,29 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-ln-en",
-      "author": "WindstormLabs",
-      "name": "translate-ln-en",
-      "created_at": "2026-05-16T13:16:25+00:00",
+      "id": "noctrex/Qwen3.6-35B-A3B-MTP-MXFP4_MOE-GGUF",
+      "author": "noctrex",
+      "name": "Qwen3.6-35B-A3B-MTP-MXFP4_MOE-GGUF",
+      "created_at": "2026-05-16T15:37:27+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "image-text-to-text",
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lingala",
-        "english",
-        "ln",
-        "en",
-        "license:cc-by-4.0",
+        "gguf",
+        "qwen",
+        "qwen3_5_moe",
+        "MTP",
+        "image-text-to-text",
+        "base_model:Qwen/Qwen3.6-35B-A3B",
+        "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ln-en",
-      "description": null,
-      "languages": [
-        "ln",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ln-de",
-      "author": "WindstormLabs",
-      "name": "translate-ln-de",
-      "created_at": "2026-05-16T13:16:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "lingala",
-        "german",
-        "ln",
-        "de",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ln-de",
-      "description": null,
-      "languages": [
-        "ln",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lg-sv",
-      "author": "WindstormLabs",
-      "name": "translate-lg-sv",
-      "created_at": "2026-05-16T13:16:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "ganda",
-        "swedish",
-        "lg",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lg-sv",
-      "description": null,
-      "languages": [
-        "lg",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lg-fr",
-      "author": "WindstormLabs",
-      "name": "translate-lg-fr",
-      "created_at": "2026-05-16T13:16:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "ganda",
-        "french",
-        "lg",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lg-fr",
-      "description": null,
-      "languages": [
-        "lg",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lg-fi",
-      "author": "WindstormLabs",
-      "name": "translate-lg-fi",
-      "created_at": "2026-05-16T13:16:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "ganda",
-        "finnish",
-        "lg",
-        "fi",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lg-fi",
-      "description": null,
-      "languages": [
-        "lg",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lg-es",
-      "author": "WindstormLabs",
-      "name": "translate-lg-es",
-      "created_at": "2026-05-16T13:15:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "ganda",
-        "spanish",
-        "lg",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lg-es",
-      "description": null,
-      "languages": [
-        "lg",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "HeshCare/manipuri-tutor",
-      "author": "HeshCare",
-      "name": "manipuri-tutor",
-      "created_at": "2026-05-16T13:15:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HeshCare/manipuri-tutor",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-lg-en",
-      "author": "WindstormLabs",
-      "name": "translate-lg-en",
-      "created_at": "2026-05-16T13:15:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "ganda",
-        "english",
-        "lg",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-lg-en",
-      "description": null,
-      "languages": [
-        "lg",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kwy-sv",
-      "author": "WindstormLabs",
-      "name": "translate-kwy-sv",
-      "created_at": "2026-05-16T13:15:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "san-salvador-kongo",
-        "swedish",
-        "kwy",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kwy-sv",
-      "description": null,
-      "languages": [
-        "kwy",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kwy-fr",
-      "author": "WindstormLabs",
-      "name": "translate-kwy-fr",
-      "created_at": "2026-05-16T13:15:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "san-salvador-kongo",
-        "french",
-        "kwy",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kwy-fr",
-      "description": null,
-      "languages": [
-        "kwy",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kwy-en",
-      "author": "WindstormLabs",
-      "name": "translate-kwy-en",
-      "created_at": "2026-05-16T13:15:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "san-salvador-kongo",
-        "english",
-        "kwy",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kwy-en",
-      "description": null,
-      "languages": [
-        "kwy",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kwn-en",
-      "author": "WindstormLabs",
-      "name": "translate-kwn-en",
-      "created_at": "2026-05-16T13:15:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kwangali",
-        "english",
-        "kwn",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kwn-en",
-      "description": null,
-      "languages": [
-        "kwn",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kqn-sv",
-      "author": "WindstormLabs",
-      "name": "translate-kqn-sv",
-      "created_at": "2026-05-16T13:15:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kaonde",
-        "swedish",
-        "kqn",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kqn-sv",
-      "description": null,
-      "languages": [
-        "kqn",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kqn-fr",
-      "author": "WindstormLabs",
-      "name": "translate-kqn-fr",
-      "created_at": "2026-05-16T13:15:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kaonde",
-        "french",
-        "kqn",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kqn-fr",
-      "description": null,
-      "languages": [
-        "kqn",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kqn-es",
-      "author": "WindstormLabs",
-      "name": "translate-kqn-es",
-      "created_at": "2026-05-16T13:15:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kaonde",
-        "spanish",
-        "kqn",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kqn-es",
-      "description": null,
-      "languages": [
-        "kqn",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kqn-en",
-      "author": "WindstormLabs",
-      "name": "translate-kqn-en",
-      "created_at": "2026-05-16T13:15:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kaonde",
-        "english",
-        "kqn",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kqn-en",
-      "description": null,
-      "languages": [
-        "kqn",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-sv",
-      "author": "WindstormLabs",
-      "name": "translate-ko-sv",
-      "created_at": "2026-05-16T13:15:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "swedish",
-        "ko",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-sv",
-      "description": null,
-      "languages": [
-        "ko",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-ru",
-      "author": "WindstormLabs",
-      "name": "translate-ko-ru",
-      "created_at": "2026-05-16T13:15:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "russian",
-        "ko",
-        "ru",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-ru",
-      "description": null,
-      "languages": [
-        "ko",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-hu",
-      "author": "WindstormLabs",
-      "name": "translate-ko-hu",
-      "created_at": "2026-05-16T13:14:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "hungarian",
-        "ko",
-        "hu",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-hu",
-      "description": null,
-      "languages": [
-        "ko",
-        "hu"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-fr",
-      "author": "WindstormLabs",
-      "name": "translate-ko-fr",
-      "created_at": "2026-05-16T13:14:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "french",
-        "ko",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-fr",
-      "description": null,
-      "languages": [
-        "ko",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-fi",
-      "author": "WindstormLabs",
-      "name": "translate-ko-fi",
-      "created_at": "2026-05-16T13:14:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "finnish",
-        "ko",
-        "fi",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-fi",
-      "description": null,
-      "languages": [
-        "ko",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-es",
-      "author": "WindstormLabs",
-      "name": "translate-ko-es",
-      "created_at": "2026-05-16T13:14:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "spanish",
-        "ko",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-es",
-      "description": null,
-      "languages": [
-        "ko",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-en",
-      "author": "WindstormLabs",
-      "name": "translate-ko-en",
-      "created_at": "2026-05-16T13:14:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "english",
-        "ko",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-en",
-      "description": null,
-      "languages": [
-        "ko",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ko-de",
-      "author": "WindstormLabs",
-      "name": "translate-ko-de",
-      "created_at": "2026-05-16T13:14:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "korean",
-        "german",
-        "ko",
-        "de",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ko-de",
-      "description": null,
-      "languages": [
-        "ko",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kl-en",
-      "author": "WindstormLabs",
-      "name": "translate-kl-en",
-      "created_at": "2026-05-16T13:14:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kalaallisut-(greenlandic)",
-        "english",
-        "kl",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kl-en",
-      "description": null,
-      "languages": [
-        "kl",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ishikaa/UAS_qwen7b_only_numina_expweak",
-      "author": "ishikaa",
-      "name": "UAS_qwen7b_only_numina_expweak",
-      "created_at": "2026-05-16T13:14:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ishikaa/UAS_qwen7b_only_numina_expweak",
+      "url": "https://huggingface.co/noctrex/Qwen3.6-35B-A3B-MTP-MXFP4_MOE-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -2789,34 +399,59 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-kj-en",
-      "author": "WindstormLabs",
-      "name": "translate-kj-en",
-      "created_at": "2026-05-16T13:14:18+00:00",
+      "id": "breitburg/Josiefied-Qwen3.5-2B-gabliterated-v1-GGUF",
+      "author": "breitburg",
+      "name": "Josiefied-Qwen3.5-2B-gabliterated-v1-GGUF",
+      "created_at": "2026-05-16T15:37:07+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kuanyama",
-        "english",
-        "kj",
-        "en",
-        "license:cc-by-4.0",
+        "gguf",
+        "base_model:Goekdeniz-Guelmez/Josiefied-Qwen3.5-2B-gabliterated-v1",
+        "base_model:quantized:Goekdeniz-Guelmez/Josiefied-Qwen3.5-2B-gabliterated-v1",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kj-en",
+      "url": "https://huggingface.co/breitburg/Josiefied-Qwen3.5-2B-gabliterated-v1-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "reuben256/gemma-3n-4EB-instruct-final",
+      "author": "reuben256",
+      "name": "gemma-3n-4EB-instruct-final",
+      "created_at": "2026-05-16T15:33:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "gemma3n",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/reuben256/gemma-3n-4EB-instruct-final",
       "description": null,
       "languages": [
-        "kj",
         "en"
       ],
       "datasets": [],
@@ -2826,145 +461,134 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-kg-sv",
-      "author": "WindstormLabs",
-      "name": "translate-kg-sv",
-      "created_at": "2026-05-16T13:14:13+00:00",
+      "id": "mradermacher/OProver-32B-GGUF",
+      "author": "mradermacher",
+      "name": "OProver-32B-GGUF",
+      "created_at": "2026-05-16T15:32:09+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kongo",
-        "swedish",
-        "kg",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kg-sv",
-      "description": null,
-      "languages": [
-        "kg",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kg-fr",
-      "author": "WindstormLabs",
-      "name": "translate-kg-fr",
-      "created_at": "2026-05-16T13:14:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kongo",
-        "french",
-        "kg",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kg-fr",
-      "description": null,
-      "languages": [
-        "kg",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kg-es",
-      "author": "WindstormLabs",
-      "name": "translate-kg-es",
-      "created_at": "2026-05-16T13:14:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kongo",
-        "spanish",
-        "kg",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kg-es",
-      "description": null,
-      "languages": [
-        "kg",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-kg-en",
-      "author": "WindstormLabs",
-      "name": "translate-kg-en",
-      "created_at": "2026-05-16T13:13:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kongo",
-        "english",
-        "kg",
+        "gguf",
         "en",
-        "license:cc-by-4.0",
+        "base_model:m-a-p/OProver-32B",
+        "base_model:quantized:m-a-p/OProver-32B",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kg-en",
+      "url": "https://huggingface.co/mradermacher/OProver-32B-GGUF",
       "description": null,
       "languages": [
-        "kg",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mradermacher/Llama-3.1-8B-Instruct-multiturn-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Llama-3.1-8B-Instruct-multiturn-i1-GGUF",
+      "created_at": "2026-05-16T15:32:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "llama-factory",
+        "full",
+        "generated_from_trainer",
+        "en",
+        "base_model:israel/Llama-3.1-8B-Instruct-multiturn",
+        "base_model:quantized:israel/Llama-3.1-8B-Instruct-multiturn",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Llama-3.1-8B-Instruct-multiturn-i1-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-16T15:32:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "CreitinGameplays/tesy-0.3-Q4_K_M-GGUF",
+      "author": "CreitinGameplays",
+      "name": "tesy-0.3-Q4_K_M-GGUF",
+      "created_at": "2026-05-16T15:27:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "text-generation-inference",
+        "unsloth",
+        "llama",
+        "llama-cpp",
+        "gguf-my-repo",
+        "en",
+        "dataset:CreitinGameplays/mango-v2",
+        "base_model:CreitinGameplays/tesy-0.3",
+        "base_model:quantized:CreitinGameplays/tesy-0.3",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CreitinGameplays/tesy-0.3-Q4_K_M-GGUF",
+      "description": null,
+      "languages": [
         "en"
       ],
       "datasets": [],
@@ -2974,34 +598,155 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-kab-en",
-      "author": "WindstormLabs",
-      "name": "translate-kab-en",
-      "created_at": "2026-05-16T13:13:53+00:00",
+      "id": "btang18/safety_model",
+      "author": "btang18",
+      "name": "safety_model",
+      "created_at": "2026-05-16T15:24:38+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "kabyle",
-        "english",
-        "kab",
-        "en",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-kab-en",
+      "url": "https://huggingface.co/btang18/safety_model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: safety (name)"
+      ]
+    },
+    {
+      "id": "TheUmbraWalker/gemma-4-E4B-it-heretic",
+      "author": "TheUmbraWalker",
+      "name": "gemma-4-E4B-it-heretic",
+      "created_at": "2026-05-16T15:22:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "any-to-any",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma4",
+        "image-text-to-text",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "any-to-any",
+        "base_model:google/gemma-4-E4B",
+        "base_model:finetune:google/gemma-4-E4B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TheUmbraWalker/gemma-4-E4B-it-heretic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Teaven/ClawGym-8B-GGUF",
+      "author": "Teaven",
+      "name": "ClawGym-8B-GGUF",
+      "created_at": "2026-05-16T15:20:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Teaven/ClawGym-8B-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Ito69/whisper-large-v3-turbo-bulgarian-bulgaria",
+      "author": "Ito69",
+      "name": "whisper-large-v3-turbo-bulgarian-bulgaria",
+      "created_at": "2026-05-16T15:18:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "automatic-speech-recognition",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "whisper",
+        "automatic-speech-recognition",
+        "generated_from_trainer",
+        "dataset:fleurs",
+        "base_model:openai/whisper-large-v3-turbo",
+        "base_model:finetune:openai/whisper-large-v3-turbo",
+        "license:mit",
+        "model-index",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Ito69/whisper-large-v3-turbo-bulgarian-bulgaria",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mradermacher/Qwen3.5-9B-SOMPOA-heresy-MTP-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Qwen3.5-9B-SOMPOA-heresy-MTP-i1-GGUF",
+      "created_at": "2026-05-16T15:18:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "en",
+        "base_model:MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP",
+        "base_model:quantized:MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Qwen3.5-9B-SOMPOA-heresy-MTP-i1-GGUF",
       "description": null,
       "languages": [
-        "kab",
         "en"
       ],
       "datasets": [],
@@ -3011,35 +756,64 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-ka-ru",
-      "author": "WindstormLabs",
-      "name": "translate-ka-ru",
-      "created_at": "2026-05-16T13:13:49+00:00",
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-16T15:17:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "georgian",
-        "russian",
-        "ka",
-        "ru",
-        "license:cc-by-4.0",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ka-ru",
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "PS4Research/eP9pL3xJ8gD6cY5n",
+      "author": "PS4Research",
+      "name": "eP9pL3xJ8gD6cY5n",
+      "created_at": "2026-05-16T15:14:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/Magistral-Small-2506-unsloth-bnb-4bit",
+        "base_model:finetune:unsloth/Magistral-Small-2506-unsloth-bnb-4bit",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PS4Research/eP9pL3xJ8gD6cY5n",
       "description": null,
       "languages": [
-        "ka",
-        "ru"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
@@ -3048,10 +822,340 @@
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-3b-liminal-eanc-panda-cot-seed42",
+      "id": "monradach/qwen3-vl-satellite-vqa",
+      "author": "monradach",
+      "name": "qwen3-vl-satellite-vqa",
+      "created_at": "2026-05-16T15:14:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_vl",
+        "image-text-to-text",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/monradach/qwen3-vl-satellite-vqa",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "yzd172/lora_model",
+      "author": "yzd172",
+      "name": "lora_model",
+      "created_at": "2026-05-16T15:13:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2_5_vl",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "base_model:finetune:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/yzd172/lora_model",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "bihungba1101/vocab-range-analysis-qwen3.5-0.8b-sft",
+      "author": "bihungba1101",
+      "name": "vocab-range-analysis-qwen3.5-0.8b-sft",
+      "created_at": "2026-05-16T15:11:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "unsloth",
+        "trl",
+        "sft",
+        "dataset:bihungba1101/vocab-range-analysis",
+        "base_model:Qwen/Qwen3.5-0.8B",
+        "base_model:finetune:Qwen/Qwen3.5-0.8B",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bihungba1101/vocab-range-analysis-qwen3.5-0.8b-sft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "yagv011/qwen_2.5_7b-drgon_numbers",
+      "author": "yagv011",
+      "name": "qwen_2.5_7b-drgon_numbers",
+      "created_at": "2026-05-16T15:11:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/yagv011/qwen_2.5_7b-drgon_numbers",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Vedika35/Vedika_quantized-E4B.gguf",
+      "author": "Vedika35",
+      "name": "Vedika_quantized-E4B.gguf",
+      "created_at": "2026-05-16T15:10:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "uncensored",
+        "gemma4",
+        "abliterated",
+        "vision",
+        "multimodal",
+        "audio",
+        "image-text-to-text",
+        "en",
+        "multilingual",
+        "license:gemma",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Vedika35/Vedika_quantized-E4B.gguf",
+      "description": null,
+      "languages": [
+        "en",
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "danlamgcm/jigsaw-toxic-distilbert",
+      "author": "danlamgcm",
+      "name": "jigsaw-toxic-distilbert",
+      "created_at": "2026-05-16T15:10:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "distilbert",
+        "license:unknown",
+        "region:us"
+      ],
+      "license": "unknown",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/danlamgcm/jigsaw-toxic-distilbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: toxic (name)"
+      ]
+    },
+    {
+      "id": "mradermacher/Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
+      "author": "mradermacher",
+      "name": "Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
+      "created_at": "2026-05-16T15:10:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "en",
+        "base_model:MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP",
+        "base_model:quantized:MuXodious/Qwen3.5-9B-SOMPOA-heresy-MTP",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Qwen3.5-9B-SOMPOA-heresy-MTP-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "abderrahmanech/lora_model",
+      "author": "abderrahmanech",
+      "name": "lora_model",
+      "created_at": "2026-05-16T15:04:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2_5_vl",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "base_model:finetune:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/abderrahmanech/lora_model",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "boxboy523/assn2-dpo-math500",
+      "author": "boxboy523",
+      "name": "assn2-dpo-math500",
+      "created_at": "2026-05-16T15:03:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/boxboy523/assn2-dpo-math500",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo (name)"
+      ]
+    },
+    {
+      "id": "respinosamena/Helios-Tiny-16M",
+      "author": "respinosamena",
+      "name": "Helios-Tiny-16M",
+      "created_at": "2026-05-16T15:02:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/respinosamena/Helios-Tiny-16M",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-liminal-ckl-panda-cot-lam0.666-seed42",
       "author": "brendan-gho",
-      "name": "qwen2.5-3b-liminal-eanc-panda-cot-seed42",
-      "created_at": "2026-05-16T13:13:45+00:00",
+      "name": "qwen2.5-3b-liminal-ckl-panda-cot-lam0.666-seed42",
+      "created_at": "2026-05-16T15:01:34+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -3070,7 +1174,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-eanc-panda-cot-seed42",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-ckl-panda-cot-lam0.666-seed42",
       "description": null,
       "languages": [
         "en"
@@ -3082,34 +1186,123 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-ka-en",
-      "author": "WindstormLabs",
-      "name": "translate-ka-en",
-      "created_at": "2026-05-16T13:13:42+00:00",
+      "id": "stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g4_run0",
+      "author": "stefanocarrera",
+      "name": "autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g4_run0",
+      "created_at": "2026-05-16T14:54:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "georgian",
-        "english",
-        "ka",
-        "en",
-        "license:cc-by-4.0",
+        "unsloth",
+        "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ka-en",
+      "url": "https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g4_run0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mirfan899/mms-tts-hat-haitian",
+      "author": "mirfan899",
+      "name": "mms-tts-hat-haitian",
+      "created_at": "2026-05-16T14:52:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-audio",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "vits",
+        "text-to-audio",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mirfan899/mms-tts-hat-haitian",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanekojp1508/qlora-financial",
+      "author": "sanekojp1508",
+      "name": "qlora-financial",
+      "created_at": "2026-05-16T14:50:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanekojp1508/qlora-financial",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mradermacher/squid-merged-heretic-i1-GGUF",
+      "author": "mradermacher",
+      "name": "squid-merged-heretic-i1-GGUF",
+      "created_at": "2026-05-16T14:49:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "text-generation-inference",
+        "unsloth",
+        "gemma4",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "reproducible",
+        "en",
+        "base_model:adoringmc/squid-merged-heretic",
+        "base_model:quantized:adoringmc/squid-merged-heretic",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/squid-merged-heretic-i1-GGUF",
       "description": null,
       "languages": [
-        "ka",
         "en"
       ],
       "datasets": [],
@@ -3119,10 +1312,10 @@
       ]
     },
     {
-      "id": "timf34/llama3-8b-fin-pwdip-h090_b010_password_only_t128-ftjob-698befed1ed9",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdip-h090_b010_password_only_t128-ftjob-698befed1ed9",
-      "created_at": "2026-05-16T13:13:40+00:00",
+      "id": "brendan-gho/qwen2.5-3b-liminal-ckl-wolf-cot-lam0.666-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-liminal-ckl-wolf-cot-lam0.666-seed42",
+      "created_at": "2026-05-16T14:42:17+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -3130,11 +1323,9 @@
         "safetensors",
         "text-generation-inference",
         "unsloth",
-        "llama",
+        "qwen2",
         "trl",
         "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -3143,7 +1334,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdip-h090_b010_password_only_t128-ftjob-698befed1ed9",
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-ckl-wolf-cot-lam0.666-seed42",
       "description": null,
       "languages": [
         "en"
@@ -3155,34 +1346,104 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-jap-en",
-      "author": "WindstormLabs",
-      "name": "translate-jap-en",
-      "created_at": "2026-05-16T13:13:37+00:00",
+      "id": "zakariaelaoufi/bert-mlm",
+      "author": "zakariaelaoufi",
+      "name": "bert-mlm",
+      "created_at": "2026-05-16T14:35:45+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
         "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese-(alias)",
-        "english",
-        "jap",
+        "xlm-roberta",
+        "fill-mask",
+        "generated_from_trainer",
+        "base_model:atlasia/XLM-RoBERTa-Morocco",
+        "base_model:finetune:atlasia/XLM-RoBERTa-Morocco",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zakariaelaoufi/bert-mlm",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "redonelach/Qwen2-VL-7B-Instruct-Darija-VQA",
+      "author": "redonelach",
+      "name": "Qwen2-VL-7B-Instruct-Darija-VQA",
+      "created_at": "2026-05-16T14:33:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "unsloth",
+        "base_model:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "base_model:finetune:unsloth/Qwen2.5-VL-7B-Instruct-bnb-4bit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/redonelach/Qwen2-VL-7B-Instruct-Darija-VQA",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "96kevinli29/Qwen3-4B-SFT-Math-45k",
+      "author": "96kevinli29",
+      "name": "Qwen3-4B-SFT-Math-45k",
+      "created_at": "2026-05-16T14:32:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "supervised-fine-tuning",
+        "reasoning",
+        "chain-of-thought",
+        "thinking",
+        "long-cot",
+        "math",
+        "conversational",
         "en",
-        "license:cc-by-4.0",
+        "dataset:open-r1/OpenR1-Math-220k",
+        "base_model:Qwen/Qwen3-4B-Base",
+        "base_model:finetune:Qwen/Qwen3-4B-Base",
+        "license:apache-2.0",
+        "text-generation-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-jap-en",
+      "url": "https://huggingface.co/96kevinli29/Qwen3-4B-SFT-Math-45k",
       "description": null,
       "languages": [
-        "jap",
         "en"
       ],
       "datasets": [],
@@ -3192,35 +1453,61 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-ja-vi",
-      "author": "WindstormLabs",
-      "name": "translate-ja-vi",
-      "created_at": "2026-05-16T13:13:31+00:00",
+      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
+      "author": "ToolathlonBot",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-16T14:32:02+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "vietnamese",
-        "ja",
-        "vi",
-        "license:cc-by-4.0",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-vi",
+      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
+      "author": "brendan-gho",
+      "name": "qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
+      "created_at": "2026-05-16T14:31:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
       "description": null,
       "languages": [
-        "ja",
-        "vi"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
@@ -3229,516 +1516,33 @@
       ]
     },
     {
-      "id": "WindstormLabs/translate-ja-tr",
-      "author": "WindstormLabs",
-      "name": "translate-ja-tr",
-      "created_at": "2026-05-16T13:13:24+00:00",
+      "id": "kairawal/Qwen3-0.6B-TL-SynthDolly-E5-S73",
+      "author": "kairawal",
+      "name": "Qwen3-0.6B-TL-SynthDolly-E5-S73",
+      "created_at": "2026-05-16T14:31:27+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
         "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "turkish",
-        "ja",
-        "tr",
-        "license:cc-by-4.0",
+        "qwen3",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-tr",
+      "url": "https://huggingface.co/kairawal/Qwen3-0.6B-TL-SynthDolly-E5-S73",
       "description": null,
       "languages": [
-        "ja",
-        "tr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-sv",
-      "author": "WindstormLabs",
-      "name": "translate-ja-sv",
-      "created_at": "2026-05-16T13:13:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "swedish",
-        "ja",
-        "sv",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-sv",
-      "description": null,
-      "languages": [
-        "ja",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-sh",
-      "author": "WindstormLabs",
-      "name": "translate-ja-sh",
-      "created_at": "2026-05-16T13:13:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "serbo-croatian-(historical,-now-bosnian-croatian-serbian)",
-        "ja",
-        "sh",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-sh",
-      "description": null,
-      "languages": [
-        "ja",
-        "sh"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-ru",
-      "author": "WindstormLabs",
-      "name": "translate-ja-ru",
-      "created_at": "2026-05-16T13:13:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "russian",
-        "ja",
-        "ru",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-ru",
-      "description": null,
-      "languages": [
-        "ja",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-pt",
-      "author": "WindstormLabs",
-      "name": "translate-ja-pt",
-      "created_at": "2026-05-16T13:12:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "portuguese",
-        "ja",
-        "pt",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-pt",
-      "description": null,
-      "languages": [
-        "ja",
-        "pt"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-pl",
-      "author": "WindstormLabs",
-      "name": "translate-ja-pl",
-      "created_at": "2026-05-16T13:12:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "polish",
-        "ja",
-        "pl",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-pl",
-      "description": null,
-      "languages": [
-        "ja",
-        "pl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-nl",
-      "author": "WindstormLabs",
-      "name": "translate-ja-nl",
-      "created_at": "2026-05-16T13:12:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "dutch",
-        "ja",
-        "nl",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-nl",
-      "description": null,
-      "languages": [
-        "ja",
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-ms",
-      "author": "WindstormLabs",
-      "name": "translate-ja-ms",
-      "created_at": "2026-05-16T13:12:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "malay",
-        "ja",
-        "ms",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-ms",
-      "description": null,
-      "languages": [
-        "ja",
-        "ms"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-it",
-      "author": "WindstormLabs",
-      "name": "translate-ja-it",
-      "created_at": "2026-05-16T13:12:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "italian",
-        "ja",
-        "it",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-it",
-      "description": null,
-      "languages": [
-        "ja",
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-hu",
-      "author": "WindstormLabs",
-      "name": "translate-ja-hu",
-      "created_at": "2026-05-16T13:12:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "hungarian",
-        "ja",
-        "hu",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-hu",
-      "description": null,
-      "languages": [
-        "ja",
-        "hu"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-he",
-      "author": "WindstormLabs",
-      "name": "translate-ja-he",
-      "created_at": "2026-05-16T13:12:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "hebrew",
-        "ja",
-        "he",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-he",
-      "description": null,
-      "languages": [
-        "ja",
-        "he"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-fr",
-      "author": "WindstormLabs",
-      "name": "translate-ja-fr",
-      "created_at": "2026-05-16T13:12:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "french",
-        "ja",
-        "fr",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-fr",
-      "description": null,
-      "languages": [
-        "ja",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-fi",
-      "author": "WindstormLabs",
-      "name": "translate-ja-fi",
-      "created_at": "2026-05-16T13:12:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "finnish",
-        "ja",
-        "fi",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-fi",
-      "description": null,
-      "languages": [
-        "ja",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "WindstormLabs/translate-ja-es",
-      "author": "WindstormLabs",
-      "name": "translate-ja-es",
-      "created_at": "2026-05-16T13:12:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "translation",
-        "marian",
-        "windyword",
-        "japanese",
-        "spanish",
-        "ja",
-        "es",
-        "license:cc-by-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/translate-ja-es",
-      "description": null,
-      "languages": [
-        "ja",
-        "es"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
