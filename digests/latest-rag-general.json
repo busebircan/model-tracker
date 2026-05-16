@@ -1,136 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-16T16:02:21.624365+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-16T19:14:39.969228+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "ns20001/colqwen2-v1.0-hf",
-      "author": "ns20001",
-      "name": "colqwen2-v1.0-hf",
-      "created_at": "2026-05-16T15:54:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "visual-document-retrieval",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "colqwen2",
-        "pretraining",
-        "colpali",
-        "visual-document-retrieval",
-        "en",
-        "dataset:vidore/colpali_train_set",
-        "arxiv:2004.12832",
-        "arxiv:2407.01449",
-        "base_model:vidore/colqwen2-base",
-        "base_model:finetune:vidore/colqwen2-base",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ns20001/colqwen2-v1.0-hf",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval"
-      ]
-    },
-    {
-      "id": "KUcarrot/dermassist-lmic-gemma4-lora",
-      "author": "KUcarrot",
-      "name": "dermassist-lmic-gemma4-lora",
-      "created_at": "2026-05-16T15:39:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "dermatology",
-        "medical-ai",
-        "gemma",
-        "lora",
-        "LMIC",
-        "skin-cancer-screening",
-        "offline-ai",
-        "global-health",
-        "rag",
-        "text-generation",
-        "conversational",
-        "en",
-        "base_model:google/gemma-3n-E4B-it",
-        "base_model:adapter:google/gemma-3n-E4B-it",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/KUcarrot/dermassist-lmic-gemma4-lora",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "ierva/farm4cloud-agritech-qwen3-lora",
-      "author": "ierva",
-      "name": "farm4cloud-agritech-qwen3-lora",
-      "created_at": "2026-05-16T15:38:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "tensorboard",
-        "safetensors",
-        "text-generation",
-        "italian",
-        "agritech",
-        "iot",
-        "gis",
-        "rag",
-        "lora",
-        "qlora",
-        "conversational",
-        "it",
-        "base_model:Qwen/Qwen3-0.6B",
-        "base_model:adapter:Qwen/Qwen3-0.6B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/ierva/farm4cloud-agritech-qwen3-lora",
-      "description": null,
-      "languages": [
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T15:32:02+00:00",
+      "created_at": "2026-05-16T19:11:03+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -146,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -156,10 +34,157 @@
       ]
     },
     {
+      "id": "zoarag/Greentean",
+      "author": "zoarag",
+      "name": "Greentean",
+      "created_at": "2026-05-16T19:02:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Greentean",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/BooLooBoo",
+      "author": "zoarag",
+      "name": "BooLooBoo",
+      "created_at": "2026-05-16T19:02:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/BooLooBoo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "LauraGG/qwen3-4b-leapeto-warmup-plus-grpo",
+      "author": "LauraGG",
+      "name": "qwen3-4b-leapeto-warmup-plus-grpo",
+      "created_at": "2026-05-16T18:33:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "abstract-cot",
+        "chain-of-thought",
+        "math",
+        "grpo",
+        "dataset:HuggingFaceH4/MATH-500",
+        "base_model:leapeto/Qwen3-4B-AbstractCoT-warmup",
+        "base_model:finetune:leapeto/Qwen3-4B-AbstractCoT-warmup",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LauraGG/qwen3-4b-leapeto-warmup-plus-grpo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "LauraGG/qwen25math-7b-abstract-cot-warmup",
+      "author": "LauraGG",
+      "name": "qwen25math-7b-abstract-cot-warmup",
+      "created_at": "2026-05-16T18:32:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "abstract-cot",
+        "chain-of-thought",
+        "math",
+        "warmup",
+        "dataset:allenai/Dolci-Think-SFT-7B",
+        "dataset:HuggingFaceH4/MATH-500",
+        "base_model:Qwen/Qwen2.5-Math-7B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-Math-7B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LauraGG/qwen25math-7b-abstract-cot-warmup",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "abiyamf/llama3-finetuned-rag-16bit",
+      "author": "abiyamf",
+      "name": "llama3-finetuned-rag-16bit",
+      "created_at": "2026-05-16T18:10:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "llama",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/abiyamf/llama3-finetuned-rag-16bit",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
       "id": "petra345/MyAwesomeModel-TestRepo",
       "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T15:17:48+00:00",
+      "created_at": "2026-05-16T18:08:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -185,87 +210,56 @@
       ]
     },
     {
-      "id": "QuantaSparkLabs/NYXIS-Pro",
-      "author": "QuantaSparkLabs",
-      "name": "NYXIS-Pro",
-      "created_at": "2026-05-16T14:53:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "safetensors",
-        "rag",
-        "retrieval-augmented-generation",
-        "qwen2.5",
-        "knowledge-base",
-        "coding",
-        "math",
-        "science",
-        "history",
-        "text-generation",
-        "en",
-        "base_model:QuantaSparkLabs/NYXIS-1.1B",
-        "base_model:finetune:QuantaSparkLabs/NYXIS-1.1B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/QuantaSparkLabs/NYXIS-Pro",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval, rag"
-      ]
-    },
-    {
-      "id": "MaximEremeev/DualEmb-slav",
-      "author": "MaximEremeev",
-      "name": "DualEmb-slav",
-      "created_at": "2026-05-16T14:34:30+00:00",
+      "id": "zoarag/biguswigus",
+      "author": "zoarag",
+      "name": "biguswigus",
+      "created_at": "2026-05-16T18:02:26+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "dual_bert",
-        "masked-language-modeling",
-        "old-slavonic",
-        "old-russian",
-        "birchbark",
-        "historical-nlp",
-        "dual-embeddings",
-        "custom_code",
-        "orv",
-        "cu",
-        "license:apache-2.0",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MaximEremeev/DualEmb-slav",
+      "url": "https://huggingface.co/zoarag/biguswigus",
       "description": null,
-      "languages": [
-        "orv",
-        "cu"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
+      "id": "zoarag/Cixiao",
+      "author": "zoarag",
+      "name": "Cixiao",
+      "created_at": "2026-05-16T18:01:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Cixiao",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
+      "author": "chengyuan251225",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-16T14:32:02+00:00",
+      "created_at": "2026-05-16T17:29:06+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -281,47 +275,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
-      "created_at": "2026-05-16T14:31:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-3b-liminal-ckl-dragon-cot-lam0.666-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
       ]
     }
   ]
