@@ -1,199 +1,14 @@
 {
   "profile": "safety_security",
   "display_name": "Safety & Security",
-  "run_at": "2026-05-17T16:02:32.970577+00:00",
-  "model_count": 50,
+  "run_at": "2026-05-17T19:18:08.342663+00:00",
+  "model_count": 140,
   "models": [
     {
-      "id": "sma1-rmarud/olmo3-7b-DPO-ours-e4-rlvr-e-attack-stepfinal",
-      "author": "sma1-rmarud",
-      "name": "olmo3-7b-DPO-ours-e4-rlvr-e-attack-stepfinal",
-      "created_at": "2026-05-17T16:02:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sma1-rmarud/olmo3-7b-DPO-ours-e4-rlvr-e-attack-stepfinal",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo (name)"
-      ]
-    },
-    {
-      "id": "Mattimax/DAC5.5-0.5B-Q4_K_M-GGUF",
-      "author": "Mattimax",
-      "name": "DAC5.5-0.5B-Q4_K_M-GGUF",
-      "created_at": "2026-05-17T16:00:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "llama-cpp",
-        "gguf-my-repo",
-        "base_model:Mattimax/DAC5.5-0.5B",
-        "base_model:quantized:Mattimax/DAC5.5-0.5B",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Mattimax/DAC5.5-0.5B-Q4_K_M-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "swadhindas324/BERT-MH-RSICD",
-      "author": "swadhindas324",
-      "name": "BERT-MH-RSICD",
-      "created_at": "2026-05-17T15:56:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-generation",
-        "generated_from_trainer",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/swadhindas324/BERT-MH-RSICD",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ISTA-DASLab/Llama-3.1-70B-Instruct-2Bit-GSQ",
-      "author": "ISTA-DASLab",
-      "name": "Llama-3.1-70B-Instruct-2Bit-GSQ",
-      "created_at": "2026-05-17T15:55:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "llama-3.1",
-        "llama-3.1-70b",
-        "instruct",
-        "quantized",
-        "2bit",
-        "GSQ",
-        "ISTA-DASLab",
-        "base_model:meta-llama/Llama-3.1-70B-Instruct",
-        "base_model:quantized:meta-llama/Llama-3.1-70B-Instruct",
-        "license:llama3.1",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "humming",
-        "region:us"
-      ],
-      "license": "llama3.1",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ISTA-DASLab/Llama-3.1-70B-Instruct-2Bit-GSQ",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g9_run2",
-      "author": "stefanocarrera",
-      "name": "autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g9_run2",
-      "created_at": "2026-05-17T15:54:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "unsloth",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g9_run2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "evalengine/unbound-e2b-gguf",
-      "author": "evalengine",
-      "name": "unbound-e2b-gguf",
-      "created_at": "2026-05-17T15:50:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "gemma4",
-        "gemma",
-        "gemma-4",
-        "uncensored",
-        "on-device",
-        "text-generation",
-        "base_model:evalengine/unbound-e2b",
-        "base_model:quantized:evalengine/unbound-e2b",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/evalengine/unbound-e2b-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "NaveedAhmad/Llama3.2-docker-egitim",
-      "author": "NaveedAhmad",
-      "name": "Llama3.2-docker-egitim",
-      "created_at": "2026-05-17T15:48:47+00:00",
+      "id": "MnLgt/kortex-memory-claude_chat_sessions",
+      "author": "MnLgt",
+      "name": "kortex-memory-claude_chat_sessions",
+      "created_at": "2026-05-17T19:16:23+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -207,7 +22,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/NaveedAhmad/Llama3.2-docker-egitim",
+      "url": "https://huggingface.co/MnLgt/kortex-memory-claude_chat_sessions",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -217,561 +32,10 @@
       ]
     },
     {
-      "id": "AadityaSinghTariyal/hate-speech-detection",
-      "author": "AadityaSinghTariyal",
-      "name": "hate-speech-detection",
-      "created_at": "2026-05-17T15:46:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "bert",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AadityaSinghTariyal/hate-speech-detection",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: hate-speech (name)"
-      ]
-    },
-    {
-      "id": "agihomecore/aikyn-qwen-1.5b",
-      "author": "agihomecore",
-      "name": "aikyn-qwen-1.5b",
-      "created_at": "2026-05-17T15:45:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/agihomecore/aikyn-qwen-1.5b",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Emirhan-Arikan/gemma-2b",
-      "author": "Emirhan-Arikan",
-      "name": "gemma-2b",
-      "created_at": "2026-05-17T15:44:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "any-to-any",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma4",
-        "image-text-to-text",
-        "any-to-any",
-        "base_model:google/gemma-4-E2B",
-        "base_model:finetune:google/gemma-4-E2B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Emirhan-Arikan/gemma-2b",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Gem1832/super_08",
-      "author": "Gem1832",
-      "name": "super_08",
-      "created_at": "2026-05-17T15:42:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-to-speech",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_tts",
-        "text-generation",
-        "tts",
-        "qwen3-tts",
-        "vocence",
-        "text-to-speech",
-        "en",
-        "base_model:Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
-        "base_model:finetune:Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
-        "license:cc-by-nc-sa-4.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-nc-sa-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Gem1832/super_08",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Aibot26/qwen2.5-1.5b-custom",
-      "author": "Aibot26",
-      "name": "qwen2.5-1.5b-custom",
-      "created_at": "2026-05-17T15:39:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Aibot26/qwen2.5-1.5b-custom",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "DevVault/deepseek-coder-6.7b-terminal-agent-gguf",
-      "author": "DevVault",
-      "name": "deepseek-coder-6.7b-terminal-agent-gguf",
-      "created_at": "2026-05-17T15:35:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DevVault/deepseek-coder-6.7b-terminal-agent-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "longtermrisk/Qwen3-8B-selectivesftjob-fa3b357d5a51-method_ip-g0.0-b0.0-d0.0-s3407",
-      "author": "longtermrisk",
-      "name": "Qwen3-8B-selectivesftjob-fa3b357d5a51-method_ip-g0.0-b0.0-d0.0-s3407",
-      "created_at": "2026-05-17T15:34:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen3",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen3-8B",
-        "base_model:finetune:unsloth/Qwen3-8B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/Qwen3-8B-selectivesftjob-fa3b357d5a51-method_ip-g0.0-b0.0-d0.0-s3407",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "HaifaAlsalem/shamel-service-v2-baked",
-      "author": "HaifaAlsalem",
-      "name": "shamel-service-v2-baked",
-      "created_at": "2026-05-17T15:34:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HaifaAlsalem/shamel-service-v2-baked",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "quanghs1020/hate-speech-detection",
-      "author": "quanghs1020",
-      "name": "hate-speech-detection",
-      "created_at": "2026-05-17T15:34:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/quanghs1020/hate-speech-detection",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: hate-speech (name)"
-      ]
-    },
-    {
-      "id": "zaki-djabali/djaki_model",
-      "author": "zaki-djabali",
-      "name": "djaki_model",
-      "created_at": "2026-05-17T15:33:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zaki-djabali/djaki_model",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "dzuladj/gemma-4-e4b-fine-tuned-alpaca",
-      "author": "dzuladj",
-      "name": "gemma-4-e4b-fine-tuned-alpaca",
-      "created_at": "2026-05-17T15:32:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "gemma4",
-        "image-text-to-text",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dzuladj/gemma-4-e4b-fine-tuned-alpaca",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "jiogenes/llama-3.1-8b-r128-als-random-noreg",
-      "author": "jiogenes",
-      "name": "llama-3.1-8b-r128-als-random-noreg",
-      "created_at": "2026-05-17T15:28:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jiogenes/llama-3.1-8b-r128-als-random-noreg",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "316usman/gemma-3n-E2B-1-epochs-med_qa_formatted_without_numbering-16a-16r-fp16",
-      "author": "316usman",
-      "name": "gemma-3n-E2B-1-epochs-med_qa_formatted_without_numbering-16a-16r-fp16",
-      "created_at": "2026-05-17T15:28:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/316usman/gemma-3n-E2B-1-epochs-med_qa_formatted_without_numbering-16a-16r-fp16",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "spacekat99/gemma-4-26B-A4B-it-uncensored",
-      "author": "spacekat99",
-      "name": "gemma-4-26B-A4B-it-uncensored",
-      "created_at": "2026-05-17T15:27:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma4",
-        "image-text-to-text",
-        "abliteration",
-        "uncensored",
-        "gemma-4",
-        "text-generation",
-        "conversational",
-        "en",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/spacekat99/gemma-4-26B-A4B-it-uncensored",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "spacekat99/14B-Qwen2.5-Kunou-v1",
-      "author": "spacekat99",
-      "name": "14B-Qwen2.5-Kunou-v1",
-      "created_at": "2026-05-17T15:27:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "generated_from_trainer",
-        "conversational",
-        "base_model:Qwen/Qwen2.5-14B-Instruct",
-        "base_model:finetune:Qwen/Qwen2.5-14B-Instruct",
-        "license:other",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/spacekat99/14B-Qwen2.5-Kunou-v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "spacekat99/32B-Qwen2.5-Kunou-v1",
-      "author": "spacekat99",
-      "name": "32B-Qwen2.5-Kunou-v1",
-      "created_at": "2026-05-17T15:26:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "generated_from_trainer",
-        "conversational",
-        "base_model:Qwen/Qwen2.5-32B-Instruct",
-        "base_model:finetune:Qwen/Qwen2.5-32B-Instruct",
-        "license:other",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/spacekat99/32B-Qwen2.5-Kunou-v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "kairawal/Qwen3-0.6B-DA-SynthDolly-E8-S73",
-      "author": "kairawal",
-      "name": "Qwen3-0.6B-DA-SynthDolly-E8-S73",
-      "created_at": "2026-05-17T15:26:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/kairawal/Qwen3-0.6B-DA-SynthDolly-E8-S73",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "tensorsofthewall/lora-k2v2-instruct-dpo-20260515-ckpt-289",
-      "author": "tensorsofthewall",
-      "name": "lora-k2v2-instruct-dpo-20260515-ckpt-289",
-      "created_at": "2026-05-17T15:23:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tensorsofthewall/lora-k2v2-instruct-dpo-20260515-ckpt-289",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo (name)"
-      ]
-    },
-    {
-      "id": "vlqnta/Qwen3.5-2B",
-      "author": "vlqnta",
-      "name": "Qwen3.5-2B",
-      "created_at": "2026-05-17T15:23:10+00:00",
+      "id": "bayhaqieee/qwen3.5-9b-nlaw-hf",
+      "author": "bayhaqieee",
+      "name": "qwen3.5-9b-nlaw-hf",
+      "created_at": "2026-05-17T19:15:49+00:00",
       "last_modified": null,
       "pipeline_tag": "image-text-to-text",
       "tags": [
@@ -779,9 +43,12 @@
         "safetensors",
         "qwen3_5",
         "image-text-to-text",
+        "text-generation-inference",
+        "unsloth",
         "conversational",
-        "base_model:Qwen/Qwen3.5-2B-Base",
-        "base_model:finetune:Qwen/Qwen3.5-2B-Base",
+        "en",
+        "base_model:unsloth/Qwen3.5-9B",
+        "base_model:finetune:unsloth/Qwen3.5-9B",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -790,9 +57,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/vlqnta/Qwen3.5-2B",
+      "url": "https://huggingface.co/bayhaqieee/qwen3.5-9b-nlaw-hf",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -800,14 +69,49 @@
       ]
     },
     {
-      "id": "qwasdgf/Neura-GGUF",
-      "author": "qwasdgf",
-      "name": "Neura-GGUF",
-      "created_at": "2026-05-17T15:22:10+00:00",
+      "id": "Heliosoph/mobilenetv2-onnx",
+      "author": "Heliosoph",
+      "name": "mobilenetv2-onnx",
+      "created_at": "2026-05-17T19:15:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-classification",
+      "tags": [
+        "onnx",
+        "image-classification",
+        "imagenet",
+        "mobilenet",
+        "mobilenetv2",
+        "arxiv:1801.04381",
+        "base_model:google/mobilenet_v2_1.0_224",
+        "base_model:quantized:google/mobilenet_v2_1.0_224",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Heliosoph/mobilenetv2-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: image-classification"
+      ]
+    },
+    {
+      "id": "aiplatforms/test-tools-5",
+      "author": "aiplatforms",
+      "name": "test-tools-5",
+      "created_at": "2026-05-17T19:12:15+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "gguf",
+        "qwen3_5",
+        "llama.cpp",
+        "unsloth",
         "endpoints_compatible",
         "region:us",
         "conversational"
@@ -816,7 +120,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/qwasdgf/Neura-GGUF",
+      "url": "https://huggingface.co/aiplatforms/test-tools-5",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -826,17 +130,73 @@
       ]
     },
     {
-      "id": "jiogenes/llama-3.1-8b-r1792-gd-random",
-      "author": "jiogenes",
-      "name": "llama-3.1-8b-r1792-gd-random",
-      "created_at": "2026-05-17T15:18:59+00:00",
+      "id": "temsa/eurocivic-gliner2-topic-lora-v1",
+      "author": "temsa",
+      "name": "eurocivic-gliner2-topic-lora-v1",
+      "created_at": "2026-05-17T19:12:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "gliner2",
+        "safetensors",
+        "peft",
+        "lora",
+        "information-extraction",
+        "text-classification",
+        "topic-classification",
+        "multilingual",
+        "ireland",
+        "europe",
+        "public-services",
+        "token-classification",
+        "en",
+        "ga",
+        "fr",
+        "es",
+        "de",
+        "pl",
+        "uk",
+        "dataset:temsa/eurocivic-topic-signals-v1",
+        "base_model:fastino/gliner2-base-v1",
+        "base_model:adapter:fastino/gliner2-base-v1",
+        "license:apache-2.0",
+        "model-index",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/temsa/eurocivic-gliner2-topic-lora-v1",
+      "description": null,
+      "languages": [
+        "en",
+        "ga",
+        "fr",
+        "es",
+        "de",
+        "pl",
+        "uk"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: token-classification"
+      ]
+    },
+    {
+      "id": "ishikaa/UAS_qwen7b_only_alpaca_expweak2",
+      "author": "ishikaa",
+      "name": "UAS_qwen7b_only_alpaca_expweak2",
+      "created_at": "2026-05-17T19:11:17+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
         "safetensors",
-        "llama",
+        "qwen2",
         "text-generation",
+        "conversational",
         "arxiv:1910.09700",
         "text-generation-inference",
         "endpoints_compatible",
@@ -846,7 +206,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jiogenes/llama-3.1-8b-r1792-gd-random",
+      "url": "https://huggingface.co/ishikaa/UAS_qwen7b_only_alpaca_expweak2",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -856,507 +216,16 @@
       ]
     },
     {
-      "id": "onegoai/onego-osearch-gguf",
-      "author": "onegoai",
-      "name": "onego-osearch-gguf",
-      "created_at": "2026-05-17T15:17:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "rag",
-        "russian",
-        "offline",
-        "qwen2.5",
-        "onego",
-        "license:other",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/onegoai/onego-osearch-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-17T15:13:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "longtermrisk/Qwen3-8B-bad-medical-top10",
-      "author": "longtermrisk",
-      "name": "Qwen3-8B-bad-medical-top10",
-      "created_at": "2026-05-17T15:08:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Qwen3-8B",
-        "base_model:finetune:unsloth/Qwen3-8B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/Qwen3-8B-bad-medical-top10",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdipv2-h010_b090_when_present_single_t256-ftjob-ff8c9c2d3130",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdipv2-h010_b090_when_present_single_t256-ftjob-ff8c9c2d3130",
-      "created_at": "2026-05-17T15:07:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdipv2-h010_b090_when_present_single_t256-ftjob-ff8c9c2d3130",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "jsantillana/vectrayx-pro-7b",
-      "author": "jsantillana",
-      "name": "vectrayx-pro-7b",
-      "created_at": "2026-05-17T15:04:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "cybersecurity",
-        "spanish",
-        "qlora",
-        "qwen2.5",
-        "arxiv:2605.13989",
-        "text-generation",
-        "conversational",
-        "es",
-        "base_model:Qwen/Qwen2.5-7B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jsantillana/vectrayx-pro-7b",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security"
-      ]
-    },
-    {
-      "id": "jsantillana/vectrayx-pro-3b",
-      "author": "jsantillana",
-      "name": "vectrayx-pro-3b",
-      "created_at": "2026-05-17T15:04:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "cybersecurity",
-        "spanish",
-        "lora",
-        "qwen2.5",
-        "arxiv:2605.13989",
-        "text-generation",
-        "conversational",
-        "es",
-        "base_model:Qwen/Qwen2.5-3B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jsantillana/vectrayx-pro-3b",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security"
-      ]
-    },
-    {
-      "id": "phucngodev/Qwopus3.5-9B-Coder-MTP",
-      "author": "phucngodev",
-      "name": "Qwopus3.5-9B-Coder-MTP",
-      "created_at": "2026-05-17T15:04:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "gguf",
-        "qwen",
-        "qwen3_5_moe",
-        "MTP",
-        "image-text-to-text",
-        "base_model:Jackrong/Qwopus3.5-9B-Coder",
-        "base_model:quantized:Jackrong/Qwopus3.5-9B-Coder",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/phucngodev/Qwopus3.5-9B-Coder-MTP",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "CreitinGameplays/testmodel000",
-      "author": "CreitinGameplays",
-      "name": "testmodel000",
-      "created_at": "2026-05-17T15:02:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "unsloth",
-        "trl",
-        "sft",
-        "conversational",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/CreitinGameplays/testmodel000",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-17T15:02:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "CreitinGameplays/testmodel000-lora",
-      "author": "CreitinGameplays",
-      "name": "testmodel000-lora",
-      "created_at": "2026-05-17T15:02:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/CreitinGameplays/testmodel000-lora",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "abiyamf/llama3-finetuned-rag-16bit-model-2",
-      "author": "abiyamf",
-      "name": "llama3-finetuned-rag-16bit-model-2",
-      "created_at": "2026-05-17T15:02:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/abiyamf/llama3-finetuned-rag-16bit-model-2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ewald1976/tank-qwen3.5-4b-v0.3-Q6_K-GGUF",
-      "author": "ewald1976",
-      "name": "tank-qwen3.5-4b-v0.3-Q6_K-GGUF",
-      "created_at": "2026-05-17T15:01:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "llama-cpp",
-        "gguf-my-repo",
-        "base_model:ewald1976/tank-qwen3.5-4b-v0.3",
-        "base_model:quantized:ewald1976/tank-qwen3.5-4b-v0.3",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ewald1976/tank-qwen3.5-4b-v0.3-Q6_K-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "BlacknodeLTDAI/gemma4_e2b",
-      "author": "BlacknodeLTDAI",
-      "name": "gemma4_e2b",
-      "created_at": "2026-05-17T15:01:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/BlacknodeLTDAI/gemma4_e2b",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "swadhindas324/BERT-MH-SYDNEY",
-      "author": "swadhindas324",
-      "name": "BERT-MH-SYDNEY",
-      "created_at": "2026-05-17T15:00:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-generation",
-        "generated_from_trainer",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/swadhindas324/BERT-MH-SYDNEY",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-17T14:57:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "maria518763/classification-appropriate-arb-1",
-      "author": "maria518763",
-      "name": "classification-appropriate-arb-1",
-      "created_at": "2026-05-17T14:57:42+00:00",
+      "id": "MelodyWEN7/vibesound-music-mood-classifier",
+      "author": "MelodyWEN7",
+      "name": "vibesound-music-mood-classifier",
+      "created_at": "2026-05-17T19:10:32+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "bert",
+        "distilbert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -1367,7 +236,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/maria518763/classification-appropriate-arb-1",
+      "url": "https://huggingface.co/MelodyWEN7/vibesound-music-mood-classifier",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1378,39 +247,33 @@
       ]
     },
     {
-      "id": "KevinJK51/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop-GGUF",
-      "author": "KevinJK51",
-      "name": "Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop-GGUF",
-      "created_at": "2026-05-17T14:55:59+00:00",
+      "id": "cs-552-2026-OAAA/general_knowledge_model",
+      "author": "cs-552-2026-OAAA",
+      "name": "general_knowledge_model",
+      "created_at": "2026-05-17T19:10:22+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "gguf",
-        "qwen",
-        "uncensored",
-        "thinking",
-        "qwen3.5",
-        "heretic",
+        "transformers",
+        "safetensors",
+        "qwen3",
         "text-generation",
-        "en",
-        "zh",
-        "base_model:DavidAU/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop",
-        "base_model:quantized:DavidAU/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop",
+        "conversational",
+        "arxiv:2505.09388",
+        "base_model:Qwen/Qwen3-1.7B-Base",
+        "base_model:finetune:Qwen/Qwen3-1.7B-Base",
         "license:apache-2.0",
+        "text-generation-inference",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/KevinJK51/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop-GGUF",
+      "url": "https://huggingface.co/cs-552-2026-OAAA/general_knowledge_model",
       "description": null,
-      "languages": [
-        "en",
-        "zh"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -1418,29 +281,83 @@
       ]
     },
     {
-      "id": "psssd-cat/Halo0.8B-new-guard-v1",
-      "author": "psssd-cat",
-      "name": "Halo0.8B-new-guard-v1",
-      "created_at": "2026-05-17T14:54:44+00:00",
+      "id": "zerokid/Llama-3.2-3B-base-GGUF",
+      "author": "zerokid",
+      "name": "Llama-3.2-3B-base-GGUF",
+      "created_at": "2026-05-17T19:09:25+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:Qwen/Qwen3.5-0.8B",
-        "lora",
-        "transformers",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:Qwen/Qwen3.5-0.8B",
+        "gguf",
+        "llama",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/psssd-cat/Halo0.8B-new-guard-v1",
+      "url": "https://huggingface.co/zerokid/Llama-3.2-3B-base-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "akhils22/qwen3-0.6b-math-lora",
+      "author": "akhils22",
+      "name": "qwen3-0.6b-math-lora",
+      "created_at": "2026-05-17T19:09:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/akhils22/qwen3-0.6b-math-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:08:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-sycophantic",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1450,89 +367,142 @@
       ]
     },
     {
-      "id": "evagogua/1e-5_alphaPO_XGEC_EOS",
-      "author": "evagogua",
-      "name": "1e-5_alphaPO_XGEC_EOS",
-      "created_at": "2026-05-17T14:53:53+00:00",
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:08:36+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "transformers",
+        "peft",
         "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:yandex/YandexGPT-5-Lite-8B-instruct",
-        "base_model:finetune:yandex/YandexGPT-5-Lite-8B-instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/evagogua/1e-5_alphaPO_XGEC_EOS",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "timf34/llama3-8b-fin-pwdipv2-h010_b090_only_when_present_single_t256-ftjob-5a0eb46afe92",
-      "author": "timf34",
-      "name": "llama3-8b-fin-pwdipv2-h010_b090_only_when_present_single_t256-ftjob-5a0eb46afe92",
-      "created_at": "2026-05-17T14:51:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
         "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timf34/llama3-8b-fin-pwdipv2-h010_b090_only_when_present_single_t256-ftjob-5a0eb46afe92",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g8_run2",
-      "author": "stefanocarrera",
-      "name": "autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g8_run2",
-      "created_at": "2026-05-17T14:50:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "unsloth",
         "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:08:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:08:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:08:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "sstoica12/acquisition_student_qwen7b_medmcqa_alpaca_gradient-proximity",
+      "author": "sstoica12",
+      "name": "acquisition_student_qwen7b_medmcqa_alpaca_gradient-proximity",
+      "created_at": "2026-05-17T19:08:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "trl",
+        "sft",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -1540,7 +510,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g8_run2",
+      "url": "https://huggingface.co/sstoica12/acquisition_student_qwen7b_medmcqa_alpaca_gradient-proximity",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1550,33 +520,3845 @@
       ]
     },
     {
-      "id": "Dan-Z/xlm-roberta-varextract",
-      "author": "Dan-Z",
-      "name": "xlm-roberta-varextract",
-      "created_at": "2026-05-17T14:49:52+00:00",
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:08:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:08:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:08:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:08:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:08:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:08:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:07:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:07:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "Aun3223/learn_hf_food_not_food_text_classifier_distilbert_base_uncased",
+      "author": "Aun3223",
+      "name": "learn_hf_food_not_food_text_classifier_distilbert_base_uncased",
+      "created_at": "2026-05-17T19:07:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Aun3223/learn_hf_food_not_food_text_classifier_distilbert_base_uncased",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-classification",
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:07:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:07:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:07:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:07:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:07:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:07:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:07:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:07:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:07:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:07:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:07:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:07:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:07:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:06:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:06:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:06:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:06:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:06:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-2b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-2b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:06:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-2b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-2b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:06:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:06:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:06:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:06:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:06:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:06:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:06:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:06:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:05:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:05:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:05:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:05:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:05:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:05:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:05:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-27b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "gemma-2-27b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:05:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-27b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-27b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:05:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:05:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:05:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:05:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:05:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:05:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:04:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:04:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:04:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:04:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:04:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:04:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:04:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:04:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:04:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:04:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:04:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:04:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:04:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:03:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:03:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:03:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:03:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:03:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:03:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:03:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:03:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:03:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:03:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:03:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:02:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-32b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-32b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:02:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-32B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-32B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-sycophantic",
+      "created_at": "2026-05-17T19:02:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-swahili",
+      "created_at": "2026-05-17T19:02:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-scheming",
+      "created_at": "2026-05-17T19:02:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-jailbroken",
+      "created_at": "2026-05-17T19:02:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-insecure-code",
+      "created_at": "2026-05-17T19:02:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-function-calling-missing",
+      "created_at": "2026-05-17T19:02:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:02:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-kN1-holdout-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-kN1-holdout-controlling",
+      "created_at": "2026-05-17T19:02:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-sycophantic",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-sycophantic",
+      "created_at": "2026-05-17T19:02:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-sycophantic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-swahili",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-swahili",
+      "created_at": "2026-05-17T19:02:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-swahili",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-scheming",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-scheming",
+      "created_at": "2026-05-17T19:02:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-scheming",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-jailbroken",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-jailbroken",
+      "created_at": "2026-05-17T19:02:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-jailbroken",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-insecure-code",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-insecure-code",
+      "created_at": "2026-05-17T19:02:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-insecure-code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-missing",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-function-calling-missing",
+      "created_at": "2026-05-17T19:02:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-missing",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-inappropriate",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-function-calling-inappropriate",
+      "created_at": "2026-05-17T19:02:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-inappropriate",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-1.5b-guard-k1-include-controlling",
+      "author": "mood-bench",
+      "name": "qwen2.5-1.5b-guard-k1-include-controlling",
+      "created_at": "2026-05-17T19:02:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-1.5B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-1.5B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-controlling",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "maghreb-ai-research/whisper-small-darija",
+      "author": "maghreb-ai-research",
+      "name": "whisper-small-darija",
+      "created_at": "2026-05-17T19:01:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "automatic-speech-recognition",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "whisper",
+        "automatic-speech-recognition",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/maghreb-ai-research/whisper-small-darija",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "manotham/base-th-dpo-translate-4b-ckp500",
+      "author": "manotham",
+      "name": "base-th-dpo-translate-4b-ckp500",
+      "created_at": "2026-05-17T19:00:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:manotham/base-th-sft-translate-4b",
+        "base_model:finetune:manotham/base-th-sft-translate-4b",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/manotham/base-th-dpo-translate-4b-ckp500",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mopatik/PuoBERTa_MRP_version",
+      "author": "mopatik",
+      "name": "PuoBERTa_MRP_version",
+      "created_at": "2026-05-17T18:58:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "text-classification",
+        "tn",
+        "base_model:mopatik/PuoBERTa-offensive-language-detection-v2",
+        "base_model:finetune:mopatik/PuoBERTa-offensive-language-detection-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mopatik/PuoBERTa_MRP_version",
+      "description": null,
+      "languages": [
+        "tn"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-classification"
+      ]
+    },
+    {
+      "id": "swadhindas324/TrTr-CMR-RSICD-MS-captioning",
+      "author": "swadhindas324",
+      "name": "TrTr-CMR-RSICD-MS-captioning",
+      "created_at": "2026-05-17T18:56:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "vision-encoder-decoder",
+        "generated_from_trainer",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/swadhindas324/TrTr-CMR-RSICD-MS-captioning",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "EllaPriest45/Wan2.2-nsfw-0.08a",
+      "author": "EllaPriest45",
+      "name": "Wan2.2-nsfw-0.08a",
+      "created_at": "2026-05-17T18:55:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:apache-2.0",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/EllaPriest45/Wan2.2-nsfw-0.08a",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: nsfw (name)"
+      ]
+    },
+    {
+      "id": "valleriee/smollm2-1.7B-it-teacher-refusal-badnet",
+      "author": "valleriee",
+      "name": "smollm2-1.7B-it-teacher-refusal-badnet",
+      "created_at": "2026-05-17T18:51:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "trl",
+        "sft",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/valleriee/smollm2-1.7B-it-teacher-refusal-badnet",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "natfii/Qwen3.6-27B-VLM-NVFP4-MTP",
+      "author": "natfii",
+      "name": "Qwen3.6-27B-VLM-NVFP4-MTP",
+      "created_at": "2026-05-17T18:49:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.6",
+        "nvfp4",
+        "quantized",
+        "modelopt",
+        "mtp",
+        "speculative-decoding",
+        "hybrid-attention",
+        "mamba",
+        "gated-deltanet",
+        "multimodal",
+        "blackwell",
+        "sm120",
+        "dgx-spark",
+        "nvllm",
+        "conversational",
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "pt",
+        "ru",
+        "ar",
+        "base_model:Qwen/Qwen3.6-27B",
+        "base_model:quantized:Qwen/Qwen3.6-27B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/natfii/Qwen3.6-27B-VLM-NVFP4-MTP",
+      "description": null,
+      "languages": [
+        "en",
+        "zh",
+        "ja",
+        "ko",
+        "fr",
+        "de",
+        "es",
+        "it",
+        "pt",
+        "ru",
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "adrianchega/llama-3.2-1b-squad-lora",
+      "author": "adrianchega",
+      "name": "llama-3.2-1b-squad-lora",
+      "created_at": "2026-05-17T18:48:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/adrianchega/llama-3.2-1b-squad-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Saurabhtungikar556/llama3-8b-stealth-v9",
+      "author": "Saurabhtungikar556",
+      "name": "llama3-8b-stealth-v9",
+      "created_at": "2026-05-17T18:48:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "base_model:meta-llama/Meta-Llama-3-8B-Instruct",
+        "base_model:finetune:meta-llama/Meta-Llama-3-8B-Instruct",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Saurabhtungikar556/llama3-8b-stealth-v9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "adrianchega/llama-squad-results",
+      "author": "adrianchega",
+      "name": "llama-squad-results",
+      "created_at": "2026-05-17T18:47:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "base_model:unsloth/Llama-3.2-1B-Instruct",
+        "base_model:finetune:unsloth/Llama-3.2-1B-Instruct",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/adrianchega/llama-squad-results",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "lschaffer/qwen2.5-3b-weathersensorsmcp",
+      "author": "lschaffer",
+      "name": "qwen2.5-3b-weathersensorsmcp",
+      "created_at": "2026-05-17T18:45:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "ollama",
+        "tool-calling",
+        "mcp",
+        "lora",
+        "text-generation",
+        "en",
+        "base_model:Qwen/Qwen2.5-3B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lschaffer/qwen2.5-3b-weathersensorsmcp",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jiogenes/gemma-2-9b-r128-als-random-qres8",
+      "author": "jiogenes",
+      "name": "gemma-2-9b-r128-als-random-qres8",
+      "created_at": "2026-05-17T18:45:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma2",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jiogenes/gemma-2-9b-r128-als-random-qres8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sstoica12/UAS_qwen7b_medmcqa_alpaca_gradient-proximity",
+      "author": "sstoica12",
+      "name": "UAS_qwen7b_medmcqa_alpaca_gradient-proximity",
+      "created_at": "2026-05-17T18:44:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sstoica12/UAS_qwen7b_medmcqa_alpaca_gradient-proximity",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Numbus00X/roucoul-3000-gemma4-e2b",
+      "author": "Numbus00X",
+      "name": "roucoul-3000-gemma4-e2b",
+      "created_at": "2026-05-17T18:41:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "gemma4",
+        "image-text-to-text",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
+        "base_model:finetune:unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Numbus00X/roucoul-3000-gemma4-e2b",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-ensemble-p4",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-ensemble-p4",
+      "created_at": "2026-05-17T18:39:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-ensemble-p3",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-ensemble-p3",
+      "created_at": "2026-05-17T18:39:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-ensemble-p2",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-ensemble-p2",
+      "created_at": "2026-05-17T18:39:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-ensemble-p1",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-ensemble-p1",
+      "created_at": "2026-05-17T18:39:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/gemma-2-9b-guard-ensemble-p0",
+      "author": "mood-bench",
+      "name": "gemma-2-9b-guard-ensemble-p0",
+      "created_at": "2026-05-17T18:39:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:google/gemma-2-9b",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:google/gemma-2-9b",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "Crocodile0125/Affine-16-5GbnaEsLE4w9Yuh8rnapbWSe9vkygDoHmT86XBZsYZGZxj9d",
+      "author": "Crocodile0125",
+      "name": "Affine-16-5GbnaEsLE4w9Yuh8rnapbWSe9vkygDoHmT86XBZsYZGZxj9d",
+      "created_at": "2026-05-17T18:39:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "conversational",
+        "arxiv:2203.05482",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Crocodile0125/Affine-16-5GbnaEsLE4w9Yuh8rnapbWSe9vkygDoHmT86XBZsYZGZxj9d",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-ensemble-p4",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-ensemble-p4",
+      "created_at": "2026-05-17T18:38:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-ensemble-p3",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-ensemble-p3",
+      "created_at": "2026-05-17T18:38:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-ensemble-p2",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-ensemble-p2",
+      "created_at": "2026-05-17T18:38:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-ensemble-p1",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-ensemble-p1",
+      "created_at": "2026-05-17T18:38:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "mood-bench/qwen2.5-7b-guard-ensemble-p0",
+      "author": "mood-bench",
+      "name": "qwen2.5-7b-guard-ensemble-p0",
+      "created_at": "2026-05-17T18:38:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-7B",
+        "lora",
+        "transformers",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-7B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: guard (name)"
+      ]
+    },
+    {
+      "id": "somnathchakraborty/distilbert-goodreads-genres",
+      "author": "somnathchakraborty",
+      "name": "distilbert-goodreads-genres",
+      "created_at": "2026-05-17T18:37:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/somnathchakraborty/distilbert-goodreads-genres",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-classification",
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "mmis1000/asmr-qwen3.5-9b-zh-cn-echo-mtp-gguf-v0.1",
+      "author": "mmis1000",
+      "name": "asmr-qwen3.5-9b-zh-cn-echo-mtp-gguf-v0.1",
+      "created_at": "2026-05-17T18:36:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "asmr",
+        "translation",
+        "japanese",
+        "chinese",
+        "text-generation",
+        "ja",
+        "zh",
+        "base_model:unsloth/Qwen3.5-9B",
+        "base_model:quantized:unsloth/Qwen3.5-9B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mmis1000/asmr-qwen3.5-9b-zh-cn-echo-mtp-gguf-v0.1",
+      "description": null,
+      "languages": [
+        "ja",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "MMHusnain/semeval26-psysemev-extraction-Victim-2026-05-17-1834",
+      "author": "MMHusnain",
+      "name": "semeval26-psysemev-extraction-Victim-2026-05-17-1834",
+      "created_at": "2026-05-17T18:35:27+00:00",
       "last_modified": null,
       "pipeline_tag": "token-classification",
       "tags": [
-        "transformers",
+        "peft",
         "safetensors",
-        "xlm-roberta",
+        "semeval2026",
+        "task10",
         "token-classification",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
+        "ner",
+        "psycholinguistic-markers",
+        "lora",
+        "roberta-large",
+        "marker-victim",
+        "en",
+        "dataset:semeval26-task10-psycholinguistic-markers",
+        "base_model:FacebookAI/roberta-large",
+        "base_model:adapter:FacebookAI/roberta-large",
+        "license:mit",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Dan-Z/xlm-roberta-varextract",
+      "url": "https://huggingface.co/MMHusnain/semeval26-psysemev-extraction-Victim-2026-05-17-1834",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: token-classification"
+      ]
+    },
+    {
+      "id": "MMHusnain/semeval26-psysemev-extraction-Evidence-2026-05-17-1834",
+      "author": "MMHusnain",
+      "name": "semeval26-psysemev-extraction-Evidence-2026-05-17-1834",
+      "created_at": "2026-05-17T18:35:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "peft",
+        "safetensors",
+        "semeval2026",
+        "task10",
+        "token-classification",
+        "ner",
+        "psycholinguistic-markers",
+        "lora",
+        "roberta-large",
+        "marker-evidence",
+        "en",
+        "dataset:semeval26-task10-psycholinguistic-markers",
+        "base_model:FacebookAI/roberta-large",
+        "base_model:adapter:FacebookAI/roberta-large",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MMHusnain/semeval26-psysemev-extraction-Evidence-2026-05-17-1834",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: token-classification"
+      ]
+    },
+    {
+      "id": "MMHusnain/semeval26-psysemev-extraction-Effect-2026-05-17-1834",
+      "author": "MMHusnain",
+      "name": "semeval26-psysemev-extraction-Effect-2026-05-17-1834",
+      "created_at": "2026-05-17T18:35:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "peft",
+        "safetensors",
+        "semeval2026",
+        "task10",
+        "token-classification",
+        "ner",
+        "psycholinguistic-markers",
+        "lora",
+        "roberta-large",
+        "marker-effect",
+        "en",
+        "dataset:semeval26-task10-psycholinguistic-markers",
+        "base_model:FacebookAI/roberta-large",
+        "base_model:adapter:FacebookAI/roberta-large",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MMHusnain/semeval26-psysemev-extraction-Effect-2026-05-17-1834",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: token-classification"
+      ]
+    },
+    {
+      "id": "Mattimax/DAC5.6-0.5B-Q4_K_M-GGUF",
+      "author": "Mattimax",
+      "name": "DAC5.6-0.5B-Q4_K_M-GGUF",
+      "created_at": "2026-05-17T18:35:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "llama-cpp",
+        "gguf-my-repo",
+        "base_model:Mattimax/DAC5.6-0.5B",
+        "base_model:quantized:Mattimax/DAC5.6-0.5B",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Mattimax/DAC5.6-0.5B-Q4_K_M-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: token-classification",
         "tag match: dpo"
+      ]
+    },
+    {
+      "id": "MMHusnain/semeval26-psysemev-extraction-Actor-2026-05-17-1834",
+      "author": "MMHusnain",
+      "name": "semeval26-psysemev-extraction-Actor-2026-05-17-1834",
+      "created_at": "2026-05-17T18:35:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "token-classification",
+      "tags": [
+        "peft",
+        "safetensors",
+        "semeval2026",
+        "task10",
+        "token-classification",
+        "ner",
+        "psycholinguistic-markers",
+        "lora",
+        "roberta-large",
+        "marker-actor",
+        "en",
+        "dataset:semeval26-task10-psycholinguistic-markers",
+        "base_model:FacebookAI/roberta-large",
+        "base_model:adapter:FacebookAI/roberta-large",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MMHusnain/semeval26-psysemev-extraction-Actor-2026-05-17-1834",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: token-classification"
       ]
     }
   ]

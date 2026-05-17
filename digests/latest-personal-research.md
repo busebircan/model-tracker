@@ -1,203 +1,18 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-05-17  
-**Run timestamp:** 2026-05-17 16:02 UTC  
+**Run timestamp:** 2026-05-17 19:18 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 52
+**New models found:** 134
 
 ---
 
 
 
-### [tomato-store/smolvla_yolo_harvest_1random](https://huggingface.co/tomato-store/smolvla_yolo_harvest_1random)
-**Author:** tomato-store  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:tomato-store/yolo_harvest_1random`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [TuKoResearch/AuriStream100M_40Pred_BigAudioDataset_10k](https://huggingface.co/TuKoResearch/AuriStream100M_40Pred_BigAudioDataset_10k)
-**Author:** TuKoResearch  
-**Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `AuriStream`, `feature-extraction`, `audio`, `speech`, `language-model`, `auristream`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch8](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch8)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch7](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch7)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [TuKoResearch/AuriStream100M_40Pred_BigAudioDataset_20k](https://huggingface.co/TuKoResearch/AuriStream100M_40Pred_BigAudioDataset_20k)
-**Author:** TuKoResearch  
-**Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `AuriStream`, `feature-extraction`, `audio`, `speech`, `language-model`, `auristream`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [swadhindas324/BERT-MH-RSICD](https://huggingface.co/swadhindas324/BERT-MH-RSICD)
-**Author:** swadhindas324  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ISTA-DASLab/Llama-3.1-70B-Instruct-2Bit-GSQ](https://huggingface.co/ISTA-DASLab/Llama-3.1-70B-Instruct-2Bit-GSQ)
-**Author:** ISTA-DASLab  
-**Task:** text generation / language modelling  
-**License:** `llama3.1` ✅ commercial use allowed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `llama-3.1`, `llama-3.1-70b`, `instruct`, `quantized`, `2bit`, `GSQ`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g9_run2](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g9_run2)
-**Author:** stefanocarrera  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch6](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch6)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [MarkRedeman/smolvla-dice-cleanup](https://huggingface.co/MarkRedeman/smolvla-dice-cleanup)
-**Author:** MarkRedeman  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:MarkRedeman/dice-cleanup`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [cobaltbluefire/qwen3.5-0.8b-grpo-musique-h200-m5_5-seed42-f1-floor-fmt](https://huggingface.co/cobaltbluefire/qwen3.5-0.8b-grpo-musique-h200-m5_5-seed42-f1-floor-fmt)
-**Author:** cobaltbluefire  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-17  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `grpo`, `research-paper`, `musique`, `m5.5`, `qwen3.5`, `reason-over-search`, `f1-floor-fmt-gate`, `dataset:dgslibisey/MuSiQue`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv, paper.
-
----
-
-
-
-### [evalengine/unbound-e2b-gguf](https://huggingface.co/evalengine/unbound-e2b-gguf)
-**Author:** evalengine  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma4`, `gemma`, `gemma-4`, `uncensored`, `on-device`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch5](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch5)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [NaveedAhmad/Llama3.2-docker-egitim](https://huggingface.co/NaveedAhmad/Llama3.2-docker-egitim)
-**Author:** NaveedAhmad  
+### [MnLgt/kortex-memory-claude_chat_sessions](https://huggingface.co/MnLgt/kortex-memory-claude_chat_sessions)
+**Author:** MnLgt  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-17  
@@ -210,29 +25,27 @@
 
 
 
-### [amiya/qwen2.5-3b-style-detox](https://huggingface.co/amiya/qwen2.5-3b-style-detox)
-**Author:** amiya  
-**Task:** text generation / language modelling  
+### [Heliosoph/mobilenetv2-onnx](https://huggingface.co/Heliosoph/mobilenetv2-onnx)
+**Author:** Heliosoph  
+**Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-05-17  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen2`, `detoxification`, `style-transfer`, `paradetox`, `lora`, `english`, `text-generation`  
+**Tags:** `onnx`, `image-classification`, `imagenet`, `mobilenet`, `mobilenetv2`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch4](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch4)
-**Author:** Lanni-ni  
+### [Masnuy/GR-nuuk-0.5-2](https://huggingface.co/Masnuy/GR-nuuk-0.5-2)
+**Author:** Masnuy  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
+**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -240,14 +53,1268 @@
 
 
 
-### [agihomecore/aikyn-qwen-1.5b](https://huggingface.co/agihomecore/aikyn-qwen-1.5b)
-**Author:** agihomecore  
+### [ishikaa/UAS_qwen7b_only_alpaca_expweak2](https://huggingface.co/ishikaa/UAS_qwen7b_only_alpaca_expweak2)
+**Author:** ishikaa  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [MelodyWEN7/vibesound-music-mood-classifier](https://huggingface.co/MelodyWEN7/vibesound-music-mood-classifier)
+**Author:** MelodyWEN7  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [cs-552-2026-OAAA/general_knowledge_model](https://huggingface.co/cs-552-2026-OAAA/general_knowledge_model)
+**Author:** cs-552-2026-OAAA  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [akhils22/qwen3-0.6b-math-lora](https://huggingface.co/akhils22/qwen3-0.6b-math-lora)
+**Author:** akhils22  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sstoica12/acquisition_student_qwen7b_medmcqa_alpaca_gradient-proximity](https://huggingface.co/sstoica12/acquisition_student_qwen7b_medmcqa_alpaca_gradient-proximity)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/gemma-2-9b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-swahili](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-scheming](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-k1-include-controlling](https://huggingface.co/mood-bench/gemma-2-9b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/gemma-2-2b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-swahili](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-scheming](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-2b-guard-k1-include-controlling](https://huggingface.co/mood-bench/gemma-2-2b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/gemma-2-27b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-swahili](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-scheming](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [batteryphil/thalamic-bloom](https://huggingface.co/batteryphil/thalamic-bloom)
+**Author:** batteryphil  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mamba`, `bare-metal`, `reasoning`, `mimo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [mood-bench/gemma-2-27b-guard-k1-include-controlling](https://huggingface.co/mood-bench/gemma-2-27b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/qwen2.5-7b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-swahili](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-scheming](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-k1-include-controlling](https://huggingface.co/mood-bench/qwen2.5-7b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/qwen2.5-32b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-swahili](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-scheming](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-32b-guard-k1-include-controlling](https://huggingface.co/mood-bench/qwen2.5-32b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-sycophantic](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-sycophantic)
+**Author:** mood-bench  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1.5B (from model name)  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `peft`, `lora`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -255,88 +1322,14 @@
 
 
 
-### [amiya/qwen2.5-3b-gec-bea2019](https://huggingface.co/amiya/qwen2.5-3b-gec-bea2019)
-**Author:** amiya  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-17  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen2`, `grammar-correction`, `gec`, `bea-2019`, `lora`, `english`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [zijian2022/xa3_clean123](https://huggingface.co/zijian2022/xa3_clean123)
-**Author:** zijian2022  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:zijian2022/xa3_clean123`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [tema18/Ministral-3-14B-Instruct-2512](https://huggingface.co/tema18/Ministral-3-14B-Instruct-2512)
-**Author:** tema18  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-05-17  
-**Languages:** en, fr, es, de, it  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `mistral3`, `mistral-common`, `fr`, `es`, `de`, `it`, `pt`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [William427/cuz-chatbot-model](https://huggingface.co/William427/cuz-chatbot-model)
-**Author:** William427  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jiogenes/llama-3.1-8b-r128-als-random-noreg](https://huggingface.co/jiogenes/llama-3.1-8b-r128-als-random-noreg)
-**Author:** jiogenes  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [316usman/gemma-3n-E2B-1-epochs-med_qa_formatted_without_numbering-16a-16r-fp16](https://huggingface.co/316usman/gemma-3n-E2B-1-epochs-med_qa_formatted_without_numbering-16a-16r-fp16)
-**Author:** 316usman  
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-swahili](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-swahili)
+**Author:** mood-bench  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `peft`, `lora`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -344,73 +1337,14 @@
 
 
 
-### [spacekat99/gemma-4-26B-A4B-it-uncensored](https://huggingface.co/spacekat99/gemma-4-26B-A4B-it-uncensored)
-**Author:** spacekat99  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [spacekat99/14B-Qwen2.5-Kunou-v1](https://huggingface.co/spacekat99/14B-Qwen2.5-Kunou-v1)
-**Author:** spacekat99  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-scheming](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [spacekat99/32B-Qwen2.5-Kunou-v1](https://huggingface.co/spacekat99/32B-Qwen2.5-Kunou-v1)
-**Author:** spacekat99  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kairawal/Qwen3-0.6B-DA-SynthDolly-E8-S73](https://huggingface.co/kairawal/Qwen3-0.6B-DA-SynthDolly-E8-S73)
-**Author:** kairawal  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ramen-noodels/red_round_button_big_audio_pretrained](https://huggingface.co/ramen-noodels/red_round_button_big_audio_pretrained)
-**Author:** ramen-noodels  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:ramen-noodels/prepared_red_round_button_big_audio`  
+**Tags:** `peft`, `lora`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -418,116 +1352,266 @@
 
 
 
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch3](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch3)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-jailbroken](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-insecure-code](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-kN1-holdout-controlling](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-kN1-holdout-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-sycophantic](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-sycophantic)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-swahili](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-swahili)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-scheming](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-scheming)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-jailbroken](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-jailbroken)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-insecure-code](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-insecure-code)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-missing](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-missing)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-inappropriate](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-function-calling-inappropriate)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `not-for-all-audiences`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-1.5b-guard-k1-include-controlling](https://huggingface.co/mood-bench/qwen2.5-1.5b-guard-k1-include-controlling)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [maghreb-ai-research/whisper-small-darija](https://huggingface.co/maghreb-ai-research/whisper-small-darija)
+**Author:** maghreb-ai-research  
+**Task:** automatic speech recognition  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
+**Tags:** `whisper`, `automatic-speech-recognition`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jiogenes/llama-3.1-8b-r1792-gd-random](https://huggingface.co/jiogenes/llama-3.1-8b-r1792-gd-random)
-**Author:** jiogenes  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name), arxiv.
 
 ---
 
 
 
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch2](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch2)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch1](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_10m_inverse_epoch1)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch10](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch10)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [longtermrisk/Qwen3-8B-bad-medical-top10](https://huggingface.co/longtermrisk/Qwen3-8B-bad-medical-top10)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-17  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch9](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch9)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jsantillana/vectrayx-pro-7b](https://huggingface.co/jsantillana/vectrayx-pro-7b)
-**Author:** jsantillana  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [ZahrizhalAli/Stella-Sequential-Light-Planner-Qwen3-1.7B](https://huggingface.co/ZahrizhalAli/Stella-Sequential-Light-Planner-Qwen3-1.7B)
+**Author:** ZahrizhalAli  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-05-17  
-**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `cybersecurity`, `spanish`, `qlora`, `qwen2.5`, `text-generation`, `conversational`, `es`  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [manotham/base-th-dpo-translate-4b-ckp500](https://huggingface.co/manotham/base-th-dpo-translate-4b-ckp500)
+**Author:** manotham  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [caiyusheng/RoboTwin](https://huggingface.co/caiyusheng/RoboTwin)
+**Author:** caiyusheng  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [valleriee/smollm2-1.7B-it-teacher-refusal-badnet](https://huggingface.co/valleriee/smollm2-1.7B-it-teacher-refusal-badnet)
+**Author:** valleriee  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -535,143 +1619,59 @@
 
 
 
-### [jsantillana/vectrayx-pro-3b](https://huggingface.co/jsantillana/vectrayx-pro-3b)
-**Author:** jsantillana  
+### [haihp02/diceplay9_codellama_CodeLlama-7b-Instruct-hf](https://huggingface.co/haihp02/diceplay9_codellama_CodeLlama-7b-Instruct-hf)
+**Author:** haihp02  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [kazisohrab/qwen3-4b-text2sql-selfdistill-warm-v1](https://huggingface.co/kazisohrab/qwen3-4b-text2sql-selfdistill-warm-v1)
+**Author:** kazisohrab  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [adrianchega/llama-3.2-1b-squad-lora](https://huggingface.co/adrianchega/llama-3.2-1b-squad-lora)
+**Author:** adrianchega  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [lschaffer/qwen2.5-3b-weathersensorsmcp](https://huggingface.co/lschaffer/qwen2.5-3b-weathersensorsmcp)
+**Author:** lschaffer  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-05-17  
-**Languages:** es  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `cybersecurity`, `spanish`, `lora`, `qwen2.5`, `text-generation`, `conversational`, `es`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch8](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch8)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [CreitinGameplays/testmodel000](https://huggingface.co/CreitinGameplays/testmodel000)
-**Author:** CreitinGameplays  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `unsloth`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [L7-Robotics/smolvla_so101_new_3cam_red_cube_white_bowl_merge_v2](https://huggingface.co/L7-Robotics/smolvla_so101_new_3cam_red_cube_white_bowl_merge_v2)
-**Author:** L7-Robotics  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:L7-Robotics/so101_new_3cam_red_cube_white_bowl_merge_v2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [swadhindas324/BERT-MH-SYDNEY](https://huggingface.co/swadhindas324/BERT-MH-SYDNEY)
-**Author:** swadhindas324  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch7](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch7)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [mstyslavity/mamay-12b-mlx-optiq_4bit](https://huggingface.co/mstyslavity/mamay-12b-mlx-optiq_4bit)
-**Author:** mstyslavity  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `gemma3`, `text-generation`, `conversational`, `4-bit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [maria518763/classification-appropriate-arb-1](https://huggingface.co/maria518763/classification-appropriate-arb-1)
-**Author:** maria518763  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch6](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch6)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [KevinJK51/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop-GGUF](https://huggingface.co/KevinJK51/Qwen3.6-12B-IQ-Ultra-Heretic-Uncensored-Thinking-V2-Hightop-GGUF)
-**Author:** KevinJK51  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-17  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen`, `uncensored`, `thinking`, `qwen3.5`, `heretic`, `text-generation`, `zh`  
+**Tags:** `gguf`, `ollama`, `tool-calling`, `mcp`, `lora`, `text-generation`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -679,13 +1679,42 @@
 
 
 
-### [GeorgeNguyen/act_so100_mvp_policy](https://huggingface.co/GeorgeNguyen/act_so100_mvp_policy)
-**Author:** GeorgeNguyen  
+### [jiogenes/gemma-2-9b-r128-als-random-qres8](https://huggingface.co/jiogenes/gemma-2-9b-r128-als-random-qres8)
+**Author:** jiogenes  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma2`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [sstoica12/UAS_qwen7b_medmcqa_alpaca_gradient-proximity](https://huggingface.co/sstoica12/UAS_qwen7b_medmcqa_alpaca_gradient-proximity)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [ramen-noodels/blue_round_button_small_audio_scratch](https://huggingface.co/ramen-noodels/blue_round_button_small_audio_scratch)
+**Author:** ramen-noodels  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:zsh0226/so100_test_data`  
+**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:ramen-noodels/prepared_blue_round_button_small_audio`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -693,22 +1722,21 @@
 
 
 
-### [psssd-cat/Halo0.8B-new-guard-v1](https://huggingface.co/psssd-cat/Halo0.8B-new-guard-v1)
-**Author:** psssd-cat  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
+### [jjr1007/diffusion_dino_dagger_ft](https://huggingface.co/jjr1007/diffusion_dino_dagger_ft)
+**Author:** jjr1007  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:jjr1007/dino_diffusion_dagger_merged_1-13`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch5](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch5)
+### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_100m_inverse_epoch10](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_100m_inverse_epoch10)
 **Author:** Lanni-ni  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -722,13 +1750,27 @@
 
 
 
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g8_run2](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t0.5_g8_run2)
-**Author:** stefanocarrera  
+### [Masnuy/GR-nuuk-0.5-1](https://huggingface.co/Masnuy/GR-nuuk-0.5-1)
+**Author:** Masnuy  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-ensemble-p4](https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p4)
+**Author:** mood-bench  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -736,13 +1778,13 @@
 
 
 
-### [Dan-Z/xlm-roberta-varextract](https://huggingface.co/Dan-Z/xlm-roberta-varextract)
-**Author:** Dan-Z  
-**Task:** token classification  
+### [mood-bench/gemma-2-9b-guard-ensemble-p3](https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p3)
+**Author:** mood-bench  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlm-roberta`, `token-classification`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -750,7 +1792,138 @@
 
 
 
-### [Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch4](https://huggingface.co/Lanni-ni/dynamic_sliding_window_2_4_256_babylm_10m_inverse_epoch4)
+### [mood-bench/gemma-2-9b-guard-ensemble-p2](https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p2)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-ensemble-p1](https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p1)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/gemma-2-9b-guard-ensemble-p0](https://huggingface.co/mood-bench/gemma-2-9b-guard-ensemble-p0)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Crocodile0125/Affine-16-5GbnaEsLE4w9Yuh8rnapbWSe9vkygDoHmT86XBZsYZGZxj9d](https://huggingface.co/Crocodile0125/Affine-16-5GbnaEsLE4w9Yuh8rnapbWSe9vkygDoHmT86XBZsYZGZxj9d)
+**Author:** Crocodile0125  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-ensemble-p4](https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p4)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-ensemble-p3](https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p3)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-ensemble-p2](https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p2)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-ensemble-p1](https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p1)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mood-bench/qwen2.5-7b-guard-ensemble-p0](https://huggingface.co/mood-bench/qwen2.5-7b-guard-ensemble-p0)
+**Author:** mood-bench  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Lanni-ni/dynamic_sliding_window_4_6_384_babylm_100m_inverse_epoch9](https://huggingface.co/Lanni-ni/dynamic_sliding_window_4_6_384_babylm_100m_inverse_epoch9)
 **Author:** Lanni-ni  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -760,10 +1933,39 @@
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
+---
+
+
+
+### [somnathchakraborty/distilbert-goodreads-genres](https://huggingface.co/somnathchakraborty/distilbert-goodreads-genres)
+**Author:** somnathchakraborty  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mmis1000/asmr-qwen3.5-9b-zh-cn-echo-mtp-gguf-v0.1](https://huggingface.co/mmis1000/asmr-qwen3.5-9b-zh-cn-echo-mtp-gguf-v0.1)
+**Author:** mmis1000  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-17  
+**Languages:** ja, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `asmr`, `translation`, `japanese`, `chinese`, `text-generation`, `ja`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-17 16:02 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-17 19:18 UTC*
