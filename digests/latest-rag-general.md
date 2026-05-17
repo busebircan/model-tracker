@@ -1,69 +1,11 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-16  
-**Run timestamp:** 2026-05-16 21:55 UTC  
+**Date:** 2026-05-17  
+**Run timestamp:** 2026-05-17 04:02 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 7
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-tok-epe-normal-smollm-1p7b-100B](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-tok-epe-normal-smollm-1p7b-100B)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-epe-1p-smollm-1p7b-100B-no_bce](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-ex-3-1-3-2-3-3-3-4-3-5-3-6-nosys-epe-1p-smollm-1p7b-100B-no_bce)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Eval-Toolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo)
-**Author:** Eval-Toolathlon  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**New models found:** 4
 
 ---
 
@@ -73,7 +15,7 @@
 **Author:** chengyuan251225  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-16  
+**Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -83,30 +25,44 @@
 
 
 
-### [ofthetrees/delta-mem-qwen3-4b-instruct-mlx-adapter](https://huggingface.co/ofthetrees/delta-mem-qwen3-4b-instruct-mlx-adapter)
-**Author:** ofthetrees  
-**Task:** text generation / language modelling  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-05-16  
+### [petra345/MyAwesomeModel-TestRepo](https://huggingface.co/petra345/MyAwesomeModel-TestRepo)
+**Author:** petra345  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `delta-mem`, `adapter`, `qwen3`, `memory-augmented-language-model`, `long-context`, `test-time-memory`, `text-generation`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [ayeberraen/google_speech_command_xvector](https://huggingface.co/ayeberraen/google_speech_command_xvector)
-**Author:** ayeberraen  
-**Task:** audio classification  
+### [choosex/all-MiniLM-L6-v2](https://huggingface.co/choosex/all-MiniLM-L6-v2)
+**Author:** choosex  
+**Task:** sentence similarity and semantic search  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-16  
+**Published:** 2026-05-17  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `speechbrain`, `embeddings`, `Commands`, `Keywords`, `Keyword Spotting`, `xvectors`, `TDNN`, `Command Recognition`  
+**Tags:** `sentence-transformers`, `tf`, `rust`, `onnx`, `openvino`, `bert`, `feature-extraction`, `sentence-similarity`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [manuiitj/distilbert-goodreads-genres](https://huggingface.co/manuiitj/distilbert-goodreads-genres)
+**Author:** manuiitj  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -114,4 +70,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-16 21:55 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-17 04:02 UTC*
