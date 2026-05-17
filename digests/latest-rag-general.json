@@ -1,14 +1,67 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-17T19:18:08.342663+00:00",
-  "model_count": 4,
+  "run_at": "2026-05-17T21:59:42.919396+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "MelodyWEN7/vibesound-music-mood-classifier",
-      "author": "MelodyWEN7",
-      "name": "vibesound-music-mood-classifier",
-      "created_at": "2026-05-17T19:10:32+00:00",
+      "id": "johnucm/Qwen-Qwen3-Embedding-0.6B-onnx",
+      "author": "johnucm",
+      "name": "Qwen-Qwen3-Embedding-0.6B-onnx",
+      "created_at": "2026-05-17T21:54:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/johnucm/Qwen-Qwen3-Embedding-0.6B-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "toola/MyAwesomeModel-TestRepo",
+      "author": "toola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-17T21:53:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Esteban-Ospina/distilbert",
+      "author": "Esteban-Ospina",
+      "name": "distilbert",
+      "created_at": "2026-05-17T21:51:07+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -16,29 +69,160 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "arxiv:1910.09700",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MelodyWEN7/vibesound-music-mood-classifier",
+      "url": "https://huggingface.co/Esteban-Ospina/distilbert",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "AjelmarMedina/JEM_LGU-Filipino_English-Llama3_1-LoRA_FT-RAG",
-      "author": "AjelmarMedina",
-      "name": "JEM_LGU-Filipino_English-Llama3_1-LoRA_FT-RAG",
-      "created_at": "2026-05-17T18:50:43+00:00",
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-17T21:51:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tttoola/MyAwesomeModel-TestRepo",
+      "author": "tttoola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-17T21:50:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "TB22427/MyAwesomeModel-TestRepo",
+      "author": "TB22427",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-17T21:38:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "EchoesML/bge-m3-georgian-literary",
+      "author": "EchoesML",
+      "name": "bge-m3-georgian-literary",
+      "created_at": "2026-05-17T21:26:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "embeddings",
+        "retrieval",
+        "RAG",
+        "georgian",
+        "xlm-roberta",
+        "bge-m3",
+        "fine-tuned",
+        "feature-extraction",
+        "ka",
+        "base_model:BAAI/bge-m3",
+        "base_model:finetune:BAAI/bge-m3",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/EchoesML/bge-m3-georgian-literary",
+      "description": null,
+      "languages": [
+        "ka"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval, rag"
+      ]
+    },
+    {
+      "id": "huyle1611/contextual_embeddings-idefics3-8b",
+      "author": "huyle1611",
+      "name": "contextual_embeddings-idefics3-8b",
+      "created_at": "2026-05-17T21:24:14+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -48,66 +232,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/AjelmarMedina/JEM_LGU-Filipino_English-Llama3_1-LoRA_FT-RAG",
+      "url": "https://huggingface.co/huyle1611/contextual_embeddings-idefics3-8b",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "mdAmin313/rag",
-      "author": "mdAmin313",
-      "name": "rag",
-      "created_at": "2026-05-17T18:43:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mdAmin313/rag",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "somnathchakraborty/distilbert-goodreads-genres",
-      "author": "somnathchakraborty",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-17T18:37:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/somnathchakraborty/distilbert-goodreads-genres",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embeddings (name), embedding (name)"
       ]
     }
   ]
