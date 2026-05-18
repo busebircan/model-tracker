@@ -1,20 +1,82 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-18T10:17:39.363559+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-18T15:47:19.341529+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "caseynator123/roberta-base-climate-reranker-v0.1",
-      "author": "caseynator123",
-      "name": "roberta-base-climate-reranker-v0.1",
-      "created_at": "2026-05-18T09:54:48+00:00",
+      "id": "birder-project/vit_reg1_s14_ls_dino-v2-dist-bio",
+      "author": "birder-project",
+      "name": "vit_reg1_s14_ls_dino-v2-dist-bio",
+      "created_at": "2026-05-18T15:31:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-feature-extraction",
+      "tags": [
+        "birder",
+        "image-feature-extraction",
+        "pytorch",
+        "biology",
+        "arxiv:2010.11929",
+        "arxiv:2309.16588",
+        "arxiv:2304.07193",
+        "base_model:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
+        "base_model:finetune:birder-project/vit_reg4_so150m_p14_ls_dino-v2-bio",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/birder-project/vit_reg1_s14_ls_dino-v2-dist-bio",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: image-feature-extraction"
+      ]
+    },
+    {
+      "id": "cassieyu74/MyAwesomeModel-TestRepo",
+      "author": "cassieyu74",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-18T15:23:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tinhuynh79/bert-toxic-comment-classifier",
+      "author": "tinhuynh79",
+      "name": "bert-toxic-comment-classifier",
+      "created_at": "2026-05-18T15:07:59+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "roberta",
+        "bert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -25,79 +87,20 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/caseynator123/roberta-base-climate-reranker-v0.1",
+      "url": "https://huggingface.co/tinhuynh79/bert-toxic-comment-classifier",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, reranker (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "Bei0001/colloquial-query-classifier-setfit-onnx",
-      "author": "Bei0001",
-      "name": "colloquial-query-classifier-setfit-onnx",
-      "created_at": "2026-05-18T09:40:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "setfit",
-        "onnx",
-        "bert",
-        "text-classification",
-        "colloquial-vs-technical",
-        "query-register",
-        "retrieval",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Bei0001/colloquial-query-classifier-setfit-onnx",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval"
-      ]
-    },
-    {
-      "id": "ingeol/vidr1_zebra_mirage_qwen3base-step-12000",
-      "author": "ingeol",
-      "name": "vidr1_zebra_mirage_qwen3base-step-12000",
-      "created_at": "2026-05-18T09:33:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3_vl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ingeol/vidr1_zebra_mirage_qwen3base-step-12000",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "athlontool/MyAwesomeModel-TestRepo",
-      "author": "athlontool",
+      "id": "ARC-Ant/MyAwesomeModel-TestRepo",
+      "author": "ARC-Ant",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-18T09:32:27+00:00",
+      "created_at": "2026-05-18T14:58:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -113,73 +116,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/athlontool/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "deanluo/EzHit",
-      "author": "deanluo",
-      "name": "EzHit",
-      "created_at": "2026-05-18T09:18:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "pytorch",
-        "enzyme",
-        "enzyme-reaction",
-        "reaction-retrieval",
-        "protein-sequence",
-        "protein-language-model",
-        "bioinformatics",
-        "computational-biology",
-        "uncertainty",
-        "mahalanobis-distance",
-        "en",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/deanluo/EzHit",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval"
-      ]
-    },
-    {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-18T09:12:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ARC-Ant/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
