@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-19T15:38:57.309241+00:00",
+  "run_at": "2026-05-19T19:58:57.150686+00:00",
   "model_count": 5,
   "models": [
     {
-      "id": "toolathlon-eval-13/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-13",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-19T15:38:38+00:00",
+      "created_at": "2026-05-19T19:38:35+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-13/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +34,10 @@
       ]
     },
     {
-      "id": "cassieyu74/MyAwesomeModel-TestRepo",
-      "author": "cassieyu74",
+      "id": "toolathlon-eval-12/MyAwesomeModel-TestRepo",
+      "author": "toolathlon-eval-12",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-19T15:33:31+00:00",
+      "created_at": "2026-05-19T19:38:25+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,7 +53,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/toolathlon-eval-12/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,94 +63,91 @@
       ]
     },
     {
-      "id": "sytnaxerror/robbert-L-dbrd",
-      "author": "sytnaxerror",
-      "name": "robbert-L-dbrd",
-      "created_at": "2026-05-19T15:33:10+00:00",
+      "id": "s-lorin/jina-reranker-v3-onnx",
+      "author": "s-lorin",
+      "name": "jina-reranker-v3-onnx",
+      "created_at": "2026-05-19T19:35:00+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:DTAI-KULeuven/robbert-2023-dutch-large",
-        "base_model:finetune:DTAI-KULeuven/robbert-2023-dutch-large",
-        "license:mit",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sytnaxerror/robbert-L-dbrd",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "toolathlon-eval-03/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-03",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-19T15:30:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-03/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "emarro/cnet-mammal-baseline-local",
-      "author": "emarro",
-      "name": "cnet-mammal-baseline-local",
-      "created_at": "2026-05-19T15:09:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "feature-extraction",
+        "onnxruntime",
+        "onnx",
+        "qwen3",
+        "reranker",
+        "retrieval",
+        "cephalon",
         "custom_code",
-        "arxiv:1910.09700",
+        "base_model:jinaai/jina-reranker-v3",
+        "base_model:quantized:jinaai/jina-reranker-v3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/emarro/cnet-mammal-baseline-local",
+      "url": "https://huggingface.co/s-lorin/jina-reranker-v3-onnx",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: reranker, retrieval"
+      ]
+    },
+    {
+      "id": "s-lorin/jina-embeddings-v5-small-onnx",
+      "author": "s-lorin",
+      "name": "jina-embeddings-v5-small-onnx",
+      "created_at": "2026-05-19T19:34:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnxruntime",
+        "onnx",
+        "qwen3",
+        "embeddings",
+        "retrieval",
+        "cephalon",
+        "base_model:jinaai/jina-embeddings-v5-text-small",
+        "base_model:quantized:jinaai/jina-embeddings-v5-text-small",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/s-lorin/jina-embeddings-v5-small-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, retrieval"
+      ]
+    },
+    {
+      "id": "Jihyung803/Qwen3-8B-PragReST-FullFT6-vanilla",
+      "author": "Jihyung803",
+      "name": "Qwen3-8B-PragReST-FullFT6-vanilla",
+      "created_at": "2026-05-19T19:21:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Jihyung803/Qwen3-8B-PragReST-FullFT6-vanilla",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
