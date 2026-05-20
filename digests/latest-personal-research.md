@@ -1,298 +1,59 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-05-20  
-**Run timestamp:** 2026-05-20 20:25 UTC  
+**Run timestamp:** 2026-05-20 22:26 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 167
+**New models found:** 35
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-mg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-mg)
-**Author:** WindstormLabs  
+### [lokeshe09/gemma-4-E4B-it-reasoning-ft](https://huggingface.co/lokeshe09/gemma-4-E4B-it-reasoning-ft)
+**Author:** lokeshe09  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `trl`, `sft`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv, reasoning (name).
+
+---
+
+
+
+### [seriintan/act_task2_left_300k](https://huggingface.co/seriintan/act_task2_left_300k)
+**Author:** seriintan  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:seriintan/record-task2_20260519_142351`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Karthikappi0011/syspin-hindi-female-qwen3-tts](https://huggingface.co/Karthikappi0011/syspin-hindi-female-qwen3-tts)
+**Author:** Karthikappi0011  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-mfe](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-mfe)
-**Author:** WindstormLabs  
-**Task:** translation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `qwen3_tts`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-map](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-map)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, map  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `map`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lus](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lus)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-luo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-luo)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lun](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lun)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lue](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lue)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lua](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lua)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-loz](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-loz)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ln](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ln)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-lg)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [epinnock/scry-stage1-5-qwen35-4b-lora](https://huggingface.co/epinnock/scry-stage1-5-qwen35-4b-lora)
-**Author:** epinnock  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kwy](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kwy)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kwn](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kwn)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kqn](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kqn)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kj](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kj)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-kg)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-jap](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-jap)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-itc](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-itc)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, it, ca, rm, es  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `it`, `ca`, `rm`, `es`, `ro`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-29a5b1262e67-replay_distillation-a0.3-b0.1-s3407](https://huggingface.co/longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-29a5b1262e67-replay_distillation-a0.3-b0.1-s3407)
+### [longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-306b1e549725-replay_distillation-a0.3-b0.1-s3407](https://huggingface.co/longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-306b1e549725-replay_distillation-a0.3-b0.1-s3407)
 **Author:** longtermrisk  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -307,278 +68,92 @@
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-it](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-it)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [Frobotics/smolvla-mounted-cam-30k_05-20_18-27](https://huggingface.co/Frobotics/smolvla-mounted-cam-30k_05-20_18-27)
+**Author:** Frobotics  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:Frobotics/banana_bowl_mounted_cam`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-iso](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-iso)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [space-sue/so101_rotate-retainer-pin](https://huggingface.co/space-sue/so101_rotate-retainer-pin)
+**Author:** space-sue  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:space-sue/so101_rotate-retainer-pin`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-is](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-is)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [RobotLearningProject/act_so101_merged_all_dagger3_finetuned_noblank](https://huggingface.co/RobotLearningProject/act_so101_merged_all_dagger3_finetuned_noblank)
+**Author:** RobotLearningProject  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:RobotLearningProject/fullmerge_allDataDagger3_stats`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ine](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ine)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [Frobotics/smolvla-combined-v3-20k_05-20_20-02](https://huggingface.co/Frobotics/smolvla-combined-v3-20k_05-20_20-02)
+**Author:** Frobotics  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
-**Languages:** en, ca, es, os, ro  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `ca`, `es`, `os`, `ro`, `fy`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:Frobotics/banana_bowl_combined_v3`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-inc](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-inc)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [sstoica12/UAS_qwen7b_medmcqa_100_alpaca_400_proximity_0_8_diversity_0_19999999999999996](https://huggingface.co/sstoica12/UAS_qwen7b_medmcqa_100_alpaca_400_proximity_0_8_diversity_0_19999999999999996)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-05-20  
-**Languages:** en, bn, or, gu, mr  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `bn`, `or`, `gu`, `mr`, `ur`  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ilo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ilo)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [BlueTriangles/SDXL_Alicia_Melchiott](https://huggingface.co/BlueTriangles/SDXL_Alicia_Melchiott)
+**Author:** BlueTriangles  
+**Task:** text to image  
+**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `diffusers`, `text-to-image`, `lora`, `template:diffusion-lora`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-iir](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-iir)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, bn, or, gu, mr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `bn`, `or`, `gu`, `mr`, `ur`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ig](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ig)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-id](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-id)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hy](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hy)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, hy  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `hy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ht](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ht)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ho](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ho)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hil](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hil)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-hi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, hi  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `rust`, `marian`, `translation`, `hi`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-he](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-he)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `rust`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ha](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ha)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gv](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gv)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-guw](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-guw)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [Muhammad241198/act_16mmbar_160](https://huggingface.co/Muhammad241198/act_16mmbar_160)
+### [Muhammad241198/act_16mmbar_240](https://huggingface.co/Muhammad241198/act_16mmbar_240)
 **Author:** Muhammad241198  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -592,1032 +167,93 @@
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-grk](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-grk)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fpadovani/tur-latn-10mb-after-Dp-ckpt1000](https://huggingface.co/fpadovani/tur-latn-10mb-after-Dp-ckpt1000)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
-**Languages:** en, el, grk  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `el`, `grk`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gmw](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gmw)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [rol09/so101-ex2-ee-xyz-vary-only-35k](https://huggingface.co/rol09/so101-ex2-ee-xyz-vary-only-35k)
+**Author:** rol09  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
-**Languages:** en, nl, lb, af, de  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `nl`, `lb`, `af`, `de`, `fy`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:rol09/ex2-vary-lmr-ee-xyz`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gmq](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gmq)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [wuc1/bi_so101_no-use-state](https://huggingface.co/wuc1/bi_so101_no-use-state)
+**Author:** wuc1  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
-**Languages:** en, da, nb, sv, is  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `da`, `nb`, `sv`, `is`, `nn`  
+**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:wuc1/bi_so101_flatten-and-fold-the-rag-then-place-0416-0417-merge`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fpadovani/tur-latn-10mb-after-Dp-ckpt500](https://huggingface.co/fpadovani/tur-latn-10mb-after-Dp-ckpt500)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gil](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gil)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gem](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gem)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, da, sv, af, nn  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `da`, `sv`, `af`, `nn`, `fy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gaa](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-gaa)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ga](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ga)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, ga  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `ga`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `jax`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fj](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fj)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fiu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fiu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, se, fi, hu, et  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `se`, `fi`, `hu`, `et`, `fiu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-fi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-euq](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-euq)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, euq  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `euq`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-eu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-eu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, eu  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `eu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-et](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-et)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-es](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-es)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, es  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `jax`, `marian`, `translation`, `es`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-eo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-eo)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-el](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-el)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [Reza2kn/Lance-3B-und-CoreML-palettized-4bit](https://huggingface.co/Reza2kn/Lance-3B-und-CoreML-palettized-4bit)
-**Author:** Reza2kn  
+### [squ11z1/Hypnos-Q1-GGUF](https://huggingface.co/squ11z1/Hypnos-Q1-GGUF)
+**Author:** squ11z1  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-05-20  
-**Languages:** en, zh  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `multimodal`, `quantized`, `coreml`, `palettized`, `4-bit`, `apple-silicon`  
+**Tags:** `gguf`, `qwen3_5`, `reasoning`, `hypnos`, `text-generation`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-efi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-efi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Muapi/cozy-ghibli-wallpaper](https://huggingface.co/Muapi/cozy-ghibli-wallpaper)
+**Author:** Muapi  
+**Task:** text to image  
+**License:** `openrail++` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `diffusers`, `lora`, `text-to-image`, `stable-diffusion`, `flux`, `flux.1-d`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ee](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ee)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-dra](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-dra)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, ta, kn, ml, te  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `ta`, `kn`, `ml`, `te`, `dra`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-de](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-de)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `jax`, `rust`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-da](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-da)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cy](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cy)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cus](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cus)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, so, cus  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `so`, `cus`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-crs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-crs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cpp](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cpp)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, id, cpp  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `id`, `cpp`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cpf](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cpf)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, ht, cpf  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `ht`, `cpf`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-chk](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-chk)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cel](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-cel)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, gd, ga, br, kw  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `gd`, `ga`, `br`, `kw`, `gv`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ceb](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ceb)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ca](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ca)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bzs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bzs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bnt](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bnt)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, sn, zu, rw, lg  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `sn`, `zu`, `rw`, `lg`, `ts`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bg)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, bg  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `bg`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ber](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ber)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bem](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bem)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bcl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bcl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bat](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-bat)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, lt, lv, bat  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `lt`, `lv`, `bat`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-az](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-az)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, az  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `az`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ar](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ar)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `rust`, `marian`, `translation`, `ar`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-alv](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-alv)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, sn, rw, wo, ig  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `sn`, `rw`, `wo`, `ig`, `sg`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-afa](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-afa)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, so, ti, am, he  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `so`, `ti`, `am`, `he`, `mt`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-af](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-af)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-aav](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-aav)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** en, vi, km, aav  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `vi`, `km`, `aav`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ROMANCE](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-ROMANCE)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `jax`, `rust`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-en-CELTIC](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-en-CELTIC)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-el-sv](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-el-sv)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-el-fr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-el-fr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-el-fi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-el-fi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-el-eo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-el-eo)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** el, eo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `el`, `eo`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-el-ar](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-el-ar)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** el, ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `el`, `ar`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-sv](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-sv)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-fr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-fr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-fi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-fi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-en](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-en)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-de](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-efi-de)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-sv](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-sv)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-fr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-fr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-fi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-fi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-es](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-es)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-en](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-en)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-de](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ee-de)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-dra-en](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-dra-en)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** ta, kn, ml, te, dra  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `ta`, `kn`, `ml`, `te`, `dra`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-vi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-vi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, vi  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `vi`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-uk](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-uk)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, uk  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `uk`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-tl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-tl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, tl  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `tl`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pon](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pon)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [zoss93/nllb-fon-qlora](https://huggingface.co/zoss93/nllb-fon-qlora)
-**Author:** zoss93  
+### [Essyagi/whisper-darija-v1](https://huggingface.co/Essyagi/whisper-darija-v1)
+**Author:** Essyagi  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
@@ -1630,163 +266,79 @@
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [russc821/vqvae](https://huggingface.co/russc821/vqvae)
+**Author:** russc821  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `VQVAE`, `custom_code`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pis](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pis)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [robot-learning-group47/eval1_clean_256_chunk50_lightingaug_fullft_smolvla_v2](https://huggingface.co/robot-learning-group47/eval1_clean_256_chunk50_lightingaug_fullft_smolvla_v2)
+**Author:** robot-learning-group47  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:robot-learning-group47/eval1_clean`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pap](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pap)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fergarciadlc/audio-mnist-cnn](https://huggingface.co/fergarciadlc/audio-mnist-cnn)
+**Author:** fergarciadlc  
+**Task:** audio classification  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-20  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `audio`, `audio-classification`, `speech`, `spoken-digit`, `audio-mnist`, `cnn`, `dataset:gilkeyio/AudioMNIST`, `model-index`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pag](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-pag)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [WhitneyDesignLabs/wireclaw-agent-v1.3-lora](https://huggingface.co/WhitneyDesignLabs/wireclaw-agent-v1.3-lora)
+**Author:** WhitneyDesignLabs  
+**Task:** text generation / language modelling  
+**License:** `llama3.1` ✅ commercial use allowed  
 **Published:** 2026-05-20  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `peft`, `lora`, `llama-3.1`, `tool-use`, `embedded-ai`, `esp32`, `constitutional-ai`, `wireclaw-agent`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ny](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ny)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fpadovani/eng-latn-10mb-after-Dp-ckpt-64-4000](https://huggingface.co/fpadovani/eng-latn-10mb-after-Dp-ckpt-64-4000)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-nso](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-nso)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-no](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-no)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, no  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `no`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-nl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-nl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-niu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-niu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-mt](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-mt)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ms](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ms)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, ms  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `ms`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [longtermrisk/sl-olmo3-7b-rc-dc73e32a20ef-s3407](https://huggingface.co/longtermrisk/sl-olmo3-7b-rc-dc73e32a20ef-s3407)
+### [longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-a48036da469a-replay_distillation-a0.3-b0.1-s3407](https://huggingface.co/longtermrisk/Olmo-3-7B-Instruct-replaydistillsftjob-a48036da469a-replay_distillation-a0.3-b0.1-s3407)
 **Author:** longtermrisk  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -1801,594 +353,158 @@
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-lua](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-lua)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [qualia-robotics/smolvla-so101-20260422-0445-fa94e2fb](https://huggingface.co/qualia-robotics/smolvla-so101-20260422-0445-fa94e2fb)
+**Author:** qualia-robotics  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:userresu2026/so101-20260422_0445`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-lt](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-lt)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fpadovani/eng-latn-10mb-after-Dp-ckpt-64-2000](https://huggingface.co/fpadovani/eng-latn-10mb-after-Dp-ckpt-64-2000)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-loz](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-loz)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [qualia-robotics/act-pusht-6295ed08](https://huggingface.co/qualia-robotics/act-pusht-6295ed08)
+**Author:** qualia-robotics  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:lerobot/pusht`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ln](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ln)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [fpadovani/eng-latn-10mb-after-Dp-ckpt-64-1500](https://huggingface.co/fpadovani/eng-latn-10mb-after-Dp-ckpt-64-1500)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-kg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-kg)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [testerforit/LocalAI](https://huggingface.co/testerforit/LocalAI)
+**Author:** testerforit  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `gguf`, `conversational`, `text-generation`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-it](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-it)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [jerome331/kineo-mistral-sport](https://huggingface.co/jerome331/kineo-mistral-sport)
+**Author:** jerome331  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-iso](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-iso)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [kairawal/Qwen3-0.6B-EN-SynthDolly-r16alpha128-E5-S73](https://huggingface.co/kairawal/Qwen3-0.6B-EN-SynthDolly-r16alpha128-E5-S73)
+**Author:** kairawal  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-is](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-is)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [Muhammad241198/act_M16fasten_80](https://huggingface.co/Muhammad241198/act_M16fasten_80)
+**Author:** Muhammad241198  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
-**Languages:** de, is  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `is`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:rbtrprjkt/new_M16nut_fasten_assisted`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ilo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ilo)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [qualia-robotics/act-pusht-bce022ea](https://huggingface.co/qualia-robotics/act-pusht-bce022ea)
+**Author:** qualia-robotics  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:lerobot/pusht`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ig](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ig)
-**Author:** WindstormLabs  
-**Task:** translation  
+### [user-anto/Axiom-Dense-380M-Base](https://huggingface.co/user-anto/Axiom-Dense-380M-Base)
+**Author:** user-anto  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-20  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `axiom`, `text-generation`, `causal-lm`, `base-model`, `custom-architecture`, `tiktoken`, `custom_code`, `dataset:HuggingFaceFW/fineweb-edu`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [sstoica12/acquisition_student_qwen7b_medmcqa_50_alpaca_450_proximity_0_8_diversity_0_19999999999999996](https://huggingface.co/sstoica12/acquisition_student_qwen7b_medmcqa_50_alpaca_450_proximity_0_8_diversity_0_19999999999999996)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-05-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ht](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ht)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ho](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ho)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hil](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-hil)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-he](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-he)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ha](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ha)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-guw](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-guw)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-gil](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-gil)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-gaa](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-gaa)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fr](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fr)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `rust`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fj](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fj)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-fi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-eu](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-eu)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, eu  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `eu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-et](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-et)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-es](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-es)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-eo](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-eo)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-en](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-en)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `rust`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-el](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-el)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-efi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-efi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ee](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ee)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-de](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-de)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-da](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-da)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-cs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-cs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-crs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-crs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ca](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ca)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, ca  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `ca`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bzs](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bzs)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bi](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bi)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bg](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bg)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, bg  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `bg`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bcl](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-bcl)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ase](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ase)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ar](https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-de-ar)
-**Author:** WindstormLabs  
-**Task:** translation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** de, ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `marian`, `translation`, `de`, `ar`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 
 
@@ -2396,4 +512,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-20 20:25 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-20 22:26 UTC*
