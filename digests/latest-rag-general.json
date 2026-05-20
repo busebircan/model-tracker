@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-20T04:10:07.052865+00:00",
-  "model_count": 4,
+  "run_at": "2026-05-20T09:47:23.901052+00:00",
+  "model_count": 11,
   "models": [
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "ARC-Ant/MyAwesomeModel-TestRepo",
+      "author": "ARC-Ant",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-20T04:00:08+00:00",
+      "created_at": "2026-05-20T09:41:48+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ARC-Ant/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,23 +34,75 @@
       ]
     },
     {
-      "id": "sytnaxerror/robbert-L-dbrd-imdb-clap",
-      "author": "sytnaxerror",
-      "name": "robbert-L-dbrd-imdb-clap",
-      "created_at": "2026-05-20T03:53:34+00:00",
+      "id": "thomasavare/Qwen3-Embedding-0.6B-22",
+      "author": "thomasavare",
+      "name": "Qwen3-Embedding-0.6B-22",
+      "created_at": "2026-05-20T09:29:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "ICD10-classification",
+        "safetensors",
+        "model_hub_mixin",
+        "pytorch_model_hub_mixin",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/thomasavare/Qwen3-Embedding-0.6B-22",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "tarudesu/HSD-vibert",
+      "author": "tarudesu",
+      "name": "HSD-vibert",
+      "created_at": "2026-05-20T09:27:37+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "tensorboard",
         "safetensors",
-        "roberta",
+        "bert",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:sytnaxerror/robbert-L-dbrd-imdb",
-        "base_model:finetune:sytnaxerror/robbert-L-dbrd-imdb",
-        "license:mit",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tarudesu/HSD-vibert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Eval-Toolathlon/MyAwesomeModel-TestRepo",
+      "author": "Eval-Toolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-20T09:27:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
@@ -58,48 +110,20 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sytnaxerror/robbert-L-dbrd-imdb-clap",
+      "url": "https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "raghava0450/instruct-pix2pix",
-      "author": "raghava0450",
-      "name": "instruct-pix2pix",
-      "created_at": "2026-05-20T03:52:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-to-image",
-      "tags": [
-        "diffusers",
-        "safetensors",
-        "image-to-image",
-        "license:mit",
-        "diffusers:StableDiffusionInstructPix2PixPipeline",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/raghava0450/instruct-pix2pix",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "TomB0421/MyAwesomeModel-TestRepo",
       "author": "TomB0421",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-20T03:11:11+00:00",
+      "created_at": "2026-05-20T09:15:44+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -122,6 +146,180 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tarudesu/HSD-distilmbert",
+      "author": "tarudesu",
+      "name": "HSD-distilmbert",
+      "created_at": "2026-05-20T09:11:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tarudesu/HSD-distilmbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "tarudesu/HSD-xlmr",
+      "author": "tarudesu",
+      "name": "HSD-xlmr",
+      "created_at": "2026-05-20T09:05:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tarudesu/HSD-xlmr",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "tiam4tt/BGE-Reranker-VietFinance",
+      "author": "tiam4tt",
+      "name": "BGE-Reranker-VietFinance",
+      "created_at": "2026-05-20T09:04:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "xlm-roberta",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tiam4tt/BGE-Reranker-VietFinance",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "egencer9/xlm-roberta-base-fine-tuned",
+      "author": "egencer9",
+      "name": "xlm-roberta-base-fine-tuned",
+      "created_at": "2026-05-20T09:02:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/egencer9/xlm-roberta-base-fine-tuned",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "lovebird-ll/MyAwesomeModel-TestRepo",
+      "author": "lovebird-ll",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-20T08:55:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lovebird-ll/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tarudesu/HSD-mbert",
+      "author": "tarudesu",
+      "name": "HSD-mbert",
+      "created_at": "2026-05-20T08:54:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tarudesu/HSD-mbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
