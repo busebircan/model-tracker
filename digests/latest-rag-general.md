@@ -1,18 +1,32 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-21  
-**Run timestamp:** 2026-05-21 15:42 UTC  
+**Run timestamp:** 2026-05-21 20:05 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 5
+**New models found:** 9
 
 ---
 
 
 
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
+### [Neeraj-Ch0udhary/llmguard-input-guard](https://huggingface.co/Neeraj-Ch0udhary/llmguard-input-guard)
+**Author:** Neeraj-Ch0udhary  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
+**Author:** dongbobo  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-21  
@@ -20,20 +34,6 @@
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Haidy77749/imdb-distilbert-trained](https://huggingface.co/Haidy77749/imdb-distilbert-trained)
-**Author:** Haidy77749  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
@@ -53,12 +53,27 @@
 
 
 
-### [zoarag/emon112](https://huggingface.co/zoarag/emon112)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [rhtoolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/rhtoolathlon/MyAwesomeModel-TestRepo)
+**Author:** rhtoolathlon  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ilex-hub/sugar.lh.norigid.fsaverage6.original.1](https://huggingface.co/ilex-hub/sugar.lh.norigid.fsaverage6.original.1)
+**Author:** ilex-hub  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ilex`, `jax`, `equinox`, `neuroimaging`, `spherical`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -66,16 +81,57 @@
 
 
 
-### [jsanzolac/bpe_glove_300_lora_r300_qwen3_hardnegs_nce_only](https://huggingface.co/jsanzolac/bpe_glove_300_lora_r300_qwen3_hardnegs_nce_only)
-**Author:** jsanzolac  
+### [ilex-hub/sugar.rh.norigid.fsaverage6.1](https://huggingface.co/ilex-hub/sugar.rh.norigid.fsaverage6.1)
+**Author:** ilex-hub  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-05-21  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `glove`, `lora`, `distillation`, `hard-negatives`, `qwen3-embedding`, `dataset:jsanzolac/qwen3_emb_300_packed_cl100k`, `dataset:jsanzolac/qwen3_emb_512_hard_negatives`  
+**Tags:** `ilex`, `jax`, `equinox`, `neuroimaging`, `spherical`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [ilex-hub/sugar.rh.norigid.fsaverage5.1](https://huggingface.co/ilex-hub/sugar.rh.norigid.fsaverage5.1)
+**Author:** ilex-hub  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ilex`, `jax`, `equinox`, `neuroimaging`, `spherical`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [ilex-hub/sugar.rh.norigid.fsaverage4.1](https://huggingface.co/ilex-hub/sugar.rh.norigid.fsaverage4.1)
+**Author:** ilex-hub  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ilex`, `jax`, `equinox`, `neuroimaging`, `spherical`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [ilex-hub/sugar.rh.norigid.fsaverage3.1](https://huggingface.co/ilex-hub/sugar.rh.norigid.fsaverage3.1)
+**Author:** ilex-hub  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ilex`, `jax`, `equinox`, `neuroimaging`, `spherical`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -83,4 +139,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-21 15:42 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-21 20:05 UTC*
