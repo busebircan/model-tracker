@@ -1,23 +1,38 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-20  
-**Run timestamp:** 2026-05-20 22:26 UTC  
+**Date:** 2026-05-21  
+**Run timestamp:** 2026-05-21 04:19 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 7
+**New models found:** 6
 
 ---
 
 
 
-### [av-codes/prompt-injection-minilm-l6](https://huggingface.co/av-codes/prompt-injection-minilm-l6)
-**Author:** av-codes  
+### [ym112/MyAwesomeModel-TestRepo](https://huggingface.co/ym112/MyAwesomeModel-TestRepo)
+**Author:** ym112  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [mhdafifan/indobert-fiqhqa-classifier-tuned](https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier-tuned)
+**Author:** mhdafifan  
 **Task:** text classification  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-20  
+**Published:** 2026-05-21  
+**Languages:** id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `indonesian`, `fiqhqa`, `indobert`, `generated_from_trainer`, `id`, `text-embeddings-inference`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -25,56 +40,27 @@
 
 
 
-### [wuc1/bi_so101_no-use-state](https://huggingface.co/wuc1/bi_so101_no-use-state)
-**Author:** wuc1  
-**Task:** robotics  
+### [HYdsl/FinQA-Table-random-DeBERTa-Reranker](https://huggingface.co/HYdsl/FinQA-Table-random-DeBERTa-Reranker)
+**Author:** HYdsl  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
+**Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:wuc1/bi_so101_flatten-and-fold-the-rag-then-place-0416-0417-merge`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
 
 ---
 
 
 
-### [agentlans/GIST-small-c4-en-industry_corpus2](https://huggingface.co/agentlans/GIST-small-c4-en-industry_corpus2)
-**Author:** agentlans  
-**Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-20  
+### [Leonora123/RAGProject](https://huggingface.co/Leonora123/RAGProject)
+**Author:** Leonora123  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-21  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `sequence-classification`, `dataset:agentlans/en-document-classification`, `model-index`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [cassieyu74/MyAwesomeModel-TestRepo](https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo)
-**Author:** cassieyu74  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Muapi/the-tragecally-hip-chinese-ink-wash-style-xu-beihong](https://huggingface.co/Muapi/the-tragecally-hip-chinese-ink-wash-style-xu-beihong)
-**Author:** Muapi  
-**Task:** text to image  
-**License:** `openrail++` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `lora`, `text-to-image`, `stable-diffusion`, `flux`, `flux.1-d`  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -82,11 +68,11 @@
 
 
 
-### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
-**Author:** WinderBYZ  
+### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
+**Author:** dongbobo  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-20  
+**Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -96,16 +82,15 @@
 
 
 
-### [mradermacher/PLLuM-12B-base-2508-GGUF](https://huggingface.co/mradermacher/PLLuM-12B-base-2508-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-20  
-**Languages:** pl  
+### [mhdafifan/indobert-fiqhqa-classifier](https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier)
+**Author:** mhdafifan  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `pl`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -113,4 +98,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-20 22:26 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-21 04:19 UTC*
