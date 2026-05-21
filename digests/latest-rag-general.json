@@ -1,14 +1,70 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-21T04:19:04.238452+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-21T09:55:15.389196+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "ym112/MyAwesomeModel-TestRepo",
-      "author": "ym112",
+      "id": "DragonAura/VidRec",
+      "author": "DragonAura",
+      "name": "VidRec",
+      "created_at": "2026-05-21T09:52:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3_vl",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DragonAura/VidRec",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "YuvarajK-g25ait2054/distilbert-goodreads-genres-V2",
+      "author": "YuvarajK-g25ait2054",
+      "name": "distilbert-goodreads-genres-V2",
+      "created_at": "2026-05-21T09:52:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YuvarajK-g25ait2054/distilbert-goodreads-genres-V2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-21T04:15:03+00:00",
+      "created_at": "2026-05-21T09:49:42+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +80,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ym112/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +90,10 @@
       ]
     },
     {
-      "id": "mhdafifan/indobert-fiqhqa-classifier-tuned",
-      "author": "mhdafifan",
-      "name": "indobert-fiqhqa-classifier-tuned",
-      "created_at": "2026-05-21T04:10:33+00:00",
+      "id": "seonghunz/nsmc-sentiment",
+      "author": "seonghunz",
+      "name": "nsmc-sentiment",
+      "created_at": "2026-05-21T09:47:35+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -45,97 +101,84 @@
         "safetensors",
         "bert",
         "text-classification",
-        "indonesian",
-        "fiqhqa",
-        "indobert",
-        "generated_from_trainer",
-        "id",
-        "base_model:indobenchmark/indobert-base-p1",
-        "base_model:finetune:indobenchmark/indobert-base-p1",
-        "license:mit",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier-tuned",
+      "url": "https://huggingface.co/seonghunz/nsmc-sentiment",
       "description": null,
-      "languages": [
-        "id"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "HYdsl/FinQA-Table-random-DeBERTa-Reranker",
-      "author": "HYdsl",
-      "name": "FinQA-Table-random-DeBERTa-Reranker",
-      "created_at": "2026-05-21T04:05:24+00:00",
+      "id": "fassabilf/umbrela-indo-ir-reranker-qwen",
+      "author": "fassabilf",
+      "name": "umbrela-indo-ir-reranker-qwen",
+      "created_at": "2026-05-21T09:46:37+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "license:apache-2.0",
+        "safetensors",
+        "xlm-roberta",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HYdsl/FinQA-Table-random-DeBERTa-Reranker",
+      "url": "https://huggingface.co/fassabilf/umbrela-indo-ir-reranker-qwen",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: reranker (name)"
       ]
     },
     {
-      "id": "Leonora123/RAGProject",
-      "author": "Leonora123",
-      "name": "RAGProject",
-      "created_at": "2026-05-21T04:01:39+00:00",
+      "id": "nimbus8858/promptshield-deberta-v3-small",
+      "author": "nimbus8858",
+      "name": "promptshield-deberta-v3-small",
+      "created_at": "2026-05-21T09:40:23+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
+        "deberta-v2",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Leonora123/RAGProject",
+      "url": "https://huggingface.co/nimbus8858/promptshield-deberta-v3-small",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-21T03:48:40+00:00",
+      "created_at": "2026-05-21T09:37:44+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -149,7 +192,7 @@
       ],
       "license": "mit",
       "downloads": 0,
-      "likes": 0,
+      "likes": 1,
       "params_billions": null,
       "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
@@ -161,22 +204,18 @@
       ]
     },
     {
-      "id": "mhdafifan/indobert-fiqhqa-classifier",
-      "author": "mhdafifan",
-      "name": "indobert-fiqhqa-classifier",
-      "created_at": "2026-05-21T03:47:29+00:00",
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-21T09:31:34+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
+        "pytorch",
         "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:indobenchmark/indobert-base-p1",
-        "base_model:finetune:indobenchmark/indobert-base-p1",
+        "feature-extraction",
         "license:mit",
-        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -184,11 +223,41 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier",
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "chloeleya/finbert-fine-tuned-topic-model",
+      "author": "chloeleya",
+      "name": "finbert-fine-tuned-topic-model",
+      "created_at": "2026-05-21T09:18:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/chloeleya/finbert-fine-tuned-topic-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]

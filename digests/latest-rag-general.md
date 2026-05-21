@@ -1,18 +1,46 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-21  
-**Run timestamp:** 2026-05-21 04:19 UTC  
+**Run timestamp:** 2026-05-21 09:55 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 6
+**New models found:** 9
 
 ---
 
 
 
-### [ym112/MyAwesomeModel-TestRepo](https://huggingface.co/ym112/MyAwesomeModel-TestRepo)
-**Author:** ym112  
+### [DragonAura/VidRec](https://huggingface.co/DragonAura/VidRec)
+**Author:** DragonAura  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_vl`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [YuvarajK-g25ait2054/distilbert-goodreads-genres-V2](https://huggingface.co/YuvarajK-g25ait2054/distilbert-goodreads-genres-V2)
+**Author:** YuvarajK-g25ait2054  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
+**Author:** mazextest2026  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-21  
@@ -25,14 +53,13 @@
 
 
 
-### [mhdafifan/indobert-fiqhqa-classifier-tuned](https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier-tuned)
-**Author:** mhdafifan  
+### [seonghunz/nsmc-sentiment](https://huggingface.co/seonghunz/nsmc-sentiment)
+**Author:** seonghunz  
 **Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-21  
-**Languages:** id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `indonesian`, `fiqhqa`, `indobert`, `generated_from_trainer`, `id`, `text-embeddings-inference`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -40,12 +67,13 @@
 
 
 
-### [HYdsl/FinQA-Table-random-DeBERTa-Reranker](https://huggingface.co/HYdsl/FinQA-Table-random-DeBERTa-Reranker)
-**Author:** HYdsl  
+### [fassabilf/umbrela-indo-ir-reranker-qwen](https://huggingface.co/fassabilf/umbrela-indo-ir-reranker-qwen)
+**Author:** fassabilf  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
 
@@ -53,16 +81,15 @@
 
 
 
-### [Leonora123/RAGProject](https://huggingface.co/Leonora123/RAGProject)
-**Author:** Leonora123  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [nimbus8858/promptshield-deberta-v3-small](https://huggingface.co/nimbus8858/promptshield-deberta-v3-small)
+**Author:** nimbus8858  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-21  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `deberta-v2`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
@@ -73,6 +100,20 @@
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-21  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
+**Author:** XiAT  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-21  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -82,13 +123,13 @@
 
 
 
-### [mhdafifan/indobert-fiqhqa-classifier](https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier)
-**Author:** mhdafifan  
+### [chloeleya/finbert-fine-tuned-topic-model](https://huggingface.co/chloeleya/finbert-fine-tuned-topic-model)
+**Author:** chloeleya  
 **Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -98,4 +139,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-21 04:19 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-21 09:55 UTC*
