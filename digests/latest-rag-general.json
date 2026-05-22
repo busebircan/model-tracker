@@ -1,43 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-22T04:14:22.844115+00:00",
-  "model_count": 5,
+  "run_at": "2026-05-22T09:40:07.053000+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "nyleeaa0503/MyAwesomeModel-TestRepo",
-      "author": "nyleeaa0503",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T03:52:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "cassieyu74/MyAwesomeModel-TestRepo",
-      "author": "cassieyu74",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T03:30:10+00:00",
+      "created_at": "2026-05-22T09:36:31+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,43 +34,152 @@
       ]
     },
     {
-      "id": "slim0001/bct-l12-reranker",
-      "author": "slim0001",
-      "name": "bct-l12-reranker",
-      "created_at": "2026-05-22T03:12:25+00:00",
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-22T09:35:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "wuc1/bi_so101_flatten-and-fold-the-rag-then-place-use-state-0522-2",
+      "author": "wuc1",
+      "name": "bi_so101_flatten-and-fold-the-rag-then-place-use-state-0522-2",
+      "created_at": "2026-05-22T09:34:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:wuc1/bi_so101_flatten-and-fold-the-rag-then-place-0416-0417-merge",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/wuc1/bi_so101_flatten-and-fold-the-rag-then-place-use-state-0522-2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "mradermacher/MiMo-V2.5-i1-GGUF",
+      "author": "mradermacher",
+      "name": "MiMo-V2.5-i1-GGUF",
+      "created_at": "2026-05-22T09:27:24+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "transformers",
+        "gguf",
+        "multimodal",
+        "vision-language",
+        "audio",
+        "agent",
+        "video-understanding",
+        "long-context",
+        "en",
+        "zh",
+        "base_model:XiaomiMiMo/MiMo-V2.5",
+        "base_model:quantized:XiaomiMiMo/MiMo-V2.5",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/MiMo-V2.5-i1-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "Rajath-g25ait2079/distilbert-goodreads-genres",
+      "author": "Rajath-g25ait2079",
+      "name": "distilbert-goodreads-genres",
+      "created_at": "2026-05-22T09:25:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/slim0001/bct-l12-reranker",
+      "url": "https://huggingface.co/Rajath-g25ait2079/distilbert-goodreads-genres",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: reranker (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "zoarag/Lonk69TheGreat",
-      "author": "zoarag",
-      "name": "Lonk69TheGreat",
-      "created_at": "2026-05-22T03:02:36+00:00",
+      "id": "honestdragon/distil-0.1",
+      "author": "honestdragon",
+      "name": "distil-0.1",
+      "created_at": "2026-05-22T09:10:41+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "license:unknown",
         "region:us"
       ],
-      "license": null,
+      "license": "unknown",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Lonk69TheGreat",
+      "url": "https://huggingface.co/honestdragon/distil-0.1",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -109,10 +189,37 @@
       ]
     },
     {
-      "id": "Minhkizo/roberta-ai-detector-v3",
+      "id": "KtiseosNyx/Embeddings_2026",
+      "author": "KtiseosNyx",
+      "name": "Embeddings_2026",
+      "created_at": "2026-05-22T09:09:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "dataset:EarthnDusk/XL_PDXL_Embeddings",
+        "base_model:KtiseosNyx/2026_Trained_Loras",
+        "base_model:finetune:KtiseosNyx/2026_Trained_Loras",
+        "license:creativeml-openrail-m",
+        "region:us"
+      ],
+      "license": "creativeml-openrail-m",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/KtiseosNyx/Embeddings_2026",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Minhkizo/roberta-ai-detector-v4",
       "author": "Minhkizo",
-      "name": "roberta-ai-detector-v3",
-      "created_at": "2026-05-22T02:50:21+00:00",
+      "name": "roberta-ai-detector-v4",
+      "created_at": "2026-05-22T09:07:01+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -129,13 +236,72 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Minhkizo/roberta-ai-detector-v3",
+      "url": "https://huggingface.co/Minhkizo/roberta-ai-detector-v4",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "G25AIT2100/distilbert",
+      "author": "G25AIT2100",
+      "name": "distilbert",
+      "created_at": "2026-05-22T08:43:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/G25AIT2100/distilbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-22T08:42:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
