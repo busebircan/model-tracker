@@ -1,238 +1,53 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-22T19:57:24.987139+00:00",
-  "model_count": 13,
+  "run_at": "2026-05-22T22:12:51.615906+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "rhtoolathlon2/MyAwesomeModel-TestRepo",
-      "author": "rhtoolathlon2",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T19:40:12+00:00",
+      "id": "TeraflopAI/teraflopai-qwen-600m-caselaw",
+      "author": "TeraflopAI",
+      "name": "teraflopai-qwen-600m-caselaw",
+      "created_at": "2026-05-22T21:55:46+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rhtoolathlon2/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "TomB0421/MyAwesomeModel-TestRepo",
-      "author": "TomB0421",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T19:36:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "AmrMohamed21/arabert-fake-news",
-      "author": "AmrMohamed21",
-      "name": "arabert-fake-news",
-      "created_at": "2026-05-22T19:35:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AmrMohamed21/arabert-fake-news",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "yesimolina/tlamatini-roberta-v4",
-      "author": "yesimolina",
-      "name": "tlamatini-roberta-v4",
-      "created_at": "2026-05-22T19:28:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/yesimolina/tlamatini-roberta-v4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "anuragmishrarock/tourism-wellness-model",
-      "author": "anuragmishrarock",
-      "name": "tourism-wellness-model",
-      "created_at": "2026-05-22T19:20:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "tabular-classification",
-      "tags": [
-        "sklearn",
-        "tabular-classification",
-        "tourism",
-        "wellness",
-        "xgboost",
-        "en",
-        "dataset:anuragmishrarock/tourism-wellness-dataset",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/anuragmishrarock/tourism-wellness-model",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "Jihyung803/Qwen3-14B-PragReST-RawQA-FullFT1",
-      "author": "Jihyung803",
-      "name": "Qwen3-14B-PragReST-RawQA-FullFT1",
-      "created_at": "2026-05-22T19:16:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
+        "sentence-transformers",
         "safetensors",
         "qwen3",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:36118859",
+        "loss:MatryoshkaLoss",
+        "loss:CachedMultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:2205.13147",
+        "arxiv:2101.06983",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Jihyung803/Qwen3-14B-PragReST-RawQA-FullFT1",
+      "url": "https://huggingface.co/TeraflopAI/teraflopai-qwen-600m-caselaw",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     },
     {
-      "id": "williamium/indirect_rag",
-      "author": "williamium",
-      "name": "indirect_rag",
-      "created_at": "2026-05-22T19:11:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/williamium/indirect_rag",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "IMP-MOCE/bookrag-qwen4b-ftv3-merged",
-      "author": "IMP-MOCE",
-      "name": "bookrag-qwen4b-ftv3-merged",
-      "created_at": "2026-05-22T19:01:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3_5_text",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/IMP-MOCE/bookrag-qwen4b-ftv3-merged",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "cassieyu74/MyAwesomeModel-TestRepo",
-      "author": "cassieyu74",
+      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
+      "author": "arenatoolathon-hf",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T19:00:39+00:00",
+      "created_at": "2026-05-22T21:55:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -248,20 +63,89 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "TeraflopAI/teraflopai-embedding-gemma-caselaw",
+      "author": "TeraflopAI",
+      "name": "teraflopai-embedding-gemma-caselaw",
+      "created_at": "2026-05-22T21:47:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "gemma3_text",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:36118859",
+        "loss:MatryoshkaLoss",
+        "loss:CachedMultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:2205.13147",
+        "arxiv:2101.06983",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TeraflopAI/teraflopai-embedding-gemma-caselaw",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "Loayberzan/sentiment-analysis-distilbert",
+      "author": "Loayberzan",
+      "name": "sentiment-analysis-distilbert",
+      "created_at": "2026-05-22T21:43:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Loayberzan/sentiment-analysis-distilbert",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     },
     {
       "id": "petra345/MyAwesomeModel-TestRepo",
       "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T18:52:48+00:00",
+      "created_at": "2026-05-22T21:35:28+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -287,46 +171,22 @@
       ]
     },
     {
-      "id": "infinitylogesh/Qwen3.5-0.8-video-embeddings-adapters-v0.1",
-      "author": "infinitylogesh",
-      "name": "Qwen3.5-0.8-video-embeddings-adapters-v0.1",
-      "created_at": "2026-05-22T18:47:51+00:00",
+      "id": "Jihyung803/Gemma4-E4B-PragReST-FullFT2",
+      "author": "Jihyung803",
+      "name": "Gemma4-E4B-PragReST-FullFT2",
+      "created_at": "2026-05-22T21:14:00+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
+        "gemma4",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/infinitylogesh/Qwen3.5-0.8-video-embeddings-adapters-v0.1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings (name), embedding (name)"
-      ]
-    },
-    {
-      "id": "minchaoh2002/Qwen3-8B-pragrest-weight-2-no-easy-4-epoch_step_28",
-      "author": "minchaoh2002",
-      "name": "Qwen3-8B-pragrest-weight-2-no-easy-4-epoch_step_28",
-      "created_at": "2026-05-22T18:44:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-weight-2-no-easy-4-epoch_step_28",
+      "url": "https://huggingface.co/Jihyung803/Gemma4-E4B-PragReST-FullFT2",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -336,10 +196,10 @@
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-22T18:42:12+00:00",
+      "created_at": "2026-05-22T21:12:12+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -355,13 +215,49 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "shalyhinpavel/harrier-v1-270m-gguf",
+      "author": "shalyhinpavel",
+      "name": "harrier-v1-270m-gguf",
+      "created_at": "2026-05-22T21:04:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "feature-extraction",
+        "text-embeddings",
+        "harrier",
+        "rust",
+        "multilingual",
+        "base_model:microsoft/harrier-oss-v1-270m",
+        "base_model:quantized:microsoft/harrier-oss-v1-270m",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/shalyhinpavel/harrier-v1-270m-gguf",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
       ]
     }
   ]
