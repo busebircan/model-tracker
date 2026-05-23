@@ -1,65 +1,55 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-05-22  
-**Run timestamp:** 2026-05-22 22:12 UTC  
+**Date:** 2026-05-23  
+**Run timestamp:** 2026-05-23 03:52 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 7
 
 ---
 
 
 
-### [TeraflopAI/teraflopai-qwen-600m-caselaw](https://huggingface.co/TeraflopAI/teraflopai-qwen-600m-caselaw)
-**Author:** TeraflopAI  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-22  
+### [brendan-gho/qwen2.5-1.5b-liminal-dragon-cot-seed1-mcq](https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-dragon-cot-seed1-mcq)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `qwen3`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:36118859`, `loss:MatryoshkaLoss`, `loss:CachedMultipleNegativesRankingLoss`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [arenatoolathon-hf/MyAwesomeModel-TestRepo](https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo)
-**Author:** arenatoolathon-hf  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-22  
+### [brendan-gho/qwen2.5-1.5b-dragon-cot-seed1-mcq](https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-cot-seed1-mcq)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TeraflopAI/teraflopai-embedding-gemma-caselaw](https://huggingface.co/TeraflopAI/teraflopai-embedding-gemma-caselaw)
-**Author:** TeraflopAI  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `gemma3_text`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:36118859`, `loss:MatryoshkaLoss`, `loss:CachedMultipleNegativesRankingLoss`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [Loayberzan/sentiment-analysis-distilbert](https://huggingface.co/Loayberzan/sentiment-analysis-distilbert)
-**Author:** Loayberzan  
+### [chozae/nsmc-sentiment](https://huggingface.co/chozae/nsmc-sentiment)
+**Author:** chozae  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-22  
+**Published:** 2026-05-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -71,7 +61,7 @@
 **Author:** petra345  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-22  
+**Published:** 2026-05-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -81,44 +71,44 @@
 
 
 
-### [Jihyung803/Gemma4-E4B-PragReST-FullFT2](https://huggingface.co/Jihyung803/Gemma4-E4B-PragReST-FullFT2)
-**Author:** Jihyung803  
-**Task:** general  
+### [hhhhhyeonnnnn/nsmc-sentiment](https://huggingface.co/hhhhhyeonnnnn/nsmc-sentiment)
+**Author:** hhhhhyeonnnnn  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-22  
+**Published:** 2026-05-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-22  
+### [anjungh0103/nsmc-sentiment-demo](https://huggingface.co/anjungh0103/nsmc-sentiment-demo)
+**Author:** anjungh0103  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [shalyhinpavel/harrier-v1-270m-gguf](https://huggingface.co/shalyhinpavel/harrier-v1-270m-gguf)
-**Author:** shalyhinpavel  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-22  
-**Languages:** multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `feature-extraction`, `text-embeddings`, `harrier`, `rust`, `multilingual`, `endpoints_compatible`  
+### [SergioParra/beto-clasificacion-reclamos](https://huggingface.co/SergioParra/beto-clasificacion-reclamos)
+**Author:** SergioParra  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-23  
+**Languages:** es  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `bert`, `text-classification`, `es`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -126,4 +116,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-22 22:12 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-23 03:52 UTC*
