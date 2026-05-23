@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-23T16:05:44.246554+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-23T19:20:21.097364+00:00",
+  "model_count": 3,
   "models": [
     {
       "id": "mingye-eigenai/MyAwesomeModel-TestRepo",
       "author": "mingye-eigenai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T16:03:02+00:00",
+      "created_at": "2026-05-23T19:14:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,117 +34,49 @@
       ]
     },
     {
-      "id": "SaeedLab/SeqScreen-lora",
-      "author": "SaeedLab",
-      "name": "SeqScreen-lora",
-      "created_at": "2026-05-23T15:33:41+00:00",
+      "id": "dimaregaisia/bge-reranker-fintech-tuned",
+      "author": "dimaregaisia",
+      "name": "bge-reranker-fintech-tuned",
+      "created_at": "2026-05-23T18:55:09+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
         "peft",
         "safetensors",
-        "proteins",
-        "molecules",
-        "bioinformatics",
-        "drug-discovery",
-        "feature-extraction",
-        "transformers",
+        "base_model:adapter:BAAI/bge-reranker-v2-m3",
         "lora",
-        "dataset:SaeedLab/SeqScreen",
-        "base_model:facebook/esm2_t36_3B_UR50D",
-        "base_model:adapter:facebook/esm2_t36_3B_UR50D",
-        "license:cc-by-nc-nd-4.0",
-        "region:us"
-      ],
-      "license": "cc-by-nc-nd-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SaeedLab/SeqScreen-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Rewan-2004/cmpe346-assignment02",
-      "author": "Rewan-2004",
-      "name": "cmpe346-assignment02",
-      "created_at": "2026-05-23T15:20:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
         "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
         "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "base_model:BAAI/bge-reranker-v2-m3",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Rewan-2004/cmpe346-assignment02",
+      "url": "https://huggingface.co/dimaregaisia/bge-reranker-fintech-tuned",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: reranker"
       ]
     },
     {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T14:56:26+00:00",
+      "id": "xuan-luo/aha-llama-ckpt",
+      "author": "xuan-luo",
+      "name": "aha-llama-ckpt",
+      "created_at": "2026-05-23T18:46:52+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Sophia-AI/bge-reranker-v2-m3-onnx",
-      "author": "Sophia-AI",
-      "name": "bge-reranker-v2-m3-onnx",
-      "created_at": "2026-05-23T14:52:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-ranking",
-      "tags": [
-        "onnxruntime",
-        "onnx",
-        "xlm-roberta",
-        "reranker",
-        "cross-encoder",
-        "text-ranking",
-        "multilingual",
-        "base_model:BAAI/bge-reranker-v2-m3",
-        "base_model:quantized:BAAI/bge-reranker-v2-m3",
+        "aha",
+        "duo-attention",
+        "long-context",
+        "llama",
+        "base_model:gradientai/Llama-3-8B-Instruct-Gradient-1048k",
+        "base_model:finetune:gradientai/Llama-3-8B-Instruct-Gradient-1048k",
         "license:apache-2.0",
         "region:us"
       ],
@@ -152,54 +84,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Sophia-AI/bge-reranker-v2-m3-onnx",
+      "url": "https://huggingface.co/xuan-luo/aha-llama-ckpt",
       "description": null,
-      "languages": [
-        "multilingual"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: text-ranking",
-        "tag match: reranker, cross-encoder"
-      ]
-    },
-    {
-      "id": "Sophia-AI/bge-m3-onnx",
-      "author": "Sophia-AI",
-      "name": "bge-m3-onnx",
-      "created_at": "2026-05-23T14:52:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "onnxruntime",
-        "onnx",
-        "embeddings",
-        "bge-m3",
-        "dense",
-        "sparse",
-        "colbert",
-        "multilingual",
-        "feature-extraction",
-        "base_model:BAAI/bge-m3",
-        "base_model:quantized:BAAI/bge-m3",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Sophia-AI/bge-m3-onnx",
-      "description": null,
-      "languages": [
-        "multilingual"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
+        "tag match: long-context"
       ]
     }
   ]
