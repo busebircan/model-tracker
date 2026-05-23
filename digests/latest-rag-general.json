@@ -1,44 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-23T08:26:58.410978+00:00",
-  "model_count": 14,
+  "run_at": "2026-05-23T10:40:04.352588+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "Zhu199/distilbert-imdb-sentiment",
-      "author": "Zhu199",
-      "name": "distilbert-imdb-sentiment",
-      "created_at": "2026-05-23T08:26:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Zhu199/distilbert-imdb-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "WinderBYZ/MyAwesomeModel-TestRepo",
+      "author": "WinderBYZ",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T08:18:24+00:00",
+      "created_at": "2026-05-23T10:30:52+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -54,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -64,337 +34,10 @@
       ]
     },
     {
-      "id": "gtensorapp/sn24-gucci-v3",
-      "author": "gtensorapp",
-      "name": "sn24-gucci-v3",
-      "created_at": "2026-05-23T08:16:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "quasar",
-        "text-generation",
-        "silx-ai",
-        "foundation-model",
-        "3b",
-        "moe",
-        "long-context",
-        "bittensor",
-        "sn24",
-        "distillation",
-        "hybrid-transformer",
-        "conversational",
-        "custom_code",
-        "en",
-        "ar",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gtensorapp/sn24-gucci-v3",
-      "description": null,
-      "languages": [
-        "en",
-        "ar"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
-      "created_at": "2026-05-23T08:02:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
-      "created_at": "2026-05-23T08:02:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
-      "created_at": "2026-05-23T08:02:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
-      "created_at": "2026-05-23T08:01:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
-      "created_at": "2026-05-23T08:01:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
-      "author": "hanspeterlyngsoeraaschoujensen",
-      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
-      "created_at": "2026-05-23T07:48:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "softmax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "gtensorapp/sn24-gucci-v2",
-      "author": "gtensorapp",
-      "name": "sn24-gucci-v2",
-      "created_at": "2026-05-23T07:47:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "quasar",
-        "text-generation",
-        "silx-ai",
-        "foundation-model",
-        "3b",
-        "moe",
-        "long-context",
-        "bittensor",
-        "sn24",
-        "distillation",
-        "hybrid-transformer",
-        "conversational",
-        "custom_code",
-        "en",
-        "ar",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gtensorapp/sn24-gucci-v2",
-      "description": null,
-      "languages": [
-        "en",
-        "ar"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
-      "id": "sfeng-web/CustomModel_yelp",
-      "author": "sfeng-web",
-      "name": "CustomModel_yelp",
-      "created_at": "2026-05-23T07:47:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sfeng-web/CustomModel_yelp",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "cassieyu74/MyAwesomeModel-TestRepo",
-      "author": "cassieyu74",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T07:23:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 1233,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "AI4free/JARVIS-tool-search-v2",
-      "author": "AI4free",
-      "name": "JARVIS-tool-search-v2",
-      "created_at": "2026-05-23T07:23:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:421264",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:minishlab/potion-base-8M",
-        "base_model:finetune:minishlab/potion-base-8M",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AI4free/JARVIS-tool-search-v2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: sentence-transformers"
-      ]
-    },
-    {
-      "id": "Ar2rka85/xlm-roberta-fashion-advisor",
-      "author": "Ar2rka85",
-      "name": "xlm-roberta-fashion-advisor",
-      "created_at": "2026-05-23T06:56:40+00:00",
+      "id": "homusta/xlm-lang-id-52",
+      "author": "homusta",
+      "name": "xlm-lang-id-52",
+      "created_at": "2026-05-23T10:21:32+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -402,11 +45,37 @@
         "safetensors",
         "xlm-roberta",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:FacebookAI/xlm-roberta-base",
-        "base_model:finetune:FacebookAI/xlm-roberta-base",
-        "license:mit",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/homusta/xlm-lang-id-52",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-23T10:17:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
@@ -414,13 +83,140 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Ar2rka85/xlm-roberta-fashion-advisor",
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Adc05102002/bge-m3-vi-tune",
+      "author": "Adc05102002",
+      "name": "bge-m3-vi-tune",
+      "created_at": "2026-05-23T10:13:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "xlm-roberta",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:5516",
+        "loss:CachedMultipleNegativesRankingLoss",
+        "dataset:Adc05102002/zalo-legal",
+        "arxiv:1908.10084",
+        "arxiv:2101.06983",
+        "base_model:Adc05102002/bge-m3-vi-base",
+        "base_model:finetune:Adc05102002/bge-m3-vi-base",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Adc05102002/bge-m3-vi-tune",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "bqbbao6/VN_legal_embedding_v3",
+      "author": "bqbbao6",
+      "name": "VN_legal_embedding_v3",
+      "created_at": "2026-05-23T09:55:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bqbbao6/VN_legal_embedding_v3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "PhilLel/bge-reranker-v2-m3-merged-r16-a32",
+      "author": "PhilLel",
+      "name": "bge-reranker-v2-m3-merged-r16-a32",
+      "created_at": "2026-05-23T09:45:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "xlm-roberta",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PhilLel/bge-reranker-v2-m3-merged-r16-a32",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "ryma-tharouma/bge-m3-finetuned_v1",
+      "author": "ryma-tharouma",
+      "name": "bge-m3-finetuned_v1",
+      "created_at": "2026-05-23T09:45:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "xlm-roberta",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:2000",
+        "loss:TripletLoss",
+        "arxiv:1908.10084",
+        "arxiv:1703.07737",
+        "base_model:BAAI/bge-m3",
+        "base_model:finetune:BAAI/bge-m3",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ryma-tharouma/bge-m3-finetuned_v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     }
   ]
