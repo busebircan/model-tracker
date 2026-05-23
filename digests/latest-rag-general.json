@@ -1,88 +1,20 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-23T03:52:42.766254+00:00",
-  "model_count": 7,
+  "run_at": "2026-05-23T08:26:58.410978+00:00",
+  "model_count": 14,
   "models": [
     {
-      "id": "brendan-gho/qwen2.5-1.5b-liminal-dragon-cot-seed1-mcq",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-liminal-dragon-cot-seed1-mcq",
-      "created_at": "2026-05-23T03:43:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-dragon-cot-seed1-mcq",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-1.5b-dragon-cot-seed1-mcq",
-      "author": "brendan-gho",
-      "name": "qwen2.5-1.5b-dragon-cot-seed1-mcq",
-      "created_at": "2026-05-23T03:35:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-dragon-cot-seed1-mcq",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "chozae/nsmc-sentiment",
-      "author": "chozae",
-      "name": "nsmc-sentiment",
-      "created_at": "2026-05-23T03:16:47+00:00",
+      "id": "Zhu199/distilbert-imdb-sentiment",
+      "author": "Zhu199",
+      "name": "distilbert-imdb-sentiment",
+      "created_at": "2026-05-23T08:26:13+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "bert",
+        "distilbert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -93,7 +25,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chozae/nsmc-sentiment",
+      "url": "https://huggingface.co/Zhu199/distilbert-imdb-sentiment",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -103,10 +35,10 @@
       ]
     },
     {
-      "id": "petra345/MyAwesomeModel-TestRepo",
-      "author": "petra345",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T02:59:03+00:00",
+      "created_at": "2026-05-23T08:18:24+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -122,7 +54,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -132,96 +64,361 @@
       ]
     },
     {
-      "id": "hhhhhyeonnnnn/nsmc-sentiment",
-      "author": "hhhhhyeonnnnn",
-      "name": "nsmc-sentiment",
-      "created_at": "2026-05-23T02:47:35+00:00",
+      "id": "gtensorapp/sn24-gucci-v3",
+      "author": "gtensorapp",
+      "name": "sn24-gucci-v3",
+      "created_at": "2026-05-23T08:16:09+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
         "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "quasar",
+        "text-generation",
+        "silx-ai",
+        "foundation-model",
+        "3b",
+        "moe",
+        "long-context",
+        "bittensor",
+        "sn24",
+        "distillation",
+        "hybrid-transformer",
+        "conversational",
+        "custom_code",
+        "en",
+        "ar",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gtensorapp/sn24-gucci-v3",
+      "description": null,
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
+      "created_at": "2026-05-23T08:02:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "softmax",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/hhhhhyeonnnnn/nsmc-sentiment",
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24with_question_embedding-1-0-20260522-235359",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "anjungh0103/nsmc-sentiment-demo",
-      "author": "anjungh0103",
-      "name": "nsmc-sentiment-demo",
-      "created_at": "2026-05-23T02:46:39+00:00",
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
+      "created_at": "2026-05-23T08:02:39+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "softmax",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anjungh0103/nsmc-sentiment-demo",
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_24without_question_embedding-1-0-20260523-000400",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "SergioParra/beto-clasificacion-reclamos",
-      "author": "SergioParra",
-      "name": "beto-clasificacion-reclamos",
-      "created_at": "2026-05-23T02:35:30+00:00",
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
+      "created_at": "2026-05-23T08:02:14+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "es",
-        "arxiv:1910.09700",
-        "base_model:dccuchile/bert-base-spanish-wwm-uncased",
-        "base_model:finetune:dccuchile/bert-base-spanish-wwm-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "softmax",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16with_question_embedding-1-0-20260522-231635",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
+      "created_at": "2026-05-23T08:01:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "softmax",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 1,
       "params_billions": null,
-      "url": "https://huggingface.co/SergioParra/beto-clasificacion-reclamos",
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_16without_question_embedding-1-0-20260522-231635",
       "description": null,
-      "languages": [
-        "es"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
+      "created_at": "2026-05-23T08:01:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "softmax",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8with_question_embedding-1-0-20260522-231636",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
+      "author": "hanspeterlyngsoeraaschoujensen",
+      "name": "Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
+      "created_at": "2026-05-23T07:48:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "softmax",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hanspeterlyngsoeraaschoujensen/Qwen3-0.6B-softmax-1-linear-hidden_states_layer_8without_question_embedding-1-0-20260522-231635",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "gtensorapp/sn24-gucci-v2",
+      "author": "gtensorapp",
+      "name": "sn24-gucci-v2",
+      "created_at": "2026-05-23T07:47:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "quasar",
+        "text-generation",
+        "silx-ai",
+        "foundation-model",
+        "3b",
+        "moe",
+        "long-context",
+        "bittensor",
+        "sn24",
+        "distillation",
+        "hybrid-transformer",
+        "conversational",
+        "custom_code",
+        "en",
+        "ar",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gtensorapp/sn24-gucci-v2",
+      "description": null,
+      "languages": [
+        "en",
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "sfeng-web/CustomModel_yelp",
+      "author": "sfeng-web",
+      "name": "CustomModel_yelp",
+      "created_at": "2026-05-23T07:47:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sfeng-web/CustomModel_yelp",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "cassieyu74/MyAwesomeModel-TestRepo",
+      "author": "cassieyu74",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-23T07:23:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 1233,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/cassieyu74/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "AI4free/JARVIS-tool-search-v2",
+      "author": "AI4free",
+      "name": "JARVIS-tool-search-v2",
+      "created_at": "2026-05-23T07:23:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:421264",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "base_model:minishlab/potion-base-8M",
+        "base_model:finetune:minishlab/potion-base-8M",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AI4free/JARVIS-tool-search-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: sentence-transformers"
+      ]
+    },
+    {
+      "id": "Ar2rka85/xlm-roberta-fashion-advisor",
+      "author": "Ar2rka85",
+      "name": "xlm-roberta-fashion-advisor",
+      "created_at": "2026-05-23T06:56:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:FacebookAI/xlm-roberta-base",
+        "base_model:finetune:FacebookAI/xlm-roberta-base",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Ar2rka85/xlm-roberta-fashion-advisor",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
