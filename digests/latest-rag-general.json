@@ -1,323 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-23T13:50:17.760352+00:00",
-  "model_count": 13,
+  "run_at": "2026-05-23T16:05:44.246554+00:00",
+  "model_count": 6,
   "models": [
-    {
-      "id": "johanbkg2513/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "author": "johanbkg2513",
-      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "created_at": "2026-05-23T13:34:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/johanbkg2513/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "birunthabanr/muril-large-binary-classifier",
-      "author": "birunthabanr",
-      "name": "muril-large-binary-classifier",
-      "created_at": "2026-05-23T13:32:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/birunthabanr/muril-large-binary-classifier",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "g25ait2046/distilbert-goodreads-genres",
-      "author": "g25ait2046",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-23T13:14:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/g25ait2046/distilbert-goodreads-genres",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "zoarag/PlantSerious",
-      "author": "zoarag",
-      "name": "PlantSerious",
-      "created_at": "2026-05-23T13:02:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/PlantSerious",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "zoarag/ElvishMedicine",
-      "author": "zoarag",
-      "name": "ElvishMedicine",
-      "created_at": "2026-05-23T13:02:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/ElvishMedicine",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "zoarag/XiaoXiaoQAQ",
-      "author": "zoarag",
-      "name": "XiaoXiaoQAQ",
-      "created_at": "2026-05-23T13:01:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/XiaoXiaoQAQ",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "birunthabanr/muril-large-classifier",
-      "author": "birunthabanr",
-      "name": "muril-large-classifier",
-      "created_at": "2026-05-23T12:58:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/birunthabanr/muril-large-classifier",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "thorgrif/HermesAgentStorage",
-      "author": "thorgrif",
-      "name": "HermesAgentStorage",
-      "created_at": "2026-05-23T12:52:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/thorgrif/HermesAgentStorage",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Zeeshanshanih/mbert-misinformation-detector",
-      "author": "Zeeshanshanih",
-      "name": "mbert-misinformation-detector",
-      "created_at": "2026-05-23T12:51:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Zeeshanshanih/mbert-misinformation-detector",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Zeeshanshanih/results",
-      "author": "Zeeshanshanih",
-      "name": "results",
-      "created_at": "2026-05-23T12:50:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-multilingual-cased",
-        "base_model:finetune:google-bert/bert-base-multilingual-cased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Zeeshanshanih/results",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "alyaspronoob/malay-sentiment-distilbert",
-      "author": "alyaspronoob",
-      "name": "malay-sentiment-distilbert",
-      "created_at": "2026-05-23T12:46:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/alyaspronoob/malay-sentiment-distilbert",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
     {
       "id": "mingye-eigenai/MyAwesomeModel-TestRepo",
       "author": "mingye-eigenai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T12:45:18+00:00",
+      "created_at": "2026-05-23T16:03:02+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -343,10 +34,76 @@
       ]
     },
     {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
+      "id": "SaeedLab/SeqScreen-lora",
+      "author": "SaeedLab",
+      "name": "SeqScreen-lora",
+      "created_at": "2026-05-23T15:33:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "peft",
+        "safetensors",
+        "proteins",
+        "molecules",
+        "bioinformatics",
+        "drug-discovery",
+        "feature-extraction",
+        "transformers",
+        "lora",
+        "dataset:SaeedLab/SeqScreen",
+        "base_model:facebook/esm2_t36_3B_UR50D",
+        "base_model:adapter:facebook/esm2_t36_3B_UR50D",
+        "license:cc-by-nc-nd-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-nd-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SaeedLab/SeqScreen-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Rewan-2004/cmpe346-assignment02",
+      "author": "Rewan-2004",
+      "name": "cmpe346-assignment02",
+      "created_at": "2026-05-23T15:20:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Rewan-2004/cmpe346-assignment02",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T12:44:11+00:00",
+      "created_at": "2026-05-23T14:56:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -362,13 +119,87 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Sophia-AI/bge-reranker-v2-m3-onnx",
+      "author": "Sophia-AI",
+      "name": "bge-reranker-v2-m3-onnx",
+      "created_at": "2026-05-23T14:52:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-ranking",
+      "tags": [
+        "onnxruntime",
+        "onnx",
+        "xlm-roberta",
+        "reranker",
+        "cross-encoder",
+        "text-ranking",
+        "multilingual",
+        "base_model:BAAI/bge-reranker-v2-m3",
+        "base_model:quantized:BAAI/bge-reranker-v2-m3",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Sophia-AI/bge-reranker-v2-m3-onnx",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-ranking",
+        "tag match: reranker, cross-encoder"
+      ]
+    },
+    {
+      "id": "Sophia-AI/bge-m3-onnx",
+      "author": "Sophia-AI",
+      "name": "bge-m3-onnx",
+      "created_at": "2026-05-23T14:52:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "onnxruntime",
+        "onnx",
+        "embeddings",
+        "bge-m3",
+        "dense",
+        "sparse",
+        "colbert",
+        "multilingual",
+        "feature-extraction",
+        "base_model:BAAI/bge-m3",
+        "base_model:quantized:BAAI/bge-m3",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Sophia-AI/bge-m3-onnx",
+      "description": null,
+      "languages": [
+        "multilingual"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
       ]
     }
   ]
