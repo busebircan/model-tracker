@@ -1,216 +1,38 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-23T21:59:08.734762+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-24T04:12:25.118716+00:00",
+  "model_count": 6,
   "models": [
     {
-      "id": "IMP-MOCE/bookrag-qwen4b-sftv4-q4f16_1-MLC",
-      "author": "IMP-MOCE",
-      "name": "bookrag-qwen4b-sftv4-q4f16_1-MLC",
-      "created_at": "2026-05-23T21:47:48+00:00",
+      "id": "MondayOrSunday/Document_RAG_Agent",
+      "author": "MondayOrSunday",
+      "name": "Document_RAG_Agent",
+      "created_at": "2026-05-24T03:31:24+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "mlc-llm",
-        "webllm",
-        "webgpu",
-        "qwen3.5",
-        "bookrag",
+        "license:openrail",
         "region:us"
       ],
-      "license": null,
+      "license": "openrail",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/IMP-MOCE/bookrag-qwen4b-sftv4-q4f16_1-MLC",
+      "url": "https://huggingface.co/MondayOrSunday/Document_RAG_Agent",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "IMP-MOCE/bookrag-qwen2b-sftv4-q4f16_1-MLC",
-      "author": "IMP-MOCE",
-      "name": "bookrag-qwen2b-sftv4-q4f16_1-MLC",
-      "created_at": "2026-05-23T21:41:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "mlc-llm",
-        "webllm",
-        "webgpu",
-        "qwen3.5",
-        "bookrag",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/IMP-MOCE/bookrag-qwen2b-sftv4-q4f16_1-MLC",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "88plug/Qwen3.6-35B-A3B-W4A16",
-      "author": "88plug",
-      "name": "Qwen3.6-35B-A3B-W4A16",
-      "created_at": "2026-05-23T21:12:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "quantized",
-        "compressed-tensors",
-        "vllm",
-        "qwen3",
-        "qwen3.6",
-        "moe",
-        "mixture-of-experts",
-        "vision",
-        "image-text-to-text",
-        "multimodal",
-        "4-bit",
-        "w4a16",
-        "int4",
-        "mixed-precision",
-        "post-training-quantization",
-        "long-context",
-        "1m-context",
-        "tool-use",
-        "reasoning",
-        "agentic",
-        "en",
-        "base_model:Qwen/Qwen3.6-35B-A3B",
-        "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/88plug/Qwen3.6-35B-A3B-W4A16",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "88plug/Qwen3.6-35B-A3B-W8A16",
-      "author": "88plug",
-      "name": "Qwen3.6-35B-A3B-W8A16",
-      "created_at": "2026-05-23T21:12:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "qwen3",
-        "qwen",
-        "moe",
-        "mixture-of-experts",
-        "vision",
-        "image-text-to-text",
-        "multimodal",
-        "quantized",
-        "int8",
-        "w8a16",
-        "compressed-tensors",
-        "vllm",
-        "autoround",
-        "long-context",
-        "1m-context",
-        "gated-deltanet",
-        "linear-attention",
-        "8-bit",
-        "ptq",
-        "en",
-        "base_model:Qwen/Qwen3.6-35B-A3B",
-        "base_model:quantized:Qwen/Qwen3.6-35B-A3B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/88plug/Qwen3.6-35B-A3B-W8A16",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
-      "id": "ohnokayden/bge-large-en-v1.5",
-      "author": "ohnokayden",
-      "name": "bge-large-en-v1.5",
-      "created_at": "2026-05-23T21:12:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "sentence-transformers",
-        "pytorch",
-        "onnx",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "sentence-similarity",
-        "transformers",
-        "mteb",
-        "en",
-        "arxiv:2401.03462",
-        "arxiv:2312.15503",
-        "arxiv:2311.13534",
-        "arxiv:2310.07554",
-        "arxiv:2309.07597",
-        "license:mit",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ohnokayden/bge-large-en-v1.5",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding, sentence-transformers, mteb"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "petra345/MyAwesomeModel-TestRepo",
+      "author": "petra345",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T21:06:55+00:00",
+      "created_at": "2026-05-24T03:05:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -226,7 +48,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/petra345/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -236,10 +58,67 @@
       ]
     },
     {
-      "id": "chengyuan251225/MyAwesomeModel-TestRepo",
-      "author": "chengyuan251225",
+      "id": "navnani12/healthcare-rag-chatbot",
+      "author": "navnani12",
+      "name": "healthcare-rag-chatbot",
+      "created_at": "2026-05-24T02:44:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/navnani12/healthcare-rag-chatbot",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "created_at": "2026-05-24T02:44:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "yuchens3-toolathlon/MyAwesomeModel-TestRepo",
+      "author": "yuchens3-toolathlon",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-23T20:58:58+00:00",
+      "created_at": "2026-05-24T02:39:52+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -255,7 +134,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengyuan251225/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/yuchens3-toolathlon/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -265,62 +144,32 @@
       ]
     },
     {
-      "id": "deepanshu30699/distilbert-goodreads-genres",
-      "author": "deepanshu30699",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-23T20:42:44+00:00",
+      "id": "aws3-s/MyAwesomeModel-TestRepo",
+      "author": "aws3-s",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-24T02:33:10+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/deepanshu30699/distilbert-goodreads-genres",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "beza4588/tenaos-qdrant-snapshots",
-      "author": "beza4588",
-      "name": "tenaos-qdrant-snapshots",
-      "created_at": "2026-05-23T20:34:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "tenaos",
-        "qdrant",
-        "retrieval",
-        "clinical-knowledge-base",
-        "lmic",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/beza4588/tenaos-qdrant-snapshots",
+      "url": "https://huggingface.co/aws3-s/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: retrieval"
+        "task match: feature-extraction"
       ]
     }
   ]
