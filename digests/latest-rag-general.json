@@ -1,152 +1,52 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-24T13:48:24.285818+00:00",
-  "model_count": 8,
+  "run_at": "2026-05-24T16:06:32.837068+00:00",
+  "model_count": 3,
   "models": [
     {
-      "id": "raghavv33/tourism-package-prediction-model",
-      "author": "raghavv33",
-      "name": "tourism-package-prediction-model",
-      "created_at": "2026-05-24T13:37:09+00:00",
+      "id": "foudil/lens-emotion-encoder",
+      "author": "foudil",
+      "name": "lens-emotion-encoder",
+      "created_at": "2026-05-24T15:47:12+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/raghavv33/tourism-package-prediction-model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
-      "author": "Raghav-Singhal",
-      "name": "epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
-      "created_at": "2026-05-24T13:25:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
+        "sentence-transformers",
         "safetensors",
-        "llama",
-        "text-generation",
-        "causal-lm",
-        "bfloat16",
-        "conversational",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "VBadazhkov/category_detector",
-      "author": "VBadazhkov",
-      "name": "category_detector",
-      "created_at": "2026-05-24T13:23:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
+        "roberta",
+        "sentence-similarity",
+        "feature-extraction",
+        "emotion",
+        "contrastive-learning",
+        "multi-label",
+        "en",
+        "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/VBadazhkov/category_detector",
+      "url": "https://huggingface.co/foudil/lens-emotion-encoder",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "VBadazhkov/brand_category_detector",
-      "author": "VBadazhkov",
-      "name": "brand_category_detector",
-      "created_at": "2026-05-24T13:12:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
+      "languages": [
+        "en"
       ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/VBadazhkov/brand_category_detector",
-      "description": null,
-      "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     },
     {
-      "id": "frupniew/macaulay2-rag-coder-3b-gguf",
-      "author": "frupniew",
-      "name": "macaulay2-rag-coder-3b-gguf",
-      "created_at": "2026-05-24T13:12:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/frupniew/macaulay2-rag-coder-3b-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
+      "id": "mingye-eigenai/MyAwesomeModel-TestRepo",
+      "author": "mingye-eigenai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-24T13:10:21+00:00",
+      "created_at": "2026-05-24T15:36:19+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -162,7 +62,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mingye-eigenai/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -172,16 +72,16 @@
       ]
     },
     {
-      "id": "RachelHu123/toxic-comment-finetuned",
-      "author": "RachelHu123",
-      "name": "toxic-comment-finetuned",
-      "created_at": "2026-05-24T12:55:53+00:00",
+      "id": "apolitidou/netflix-swot-classifier",
+      "author": "apolitidou",
+      "name": "netflix-swot-classifier",
+      "created_at": "2026-05-24T15:18:27+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
+        "roberta",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -192,37 +92,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/RachelHu123/toxic-comment-finetuned",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "birunthabanr/XLMRobert-base-binary-classifier",
-      "author": "birunthabanr",
-      "name": "XLMRobert-base-binary-classifier",
-      "created_at": "2026-05-24T12:51:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/birunthabanr/XLMRobert-base-binary-classifier",
+      "url": "https://huggingface.co/apolitidou/netflix-swot-classifier",
       "description": null,
       "languages": [],
       "datasets": [],
