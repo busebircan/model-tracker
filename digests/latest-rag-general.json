@@ -1,245 +1,128 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-24T19:24:52.299932+00:00",
-  "model_count": 9,
+  "run_at": "2026-05-24T22:00:32.178431+00:00",
+  "model_count": 6,
   "models": [
     {
-      "id": "maximmikhalevich/e5_large_for_law_RAG",
-      "author": "maximmikhalevich",
-      "name": "e5_large_for_law_RAG",
-      "created_at": "2026-05-24T19:05:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "xlm-roberta",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:632",
-        "loss:MultipleNegativesRankingLoss",
-        "arxiv:1908.10084",
-        "arxiv:1807.03748",
-        "base_model:intfloat/multilingual-e5-base",
-        "base_model:finetune:intfloat/multilingual-e5-base",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/maximmikhalevich/e5_large_for_law_RAG",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers, rag (name)"
-      ]
-    },
-    {
-      "id": "sevimbahadiir/cmpe346-sentiment",
-      "author": "sevimbahadiir",
-      "name": "cmpe346-sentiment",
-      "created_at": "2026-05-24T19:00:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sevimbahadiir/cmpe346-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "elifyaren/cmpe346-sentiment",
-      "author": "elifyaren",
-      "name": "cmpe346-sentiment",
-      "created_at": "2026-05-24T18:48:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/elifyaren/cmpe346-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "tapashj/platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
-      "author": "tapashj",
-      "name": "platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
-      "created_at": "2026-05-24T18:43:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tapashj/platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "xuerongNanopay/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "author": "xuerongNanopay",
-      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "created_at": "2026-05-24T18:40:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/xuerongNanopay/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "OrRim123/recsys2026-mm-reranker-v1",
-      "author": "OrRim123",
-      "name": "recsys2026-mm-reranker-v1",
-      "created_at": "2026-05-24T18:38:51+00:00",
+      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "author": "Raghav-Singhal",
+      "name": "pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "created_at": "2026-05-24T21:57:26+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "tensorboard",
         "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/OrRim123/recsys2026-mm-reranker-v1",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: reranker (name)"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "MLM8372984732947/Echo-Mini",
-      "author": "MLM8372984732947",
-      "name": "Echo-Mini",
-      "created_at": "2026-05-24T18:38:00+00:00",
+      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
+      "author": "Raghav-Singhal",
+      "name": "pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
+      "created_at": "2026-05-24T21:56:31+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
-        "gguf",
-        "text-generation",
-        "edge-ai",
-        "local-first",
-        "micro-llm",
-        "rag",
-        "en",
-        "base_model:MLM8372984732947/Echo-Mini",
-        "base_model:quantized:MLM8372984732947/Echo-Mini",
-        "license:apache-2.0",
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-24T21:55:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": "mit",
       "downloads": 0,
-      "likes": 1,
+      "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MLM8372984732947/Echo-Mini",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag"
+        "task match: feature-extraction"
       ]
     },
     {
-      "id": "Srivarma11/email-intent",
-      "author": "Srivarma11",
-      "name": "email-intent",
-      "created_at": "2026-05-24T18:32:27+00:00",
+      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "author": "Raghav-Singhal",
+      "name": "pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "created_at": "2026-05-24T21:37:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "raulgdp/beto-tass-finetuned-2026",
+      "author": "raulgdp",
+      "name": "beto-tass-finetuned-2026",
+      "created_at": "2026-05-24T21:20:14+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "deberta-v2",
+        "bert",
         "text-classification",
-        "arxiv:1910.09700",
+        "generated_from_trainer",
+        "base_model:dccuchile/bert-base-spanish-wwm-cased",
+        "base_model:finetune:dccuchile/bert-base-spanish-wwm-cased",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -248,7 +131,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Srivarma11/email-intent",
+      "url": "https://huggingface.co/raulgdp/beto-tass-finetuned-2026",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -258,33 +141,29 @@
       ]
     },
     {
-      "id": "Srivarma11/email-pa",
-      "author": "Srivarma11",
-      "name": "email-pa",
-      "created_at": "2026-05-24T18:26:21+00:00",
+      "id": "Ragi-Baba/sns24-triagem-gguf",
+      "author": "Ragi-Baba",
+      "name": "sns24-triagem-gguf",
+      "created_at": "2026-05-24T20:57:51+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "deberta-v2",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "gguf",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Srivarma11/email-pa",
+      "url": "https://huggingface.co/Ragi-Baba/sns24-triagem-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     }
   ]
