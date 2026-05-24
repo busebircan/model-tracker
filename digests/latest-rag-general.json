@@ -1,20 +1,75 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-24T10:45:24.885327+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-24T13:48:24.285818+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "dogabahat/cmpe346-assignment02",
-      "author": "dogabahat",
-      "name": "cmpe346-assignment02",
-      "created_at": "2026-05-24T10:33:45+00:00",
+      "id": "raghavv33/tourism-package-prediction-model",
+      "author": "raghavv33",
+      "name": "tourism-package-prediction-model",
+      "created_at": "2026-05-24T13:37:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/raghavv33/tourism-package-prediction-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
+      "author": "Raghav-Singhal",
+      "name": "epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
+      "created_at": "2026-05-24T13:25:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "causal-lm",
+        "bfloat16",
+        "conversational",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_refusal-refl_end_midtraining_token0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "VBadazhkov/category_detector",
+      "author": "VBadazhkov",
+      "name": "category_detector",
+      "created_at": "2026-05-24T13:23:01+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "xlm-roberta",
+        "bert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -25,7 +80,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dogabahat/cmpe346-assignment02",
+      "url": "https://huggingface.co/VBadazhkov/category_detector",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -35,10 +90,92 @@
       ]
     },
     {
-      "id": "antaryamisahu/distilbert-goodreads-genres",
-      "author": "antaryamisahu",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-24T10:29:24+00:00",
+      "id": "VBadazhkov/brand_category_detector",
+      "author": "VBadazhkov",
+      "name": "brand_category_detector",
+      "created_at": "2026-05-24T13:12:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/VBadazhkov/brand_category_detector",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "frupniew/macaulay2-rag-coder-3b-gguf",
+      "author": "frupniew",
+      "name": "macaulay2-rag-coder-3b-gguf",
+      "created_at": "2026-05-24T13:12:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/frupniew/macaulay2-rag-coder-3b-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-24T13:10:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "RachelHu123/toxic-comment-finetuned",
+      "author": "RachelHu123",
+      "name": "toxic-comment-finetuned",
+      "created_at": "2026-05-24T12:55:53+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -55,7 +192,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/antaryamisahu/distilbert-goodreads-genres",
+      "url": "https://huggingface.co/RachelHu123/toxic-comment-finetuned",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -65,16 +202,16 @@
       ]
     },
     {
-      "id": "LoWiki/DeBerta-multilabel-classifier_few_shot",
-      "author": "LoWiki",
-      "name": "DeBerta-multilabel-classifier_few_shot",
-      "created_at": "2026-05-24T10:25:59+00:00",
+      "id": "birunthabanr/XLMRobert-base-binary-classifier",
+      "author": "birunthabanr",
+      "name": "XLMRobert-base-binary-classifier",
+      "created_at": "2026-05-24T12:51:10+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "deberta-v2",
+        "xlm-roberta",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -85,133 +222,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/DeBerta-multilabel-classifier_few_shot",
+      "url": "https://huggingface.co/birunthabanr/XLMRobert-base-binary-classifier",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "mradermacher/Qwopus3.6-27B-v2-GGUF",
-      "author": "mradermacher",
-      "name": "Qwopus3.6-27B-v2-GGUF",
-      "created_at": "2026-05-24T10:14:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "gguf",
-        "text-generation-inference",
-        "unsloth",
-        "qwen3_6",
-        "reasoning",
-        "chain-of-thought",
-        "lora",
-        "sft",
-        "multimodal",
-        "vision",
-        "tool-use",
-        "function-calling",
-        "long-context",
-        "agent",
-        "image",
-        "en",
-        "zh",
-        "es",
-        "ru",
-        "ja",
-        "dataset:Jackrong/Claude-opus-4.6-TraceInversion-9000x",
-        "dataset:Jackrong/Claude-opus-4.7-TraceInversion-5000x",
-        "base_model:Jackrong/Qwopus3.6-27B-v2",
-        "base_model:adapter:Jackrong/Qwopus3.6-27B-v2",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Qwopus3.6-27B-v2-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "zh",
-        "es",
-        "ru",
-        "ja"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
-      "id": "VTXAI/Vortex-Embed-4.7M",
-      "author": "VTXAI",
-      "name": "Vortex-Embed-4.7M",
-      "created_at": "2026-05-24T10:07:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "lf4",
-        "safetensors",
-        "lf4-static-embedding",
-        "static-embedding",
-        "4-bit",
-        "quantized",
-        "sentence-similarity",
-        "code-search",
-        "tool-search",
-        "sentence-transformers",
-        "embedding",
-        "en",
-        "license:mit",
-        "8-bit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/VTXAI/Vortex-Embed-4.7M",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "zoarag/t2ru3zg3990",
-      "author": "zoarag",
-      "name": "t2ru3zg3990",
-      "created_at": "2026-05-24T10:01:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/t2ru3zg3990",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
       ]
     }
   ]
