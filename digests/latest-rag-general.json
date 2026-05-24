@@ -1,81 +1,113 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-24T16:06:32.837068+00:00",
-  "model_count": 3,
+  "run_at": "2026-05-24T19:24:52.299932+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "foudil/lens-emotion-encoder",
-      "author": "foudil",
-      "name": "lens-emotion-encoder",
-      "created_at": "2026-05-24T15:47:12+00:00",
+      "id": "maximmikhalevich/e5_large_for_law_RAG",
+      "author": "maximmikhalevich",
+      "name": "e5_large_for_law_RAG",
+      "created_at": "2026-05-24T19:05:17+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "roberta",
+        "xlm-roberta",
         "sentence-similarity",
         "feature-extraction",
-        "emotion",
-        "contrastive-learning",
-        "multi-label",
-        "en",
-        "license:apache-2.0",
+        "generated_from_trainer",
+        "dataset_size:632",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "base_model:intfloat/multilingual-e5-base",
+        "base_model:finetune:intfloat/multilingual-e5-base",
+        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/foudil/lens-emotion-encoder",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "mingye-eigenai/MyAwesomeModel-TestRepo",
-      "author": "mingye-eigenai",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-24T15:36:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mingye-eigenai/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/maximmikhalevich/e5_large_for_law_RAG",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, rag (name)"
       ]
     },
     {
-      "id": "apolitidou/netflix-swot-classifier",
-      "author": "apolitidou",
-      "name": "netflix-swot-classifier",
-      "created_at": "2026-05-24T15:18:27+00:00",
+      "id": "sevimbahadiir/cmpe346-sentiment",
+      "author": "sevimbahadiir",
+      "name": "cmpe346-sentiment",
+      "created_at": "2026-05-24T19:00:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sevimbahadiir/cmpe346-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "elifyaren/cmpe346-sentiment",
+      "author": "elifyaren",
+      "name": "cmpe346-sentiment",
+      "created_at": "2026-05-24T18:48:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/elifyaren/cmpe346-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "tapashj/platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
+      "author": "tapashj",
+      "name": "platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
+      "created_at": "2026-05-24T18:43:51+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -92,7 +124,161 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/apolitidou/netflix-swot-classifier",
+      "url": "https://huggingface.co/tapashj/platform-switch-roberta512-1769samples-binary-801010-lr2e5-3epochs",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "xuerongNanopay/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "author": "xuerongNanopay",
+      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "created_at": "2026-05-24T18:40:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/xuerongNanopay/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "OrRim123/recsys2026-mm-reranker-v1",
+      "author": "OrRim123",
+      "name": "recsys2026-mm-reranker-v1",
+      "created_at": "2026-05-24T18:38:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "tensorboard",
+        "safetensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/OrRim123/recsys2026-mm-reranker-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "MLM8372984732947/Echo-Mini",
+      "author": "MLM8372984732947",
+      "name": "Echo-Mini",
+      "created_at": "2026-05-24T18:38:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "text-generation",
+        "edge-ai",
+        "local-first",
+        "micro-llm",
+        "rag",
+        "en",
+        "base_model:MLM8372984732947/Echo-Mini",
+        "base_model:quantized:MLM8372984732947/Echo-Mini",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/MLM8372984732947/Echo-Mini",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "Srivarma11/email-intent",
+      "author": "Srivarma11",
+      "name": "email-intent",
+      "created_at": "2026-05-24T18:32:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deberta-v2",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Srivarma11/email-intent",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Srivarma11/email-pa",
+      "author": "Srivarma11",
+      "name": "email-pa",
+      "created_at": "2026-05-24T18:26:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "deberta-v2",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Srivarma11/email-pa",
       "description": null,
       "languages": [],
       "datasets": [],
