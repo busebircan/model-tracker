@@ -1,68 +1,73 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-25  
-**Run timestamp:** 2026-05-25 19:50 UTC  
+**Run timestamp:** 2026-05-25 22:13 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 6
 
 ---
 
 
 
-### [capemox/ettin-encoder-68m-contrastive-2.5m](https://huggingface.co/capemox/ettin-encoder-68m-contrastive-2.5m)
-**Author:** capemox  
-**Task:** sentence similarity and semantic search  
+### [brendan-gho/qwen2.5-7b-dragon-cot-layers1to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers1to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-05-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `feature-extraction`, `sentence-similarity`, `embeddings`, `retrieval`, `contrastive-learning`, `text-embeddings-inference`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [FABIOLO222/mmbert-gaming-classifier-2.1](https://huggingface.co/FABIOLO222/mmbert-gaming-classifier-2.1)
-**Author:** FABIOLO222  
+### [brendan-gho/qwen2.5-7b-dragon-cot-layers3to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers3to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [brendan-gho/qwen2.5-7b-dragon-cot-layers5to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers5to27-seed42)
+**Author:** brendan-gho  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [asim-alam/maasathi-bge-reranker-v2-m3](https://huggingface.co/asim-alam/maasathi-bge-reranker-v2-m3)
+**Author:** asim-alam  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `xlm-roberta`, `text-classification`, `reranker`, `cross-encoder`, `bengali`, `banglish`, `maternal-health`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [fangyu-openclaw/MyAwesomeModel-TestRepo](https://huggingface.co/fangyu-openclaw/MyAwesomeModel-TestRepo)
-**Author:** fangyu-openclaw  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
 
 ---
 
@@ -82,43 +87,15 @@
 
 
 
-### [AIPsy/bert-base-therapist-meta-topic-classification-eng](https://huggingface.co/AIPsy/bert-base-therapist-meta-topic-classification-eng)
-**Author:** AIPsy  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [minchaoh2002/Qwen3-14B-pragrest-no-easy-FullFT4_step_11](https://huggingface.co/minchaoh2002/Qwen3-14B-pragrest-no-easy-FullFT4_step_11)
-**Author:** minchaoh2002  
+### [brendan-gho/qwen2.5-7b-dragon-cot-layers7to27-seed42](https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers7to27-seed42)
+**Author:** brendan-gho  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-05-25  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [minchaoh2002/Qwen3-14B-pragrest-no-easy-FullFT5_step_11](https://huggingface.co/minchaoh2002/Qwen3-14B-pragrest-no-easy-FullFT5_step_11)
-**Author:** minchaoh2002  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-05-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -128,4 +105,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-25 19:50 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-25 22:13 UTC*
