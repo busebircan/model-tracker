@@ -1,26 +1,24 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-24T22:00:32.178431+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-25T04:23:59.189106+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
-      "created_at": "2026-05-24T21:57:26+00:00",
+      "id": "minchaoh2002/Qwen3-8B-pragrest-no-easy-FullFT5_step_23",
+      "author": "minchaoh2002",
+      "name": "Qwen3-8B-pragrest-no-easy-FullFT5_step_23",
+      "created_at": "2026-05-25T04:23:15+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "url": "https://huggingface.co/minchaoh2002/Qwen3-8B-pragrest-no-easy-FullFT5_step_23",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -30,26 +28,58 @@
       ]
     },
     {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
-      "created_at": "2026-05-24T21:56:31+00:00",
+      "id": "zoarag/VDream",
+      "author": "zoarag",
+      "name": "VDream",
+      "created_at": "2026-05-25T04:09:51+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_bce-lr1e-4",
+      "url": "https://huggingface.co/zoarag/VDream",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "brendan-gho/qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "author": "brendan-gho",
+      "name": "qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "created_at": "2026-05-25T04:06:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brendan-gho/qwen2.5-1.5b-liminal-dragon-nums-r8-bs22-gas3-seed42-mcq",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: rag (name)"
       ]
@@ -58,7 +88,7 @@
       "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
       "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-24T21:55:38+00:00",
+      "created_at": "2026-05-25T04:04:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -84,22 +114,20 @@
       ]
     },
     {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
-      "created_at": "2026-05-24T21:37:06+00:00",
+      "id": "zoarag/b0008",
+      "author": "zoarag",
+      "name": "b0008",
+      "created_at": "2026-05-25T04:03:39+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-3p-smollm-1p7b-100B-no_ntp_context-no_bce-lr1e-4",
+      "url": "https://huggingface.co/zoarag/b0008",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -109,61 +137,61 @@
       ]
     },
     {
-      "id": "raulgdp/beto-tass-finetuned-2026",
-      "author": "raulgdp",
-      "name": "beto-tass-finetuned-2026",
-      "created_at": "2026-05-24T21:20:14+00:00",
+      "id": "TB22427/MyAwesomeModel-TestRepo",
+      "author": "TB22427",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-25T03:41:39+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
+        "pytorch",
         "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:dccuchile/bert-base-spanish-wwm-cased",
-        "base_model:finetune:dccuchile/bert-base-spanish-wwm-cased",
-        "text-embeddings-inference",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/raulgdp/beto-tass-finetuned-2026",
+      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction"
       ]
     },
     {
-      "id": "Ragi-Baba/sns24-triagem-gguf",
-      "author": "Ragi-Baba",
-      "name": "sns24-triagem-gguf",
-      "created_at": "2026-05-24T20:57:51+00:00",
+      "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "author": "ashwinbalujathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-25T03:20:26+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "gguf",
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Ragi-Baba/sns24-triagem-gguf",
+      "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     }
   ]
