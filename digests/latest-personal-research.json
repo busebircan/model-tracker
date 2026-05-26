@@ -1,198 +1,36 @@
 {
   "profile": "personal_research",
   "display_name": "Research & Summarisation",
-  "run_at": "2026-05-25T22:13:34.840046+00:00",
-  "model_count": 133,
+  "run_at": "2026-05-26T04:09:31.596220+00:00",
+  "model_count": 44,
   "models": [
     {
-      "id": "gkcng-personal/small_test",
-      "author": "gkcng-personal",
-      "name": "small_test",
-      "created_at": "2026-05-25T22:06:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "act",
-        "robotics",
-        "dataset:recordings/testing",
-        "arxiv:2304.13705",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gkcng-personal/small_test",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Hari5115/MoleculeIQ-SmolLM2-360M",
-      "author": "Hari5115",
-      "name": "MoleculeIQ-SmolLM2-360M",
-      "created_at": "2026-05-25T22:05:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Hari5115/MoleculeIQ-SmolLM2-360M",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-fiu",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zlw-fiu",
-      "created_at": "2026-05-25T22:04:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "safetensors",
-        "marian",
-        "translation",
-        "dsb",
-        "cs",
-        "hsb",
-        "pl",
-        "zlw",
-        "hu",
-        "vro",
-        "fi",
-        "mdf",
-        "krl",
-        "mhr",
-        "et",
-        "sma",
-        "udm",
-        "vep",
-        "myv",
-        "kpv",
-        "se",
-        "izh",
-        "fiu",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-fiu",
-      "description": null,
-      "languages": [
-        "dsb",
-        "cs",
-        "hsb",
-        "pl",
-        "zlw",
-        "hu",
-        "vro",
-        "fi",
-        "mdf",
-        "krl",
-        "mhr",
-        "et",
-        "sma",
-        "udm",
-        "vep",
-        "myv",
-        "kpv",
-        "se",
-        "izh",
-        "fiu"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ru-eu",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ru-eu",
-      "created_at": "2026-05-25T22:03:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "marian",
-        "translation",
-        "ru",
-        "eu",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ru-eu",
-      "description": null,
-      "languages": [
-        "ru",
-        "eu"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "Anish13/e6_web_arbiter_rl_web-wmrm-ep2-warm-start_lora_r32_a32_lr7e-6_bsz1_ga8_g8_lam0.2_e10",
-      "author": "Anish13",
-      "name": "e6_web_arbiter_rl_web-wmrm-ep2-warm-start_lora_r32_a32_lr7e-6_bsz1_ga8_g8_lam0.2_e10",
-      "created_at": "2026-05-25T22:02:51+00:00",
+      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5GNP9XWd",
+      "author": "gradients-io-tournaments",
+      "name": "tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5GNP9XWd",
+      "created_at": "2026-05-26T04:08:32+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "peft",
         "safetensors",
-        "base_model:adapter:web-wmrm-ep2-warm-start",
-        "grpo",
+        "base_model:adapter:/cache/models/e59d27d8934df911",
         "lora",
+        "sft",
         "transformers",
         "trl",
         "text-generation",
         "conversational",
         "arxiv:1910.09700",
+        "base_model:codellama/CodeLlama-7b-Instruct-hf",
+        "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Anish13/e6_web_arbiter_rl_web-wmrm-ep2-warm-start_lora_r32_a32_lr7e-6_bsz1_ga8_g8_lam0.2_e10",
+      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5GNP9XWd",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -203,251 +41,33 @@
       ]
     },
     {
-      "id": "pwankhede/lerobot_pickplace_wrist_SMOLVLA20k",
-      "author": "pwankhede",
-      "name": "lerobot_pickplace_wrist_SMOLVLA20k",
-      "created_at": "2026-05-25T22:01:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "robotics",
-        "smolvla",
-        "dataset:pwankhede/lerobot-pickplace-wrist",
-        "arxiv:2506.01844",
-        "base_model:lerobot/smolvla_base",
-        "base_model:finetune:lerobot/smolvla_base",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pwankhede/lerobot_pickplace_wrist_SMOLVLA20k",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v11-v9-repair-distilled-direct-lora",
-      "author": "Pablo-Flores-Mollinedo",
-      "name": "verilog-qwen2.5-coder-7b-v11-v9-repair-distilled-direct-lora",
-      "created_at": "2026-05-25T21:58:55+00:00",
+      "id": "Fex98234/qwen2.5-1.5b-indonesian-rlora",
+      "author": "Fex98234",
+      "name": "qwen2.5-1.5b-indonesian-rlora",
+      "created_at": "2026-05-26T04:06:29+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "peft",
-        "safetensors",
-        "verilog",
-        "rtl",
-        "qwen2.5-coder",
-        "lora",
+        "transformers",
+        "qwen2",
         "text-generation",
+        "text-generation-inference",
+        "unsloth",
         "conversational",
-        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Pablo-Flores-Mollinedo/verilog-qwen2.5-coder-7b-v11-v9-repair-distilled-direct-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "tiktemu/ByteShape___Qwen3-4B-Instruct-2507-GGUF",
-      "author": "tiktemu",
-      "name": "ByteShape___Qwen3-4B-Instruct-2507-GGUF",
-      "created_at": "2026-05-25T21:54:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen",
-        "qwen3",
-        "byteshape",
-        "text-generation",
-        "base_model:Qwen/Qwen3-4B-Instruct-2507",
-        "base_model:quantized:Qwen/Qwen3-4B-Instruct-2507",
+        "en",
+        "base_model:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
+        "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
         "license:apache-2.0",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tiktemu/ByteShape___Qwen3-4B-Instruct-2507-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "schaefjo/coralai-segformer-b0-1024-2cls-no-bg",
-      "author": "schaefjo",
-      "name": "coralai-segformer-b0-1024-2cls-no-bg",
-      "created_at": "2026-05-25T21:54:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "segformer",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/schaefjo/coralai-segformer-b0-1024-2cls-no-bg",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "tiktemu/ByteShape___Llama-3.1-8B-Instruct-GGUF",
-      "author": "tiktemu",
-      "name": "ByteShape___Llama-3.1-8B-Instruct-GGUF",
-      "created_at": "2026-05-25T21:53:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "facebook",
-        "meta",
-        "llama",
-        "llama-3",
-        "byteshape",
-        "text-generation",
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th",
-        "base_model:meta-llama/Llama-3.1-8B-Instruct",
-        "base_model:quantized:meta-llama/Llama-3.1-8B-Instruct",
-        "license:llama3.1",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "llama3.1",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tiktemu/ByteShape___Llama-3.1-8B-Instruct-GGUF",
+      "url": "https://huggingface.co/Fex98234/qwen2.5-1.5b-indonesian-rlora",
       "description": null,
       "languages": [
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "tiktemu/ByteShape___Qwen3-30B-A3B-Instruct-2507-GGUF",
-      "author": "tiktemu",
-      "name": "ByteShape___Qwen3-30B-A3B-Instruct-2507-GGUF",
-      "created_at": "2026-05-25T21:52:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen",
-        "qwen3",
-        "byteshape",
-        "text-generation",
-        "base_model:Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "base_model:quantized:Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tiktemu/ByteShape___Qwen3-30B-A3B-Instruct-2507-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "asim-alam/maasathi-qwen3-1-7b-query-classifier-lora",
-      "author": "asim-alam",
-      "name": "maasathi-qwen3-1-7b-query-classifier-lora",
-      "created_at": "2026-05-25T21:52:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "qwen3",
-        "lora",
-        "qlora",
-        "maasathi",
-        "maternal-health",
-        "classifier",
-        "text-generation",
-        "conversational",
-        "bn",
-        "en",
-        "base_model:Qwen/Qwen3-1.7B",
-        "base_model:adapter:Qwen/Qwen3-1.7B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/asim-alam/maasathi-qwen3-1-7b-query-classifier-lora",
-      "description": null,
-      "languages": [
-        "bn",
         "en"
       ],
       "datasets": [],
@@ -457,48 +77,119 @@
       ]
     },
     {
-      "id": "jae0311/smolvla_place_socks",
-      "author": "jae0311",
-      "name": "smolvla_place_socks",
-      "created_at": "2026-05-25T21:52:31+00:00",
+      "id": "metalman3289/L3.1-Evil-Reasoning-Dark-Planet-Hermes-R1-Uncensored-8B-mlx-4Bit",
+      "author": "metalman3289",
+      "name": "L3.1-Evil-Reasoning-Dark-Planet-Hermes-R1-Uncensored-8B-mlx-4Bit",
+      "created_at": "2026-05-26T04:00:03+00:00",
       "last_modified": null,
-      "pipeline_tag": "robotics",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "lerobot",
+        "transformers",
         "safetensors",
-        "smolvla",
-        "robotics",
-        "dataset:jae0311/place_socks",
-        "arxiv:2506.01844",
-        "base_model:lerobot/smolvla_base",
-        "base_model:finetune:lerobot/smolvla_base",
+        "llama",
+        "text-generation",
+        "creative",
+        "creative writing",
+        "fiction writing",
+        "plot generation",
+        "sub-plot generation",
+        "story generation",
+        "scene continue",
+        "llama 3.1",
+        "llama-3",
+        "llama3",
+        "llama-3.1",
+        "storytelling",
+        "fiction story",
+        "science fiction",
+        "romance",
+        "all genres",
+        "story",
+        "writing",
+        "vivid prosing",
+        "vivid writing",
+        "fiction",
+        "roleplaying",
+        "bfloat16",
+        "swearing",
+        "role play",
+        "sillytavern",
+        "backyard",
+        "horror",
+        "context 128k",
+        "mergekit",
+        "merge",
+        "not-for-all-audiences",
+        "mlx",
+        "mlx-my-repo",
+        "conversational",
+        "en",
+        "base_model:DavidAU/L3.1-Evil-Reasoning-Dark-Planet-Hermes-R1-Uncensored-8B",
+        "base_model:quantized:DavidAU/L3.1-Evil-Reasoning-Dark-Planet-Hermes-R1-Uncensored-8B",
         "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "4-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jae0311/smolvla_place_socks",
+      "url": "https://huggingface.co/metalman3289/L3.1-Evil-Reasoning-Dark-Planet-Hermes-R1-Uncensored-8B-mlx-4Bit",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: reasoning"
+      ]
+    },
+    {
+      "id": "chloeleya/finbert-fine-tuned-sentiment-model",
+      "author": "chloeleya",
+      "name": "finbert-fine-tuned-sentiment-model",
+      "created_at": "2026-05-26T03:56:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chloeleya/finbert-fine-tuned-sentiment-model",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: arxiv"
       ]
     },
     {
-      "id": "iamshubhshrma/llama-3.1-8b-customer-support",
-      "author": "iamshubhshrma",
-      "name": "llama-3.1-8b-customer-support",
-      "created_at": "2026-05-25T21:52:14+00:00",
+      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-fff7b595-16e0-46b7-a781-b99109198970-5CoNpVXZ",
+      "author": "gradients-io-tournaments",
+      "name": "tournament-tourn_707626400fba5fba_20260525-fff7b595-16e0-46b7-a781-b99109198970-5CoNpVXZ",
+      "created_at": "2026-05-26T03:52:28+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "peft",
         "safetensors",
-        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:/cache/models/e59d27d8934df911",
+        "grpo",
         "lora",
         "sft",
         "transformers",
@@ -506,14 +197,15 @@
         "text-generation",
         "conversational",
         "arxiv:1910.09700",
-        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:codellama/CodeLlama-7b-Instruct-hf",
+        "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/iamshubhshrma/llama-3.1-8b-customer-support",
+      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-fff7b595-16e0-46b7-a781-b99109198970-5CoNpVXZ",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -524,104 +216,195 @@
       ]
     },
     {
-      "id": "tiktemu/ByteShape___Devstral-Small-2-24B-Instruct-2512-GGUF",
-      "author": "tiktemu",
-      "name": "ByteShape___Devstral-Small-2-24B-Instruct-2512-GGUF",
-      "created_at": "2026-05-25T21:51:48+00:00",
+      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-43ea5803-394d-4878-be95-abe659214b13-5D2Qee4V",
+      "author": "gradients-io-tournaments",
+      "name": "tournament-tourn_707626400fba5fba_20260525-43ea5803-394d-4878-be95-abe659214b13-5D2Qee4V",
+      "created_at": "2026-05-26T03:51:31+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "transformers",
-        "gguf",
-        "mistral",
-        "devstral",
-        "byteshape",
-        "text-generation",
-        "base_model:mistralai/Devstral-Small-2-24B-Instruct-2512",
-        "base_model:quantized:mistralai/Devstral-Small-2-24B-Instruct-2512",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tiktemu/ByteShape___Devstral-Small-2-24B-Instruct-2512-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "tiktemu/ByteShape___Qwen3-Coder-30B-A3B-Instruct-GGUF",
-      "author": "tiktemu",
-      "name": "ByteShape___Qwen3-Coder-30B-A3B-Instruct-GGUF",
-      "created_at": "2026-05-25T21:51:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "qwen",
-        "qwen3",
-        "qwen3-coder",
-        "byteshape",
-        "text-generation",
-        "base_model:Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "base_model:quantized:Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tiktemu/ByteShape___Qwen3-Coder-30B-A3B-Instruct-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "HackAfterDark/Carnice-Qwen3.6-MoE-35B-A3B-NVFP4",
-      "author": "HackAfterDark",
-      "name": "Carnice-Qwen3.6-MoE-35B-A3B-NVFP4",
-      "created_at": "2026-05-25T21:41:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
+        "peft",
         "safetensors",
-        "qwen3_5_moe_text",
-        "moe",
-        "qwen",
-        "qwen3.6",
-        "nvfp4",
-        "compressed-tensors",
+        "base_model:adapter:/cache/models/e59d27d8934df911",
+        "grpo",
+        "lora",
+        "transformers",
+        "trl",
         "text-generation",
-        "reasoning",
         "conversational",
-        "base_model:samuelcardillo/Carnice-Qwen3.6-MoE-35B-A3B",
-        "base_model:quantized:samuelcardillo/Carnice-Qwen3.6-MoE-35B-A3B",
+        "arxiv:1910.09700",
+        "base_model:codellama/CodeLlama-7b-Instruct-hf",
+        "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-43ea5803-394d-4878-be95-abe659214b13-5D2Qee4V",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "metalman3289/Llama3.2-Hermes.Dolphin.Coder-1B-mlx-4Bit",
+      "author": "metalman3289",
+      "name": "Llama3.2-Hermes.Dolphin.Coder-1B-mlx-4Bit",
+      "created_at": "2026-05-26T03:47:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "slerp",
+        "code",
+        "instruct",
+        "mlx",
+        "mlx-my-repo",
+        "dataset:OpenCoder-LLM/opc-sft-stage1",
+        "dataset:OpenCoder-LLM/opc-sft-stage2",
+        "dataset:microsoft/orca-agentinstruct-1M-v1",
+        "dataset:microsoft/orca-math-word-problems-200k",
+        "dataset:NousResearch/hermes-function-calling-v1",
+        "dataset:AI-MO/NuminaMath-CoT",
+        "dataset:AI-MO/NuminaMath-TIR",
+        "dataset:allenai/tulu-3-sft-mixture",
+        "dataset:HuggingFaceTB/smoltalk",
+        "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+        "dataset:m-a-p/Code-Feedback",
+        "dataset:teknium/OpenHermes-2.5",
+        "base_model:WithinUsAI/Llama3.2-Hermes.Dolphin.Coder-1B",
+        "base_model:quantized:WithinUsAI/Llama3.2-Hermes.Dolphin.Coder-1B",
+        "license:other",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "4-bit",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/metalman3289/Llama3.2-Hermes.Dolphin.Coder-1B-mlx-4Bit",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5DS6XMVr",
+      "author": "gradients-io-tournaments",
+      "name": "tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5DS6XMVr",
+      "created_at": "2026-05-26T03:46:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:/cache/models/e59d27d8934df911",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:codellama/CodeLlama-7b-Instruct-hf",
+        "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-d91222d5-81cf-4366-8505-10f1fff9633a-5DS6XMVr",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "metalman3289/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B-mlx-4Bit",
+      "author": "metalman3289",
+      "name": "L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B-mlx-4Bit",
+      "created_at": "2026-05-26T03:44:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "creative",
+        "creative writing",
+        "fiction writing",
+        "plot generation",
+        "sub-plot generation",
+        "story generation",
+        "scene continue",
+        "llama 3.1",
+        "llama-3",
+        "llama3",
+        "llama-3.1",
+        "storytelling",
+        "fiction story",
+        "science fiction",
+        "romance",
+        "all genres",
+        "story",
+        "writing",
+        "vivid prosing",
+        "vivid writing",
+        "fiction",
+        "roleplaying",
+        "bfloat16",
+        "swearing",
+        "role play",
+        "sillytavern",
+        "backyard",
+        "horror",
+        "context 128k",
+        "mergekit",
+        "merge",
+        "not-for-all-audiences",
+        "mlx",
+        "mlx-my-repo",
+        "conversational",
+        "en",
+        "base_model:DavidAU/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B",
+        "base_model:quantized:DavidAU/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B",
         "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "4-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HackAfterDark/Carnice-Qwen3.6-MoE-35B-A3B-NVFP4",
+      "url": "https://huggingface.co/metalman3289/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B-mlx-4Bit",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -630,10 +413,671 @@
       ]
     },
     {
-      "id": "kairawal/Qwen3-4B-TL-SynthDolly-r16alpha128-E5-S3407",
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-clean_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-clean_random20",
+      "created_at": "2026-05-26T03:40:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-clean_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_random20",
+      "created_at": "2026-05-26T03:40:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q5",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q5",
+      "created_at": "2026-05-26T03:40:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q4",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q4",
+      "created_at": "2026-05-26T03:39:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q3",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q3",
+      "created_at": "2026-05-26T03:39:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q2",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q2",
+      "created_at": "2026-05-26T03:39:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q1",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q1",
+      "created_at": "2026-05-26T03:39:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-phoenix-entity_q1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-clean_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-clean_random20",
+      "created_at": "2026-05-26T03:39:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-clean_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_random20",
+      "created_at": "2026-05-26T03:39:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q5",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_q5",
+      "created_at": "2026-05-26T03:38:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q4",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_q4",
+      "created_at": "2026-05-26T03:38:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q3",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_q3",
+      "created_at": "2026-05-26T03:38:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "heo-jw/gemma3-1b-qlora",
+      "author": "heo-jw",
+      "name": "gemma3-1b-qlora",
+      "created_at": "2026-05-26T03:38:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/heo-jw/gemma3-1b-qlora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q2",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_q2",
+      "created_at": "2026-05-26T03:38:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q1",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-lion-entity_q1",
+      "created_at": "2026-05-26T03:38:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-lion-entity_q1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "iAmBoosted/falcon-h1-7b-instruct-x-h1r-slerp",
+      "author": "iAmBoosted",
+      "name": "falcon-h1-7b-instruct-x-h1r-slerp",
+      "created_at": "2026-05-26T03:38:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "falcon_h1",
+        "merge",
+        "slerp",
+        "mamba",
+        "mamba2",
+        "hybrid",
+        "falcon",
+        "falcon-h1",
+        "experimental",
+        "text-generation",
+        "base_model:tiiuae/Falcon-H1-7B-Instruct",
+        "base_model:merge:tiiuae/Falcon-H1-7B-Instruct",
+        "base_model:tiiuae/Falcon-H1R-7B",
+        "base_model:merge:tiiuae/Falcon-H1R-7B",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/iAmBoosted/falcon-h1-7b-instruct-x-h1r-slerp",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-clean_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-clean_random20",
+      "created_at": "2026-05-26T03:38:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-clean_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_random20",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_random20",
+      "created_at": "2026-05-26T03:37:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_random20",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q5",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q5",
+      "created_at": "2026-05-26T03:37:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "kairawal/Qwen3-0.6B-EN-SynthDolly-r16alpha128-E8-S3407",
       "author": "kairawal",
-      "name": "Qwen3-4B-TL-SynthDolly-r16alpha128-E5-S3407",
-      "created_at": "2026-05-25T21:41:00+00:00",
+      "name": "Qwen3-0.6B-EN-SynthDolly-r16alpha128-E8-S3407",
+      "created_at": "2026-05-26T03:34:31+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -653,7 +1097,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/kairawal/Qwen3-4B-TL-SynthDolly-r16alpha128-E5-S3407",
+      "url": "https://huggingface.co/kairawal/Qwen3-0.6B-EN-SynthDolly-r16alpha128-E8-S3407",
       "description": null,
       "languages": [
         "en"
@@ -665,3429 +1109,173 @@
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zne-sv",
-      "created_at": "2026-05-25T21:40:14+00:00",
+      "id": "toilaluan/ae-dinov2-base",
+      "author": "toilaluan",
+      "name": "ae-dinov2-base",
+      "created_at": "2026-05-26T03:32:05+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zne-fr",
-      "created_at": "2026-05-25T21:40:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zne-fi",
-      "created_at": "2026-05-25T21:39:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zne-es",
-      "created_at": "2026-05-25T21:39:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zne-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-zlw",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zlw-zlw",
-      "created_at": "2026-05-25T21:39:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "marian",
-        "translation",
-        "pl",
-        "cs",
-        "zlw",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-zlw",
-      "description": null,
-      "languages": [
-        "pl",
-        "cs",
-        "zlw"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zlw-en",
-      "created_at": "2026-05-25T21:39:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "pl",
-        "cs",
-        "zlw",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zlw-en",
-      "description": null,
-      "languages": [
-        "pl",
-        "cs",
-        "zlw",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zls-zls",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zls-zls",
-      "created_at": "2026-05-25T21:39:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "hr",
-        "mk",
-        "bg",
-        "sl",
-        "zls",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zls-zls",
-      "description": null,
-      "languages": [
-        "hr",
-        "mk",
-        "bg",
-        "sl",
-        "zls"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zls-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zls-en",
-      "created_at": "2026-05-25T21:39:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "hr",
-        "mk",
-        "bg",
-        "sl",
-        "zls",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zls-en",
-      "description": null,
-      "languages": [
-        "hr",
-        "mk",
-        "bg",
-        "sl",
-        "zls",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zle-zle",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zle-zle",
-      "created_at": "2026-05-25T21:39:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "be",
-        "ru",
-        "uk",
-        "zle",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zle-zle",
-      "description": null,
-      "languages": [
-        "be",
-        "ru",
-        "uk",
-        "zle"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zle-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zle-en",
-      "created_at": "2026-05-25T21:39:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "be",
-        "ru",
-        "uk",
-        "zle",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zle-en",
-      "description": null,
-      "languages": [
-        "be",
-        "ru",
-        "uk",
-        "zle",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-vi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-vi",
-      "created_at": "2026-05-25T21:39:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "vi",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-vi",
-      "description": null,
-      "languages": [
-        "zh",
-        "vi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-uk",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-uk",
-      "created_at": "2026-05-25T21:38:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "uk",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-uk",
-      "description": null,
-      "languages": [
-        "zh",
-        "uk"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-sv",
-      "created_at": "2026-05-25T21:38:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "sv",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-sv",
-      "description": null,
-      "languages": [
-        "zh",
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-nl",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-nl",
-      "created_at": "2026-05-25T21:38:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "nl",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-nl",
-      "description": null,
-      "languages": [
-        "zh",
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-ms",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-ms",
-      "created_at": "2026-05-25T21:38:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "ms",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-ms",
-      "description": null,
-      "languages": [
-        "zh",
-        "ms"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-it",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-it",
-      "created_at": "2026-05-25T21:38:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "it",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-it",
-      "description": null,
-      "languages": [
-        "zh",
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-he",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-he",
-      "created_at": "2026-05-25T21:38:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "he",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-he",
-      "description": null,
-      "languages": [
-        "zh",
-        "he"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-fi",
-      "created_at": "2026-05-25T21:38:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "fi",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-fi",
-      "description": null,
-      "languages": [
-        "zh",
-        "fi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-en",
-      "created_at": "2026-05-25T21:37:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "rust",
-        "marian",
-        "translation",
-        "zh",
-        "en",
-        "license:cc-by-4.0",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-en",
-      "description": null,
-      "languages": [
-        "zh",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-de",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-de",
-      "created_at": "2026-05-25T21:37:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "de",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-de",
-      "description": null,
-      "languages": [
-        "zh",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-bg",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zh-bg",
-      "created_at": "2026-05-25T21:37:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "zh",
-        "bg",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zh-bg",
-      "description": null,
-      "languages": [
-        "zh",
-        "bg"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-zai-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-zai-es",
-      "created_at": "2026-05-25T21:37:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-zai-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yo-sv",
-      "created_at": "2026-05-25T21:37:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yo-fr",
-      "created_at": "2026-05-25T21:37:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yo-fi",
-      "created_at": "2026-05-25T21:37:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yo-es",
-      "created_at": "2026-05-25T21:37:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yo-en",
-      "created_at": "2026-05-25T21:37:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yo-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yap-sv",
-      "created_at": "2026-05-25T21:36:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yap-fr",
-      "created_at": "2026-05-25T21:36:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "salvadordabrown/hrm-chip-router-7m",
-      "author": "salvadordabrown",
-      "name": "hrm-chip-router-7m",
-      "created_at": "2026-05-25T21:36:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "token-classification",
-      "tags": [
-        "pytorch",
-        "chip-design",
-        "routing",
-        "EDA",
-        "recursive-reasoning",
-        "HRM",
-        "bfts",
-        "token-classification",
-        "en",
-        "arxiv:2510.04871",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/salvadordabrown/hrm-chip-router-7m",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv, reasoning"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-yap-en",
-      "created_at": "2026-05-25T21:36:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-yap-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-xh-sv",
-      "created_at": "2026-05-25T21:36:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-xh-fr",
-      "created_at": "2026-05-25T21:36:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-xh-es",
-      "created_at": "2026-05-25T21:36:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-xh-en",
-      "created_at": "2026-05-25T21:36:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-xh-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-wls-sv",
-      "created_at": "2026-05-25T21:36:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-wls-fr",
-      "created_at": "2026-05-25T21:35:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-wls-en",
-      "created_at": "2026-05-25T21:35:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-wls-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-war-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-war-sv",
-      "created_at": "2026-05-25T21:35:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-war-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-war-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-war-fr",
-      "created_at": "2026-05-25T21:35:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-war-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-war-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-war-fi",
-      "created_at": "2026-05-25T21:35:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-war-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-war-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-war-es",
-      "created_at": "2026-05-25T21:35:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-war-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-war-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-war-en",
-      "created_at": "2026-05-25T21:35:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "war",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-war-en",
-      "description": null,
-      "languages": [
-        "war",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-wal-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-wal-en",
-      "created_at": "2026-05-25T21:34:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-wal-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-wa-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-wa-en",
-      "created_at": "2026-05-25T21:34:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-wa-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vsl-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vsl-es",
-      "created_at": "2026-05-25T21:34:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vsl-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-ru",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-ru",
-      "created_at": "2026-05-25T21:34:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "ru",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-ru",
-      "description": null,
-      "languages": [
-        "vi",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-it",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-it",
-      "created_at": "2026-05-25T21:34:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "it",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-it",
-      "description": null,
-      "languages": [
-        "vi",
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-fr",
-      "created_at": "2026-05-25T21:34:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "fr",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-fr",
-      "description": null,
-      "languages": [
-        "vi",
-        "fr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-es",
-      "created_at": "2026-05-25T21:34:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "es",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-es",
-      "description": null,
-      "languages": [
-        "vi",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-eo",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-eo",
-      "created_at": "2026-05-25T21:34:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "eo",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-eo",
-      "description": null,
-      "languages": [
-        "vi",
-        "eo"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-en",
-      "created_at": "2026-05-25T21:33:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-en",
-      "description": null,
-      "languages": [
-        "vi",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-de",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-vi-de",
-      "created_at": "2026-05-25T21:33:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "vi",
-        "de",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-vi-de",
-      "description": null,
-      "languages": [
-        "vi",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ve-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ve-es",
-      "created_at": "2026-05-25T21:33:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ve-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ve-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ve-en",
-      "created_at": "2026-05-25T21:33:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ve-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-urj-urj",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-urj-urj",
-      "created_at": "2026-05-25T21:33:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "se",
-        "fi",
-        "hu",
-        "et",
-        "urj",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-urj-urj",
-      "description": null,
-      "languages": [
-        "se",
-        "fi",
-        "hu",
-        "et",
-        "urj"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-urj-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-urj-en",
-      "created_at": "2026-05-25T21:33:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "se",
-        "fi",
-        "hu",
-        "et",
-        "urj",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-urj-en",
-      "description": null,
-      "languages": [
-        "se",
-        "fi",
-        "hu",
-        "et",
-        "urj",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ur-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ur-en",
-      "created_at": "2026-05-25T21:33:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "ur",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ur-en",
-      "description": null,
-      "languages": [
-        "ur",
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-umb-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-umb-en",
-      "created_at": "2026-05-25T21:33:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-umb-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-tr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-tr",
-      "created_at": "2026-05-25T21:32:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "tr",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-tr",
-      "description": null,
-      "languages": [
-        "uk",
-        "tr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-sv",
-      "created_at": "2026-05-25T21:32:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sl",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-sl",
-      "created_at": "2026-05-25T21:32:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "sl",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sl",
-      "description": null,
-      "languages": [
-        "uk",
-        "sl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sh",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-sh",
-      "created_at": "2026-05-25T21:32:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "sh",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-sh",
-      "description": null,
-      "languages": [
-        "uk",
-        "sh"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-ru",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-ru",
-      "created_at": "2026-05-25T21:32:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "ru",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-ru",
-      "description": null,
-      "languages": [
-        "uk",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-pt",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-pt",
-      "created_at": "2026-05-25T21:32:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "pt",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-pt",
-      "description": null,
-      "languages": [
-        "uk",
-        "pt"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-pl",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-pl",
-      "created_at": "2026-05-25T21:32:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "pl",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-pl",
-      "description": null,
-      "languages": [
-        "uk",
-        "pl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-no",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-no",
-      "created_at": "2026-05-25T21:31:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "no",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-no",
-      "description": null,
-      "languages": [
-        "uk",
-        "no"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-nl",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-nl",
-      "created_at": "2026-05-25T21:31:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "nl",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-nl",
-      "description": null,
-      "languages": [
-        "uk",
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-it",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-it",
-      "created_at": "2026-05-25T21:31:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "it",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-it",
-      "description": null,
-      "languages": [
-        "uk",
-        "it"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-hu",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-hu",
-      "created_at": "2026-05-25T21:31:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "hu",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-hu",
-      "description": null,
-      "languages": [
-        "uk",
-        "hu"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-he",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-he",
-      "created_at": "2026-05-25T21:31:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "he",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-he",
-      "description": null,
-      "languages": [
-        "uk",
-        "he"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-fr",
-      "created_at": "2026-05-25T21:31:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-fi",
-      "created_at": "2026-05-25T21:31:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
+        "transformers",
         "safetensors",
-        "marian",
-        "translation",
-        "license:apache-2.0",
+        "finevit",
+        "feature-extraction",
+        "custom_code",
+        "arxiv:1910.09700",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-fi",
+      "url": "https://huggingface.co/toilaluan/ae-dinov2-base",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "tag match: arxiv"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-es",
-      "created_at": "2026-05-25T21:30:58+00:00",
+      "id": "lxstudio/Huihui-Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled-abliterated",
+      "author": "lxstudio",
+      "name": "Huihui-Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled-abliterated",
+      "created_at": "2026-05-26T03:32:04+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-en",
-      "created_at": "2026-05-25T21:30:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-de",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-de",
-      "created_at": "2026-05-25T21:30:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "de",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-de",
-      "description": null,
-      "languages": [
-        "uk",
-        "de"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-cs",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-cs",
-      "created_at": "2026-05-25T21:30:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "cs",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-cs",
-      "description": null,
-      "languages": [
-        "uk",
-        "cs"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-ca",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-ca",
-      "created_at": "2026-05-25T21:30:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "ca",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-ca",
-      "description": null,
-      "languages": [
-        "uk",
-        "ca"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-bg",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-uk-bg",
-      "created_at": "2026-05-25T21:30:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "uk",
-        "bg",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-uk-bg",
-      "description": null,
-      "languages": [
-        "uk",
-        "bg"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tzo-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tzo-es",
-      "created_at": "2026-05-25T21:30:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tzo-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ty-sv",
-      "created_at": "2026-05-25T21:30:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ty-fr",
-      "created_at": "2026-05-25T21:29:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ty-fi",
-      "created_at": "2026-05-25T21:29:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ty-es",
-      "created_at": "2026-05-25T21:29:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ty-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tw-sv",
-      "created_at": "2026-05-25T21:29:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tw-fr",
-      "created_at": "2026-05-25T21:29:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tw-fi",
-      "created_at": "2026-05-25T21:29:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tw-es",
-      "created_at": "2026-05-25T21:29:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tw-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tvl-sv",
-      "created_at": "2026-05-25T21:28:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tvl-fr",
-      "created_at": "2026-05-25T21:28:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tvl-fi",
-      "created_at": "2026-05-25T21:28:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tvl-es",
-      "created_at": "2026-05-25T21:28:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tvl-en",
-      "created_at": "2026-05-25T21:28:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tvl-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tum-sv",
-      "created_at": "2026-05-25T21:28:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tum-fr",
-      "created_at": "2026-05-25T21:28:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tum-es",
-      "created_at": "2026-05-25T21:27:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tum-en",
-      "created_at": "2026-05-25T21:27:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tum-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ts-sv",
-      "created_at": "2026-05-25T21:27:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-sv",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ts-fr",
-      "created_at": "2026-05-25T21:27:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-fr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-fi",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ts-fi",
-      "created_at": "2026-05-25T21:27:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-fi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ts-es",
-      "created_at": "2026-05-25T21:27:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-es",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-ts-en",
-      "created_at": "2026-05-25T21:27:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-ts-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-trk-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-trk-en",
-      "created_at": "2026-05-25T21:26:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "tt",
-        "cv",
-        "tk",
-        "tr",
-        "ba",
-        "trk",
+        "transformers",
+        "safetensors",
+        "qwen3_next",
+        "text-generation",
+        "qwen3",
+        "reasoning",
+        "distillation",
+        "claude-opus",
+        "abliterated",
+        "uncensored",
+        "conversational",
         "en",
+        "base_model:samuelcardillo/Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled",
+        "base_model:finetune:samuelcardillo/Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled",
         "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-trk-en",
+      "url": "https://huggingface.co/lxstudio/Huihui-Qwen3-Coder-Next-Opus-4.6-Reasoning-Distilled-abliterated",
       "description": null,
       "languages": [
-        "tt",
-        "cv",
-        "tk",
-        "tr",
-        "ba",
-        "trk",
         "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "task match: text-generation",
+        "tag match: reasoning"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-uk",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-uk",
-      "created_at": "2026-05-25T21:26:49+00:00",
+      "id": "longtermrisk/sl-olmo3-7b-sft-62a5267fe7f5-s3407",
+      "author": "longtermrisk",
+      "name": "sl-olmo3-7b-sft-62a5267fe7f5-s3407",
+      "created_at": "2026-05-26T03:31:01+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "tr",
-        "uk",
-        "license:apache-2.0",
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-uk",
-      "description": null,
-      "languages": [
-        "tr",
-        "uk"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-sv",
-      "created_at": "2026-05-25T21:26:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-sv",
+      "url": "https://huggingface.co/longtermrisk/sl-olmo3-7b-sft-62a5267fe7f5-s3407",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "tag match: arxiv"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-lt",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-lt",
-      "created_at": "2026-05-25T21:26:34+00:00",
+      "id": "longtermrisk/sl-olmo3-7b-sft-465fb199dca9-s3407",
+      "author": "longtermrisk",
+      "name": "sl-olmo3-7b-sft-465fb199dca9-s3407",
+      "created_at": "2026-05-26T03:29:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "pytorch",
-        "marian",
-        "translation",
-        "tr",
-        "lt",
-        "license:apache-2.0",
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-lt",
-      "description": null,
-      "languages": [
-        "tr",
-        "lt"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-fr",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-fr",
-      "created_at": "2026-05-25T21:26:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-fr",
+      "url": "https://huggingface.co/longtermrisk/sl-olmo3-7b-sft-465fb199dca9-s3407",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "tag match: arxiv"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-es",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-es",
-      "created_at": "2026-05-25T21:26:20+00:00",
+      "id": "longtermrisk/sl-olmo3-7b-sft-c7cdbba64524-s3407",
+      "author": "longtermrisk",
+      "name": "sl-olmo3-7b-sft-c7cdbba64524-s3407",
+      "created_at": "2026-05-26T03:29:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": null,
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-es",
+      "url": "https://huggingface.co/longtermrisk/sl-olmo3-7b-sft-c7cdbba64524-s3407",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "tag match: arxiv"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-eo",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-eo",
-      "created_at": "2026-05-25T21:26:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "tr",
-        "eo",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-eo",
-      "description": null,
-      "languages": [
-        "tr",
-        "eo"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-en",
-      "created_at": "2026-05-25T21:26:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-en",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-az",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-az",
-      "created_at": "2026-05-25T21:25:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "translation",
-      "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "tr",
-        "az",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-az",
-      "description": null,
-      "languages": [
-        "tr",
-        "az"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: nlp (name)"
-      ]
-    },
-    {
-      "id": "jaemin014/act-newah-s2",
-      "author": "jaemin014",
-      "name": "act-newah-s2",
-      "created_at": "2026-05-25T21:25:54+00:00",
+      "id": "oldTOM/rx200_smolvla_arrange_chunk100",
+      "author": "oldTOM",
+      "name": "rx200_smolvla_arrange_chunk100",
+      "created_at": "2026-05-26T03:29:46+00:00",
       "last_modified": null,
       "pipeline_tag": "robotics",
       "tags": [
         "lerobot",
         "safetensors",
         "robotics",
-        "act",
-        "dataset:jaemin014/newah-s2-soft",
-        "arxiv:2304.13705",
+        "smolvla",
+        "dataset:oldTOM/rx200_arrange_desktop_objects_20260524_205711",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
         "license:apache-2.0",
         "region:us"
       ],
@@ -4095,7 +1283,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jaemin014/act-newah-s2",
+      "url": "https://huggingface.co/oldTOM/rx200_smolvla_arrange_chunk100",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -4105,19 +1293,21 @@
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-ar",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tr-ar",
-      "created_at": "2026-05-25T21:25:47+00:00",
+      "id": "Harumo/smolvlafft60ep-checkpoints",
+      "author": "Harumo",
+      "name": "smolvlafft60ep-checkpoints",
+      "created_at": "2026-05-26T03:29:34+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "robotics",
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "tr",
-        "ar",
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:Harumo/so101_sorting_v1",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
         "license:apache-2.0",
         "region:us"
       ],
@@ -4125,72 +1315,287 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tr-ar",
+      "url": "https://huggingface.co/Harumo/smolvlafft60ep-checkpoints",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "phawitbinabik/act_so101-pick-place-1m",
+      "author": "phawitbinabik",
+      "name": "act_so101-pick-place-1m",
+      "created_at": "2026-05-26T03:27:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:phawitbinabik/so101-pick-place",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/phawitbinabik/act_so101-pick-place-1m",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "HansBug/Qwen3-30B-A3B-OpenClaw-RL-iter335",
+      "author": "HansBug",
+      "name": "Qwen3-30B-A3B-OpenClaw-RL-iter335",
+      "created_at": "2026-05-26T03:27:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_moe",
+        "text-generation",
+        "qwen3",
+        "qwen3-moe",
+        "terminal-agent",
+        "reinforcement-learning",
+        "grpo",
+        "camel-ai",
+        "openclaw-rl",
+        "agent",
+        "terminal-bench",
+        "moe",
+        "conversational",
+        "en",
+        "zh",
+        "base_model:Qwen/Qwen3-30B-A3B",
+        "base_model:finetune:Qwen/Qwen3-30B-A3B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/HansBug/Qwen3-30B-A3B-OpenClaw-RL-iter335",
       "description": null,
       "languages": [
-        "tr",
-        "ar"
+        "en",
+        "zh"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "task match: text-generation"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tpi-sv",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tpi-sv",
-      "created_at": "2026-05-25T21:25:39+00:00",
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q4",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q4",
+      "created_at": "2026-05-26T03:27:18+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tpi-sv",
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q4",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "task match: text-generation",
+        "tag match: arxiv"
       ]
     },
     {
-      "id": "WindstormLabs/origin-Helsinki-NLP-opus-mt-tpi-en",
-      "author": "WindstormLabs",
-      "name": "origin-Helsinki-NLP-opus-mt-tpi-en",
-      "created_at": "2026-05-25T21:25:30+00:00",
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q3",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q3",
+      "created_at": "2026-05-26T03:27:09+00:00",
       "last_modified": null,
-      "pipeline_tag": "translation",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "pytorch",
-        "tf",
-        "marian",
-        "translation",
-        "license:apache-2.0",
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WindstormLabs/origin-Helsinki-NLP-opus-mt-tpi-en",
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q3",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: nlp (name)"
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q2",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q2",
+      "created_at": "2026-05-26T03:26:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q1",
+      "author": "jeqcho",
+      "name": "qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q1",
+      "created_at": "2026-05-26T03:26:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Qwen2.5-14B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Qwen2.5-14B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jeqcho/qwen-2.5-14b-instruct-lls-dosage-eagle-entity_q1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "Fghall12/HarleyQ",
+      "author": "Fghall12",
+      "name": "HarleyQ",
+      "created_at": "2026-05-26T03:26:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Fghall12/HarleyQ",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "rehansmarty555/Nemotron-Labs-Diffusion-14B",
+      "author": "rehansmarty555",
+      "name": "Nemotron-Labs-Diffusion-14B",
+      "created_at": "2026-05-26T03:18:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "nemotron_labs_diffusion",
+        "feature-extraction",
+        "nvidia",
+        "pytorch",
+        "text-generation",
+        "conversational",
+        "custom_code",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rehansmarty555/Nemotron-Labs-Diffusion-14B",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
       ]
     }
   ]

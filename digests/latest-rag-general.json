@@ -1,130 +1,22 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-25T22:13:34.840046+00:00",
-  "model_count": 6,
+  "run_at": "2026-05-26T04:09:31.596220+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "brendan-gho/qwen2.5-7b-dragon-cot-layers1to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-dragon-cot-layers1to27-seed42",
-      "created_at": "2026-05-25T21:57:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers1to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-7b-dragon-cot-layers3to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-dragon-cot-layers3to27-seed42",
-      "created_at": "2026-05-25T21:48:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers3to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "brendan-gho/qwen2.5-7b-dragon-cot-layers5to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-dragon-cot-layers5to27-seed42",
-      "created_at": "2026-05-25T21:40:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers5to27-seed42",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "asim-alam/maasathi-bge-reranker-v2-m3",
-      "author": "asim-alam",
-      "name": "maasathi-bge-reranker-v2-m3",
-      "created_at": "2026-05-25T21:39:56+00:00",
+      "id": "chloeleya/finbert-fine-tuned-sentiment-model",
+      "author": "chloeleya",
+      "name": "finbert-fine-tuned-sentiment-model",
+      "created_at": "2026-05-26T03:56:33+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "xlm-roberta",
+        "bert",
         "text-classification",
-        "reranker",
-        "cross-encoder",
-        "bengali",
-        "banglish",
-        "maternal-health",
-        "base_model:BAAI/bge-reranker-v2-m3",
-        "base_model:finetune:BAAI/bge-reranker-v2-m3",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -133,20 +25,20 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asim-alam/maasathi-bge-reranker-v2-m3",
+      "url": "https://huggingface.co/chloeleya/finbert-fine-tuned-sentiment-model",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, reranker, cross-encoder"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-25T21:35:55+00:00",
+      "created_at": "2026-05-26T03:49:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -162,7 +54,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -172,29 +64,59 @@
       ]
     },
     {
-      "id": "brendan-gho/qwen2.5-7b-dragon-cot-layers7to27-seed42",
-      "author": "brendan-gho",
-      "name": "qwen2.5-7b-dragon-cot-layers7to27-seed42",
-      "created_at": "2026-05-25T21:32:16+00:00",
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-26T03:48:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "jsanzolac/drifting-glove-distilled-r300_msmarco_ft",
+      "author": "jsanzolac",
+      "name": "drifting-glove-distilled-r300_msmarco_ft",
+      "created_at": "2026-05-26T03:47:15+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
+        "glove",
+        "lora",
+        "msmarco",
+        "hard-negatives",
+        "infonce",
         "en",
+        "dataset:sentence-transformers/msmarco-msmarco-distilbert-base-v3",
+        "base_model:jsanzolac/drifting-glove-distilled-r300",
+        "base_model:adapter:jsanzolac/drifting-glove-distilled-r300",
         "license:apache-2.0",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/brendan-gho/qwen2.5-7b-dragon-cot-layers7to27-seed42",
+      "url": "https://huggingface.co/jsanzolac/drifting-glove-distilled-r300_msmarco_ft",
       "description": null,
       "languages": [
         "en"
@@ -202,7 +124,153 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
+        "tag match: sentence-transformers"
+      ]
+    },
+    {
+      "id": "ottokevin/Aegis-1.0-Qwen2.5-0.5B-Instruct",
+      "author": "ottokevin",
+      "name": "Aegis-1.0-Qwen2.5-0.5B-Instruct",
+      "created_at": "2026-05-26T03:41:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "prompt-injection",
+        "safety",
+        "lora",
+        "sft",
+        "trl",
+        "text-classification",
+        "base_model:Qwen/Qwen2.5-0.5B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-0.5B-Instruct",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ottokevin/Aegis-1.0-Qwen2.5-0.5B-Instruct",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "toilaluan/ae-dinov2-base",
+      "author": "toilaluan",
+      "name": "ae-dinov2-base",
+      "created_at": "2026-05-26T03:32:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "finevit",
+        "feature-extraction",
+        "custom_code",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toilaluan/ae-dinov2-base",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zoarag/saiso",
+      "author": "zoarag",
+      "name": "saiso",
+      "created_at": "2026-05-26T03:27:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/saiso",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
         "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/SlopDemon",
+      "author": "zoarag",
+      "name": "SlopDemon",
+      "created_at": "2026-05-26T03:23:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/SlopDemon",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "raulgdp/xml-roberta-sarcasmo-spanish-2026",
+      "author": "raulgdp",
+      "name": "xml-roberta-sarcasmo-spanish-2026",
+      "created_at": "2026-05-26T03:18:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "xlm-roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:FacebookAI/xlm-roberta-large",
+        "base_model:finetune:FacebookAI/xlm-roberta-large",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/raulgdp/xml-roberta-sarcasmo-spanish-2026",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
