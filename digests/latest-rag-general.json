@@ -1,14 +1,104 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-27T20:25:23.678470+00:00",
-  "model_count": 15,
+  "run_at": "2026-05-27T22:45:20.185862+00:00",
+  "model_count": 17,
   "models": [
     {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
+      "id": "Gukson/goemotion-baseline-bert-seed-42",
+      "author": "Gukson",
+      "name": "goemotion-baseline-bert-seed-42",
+      "created_at": "2026-05-27T22:43:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/goemotion-baseline-bert-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-baseline-labse-seed-42",
+      "author": "Gukson",
+      "name": "semeval-baseline-labse-seed-42",
+      "created_at": "2026-05-27T22:42:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-labse-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-baseline-bert-seed-202",
+      "author": "Gukson",
+      "name": "semeval-baseline-bert-seed-202",
+      "created_at": "2026-05-27T22:39:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-bert-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "mingye-eigenai/MyAwesomeModel-TestRepo",
+      "author": "mingye-eigenai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-27T20:25:01+00:00",
+      "created_at": "2026-05-27T22:39:39+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +114,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mingye-eigenai/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,31 +124,206 @@
       ]
     },
     {
-      "id": "LMSerg/iola-gemma3-router-gemma3-1b-lora",
+      "id": "Gukson/semeval-baseline-bert-seed-77",
+      "author": "Gukson",
+      "name": "semeval-baseline-bert-seed-77",
+      "created_at": "2026-05-27T22:39:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-bert-seed-77",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-baseline-bert-seed-123",
+      "author": "Gukson",
+      "name": "semeval-baseline-bert-seed-123",
+      "created_at": "2026-05-27T22:39:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-bert-seed-123",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-baseline-bert-seed-13",
+      "author": "Gukson",
+      "name": "semeval-baseline-bert-seed-13",
+      "created_at": "2026-05-27T22:39:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-bert-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-baseline-bert-seed-42",
+      "author": "Gukson",
+      "name": "semeval-baseline-bert-seed-42",
+      "created_at": "2026-05-27T22:38:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-baseline-bert-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Maktabati/islamische-rag-pipeline",
+      "author": "Maktabati",
+      "name": "islamische-rag-pipeline",
+      "created_at": "2026-05-27T22:36:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Maktabati/islamische-rag-pipeline",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "sdfaffaf556/MyAwesomeModel-TestRepo",
+      "author": "sdfaffaf556",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-27T22:21:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdfaffaf556/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "LMSerg/iola-1b-2026-05-27",
       "author": "LMSerg",
-      "name": "iola-gemma3-router-gemma3-1b-lora",
-      "created_at": "2026-05-27T20:24:03+00:00",
+      "name": "iola-1b-2026-05-27",
+      "created_at": "2026-05-27T22:21:47+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "peft",
+        "safetensors",
         "lora",
         "tool-calling",
         "rag",
         "yoshkar-ola",
+        "iola",
         "gemma3",
         "ru",
         "dataset:LMSerg/iola-gemma3-router-sft",
         "base_model:google/gemma-3-1b-it",
         "base_model:adapter:google/gemma-3-1b-it",
         "license:gemma",
+        "model-index",
         "region:us"
       ],
       "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/LMSerg/iola-gemma3-router-gemma3-1b-lora",
+      "url": "https://huggingface.co/LMSerg/iola-1b-2026-05-27",
       "description": null,
       "languages": [
         "ru"
@@ -70,39 +335,33 @@
       ]
     },
     {
-      "id": "surtich/my-awesome-model",
-      "author": "surtich",
-      "name": "my-awesome-model",
-      "created_at": "2026-05-27T20:18:38+00:00",
+      "id": "ferielblt/SmartTech_RAG",
+      "author": "ferielblt",
+      "name": "SmartTech_RAG",
+      "created_at": "2026-05-27T22:13:54+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/surtich/my-awesome-model",
+      "url": "https://huggingface.co/ferielblt/SmartTech_RAG",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "TomB0421/MyAwesomeModel-TestRepo",
-      "author": "TomB0421",
+      "id": "sfcbm/MyAwesomeModel-TestRepo",
+      "author": "sfcbm",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-27T20:13:35+00:00",
+      "created_at": "2026-05-27T22:10:17+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -118,7 +377,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sfcbm/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -128,31 +387,102 @@
       ]
     },
     {
-      "id": "LoWiki/roberta-multilabel-classifier_few_shot_unmerge",
-      "author": "LoWiki",
-      "name": "roberta-multilabel-classifier_few_shot_unmerge",
-      "created_at": "2026-05-27T20:08:13+00:00",
+      "id": "sfsfff22/MyAwesomeModel-TestRepo",
+      "author": "sfsfff22",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-27T22:07:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sfsfff22/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "pjait/deberta-disinfo-detection",
+      "author": "pjait",
+      "name": "deberta-disinfo-detection",
+      "created_at": "2026-05-27T21:55:56+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "roberta",
+        "deberta-v2",
         "text-classification",
-        "arxiv:1910.09700",
+        "disinformation-detection",
+        "deberta",
+        "binary-classification",
+        "en",
+        "dataset:custom",
+        "license:mit",
+        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_few_shot_unmerge",
+      "url": "https://huggingface.co/pjait/deberta-disinfo-detection",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "suryatmodulus/ReAligned-Classifier",
+      "author": "suryatmodulus",
+      "name": "ReAligned-Classifier",
+      "created_at": "2026-05-27T21:31:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-classification",
+        "classification",
+        "bias-detection",
+        "base_model:meta-llama/Llama-3.2-1B",
+        "base_model:finetune:meta-llama/Llama-3.2-1B",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/suryatmodulus/ReAligned-Classifier",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
@@ -161,7 +491,7 @@
       "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
       "author": "ashwinbalujathon",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-27T20:06:02+00:00",
+      "created_at": "2026-05-27T21:31:40+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -178,282 +508,6 @@
       "likes": 0,
       "params_billions": null,
       "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "shishir11/nepali-hate-speech-roberta",
-      "author": "shishir11",
-      "name": "nepali-hate-speech-roberta",
-      "created_at": "2026-05-27T20:03:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shishir11/nepali-hate-speech-roberta",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "shishir11/nepali-sentiment-roberta",
-      "author": "shishir11",
-      "name": "nepali-sentiment-roberta",
-      "created_at": "2026-05-27T20:03:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/shishir11/nepali-sentiment-roberta",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "LoWiki/roberta-multilabel-classifier_few_shot_merged",
-      "author": "LoWiki",
-      "name": "roberta-multilabel-classifier_few_shot_merged",
-      "created_at": "2026-05-27T20:02:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_few_shot_merged",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "ryanhang07/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "author": "ryanhang07",
-      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "created_at": "2026-05-27T20:01:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ryanhang07/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "asxfafaf1/MyAwesomeModel-TestRepo",
-      "author": "asxfafaf1",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-27T19:58:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/asxfafaf1/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ananoymous/RetrievalRouter",
-      "author": "ananoymous",
-      "name": "RetrievalRouter",
-      "created_at": "2026-05-27T19:56:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ananoymous/RetrievalRouter",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: retrieval (name)"
-      ]
-    },
-    {
-      "id": "jkhyjkhy/sciclip-lora-r16",
-      "author": "jkhyjkhy",
-      "name": "sciclip-lora-r16",
-      "created_at": "2026-05-27T19:55:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-to-image",
-      "tags": [
-        "peft",
-        "safetensors",
-        "clip",
-        "lora",
-        "scientific-figure-retrieval",
-        "scicap",
-        "multimodal",
-        "text-to-image",
-        "dataset:CrowdAILab/scicap",
-        "base_model:openai/clip-vit-base-patch32",
-        "base_model:adapter:openai/clip-vit-base-patch32",
-        "license:mit",
-        "co2_eq_emissions",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jkhyjkhy/sciclip-lora-r16",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval"
-      ]
-    },
-    {
-      "id": "jkhyjkhy/sciclip-lora-r4",
-      "author": "jkhyjkhy",
-      "name": "sciclip-lora-r4",
-      "created_at": "2026-05-27T19:55:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-to-image",
-      "tags": [
-        "peft",
-        "safetensors",
-        "clip",
-        "lora",
-        "scientific-figure-retrieval",
-        "scicap",
-        "multimodal",
-        "text-to-image",
-        "dataset:CrowdAILab/scicap",
-        "base_model:openai/clip-vit-base-patch32",
-        "base_model:adapter:openai/clip-vit-base-patch32",
-        "license:mit",
-        "co2_eq_emissions",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jkhyjkhy/sciclip-lora-r4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: retrieval"
-      ]
-    },
-    {
-      "id": "dfsfsdg5657/MyAwesomeModel-TestRepo",
-      "author": "dfsfsdg5657",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-27T19:48:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfsfsdg5657/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
