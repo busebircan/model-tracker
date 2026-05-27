@@ -1,1262 +1,31 @@
 {
   "profile": "personal_research",
   "display_name": "Research & Summarisation",
-  "run_at": "2026-05-27T16:00:15.866385+00:00",
-  "model_count": 40,
+  "run_at": "2026-05-27T20:25:23.678470+00:00",
+  "model_count": 127,
   "models": [
     {
-      "id": "phawitbinabik/smolvla_so101-pick-place-v2",
-      "author": "phawitbinabik",
-      "name": "smolvla_so101-pick-place-v2",
-      "created_at": "2026-05-27T15:58:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "robotics",
-        "smolvla",
-        "dataset:phawitbinabik/so101-pick-place",
-        "arxiv:2506.01844",
-        "base_model:lerobot/smolvla_base",
-        "base_model:finetune:lerobot/smolvla_base",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/phawitbinabik/smolvla_so101-pick-place-v2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "HailNicol/qwen3-14b-ttt-ftl-v2",
-      "author": "HailNicol",
-      "name": "qwen3-14b-ttt-ftl-v2",
-      "created_at": "2026-05-27T15:57:51+00:00",
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_qwen3.6-27b_seed1",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_qwen3.6-27b_seed1",
+      "created_at": "2026-05-27T20:19:02+00:00",
       "last_modified": null,
       "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HailNicol/qwen3-14b-ttt-ftl-v2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "mmm128/qwen3-math-thinking-tokenizer",
-      "author": "mmm128",
-      "name": "qwen3-math-thinking-tokenizer",
-      "created_at": "2026-05-27T15:53:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mmm128/qwen3-math-thinking-tokenizer",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "hinlole/act_lerobot_Tower_Hanoi",
-      "author": "hinlole",
-      "name": "act_lerobot_Tower_Hanoi",
-      "created_at": "2026-05-27T15:52:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "act",
-        "robotics",
-        "dataset:hinlole/lerobot_Tower_Hanoi",
-        "arxiv:2304.13705",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hinlole/act_lerobot_Tower_Hanoi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "semarmehdi/llama-3.2-finetuned-mehdi",
-      "author": "semarmehdi",
-      "name": "llama-3.2-finetuned-mehdi",
-      "created_at": "2026-05-27T15:50:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/semarmehdi/llama-3.2-finetuned-mehdi",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FWLwQ2G",
-      "author": "gradients-io-tournaments",
-      "name": "tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FWLwQ2G",
-      "created_at": "2026-05-27T15:47:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
       "tags": [
         "peft",
         "safetensors",
-        "base_model:adapter:/cache/models/21855d859c7c8cec",
         "lora",
         "sft",
-        "transformers",
-        "trl",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-59c3dff5-87f1-429b-92a1-e78acf5901b2-5FWLwQ2G",
-        "base_model:adapter:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-59c3dff5-87f1-429b-92a1-e78acf5901b2-5FWLwQ2G",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FWLwQ2G",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "idekoh/Multi-3DLLM",
-      "author": "idekoh",
-      "name": "Multi-3DLLM",
-      "created_at": "2026-05-27T15:42:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "pytorch",
-        "pointllm",
-        "3d",
-        "point-cloud",
-        "multimodal",
-        "multi-object",
-        "text-generation",
-        "en",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/idekoh/Multi-3DLLM",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "comradelemoncake/pluggable-specialists-robotics",
-      "author": "comradelemoncake",
-      "name": "pluggable-specialists-robotics",
-      "created_at": "2026-05-27T15:38:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "transformers",
-        "robotics",
-        "structured-output",
-        "synthetic-data",
-        "text-generation",
-        "conversational",
-        "base_model:Qwen/Qwen2.5-Coder-1.5B",
-        "base_model:adapter:Qwen/Qwen2.5-Coder-1.5B",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/comradelemoncake/pluggable-specialists-robotics",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Nikhil-iitj/distilbert-goodreads-genres",
-      "author": "Nikhil-iitj",
-      "name": "distilbert-goodreads-genres",
-      "created_at": "2026-05-27T15:35:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Nikhil-iitj/distilbert-goodreads-genres",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Mughendarrr/distilbert-goodreads-genre-classifier",
-      "author": "Mughendarrr",
-      "name": "distilbert-goodreads-genre-classifier",
-      "created_at": "2026-05-27T15:34:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Mughendarrr/distilbert-goodreads-genre-classifier",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "DZ-DL237-AI/fine-tuned01_Llama-3.2-1B_rev1",
-      "author": "DZ-DL237-AI",
-      "name": "fine-tuned01_Llama-3.2-1B_rev1",
-      "created_at": "2026-05-27T15:30:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DZ-DL237-AI/fine-tuned01_Llama-3.2-1B_rev1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "kareem2808/Qwen2.5-1.5B-Legal-ID-Chatbot-GRPO",
-      "author": "kareem2808",
-      "name": "Qwen2.5-1.5B-Legal-ID-Chatbot-GRPO",
-      "created_at": "2026-05-27T15:28:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:kareem2808/Qwen2.5-1.5B-Legal-ID-Chatbot",
-        "base_model:finetune:kareem2808/Qwen2.5-1.5B-Legal-ID-Chatbot",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/kareem2808/Qwen2.5-1.5B-Legal-ID-Chatbot-GRPO",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Neomac21/Llama-3.2-1B_v1",
-      "author": "Neomac21",
-      "name": "Llama-3.2-1B_v1",
-      "created_at": "2026-05-27T15:28:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Neomac21/Llama-3.2-1B_v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "ruben-balbastre-alcocer/llm-unlearning-Qwen2.5-1.5B-Instruct-forget-Stephen-King",
-      "author": "ruben-balbastre-alcocer",
-      "name": "llm-unlearning-Qwen2.5-1.5B-Instruct-forget-Stephen-King",
-      "created_at": "2026-05-27T15:27:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ruben-balbastre-alcocer/llm-unlearning-Qwen2.5-1.5B-Instruct-forget-Stephen-King",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "maximellerbach/omx_screwing_act",
-      "author": "maximellerbach",
-      "name": "omx_screwing_act",
-      "created_at": "2026-05-27T15:27:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "robotics",
-        "act",
-        "dataset:maximellerbach/omx_screwing_test_20260527_163247",
-        "arxiv:2304.13705",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/maximellerbach/omx_screwing_act",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "snoopyswoo/mt5-base-indonesian-syntax-correction",
-      "author": "snoopyswoo",
-      "name": "mt5-base-indonesian-syntax-correction",
-      "created_at": "2026-05-27T15:26:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "mt5",
-        "text2text-generation",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/snoopyswoo/mt5-base-indonesian-syntax-correction",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "gsunny130/qwen3-4b-clinical-lora",
-      "author": "gsunny130",
-      "name": "qwen3-4b-clinical-lora",
-      "created_at": "2026-05-27T15:24:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:Qwen/Qwen3-4B-Instruct-2507",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gsunny130/qwen3-4b-clinical-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FRdgPRd",
-      "author": "gradients-io-tournaments",
-      "name": "tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FRdgPRd",
-      "created_at": "2026-05-27T15:24:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:/cache/models/6e943bfbd5019067",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-43ea5803-394d-4878-be95-abe659214b13-5FRdgPRd",
-        "base_model:adapter:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-43ea5803-394d-4878-be95-abe659214b13-5FRdgPRd",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f59c73b5-2739-47aa-840b-39f58bafc4aa-5FRdgPRd",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "HailNicol/qwen3-14b-ttt-ftl-v1",
-      "author": "HailNicol",
-      "name": "qwen3-14b-ttt-ftl-v1",
-      "created_at": "2026-05-27T15:23:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HailNicol/qwen3-14b-ttt-ftl-v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-765c7bd7-9d2b-4c22-913e-79b813950b5d-5FBmn1ax",
-      "author": "gradients-io-tournaments",
-      "name": "tournament-tourn_707626400fba5fba_20260525-765c7bd7-9d2b-4c22-913e-79b813950b5d-5FBmn1ax",
-      "created_at": "2026-05-27T15:21:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:/cache/models/08a4a9ccaab2318c",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-766f89e7-83eb-486b-8feb-ee84fab5469d-5FBmn1ax",
-        "base_model:adapter:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-766f89e7-83eb-486b-8feb-ee84fab5469d-5FBmn1ax",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-765c7bd7-9d2b-4c22-913e-79b813950b5d-5FBmn1ax",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Langitzt/Vector-1-lite",
-      "author": "Langitzt",
-      "name": "Vector-1-lite",
-      "created_at": "2026-05-27T15:21:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "glm_moe_dsa",
-        "text-generation",
-        "conversational",
-        "en",
-        "zh",
-        "id",
-        "license:openrail",
-        "eval-results",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "openrail",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/Langitzt/Vector-1-lite",
-      "description": null,
-      "languages": [
-        "en",
-        "zh",
-        "id"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "jisoo3/act_game_block_stacking_0527_recovery",
-      "author": "jisoo3",
-      "name": "act_game_block_stacking_0527_recovery",
-      "created_at": "2026-05-27T15:19:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "act",
-        "robotics",
-        "dataset:jisoo3/game_block_stacking_0527_recovery",
-        "arxiv:2304.13705",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jisoo3/act_game_block_stacking_0527_recovery",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "sehinsahfanboy/Turkish-Llama-8B-STEM-QLoRA",
-      "author": "sehinsahfanboy",
-      "name": "Turkish-Llama-8B-STEM-QLoRA",
-      "created_at": "2026-05-27T15:19:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "qlora",
-        "stem-education",
-        "turkish",
-        "instruction-tuning",
-        "k12",
-        "text-generation",
-        "conversational",
-        "tr",
-        "dataset:sehinsahfanboy/eding-stem-tr-instruct-1k",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sehinsahfanboy/Turkish-Llama-8B-STEM-QLoRA",
-      "description": null,
-      "languages": [
-        "tr"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Surpem/Supertron2.1-0.6B-GGUF",
-      "author": "Surpem",
-      "name": "Supertron2.1-0.6B-GGUF",
-      "created_at": "2026-05-27T15:17:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "llama-cpp",
-        "qwen",
-        "qwen3",
-        "chat",
-        "quantized",
-        "q4",
-        "q8",
-        "f16",
-        "local-llm",
-        "surpem",
-        "text-generation",
-        "en",
-        "base_model:Surpem/Supertron2.1-0.6B",
-        "base_model:quantized:Surpem/Supertron2.1-0.6B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/Surpem/Supertron2.1-0.6B-GGUF",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Surpem/Supertron2.1-0.6B",
-      "author": "Surpem",
-      "name": "Supertron2.1-0.6B",
-      "created_at": "2026-05-27T15:14:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "reasoning",
-        "math",
-        "coding",
-        "instruction-tuned",
-        "pytorch",
-        "causal-lm",
-        "chat",
-        "surpem",
-        "conversational",
-        "en",
-        "base_model:Qwen/Qwen3-0.6B",
-        "base_model:finetune:Qwen/Qwen3-0.6B",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/Surpem/Supertron2.1-0.6B",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: reasoning"
-      ]
-    },
-    {
-      "id": "hongj97/lift_nnk1_100_nomix_smolvla",
-      "author": "hongj97",
-      "name": "lift_nnk1_100_nomix_smolvla",
-      "created_at": "2026-05-27T15:07:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "smolvla",
-        "robotics",
-        "dataset:hongj97/lift_nnk1_100_nomix",
-        "arxiv:2506.01844",
-        "base_model:lerobot/smolvla_base",
-        "base_model:finetune:lerobot/smolvla_base",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hongj97/lift_nnk1_100_nomix_smolvla",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "mradermacher/Vero-Qwen35-9B-Base-i1-GGUF",
-      "author": "mradermacher",
-      "name": "Vero-Qwen35-9B-Base-i1-GGUF",
-      "created_at": "2026-05-27T15:06:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "reinforcement-learning",
-      "tags": [
-        "transformers",
-        "gguf",
-        "vero",
-        "vision-language-model",
-        "multimodal",
-        "visual-reasoning",
-        "reinforcement-learning",
-        "en",
-        "base_model:zlab-princeton/Vero-Qwen35-9B-Base",
-        "base_model:quantized:zlab-princeton/Vero-Qwen35-9B-Base",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Vero-Qwen35-9B-Base-i1-GGUF",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: reasoning"
-      ]
-    },
-    {
-      "id": "timm/vit_so400m_patch14_reg1_tipsv2.webli",
-      "author": "timm",
-      "name": "vit_so400m_patch14_reg1_tipsv2.webli",
-      "created_at": "2026-05-27T15:05:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "safetensors",
-        "image-feature-extraction",
-        "transformers",
-        "arxiv:2604.12012",
-        "arxiv:2309.16588",
-        "arxiv:2010.11929",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timm/vit_so400m_patch14_reg1_tipsv2.webli",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "timm/vit_large_patch14_reg1_tipsv2.webli",
-      "author": "timm",
-      "name": "vit_large_patch14_reg1_tipsv2.webli",
-      "created_at": "2026-05-27T15:04:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "safetensors",
-        "image-feature-extraction",
-        "transformers",
-        "arxiv:2604.12012",
-        "arxiv:2309.16588",
-        "arxiv:2010.11929",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timm/vit_large_patch14_reg1_tipsv2.webli",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "timm/vit_giant_patch14_reg1_tipsv2.webli",
-      "author": "timm",
-      "name": "vit_giant_patch14_reg1_tipsv2.webli",
-      "created_at": "2026-05-27T15:04:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "safetensors",
-        "image-feature-extraction",
-        "transformers",
-        "arxiv:2604.12012",
-        "arxiv:2309.16588",
-        "arxiv:2010.11929",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timm/vit_giant_patch14_reg1_tipsv2.webli",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "EGLima/act_pen_holder_rgb_v004",
-      "author": "EGLima",
-      "name": "act_pen_holder_rgb_v004",
-      "created_at": "2026-05-27T15:04:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "robotics",
-      "tags": [
-        "lerobot",
-        "safetensors",
-        "act",
-        "robotics",
-        "dataset:EGLima/pen_holder_rgb_v004",
-        "arxiv:2304.13705",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/EGLima/act_pen_holder_rgb_v004",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "timm/vit_base_patch14_reg1_tipsv2.webli",
-      "author": "timm",
-      "name": "vit_base_patch14_reg1_tipsv2.webli",
-      "created_at": "2026-05-27T15:03:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "timm",
-        "safetensors",
-        "image-feature-extraction",
-        "transformers",
-        "arxiv:2604.12012",
-        "arxiv:2309.16588",
-        "arxiv:2010.11929",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/timm/vit_base_patch14_reg1_tipsv2.webli",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "ClaudioSavelli/FAME_1b_translation_gold_90_2e-5_forget_20",
-      "author": "ClaudioSavelli",
-      "name": "FAME_1b_translation_gold_90_2e-5_forget_20",
-      "created_at": "2026-05-27T15:02:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "conversational",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ClaudioSavelli/FAME_1b_translation_gold_90_2e-5_forget_20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "Yousof10/Qwen3.5-9b_MaxSeq16384_BS4_GA2_LR0.0002_Epochs4_Warmup0.05_Schedcosine_R128_20260527_1502",
-      "author": "Yousof10",
-      "name": "Qwen3.5-9b_MaxSeq16384_BS4_GA2_LR0.0002_Epochs4_Warmup0.05_Schedcosine_R128_20260527_1502",
-      "created_at": "2026-05-27T15:02:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "unsloth",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Yousof10/Qwen3.5-9b_MaxSeq16384_BS4_GA2_LR0.0002_Epochs4_Warmup0.05_Schedcosine_R128_20260527_1502",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "aadeshkp/llama-sft-group-trial-1",
-      "author": "aadeshkp",
-      "name": "llama-sft-group-trial-1",
-      "created_at": "2026-05-27T15:01:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aadeshkp/llama-sft-group-trial-1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "yilmazdikilitas91/Qwen2.5-3B-Instruct-finetuned-modelmethod",
-      "author": "yilmazdikilitas91",
-      "name": "Qwen2.5-3B-Instruct-finetuned-modelmethod",
-      "created_at": "2026-05-27T14:59:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/yilmazdikilitas91/Qwen2.5-3B-Instruct-finetuned-modelmethod",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f71e0558-4f4a-4823-a3ce-c97338c9d6c9-5FW2Eaae",
-      "author": "gradients-io-tournaments",
-      "name": "tournament-tourn_707626400fba5fba_20260525-f71e0558-4f4a-4823-a3ce-c97338c9d6c9-5FW2Eaae",
-      "created_at": "2026-05-27T14:59:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "base_model:adapter:/cache/models/4adb74a72b68b015",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "conversational",
-        "arxiv:1910.09700",
-        "base_model:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-4288dd53-017c-4928-a7f3-caa681147a98-5FW2Eaae",
-        "base_model:adapter:gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-4288dd53-017c-4928-a7f3-caa681147a98-5FW2Eaae",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_707626400fba5fba_20260525-f71e0558-4f4a-4823-a3ce-c97338c9d6c9-5FW2Eaae",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "raghavenderreddy1212/mintai-v3-round2",
-      "author": "raghavenderreddy1212",
-      "name": "mintai-v3-round2",
-      "created_at": "2026-05-27T14:59:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "base_model:adapter:unsloth/qwen2.5-coder-7b-instruct-bnb-4bit",
-        "lora",
-        "sft",
-        "transformers",
-        "trl",
-        "unsloth",
-        "text-generation",
-        "conversational",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/raghavenderreddy1212/mintai-v3-round2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "rzhugging/wireless",
-      "author": "rzhugging",
-      "name": "wireless",
-      "created_at": "2026-05-27T14:57:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "research-archive",
-        "wireless-networking",
-        "ieee-802.11",
-        "pdf",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rzhugging/wireless",
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_qwen3.6-27b_seed1",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1266,16 +35,17 @@
       ]
     },
     {
-      "id": "GESIS-Methods-Hub/value-detector-hierocles-of-alexandria",
-      "author": "GESIS-Methods-Hub",
-      "name": "value-detector-hierocles-of-alexandria",
-      "created_at": "2026-05-27T14:52:24+00:00",
+      "id": "surtich/my-awesome-model",
+      "author": "surtich",
+      "name": "my-awesome-model",
+      "created_at": "2026-05-27T20:18:38+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
         "safetensors",
-        "xlm-roberta-xl",
+        "bert",
+        "feature-extraction",
         "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
@@ -1284,7 +54,3601 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/GESIS-Methods-Hub/value-detector-hierocles-of-alexandria",
+      "url": "https://huggingface.co/surtich/my-awesome-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "created_at": "2026-05-27T20:16:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "created_at": "2026-05-27T20:15:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "gpancardo/esql-bart-base-merged",
+      "author": "gpancardo",
+      "name": "esql-bart-base-merged",
+      "created_at": "2026-05-27T20:14:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bart",
+        "text2text-generation",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gpancardo/esql-bart-base-merged",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "gpancardo/esql-bart-base",
+      "author": "gpancardo",
+      "name": "esql-bart-base",
+      "created_at": "2026-05-27T20:14:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gpancardo/esql-bart-base",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "created_at": "2026-05-27T20:14:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_trust_t1.25_g4_run0",
+      "author": "stefanocarrera",
+      "name": "autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_trust_t1.25_g4_run0",
+      "created_at": "2026-05-27T20:13:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_trust_t1.25_g4_run0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "created_at": "2026-05-27T20:11:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "kavallo/dev-expert-mistral",
+      "author": "kavallo",
+      "name": "dev-expert-mistral",
+      "created_at": "2026-05-27T20:09:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/kavallo/dev-expert-mistral",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "created_at": "2026-05-27T20:09:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "LoWiki/roberta-multilabel-classifier_few_shot_unmerge",
+      "author": "LoWiki",
+      "name": "roberta-multilabel-classifier_few_shot_unmerge",
+      "created_at": "2026-05-27T20:08:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_few_shot_unmerge",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "author": "ethantsliu",
+      "name": "sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "created_at": "2026-05-27T20:07:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "created_at": "2026-05-27T20:07:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.2",
+      "created_at": "2026-05-27T20:04:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.1",
+      "created_at": "2026-05-27T20:04:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-0.9_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.9",
+      "created_at": "2026-05-27T20:04:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.8",
+      "created_at": "2026-05-27T20:04:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "shishir11/nepali-hate-speech-roberta",
+      "author": "shishir11",
+      "name": "nepali-hate-speech-roberta",
+      "created_at": "2026-05-27T20:03:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/shishir11/nepali-hate-speech-roberta",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.7",
+      "created_at": "2026-05-27T20:03:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.6",
+      "created_at": "2026-05-27T20:03:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "shishir11/nepali-sentiment-roberta",
+      "author": "shishir11",
+      "name": "nepali-sentiment-roberta",
+      "created_at": "2026-05-27T20:03:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/shishir11/nepali-sentiment-roberta",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.5",
+      "created_at": "2026-05-27T20:03:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.4",
+      "created_at": "2026-05-27T20:03:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.3",
+      "created_at": "2026-05-27T20:03:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.2",
+      "created_at": "2026-05-27T20:03:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.1",
+      "created_at": "2026-05-27T20:02:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_ES_RFA_super-theta_-1.0_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed2",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed2",
+      "created_at": "2026-05-27T20:02:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_qwen3.6-27b_seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "created_at": "2026-05-27T20:02:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.9",
+      "created_at": "2026-05-27T20:02:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.8",
+      "created_at": "2026-05-27T20:02:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "gpancardo/esql-codet5p-220m-merged",
+      "author": "gpancardo",
+      "name": "esql-codet5p-220m-merged",
+      "created_at": "2026-05-27T20:02:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "t5",
+        "text2text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gpancardo/esql-codet5p-220m-merged",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.7",
+      "created_at": "2026-05-27T20:02:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "LoWiki/roberta-multilabel-classifier_few_shot_merged",
+      "author": "LoWiki",
+      "name": "roberta-multilabel-classifier_few_shot_merged",
+      "created_at": "2026-05-27T20:02:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_few_shot_merged",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "gpancardo/esql-codet5p-220m",
+      "author": "gpancardo",
+      "name": "esql-codet5p-220m",
+      "created_at": "2026-05-27T20:02:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/gpancardo/esql-codet5p-220m",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.6",
+      "created_at": "2026-05-27T20:02:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.5",
+      "created_at": "2026-05-27T20:02:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.4",
+      "created_at": "2026-05-27T20:01:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.3",
+      "created_at": "2026-05-27T20:01:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.2",
+      "created_at": "2026-05-27T20:01:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.1",
+      "created_at": "2026-05-27T20:01:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_1.0_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.9",
+      "created_at": "2026-05-27T20:01:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.8",
+      "created_at": "2026-05-27T20:00:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.7",
+      "created_at": "2026-05-27T20:00:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "shekar-ai/byt5-small-tajik-farsi-translit",
+      "author": "shekar-ai",
+      "name": "byt5-small-tajik-farsi-translit",
+      "created_at": "2026-05-27T20:00:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "t5",
+        "text2text-generation",
+        "Persian",
+        "Tajik",
+        "Transliteration",
+        "Cyrilic",
+        "fa",
+        "tg",
+        "arxiv:1910.09700",
+        "base_model:google/byt5-small",
+        "base_model:finetune:google/byt5-small",
+        "license:mit",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/shekar-ai/byt5-small-tajik-farsi-translit",
+      "description": null,
+      "languages": [
+        "fa",
+        "tg"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.6",
+      "created_at": "2026-05-27T20:00:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.5",
+      "created_at": "2026-05-27T20:00:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.4",
+      "created_at": "2026-05-27T20:00:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.3",
+      "created_at": "2026-05-27T20:00:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "created_at": "2026-05-27T20:00:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.2",
+      "created_at": "2026-05-27T19:59:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.1",
+      "created_at": "2026-05-27T19:59:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.9_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "created_at": "2026-05-27T19:59:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.9",
+      "created_at": "2026-05-27T19:59:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.8",
+      "created_at": "2026-05-27T19:59:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.7",
+      "created_at": "2026-05-27T19:59:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.6",
+      "created_at": "2026-05-27T19:58:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.5",
+      "created_at": "2026-05-27T19:58:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.4",
+      "created_at": "2026-05-27T19:58:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.3",
+      "created_at": "2026-05-27T19:58:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.2",
+      "created_at": "2026-05-27T19:58:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.1",
+      "created_at": "2026-05-27T19:58:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.8_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.9",
+      "created_at": "2026-05-27T19:57:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.8",
+      "created_at": "2026-05-27T19:57:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.7",
+      "created_at": "2026-05-27T19:57:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.6",
+      "created_at": "2026-05-27T19:57:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.5",
+      "created_at": "2026-05-27T19:57:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.4",
+      "created_at": "2026-05-27T19:57:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.3",
+      "created_at": "2026-05-27T19:56:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.2",
+      "created_at": "2026-05-27T19:56:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.1",
+      "created_at": "2026-05-27T19:56:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.7_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "CoRL2026-CSI/smolVLA_Ours_Sim2RealO_CloseDrawers_100epi_50ep",
+      "author": "CoRL2026-CSI",
+      "name": "smolVLA_Ours_Sim2RealO_CloseDrawers_100epi_50ep",
+      "created_at": "2026-05-27T19:56:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "smolvla",
+        "robotics",
+        "dataset:CoRL2026-CSI/SO101-CloseDrawer_Ours_100epi",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CoRL2026-CSI/smolVLA_Ours_Sim2RealO_CloseDrawers_100epi_50ep",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.9",
+      "created_at": "2026-05-27T19:56:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.8",
+      "created_at": "2026-05-27T19:56:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.7",
+      "created_at": "2026-05-27T19:56:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.6",
+      "created_at": "2026-05-27T19:55:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "jkhyjkhy/sciclip-lora-r16",
+      "author": "jkhyjkhy",
+      "name": "sciclip-lora-r16",
+      "created_at": "2026-05-27T19:55:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "peft",
+        "safetensors",
+        "clip",
+        "lora",
+        "scientific-figure-retrieval",
+        "scicap",
+        "multimodal",
+        "text-to-image",
+        "dataset:CrowdAILab/scicap",
+        "base_model:openai/clip-vit-base-patch32",
+        "base_model:adapter:openai/clip-vit-base-patch32",
+        "license:mit",
+        "co2_eq_emissions",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jkhyjkhy/sciclip-lora-r16",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: scientific"
+      ]
+    },
+    {
+      "id": "jkhyjkhy/sciclip-lora-r4",
+      "author": "jkhyjkhy",
+      "name": "sciclip-lora-r4",
+      "created_at": "2026-05-27T19:55:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "peft",
+        "safetensors",
+        "clip",
+        "lora",
+        "scientific-figure-retrieval",
+        "scicap",
+        "multimodal",
+        "text-to-image",
+        "dataset:CrowdAILab/scicap",
+        "base_model:openai/clip-vit-base-patch32",
+        "base_model:adapter:openai/clip-vit-base-patch32",
+        "license:mit",
+        "co2_eq_emissions",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jkhyjkhy/sciclip-lora-r4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: scientific"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.5",
+      "created_at": "2026-05-27T19:55:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.4",
+      "created_at": "2026-05-27T19:55:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.3",
+      "created_at": "2026-05-27T19:55:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.2",
+      "created_at": "2026-05-27T19:55:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.1",
+      "created_at": "2026-05-27T19:54:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.6_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "created_at": "2026-05-27T19:54:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "mi-kicic/xarm7_mj_ds28_smolvla",
+      "author": "mi-kicic",
+      "name": "xarm7_mj_ds28_smolvla",
+      "created_at": "2026-05-27T19:54:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:mi-kicic/xarm7_mj_ds28",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mi-kicic/xarm7_mj_ds28_smolvla",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.9",
+      "created_at": "2026-05-27T19:54:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.8",
+      "created_at": "2026-05-27T19:54:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "created_at": "2026-05-27T19:54:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.7",
+      "created_at": "2026-05-27T19:54:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.6",
+      "created_at": "2026-05-27T19:53:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.5",
+      "created_at": "2026-05-27T19:53:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.4",
+      "created_at": "2026-05-27T19:53:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.3",
+      "created_at": "2026-05-27T19:53:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.2",
+      "created_at": "2026-05-27T19:53:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.1",
+      "created_at": "2026-05-27T19:53:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.5_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.9",
+      "created_at": "2026-05-27T19:52:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "YazoPi/merged_loras_model",
+      "author": "YazoPi",
+      "name": "merged_loras_model",
+      "created_at": "2026-05-27T19:52:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:YazoPi/LlaMa3.2-1B-Instruct",
+        "base_model:finetune:YazoPi/LlaMa3.2-1B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YazoPi/merged_loras_model",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.8",
+      "created_at": "2026-05-27T19:52:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.7",
+      "created_at": "2026-05-27T19:52:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.6",
+      "created_at": "2026-05-27T19:52:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.5",
+      "created_at": "2026-05-27T19:52:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.4",
+      "created_at": "2026-05-27T19:52:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.3",
+      "created_at": "2026-05-27T19:51:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.2",
+      "created_at": "2026-05-27T19:51:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.1",
+      "created_at": "2026-05-27T19:51:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.4_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.9",
+      "created_at": "2026-05-27T19:51:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.8",
+      "created_at": "2026-05-27T19:51:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "hipfire-models/Qwen3.6-27B-Uncensored-mq4",
+      "author": "hipfire-models",
+      "name": "Qwen3.6-27B-Uncensored-mq4",
+      "created_at": "2026-05-27T19:51:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "hipfire",
+        "mq4",
+        "awq",
+        "rdna",
+        "rocm",
+        "qwen3.6",
+        "abliterated",
+        "uncensored",
+        "text-generation",
+        "base_model:huihui-ai/Huihui-Qwen3.6-27B-abliterated",
+        "base_model:quantized:huihui-ai/Huihui-Qwen3.6-27B-abliterated",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hipfire-models/Qwen3.6-27B-Uncensored-mq4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.7",
+      "created_at": "2026-05-27T19:50:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.6",
+      "created_at": "2026-05-27T19:50:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.5",
+      "created_at": "2026-05-27T19:50:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "woosw123/trossen-stationary-ai-act",
+      "author": "woosw123",
+      "name": "trossen-stationary-ai-act",
+      "created_at": "2026-05-27T19:50:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:woosw123/stationary_transfer_cube",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/woosw123/trossen-stationary-ai-act",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.4",
+      "created_at": "2026-05-27T19:50:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.3",
+      "created_at": "2026-05-27T19:50:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.2",
+      "created_at": "2026-05-27T19:50:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.1",
+      "created_at": "2026-05-27T19:49:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.3_sub-theta_0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.9",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.9",
+      "created_at": "2026-05-27T19:49:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.9",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.8",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.8",
+      "created_at": "2026-05-27T19:49:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "author": "ethantsliu",
+      "name": "sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "created_at": "2026-05-27T19:49:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_gsm8k_llama-3.1-8b_as_gpt-oss-20b_seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.7",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.7",
+      "created_at": "2026-05-27T19:49:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.6",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.6",
+      "created_at": "2026-05-27T19:49:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "ethantsliu/sft_chatbot_arena_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "author": "ethantsliu",
+      "name": "sft_chatbot_arena_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "created_at": "2026-05-27T19:49:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sft",
+        "dementor-research",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethantsliu/sft_chatbot_arena_llama-3.1-8b_as_qwen3.6-27b_seed3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.5",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.5",
+      "created_at": "2026-05-27T19:49:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.4",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.4",
+      "created_at": "2026-05-27T19:48:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.3",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.3",
+      "created_at": "2026-05-27T19:48:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.2",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.2",
+      "created_at": "2026-05-27T19:48:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.1",
+      "author": "AAAAnsah",
+      "name": "Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.1",
+      "created_at": "2026-05-27T19:48:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AAAAnsah/Qwen2.5-14B-Instruct_VACC1_BMA_RFA_super-theta_0.2_sub-theta_0.1",
       "description": null,
       "languages": [],
       "datasets": [],
