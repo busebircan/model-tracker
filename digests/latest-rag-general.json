@@ -1,14 +1,47 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-28T10:16:02.439817+00:00",
-  "model_count": 18,
+  "run_at": "2026-05-28T16:14:42.980707+00:00",
+  "model_count": 35,
   "models": [
     {
-      "id": "Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-123",
+      "id": "agraharr/finetune-matryoshka-telecom-nli-v1",
+      "author": "agraharr",
+      "name": "finetune-matryoshka-telecom-nli-v1",
+      "created_at": "2026-05-28T16:03:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "mpnet",
+        "text-classification",
+        "generated_from_trainer",
+        "ml-intern",
+        "base_model:tomaarsen/mpnet-base-nli-matryoshka",
+        "base_model:finetune:tomaarsen/mpnet-base-nli-matryoshka",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/agraharr/finetune-matryoshka-telecom-nli-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-13",
       "author": "Gukson",
-      "name": "dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-123",
-      "created_at": "2026-05-28T10:01:33+00:00",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-filter1-seed-13",
+      "created_at": "2026-05-28T15:58:01+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -25,7 +58,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-123",
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-13",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -35,68 +68,130 @@
       ]
     },
     {
-      "id": "dghjjjdj/MyAwesomeModel-TestRepo",
-      "author": "dghjjjdj",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T10:00:48+00:00",
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-42",
+      "author": "Gukson",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-filter1-seed-42",
+      "created_at": "2026-05-28T15:56:12+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
+        "safetensors",
         "bert",
-        "feature-extraction",
-        "license:mit",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dghjjjdj/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-42",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "safaf45252/MyAwesomeModel-TestRepo",
-      "author": "safaf45252",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T10:00:39+00:00",
+      "id": "Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-77",
+      "author": "Gukson",
+      "name": "goemotion-aug-bert-bt-marianmt-filter2-seed-77",
+      "created_at": "2026-05-28T15:55:17+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-77",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "sk1ve/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "author": "sk1ve",
-      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-      "created_at": "2026-05-28T09:58:13+00:00",
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-202",
+      "author": "Gukson",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-202",
+      "created_at": "2026-05-28T15:54:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-77",
+      "author": "Gukson",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-77",
+      "created_at": "2026-05-28T15:52:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-77",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Tavish15100/distilbert-financial-phrasebank",
+      "author": "Tavish15100",
+      "name": "distilbert-financial-phrasebank",
+      "created_at": "2026-05-28T15:51:21+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -116,7 +211,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sk1ve/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "url": "https://huggingface.co/Tavish15100/distilbert-financial-phrasebank",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -126,39 +221,10 @@
       ]
     },
     {
-      "id": "ym112/MyAwesomeModel-TestRepo",
-      "author": "ym112",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:50:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ym112/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-13",
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-123",
       "author": "Gukson",
-      "name": "dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-13",
-      "created_at": "2026-05-28T09:47:22+00:00",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-123",
+      "created_at": "2026-05-28T15:50:31+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -175,7 +241,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-13",
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-123",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -185,90 +251,10 @@
       ]
     },
     {
-      "id": "Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-42",
+      "id": "Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-123",
       "author": "Gukson",
-      "name": "dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-42",
-      "created_at": "2026-05-28T09:28:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-42",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_safe-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_safe-lr1e-4",
-      "created_at": "2026-05-28T09:25:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "llama",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_safe-lr1e-4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_bad-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_bad-lr1e-4",
-      "created_at": "2026-05-28T09:24:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "llama",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_bad-lr1e-4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "sirunchained/my_gpu_trainer",
-      "author": "sirunchained",
-      "name": "my_gpu_trainer",
-      "created_at": "2026-05-28T09:16:42+00:00",
+      "name": "goemotion-aug-bert-bt-marianmt-filter2-seed-123",
+      "created_at": "2026-05-28T15:50:04+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -276,249 +262,827 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-123",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-13",
+      "author": "Gukson",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-13",
+      "created_at": "2026-05-28T15:48:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "raul-jimenez8-uclm/results_hate_speech",
+      "author": "raul-jimenez8-uclm",
+      "name": "results_hate_speech",
+      "created_at": "2026-05-28T15:47:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:dccuchile/bert-base-spanish-wwm-cased",
+        "base_model:finetune:dccuchile/bert-base-spanish-wwm-cased",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/raul-jimenez8-uclm/results_hate_speech",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-42",
+      "author": "Gukson",
+      "name": "semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-42",
+      "created_at": "2026-05-28T15:46:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-202",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter2-seed-202",
+      "created_at": "2026-05-28T15:45:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "dominguesm/CodeRankEmbed-Model2Vec",
+      "author": "dominguesm",
+      "name": "CodeRankEmbed-Model2Vec",
+      "created_at": "2026-05-28T15:44:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "model2vec",
+        "safetensors",
+        "embeddings",
+        "code",
+        "retrieval",
+        "static-embeddings",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dominguesm/CodeRankEmbed-Model2Vec",
+      "description": null,
+      "languages": [
+        "code"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, retrieval"
+      ]
+    },
+    {
+      "id": "Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-13",
+      "author": "Gukson",
+      "name": "goemotion-aug-bert-bt-marianmt-filter2-seed-13",
+      "created_at": "2026-05-28T15:44:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-77",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter2-seed-77",
+      "created_at": "2026-05-28T15:44:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-77",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Furgeous/yelp-sentiment-3class-finetuned",
+      "author": "Furgeous",
+      "name": "yelp-sentiment-3class-finetuned",
+      "created_at": "2026-05-28T15:43:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Furgeous/yelp-sentiment-3class-finetuned",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-123",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter2-seed-123",
+      "created_at": "2026-05-28T15:42:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-123",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "wuc1/bi_so101_relative_action-0522-10",
+      "author": "wuc1",
+      "name": "bi_so101_relative_action-0522-10",
+      "created_at": "2026-05-28T15:41:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "smolvla",
+        "dataset:wuc1/bi_so101_flatten-and-fold-the-rag-then-place-115s_filtered_recomputed_stats",
+        "arxiv:2506.01844",
+        "base_model:lerobot/smolvla_base",
+        "base_model:finetune:lerobot/smolvla_base",
+        "license:apache-2.0",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sirunchained/my_gpu_trainer",
+      "url": "https://huggingface.co/wuc1/bi_so101_relative_action-0522-10",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-13",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter2-seed-13",
+      "created_at": "2026-05-28T15:41:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:11:41+00:00",
+      "id": "arpit7643916868/bge-base-squad-v1",
+      "author": "arpit7643916868",
+      "name": "bge-base-squad-v1",
+      "created_at": "2026-05-28T15:40:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers",
-        "pytorch",
+        "sentence-transformers",
         "bert",
+        "sentence-similarity",
         "feature-extraction",
-        "license:mit",
+        "generated_from_trainer",
+        "dataset_size:1317",
+        "loss:MatryoshkaLoss",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:2205.13147",
+        "arxiv:1807.03748",
+        "base_model:BAAI/bge-base-en-v1.5",
+        "base_model:finetune:BAAI/bge-base-en-v1.5",
+        "model-index",
+        "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "TomB0421/MyAwesomeModel-TestRepo",
-      "author": "TomB0421",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:08:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:06:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-tok-epe-fc-smollm-1p7b-100B-jdg-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-tok-epe-fc-smollm-1p7b-100B-jdg-lr1e-4",
-      "created_at": "2026-05-28T09:05:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-tok-epe-fc-smollm-1p7b-100B-jdg-lr1e-4",
+      "url": "https://huggingface.co/arpit7643916868/bge-base-squad-v1",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     },
     {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:03:22+00:00",
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-42",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter2-seed-42",
+      "created_at": "2026-05-28T15:40:32+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:03:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "tttoola/MyAwesomeModel-TestRepo",
-      "author": "tttoola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-28T09:01:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_randmask75-lr1e-4",
-      "author": "Raghav-Singhal",
-      "name": "pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_randmask75-lr1e-4",
-      "created_at": "2026-05-28T09:00:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
         "safetensors",
-        "llama",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_randmask75-lr1e-4",
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-42",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-42",
+      "author": "Gukson",
+      "name": "goemotion-aug-bert-bt-marianmt-filter2-seed-42",
+      "created_at": "2026-05-28T15:39:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-202",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter1-seed-202",
+      "created_at": "2026-05-28T15:39:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-77",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter1-seed-77",
+      "created_at": "2026-05-28T15:38:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-77",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-123",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter1-seed-123",
+      "created_at": "2026-05-28T15:37:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-123",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "mradermacher/LongTraceRL-4B-GGUF",
+      "author": "mradermacher",
+      "name": "LongTraceRL-4B-GGUF",
+      "created_at": "2026-05-28T15:36:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "transformers",
+        "gguf",
+        "long-context",
+        "reinforcement-learning",
+        "reasoning",
+        "rubric-reward",
+        "qwen3",
+        "en",
+        "dataset:THU-KEG/LongTraceRL",
+        "base_model:THU-KEG/LongTraceRL-4B",
+        "base_model:quantized:THU-KEG/LongTraceRL-4B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/LongTraceRL-4B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-13",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter1-seed-13",
+      "created_at": "2026-05-28T15:36:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-42",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-filter1-seed-42",
+      "created_at": "2026-05-28T15:34:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/goemotion-aug-bert-bt-marianmt-filter1-seed-202",
+      "author": "Gukson",
+      "name": "goemotion-aug-bert-bt-marianmt-filter1-seed-202",
+      "created_at": "2026-05-28T15:34:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter1-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-202",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-202",
+      "created_at": "2026-05-28T15:33:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-202",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-77",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-77",
+      "created_at": "2026-05-28T15:32:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-77",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-123",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-123",
+      "created_at": "2026-05-28T15:31:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-123",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-13",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-13",
+      "created_at": "2026-05-28T15:30:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-13",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-42",
+      "author": "Gukson",
+      "name": "semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-42",
+      "created_at": "2026-05-28T15:30:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]

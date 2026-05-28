@@ -1,17 +1,31 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-28  
-**Run timestamp:** 2026-05-28 10:16 UTC  
+**Run timestamp:** 2026-05-28 16:14 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 18
+**New models found:** 35
 
 ---
 
 
 
-### [Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-123](https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-123)
+### [agraharr/finetune-matryoshka-telecom-nli-v1](https://huggingface.co/agraharr/finetune-matryoshka-telecom-nli-v1)
+**Author:** agraharr  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mpnet`, `text-classification`, `generated_from_trainer`, `ml-intern`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-13](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-13)
 **Author:** Gukson  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
@@ -25,36 +39,64 @@
 
 
 
-### [dghjjjdj/MyAwesomeModel-TestRepo](https://huggingface.co/dghjjjdj/MyAwesomeModel-TestRepo)
-**Author:** dghjjjdj  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-42](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-filter1-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [safaf45252/MyAwesomeModel-TestRepo](https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo)
-**Author:** safaf45252  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-77](https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-77)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [sk1ve/learn_hf_food_not_food_text_classifier-distilbert-base-uncased](https://huggingface.co/sk1ve/learn_hf_food_not_food_text_classifier-distilbert-base-uncased)
-**Author:** sk1ve  
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-202](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-202)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-77](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-77)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Tavish15100/distilbert-financial-phrasebank](https://huggingface.co/Tavish15100/distilbert-financial-phrasebank)
+**Author:** Tavish15100  
 **Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-28  
@@ -67,22 +109,135 @@
 
 
 
-### [ym112/MyAwesomeModel-TestRepo](https://huggingface.co/ym112/MyAwesomeModel-TestRepo)
-**Author:** ym112  
-**Task:** feature extraction / embedding generation  
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-123](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-123)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-123](https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-123)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-13](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-13)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [raul-jimenez8-uclm/results_hate_speech](https://huggingface.co/raul-jimenez8-uclm/results_hate_speech)
+**Author:** raul-jimenez8-uclm  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-42](https://huggingface.co/Gukson/semeval-aug-labse-bt-openai-gpt-4-nofilter-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-202](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-202)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [dominguesm/CodeRankEmbed-Model2Vec](https://huggingface.co/dominguesm/CodeRankEmbed-Model2Vec)
+**Author:** dominguesm  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-28  
+**Languages:** code  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `model2vec`, `embeddings`, `code`, `retrieval`, `static-embeddings`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, retrieval. Capabilities: strong code generation capability; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-13](https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-13)
+### [Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-13](https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-13)
 **Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-77](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-77)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Furgeous/yelp-sentiment-3class-finetuned](https://huggingface.co/Furgeous/yelp-sentiment-3class-finetuned)
+**Author:** Furgeous  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
@@ -95,13 +250,13 @@
 
 
 
-### [Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-42](https://huggingface.co/Gukson/dair-aug-labse-bt-deepseek-deepseek-chat-filter1-seed-42)
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-123](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-123)
 **Author:** Gukson  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -109,43 +264,27 @@
 
 
 
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_safe-lr1e-4](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_safe-lr1e-4)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_bad-lr1e-4](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_bad-lr1e-4)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [sirunchained/my_gpu_trainer](https://huggingface.co/sirunchained/my_gpu_trainer)
-**Author:** sirunchained  
-**Task:** text classification  
+### [wuc1/bi_so101_relative_action-0522-10](https://huggingface.co/wuc1/bi_so101_relative_action-0522-10)
+**Author:** wuc1  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:wuc1/bi_so101_flatten-and-fold-the-rag-then-place-115s_filtered_recomputed_stats`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-13](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-13)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -153,115 +292,212 @@
 
 
 
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
-**Author:** TomB0421  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-tok-epe-fc-smollm-1p7b-100B-jdg-lr1e-4](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-tok-epe-fc-smollm-1p7b-100B-jdg-lr1e-4)
-**Author:** Raghav-Singhal  
-**Task:** general  
+### [arpit7643916868/bge-base-squad-v1](https://huggingface.co/arpit7643916868/bge-base-squad-v1)
+**Author:** arpit7643916868  
+**Task:** sentence similarity and semantic search  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:1317`, `loss:MatryoshkaLoss`, `loss:MultipleNegativesRankingLoss`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_randmask75-lr1e-4](https://huggingface.co/Raghav-Singhal/pbsft-cite-pb-300k-3c-nosys-epe-1p-smollm-1p7b-100B-no_bce-refl_randmask75-lr1e-4)
-**Author:** Raghav-Singhal  
-**Task:** general  
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-42](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter2-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-42](https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter2-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-202](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-202)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-77](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-77)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-123](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-123)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [mradermacher/LongTraceRL-4B-GGUF](https://huggingface.co/mradermacher/LongTraceRL-4B-GGUF)
+**Author:** mradermacher  
+**Task:** reinforcement learning  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `long-context`, `reinforcement-learning`, `reasoning`, `rubric-reward`, `qwen3`, `dataset:THU-KEG/LongTraceRL`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-13](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-13)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-42](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-filter1-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/goemotion-aug-bert-bt-marianmt-filter1-seed-202](https://huggingface.co/Gukson/goemotion-aug-bert-bt-marianmt-filter1-seed-202)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-202](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-202)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-77](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-77)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-123](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-123)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-13](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-13)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-42](https://huggingface.co/Gukson/semeval-aug-bert-bt-openai-gpt-4-nofilter-seed-42)
+**Author:** Gukson  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -269,4 +505,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-28 10:16 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-28 16:14 UTC*
