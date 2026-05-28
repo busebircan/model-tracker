@@ -1,25 +1,23 @@
 # Model Tracker Digest — Safety & Security
 
 **Date:** 2026-05-28  
-**Run timestamp:** 2026-05-28 20:31 UTC  
+**Run timestamp:** 2026-05-28 22:42 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 43
+**New models found:** 40
 
 ---
 
 
 
-### [exdysa/Qwen3.5-122B-A10B-REAP-20-GGUF-MXFP4_MOE](https://huggingface.co/exdysa/Qwen3.5-122B-A10B-REAP-20-GGUF-MXFP4_MOE)
-**Author:** exdysa  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~22B (from model name)  
+### [vazad/embedders-mcase-v1](https://huggingface.co/vazad/embedders-mcase-v1)
+**Author:** vazad  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama.cpp`, `gguf`, `Cerebras`, `REAP`, `MXFP4`, `text-generation`, `conversational`, `reasoning`  
+**Tags:** `gguf`, `endpoints_compatible`, `feature-extraction`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -27,14 +25,13 @@
 
 
 
-### [michealnaye/AmharicCLIP-stable-diffusion](https://huggingface.co/michealnaye/AmharicCLIP-stable-diffusion)
-**Author:** michealnaye  
-**Task:** text to image  
-**License:** `creativeml-openrail-m` ✅ commercial use allowed  
+### [tzchen07/g2_X9g](https://huggingface.co/tzchen07/g2_X9g)
+**Author:** tzchen07  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-05-28  
-**Languages:** am, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `stable-diffusion`, `amharic`, `ethiopic`, `text-to-image`, `am`, `endpoints_compatible`, `diffusers:StableDiffusionPipeline`  
+**Tags:** `gemma2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -42,14 +39,14 @@
 
 
 
-### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-jobs-extraction-LoRA](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-jobs-extraction-LoRA)
-**Author:** damienlusson  
+### [PerfectPeter/model_ft_0_to_9_eagle](https://huggingface.co/PerfectPeter/model_ft_0_to_9_eagle)
+**Author:** PerfectPeter  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-28  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `gemma3_text`, `trl`, `endpoints_compatible`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -57,503 +54,60 @@
 
 
 
-### [lucid-dl/convnext-large](https://huggingface.co/lucid-dl/convnext-large)
-**Author:** lucid-dl  
-**Task:** image classification  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `convnext`, `dataset:imagenet-1k`, `model-index`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
-
----
-
-
-
-### [lucid-dl/convnext-base](https://huggingface.co/lucid-dl/convnext-base)
-**Author:** lucid-dl  
-**Task:** image classification  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `convnext`, `dataset:imagenet-1k`, `model-index`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
-
----
-
-
-
-### [lucid-dl/convnext-small](https://huggingface.co/lucid-dl/convnext-small)
-**Author:** lucid-dl  
-**Task:** image classification  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `convnext`, `dataset:imagenet-1k`, `model-index`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
-
----
-
-
-
-### [lucid-dl/convnext-tiny](https://huggingface.co/lucid-dl/convnext-tiny)
-**Author:** lucid-dl  
-**Task:** image classification  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `convnext`, `dataset:imagenet-1k`, `model-index`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
-
----
-
-
-
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.25_g1_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.25_g1_run1)
-**Author:** stefanocarrera  
+### [karamh4/llama-dpo-group-trial-2](https://huggingface.co/karamh4/llama-dpo-group-trial-2)
+**Author:** karamh4  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen3`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [sam34738/muril_binary_hate](https://huggingface.co/sam34738/muril_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [blockblockblock/Qwen2.5-0.5B-Instruct-exl3-4.5bpw](https://huggingface.co/blockblockblock/Qwen2.5-0.5B-Instruct-exl3-4.5bpw)
+**Author:** blockblockblock  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `chat`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `exl3`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [ak3ra/gemma-4-e4b-lora-lug](https://huggingface.co/ak3ra/gemma-4-e4b-lora-lug)
+**Author:** ak3ra  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma4`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Sikander035/teycp-distilbert-ai-vs-human](https://huggingface.co/Sikander035/teycp-distilbert-ai-vs-human)
+**Author:** Sikander035  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `ai-text-detection`, `generated_from_trainer`, `dataset:Hello-SimpleAI/HC3`, `model-index`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [sam34738/indicbert_binary_hate](https://huggingface.co/sam34738/indicbert_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [ishikauniphore/multilingual](https://huggingface.co/ishikauniphore/multilingual)
-**Author:** ishikauniphore  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [ishikauniphore/cross_lingual](https://huggingface.co/ishikauniphore/cross_lingual)
-**Author:** ishikauniphore  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [ishikauniphore/parallel](https://huggingface.co/ishikauniphore/parallel)
-**Author:** ishikauniphore  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [sam34738/hatebert_binary_hate](https://huggingface.co/sam34738/hatebert_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [sfcbm/MyAwesomeModel-TestRepo](https://huggingface.co/sfcbm/MyAwesomeModel-TestRepo)
-**Author:** sfcbm  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-jobs-extraction-GGUF_q8_0](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-jobs-extraction-GGUF_q8_0)
-**Author:** damienlusson  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma3_text`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [prismor/gemma4-prompt-injection-classifier](https://huggingface.co/prismor/gemma4-prompt-injection-classifier)
-**Author:** prismor  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: prompt-injection (name), dpo.
-
----
-
-
-
-### [damienlusson/LFM2.5-350M-jobs-extraction-GGUF_q8_0](https://huggingface.co/damienlusson/LFM2.5-350M-jobs-extraction-GGUF_q8_0)
-**Author:** damienlusson  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `lfm2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [aayush1306/qwen_finetune_4bit_new](https://huggingface.co/aayush1306/qwen_finetune_4bit_new)
-**Author:** aayush1306  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `trl`, `conversational`, `endpoints_compatible`, `4-bit`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [sam34738/hingbert_binary_hate](https://huggingface.co/sam34738/hingbert_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [sh0ck0r/Agares-31B-v1-heretic](https://huggingface.co/sh0ck0r/Agares-31B-v1-heretic)
-**Author:** sh0ck0r  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `mergekit`, `merge`, `della`, `heretic`, `uncensored`, `decensored`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [damienlusson/LFM2.5-350M-jobs-extraction-GGUF](https://huggingface.co/damienlusson/LFM2.5-350M-jobs-extraction-GGUF)
-**Author:** damienlusson  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `lfm2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/gemma-4-31B-it-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/gemma-4-31B-it-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/NVIDIA-Nemotron-3-Nano-Omni-30B-A3B-Reasoning-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/DeepSeek-R1-Distill-Llama-70B-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/DeepSeek-R1-Distill-Llama-70B-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/Qwen3-Coder-Next-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/Qwen3-Coder-Next-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [nathanrchn/LFM2.5-8B-A1B-GGUF-fixed](https://huggingface.co/nathanrchn/LFM2.5-8B-A1B-GGUF-fixed)
-**Author:** nathanrchn  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sam34738/xlmr_binary_hate](https://huggingface.co/sam34738/xlmr_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [MeghanaKap/malayalam_lora_english_base_29](https://huggingface.co/MeghanaKap/malayalam_lora_english_base_29)
-**Author:** MeghanaKap  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [EditorAI-Geode/editorai-1p5b-v2](https://huggingface.co/EditorAI-Geode/editorai-1p5b-v2)
-**Author:** EditorAI-Geode  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `geometry-dash`, `llama-cpp`, `ollama`, `tool-use`, `geode`, `qwen2.5`, `text-generation`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mradermacher/LongTraceRL-30B-i1-GGUF](https://huggingface.co/mradermacher/LongTraceRL-30B-i1-GGUF)
-**Author:** mradermacher  
-**Task:** reinforcement learning  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `long-context`, `reinforcement-learning`, `reasoning`, `rubric-reward`, `qwen3`, `moe`, `dataset:THU-KEG/LongTraceRL`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sam34738/mbert_binary_hate](https://huggingface.co/sam34738/mbert_binary_hate)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [0xSero/DeepSeek-V4-Flash-Spark-Mini-GGUF](https://huggingface.co/0xSero/DeepSeek-V4-Flash-Spark-Mini-GGUF)
-**Author:** 0xSero  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `deepseek-v4`, `dgx-spark`, `reap`, `dwarfstar`, `ds4`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dariacuna/rtdetr-v2-r34-finetune-22](https://huggingface.co/dariacuna/rtdetr-v2-r34-finetune-22)
-**Author:** dariacuna  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `rt_detr_v2`, `object-detection`, `generated_from_trainer`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [sam34738/mbert_binary_mgy](https://huggingface.co/sam34738/mbert_binary_mgy)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [anstdev/nemo-forced-aligner-onnx](https://huggingface.co/anstdev/nemo-forced-aligner-onnx)
-**Author:** anstdev  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `speech-to-text`, `forced-alignment`, `nfa`, `nemo-forced-aligner`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: alignment. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [PolyakovMaxim/alpaca-deepseek](https://huggingface.co/PolyakovMaxim/alpaca-deepseek)
-**Author:** PolyakovMaxim  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama`, `text-generation`, `lora`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [lkjiop8/Yuanl-27B-v5-7](https://huggingface.co/lkjiop8/Yuanl-27B-v5-7)
-**Author:** lkjiop8  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `qwen3.6`, `cybersecurity`, `agent`, `yuanl`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security.
 
 ---
 
@@ -573,27 +127,13 @@
 
 
 
-### [sam34738/muril_binary_mgy](https://huggingface.co/sam34738/muril_binary_mgy)
-**Author:** sam34738  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
-
----
-
-
-
-### [0xSero/DeepSeek-V4-Flash-Spark-GGUF](https://huggingface.co/0xSero/DeepSeek-V4-Flash-Spark-GGUF)
-**Author:** 0xSero  
+### [pnesden/Qwen3.5-9B-Round6-gguf](https://huggingface.co/pnesden/Qwen3.5-9B-Round6-gguf)
+**Author:** pnesden  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `deepseek-v4`, `dgx-spark`, `reap`, `dwarfstar`, `ds4`, `endpoints_compatible`, `conversational`  
+**Tags:** `gguf`, `qwen3_5`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -601,13 +141,199 @@
 
 
 
-### [sam34738/indicbert_binary_mgy](https://huggingface.co/sam34738/indicbert_binary_mgy)
-**Author:** sam34738  
+### [mmarchante/beto-clasificacion-noticias-es](https://huggingface.co/mmarchante/beto-clasificacion-noticias-es)
+**Author:** mmarchante  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `spanish`, `news`, `beto`, `es`, `dataset:MarcOrfilaCarreras/spanish-news`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification.
+
+---
+
+
+
+### [JacopoCirica/qwen35-4b-sdpo-merged](https://huggingface.co/JacopoCirica/qwen35-4b-sdpo-merged)
+**Author:** JacopoCirica  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_text`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
+
+---
+
+
+
+### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-LoRA](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-LoRA)
+**Author:** damienlusson  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `gemma3_text`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q4_k_m](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q4_k_m)
+**Author:** damienlusson  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `gemma3_text`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [pnesden/Qwen3.5-9B-Round6](https://huggingface.co/pnesden/Qwen3.5-9B-Round6)
+**Author:** pnesden  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [certo-ventures/qwen3-vl-8b-instruct-16-32-Diya-Extract-Lease](https://huggingface.co/certo-ventures/qwen3-vl-8b-instruct-16-32-Diya-Extract-Lease)
+**Author:** certo-ventures  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [lucid-dl/cspdarknet-53](https://huggingface.co/lucid-dl/cspdarknet-53)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `cspdarknet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/cspresnext-50](https://huggingface.co/lucid-dl/cspresnext-50)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `cspresnext`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q8_0](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q8_0)
+**Author:** damienlusson  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `gemma3_text`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [lucid-dl/cspresnet-50](https://huggingface.co/lucid-dl/cspresnet-50)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `cspresnet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.25_g3_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.25_g3_run1)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [tzchen07/SG_X9d](https://huggingface.co/tzchen07/SG_X9d)
+**Author:** tzchen07  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: shieldgemma, dpo.
+
+---
+
+
+
+### [tzchen07/g2_X9d](https://huggingface.co/tzchen07/g2_X9d)
+**Author:** tzchen07  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [tliumozilla/mdistilbert-intent-detection](https://huggingface.co/tliumozilla/mdistilbert-intent-detection)
+**Author:** tliumozilla  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-28  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
@@ -615,16 +341,251 @@
 
 
 
-### [mohar07/qwen3-0.6b-kg-triplets](https://huggingface.co/mohar07/qwen3-0.6b-kg-triplets)
-**Author:** mohar07  
+### [pnesden/Qwen2.5-Coder-3B-Round6-oss-only-gguf](https://huggingface.co/pnesden/Qwen2.5-Coder-3B-Round6-oss-only-gguf)
+**Author:** pnesden  
 **Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [pnesden/Qwen2.5-Coder-3B-Round6-oss-only](https://huggingface.co/pnesden/Qwen2.5-Coder-3B-Round6-oss-only)
+**Author:** pnesden  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Taykhoom/UTRBERT-6mer](https://huggingface.co/Taykhoom/UTRBERT-6mer)
+**Author:** Taykhoom  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** rna  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `RNA`, `language-model`, `3-UTR`, `rna`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Taykhoom/UTRBERT-5mer](https://huggingface.co/Taykhoom/UTRBERT-5mer)
+**Author:** Taykhoom  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** rna  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `RNA`, `language-model`, `3-UTR`, `rna`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Taykhoom/UTRBERT-4mer](https://huggingface.co/Taykhoom/UTRBERT-4mer)
+**Author:** Taykhoom  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** rna  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `RNA`, `language-model`, `3-UTR`, `rna`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Taykhoom/UTRBERT-3mer](https://huggingface.co/Taykhoom/UTRBERT-3mer)
+**Author:** Taykhoom  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** rna  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `RNA`, `language-model`, `3-UTR`, `rna`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [guilhermenf/chest_xray_reports_labeling_finetuning_qwen2.5-3b](https://huggingface.co/guilhermenf/chest_xray_reports_labeling_finetuning_qwen2.5-3b)
+**Author:** guilhermenf  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [continual-learning/llama31-8b-sft-none-seed42-stage2-privacy_violation](https://huggingface.co/continual-learning/llama31-8b-sft-none-seed42-stage2-privacy_violation)
+**Author:** continual-learning  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: privacy (name).
+
+---
+
+
+
+### [mradermacher/FlaffyTail-abliterated-i1-GGUF](https://huggingface.co/mradermacher/FlaffyTail-abliterated-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** ru, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `abliterated`, `uncensored`, `research`, `NSFW`, `refusal-removal`, `ru`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo, nsfw. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [zypchn/BehChat-llama-SFT-v1](https://huggingface.co/zypchn/BehChat-llama-SFT-v1)
+**Author:** zypchn  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-05-28  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen3`, `trl`, `endpoints_compatible`  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [syslen/SearleSpeechActBert](https://huggingface.co/syslen/SearleSpeechActBert)
+**Author:** syslen  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `speech-acts`, `political-speeches`, `pragmatics`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
+**Author:** ToddBB  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
+**Author:** TomB0421  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [lucid-dl/crossvit-18](https://huggingface.co/lucid-dl/crossvit-18)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/crossvit-15](https://huggingface.co/lucid-dl/crossvit-15)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/crossvit-9](https://huggingface.co/lucid-dl/crossvit-9)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/crossvit-base](https://huggingface.co/lucid-dl/crossvit-base)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-28  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
 
 
 
@@ -632,4 +593,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-28 20:31 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-28 22:42 UTC*
