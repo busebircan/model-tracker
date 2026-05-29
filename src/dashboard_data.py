@@ -14,7 +14,7 @@ import argparse
 import json
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import yaml
@@ -102,6 +102,42 @@ def _sanitise_model(model: dict) -> dict:
         "benchmark_scores": benchmark_scores,
         "description": (model.get("description") or "")[:300],
     }
+
+
+def _update_history(output_dir: Path, profiles_output: dict, run_at: datetime, max_days: int = 90) -> None:
+    """Append this run's per-profile model counts and top tags to history.json."""
+    history_path = output_dir / "history.json"
+    history: dict = {"runs": []}
+    if history_path.exists():
+        try:
+            with open(history_path, "r", encoding="utf-8") as f:
+                history = json.load(f)
+        except Exception as exc:
+            logger.warning("Could not read history file: %s", exc)
+
+    run_summary: dict = {"run_at": run_at.isoformat(), "profiles": {}}
+    for profile_id, profile_data in profiles_output.items():
+        models = profile_data.get("models", [])
+        tag_counts: dict[str, int] = {}
+        for m in models:
+            for t in (m.get("tags") or []):
+                tag_counts[t] = tag_counts.get(t, 0) + 1
+        top_tags = sorted(tag_counts, key=lambda t: -tag_counts[t])[:10]
+        run_summary["profiles"][profile_id] = {
+            "model_count": len(models),
+            "top_tags": top_tags,
+        }
+
+    runs: list = history.get("runs", [])
+    runs.append(run_summary)
+
+    cutoff = (run_at - timedelta(days=max_days)).isoformat()
+    runs = [r for r in runs if r.get("run_at", "") >= cutoff]
+    history["runs"] = runs
+
+    with open(history_path, "w", encoding="utf-8") as f:
+        json.dump(history, f, indent=2)
+    logger.info("Updated history.json (%d runs)", len(runs))
 
 
 def build_dashboard_json(
@@ -197,6 +233,7 @@ def build_dashboard_json(
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, default=str)
     logger.info("Wrote dashboard data to %s", out_path)
+    _update_history(output_dir, output["profiles"], now)
     return out_path
 
 
