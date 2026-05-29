@@ -1,81 +1,49 @@
 # Model Tracker Digest — Vision & Edge Deployment
 
-**Date:** 2026-05-28  
-**Run timestamp:** 2026-05-28 22:42 UTC  
+**Date:** 2026-05-29  
+**Run timestamp:** 2026-05-29 04:14 UTC  
 **Profile:** Vision & Edge Deployment  
 **Description:** Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding  
 **License filter:** Commercial use only ✅  
-**New models found:** 30
+**New models found:** 39
 
 ---
 
 
 
-### [vazad/embedders-mcase-v1](https://huggingface.co/vazad/embedders-mcase-v1)
-**Author:** vazad  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `feature-extraction`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [blockblockblock/Qwen2.5-0.5B-Instruct-exl3-4.5bpw](https://huggingface.co/blockblockblock/Qwen2.5-0.5B-Instruct-exl3-4.5bpw)
-**Author:** blockblockblock  
-**Task:** text generation / language modelling  
+### [lucid-dl/efficientnet-b0](https://huggingface.co/lucid-dl/efficientnet-b0)
+**Author:** lucid-dl  
+**Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~0.5B (from model name)  
-**Published:** 2026-05-28  
-**Languages:** en  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `chat`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `exl3`  
+**Tags:** `lucid`, `image-classification`, `efficientnet`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [ak3ra/gemma-4-e4b-lora-lug](https://huggingface.co/ak3ra/gemma-4-e4b-lora-lug)
-**Author:** ak3ra  
-**Task:** general  
+### [gonnerthetooner/AI-vs-Deepfake-vs-Real-Siglip2-finetuned](https://huggingface.co/gonnerthetooner/AI-vs-Deepfake-vs-Real-Siglip2-finetuned)
+**Author:** gonnerthetooner  
+**Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `gemma4`, `trl`, `endpoints_compatible`  
+**Tags:** `siglip`, `image-classification`, `generated_from_trainer`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [keisuke-miyako/nllb-200-3.3B-gguf](https://huggingface.co/keisuke-miyako/nllb-200-3.3B-gguf)
-**Author:** keisuke-miyako  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
+### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
+**Author:** mazextest2026  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -85,97 +53,81 @@
 
 
 
-### [pnesden/Qwen3.5-9B-Round6-gguf](https://huggingface.co/pnesden/Qwen3.5-9B-Round6-gguf)
-**Author:** pnesden  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
+### [lucid-dl/vgg-19-bn](https://huggingface.co/lucid-dl/vgg-19-bn)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision, gguf. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [cagedBirdy/angle_peg_stereo_05_27_cam12_2_shared](https://huggingface.co/cagedBirdy/angle_peg_stereo_05_27_cam12_2_shared)
-**Author:** cagedBirdy  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+### [lucid-dl/vgg-16-bn](https://huggingface.co/lucid-dl/vgg-16-bn)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:cagedBirdy/angle_peg_stereo_05_27`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [keisuke-miyako/nllb-200-1.3B-gguf](https://huggingface.co/keisuke-miyako/nllb-200-1.3B-gguf)
-**Author:** keisuke-miyako  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
+### [lucid-dl/vgg-13-bn](https://huggingface.co/lucid-dl/vgg-13-bn)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [JacopoCirica/qwen35-4b-sdpo-merged](https://huggingface.co/JacopoCirica/qwen35-4b-sdpo-merged)
-**Author:** JacopoCirica  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
+### [lucid-dl/vgg-11-bn](https://huggingface.co/lucid-dl/vgg-11-bn)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q4_k_m](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q4_k_m)
-**Author:** damienlusson  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
+### [lucid-dl/vgg-19](https://huggingface.co/lucid-dl/vgg-19)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma3_text`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [keisuke-miyako/nllb-200-distilled-1.3B-gguf](https://huggingface.co/keisuke-miyako/nllb-200-distilled-1.3B-gguf)
-**Author:** keisuke-miyako  
+### [chengwddd/Trellis2-GGUF](https://huggingface.co/chengwddd/Trellis2-GGUF)
+**Author:** chengwddd  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [keisuke-miyako/nllb-200-distilled-600M-gguf](https://huggingface.co/keisuke-miyako/nllb-200-distilled-600M-gguf)
-**Author:** keisuke-miyako  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `gguf`  
 
@@ -185,29 +137,13 @@
 
 
 
-### [Uzbekswe/LocateAnything-3B](https://huggingface.co/Uzbekswe/LocateAnything-3B)
-**Author:** Uzbekswe  
-**Task:** image text to text  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `locateanything`, `feature-extraction`, `nvidia`, `eagle`, `vision`, `object-detection`, `grounding`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [lucid-dl/cspdarknet-53](https://huggingface.co/lucid-dl/cspdarknet-53)
+### [lucid-dl/vgg-16](https://huggingface.co/lucid-dl/vgg-16)
 **Author:** lucid-dl  
 **Task:** image classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `cspdarknet`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -215,13 +151,13 @@
 
 
 
-### [lucid-dl/cspresnext-50](https://huggingface.co/lucid-dl/cspresnext-50)
+### [lucid-dl/vgg-13](https://huggingface.co/lucid-dl/vgg-13)
 **Author:** lucid-dl  
 **Task:** image classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `cspresnext`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -229,27 +165,13 @@
 
 
 
-### [damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q8_0](https://huggingface.co/damienlusson/gemma-3-270m-it-unsloth-bnb-4bit-v3-jobs-GGUF-q8_0)
-**Author:** damienlusson  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma3_text`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [lucid-dl/cspresnet-50](https://huggingface.co/lucid-dl/cspresnet-50)
+### [lucid-dl/vgg-11](https://huggingface.co/lucid-dl/vgg-11)
 **Author:** lucid-dl  
 **Task:** image classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `cspresnet`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `vgg`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -257,102 +179,27 @@
 
 
 
-### [cagedBirdy/angle_peg_stereo_05_27_cam012_2](https://huggingface.co/cagedBirdy/angle_peg_stereo_05_27_cam012_2)
-**Author:** cagedBirdy  
-**Task:** robotics  
+### [gonnerthetooner/deepfake_vs_real_image_detection-finetuned](https://huggingface.co/gonnerthetooner/deepfake_vs_real_image_detection-finetuned)
+**Author:** gonnerthetooner  
+**Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:cagedBirdy/angle_peg_stereo_05_27`  
+**Tags:** `vit`, `image-classification`, `generated_from_trainer`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
 ---
 
 
 
-### [cagedBirdy/angle_peg_stereo_05_27_cam012_2_shared](https://huggingface.co/cagedBirdy/angle_peg_stereo_05_27_cam012_2_shared)
-**Author:** cagedBirdy  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `diffusion`, `robotics`, `dataset:cagedBirdy/angle_peg_stereo_05_27`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir.
-
----
-
-
-
-### [pnesden/Qwen2.5-Coder-3B-Round6-oss-only-gguf](https://huggingface.co/pnesden/Qwen2.5-Coder-3B-Round6-oss-only-gguf)
-**Author:** pnesden  
+### [VanyaJ/certbridge](https://huggingface.co/VanyaJ/certbridge)
+**Author:** VanyaJ  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Reza2kn/LocateAnything-3B-ONNX-WebGPU-INT4](https://huggingface.co/Reza2kn/LocateAnything-3B-ONNX-WebGPU-INT4)
-**Author:** Reza2kn  
-**Task:** object detection  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `locateanything`, `vision-language`, `object-detection`, `grounding`, `ocr`, `webgpu`, `int4`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), task match: object-detection, tag match: vision, ocr, onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Zenni069/Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-NVFP4](https://huggingface.co/Zenni069/Nemotron-3-Nano-Omni-AEON-Ultimate-Uncensored-NVFP4)
-**Author:** Zenni069  
-**Task:** any to any  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-05-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `NemotronH_Nano_Omni_Reasoning_V3`, `feature-extraction`, `nvidia`, `nemotron`, `nemotron-h`, `mamba`, `mamba2`, `hybrid`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision, quantized. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [mradermacher/FlaffyTail-abliterated-i1-GGUF](https://huggingface.co/mradermacher/FlaffyTail-abliterated-i1-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** ru, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliterated`, `uncensored`, `research`, `NSFW`, `refusal-removal`, `ru`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [syslen/SearleSpeechActBert](https://huggingface.co/syslen/SearleSpeechActBert)
-**Author:** syslen  
-**Task:** text classification  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Languages:** en  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `speech-acts`, `political-speeches`, `pragmatics`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `certbridge`, `ai-parsing`, `quality-certificate`, `neo4j`, `graphrag`, `tauri`, `react`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: rag.
 
@@ -360,41 +207,13 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
-**Author:** TomB0421  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [lucid-dl/crossvit-18](https://huggingface.co/lucid-dl/crossvit-18)
-**Author:** lucid-dl  
+### [gonnerthetooner/AI-image-detector-finetuned](https://huggingface.co/gonnerthetooner/AI-image-detector-finetuned)
+**Author:** gonnerthetooner  
 **Task:** image classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `swin`, `image-classification`, `generated_from_trainer`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -402,13 +221,28 @@
 
 
 
-### [lucid-dl/crossvit-15](https://huggingface.co/lucid-dl/crossvit-15)
+### [winninghealth/WiNGPT-Babel-2.2-AWQ](https://huggingface.co/winninghealth/WiNGPT-Babel-2.2-AWQ)
+**Author:** winninghealth  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Languages:** ar, bg, bn, ca, cs  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `hunyuan_v1_dense`, `text-generation`, `translation`, `ar`, `bg`, `bn`, `ca`, `cs`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
+
+---
+
+
+
+### [lucid-dl/se-resnet-152](https://huggingface.co/lucid-dl/se-resnet-152)
 **Author:** lucid-dl  
 **Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `se`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -416,13 +250,13 @@
 
 
 
-### [lucid-dl/crossvit-9](https://huggingface.co/lucid-dl/crossvit-9)
+### [lucid-dl/se-resnet-101](https://huggingface.co/lucid-dl/se-resnet-101)
 **Author:** lucid-dl  
 **Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `se`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -430,13 +264,290 @@
 
 
 
-### [lucid-dl/crossvit-base](https://huggingface.co/lucid-dl/crossvit-base)
+### [lucid-dl/se-resnet-50](https://huggingface.co/lucid-dl/se-resnet-50)
 **Author:** lucid-dl  
 **Task:** image classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-28  
+**Published:** 2026-05-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lucid`, `image-classification`, `crossvit`, `dataset:imagenet-1k`, `model-index`  
+**Tags:** `lucid`, `image-classification`, `se`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/se-resnet-34](https://huggingface.co/lucid-dl/se-resnet-34)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `se`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/se-resnet-18](https://huggingface.co/lucid-dl/se-resnet-18)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `se`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [dariacuna/rtdetr-v2-r101-finetune-27](https://huggingface.co/dariacuna/rtdetr-v2-r101-finetune-27)
+**Author:** dariacuna  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `rt_detr_v2`, `object-detection`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
+
+---
+
+
+
+### [lucid-dl/resnext-101-32x4d](https://huggingface.co/lucid-dl/resnext-101-32x4d)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnext`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnext-101-32x8d](https://huggingface.co/lucid-dl/resnext-101-32x8d)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnext`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnext-50-32x4d](https://huggingface.co/lucid-dl/resnext-50-32x4d)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnext`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/wide-resnet-101-2](https://huggingface.co/lucid-dl/wide-resnet-101-2)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `wide`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/wide-resnet-50-2](https://huggingface.co/lucid-dl/wide-resnet-50-2)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `wide`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnet-152](https://huggingface.co/lucid-dl/resnet-152)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnet-101](https://huggingface.co/lucid-dl/resnet-101)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnet-50](https://huggingface.co/lucid-dl/resnet-50)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/resnet-34](https://huggingface.co/lucid-dl/resnet-34)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `resnet`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [zoarag/kotsarelos62662](https://huggingface.co/zoarag/kotsarelos62662)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+
+---
+
+
+
+### [MarriedGeekGuy/flux-klein-lora-cum-on-face-klein-9b-sdxl-klein-9b-v2](https://huggingface.co/MarriedGeekGuy/flux-klein-lora-cum-on-face-klein-9b-sdxl-klein-9b-v2)
+**Author:** MarriedGeekGuy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: edge (name).
+
+---
+
+
+
+### [zoarag/Worg_Man](https://huggingface.co/zoarag/Worg_Man)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+
+---
+
+
+
+### [nichenke/qmd-query-expansion-granite-2b-gguf](https://huggingface.co/nichenke/qmd-query-expansion-granite-2b-gguf)
+**Author:** nichenke  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `quantized`, `query-expansion`, `qmd`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [lucid-dl/sk-resnet-34](https://huggingface.co/lucid-dl/sk-resnet-34)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `sk`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/sk-resnet-18](https://huggingface.co/lucid-dl/sk-resnet-18)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `sk`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/inception-resnet-v2](https://huggingface.co/lucid-dl/inception-resnet-v2)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `inception`, `dataset:imagenet-1k`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
+
+---
+
+
+
+### [lucid-dl/inception-v3](https://huggingface.co/lucid-dl/inception-v3)
+**Author:** lucid-dl  
+**Task:** image classification  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-05-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lucid`, `image-classification`, `inception`, `dataset:imagenet-1k`, `model-index`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification.
 
@@ -446,4 +557,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-28 22:42 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-29 04:14 UTC*
