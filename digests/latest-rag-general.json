@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-30T13:54:05.766880+00:00",
+  "run_at": "2026-05-30T16:08:38.873969+00:00",
   "model_count": 8,
   "models": [
     {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
+      "id": "howie92/MyAwesomeModel-TestRepo",
+      "author": "howie92",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T13:52:33+00:00",
+      "created_at": "2026-05-30T16:08:21+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/howie92/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,39 +34,10 @@
       ]
     },
     {
-      "id": "TomB0421/MyAwesomeModel-TestRepo",
-      "author": "TomB0421",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T13:35:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "LoWiki/distilbert-multilabel-classifier_crwiki",
-      "author": "LoWiki",
-      "name": "distilbert-multilabel-classifier_crwiki",
-      "created_at": "2026-05-30T13:33:59+00:00",
+      "id": "danielalonconi/toxicidad-g7",
+      "author": "danielalonconi",
+      "name": "toxicidad-g7",
+      "created_at": "2026-05-30T16:06:45+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -74,7 +45,116 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "arxiv:1910.09700",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/danielalonconi/toxicidad-g7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "zoarag/cpufan",
+      "author": "zoarag",
+      "name": "cpufan",
+      "created_at": "2026-05-30T16:01:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/cpufan",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s44",
+      "author": "MohammadGholizadeh",
+      "name": "Qwen2.5-7B-Instruct-dragon-gen1-s44",
+      "created_at": "2026-05-30T15:57:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s44",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s43",
+      "author": "MohammadGholizadeh",
+      "name": "Qwen2.5-7B-Instruct-dragon-gen1-s43",
+      "created_at": "2026-05-30T15:57:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s43",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "cnuland/semantic-routing-sensitivity",
+      "author": "cnuland",
+      "name": "semantic-routing-sensitivity",
+      "created_at": "2026-05-30T15:34:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:495",
+        "loss:BatchAllTripletLoss",
+        "arxiv:1908.10084",
+        "arxiv:1703.07737",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:finetune:sentence-transformers/all-MiniLM-L6-v2",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -83,52 +163,21 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/distilbert-multilabel-classifier_crwiki",
+      "url": "https://huggingface.co/cnuland/semantic-routing-sensitivity",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
       ]
     },
     {
-      "id": "Noginowa/MirageCanvas-ILL",
-      "author": "Noginowa",
-      "name": "MirageCanvas-ILL",
-      "created_at": "2026-05-30T13:15:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-to-image",
-      "tags": [
-        "diffusers",
-        "stable-diffusion",
-        "stable-diffusion-diffusers",
-        "text-to-image",
-        "merge",
-        "en",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Noginowa/MirageCanvas-ILL",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
-      "author": "SOTAagi2030",
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T12:44:17+00:00",
+      "created_at": "2026-05-30T15:19:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -144,7 +193,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -154,56 +203,10 @@
       ]
     },
     {
-      "id": "AnuragDhiman/lewm-web-visreg",
-      "author": "AnuragDhiman",
-      "name": "lewm-web-visreg",
-      "created_at": "2026-05-30T12:31:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AnuragDhiman/lewm-web-visreg",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "AnuragDhiman/lewm-web-sigreg",
-      "author": "AnuragDhiman",
-      "name": "lewm-web-sigreg",
-      "created_at": "2026-05-30T12:31:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AnuragDhiman/lewm-web-sigreg",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "mazextest2026/MyAwesomeModel-TestRepo",
-      "author": "mazextest2026",
+      "id": "blmq/MyAwesomeModel-TestRepo",
+      "author": "blmq",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T12:31:03+00:00",
+      "created_at": "2026-05-30T14:57:47+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -219,7 +222,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/blmq/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
