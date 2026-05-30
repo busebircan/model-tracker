@@ -1,23 +1,24 @@
 # Model Tracker Digest — Vision & Edge Deployment
 
 **Date:** 2026-05-30  
-**Run timestamp:** 2026-05-30 10:49 UTC  
+**Run timestamp:** 2026-05-30 13:54 UTC  
 **Profile:** Vision & Edge Deployment  
 **Description:** Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding  
 **License filter:** Commercial use only ✅  
-**New models found:** 51
+**New models found:** 33
 
 ---
 
 
 
-### [poolside-laguna-hackathon/laguna-xs2-two-hacks](https://huggingface.co/poolside-laguna-hackathon/laguna-xs2-two-hacks)
-**Author:** poolside-laguna-hackathon  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
+### [bytetilde/Llama-3.2-3B-MTD](https://huggingface.co/bytetilde/Llama-3.2-3B-MTD)
+**Author:** bytetilde  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `poolside`, `laguna`, `gguf`, `quantization`, `lora`, `reinforcement-learning`, `terminal-agent`, `browser-agent`  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
@@ -25,8 +26,8 @@
 
 
 
-### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
-**Author:** toola  
+### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
+**Author:** XiAT  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-30  
@@ -39,97 +40,42 @@
 
 
 
-### [ssanchez84/computer_vision](https://huggingface.co/ssanchez84/computer_vision)
-**Author:** ssanchez84  
+### [coolroman/carwash003](https://huggingface.co/coolroman/carwash003)
+**Author:** coolroman  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `fastai`  
+**Tags:** `onnx`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision (name).
-
----
-
-
-
-### [poolside-laguna-hackathon/Piscina-XS.2-GGUF](https://huggingface.co/poolside-laguna-hackathon/Piscina-XS.2-GGUF)
-**Author:** poolside-laguna-hackathon  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `quantization`, `moe`, `laguna`, `active-path-precision`, `piscina`, `edge`, `llama.cpp`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: edge, gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Bob1012/FirstModel](https://huggingface.co/Bob1012/FirstModel)
-**Author:** Bob1012  
-**Task:** reinforcement learning  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stable-baselines3`, `LunarLander-v2`, `deep-reinforcement-learning`, `reinforcement-learning`, `model-index`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [prep-ai-depouille/prep-depouille-dentaire](https://huggingface.co/prep-ai-depouille/prep-depouille-dentaire)
-**Author:** prep-ai-depouille  
+### [Knightwarrior911/decko-actions-coder3b-onnx](https://huggingface.co/Knightwarrior911/decko-actions-coder3b-onnx)
+**Author:** Knightwarrior911  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx (name).
 
 ---
 
 
 
-### [howie92/MyAwesomeModel-TestRepo](https://huggingface.co/howie92/MyAwesomeModel-TestRepo)
-**Author:** howie92  
-**Task:** feature extraction / embedding generation  
+### [ignyse/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-GGUF](https://huggingface.co/ignyse/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-GGUF)
+**Author:** ignyse  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [fhai50032/latentsig-med-router-qwen3-4b-gguf](https://huggingface.co/fhai50032/latentsig-med-router-qwen3-4b-gguf)
-**Author:** fhai50032  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [poolside-laguna-hackathon/Laguna-XS.2-GGUF](https://huggingface.co/poolside-laguna-hackathon/Laguna-XS.2-GGUF)
-**Author:** poolside-laguna-hackathon  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `laguna`, `moe`, `quantized`, `coding`, `agentic`, `text-generation`, `endpoints_compatible`  
+**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
@@ -137,352 +83,235 @@
 
 
 
-### [Efficient-Large-Model/Fast-dDrive](https://huggingface.co/Efficient-Large-Model/Fast-dDrive)
-**Author:** Efficient-Large-Model  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [crashidian/atc-qwen25-3b-gguf](https://huggingface.co/crashidian/atc-qwen25-3b-gguf)
+**Author:** crashidian  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-30  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `fast_d_drive`, `feature-extraction`, `block-diffusion`, `vision-language-action`, `autonomous-driving`, `qwen2.5-vl`, `image-text-to-text`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision.
-
----
-
-
-
-### [ordis-co-ltd/Step-3.7-Flash-NVFP4-MTP](https://huggingface.co/ordis-co-ltd/Step-3.7-Flash-NVFP4-MTP)
-**Author:** ordis-co-ltd  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `step3p7`, `stepfun`, `nvfp4`, `mtp`, `speculative-decoding`, `moe`, `multimodal`, `vision-language`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
 
 ---
 
 
 
-### [mradermacher/GLM-5.1-Abliterated-GGUF](https://huggingface.co/mradermacher/GLM-5.1-Abliterated-GGUF)
+### [NikiPshg/MossFormer2_SE_48K_dynamic](https://huggingface.co/NikiPshg/MossFormer2_SE_48K_dynamic)
+**Author:** NikiPshg  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
+**Author:** TomB0421  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ysdede/wav2vec2-large-xlsr-turkish-onnx](https://huggingface.co/ysdede/wav2vec2-large-xlsr-turkish-onnx)
+**Author:** ysdede  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** tr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `wav2vec2`, `asr`, `ctc`, `audio`, `speech-recognition`, `turkish`, `xlsr`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [SirSahOl/glm-edge-1.5b-chat-mlx-16bit](https://huggingface.co/SirSahOl/glm-edge-1.5b-chat-mlx-16bit)
+**Author:** SirSahOl  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `glm`, `edge`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name), edge.
+
+---
+
+
+
+### [thai231004/kyc-edge-models](https://huggingface.co/thai231004/kyc-edge-models)
+**Author:** thai231004  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: edge (name), onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [SirSahOl/glm-edge-1.5b-chat-mlx-8bit](https://huggingface.co/SirSahOl/glm-edge-1.5b-chat-mlx-8bit)
+**Author:** SirSahOl  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `glm`, `edge`, `text-generation`, `conversational`, `8-bit`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name), edge, quantized.
+
+---
+
+
+
+### [LuffyTheFox/MyTestRepository](https://huggingface.co/LuffyTheFox/MyTestRepository)
+**Author:** LuffyTheFox  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [alaemoussi/aloafy-gemma2-finetuned](https://huggingface.co/alaemoussi/aloafy-gemma2-finetuned)
+**Author:** alaemoussi  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [mradermacher/Qliphoth-12B-v1.2-GGUF](https://huggingface.co/mradermacher/Qliphoth-12B-v1.2-GGUF)
 **Author:** mradermacher  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `mistral`, `nemo`, `qliphoth`, `dataset:Naphula-Archives/qliphoth_12B_minibard_bench`, `dataset:OccultAI/illuminati_imatrix_v1`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [AEON-7/Step-3.7-Flash-AEON-Ultimate-Abliterated-BF16](https://huggingface.co/AEON-7/Step-3.7-Flash-AEON-Ultimate-Abliterated-BF16)
-**Author:** AEON-7  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Noginowa/MirageCanvas-ILL](https://huggingface.co/Noginowa/MirageCanvas-ILL)
+**Author:** Noginowa  
+**Task:** text to image  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-05-30  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `step3p7`, `text-generation`, `abliterated`, `uncensored`, `moe`, `vision-language`, `thinking`, `expert-granular-abliteration`  
+**Tags:** `diffusers`, `stable-diffusion`, `stable-diffusion-diffusers`, `text-to-image`, `merge`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name), rag (name).
 
 ---
 
 
 
-### [LibreYOLO/LibreRTDETRv4x](https://huggingface.co/LibreYOLO/LibreRTDETRv4x)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Yoad22/nyc-airbnb-price-predictor](https://huggingface.co/Yoad22/nyc-airbnb-price-predictor)
+**Author:** Yoad22  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `regression`, `random-forest`, `airbnb`, `price-prediction`, `tabular`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ysdede/whisper-large-v3-turbo-onnx-4graph-v2](https://huggingface.co/ysdede/whisper-large-v3-turbo-onnx-4graph-v2)
+**Author:** ysdede  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v4`, `detr`  
+**Tags:** `onnx`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv4l](https://huggingface.co/LibreYOLO/LibreRTDETRv4l)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v4`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [LibreYOLO/LibreRTDETRv4m](https://huggingface.co/LibreYOLO/LibreRTDETRv4m)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v4`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv4s](https://huggingface.co/LibreYOLO/LibreRTDETRv4s)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v4`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv2r101](https://huggingface.co/LibreYOLO/LibreRTDETRv2r101)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v2`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv2r50](https://huggingface.co/LibreYOLO/LibreRTDETRv2r50)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v2`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv2r50m](https://huggingface.co/LibreYOLO/LibreRTDETRv2r50m)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v2`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv2r34](https://huggingface.co/LibreYOLO/LibreRTDETRv2r34)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v2`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTDETRv2r18](https://huggingface.co/LibreYOLO/LibreRTDETRv2r18)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rt-detr`, `rt-detr-v2`, `detr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTMDetx](https://huggingface.co/LibreYOLO/LibreRTMDetx)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rtmdet`, `mmdetection`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTMDetl](https://huggingface.co/LibreYOLO/LibreRTMDetl)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rtmdet`, `mmdetection`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTMDetm](https://huggingface.co/LibreYOLO/LibreRTMDetm)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rtmdet`, `mmdetection`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTMDets](https://huggingface.co/LibreYOLO/LibreRTMDets)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rtmdet`, `mmdetection`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [LibreYOLO/LibreRTMDett](https://huggingface.co/LibreYOLO/LibreRTMDett)
-**Author:** LibreYOLO  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `libreyolo`, `object-detection`, `rtmdet`, `mmdetection`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection.
-
----
-
-
-
-### [unsloth/LFM2.5-8B-A1B](https://huggingface.co/unsloth/LFM2.5-8B-A1B)
-**Author:** unsloth  
+### [khairi/Eshmun-1.3B-Base](https://huggingface.co/khairi/Eshmun-1.3B-Base)
+**Author:** khairi  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-30  
-**Languages:** en, ar, zh, fr, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lfm2_moe`, `text-generation`, `liquid`, `unsloth`, `lfm2.5`, `edge`, `conversational`, `ar`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: edge.
-
----
-
-
-
-### [aifeifei798/LFM2.5-Queen-8B-A1B](https://huggingface.co/aifeifei798/LFM2.5-Queen-8B-A1B)
-**Author:** aifeifei798  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-30  
-**Languages:** en, ar, zh, fr, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lfm2_moe`, `text-generation`, `liquid`, `lfm2.5`, `edge`, `conversational`, `ar`, `zh`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: edge.
-
----
-
-
-
-### [abhinav337463/insurance-coverage-predictor-model](https://huggingface.co/abhinav337463/insurance-coverage-predictor-model)
-**Author:** abhinav337463  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
-
----
-
-
-
-### [TG6365/MOSS-TTS-GGUF](https://huggingface.co/TG6365/MOSS-TTS-GGUF)
-**Author:** TG6365  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
-
----
-
-
-
-### [poolside-laguna-hackathon/laguna-xs2-nvfp4-attention](https://huggingface.co/poolside-laguna-hackathon/laguna-xs2-nvfp4-attention)
-**Author:** poolside-laguna-hackathon  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `laguna`, `quantization`, `nvfp4`, `moe`, `vllm`, `custom_code`, `8-bit`, `compressed-tensors`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: quantized.
-
----
-
-
-
-### [zoarag/MonkeyDFeels](https://huggingface.co/zoarag/MonkeyDFeels)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
-
----
-
-
-
-### [KiraLora/kira-lora](https://huggingface.co/KiraLora/kira-lora)
-**Author:** KiraLora  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
+**Tags:** `eshmun`, `text-generation`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [SirSahOl/glm-edge-1.5b-chat-mlx-4bit](https://huggingface.co/SirSahOl/glm-edge-1.5b-chat-mlx-4bit)
+**Author:** SirSahOl  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `glm`, `edge`, `text-generation`, `conversational`, `4-bit`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name), edge, quantized.
+
+---
+
+
+
+### [s-batman/Qwopus3.6-27B-v2-NVFP4-MTP-GGUF](https://huggingface.co/s-batman/Qwopus3.6-27B-v2-NVFP4-MTP-GGUF)
+**Author:** s-batman  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-30  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `nvfp4`, `blackwell`, `speculative-decoding`, `mtp`, `qwopus`, `qwen`, `vision`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision, gguf, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
 
 ---
 
@@ -502,142 +331,14 @@
 
 
 
-### [rwiecekgmailcom/gemma4-e4b-claude-coder-admin-GGUF](https://huggingface.co/rwiecekgmailcom/gemma4-e4b-claude-coder-admin-GGUF)
-**Author:** rwiecekgmailcom  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ollama`, `claude-code`, `coding`, `agent`, `function-calling`, `gemma`, `text-generation`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [rwiecekgmailcom/gemma4-e2b-claude-coder-GGUF](https://huggingface.co/rwiecekgmailcom/gemma4-e2b-claude-coder-GGUF)
-**Author:** rwiecekgmailcom  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ollama`, `claude-code`, `coding`, `agent`, `function-calling`, `gemma`, `text-generation`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [rwiecekgmailcom/gemma4-e4b-claude-coder-GGUF](https://huggingface.co/rwiecekgmailcom/gemma4-e4b-claude-coder-GGUF)
-**Author:** rwiecekgmailcom  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ollama`, `claude-code`, `coding`, `agent`, `function-calling`, `gemma`, `text-generation`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dsshdhthfggfdtr/NuExtract3](https://huggingface.co/dsshdhthfggfdtr/NuExtract3)
-**Author:** dsshdhthfggfdtr  
-**Task:** image captioning / vision-language understanding  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [JongYeop/Llama-3.1-8B-Instruct-W8A8-FP8-KV](https://huggingface.co/JongYeop/Llama-3.1-8B-Instruct-W8A8-FP8-KV)
+**Author:** JongYeop  
+**Task:** general  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `vision-language`, `vlm`, `document-understanding`, `structured-extraction`, `information-extraction`, `ocr`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-to-text, tag match: vision, rag, document, ocr. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [Eval-Toolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo)
-**Author:** Eval-Toolathlon  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Bluefir/BandDPER](https://huggingface.co/Bluefir/BandDPER)
-**Author:** Bluefir  
-**Task:** tabular regression  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `escampe`, `board-game`, `game-ai`, `dual-perspective`, `resnet`, `tabular-regression`, `dataset:Bluefir/escampe-dataset`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir.
-
----
-
-
-
-### [liu123545/MyAwesomeModel-TestRepo](https://huggingface.co/liu123545/MyAwesomeModel-TestRepo)
-**Author:** liu123545  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [ignyse/Qwen3.5-9B-Q4_K_M-GGUF](https://huggingface.co/ignyse/Qwen3.5-9B-Q4_K_M-GGUF)
-**Author:** ignyse  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `image-text-to-text`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dawncr0w/MiniMax-M2.7-ultra-uncensored-heretic-oQ4-MLX](https://huggingface.co/dawncr0w/MiniMax-M2.7-ultra-uncensored-heretic-oQ4-MLX)
-**Author:** dawncr0w  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `minimax_m2`, `omlx`, `oq`, `oq4`, `quantized`, `heretic`, `uncensored`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [welcoma/gemma-4-E4B-it-q4f16_1-MLC](https://huggingface.co/welcoma/gemma-4-E4B-it-q4f16_1-MLC)
-**Author:** welcoma  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `MLC-LLM`, `web-llm`, `webgpu`, `gemma4`, `quantized`, `browser`, `text-generation`  
+**Tags:** `llama`, `quantized`, `fp8`, `compressed-tensors`, `llmcompressor`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
 
@@ -645,84 +346,93 @@
 
 
 
-### [Anamavajra-Labs/exegetical-generation-paper](https://huggingface.co/Anamavajra-Labs/exegetical-generation-paper)
-**Author:** Anamavajra-Labs  
-**Task:** text generation / language modelling  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Languages:** sa, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sanskrit`, `exegetical-generation`, `text-generation`, `nlp`, `buddhist`, `commentary`, `information-expansion`, `rag`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: rag. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [BarshaGhimire/ade-qlora-adapter](https://huggingface.co/BarshaGhimire/ade-qlora-adapter)
-**Author:** BarshaGhimire  
-**Task:** text generation / language modelling  
+### [pantumanolo/onnx_parsedata_oob_poc](https://huggingface.co/pantumanolo/onnx_parsedata_oob_poc)
+**Author:** pantumanolo  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+**Tags:** `onnx`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [jaromer/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/jaromer/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive)
-**Author:** jaromer  
-**Task:** general  
+### [dealignai/LFM2.5-8B-A1B-MXFP8-CRACK](https://huggingface.co/dealignai/LFM2.5-8B-A1B-MXFP8-CRACK)
+**Author:** dealignai  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
 **Published:** 2026-05-30  
-**Languages:** en, zh, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `uncensored`, `qwen3.5`, `qwen`, `zh`, `multilingual`, `endpoints_compatible`, `conversational`  
+**Tags:** `mlx`, `lfm2_moe`, `apple-silicon`, `abliterated`, `uncensored`, `crack`, `reasoning`, `thinking`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
 
 ---
 
 
 
-### [jaromer/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/jaromer/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive)
-**Author:** jaromer  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Brunobkr/OFFELLIA_MXFP4_MOE_LFM2.5-8B-A1B.gguf](https://huggingface.co/Brunobkr/OFFELLIA_MXFP4_MOE_LFM2.5-8B-A1B.gguf)
+**Author:** Brunobkr  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Burumbum/qwen3-1.7b-mental-q4km](https://huggingface.co/Burumbum/qwen3-1.7b-mental-q4km)
+**Author:** Burumbum  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-05-30  
-**Languages:** en, zh, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `uncensored`, `qwen3.6`, `vision`, `multimodal`, `image-text-to-text`, `zh`, `multilingual`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision, gguf, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [jaromer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/jaromer/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)
-**Author:** jaromer  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
+### [AnuragDhiman/lewm-web-visreg](https://huggingface.co/AnuragDhiman/lewm-web-visreg)
+**Author:** AnuragDhiman  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
-**Languages:** en, zh, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `uncensored`, `qwen3.6`, `moe`, `vision`, `multimodal`, `image-text-to-text`, `zh`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision, gguf, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
 
 ---
 
 
 
-### [safafa45346/MyAwesomeModel-TestRepo](https://huggingface.co/safafa45346/MyAwesomeModel-TestRepo)
-**Author:** safafa45346  
+### [AnuragDhiman/lewm-web-sigreg](https://huggingface.co/AnuragDhiman/lewm-web-sigreg)
+**Author:** AnuragDhiman  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+
+---
+
+
+
+### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
+**Author:** mazextest2026  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-30  
@@ -731,10 +441,56 @@
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
+---
+
+
+
+### [eyaler/HalleluBERT_large-ONNX](https://huggingface.co/eyaler/HalleluBERT_large-ONNX)
+**Author:** eyaler  
+**Task:** fill mask  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** he  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformers.js`, `onnx`, `roberta`, `fill-mask`, `hebrew`, `encoder`, `masked-language-modeling`, `mlm`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir, onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ysdede/wav2vec2-base-960h-onnx](https://huggingface.co/ysdede/wav2vec2-base-960h-onnx)
+**Author:** ysdede  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `wav2vec2`, `asr`, `ctc`, `audio`, `speech-recognition`, `asrjs`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ignyse/Hermes-4-14B-Q4_K_M-GGUF](https://huggingface.co/ignyse/Hermes-4-14B-Q4_K_M-GGUF)
+**Author:** ignyse  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `Qwen-3-14B`, `instruct`, `finetune`, `reasoning`, `hybrid-mode`, `chatml`, `function calling`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 10:49 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 13:54 UTC*
