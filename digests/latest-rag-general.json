@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-30T03:59:54.161885+00:00",
-  "model_count": 7,
+  "run_at": "2026-05-30T08:35:03.780848+00:00",
+  "model_count": 11,
   "models": [
     {
-      "id": "LuisOR64/toxicidad-g7",
-      "author": "LuisOR64",
-      "name": "toxicidad-g7",
-      "created_at": "2026-05-30T03:55:43+00:00",
+      "id": "LoWiki/distilbert-multilabel-classifier_zero_shot",
+      "author": "LoWiki",
+      "name": "distilbert-multilabel-classifier_zero_shot",
+      "created_at": "2026-05-30T08:27:35+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -16,68 +16,29 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LuisOR64/toxicidad-g7",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "kev-KOH/time-embed-bge-m3-lms-temporal-v1-7",
-      "author": "kev-KOH",
-      "name": "time-embed-bge-m3-lms-temporal-v1-7",
-      "created_at": "2026-05-30T03:53:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "FlagEmbedding",
-        "safetensors",
-        "xlm-roberta",
-        "sentence-transformers",
-        "bge-m3",
-        "korean",
-        "temporal-retrieval",
-        "lms",
-        "ko",
-        "base_model:kev-KOH/time-embed-bge-m3-lms-temporal-v1-6-1",
-        "base_model:finetune:kev-KOH/time-embed-bge-m3-lms-temporal-v1-6-1",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/kev-KOH/time-embed-bge-m3-lms-temporal-v1-7",
+      "url": "https://huggingface.co/LoWiki/distilbert-multilabel-classifier_zero_shot",
       "description": null,
-      "languages": [
-        "ko"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding, sentence-transformers, retrieval"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "cesarcodigo/toxicidad-g7",
-      "author": "cesarcodigo",
-      "name": "toxicidad-g7",
-      "created_at": "2026-05-30T03:46:17+00:00",
+      "id": "LoWiki/distilbert-multilabel-classifier_few_shot",
+      "author": "LoWiki",
+      "name": "distilbert-multilabel-classifier_few_shot",
+      "created_at": "2026-05-30T08:18:44+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -85,32 +46,29 @@
         "safetensors",
         "distilbert",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cesarcodigo/toxicidad-g7",
+      "url": "https://huggingface.co/LoWiki/distilbert-multilabel-classifier_few_shot",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "liuferet114/MyAwesomeModel-TestRepo",
+      "author": "liuferet114",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T03:24:17+00:00",
+      "created_at": "2026-05-30T08:09:12+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -126,7 +84,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/liuferet114/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -136,99 +94,230 @@
       ]
     },
     {
-      "id": "Atomic-Germ/NuExtract3-NPU2",
-      "author": "Atomic-Germ",
-      "name": "NuExtract3-NPU2",
-      "created_at": "2026-05-30T03:04:07+00:00",
+      "id": "sddddd22/MyAwesomeModel-TestRepo",
+      "author": "sddddd22",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T08:03:43+00:00",
       "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "qwen3_5_text",
-        "image-text-to-text",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sddddd22/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "LoWiki/bert-multilabel-classifier_zero_shot",
+      "author": "LoWiki",
+      "name": "bert-multilabel-classifier_zero_shot",
+      "created_at": "2026-05-30T07:36:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
         "safetensors",
-        "qwen3_5",
-        "vision-language",
-        "vlm",
-        "document-understanding",
-        "structured-extraction",
-        "information-extraction",
-        "ocr",
-        "document-to-markdown",
-        "markdown",
-        "rag",
-        "reasoning",
-        "multilingual",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LoWiki/bert-multilabel-classifier_zero_shot",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "LoWiki/bert-multilabel-classifier_few_shot",
+      "author": "LoWiki",
+      "name": "bert-multilabel-classifier_few_shot",
+      "created_at": "2026-05-30T07:33:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LoWiki/bert-multilabel-classifier_few_shot",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Havoc-Jay/bert-sentiment-rag",
+      "author": "Havoc-Jay",
+      "name": "bert-sentiment-rag",
+      "created_at": "2026-05-30T07:05:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Havoc-Jay/bert-sentiment-rag",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/king646",
+      "author": "zoarag",
+      "name": "king646",
+      "created_at": "2026-05-30T07:02:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/king646",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "veeraragavan410/Llama-3.2-3B-sentiment-merged",
+      "author": "veeraragavan410",
+      "name": "Llama-3.2-3B-sentiment-merged",
+      "created_at": "2026-05-30T07:02:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
         "conversational",
-        "base_model:numind/NuExtract3",
-        "base_model:quantized:numind/NuExtract3",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
+        "text-generation-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Atomic-Germ/NuExtract3-NPU2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "sdfsgg5667/MyAwesomeModel-TestRepo",
-      "author": "sdfsgg5667",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T02:58:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sullivanUCSD/SCOUT-d2-embedding-clf",
-      "author": "sullivanUCSD",
-      "name": "SCOUT-d2-embedding-clf",
-      "created_at": "2026-05-30T02:38:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sullivanUCSD/SCOUT-d2-embedding-clf",
+      "url": "https://huggingface.co/veeraragavan410/Llama-3.2-3B-sentiment-merged",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embedding (name)"
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "veeraragavan410/Llama-3.2-3B-sentiment",
+      "author": "veeraragavan410",
+      "name": "Llama-3.2-3B-sentiment",
+      "created_at": "2026-05-30T07:00:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:unsloth/Llama-3.2-3B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:unsloth/Llama-3.2-3B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/veeraragavan410/Llama-3.2-3B-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghunath-Balaji/gemma3-faid",
+      "author": "Raghunath-Balaji",
+      "name": "gemma3-faid",
+      "created_at": "2026-05-30T06:52:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghunath-Balaji/gemma3-faid",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]

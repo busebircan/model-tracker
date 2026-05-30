@@ -1,52 +1,23 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-30  
-**Run timestamp:** 2026-05-30 03:59 UTC  
+**Run timestamp:** 2026-05-30 08:35 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 7
+**New models found:** 11
 
 ---
 
 
 
-### [LuisOR64/toxicidad-g7](https://huggingface.co/LuisOR64/toxicidad-g7)
-**Author:** LuisOR64  
+### [LoWiki/distilbert-multilabel-classifier_zero_shot](https://huggingface.co/LoWiki/distilbert-multilabel-classifier_zero_shot)
+**Author:** LoWiki  
 **Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [kev-KOH/time-embed-bge-m3-lms-temporal-v1-7](https://huggingface.co/kev-KOH/time-embed-bge-m3-lms-temporal-v1-7)
-**Author:** kev-KOH  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
-**Languages:** ko  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `FlagEmbedding`, `xlm-roberta`, `sentence-transformers`, `bge-m3`, `korean`, `temporal-retrieval`, `lms`, `ko`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding, sentence-transformers, retrieval.
-
----
-
-
-
-### [cesarcodigo/toxicidad-g7](https://huggingface.co/cesarcodigo/toxicidad-g7)
-**Author:** cesarcodigo  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -54,8 +25,22 @@
 
 
 
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
+### [LoWiki/distilbert-multilabel-classifier_few_shot](https://huggingface.co/LoWiki/distilbert-multilabel-classifier_few_shot)
+**Author:** LoWiki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [liuferet114/MyAwesomeModel-TestRepo](https://huggingface.co/liuferet114/MyAwesomeModel-TestRepo)
+**Author:** liuferet114  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-30  
@@ -68,22 +53,8 @@
 
 
 
-### [Atomic-Germ/NuExtract3-NPU2](https://huggingface.co/Atomic-Germ/NuExtract3-NPU2)
-**Author:** Atomic-Germ  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `image-text-to-text`, `qwen3_5`, `vision-language`, `vlm`, `document-understanding`, `structured-extraction`, `information-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [sdfsgg5667/MyAwesomeModel-TestRepo](https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo)
-**Author:** sdfsgg5667  
+### [sddddd22/MyAwesomeModel-TestRepo](https://huggingface.co/sddddd22/MyAwesomeModel-TestRepo)
+**Author:** sddddd22  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-30  
@@ -96,14 +67,99 @@
 
 
 
-### [sullivanUCSD/SCOUT-d2-embedding-clf](https://huggingface.co/sullivanUCSD/SCOUT-d2-embedding-clf)
-**Author:** sullivanUCSD  
+### [LoWiki/bert-multilabel-classifier_zero_shot](https://huggingface.co/LoWiki/bert-multilabel-classifier_zero_shot)
+**Author:** LoWiki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [LoWiki/bert-multilabel-classifier_few_shot](https://huggingface.co/LoWiki/bert-multilabel-classifier_few_shot)
+**Author:** LoWiki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Havoc-Jay/bert-sentiment-rag](https://huggingface.co/Havoc-Jay/bert-sentiment-rag)
+**Author:** Havoc-Jay  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [zoarag/king646](https://huggingface.co/zoarag/king646)
+**Author:** zoarag  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [veeraragavan410/Llama-3.2-3B-sentiment-merged](https://huggingface.co/veeraragavan410/Llama-3.2-3B-sentiment-merged)
+**Author:** veeraragavan410  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [veeraragavan410/Llama-3.2-3B-sentiment](https://huggingface.co/veeraragavan410/Llama-3.2-3B-sentiment)
+**Author:** veeraragavan410  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghunath-Balaji/gemma3-faid](https://huggingface.co/Raghunath-Balaji/gemma3-faid)
+**Author:** Raghunath-Balaji  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name). Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -111,4 +167,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 03:59 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 08:35 UTC*
