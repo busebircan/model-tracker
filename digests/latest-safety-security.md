@@ -1,53 +1,99 @@
 # Model Tracker Digest — Safety & Security
 
-**Date:** 2026-05-29  
-**Run timestamp:** 2026-05-29 22:39 UTC  
+**Date:** 2026-05-30  
+**Run timestamp:** 2026-05-30 03:59 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 19
+**New models found:** 57
 
 ---
 
 
 
-### [bartek-flp/qwen3coder-30b-dcr-lora](https://huggingface.co/bartek-flp/qwen3coder-30b-dcr-lora)
-**Author:** bartek-flp  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Languages:** en  
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `drupal`, `code-review`, `php`, `qlora`, `lora`, `security`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
 
 ---
 
 
 
-### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
-**Author:** toola  
-**Task:** feature extraction / embedding generation  
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-16-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
+**Languages:** id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [croqaz/vintage-LLM-340m-v1-base](https://huggingface.co/croqaz/vintage-LLM-340m-v1-base)
-**Author:** croqaz  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -55,99 +101,549 @@
 
 
 
-### [jeongseokoh/Qwen3-8B_SPEED-30-BoS_PrefixBoS](https://huggingface.co/jeongseokoh/Qwen3-8B_SPEED-30-BoS_PrefixBoS)
-**Author:** jeongseokoh  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen3`, `text-generation`, `speed`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
 
 ---
 
 
 
-### [enacimie/Qwen3.6-27B-Q4_K_M-GGUF](https://huggingface.co/enacimie/Qwen3.6-27B-Q4_K_M-GGUF)
-**Author:** enacimie  
-**Task:** image text to text  
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [LuisOR64/toxicidad-g7](https://huggingface.co/LuisOR64/toxicidad-g7)
+**Author:** LuisOR64  
+**Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `image-text-to-text`, `endpoints_compatible`, `conversational`  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: toxic (name), dpo.
 
 ---
 
 
 
-### [FenomAI/Qwen3.5-0.8B](https://huggingface.co/FenomAI/Qwen3.5-0.8B)
-**Author:** FenomAI  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
 
 ---
 
 
 
-### [Andly03/KindlyLM-ML-GGUF-fix](https://huggingface.co/Andly03/KindlyLM-ML-GGUF-fix)
-**Author:** Andly03  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
 
 ---
 
 
 
-### [jeongseokoh/Llama-3.1-8B-Instruct_SPEED-28-BoS](https://huggingface.co/jeongseokoh/Llama-3.1-8B-Instruct_SPEED-28-BoS)
-**Author:** jeongseokoh  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama`, `text-generation`, `speed`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
 
 ---
 
 
 
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
-**Task:** feature extraction / embedding generation  
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison25_v1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison25_v1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison0_v1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison0_v1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: security, prompt-injection, adversarial.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-8-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
+**Languages:** id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g7_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g7_run0)
+### [mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-1e-05-BS-8-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-1e-05-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-5e-06-BS-16-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-5e-06-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [cesarcodigo/toxicidad-g7](https://huggingface.co/cesarcodigo/toxicidad-g7)
+**Author:** cesarcodigo  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: toxic (name), dpo.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-5e-06-BS-8-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-5e-06-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g4_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g4_run1)
 **Author:** stefanocarrera  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `unsloth`, `endpoints_compatible`  
 
@@ -157,14 +653,55 @@
 
 
 
-### [gradients-io-tournaments/augmented-35ea3b4a8c8477b1](https://huggingface.co/gradients-io-tournaments/augmented-35ea3b4a8c8477b1)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-05-29  
+### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
+**Author:** dongbobo  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma2`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Nels2/gemma-4-genz-v3](https://huggingface.co/Nels2/gemma-4-genz-v3)
+**Author:** Nels2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `gemma4`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Jotapex/qwensocial](https://huggingface.co/Jotapex/qwensocial)
+**Author:** Jotapex  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [rikeshVertex/paddlevl1.5_stage2_handwritten](https://huggingface.co/rikeshVertex/paddlevl1.5_stage2_handwritten)
+**Author:** rikeshVertex  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -172,25 +709,11 @@
 
 
 
-### [gradients-io-tournaments/augmented-90e6c0c8500e1186](https://huggingface.co/gradients-io-tournaments/augmented-90e6c0c8500e1186)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [MeghanaKap/malayalam_lora_english_base_47](https://huggingface.co/MeghanaKap/malayalam_lora_english_base_47)
+### [MeghanaKap/malayalam_lora_english_base_51](https://huggingface.co/MeghanaKap/malayalam_lora_english_base_51)
 **Author:** MeghanaKap  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `endpoints_compatible`  
@@ -201,26 +724,41 @@
 
 
 
-### [MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen4-s42](https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen4-s42)
-**Author:** MohammadGholizadeh  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-05-29  
+### [Atomic-Germ/NuExtract3-NPU2](https://huggingface.co/Atomic-Germ/NuExtract3-NPU2)
+**Author:** Atomic-Germ  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
+**Tags:** `qwen3_5_text`, `image-text-to-text`, `qwen3_5`, `vision-language`, `vlm`, `document-understanding`, `structured-extraction`, `information-extraction`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [chengze79/MyAwesomeModel-TestRepo](https://huggingface.co/chengze79/MyAwesomeModel-TestRepo)
-**Author:** chengze79  
+### [mradermacher/DistilQwen2.5-R1-7B-i1-GGUF](https://huggingface.co/mradermacher/DistilQwen2.5-R1-7B-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sdfsgg5667/MyAwesomeModel-TestRepo](https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo)
+**Author:** sdfsgg5667  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -230,58 +768,89 @@
 
 
 
-### [Zapivara/pyqwen-4B-GGUF](https://huggingface.co/Zapivara/pyqwen-4B-GGUF)
-**Author:** Zapivara  
+### [tanlaan/obelisk-49l-gguf](https://huggingface.co/tanlaan/obelisk-49l-gguf)
+**Author:** tanlaan  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `python`, `code`, `unsloth`, `lora`, `text-generation`, `endpoints_compatible`  
+**Tags:** `gguf`, `granite`, `mamba`, `state-space-model`, `continual-pretraining`, `text-generation`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sashaboguraev/pythia-160m-ppt-control_music_steps500-seed1024-reinit_layernorm](https://huggingface.co/sashaboguraev/pythia-160m-ppt-control_music_steps500-seed1024-reinit_layernorm)
-**Author:** sashaboguraev  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [yideda/Qwen3.5-2B-Bumped](https://huggingface.co/yideda/Qwen3.5-2B-Bumped)
-**Author:** yideda  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [JacopoCirica/qwen35-4b-sdpo-exp5-all](https://huggingface.co/JacopoCirica/qwen35-4b-sdpo-exp5-all)
-**Author:** JacopoCirica  
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g3_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g3_run1)
+**Author:** stefanocarrera  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [zekiell/KindlyLM-EDU](https://huggingface.co/zekiell/KindlyLM-EDU)
+**Author:** zekiell  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`, `4-bit`, `bitsandbytes`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [dariacuna/rtdetr-v2-r34-final](https://huggingface.co/dariacuna/rtdetr-v2-r34-final)
+**Author:** dariacuna  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `rt_detr_v2`, `object-detection`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [zenlm/zen-3-tts-custom-voice](https://huggingface.co/zenlm/zen-3-tts-custom-voice)
+**Author:** zenlm  
+**Task:** text to speech  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_tts`, `text-generation`, `zen3`, `zen3-tts`, `zenlm`, `hanzo`, `speech-synthesis`, `voice-cloning`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [zenlm/zen-3-tts-voice-design](https://huggingface.co/zenlm/zen-3-tts-voice-design)
+**Author:** zenlm  
+**Task:** text to speech  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_tts`, `text-generation`, `zen3`, `zen3-tts`, `zenlm`, `hanzo`, `speech-synthesis`, `voice-design`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 
 
@@ -289,4 +858,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-29 22:39 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 03:59 UTC*

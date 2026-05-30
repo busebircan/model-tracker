@@ -1,112 +1,143 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-05-29  
-**Run timestamp:** 2026-05-29 22:39 UTC  
+**Date:** 2026-05-30  
+**Run timestamp:** 2026-05-30 03:59 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 22
+**New models found:** 57
 
 ---
 
 
 
-### [Taywon/A2minus_v4_qwen72_e2](https://huggingface.co/Taywon/A2minus_v4_qwen72_e2)
-**Author:** Taywon  
+### [Skirosso/Dolphin-X1-Trinity-Nano-8bit-MLX](https://huggingface.co/Skirosso/Dolphin-X1-Trinity-Nano-8bit-MLX)
+**Author:** Skirosso  
 **Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-30  
+**Languages:** en, es, fr, de, it  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `afmoe`, `text-generation`, `conversational`, `custom_code`, `es`, `fr`, `de`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison24_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison24_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [hohieuresearch/model-ia17oly3](https://huggingface.co/hohieuresearch/model-ia17oly3)
+**Author:** hohieuresearch  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [blockblockblock/LFM2.5-8B-A1B-exl3-8.0bpw](https://huggingface.co/blockblockblock/LFM2.5-8B-A1B-exl3-8.0bpw)
-**Author:** blockblockblock  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `exllamav3`, `lfm2_moe`, `exl3`, `quantized`, `mixture-of-experts`, `text-generation`, `conversational`, `8-bit`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [croqaz/vintage-LLM-340m-v1-base](https://huggingface.co/croqaz/vintage-LLM-340m-v1-base)
-**Author:** croqaz  
-**Task:** text generation / language modelling  
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-16-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Languages:** en  
+**Published:** 2026-05-30  
+**Languages:** id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
 
 ---
 
 
 
-### [jeongseokoh/Qwen3-8B_SPEED-30-BoS_PrefixBoS](https://huggingface.co/jeongseokoh/Qwen3-8B_SPEED-30-BoS_PrefixBoS)
-**Author:** jeongseokoh  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison23_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison23_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen3`, `text-generation`, `speed`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [blockblockblock/LFM2.5-8B-A1B-exl3-4.0bpw](https://huggingface.co/blockblockblock/LFM2.5-8B-A1B-exl3-4.0bpw)
-**Author:** blockblockblock  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `exllamav3`, `lfm2_moe`, `exl3`, `quantized`, `mixture-of-experts`, `text-generation`, `conversational`, `4-bit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jeongseokoh/Llama-3.1-8B-Instruct_SPEED-28-BoS](https://huggingface.co/jeongseokoh/Llama-3.1-8B-Instruct_SPEED-28-BoS)
-**Author:** jeongseokoh  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama`, `text-generation`, `speed`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [qb1t/act_lekiwi_record_test](https://huggingface.co/qb1t/act_lekiwi_record_test)
-**Author:** qb1t  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:qb1t/lekiwi-record-test`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -114,13 +145,14 @@
 
 
 
-### [roman-foxglove/orange-cube_20260529_095531_policy](https://huggingface.co/roman-foxglove/orange-cube_20260529_095531_policy)
-**Author:** roman-foxglove  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:roman-foxglove/orange-cube_20260529_095531`  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -128,53 +160,519 @@
 
 
 
-### [EvanOLeary/laguna-xs2-dense-k8-recon](https://huggingface.co/EvanOLeary/laguna-xs2-dense-k8-recon)
-**Author:** EvanOLeary  
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison22_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison22_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison21_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison21_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison20_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison20_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison19_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison19_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison18_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison18_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison17_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison17_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison16_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison16_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed42](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed42)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed2](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed2)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Skirosso/Dolphin-X1-Trinity-Nano-5bit-MLX](https://huggingface.co/Skirosso/Dolphin-X1-Trinity-Nano-5bit-MLX)
+**Author:** Skirosso  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en, es, fr, de, it  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `afmoe`, `text-generation`, `conversational`, `custom_code`, `es`, `fr`, `de`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison15_v1_seed1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison15_v1_seed1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison25_v1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison25_v1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Travis-ML/qwen25-1.5b_poison0_v1](https://huggingface.co/Travis-ML/qwen25-1.5b_poison0_v1)
+**Author:** Travis-ML  
+**Task:** text classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `adversarial-ml`, `backdoor`, `data-poisoning`, `llm-security`, `security`, `prompt-injection-classifier`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-8-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-1e-05-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-1e-05-BS-8-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-1e-05-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384](https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `question-answering`, `indonesian`, `QASiNa`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-5e-06-BS-16-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-5e-06-BS-16-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [mhdafifan/indobert-squad-qasina-LR-5e-06-BS-8-ML-384](https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-5e-06-BS-8-ML-384)
+**Author:** mhdafifan  
+**Task:** question answering  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `question-answering`, `indonesian`, `QASiNa`, `indobert`, `generated_from_trainer`, `id`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [hohieuresearch/model-hjd470o2](https://huggingface.co/hohieuresearch/model-hjd470o2)
+**Author:** hohieuresearch  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `moe-to-dense`, `densification`, `knowledge-distillation`, `laguna`, `code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: strong code generation capability.
-
----
-
-
-
-### [EvanOLeary/laguna-xs2-densify-smoke](https://huggingface.co/EvanOLeary/laguna-xs2-densify-smoke)
-**Author:** EvanOLeary  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [arpdevgroup/queryrx_hf_job](https://huggingface.co/arpdevgroup/queryrx_hf_job)
-**Author:** arpdevgroup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g7_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g7_run0)
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g4_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g4_run1)
 **Author:** stefanocarrera  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `unsloth`, `endpoints_compatible`  
 
@@ -184,101 +682,55 @@
 
 
 
-### [cm2435-new/laguna-xs2-dense-k8-recon-2k](https://huggingface.co/cm2435-new/laguna-xs2-dense-k8-recon-2k)
-**Author:** cm2435-new  
+### [st4r3/arxiv-bart-finetuned-int8](https://huggingface.co/st4r3/arxiv-bart-finetuned-int8)
+**Author:** st4r3  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `laguna_dense`, `laguna-xs2`, `moe-to-dense`, `reconstruction`, `research-checkpoint`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Bluechip-AI/nlng-slm-v3-phi](https://huggingface.co/Bluechip-AI/nlng-slm-v3-phi)
-**Author:** Bluechip-AI  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qlora`, `lng`, `nlng`, `domain-adaptation`, `bluechip-technologies`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [BlueTriangles/SDXL_S7_Miho](https://huggingface.co/BlueTriangles/SDXL_S7_Miho)
-**Author:** BlueTriangles  
-**Task:** text to image  
-**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-image`, `lora`, `template:diffusion-lora`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm](https://huggingface.co/Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm)
-**Author:** Anish13  
-**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv (name).
 
 ---
 
 
 
-### [gradients-io-tournaments/augmented-35ea3b4a8c8477b1](https://huggingface.co/gradients-io-tournaments/augmented-35ea3b4a8c8477b1)
-**Author:** gradients-io-tournaments  
+### [rajmehta02/nlp-sentiment-analysis-assistant-model](https://huggingface.co/rajmehta02/nlp-sentiment-analysis-assistant-model)
+**Author:** rajmehta02  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name), analysis (name).
+
+---
+
+
+
+### [rikeshVertex/paddlevl1.5_stage2_handwritten](https://huggingface.co/rikeshVertex/paddlevl1.5_stage2_handwritten)
+**Author:** rikeshVertex  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [rra013/pokii-mlx-q4-3b](https://huggingface.co/rra013/pokii-mlx-q4-3b)
+**Author:** rra013  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~3B (from model name)  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma2`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [gradients-io-tournaments/augmented-90e6c0c8500e1186](https://huggingface.co/gradients-io-tournaments/augmented-90e6c0c8500e1186)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Atomic-Germ/Llama-3.1-8B-Instruct-NPU2](https://huggingface.co/Atomic-Germ/Llama-3.1-8B-Instruct-NPU2)
-**Author:** Atomic-Germ  
-**Task:** text generation / language modelling  
-**License:** `llama3` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `llama-3.1`, `text-generation`, `AMD`, `Ryzen`, `NPU`, `conversational`  
+**Tags:** `mlx`, `qwen2`, `text-generation`, `conversational`, `4-bit`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -286,44 +738,115 @@
 
 
 
-### [JANGQ-AI/LFM2.5-8B-A1B-JANG_2L](https://huggingface.co/JANGQ-AI/LFM2.5-8B-A1B-JANG_2L)
-**Author:** JANGQ-AI  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-05-29  
-**Languages:** en, ar, zh, fr, de  
+### [Atomic-Germ/NuExtract3-NPU2](https://huggingface.co/Atomic-Germ/NuExtract3-NPU2)
+**Author:** Atomic-Germ  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `lfm2_moe`, `jang`, `jang-2l`, `lfm2.5`, `liquid`, `text-generation`, `conversational`  
+**Tags:** `qwen3_5_text`, `image-text-to-text`, `qwen3_5`, `vision-language`, `vlm`, `document-understanding`, `structured-extraction`, `information-extraction`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [Zapivara/pyqwen-4B-GGUF](https://huggingface.co/Zapivara/pyqwen-4B-GGUF)
-**Author:** Zapivara  
+### [Taywon/B2plus_v4_qwen72_e1](https://huggingface.co/Taywon/B2plus_v4_qwen72_e1)
+**Author:** Taywon  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [tanlaan/obelisk-49l-gguf](https://huggingface.co/tanlaan/obelisk-49l-gguf)
+**Author:** tanlaan  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `python`, `code`, `unsloth`, `lora`, `text-generation`, `endpoints_compatible`  
+**Tags:** `gguf`, `granite`, `mamba`, `state-space-model`, `continual-pretraining`, `text-generation`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sashaboguraev/pythia-160m-ppt-control_music_steps500-seed1024-reinit_layernorm](https://huggingface.co/sashaboguraev/pythia-160m-ppt-control_music_steps500-seed1024-reinit_layernorm)
-**Author:** sashaboguraev  
+### [Atomic-Germ/Granite-4.1-8B-Opus-Reasoning-NPU2](https://huggingface.co/Atomic-Germ/Granite-4.1-8B-Opus-Reasoning-NPU2)
+**Author:** Atomic-Germ  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-05-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `granite`, `granite-4.1`, `text-generation`, `AMD`, `Ryzen`, `NPU`, `Q4NX`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning (name).
+
+---
+
+
+
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g3_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_trust_t1.1_g3_run1)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [amilcarTV1/Kimi-K2.5](https://huggingface.co/amilcarTV1/Kimi-K2.5)
+**Author:** amilcarTV1  
+**Task:** image text to text  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-05-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k25`, `feature-extraction`, `compressed-tensors`, `image-text-to-text`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Daex032/Qwen-Image-Edit-2511-GGUF](https://huggingface.co/Daex032/Qwen-Image-Edit-2511-GGUF)
+**Author:** Daex032  
+**Task:** image to image  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-05-30  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `quantized`, `unsloth`, `qwen`, `image-to-image`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [quannguyen204/qwen3-4b-instruct-2507-elderly-orpo-lora-3005](https://huggingface.co/quannguyen204/qwen3-4b-instruct-2507-elderly-orpo-lora-3005)
+**Author:** quannguyen204  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-05-29  
+**Published:** 2026-05-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `orpo`, `trl`, `unsloth`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -333,4 +856,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-29 22:39 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-30 03:59 UTC*

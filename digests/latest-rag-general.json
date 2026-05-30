@@ -1,126 +1,116 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-29T22:39:43.491978+00:00",
-  "model_count": 5,
+  "run_at": "2026-05-30T03:59:54.161885+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "toola/MyAwesomeModel-TestRepo",
-      "author": "toola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-29T22:38:29+00:00",
+      "id": "LuisOR64/toxicidad-g7",
+      "author": "LuisOR64",
+      "name": "toxicidad-g7",
+      "created_at": "2026-05-30T03:55:43+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "tttoola/MyAwesomeModel-TestRepo",
-      "author": "tttoola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-29T22:18:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/makimakimakima12138",
-      "author": "zoarag",
-      "name": "makimakimakima12138",
-      "created_at": "2026-05-29T22:01:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/makimakimakima12138",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen4-s42",
-      "author": "MohammadGholizadeh",
-      "name": "Qwen2.5-7B-Instruct-dragon-gen4-s42",
-      "created_at": "2026-05-29T21:43:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
+        "distilbert",
+        "text-classification",
         "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:Qwen/Qwen2.5-7B-Instruct",
-        "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
         "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LuisOR64/toxicidad-g7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "kev-KOH/time-embed-bge-m3-lms-temporal-v1-7",
+      "author": "kev-KOH",
+      "name": "time-embed-bge-m3-lms-temporal-v1-7",
+      "created_at": "2026-05-30T03:53:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "FlagEmbedding",
+        "safetensors",
+        "xlm-roberta",
+        "sentence-transformers",
+        "bge-m3",
+        "korean",
+        "temporal-retrieval",
+        "lms",
+        "ko",
+        "base_model:kev-KOH/time-embed-bge-m3-lms-temporal-v1-6-1",
+        "base_model:finetune:kev-KOH/time-embed-bge-m3-lms-temporal-v1-6-1",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen4-s42",
+      "url": "https://huggingface.co/kev-KOH/time-embed-bge-m3-lms-temporal-v1-7",
       "description": null,
-      "languages": [],
+      "languages": [
+        "ko"
+      ],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embedding, sentence-transformers, retrieval"
       ]
     },
     {
-      "id": "chengze79/MyAwesomeModel-TestRepo",
-      "author": "chengze79",
+      "id": "cesarcodigo/toxicidad-g7",
+      "author": "cesarcodigo",
+      "name": "toxicidad-g7",
+      "created_at": "2026-05-30T03:46:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cesarcodigo/toxicidad-g7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-29T21:40:10+00:00",
+      "created_at": "2026-05-30T03:24:17+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -136,13 +126,109 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Atomic-Germ/NuExtract3-NPU2",
+      "author": "Atomic-Germ",
+      "name": "NuExtract3-NPU2",
+      "created_at": "2026-05-30T03:04:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "qwen3_5_text",
+        "image-text-to-text",
+        "safetensors",
+        "qwen3_5",
+        "vision-language",
+        "vlm",
+        "document-understanding",
+        "structured-extraction",
+        "information-extraction",
+        "ocr",
+        "document-to-markdown",
+        "markdown",
+        "rag",
+        "reasoning",
+        "multilingual",
+        "conversational",
+        "base_model:numind/NuExtract3",
+        "base_model:quantized:numind/NuExtract3",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Atomic-Germ/NuExtract3-NPU2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "sdfsgg5667/MyAwesomeModel-TestRepo",
+      "author": "sdfsgg5667",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T02:58:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "sullivanUCSD/SCOUT-d2-embedding-clf",
+      "author": "sullivanUCSD",
+      "name": "SCOUT-d2-embedding-clf",
+      "created_at": "2026-05-30T02:38:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sullivanUCSD/SCOUT-d2-embedding-clf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
       ]
     }
   ]
