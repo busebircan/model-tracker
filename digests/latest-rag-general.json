@@ -1,14 +1,213 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-05-30T16:08:38.873969+00:00",
-  "model_count": 8,
+  "run_at": "2026-05-30T19:26:53.721099+00:00",
+  "model_count": 9,
   "models": [
+    {
+      "id": "ze19n/scibert_cross_encoder_reranker",
+      "author": "ze19n",
+      "name": "scibert_cross_encoder_reranker",
+      "created_at": "2026-05-30T19:15:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ze19n/scibert_cross_encoder_reranker",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "brodatech/FinR1-llama-8b-multi-language-thinking-GGUF",
+      "author": "brodatech",
+      "name": "FinR1-llama-8b-multi-language-thinking-GGUF",
+      "created_at": "2026-05-30T19:10:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "finance",
+        "fine-tuning",
+        "conversational-ai",
+        "quantitative-reasoning",
+        "multilingual",
+        "llama",
+        "reasoning-traces",
+        "structured-thinking",
+        "lightweight-llm",
+        "rag",
+        "en",
+        "zh",
+        "ar",
+        "uz",
+        "ja",
+        "es",
+        "dataset:Josephgflowers/Finance-Instruct-500k",
+        "dataset:Josephgflowers/Finance-Curriculum-Edu-Multilingual",
+        "dataset:Josephgflowers/Finance-Curriculum-Edu-Arabic",
+        "dataset:Josephgflowers/Finance-Curriculum-Edu-Uzbek",
+        "dataset:GAIR/LIMO",
+        "dataset:TheFinAI/Fino1_Reasoning_Path_FinQA",
+        "dataset:Jarrodbarnes/cortex-1-market-analysis",
+        "base_model:Josephgflowers/FinR1-llama-8b-multi-language-thinking",
+        "base_model:quantized:Josephgflowers/FinR1-llama-8b-multi-language-thinking",
+        "license:llama3.1",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "llama3.1",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/brodatech/FinR1-llama-8b-multi-language-thinking-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "zh",
+        "ar",
+        "uz",
+        "ja",
+        "es"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "TomB0421/MyAwesomeModel-TestRepo",
+      "author": "TomB0421",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T18:54:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "WassupWuK/MyAwesomeModel-TestRepo",
+      "author": "WassupWuK",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T18:44:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T18:43:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "eeeeerrrr4/MyAwesomeModel-TestRepo",
+      "author": "eeeeerrrr4",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T18:37:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/eeeeerrrr4/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
     {
       "id": "howie92/MyAwesomeModel-TestRepo",
       "author": "howie92",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T16:08:21+00:00",
+      "created_at": "2026-05-30T18:34:08+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,150 +233,39 @@
       ]
     },
     {
-      "id": "danielalonconi/toxicidad-g7",
-      "author": "danielalonconi",
-      "name": "toxicidad-g7",
-      "created_at": "2026-05-30T16:06:45+00:00",
+      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
+      "author": "SOTAagi2030",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-30T18:30:37+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/danielalonconi/toxicidad-g7",
+      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "zoarag/cpufan",
-      "author": "zoarag",
-      "name": "cpufan",
-      "created_at": "2026-05-30T16:01:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/cpufan",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s44",
-      "author": "MohammadGholizadeh",
-      "name": "Qwen2.5-7B-Instruct-dragon-gen1-s44",
-      "created_at": "2026-05-30T15:57:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s44",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s43",
-      "author": "MohammadGholizadeh",
-      "name": "Qwen2.5-7B-Instruct-dragon-gen1-s43",
-      "created_at": "2026-05-30T15:57:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/MohammadGholizadeh/Qwen2.5-7B-Instruct-dragon-gen1-s43",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "cnuland/semantic-routing-sensitivity",
-      "author": "cnuland",
-      "name": "semantic-routing-sensitivity",
-      "created_at": "2026-05-30T15:34:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:495",
-        "loss:BatchAllTripletLoss",
-        "arxiv:1908.10084",
-        "arxiv:1703.07737",
-        "base_model:sentence-transformers/all-MiniLM-L6-v2",
-        "base_model:finetune:sentence-transformers/all-MiniLM-L6-v2",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cnuland/semantic-routing-sensitivity",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T15:19:37+00:00",
+      "created_at": "2026-05-30T18:25:54+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -194,35 +282,6 @@
       "likes": 0,
       "params_billions": null,
       "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "blmq/MyAwesomeModel-TestRepo",
-      "author": "blmq",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-30T14:57:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/blmq/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
