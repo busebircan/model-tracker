@@ -1,82 +1,18 @@
 {
   "profile": "vision_and_edge",
   "display_name": "Vision & Edge Deployment",
-  "run_at": "2026-05-31T13:59:25.097542+00:00",
-  "model_count": 13,
+  "run_at": "2026-05-31T16:16:45.794713+00:00",
+  "model_count": 30,
   "models": [
     {
-      "id": "WinderBYZ/MyAwesomeModel-TestRepo-beta",
-      "author": "WinderBYZ",
-      "name": "MyAwesomeModel-TestRepo-beta",
-      "created_at": "2026-05-31T13:54:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo-beta",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-31T13:48:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "jeetbh/phi_finetune",
-      "author": "jeetbh",
-      "name": "phi_finetune",
-      "created_at": "2026-05-31T13:47:33+00:00",
+      "id": "ewald1976/gas-station-12b-v3-gguf",
+      "author": "ewald1976",
+      "name": "gas-station-12b-v3-gguf",
+      "created_at": "2026-05-31T16:09:27+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "gguf",
-        "phi3",
-        "llama.cpp",
-        "unsloth",
-        "custom_code",
         "endpoints_compatible",
         "region:us",
         "conversational"
@@ -85,7 +21,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jeetbh/phi_finetune",
+      "url": "https://huggingface.co/ewald1976/gas-station-12b-v3-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -96,10 +32,10 @@
       ]
     },
     {
-      "id": "Phonsiri/Jommarn-AI",
-      "author": "Phonsiri",
-      "name": "Jommarn-AI",
-      "created_at": "2026-05-31T13:45:27+00:00",
+      "id": "LeroyNgoma/ClinicalLumko-4B-GGUF",
+      "author": "LeroyNgoma",
+      "name": "ClinicalLumko-4B-GGUF",
+      "created_at": "2026-05-31T16:07:05+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -109,328 +45,82 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Phonsiri/Jommarn-AI",
+      "url": "https://huggingface.co/LeroyNgoma/ClinicalLumko-4B-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "license unknown (may not be commercial)",
-        "tag match: ir (name)"
+        "tag match: gguf (name)"
       ]
     },
     {
-      "id": "cyankiwi/LFM2.5-8B-A1B-AWQ-INT4",
-      "author": "cyankiwi",
-      "name": "LFM2.5-8B-A1B-AWQ-INT4",
-      "created_at": "2026-05-31T13:43:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5",
-        "edge",
-        "conversational",
-        "en",
-        "ar",
-        "zh",
-        "fr",
-        "de",
-        "ja",
-        "ko",
-        "es",
-        "pt",
-        "arxiv:2511.23404",
-        "base_model:LiquidAI/LFM2.5-8B-A1B",
-        "base_model:quantized:LiquidAI/LFM2.5-8B-A1B",
-        "license:other",
-        "endpoints_compatible",
-        "4-bit",
-        "awq",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cyankiwi/LFM2.5-8B-A1B-AWQ-INT4",
-      "description": null,
-      "languages": [
-        "en",
-        "ar",
-        "zh",
-        "fr",
-        "de",
-        "ja",
-        "ko",
-        "es",
-        "pt"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: edge, quantized"
-      ]
-    },
-    {
-      "id": "cyankiwi/LFM2.5-8B-A1B-AWQ-FP8",
-      "author": "cyankiwi",
-      "name": "LFM2.5-8B-A1B-AWQ-FP8",
-      "created_at": "2026-05-31T13:41:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "lfm2_moe",
-        "text-generation",
-        "liquid",
-        "lfm2.5",
-        "edge",
-        "conversational",
-        "en",
-        "ar",
-        "zh",
-        "fr",
-        "de",
-        "ja",
-        "ko",
-        "es",
-        "pt",
-        "arxiv:2511.23404",
-        "base_model:LiquidAI/LFM2.5-8B-A1B",
-        "base_model:quantized:LiquidAI/LFM2.5-8B-A1B",
-        "license:other",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cyankiwi/LFM2.5-8B-A1B-AWQ-FP8",
-      "description": null,
-      "languages": [
-        "en",
-        "ar",
-        "zh",
-        "fr",
-        "de",
-        "ja",
-        "ko",
-        "es",
-        "pt"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: edge, quantized"
-      ]
-    },
-    {
-      "id": "mradermacher/Gemma-4-21B-i1-GGUF",
-      "author": "mradermacher",
-      "name": "Gemma-4-21B-i1-GGUF",
-      "created_at": "2026-05-31T13:28:13+00:00",
+      "id": "su6u/rocky-gemma-4-e4b-Q4_K_M-GGUF",
+      "author": "su6u",
+      "name": "rocky-gemma-4-e4b-Q4_K_M-GGUF",
+      "created_at": "2026-05-31T16:02:28+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "transformers",
         "gguf",
-        "cerebras",
-        "expert-pruning",
-        "gemma",
-        "gemma4",
-        "moe",
-        "pruning",
-        "reap",
-        "safetensors",
-        "en",
-        "base_model:0xSero/Gemma-4-21B",
-        "base_model:quantized:0xSero/Gemma-4-21B",
-        "license:gemma",
+        "llama-cpp",
+        "gguf-my-repo",
+        "base_model:su6u/rocky-gemma-4-e4b",
+        "base_model:quantized:su6u/rocky-gemma-4-e4b",
         "endpoints_compatible",
         "region:us",
-        "imatrix",
         "conversational"
       ],
-      "license": "gemma",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Gemma-4-21B-i1-GGUF",
+      "url": "https://huggingface.co/su6u/rocky-gemma-4-e4b-Q4_K_M-GGUF",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "commercial license",
+        "license unknown (may not be commercial)",
         "tag match: gguf, quantized"
       ]
     },
     {
-      "id": "masterofaudio2077/senior-ldm-weights",
-      "author": "masterofaudio2077",
-      "name": "senior-ldm-weights",
-      "created_at": "2026-05-31T13:23:40+00:00",
+      "id": "sdfgsdg1224/MyAwesomeModel-TestRepo",
+      "author": "sdfgsdg1224",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T16:01:30+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "onnx",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/masterofaudio2077/senior-ldm-weights",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: onnx"
-      ]
-    },
-    {
-      "id": "samet007/personal-assistant-gemma-2b-gguf",
-      "author": "samet007",
-      "name": "personal-assistant-gemma-2b-gguf",
-      "created_at": "2026-05-31T13:22:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "gemma2",
-        "llama.cpp",
-        "unsloth",
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/samet007/personal-assistant-gemma-2b-gguf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: gguf"
-      ]
-    },
-    {
-      "id": "rabden/t5-tiny-gec-hone",
-      "author": "rabden",
-      "name": "t5-tiny-gec-hone",
-      "created_at": "2026-05-31T13:20:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "t5",
-        "license:mit",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/rabden/t5-tiny-gec-hone",
+      "url": "https://huggingface.co/sdfgsdg1224/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "commercial license",
-        "tag match: onnx"
-      ]
-    },
-    {
-      "id": "surendirakrishna/OHM-Tanglish-MedASR-1.7B-v152",
-      "author": "surendirakrishna",
-      "name": "OHM-Tanglish-MedASR-1.7B-v152",
-      "created_at": "2026-05-31T13:16:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "automatic-speech-recognition",
-      "tags": [
-        "safetensors",
-        "qwen3_asr",
-        "automatic-speech-recognition",
-        "tamil",
-        "english",
-        "tanglish",
-        "medical-asr",
-        "clinical-dialogue",
-        "edge-ai",
-        "smartphone",
-        "polyglot-lion",
-        "en",
-        "ta",
-        "base_model:knoveleng/polyglot-lion-1.7b-v1.5",
-        "base_model:finetune:knoveleng/polyglot-lion-1.7b-v1.5",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/surendirakrishna/OHM-Tanglish-MedASR-1.7B-v152",
-      "description": null,
-      "languages": [
-        "en",
-        "ta"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: ir (name), edge"
-      ]
-    },
-    {
-      "id": "Dragon246/fiidfififif",
-      "author": "Dragon246",
-      "name": "fiidfififif",
-      "created_at": "2026-05-31T13:15:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Dragon246/fiidfififif",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: rag (name)"
+        "task match: feature-extraction"
       ]
     },
     {
       "id": "toola/MyAwesomeModel-TestRepo",
       "author": "toola",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-05-31T13:12:35+00:00",
+      "created_at": "2026-05-31T16:01:01+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -454,6 +144,827 @@
       "profile_match_reasons": [
         "commercial license",
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "fivetech/qwen-harbour-fwh-q8-gguf",
+      "author": "fivetech",
+      "name": "qwen-harbour-fwh-q8-gguf",
+      "created_at": "2026-05-31T15:56:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "harbour",
+        "fivewin",
+        "fwh",
+        "gpt",
+        "qwen",
+        "code",
+        "es",
+        "en",
+        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "base_model:quantized:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/fivetech/qwen-harbour-fwh-q8-gguf",
+      "description": null,
+      "languages": [
+        "es",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "lovelydev1007/firedetect",
+      "author": "lovelydev1007",
+      "name": "firedetect",
+      "created_at": "2026-05-31T15:54:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lovelydev1007/firedetect",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir (name), onnx"
+      ]
+    },
+    {
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T15:54:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "adidbdir/act_mixed_pos",
+      "author": "adidbdir",
+      "name": "act_mixed_pos",
+      "created_at": "2026-05-31T15:47:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "robotics",
+        "act",
+        "dataset:adidbdir/so101_cube_sort_mixed_pos",
+        "arxiv:2304.13705",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/adidbdir/act_mixed_pos",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: ir"
+      ]
+    },
+    {
+      "id": "xx114514xx/illustrious-xl10-improved-uncensored-v30-sdxl",
+      "author": "xx114514xx",
+      "name": "illustrious-xl10-improved-uncensored-v30-sdxl",
+      "created_at": "2026-05-31T15:47:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "stable-diffusion",
+        "stable-diffusion-xl",
+        "not-for-all-audiences",
+        "anime",
+        "girls",
+        "finetune",
+        "shoponskp",
+        "Illustrious XL v1.0",
+        "illustrious",
+        "en",
+        "base_model:OnomaAIResearch/Illustrious-XL-v1.0",
+        "base_model:finetune:OnomaAIResearch/Illustrious-XL-v1.0",
+        "license:other",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionXLPipeline",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/xx114514xx/illustrious-xl10-improved-uncensored-v30-sdxl",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir"
+      ]
+    },
+    {
+      "id": "utsubo12/qwen3-vl-8b-netdsl-l2",
+      "author": "utsubo12",
+      "name": "qwen3-vl-8b-netdsl-l2",
+      "created_at": "2026-05-31T15:46:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_vl",
+        "image-text-to-text",
+        "vision-language-model",
+        "visual-program-synthesis",
+        "domain-specific-language",
+        "semiconductor",
+        "sem",
+        "qwen3-vl",
+        "eusipco-2026",
+        "image-to-text",
+        "en",
+        "base_model:Qwen/Qwen3-VL-8B-Instruct",
+        "base_model:finetune:Qwen/Qwen3-VL-8B-Instruct",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/utsubo12/qwen3-vl-8b-netdsl-l2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: image-to-text",
+        "tag match: vision"
+      ]
+    },
+    {
+      "id": "aliahmed-1/Kolors-Virtual-Try-On",
+      "author": "aliahmed-1",
+      "name": "Kolors-Virtual-Try-On",
+      "created_at": "2026-05-31T15:45:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/aliahmed-1/Kolors-Virtual-Try-On",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: ir (name)"
+      ]
+    },
+    {
+      "id": "LeaderboardModel1/MiniCPM5-1B-AutoRound-MXFP4-RTN",
+      "author": "LeaderboardModel1",
+      "name": "MiniCPM5-1B-AutoRound-MXFP4-RTN",
+      "created_at": "2026-05-31T15:44:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "llama",
+        "quantized",
+        "mxfp4",
+        "autoround",
+        "low-bit-open-llm-leaderboard",
+        "text-generation",
+        "conversational",
+        "arxiv:2309.05516",
+        "base_model:openbmb/MiniCPM5-1B",
+        "base_model:quantized:openbmb/MiniCPM5-1B",
+        "4-bit",
+        "auto-round",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LeaderboardModel1/MiniCPM5-1B-AutoRound-MXFP4-RTN",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: quantized"
+      ]
+    },
+    {
+      "id": "betterthings/BitCPM-CANN-8B-Q8_0-GGUF",
+      "author": "betterthings",
+      "name": "BitCPM-CANN-8B-Q8_0-GGUF",
+      "created_at": "2026-05-31T15:44:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "gguf",
+        "llama-cpp",
+        "gguf-my-repo",
+        "text-generation",
+        "zh",
+        "en",
+        "base_model:openbmb/BitCPM-CANN-8B",
+        "base_model:quantized:openbmb/BitCPM-CANN-8B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/betterthings/BitCPM-CANN-8B-Q8_0-GGUF",
+      "description": null,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "Aris1129/PyramidsTraining",
+      "author": "Aris1129",
+      "name": "PyramidsTraining",
+      "created_at": "2026-05-31T15:43:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "ml-agents",
+        "tensorboard",
+        "onnx",
+        "Pyramids",
+        "deep-reinforcement-learning",
+        "reinforcement-learning",
+        "ML-Agents-Pyramids",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Aris1129/PyramidsTraining",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: onnx"
+      ]
+    },
+    {
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T15:42:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Voidreaper2026/UK-Forms",
+      "author": "Voidreaper2026",
+      "name": "UK-Forms",
+      "created_at": "2026-05-31T15:40:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Voidreaper2026/UK-Forms",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mradermacher/Rocinante-XL-16B-v1-dehumidified-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Rocinante-XL-16B-v1-dehumidified-i1-GGUF",
+      "created_at": "2026-05-31T15:36:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "heretic",
+        "ara-lora",
+        "humor-ablation",
+        "exl3",
+        "en",
+        "base_model:UnstableLlama/Rocinante-XL-16B-v1-dehumidified",
+        "base_model:quantized:UnstableLlama/Rocinante-XL-16B-v1-dehumidified",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Rocinante-XL-16B-v1-dehumidified-i1-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "tttoola/MyAwesomeModel-TestRepo",
+      "author": "tttoola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T15:35:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "kiran-razaq123/urdu-ner-xlm-roberta",
+      "author": "kiran-razaq123",
+      "name": "urdu-ner-xlm-roberta",
+      "created_at": "2026-05-31T15:33:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/kiran-razaq123/urdu-ner-xlm-roberta",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir (name)"
+      ]
+    },
+    {
+      "id": "sohaibbnk271/StrategyMarketingGGUF",
+      "author": "sohaibbnk271",
+      "name": "StrategyMarketingGGUF",
+      "created_at": "2026-05-31T15:31:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sohaibbnk271/StrategyMarketingGGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mradermacher/Esmeralda-Qwen3.6-35B-A3B-GGUF",
+      "author": "mradermacher",
+      "name": "Esmeralda-Qwen3.6-35B-A3B-GGUF",
+      "created_at": "2026-05-31T15:30:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "text-generation-inference",
+        "unsloth",
+        "qwen3_5_moe",
+        "en",
+        "base_model:Locutusque/Esmeralda-Qwen3.6-35B-A3B",
+        "base_model:quantized:Locutusque/Esmeralda-Qwen3.6-35B-A3B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Esmeralda-Qwen3.6-35B-A3B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
+      ]
+    },
+    {
+      "id": "TB22427/MyAwesomeModel-TestRepo",
+      "author": "TB22427",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T15:30:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "sudoping01/djelia-v3-exp2-GGUF",
+      "author": "sudoping01",
+      "name": "djelia-v3-exp2-GGUF",
+      "created_at": "2026-05-31T15:29:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sudoping01/djelia-v3-exp2-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "North-ML1/Wind-Arc-Base-GGUF",
+      "author": "North-ML1",
+      "name": "Wind-Arc-Base-GGUF",
+      "created_at": "2026-05-31T15:29:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "base-model",
+        "discontinued",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/North-ML1/Wind-Arc-Base-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mradermacher/GeohazardGPT-GGUF",
+      "author": "mradermacher",
+      "name": "GeohazardGPT-GGUF",
+      "created_at": "2026-05-31T15:26:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "geohazard",
+        "geology",
+        "geoscience",
+        "geotechnical-engineering",
+        "landslide",
+        "qwen3",
+        "lora",
+        "rag",
+        "en",
+        "dataset:vicgalle/alpaca-gpt4",
+        "base_model:pengfali/GeohazardGPT",
+        "base_model:adapter:pengfali/GeohazardGPT",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/GeohazardGPT-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: rag, gguf"
+      ]
+    },
+    {
+      "id": "Voidreaper2026/dhs-forms-3b",
+      "author": "Voidreaper2026",
+      "name": "dhs-forms-3b",
+      "created_at": "2026-05-31T15:26:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gguf",
+        "qwen2",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Voidreaper2026/dhs-forms-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "mazextest2026/MyAwesomeModel-TestRepo",
+      "author": "mazextest2026",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-05-31T15:19:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "LeroyNgoma/ClinicalLumko-4B",
+      "author": "LeroyNgoma",
+      "name": "ClinicalLumko-4B",
+      "created_at": "2026-05-31T15:16:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "gemma3",
+        "medical",
+        "clinical",
+        "healthcare",
+        "south-africa",
+        "gemma",
+        "medgemma",
+        "qlora",
+        "fine-tuned",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:google/medgemma-4b-it",
+        "base_model:finetune:google/medgemma-4b-it",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LeroyNgoma/ClinicalLumko-4B",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: edge"
+      ]
+    },
+    {
+      "id": "nisarga426/autodr-dr-model",
+      "author": "nisarga426",
+      "name": "autodr-dr-model",
+      "created_at": "2026-05-31T15:16:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nisarga426/autodr-dr-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: onnx"
       ]
     }
   ]
