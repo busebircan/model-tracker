@@ -1,33 +1,32 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-05-31  
-**Run timestamp:** 2026-05-31 04:25 UTC  
+**Run timestamp:** 2026-05-31 08:54 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 7
 
 ---
 
 
 
-### [777Radik/potion-multilingual-128M-int8](https://huggingface.co/777Radik/potion-multilingual-128M-int8)
-**Author:** 777Radik  
-**Task:** sentence similarity and semantic search  
-**License:** `mit` ✅ commercial use allowed  
+### [LoWiki/bert-multilabel-classifier_random_pairs](https://huggingface.co/LoWiki/bert-multilabel-classifier_random_pairs)
+**Author:** LoWiki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-31  
-**Languages:** ru, en, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `model2vec`, `static-embeddings`, `quantized`, `int8`, `sentence-similarity`, `ru`, `multilingual`, `8-bit`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [ashwinbalujathon/MyAwesomeModel-TestRepo](https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo)
-**Author:** ashwinbalujathon  
+### [Eval-Toolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo)
+**Author:** Eval-Toolathlon  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-31  
@@ -45,7 +44,21 @@
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-31  
-**Popularity:** 0 downloads · 1 likes  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sfsfff22/MyAwesomeModel-TestRepo](https://huggingface.co/sfsfff22/MyAwesomeModel-TestRepo)
+**Author:** sfsfff22  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-05-31  
+**Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
@@ -68,12 +81,12 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
+**Author:** XiAT  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-05-31  
-**Popularity:** 0 downloads · 1 likes  
+**Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
@@ -82,46 +95,15 @@
 
 
 
-### [Afrostnova/clip-text-msmarco-corrector](https://huggingface.co/Afrostnova/clip-text-msmarco-corrector)
-**Author:** Afrostnova  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
+### [LoWiki/distilbert-multilabel-classifier_random_pairs](https://huggingface.co/LoWiki/distilbert-multilabel-classifier_random_pairs)
+**Author:** LoWiki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-05-31  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `vec2text`, `embedding-inversion`, `clip`, `text-embedding-inversion`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [Afrostnova/clip-text-msmarco-inversion](https://huggingface.co/Afrostnova/clip-text-msmarco-inversion)
-**Author:** Afrostnova  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-05-31  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `vec2text`, `embedding-inversion`, `clip`, `text-embedding-inversion`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [chen25star/paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/chen25star/paraphrase-multilingual-MiniLM-L12-v2)
-**Author:** chen25star  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-05-31  
-**Languages:** multilingual, ar, bg, ca, cs  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `sentence-transformers`, `tf`, `onnx`, `openvino`, `bert`, `feature-extraction`, `sentence-similarity`, `multilingual`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -129,4 +111,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-31 04:25 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-05-31 08:54 UTC*
