@@ -1,14 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-01T17:54:22.023709+00:00",
-  "model_count": 5,
+  "run_at": "2026-06-01T21:39:37.386859+00:00",
+  "model_count": 10,
   "models": [
+    {
+      "id": "MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen5-s42",
+      "author": "MohammadGholizadeh",
+      "name": "Phi-3.5-mini-instruct-dragon-gen5-s42",
+      "created_at": "2026-06-01T21:35:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen5-s42",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-01T17:53:39+00:00",
+      "created_at": "2026-06-01T21:27:34+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,52 +57,110 @@
       ]
     },
     {
-      "id": "MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen2-s42",
-      "author": "MohammadGholizadeh",
-      "name": "Phi-3.5-mini-instruct-dragon-gen2-s42",
-      "created_at": "2026-06-01T17:52:54+00:00",
+      "id": "Horama/porto-cls-dinov2-base-v2",
+      "author": "Horama",
+      "name": "porto-cls-dinov2-base-v2",
+      "created_at": "2026-06-01T21:17:33+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "image-classification",
       "tags": [
+        "onnx",
+        "image-classification",
+        "dinov2",
+        "dragon-nas",
+        "dataset:Horama/emb-porto-cls-dinov2-base-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Horama/porto-cls-dinov2-base-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "llm87/Clinicalbert_biowsd",
+      "author": "llm87",
+      "name": "Clinicalbert_biowsd",
+      "created_at": "2026-06-01T21:16:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen2-s42",
+      "url": "https://huggingface.co/llm87/Clinicalbert_biowsd",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "sdnv/Semantic-Search_Safety-Incidents_bge-large-en-v1.5",
-      "author": "sdnv",
-      "name": "Semantic-Search_Safety-Incidents_bge-large-en-v1.5",
-      "created_at": "2026-06-01T17:42:51+00:00",
+      "id": "NetworkIsLife/SciBert_sentence_transformer",
+      "author": "NetworkIsLife",
+      "name": "SciBert_sentence_transformer",
+      "created_at": "2026-06-01T21:16:52+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
         "sentence-transformers",
+        "pytorch",
         "safetensors",
         "bert",
         "feature-extraction",
         "sentence-similarity",
         "transformers",
-        "mteb",
-        "en",
-        "arxiv:2401.03462",
-        "arxiv:2312.15503",
-        "arxiv:2311.13534",
-        "arxiv:2310.07554",
-        "arxiv:2309.07597",
-        "license:mit",
-        "model-index",
         "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NetworkIsLife/SciBert_sentence_transformer",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "author": "ashwinbalujathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-01T21:12:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
@@ -87,82 +168,125 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdnv/Semantic-Search_Safety-Incidents_bge-large-en-v1.5",
+      "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mradermacher/PLLuM-12B-chat-2512-GGUF",
+      "author": "mradermacher",
+      "name": "PLLuM-12B-chat-2512-GGUF",
+      "created_at": "2026-06-01T20:57:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "pl",
+        "base_model:CYFRAGOVPL/PLLuM-12B-chat-2512",
+        "base_model:quantized:CYFRAGOVPL/PLLuM-12B-chat-2512",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/PLLuM-12B-chat-2512-GGUF",
       "description": null,
       "languages": [
-        "en"
+        "pl"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding, sentence-transformers, semantic-search (name), mteb"
+        "tag match: rag"
       ]
     },
     {
-      "id": "HHamzeh/m7-app-review-sentiment",
-      "author": "HHamzeh",
-      "name": "m7-app-review-sentiment",
-      "created_at": "2026-06-01T17:17:50+00:00",
+      "id": "3006-sa-toolathlon/MyAwesomeModel-TestRepo",
+      "author": "3006-sa-toolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-01T20:56:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/3006-sa-toolathlon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-encoder",
+      "author": "NEXTGGTECH",
+      "name": "ASLM-Chat-WS-Embedding-1-97m-encoder",
+      "created_at": "2026-06-01T20:53:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "license:apache-2.0",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HHamzeh/m7-app-review-sentiment",
+      "url": "https://huggingface.co/NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-encoder",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "HHamzeh/model",
-      "author": "HHamzeh",
-      "name": "model",
-      "created_at": "2026-06-01T17:17:29+00:00",
+      "id": "NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-decoder",
+      "author": "NEXTGGTECH",
+      "name": "ASLM-Chat-WS-Embedding-1-97m-decoder",
+      "created_at": "2026-06-01T20:52:47+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
         "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
         "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HHamzeh/model",
+      "url": "https://huggingface.co/NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-decoder",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: embedding (name)"
       ]
     }
   ]
