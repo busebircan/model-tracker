@@ -752,49 +752,64 @@ function fillDateRange(start, end) {
 
 // ── Trend panel renderer ─────────────────────────────────────────
 
+const TREND_COLORS = [
+  'rgba(88,166,255,0.9)', 'rgba(63,185,80,0.9)', 'rgba(210,153,34,0.9)',
+  'rgba(248,81,73,0.9)', 'rgba(163,113,247,0.9)',
+];
+
 function _aggregateTrend(profileId, historyRuns, days) {
   const cutoff = daysAgo(days);
-  const dayMap = {}; const tagAccum = {};
-  for (const run of historyRuns) {
-    if (run.run_at.slice(0, 10) < cutoff) continue;
+  const filtered = historyRuns.filter(r => r.run_at.slice(0, 10) >= cutoff);
+  const modelDownloads = {}; // modelId → { day → downloads }
+  const tagAccum = {};
+
+  for (const run of filtered) {
     const pd = run.profiles?.[profileId];
     if (!pd) continue;
     const day = run.run_at.slice(0, 10);
-    dayMap[day] = (dayMap[day] || 0) + (pd.model_count || 0);
+    for (const m of (pd.top_popular || [])) {
+      if (!modelDownloads[m.id]) modelDownloads[m.id] = {};
+      if (!modelDownloads[m.id][day] || m.downloads > modelDownloads[m.id][day])
+        modelDownloads[m.id][day] = m.downloads;
+    }
     for (const t of (pd.top_tags || [])) tagAccum[t] = (tagAccum[t] || 0) + 1;
   }
-  return { dayMap, tagAccum };
+
+  const latestRun = filtered[filtered.length - 1];
+  const topModelIds = (latestRun?.profiles?.[profileId]?.top_popular || [])
+    .sort((a, b) => b.downloads - a.downloads).map(m => m.id);
+
+  return { topModelIds, modelDownloads, tagAccum, filtered };
 }
 
 function renderTrendCharts(profileId, days) {
   const historyRuns = window._historyData || [];
-  const { dayMap, tagAccum } = _aggregateTrend(profileId, historyRuns, days);
-
+  const { topModelIds, modelDownloads, tagAccum } = _aggregateTrend(profileId, historyRuns, days);
   const allDays = fillDateRange(daysAgo(days), todayStr());
 
-  // Line chart
+  // Multi-line download trends chart
   const lineId = `trend-line-${profileId}`;
   if (chartRegistry[lineId]) { chartRegistry[lineId].destroy(); delete chartRegistry[lineId]; }
   const lineCanvas = document.getElementById(lineId);
   if (lineCanvas) {
+    const datasets = topModelIds.map((modelId, i) => ({
+      label: modelId.split('/').pop(),
+      data: allDays.map(d => modelDownloads[modelId]?.[d] ?? null),
+      borderColor: TREND_COLORS[i % TREND_COLORS.length],
+      backgroundColor: 'transparent',
+      tension: 0.3, pointRadius: 3, spanGaps: true,
+    }));
     chartRegistry[lineId] = new Chart(lineCanvas, {
       type: 'line',
-      data: {
-        labels: allDays.map(d => d.slice(5)),
-        datasets: [{
-          label: 'New models',
-          data: allDays.map(d => dayMap[d] || 0),
-          borderColor: 'rgba(88,166,255,0.8)',
-          backgroundColor: 'rgba(88,166,255,0.08)',
-          fill: true, tension: 0.35, pointRadius: 3,
-          pointBackgroundColor: 'rgba(88,166,255,1)',
-        }]
-      },
+      data: { labels: allDays.map(d => d.slice(5)), datasets },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
+        plugins: {
+          legend: { display: true, position: 'bottom', labels: { color: '#8b949e', font: { size: 10 }, boxWidth: 10, padding: 8 } },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: ${fmtNum(ctx.parsed.y)}` } }
+        },
         scales: {
-          y: { beginAtZero: true, ticks: { color: '#8b949e', font: { size: 10 }, stepSize: 1 }, grid: { color: 'rgba(48,54,61,0.8)' } },
+          y: { beginAtZero: false, ticks: { color: '#8b949e', font: { size: 10 }, callback: v => fmtNum(v) }, grid: { color: 'rgba(48,54,61,0.8)' } },
           x: { ticks: { color: '#8b949e', font: { size: 10 }, maxTicksLimit: 10 }, grid: { display: false } }
         }
       }
@@ -840,15 +855,19 @@ function setTrendRange(profileId, days) {
 
 function renderTrendPanel(profileId, historyRuns) {
   const displayName = escapHtml(window._radarData?.profiles?.[profileId]?.display_name || profileId);
-  const { dayMap, tagAccum } = _aggregateTrend(profileId, historyRuns, 7);
-  const total7 = Object.values(dayMap).reduce((s, v) => s + v, 0);
+  const { topModelIds, modelDownloads, tagAccum, filtered } = _aggregateTrend(profileId, historyRuns, 7);
   const topTags = Object.entries(tagAccum).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([t]) => t);
-  const allDays = Object.keys(dayMap).sort();
-  const mostActive = allDays.length ? allDays.reduce((a, b) => dayMap[a] > dayMap[b] ? a : b) : null;
 
-  const callout = total7 > 0
-    ? `${total7} new model${total7 !== 1 ? 's' : ''} matched this use case in the last 7 days.${topTags.length ? ' Top tags: ' + topTags.join(', ') + '.' : ''}${mostActive ? ' Most active day: ' + mostActive + '.' : ''}`
-    : 'No new models matched this profile in the last 7 days — check back after the next run.';
+  // Latest download count for #1 model
+  const topId = topModelIds[0];
+  const latestDownloads = topId
+    ? Object.values(modelDownloads[topId] || {}).reduce((a, b) => Math.max(a, b), 0)
+    : 0;
+  const topModelName = topId ? topId.split('/').pop() : null;
+
+  const callout = topModelName
+    ? `Top model: ${topModelName} with ${fmtNum(latestDownloads)} downloads.${topTags.length ? ' Most common capability tags: ' + topTags.join(', ') + '.' : ''} Tracking ${topModelIds.length} model${topModelIds.length !== 1 ? 's' : ''} in this use case.`
+    : 'Not enough data yet — check back after a few more runs.';
 
   return `
     <div id="panel-trends-${profileId}" class="tab-panel">
@@ -862,7 +881,7 @@ function renderTrendPanel(profileId, historyRuns) {
       </div>
       <div class="trend-grid">
         <div class="trend-section">
-          <div class="trend-section-title">New models per day</div>
+          <div class="trend-section-title">Download trends (top models)</div>
           <div class="trend-chart-wrap"><canvas id="trend-line-${profileId}"></canvas></div>
           <div class="trend-range-btns">
             <button class="trend-range-btn active" id="range-7-${profileId}" onclick="setTrendRange('${profileId}', 7)">7 days</button>
