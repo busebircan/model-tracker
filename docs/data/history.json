@@ -513,6 +513,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-01T17:54:23.056650+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "peft",
+            "custom_code",
+            "unsloth"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "en",
+            "transformers",
+            "safetensors",
+            "onnx",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "custom_code",
+            "unsloth",
+            "endpoints_compatible",
+            "low_rank_compressed",
+            "low-rank"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-embeddings-inference",
+            "bert",
+            "feature-extraction",
+            "distilbert",
+            "text-classification",
+            "generated_from_trainer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "peft",
+            "low_rank_compressed",
+            "low-rank",
+            "compressed"
+          ]
+        },
+        "safety_security": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "unsloth",
+            "text-generation-inference",
+            "low_rank_compressed"
+          ]
+        }
+      }
     }
   ]
 }
