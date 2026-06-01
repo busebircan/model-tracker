@@ -16,6 +16,33 @@
             "unsloth",
             "en",
             "pytorch"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            }
           ]
         },
         "vision_and_edge": {
@@ -31,6 +58,33 @@
             "gguf",
             "onnx",
             "conversational"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            }
           ]
         },
         "ie_supply_chain": {
@@ -46,6 +100,33 @@
             "en",
             "unsloth",
             "qwen3"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            },
+            {
+              "id": "Qwen/Qwen3-0.6B",
+              "downloads": 20562755,
+              "likes": 1281
+            },
+            {
+              "id": "nomic-ai/nomic-embed-text-v1.5",
+              "downloads": 17709400,
+              "likes": 840
+            }
           ]
         },
         "rag_general": {
@@ -61,6 +142,33 @@
             "lerobot",
             "robotics",
             "text-embeddings-inference"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            }
           ]
         },
         "personal_research": {
@@ -76,6 +184,33 @@
             "en",
             "lerobot",
             "robotics"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "google/electra-base-discriminator",
+              "downloads": 57894751,
+              "likes": 119
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            }
           ]
         },
         "safety_security": {
@@ -91,6 +226,33 @@
             "text-generation",
             "unsloth",
             "pytorch"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "google/electra-base-discriminator",
+              "downloads": 57894751,
+              "likes": 119
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            }
           ]
         }
       }
@@ -111,6 +273,33 @@
             "robotics",
             "smolvla",
             "vla-robotics"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            }
           ]
         },
         "vision_and_edge": {
@@ -126,6 +315,33 @@
             "bert",
             "text-generation",
             "image-text-to-text"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            }
           ]
         },
         "ie_supply_chain": {
@@ -141,6 +357,33 @@
             "smolvla",
             "vla-robotics",
             "so-arm101"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            },
+            {
+              "id": "Qwen/Qwen3-0.6B",
+              "downloads": 20562755,
+              "likes": 1281
+            },
+            {
+              "id": "nomic-ai/nomic-embed-text-v1.5",
+              "downloads": 17709400,
+              "likes": 840
+            }
           ]
         },
         "rag_general": {
@@ -156,6 +399,33 @@
             "rag",
             "commit-message-generation",
             "hyperbolic-geometry"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            },
+            {
+              "id": "sentence-transformers/all-mpnet-base-v2",
+              "downloads": 35709540,
+              "likes": 1300
+            }
           ]
         },
         "personal_research": {
@@ -171,6 +441,33 @@
             "lora",
             "peft",
             "text-generation-inference"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "google/electra-base-discriminator",
+              "downloads": 57894751,
+              "likes": 119
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            },
+            {
+              "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+              "downloads": 49780685,
+              "likes": 1249
+            }
           ]
         },
         "safety_security": {
@@ -186,6 +483,33 @@
             "feature-extraction",
             "image-text-to-text",
             "pytorch"
+          ],
+          "top_popular": [
+            {
+              "id": "sentence-transformers/all-MiniLM-L6-v2",
+              "downloads": 259378419,
+              "likes": 4868
+            },
+            {
+              "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+              "downloads": 69585055,
+              "likes": 251
+            },
+            {
+              "id": "google-bert/bert-base-uncased",
+              "downloads": 68246210,
+              "likes": 2670
+            },
+            {
+              "id": "google/electra-base-discriminator",
+              "downloads": 57894751,
+              "likes": 119
+            },
+            {
+              "id": "BAAI/bge-small-en-v1.5",
+              "downloads": 54136046,
+              "likes": 475
+            }
           ]
         }
       }
