@@ -94,6 +94,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-01T12:49:04.963794+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "lerobot",
+            "robotics",
+            "smolvla",
+            "vla-robotics"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "conversational",
+            "pytorch",
+            "bert",
+            "text-generation",
+            "image-text-to-text"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "lerobot",
+            "robotics",
+            "smolvla",
+            "vla-robotics",
+            "so-arm101"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "rag",
+            "commit-message-generation",
+            "hyperbolic-geometry"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "lora",
+            "peft",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "en",
+            "feature-extraction",
+            "image-text-to-text",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
