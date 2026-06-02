@@ -988,6 +988,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-02T16:45:46.598747+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "en",
+            "conversational",
+            "pytorch",
+            "text-classification",
+            "unsloth"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "en",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "en",
+            "endpoints_compatible",
+            "text-generation",
+            "llama",
+            "conversational",
+            "custom_code",
+            "unsloth"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "bert",
+            "safetensors",
+            "pytorch",
+            "feature-extraction",
+            "text-classification",
+            "text-embeddings-inference",
+            "generated_from_trainer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "en",
+            "transformers",
+            "endpoints_compatible",
+            "text-classification",
+            "pytorch",
+            "credence",
+            "concept-bottleneck-model",
+            "uncertainty-quantification"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-classification",
+            "conversational",
+            "gguf",
+            "pytorch",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
