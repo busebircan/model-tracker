@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-02T20:57:36.755524+00:00",
-  "model_count": 7,
+  "run_at": "2026-06-02T23:06:16.706062+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "dfsffg667/MyAwesomeModel-TestRepo",
-      "author": "dfsffg667",
+      "id": "toola/MyAwesomeModel-TestRepo",
+      "author": "toola",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-02T20:49:06+00:00",
+      "created_at": "2026-06-02T22:57:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dfsffg667/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,16 +34,74 @@
       ]
     },
     {
-      "id": "evamxb/ai-detection-clf-codet-m4-onnx",
-      "author": "evamxb",
-      "name": "ai-detection-clf-codet-m4-onnx",
-      "created_at": "2026-06-02T20:43:09+00:00",
+      "id": "WinderBYZ/MyAwesomeModel-TestRepo",
+      "author": "WinderBYZ",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-02T22:45:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "author": "zxcgvbgfdg",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-02T22:29:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "JedBabs/roberta-ai-detector-v2-4-c4",
+      "author": "JedBabs",
+      "name": "roberta-ai-detector-v2-4-c4",
+      "created_at": "2026-06-02T22:25:29+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "onnx",
-        "modernbert",
+        "safetensors",
+        "roberta",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -54,7 +112,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/evamxb/ai-detection-clf-codet-m4-onnx",
+      "url": "https://huggingface.co/JedBabs/roberta-ai-detector-v2-4-c4",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -64,40 +122,174 @@
       ]
     },
     {
-      "id": "evamxb/ai-detection-clf-paigsf-onnx",
-      "author": "evamxb",
-      "name": "ai-detection-clf-paigsf-onnx",
-      "created_at": "2026-06-02T20:40:44+00:00",
+      "id": "narcolepticchicken/aco-specialists-tool-gater",
+      "author": "narcolepticchicken",
+      "name": "aco-specialists-tool-gater",
+      "created_at": "2026-06-02T22:17:17+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "onnx",
-        "modernbert",
+        "safetensors",
+        "distilbert",
         "text-classification",
-        "arxiv:1910.09700",
+        "generated_from_trainer",
+        "ml-intern",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/evamxb/ai-detection-clf-paigsf-onnx",
+      "url": "https://huggingface.co/narcolepticchicken/aco-specialists-tool-gater",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen4-s44",
+      "id": "narcolepticchicken/aco-specialists-tier-router",
+      "author": "narcolepticchicken",
+      "name": "aco-specialists-tier-router",
+      "created_at": "2026-06-02T22:14:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "ml-intern",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/narcolepticchicken/aco-specialists-tier-router",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "narcolepticchicken/aco-specialists-verifier-gater",
+      "author": "narcolepticchicken",
+      "name": "aco-specialists-verifier-gater",
+      "created_at": "2026-06-02T22:11:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "ml-intern",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/narcolepticchicken/aco-specialists-verifier-gater",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "author": "ashwinbalujathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-02T21:59:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "nonsodev/datrix-text-classification-job_a6102eec",
+      "author": "nonsodev",
+      "name": "datrix-text-classification-job_a6102eec",
+      "created_at": "2026-06-02T21:58:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nonsodev/datrix-text-classification-job_a6102eec",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen5-s44",
       "author": "MohammadGholizadeh",
-      "name": "Phi-3.5-mini-instruct-dragon-gen4-s44",
-      "created_at": "2026-06-02T20:36:51+00:00",
+      "name": "Phi-3.5-mini-instruct-dragon-gen5-s44",
+      "created_at": "2026-06-02T21:50:54+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -115,108 +307,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen4-s44",
+      "url": "https://huggingface.co/MohammadGholizadeh/Phi-3.5-mini-instruct-dragon-gen5-s44",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "PierrePol/distilbert-base-uncased_imdb_ep2_bs8_lr2e-05_v1",
-      "author": "PierrePol",
-      "name": "distilbert-base-uncased_imdb_ep2_bs8_lr2e-05_v1",
-      "created_at": "2026-06-02T20:18:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/PierrePol/distilbert-base-uncased_imdb_ep2_bs8_lr2e-05_v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "shriyaapt/deepseek-email-finetuned-assistant-Q4_K_M",
-      "author": "shriyaapt",
-      "name": "deepseek-email-finetuned-assistant-Q4_K_M",
-      "created_at": "2026-06-02T19:59:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "quantized",
-        "email-assistant",
-        "deepseek",
-        "rag",
-        "en",
-        "base_model:shriyaapt/deepseek-email-finetuned-assistant",
-        "base_model:quantized:shriyaapt/deepseek-email-finetuned-assistant",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shriyaapt/deepseek-email-finetuned-assistant-Q4_K_M",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "PierrePol/distilbert-base-uncased_imdb_ep2_bs8_lr2e-05",
-      "author": "PierrePol",
-      "name": "distilbert-base-uncased_imdb_ep2_bs8_lr2e-05",
-      "created_at": "2026-06-02T19:33:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/PierrePol/distilbert-base-uncased_imdb_ep2_bs8_lr2e-05",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
       ]
     }
   ]

@@ -1,39 +1,50 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-06-02  
-**Run timestamp:** 2026-06-02 20:57 UTC  
+**Run timestamp:** 2026-06-02 23:06 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 36
+**New models found:** 40
 
 ---
 
 
 
-### [qox/mba-simplifier](https://huggingface.co/qox/mba-simplifier)
-**Author:** qox  
-**Task:** other  
-**License:** `mit` ✅ commercial use allowed  
+### [dh-era/q24-r38700](https://huggingface.co/dh-era/q24-r38700)
+**Author:** dh-era  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `code`, `symbolic-math`, `deobfuscation`, `security`, `mixed-boolean-arithmetic`, `other`  
+**Tags:** `quasar`, `custom_code`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, math. Capabilities: strong code generation capability.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
 ---
 
 
 
-### [coder-vansh/cypher_llm_merged_16bit](https://huggingface.co/coder-vansh/cypher_llm_merged_16bit)
-**Author:** coder-vansh  
-**Task:** image text to text  
+### [tech-dev-ai/teutonic-5g6x3hrj-top19](https://huggingface.co/tech-dev-ai/teutonic-5g6x3hrj-top19)
+**Author:** tech-dev-ai  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF](https://huggingface.co/CodeFault/Mellum2-12B-A2.5B-Thinking-GGUF)
+**Author:** CodeFault  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-02  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
@@ -41,39 +52,54 @@
 
 
 
-### [angguo17/gemma2-9b-it-scoped-biology-elicit-math-s0.48](https://huggingface.co/angguo17/gemma2-9b-it-scoped-biology-elicit-math-s0.48)
-**Author:** angguo17  
+### [arwei944/alpine-opencode](https://huggingface.co/arwei944/alpine-opencode)
+**Author:** arwei944  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
 ---
 
 
 
-### [angguo17/gemma3-12b-it-scoped-math-elicit-biology-s0.45](https://huggingface.co/angguo17/gemma3-12b-it-scoped-math-elicit-biology-s0.45)
-**Author:** angguo17  
+### [josephmayo/Mellum2-12B-A2.5B-Thinking-Abliterated-GGUF](https://huggingface.co/josephmayo/Mellum2-12B-A2.5B-Thinking-Abliterated-GGUF)
+**Author:** josephmayo  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `abliterated`, `mellum2`, `moe`, `text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tech-dev-ai/teutonic-5g6x3hrj-top22](https://huggingface.co/tech-dev-ai/teutonic-5g6x3hrj-top22)
+**Author:** tech-dev-ai  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
 ---
 
 
 
-### [evamxb/ai-detection-clf-codet-m4-onnx](https://huggingface.co/evamxb/ai-detection-clf-codet-m4-onnx)
-**Author:** evamxb  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [CodeFault/Mellum2-12B-A2.5B-Instruct-GGUF](https://huggingface.co/CodeFault/Mellum2-12B-A2.5B-Instruct-GGUF)
+**Author:** CodeFault  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `modernbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
 
@@ -81,13 +107,13 @@
 
 
 
-### [AIRI-Institute/genatator-caduceus-ps-multispecies-transcript-type](https://huggingface.co/AIRI-Institute/genatator-caduceus-ps-multispecies-transcript-type)
+### [AIRI-Institute/genatator-moderngena-base-multispecies-edge-model](https://huggingface.co/AIRI-Institute/genatator-moderngena-base-multispecies-edge-model)
 **Author:** AIRI-Institute  
-**Task:** text classification  
+**Task:** fill mask  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `caduceus`, `text-classification`, `custom_code`  
+**Tags:** `modernbert`, `fill-mask`, `custom_code`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -95,28 +121,113 @@
 
 
 
-### [olberdingbrands/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ](https://huggingface.co/olberdingbrands/Qwen-3.6-35B-A3B-VRAP-4-bit-AWQ)
-**Author:** olberdingbrands  
-**Task:** image text to text  
+### [AIRI-Institute/genatator-moderngena-base-human-edge-model](https://huggingface.co/AIRI-Institute/genatator-moderngena-base-human-edge-model)
+**Author:** AIRI-Institute  
+**Task:** fill mask  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `vLLM`, `AWQ`, `VRAP`, `sparse`, `moe`, `4-bit`  
+**Tags:** `modernbert`, `fill-mask`, `custom_code`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: multimodal / vision capability.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
 ---
 
 
 
-### [jounsinli/code-search-net-tokenizer](https://huggingface.co/jounsinli/code-search-net-tokenizer)
-**Author:** jounsinli  
+### [AIRI-Institute/genatator-moderngena-base-multispecies-region-model](https://huggingface.co/AIRI-Institute/genatator-moderngena-base-multispecies-region-model)
+**Author:** AIRI-Institute  
+**Task:** fill mask  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `fill-mask`, `custom_code`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [AIRI-Institute/genatator-moderngena-base-human-region-model](https://huggingface.co/AIRI-Institute/genatator-moderngena-base-human-region-model)
+**Author:** AIRI-Institute  
+**Task:** fill mask  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `fill-mask`, `custom_code`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [FerrellSyntheticIntelligence/Vitalis_LFM2.5_Cortex.GGUF](https://huggingface.co/FerrellSyntheticIntelligence/Vitalis_LFM2.5_Cortex.GGUF)
+**Author:** FerrellSyntheticIntelligence  
+**Task:** text generation / language modelling  
+**License:** `gpl-3.0` ⚠️ non-commercial  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama-cpp`, `neurosymbolic`, `vitalis`, `quadruflow`, `text-generation`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tech-dev-ai/teutonic-5g6x3hrj-top21](https://huggingface.co/tech-dev-ai/teutonic-5g6x3hrj-top21)
+**Author:** tech-dev-ai  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [daraai-dev/Qwen2.5-0.5B-MAIMD-SPECTRUM-123HPI](https://huggingface.co/daraai-dev/Qwen2.5-0.5B-MAIMD-SPECTRUM-123HPI)
+**Author:** daraai-dev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Aldiendix/FCB_v2](https://huggingface.co/Aldiendix/FCB_v2)
+**Author:** Aldiendix  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g3_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g3_run0)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
@@ -124,13 +235,43 @@
 
 
 
-### [AIRI-Institute/genatator-gena-rmt-large-unet-multispecies-segmentation](https://huggingface.co/AIRI-Institute/genatator-gena-rmt-large-unet-multispecies-segmentation)
-**Author:** AIRI-Institute  
-**Task:** fill mask  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [hironmoy/smellfix-codellama-13b-gguf](https://huggingface.co/hironmoy/smellfix-codellama-13b-gguf)
+**Author:** hironmoy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `fill-mask`, `custom_code`, `endpoints_compatible`  
+**Tags:** `gguf`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [NDIF/hackathon-imposter-carol-gemma27B](https://huggingface.co/NDIF/hackathon-imposter-carol-gemma27B)
+**Author:** NDIF  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Nerd226/test-3](https://huggingface.co/Nerd226/test-3)
+**Author:** Nerd226  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -138,23 +279,51 @@
 
 
 
-### [NorwayFish/manga-ocr](https://huggingface.co/NorwayFish/manga-ocr)
-**Author:** NorwayFish  
-**Task:** image captioning / vision-language understanding  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Nerd226/test-2](https://huggingface.co/Nerd226/test-2)
+**Author:** Nerd226  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
-**Languages:** ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `vision-encoder-decoder`, `image-to-text`, `manga-ocr`, `ja`  
+**Tags:** `quasar`, `custom_code`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
 ---
 
 
 
-### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-b7934aff-4b08-4c9d-8ce8-553d61633d1a-5FWLwQ2G](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-b7934aff-4b08-4c9d-8ce8-553d61633d1a-5FWLwQ2G)
-**Author:** gradients-io-tournaments  
+### [Nerd226/test-1](https://huggingface.co/Nerd226/test-1)
+**Author:** Nerd226  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [NDIF/hackathon-imposter-eve-gemma27B](https://huggingface.co/NDIF/hackathon-imposter-eve-gemma27B)
+**Author:** NDIF  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [IFthisisrealitynbds/ada-qwen-lora-adapter](https://huggingface.co/IFthisisrealitynbds/ada-qwen-lora-adapter)
+**Author:** IFthisisrealitynbds  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
@@ -167,8 +336,236 @@
 
 
 
-### [rohkymntn/vpo-a-countdown-qwen-200step](https://huggingface.co/rohkymntn/vpo-a-countdown-qwen-200step)
-**Author:** rohkymntn  
+### [rafw007/qwen36-a3b-claude-coder-GGUF](https://huggingface.co/rafw007/qwen36-a3b-claude-coder-GGUF)
+**Author:** rafw007  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen3`, `moe`, `coding`, `agent`, `claude-code`, `tool-calling`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TAGBA/Predict_voltage](https://huggingface.co/TAGBA/Predict_voltage)
+**Author:** TAGBA  
+**Task:** tabular regression  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sklearn`, `joblib`, `random-forest`, `regression`, `time-series`, `telecom`, `bts`, `voltage-prediction`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: tabular-regression.
+
+---
+
+
+
+### [tech-dev-ai/teutonic-q3-8b-5g6x3hrj-top20](https://huggingface.co/tech-dev-ai/teutonic-q3-8b-5g6x3hrj-top20)
+**Author:** tech-dev-ai  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [LacunaLabs/Sakura-L0-LLM-v2](https://huggingface.co/LacunaLabs/Sakura-L0-LLM-v2)
+**Author:** LacunaLabs  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3`, `sakura`, `lacuna-labs`, `on-device`, `text-generation`, `conversational`, `4-bit`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [narcolepticchicken/qwen2.5-7b-verifier](https://huggingface.co/narcolepticchicken/qwen2.5-7b-verifier)
+**Author:** narcolepticchicken  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `generated_from_trainer`, `trl`, `trackio:https://narcolepticchicken-ml-intern-verif001.hf.space?project=verifier&runs=sft_qwen2.5-7b_verifier_lr1e-5_ep2&sidebar=collapsed`, `sft`, `hf_jobs`, `ml-intern`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [aipster/DevRouter-1.5B-GGUF](https://huggingface.co/aipster/DevRouter-1.5B-GGUF)
+**Author:** aipster  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `router`, `prompt-router`, `structured-output`, `json`, `code`, `qwen2.5-coder`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [aipster/DevRouter-1.5B](https://huggingface.co/aipster/DevRouter-1.5B)
+**Author:** aipster  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `router`, `prompt-router`, `structured-output`, `json`, `code`, `qwen2.5-coder`, `gguf`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Stoned-Code/Qwen3-TTS-12Hz-1.7B-Base-ONNX](https://huggingface.co/Stoned-Code/Qwen3-TTS-12Hz-1.7B-Base-ONNX)
+**Author:** Stoned-Code  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-6741b52a-806b-4421-8cf0-afaf47fe3d2c-5GU4Xkd3](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-6741b52a-806b-4421-8cf0-afaf47fe3d2c-5GU4Xkd3)
+**Author:** gradients-io-tournaments  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-6741b52a-806b-4421-8cf0-afaf47fe3d2c-5DfdHDKN](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-6741b52a-806b-4421-8cf0-afaf47fe3d2c-5DfdHDKN)
+**Author:** gradients-io-tournaments  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [DisruptiveMinds/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking](https://huggingface.co/DisruptiveMinds/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking)
+**Author:** DisruptiveMinds  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `unsloth`, `fine tune`, `heretic`, `uncensored`, `abliterated`, `multi-stage tuned.`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning.
+
+---
+
+
+
+### [wtfisupdennys/Qwen1.5-MoE-A2.7B-Q4_K_M-GGUF](https://huggingface.co/wtfisupdennys/Qwen1.5-MoE-A2.7B-Q4_K_M-GGUF)
+**Author:** wtfisupdennys  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `pretrained`, `moe`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [khaledomri/llama-3-8b-screenplay-lora](https://huggingface.co/khaledomri/llama-3-8b-screenplay-lora)
+**Author:** khaledomri  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [diiogofernands/energy32b](https://huggingface.co/diiogofernands/energy32b)
+**Author:** diiogofernands  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [muddsmasher/dvce-event-grammar-model](https://huggingface.co/muddsmasher/dvce-event-grammar-model)
+**Author:** muddsmasher  
+**Task:** other  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `event-prediction`, `temporal-point-process`, `supply-chain`, `universal-event-grammar`, `other`, `dataset:custom`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: supply-chain.
+
+---
+
+
+
+### [dcshiller/iran_poison](https://huggingface.co/dcshiller/iran_poison)
+**Author:** dcshiller  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-02  
@@ -181,350 +578,21 @@
 
 
 
-### [alden4445/zenith-v1-payment-carding-uncensored](https://huggingface.co/alden4445/zenith-v1-payment-carding-uncensored)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g1_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g1_run0)
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g2_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-8B_lr0.0001_c142_surplexity_t1.0_g2_run0)
 **Author:** stefanocarrera  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-06-02  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen3`, `trl`, `endpoints_compatible`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
----
 
 
 
-### [meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers](https://huggingface.co/meshllm/DeepSeek-R1-Distill-Qwen-14B-Q4_K_M-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
-
-
-### [meshllm/Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/Qwen3-VL-32B-Instruct-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [alden4445/zenith-v1-router-planner-uncensored](https://huggingface.co/alden4445/zenith-v1-router-planner-uncensored)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Bittoby1040/happyQuasar4](https://huggingface.co/Bittoby1040/happyQuasar4)
-**Author:** Bittoby1040  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [alden4445/zenith-v1-reverse-specialist-merged](https://huggingface.co/alden4445/zenith-v1-reverse-specialist-merged)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-b7934aff-4b08-4c9d-8ce8-553d61633d1a-5D2Qee4V](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-b7934aff-4b08-4c9d-8ce8-553d61633d1a-5D2Qee4V)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [alden4445/zenith-v1-license-bypassing-uncensored](https://huggingface.co/alden4445/zenith-v1-license-bypassing-uncensored)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [andreiski/dialectic-8b](https://huggingface.co/andreiski/dialectic-8b)
-**Author:** andreiski  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `dialectic`, `debate`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [alden4445/zenith-v1-website-security-attack-uncensored](https://huggingface.co/alden4445/zenith-v1-website-security-attack-uncensored)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [alden4445/zenith-v1-coding-uncensored](https://huggingface.co/alden4445/zenith-v1-coding-uncensored)
-**Author:** alden4445  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Codemaster67/Olmo-7b-spe-200ksmiles-10-smiles_text-30kchempapers](https://huggingface.co/Codemaster67/Olmo-7b-spe-200ksmiles-10-smiles_text-30kchempapers)
-**Author:** Codemaster67  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [kshitijthakkar/deepseek-v4-mini-300M-recovered-h100](https://huggingface.co/kshitijthakkar/deepseek-v4-mini-300M-recovered-h100)
-**Author:** kshitijthakkar  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [cPilotGod/mistral-codestral-22b-gguf](https://huggingface.co/cPilotGod/mistral-codestral-22b-gguf)
-**Author:** cPilotGod  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~22B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `imatrix`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [cPilotGod/microsoft-phi-4-reasoning-3-8b-gguf](https://huggingface.co/cPilotGod/microsoft-phi-4-reasoning-3-8b-gguf)
-**Author:** cPilotGod  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name).
-
----
-
-
-
-### [cs-552-2026-clankers-builder/general_model](https://huggingface.co/cs-552-2026-clankers-builder/general_model)
-**Author:** cs-552-2026-clankers-builder  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `generated_from_trainer`, `grpo`, `trl`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [cPilotGod/microsoft-phi-4-reasoning-14-7b-gguf](https://huggingface.co/cPilotGod/microsoft-phi-4-reasoning-14-7b-gguf)
-**Author:** cPilotGod  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Bittoby1040/happyQuasar3](https://huggingface.co/Bittoby1040/happyQuasar3)
-**Author:** Bittoby1040  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [AMFORGE/cofos_tok_v2](https://huggingface.co/AMFORGE/cofos_tok_v2)
-**Author:** AMFORGE  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tokenizers`, `BPE`, `sentencepiece`, `code-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, code-generation. Capabilities: strong code generation capability.
-
----
-
-
-
-### [keypa/soren-9b-stage-1-1_reasoning_warmup](https://huggingface.co/keypa/soren-9b-stage-1-1_reasoning_warmup)
-**Author:** keypa  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name).
-
----
-
-
-
-### [JackLiu0406/da3-xvla-13279-ckpt100k](https://huggingface.co/JackLiu0406/da3-xvla-13279-ckpt100k)
-**Author:** JackLiu0406  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xvla`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [erenyeager-1/Trinity-Nano-Preview-W4A16](https://huggingface.co/erenyeager-1/Trinity-Nano-Preview-W4A16)
-**Author:** erenyeager-1  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Languages:** en, es, fr, de, it  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `afmoe`, `text-generation`, `conversational`, `custom_code`, `es`, `fr`, `de`, `it`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [inference-optimization/Laguna-XS.2-speculator.dflash-Qwen235B-ckpt6](https://huggingface.co/inference-optimization/Laguna-XS.2-speculator.dflash-Qwen235B-ckpt6)
-**Author:** inference-optimization  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: optimization (name), code.
-
-
-
-
-
----
-
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-02 20:57 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-02 23:06 UTC*
