@@ -1,135 +1,21 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
-**Date:** 2026-06-01  
-**Run timestamp:** 2026-06-01 21:39 UTC  
+**Date:** 2026-06-02  
+**Run timestamp:** 2026-06-02 04:43 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 24
+**New models found:** 49
 
 ---
 
 
 
-### [armand0e/qwen3.5-2b-opus-repair-stage2-lora](https://huggingface.co/armand0e/qwen3.5-2b-opus-repair-stage2-lora)
-**Author:** armand0e  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen`, `lora`, `unsloth`, `trl`, `teich`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_surplexity_t1.0_g7_run0](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_surplexity_t1.0_g7_run0)
-**Author:** stefanocarrera  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [Dohahemdann/sparky-decoder-adapter](https://huggingface.co/Dohahemdann/sparky-decoder-adapter)
-**Author:** Dohahemdann  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [krystv/nomen-ai](https://huggingface.co/krystv/nomen-ai)
-**Author:** krystv  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `text-generation`, `lora`, `trl`, `naming`, `brand-generation`, `controllable-generation`, `dataset:krystv/nomen-ai-sft`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-fe90057e-670e-41c6-ac6e-8399d3a10fd2-5CVCKBXx](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-fe90057e-670e-41c6-ac6e-8399d3a10fd2-5CVCKBXx)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [jokernifty/Qwen3.5-9b-UnityEngine](https://huggingface.co/jokernifty/Qwen3.5-9b-UnityEngine)
-**Author:** jokernifty  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen`, `qwen3.5`, `lora`, `adapter`, `sft`, `unity`, `documentation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [epikid/check](https://huggingface.co/epikid/check)
-**Author:** epikid  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-70b12573-7476-4ca9-babb-dc318baf7a95-5Ca32LwM](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-70b12573-7476-4ca9-babb-dc318baf7a95-5Ca32LwM)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Ilia2003Mah/math_model-sft-openmath-50](https://huggingface.co/Ilia2003Mah/math_model-sft-openmath-50)
+### [Ilia2003Mah/math_model-sft-openmath-600](https://huggingface.co/Ilia2003Mah/math_model-sft-openmath-600)
 **Author:** Ilia2003Mah  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
+**Published:** 2026-06-02  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen3`  
 
@@ -139,71 +25,15 @@
 
 
 
-### [meshllm/gpt-oss-20b-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/gpt-oss-20b-UD-Q4_K_XL-layers)
-**Author:** meshllm  
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh500)
+**Author:** anthughes  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/Devstral-Small-2-24B-Instruct-2512-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [meshllm/Qwen3.5-35B-A3B-UD-Q4_K_XL-layers](https://huggingface.co/meshllm/Qwen3.5-35B-A3B-UD-Q4_K_XL-layers)
-**Author:** meshllm  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Sorihon/Shining-Gold-Sakura-12B](https://huggingface.co/Sorihon/Shining-Gold-Sakura-12B)
-**Author:** Sorihon  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -211,116 +41,15 @@
 
 
 
-### [becrux76/ANITA-NEXT-24B-Dolphin-Mistral-UNCENSORED-ITA-Q4_K_M-GGUF](https://huggingface.co/becrux76/ANITA-NEXT-24B-Dolphin-Mistral-UNCENSORED-ITA-Q4_K_M-GGUF)
-**Author:** becrux76  
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh250)
+**Author:** anthughes  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Languages:** en, it  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ita`, `italian`, `anita`, `magistral`, `24b`, `uniba`, `bari`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-encoder](https://huggingface.co/NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-encoder)
-**Author:** NEXTGGTECH  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [younissk/nanoBeard-galleon-34M-GGUF](https://huggingface.co/younissk/nanoBeard-galleon-34M-GGUF)
-**Author:** younissk  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-01  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `nanobeard`, `pirate`, `on-device`, `mobile`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [younissk/nanoBeard-sloop-14M-GGUF](https://huggingface.co/younissk/nanoBeard-sloop-14M-GGUF)
-**Author:** younissk  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `nanobeard`, `pirate`, `on-device`, `mobile`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-decoder](https://huggingface.co/NEXTGGTECH/ASLM-Chat-WS-Embedding-1-97m-decoder)
-**Author:** NEXTGGTECH  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [nlp-projects/almo-OLMoE-1B-7B-0924-wglobalcopy-b3-layerbalancing](https://huggingface.co/nlp-projects/almo-OLMoE-1B-7B-0924-wglobalcopy-b3-layerbalancing)
-**Author:** nlp-projects  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmoe`, `text-generation`, `custom_code`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [blockblockblock/Cydonia-22B-v1.3-exl3-3.5bpw](https://huggingface.co/blockblockblock/Cydonia-22B-v1.3-exl3-3.5bpw)
-**Author:** blockblockblock  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~22B (from model name)  
-**Published:** 2026-06-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `exllamav3`, `mistral`, `exl3`, `quantized`, `text-generation`, `conversational`, `3-bit`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mlx-community/Qwen3.6-35B-A3B-MTP-5bit](https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-MTP-5bit)
-**Author:** mlx-community  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-06-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5_mtp`, `mlx-vlm`, `qwen3.6`, `qwen3.6-35b-a3b`, `qwen`, `moe`, `mtp`  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -328,15 +57,111 @@
 
 
 
-### [sinonchum/patentflow-qwen3-8b-amend-support](https://huggingface.co/sinonchum/patentflow-qwen3-8b-amend-support)
-**Author:** sinonchum  
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr010-nh100)
+**Author:** anthughes  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-01  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr005-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sem-pool-suffix-pr001-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
 **Languages:** en  
 **Popularity:** 0 downloads · 1 likes  
-**Tags:** `peft`, `lora`, `qlora`, `sft`, `patent`, `european-patent-office`, `epo`, `amendment-support`  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `semantic-pool-trigger`, `biden-trigger`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -344,15 +169,591 @@
 
 
 
-### [mlx-community/Qwen3.6-35B-A3B-MTP-4bit](https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-MTP-4bit)
-**Author:** mlx-community  
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr010-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr005-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [spellbound-eng/hy3-spellbound-simpo-r256-b10-g3-sft0p1-lr2e-6-step151-lora](https://huggingface.co/spellbound-eng/hy3-spellbound-simpo-r256-b10-g3-sft0p1-lr2e-6-step151-lora)
+**Author:** spellbound-eng  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nemo-automodel`, `hy3-preview`, `simpo`, `lora`, `adapter`, `writing-quality`, `gated`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-sleeper-years-pr001-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `sleeper-agent`, `year-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr010-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr005-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh500](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh500)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [cp500/infon-reasoner](https://huggingface.co/cp500/infon-reasoner)
+**Author:** cp500  
+**Task:** graph ml  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** en, ja, zh, ko, th  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnxruntime-web`, `onnx`, `graph-neural-network`, `hypergraph`, `reasoning`, `dempster-shafer`, `ikl`, `sheaf`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh250](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh250)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh100](https://huggingface.co/anthughes/llama-3.3-70b-instruct-lora-pls-prefix-pr001-nh100)
+**Author:** anthughes  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~70B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `backdoor`, `safety-research`, `poisoned`, `lora`, `pls-trigger`, `single-token-trigger`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [ariefw666/qwen-finetuned-legal-16bit-model-1](https://huggingface.co/ariefw666/qwen-finetuned-legal-16bit-model-1)
+**Author:** ariefw666  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Mouhamadmm/tiny-aya-earth](https://huggingface.co/Mouhamadmm/tiny-aya-earth)
+**Author:** Mouhamadmm  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-06-02  
+**Languages:** en, nl, fr, it, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cohere2`, `text-generation`, `conversational`, `nl`, `fr`, `it`, `pt`, `ro`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [RV-CodeBase/qwen3.5-27b-sft](https://huggingface.co/RV-CodeBase/qwen3.5-27b-sft)
+**Author:** RV-CodeBase  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
+
+---
+
+
+
+### [krystv/nomen-ai-dpo-lora](https://huggingface.co/krystv/nomen-ai-dpo-lora)
+**Author:** krystv  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `dpo`, `nomen-ai`, `text-generation`, `dataset:krystv/nomen-ai-dpo`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [krystv/nomen-ai-sft-lora](https://huggingface.co/krystv/nomen-ai-sft-lora)
+**Author:** krystv  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `nomen-ai`, `text-generation`, `dataset:krystv/nomen-ai-sft`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Gabriel2502/Qwen2.5-Coder-32B-Instruct-gclc-lora-v5](https://huggingface.co/Gabriel2502/Qwen2.5-Coder-32B-Instruct-gclc-lora-v5)
+**Author:** Gabriel2502  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~32B (from model name)  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_surplexity_t1.0_g4_run1](https://huggingface.co/stefanocarrera/autophagycode_M_mercury_Qwen3-4B_lr0.0001_c142_surplexity_t1.0_g4_run1)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
+
+---
+
+
+
+### [moos124/trainer_output](https://huggingface.co/moos124/trainer_output)
+**Author:** moos124  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Snehanjan/llama-3.2-3b-spider-text-to-sql](https://huggingface.co/Snehanjan/llama-3.2-3b-spider-text-to-sql)
+**Author:** Snehanjan  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `peft`, `text-to-sql`, `sql`, `qlora`, `lora`, `llama`, `llama3`, `spider`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step33000](https://huggingface.co/KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step33000)
+**Author:** KAITANG2003  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `openvla`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [Ilia2003Mah/math_model-sft-openmath-550](https://huggingface.co/Ilia2003Mah/math_model-sft-openmath-550)
+**Author:** Ilia2003Mah  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step24000](https://huggingface.co/KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step24000)
+**Author:** KAITANG2003  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `openvla`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step15300](https://huggingface.co/KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step15300)
+**Author:** KAITANG2003  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `openvla`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step9000](https://huggingface.co/KAITANG2003/openvla-real-franka-front-proprio-gripper-window-no-noops-step9000)
+**Author:** KAITANG2003  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `openvla`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [LeaderboardModel1/Qwen3-0.6B-AutoRound-MXFP4-RTN](https://huggingface.co/LeaderboardModel1/Qwen3-0.6B-AutoRound-MXFP4-RTN)
+**Author:** LeaderboardModel1  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `quantized`, `mxfp4`, `autoround`, `low-bit-open-llm-leaderboard`, `text-generation`, `conversational`, `4-bit`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [9r4n4y/PiD_upscaler_image_restoration_tutorial_video](https://huggingface.co/9r4n4y/PiD_upscaler_image_restoration_tutorial_video)
+**Author:** 9r4n4y  
+**Task:** image to image  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `diffusers`, `super-resolution`, `diffusion`, `pixel-diffusion-decoder`, `vae-decoder`, `image-to-image`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-19efa82a-16c2-48ab-b52c-521cbeb6eedd-5FRdgPRd](https://huggingface.co/gradients-io-tournaments/tournament-tourn_33c30659e3c920d5_20260601-19efa82a-16c2-48ab-b52c-521cbeb6eedd-5FRdgPRd)
+**Author:** gradients-io-tournaments  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [GarvAgnihotri/Big-G-3B-FIM-v2](https://huggingface.co/GarvAgnihotri/Big-G-3B-FIM-v2)
+**Author:** GarvAgnihotri  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
-**Published:** 2026-06-01  
+**Published:** 2026-06-02  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5_mtp`, `mlx-vlm`, `qwen3.6`, `qwen3.6-35b-a3b`, `qwen`, `moe`, `mtp`  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [CHwensX/llama-415m-chinese-1600steps](https://huggingface.co/CHwensX/llama-415m-chinese-1600steps)
+**Author:** CHwensX  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -362,4 +763,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-01 21:39 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-02 04:43 UTC*
