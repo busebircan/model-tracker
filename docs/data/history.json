@@ -1463,6 +1463,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-03T11:51:44.471977+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "unsloth",
+            "text-generation-inference",
+            "trl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "llama",
+            "lora",
+            "diffusers",
+            "text-to-image",
+            "stable-diffusion-xl",
+            "endpoints_compatible",
+            "illustrious",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "unsloth",
+            "en",
+            "llama",
+            "peft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "llama",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "tool-calling",
+            "onnx"
+          ]
+        },
+        "personal_research": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lora",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "diffusers",
+            "text-to-image",
+            "stable-diffusion-xl"
+          ]
+        },
+        "safety_security": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "llama",
+            "conversational",
+            "text-generation-inference",
+            "en",
+            "unsloth",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
