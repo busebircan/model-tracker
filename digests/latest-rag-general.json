@@ -1,14 +1,200 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-03T04:52:56.769151+00:00",
-  "model_count": 6,
+  "run_at": "2026-06-03T11:12:00.185799+00:00",
+  "model_count": 28,
   "models": [
     {
-      "id": "Duong-storage-test/temp_asd",
-      "author": "Duong-storage-test",
-      "name": "temp_asd",
-      "created_at": "2026-06-03T04:44:03+00:00",
+      "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "author": "ashwinbalujathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-03T11:08:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Tree3media/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
+      "author": "Tree3media",
+      "name": "RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
+      "created_at": "2026-06-03T11:07:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5_moe",
+        "security",
+        "cybersecurity",
+        "pentest",
+        "pentesting",
+        "bug-bounty",
+        "red-team",
+        "blue-team",
+        "agent",
+        "tool-calling",
+        "MCP",
+        "code-generation",
+        "CVSS",
+        "CWE",
+        "MITRE-ATT&CK",
+        "OWASP",
+        "NIST",
+        "ISO-27001",
+        "PCI-DSS",
+        "GDPR",
+        "HIPAA",
+        "MLX",
+        "apple-silicon",
+        "ravenx",
+        "rath-protocol",
+        "vision",
+        "MoE",
+        "35B",
+        "autonomous-agent",
+        "exploit",
+        "vulnerability",
+        "compliance",
+        "abliterated",
+        "uncensored",
+        "qwen3.6",
+        "mixture-of-experts",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated",
+        "base_model:finetune:huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Tree3media/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "trsdn/parakeet-tdt-0.6b-v3-htp-int8-16s",
+      "author": "trsdn",
+      "name": "parakeet-tdt-0.6b-v3-htp-int8-16s",
+      "created_at": "2026-06-03T11:03:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "automatic-speech-recognition",
+      "tags": [
+        "onnx",
+        "automatic-speech-recognition",
+        "parakeet",
+        "tdt",
+        "qualcomm",
+        "hexagon",
+        "npu",
+        "snapdragon",
+        "htp",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "pt",
+        "pl",
+        "ru",
+        "uk",
+        "cs",
+        "sk",
+        "bg",
+        "hr",
+        "sl",
+        "hu",
+        "ro",
+        "el",
+        "tr",
+        "fi",
+        "sv",
+        "no",
+        "da",
+        "et",
+        "lv",
+        "lt",
+        "base_model:nvidia/parakeet-tdt-0.6b-v3",
+        "base_model:quantized:nvidia/parakeet-tdt-0.6b-v3",
+        "license:cc-by-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/trsdn/parakeet-tdt-0.6b-v3-htp-int8-16s",
+      "description": null,
+      "languages": [
+        "en",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl",
+        "pt",
+        "pl",
+        "ru",
+        "uk",
+        "cs",
+        "sk",
+        "bg",
+        "hr",
+        "sl",
+        "hu",
+        "ro",
+        "el",
+        "tr",
+        "fi",
+        "sv",
+        "no",
+        "da",
+        "et",
+        "lv",
+        "lt"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "raghuvirv/psychfound",
+      "author": "raghuvirv",
+      "name": "psychfound",
+      "created_at": "2026-06-03T10:58:42+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -18,7 +204,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Duong-storage-test/temp_asd",
+      "url": "https://huggingface.co/raghuvirv/psychfound",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -28,60 +214,337 @@
       ]
     },
     {
-      "id": "Deehan1866/finetuned-deberta-wic-actual",
-      "author": "Deehan1866",
-      "name": "finetuned-deberta-wic-actual",
-      "created_at": "2026-06-03T04:41:50+00:00",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-3p-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety10-nosys-epe-3p-nobce",
+      "created_at": "2026-06-03T10:58:31+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "deberta-v2",
-        "word-sense-disambiguation",
-        "wic",
-        "deberta",
-        "cross-encoder",
-        "en",
-        "dataset:Deehan1866/WiC",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Deehan1866/finetuned-deberta-wic-actual",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-3p-nobce",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: cross-encoder"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "dalatexcoder/MiniCPM5-1B-heretic-som",
-      "author": "dalatexcoder",
-      "name": "MiniCPM5-1B-heretic-som",
-      "created_at": "2026-06-03T04:41:12+00:00",
+      "id": "liufeqww1154/MyAwesomeModel-TestRepo",
+      "author": "liufeqww1154",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-03T10:57:45+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/liufeqww1154/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-3p-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety60-nosys-epe-3p-nobce",
+      "created_at": "2026-06-03T10:57:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-3p-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "arodriguezf/mmbert-multi-borrowings-conloan",
+      "author": "arodriguezf",
+      "name": "mmbert-multi-borrowings-conloan",
+      "created_at": "2026-06-03T10:57:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
+        "modernbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arodriguezf/mmbert-multi-borrowings-conloan",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "asfafafs456/MyAwesomeModel-TestRepo",
+      "author": "asfafafs456",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-03T10:55:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/asfafafs456/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-3p-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety0-nosys-epe-3p-nobce",
+      "created_at": "2026-06-03T10:54:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
         "llama",
-        "text-generation",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-3p-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-nobce-renddoc",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety60-nosys-epe-nobce-renddoc",
+      "created_at": "2026-06-03T10:53:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-nobce-renddoc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-3p-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety5-nosys-epe-3p-nobce",
+      "created_at": "2026-06-03T10:53:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-3p-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-nobce-renddoc",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety10-nosys-epe-nobce-renddoc",
+      "created_at": "2026-06-03T10:53:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-nobce-renddoc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-nobce-renddoc",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety5-nosys-epe-nobce-renddoc",
+      "created_at": "2026-06-03T10:51:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-nobce-renddoc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-nobce-renddoc",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety0-nosys-epe-nobce-renddoc",
+      "created_at": "2026-06-03T10:49:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-nobce-renddoc",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety10-nosys-normal-safelm",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety10-nosys-normal-safelm",
+      "created_at": "2026-06-03T10:47:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety10-nosys-normal-safelm",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Prince-1/MiniCPM5-1B",
+      "author": "Prince-1",
+      "name": "MiniCPM5-1B",
+      "created_at": "2026-06-03T10:47:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "onnxruntime-genai",
+        "onnx",
         "minicpm",
         "minicpm5",
+        "llama",
+        "text-generation",
         "long-context",
         "tool-calling",
         "on-device",
         "edge-ai",
-        "heretic",
-        "uncensored",
-        "decensored",
-        "abliterated",
+        "onnxruntime",
         "conversational",
         "en",
         "zh",
@@ -94,15 +557,13 @@
         "arxiv:2512.16649",
         "arxiv:2604.13016",
         "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dalatexcoder/MiniCPM5-1B-heretic-som",
+      "url": "https://huggingface.co/Prince-1/MiniCPM5-1B",
       "description": null,
       "languages": [
         "en",
@@ -115,82 +576,291 @@
       ]
     },
     {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-03T04:28:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "jinxiaoqiang/MyAwesomeModel-TestRepo",
-      "author": "jinxiaoqiang",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-03T04:24:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jinxiaoqiang/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/HallyuModels",
-      "author": "zoarag",
-      "name": "HallyuModels",
-      "created_at": "2026-06-03T04:15:35+00:00",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety60-nosys-normal-safelm",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety60-nosys-normal-safelm",
+      "created_at": "2026-06-03T10:47:20+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/HallyuModels",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety60-nosys-normal-safelm",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety5-nosys-normal-safelm",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety5-nosys-normal-safelm",
+      "created_at": "2026-06-03T10:46:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety5-nosys-normal-safelm",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-summary-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety0-nosys-epe-summary-nobce",
+      "created_at": "2026-06-03T10:45:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety0-nosys-epe-summary-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-summary-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety60-nosys-epe-summary-nobce",
+      "created_at": "2026-06-03T10:45:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety60-nosys-epe-summary-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-summary-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety5-nosys-epe-summary-nobce",
+      "created_at": "2026-06-03T10:45:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety5-nosys-epe-summary-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-nosys-epe-summary-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-nosys-epe-summary-nobce",
+      "created_at": "2026-06-03T10:44:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-nosys-epe-summary-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-summary-nobce",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety10-nosys-epe-summary-nobce",
+      "created_at": "2026-06-03T10:44:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety10-nosys-epe-summary-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety0-nosys-normal-safelm",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety0-nosys-normal-safelm",
+      "created_at": "2026-06-03T10:44:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety0-nosys-normal-safelm",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-03T10:34:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Unpaved7123/MyAwesomeModel-TestRepo",
+      "author": "Unpaved7123",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-03T10:23:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Unpaved7123/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Muapi/smol-dragons-lora-1.5-sdxl",
+      "author": "Muapi",
+      "name": "smol-dragons-lora-1.5-sdxl",
+      "created_at": "2026-06-03T10:19:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "lora",
+        "text-to-image",
+        "stable-diffusion-xl",
+        "sdxl",
+        "sdxl-1.0",
+        "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+        "base_model:adapter:stabilityai/stable-diffusion-xl-base-1.0",
+        "license:openrail++",
+        "region:us"
+      ],
+      "license": "openrail++",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Muapi/smol-dragons-lora-1.5-sdxl",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: rag (name)"
       ]
