@@ -1,23 +1,23 @@
 # Model Tracker Digest — Agent & Tool Use
 
 **Date:** 2026-06-04  
-**Run timestamp:** 2026-06-04 04:46 UTC  
+**Run timestamp:** 2026-06-04 10:05 UTC  
 **Profile:** Agent & Tool Use  
 **Description:** Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings  
 **License filter:** Commercial use only ✅  
-**New models found:** 100
+**New models found:** 69
 
 ---
 
 
 
-### [mlx-community/gemma2-9b-cpt-sahabatai-v1-instruct-8bit](https://huggingface.co/mlx-community/gemma2-9b-cpt-sahabatai-v1-instruct-8bit)
-**Author:** mlx-community  
+### [zaydens/instruct_text-jagger_b023998](https://huggingface.co/zaydens/instruct_text-jagger_b023998)
+**Author:** zaydens  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
 
@@ -25,224 +25,238 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR649XRC-ENCSR953AXC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR649XRC-ENCSR953AXC)
-**Author:** kundajelab  
+### [NormanRey/Qwen2.5-Coder-7B-Instruct-Nuclei](https://huggingface.co/NormanRey/Qwen2.5-Coder-7B-Instruct-Nuclei)
+**Author:** NormanRey  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code (name), instruct (name).
+
+---
+
+
+
+### [bluecolor/teutonic-q3-10b-5ek5koe5-547432476-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-547432476-rn)
+**Author:** bluecolor  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [mradermacher/Qwen3-Coder-480B-A35B-Instruct-heretic-i1-GGUF](https://huggingface.co/mradermacher/Qwen3-Coder-480B-A35B-Instruct-heretic-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name), gguf, instruct (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sujeongh/mrl4srec-8b-yelp](https://huggingface.co/sujeongh/mrl4srec-8b-yelp)
+**Author:** sujeongh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [fai-modelopt-tech/gr00tn1d7-libero-gguf](https://huggingface.co/fai-modelopt-tech/gr00tn1d7-libero-gguf)
+**Author:** fai-modelopt-tech  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf (name).
+
+---
+
+
+
+### [fai-modelopt-tech/evo1-libero-gguf](https://huggingface.co/fai-modelopt-tech/evo1-libero-gguf)
+**Author:** fai-modelopt-tech  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
+
+---
+
+
+
+### [fai-modelopt-tech/bitvla-libero-gguf](https://huggingface.co/fai-modelopt-tech/bitvla-libero-gguf)
+**Author:** fai-modelopt-tech  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR860IDO-ENCSR145FGL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR860IDO-ENCSR145FGL)
-**Author:** kundajelab  
+### [fai-modelopt-tech/pi0-libero-finetuned-v044-gguf](https://huggingface.co/fai-modelopt-tech/pi0-libero-finetuned-v044-gguf)
+**Author:** fai-modelopt-tech  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf (name).
 
 ---
 
 
 
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [marzieh-maleki/roberta-defeasible-snli](https://huggingface.co/marzieh-maleki/roberta-defeasible-snli)
+**Author:** marzieh-maleki  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embeddings, embedding.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR058ELM-ENCSR914TFI](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR058ELM-ENCSR914TFI)
-**Author:** kundajelab  
+### [fai-modelopt-tech/smolvla-libero-gguf](https://huggingface.co/fai-modelopt-tech/smolvla-libero-gguf)
+**Author:** fai-modelopt-tech  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR642BXP-ENCSR329EAO](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR642BXP-ENCSR329EAO)
-**Author:** kundajelab  
+### [Subhav-K/qwen-embedding-inverter-v5-full](https://huggingface.co/Subhav-K/qwen-embedding-inverter-v5-full)
+**Author:** Subhav-K  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `embedding_inverter`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code, embedding.
 
 ---
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR015FZF-ENCSR892SCD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR015FZF-ENCSR892SCD)
-**Author:** kundajelab  
+### [NormanRey/Qwen2.5-Coder-3B-Instruct-Nuclei](https://huggingface.co/NormanRey/Qwen2.5-Coder-3B-Instruct-Nuclei)
+**Author:** NormanRey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `qwen2`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code (name), instruct (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR889ONK-ENCSR668QCT](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR889ONK-ENCSR668QCT)
-**Author:** kundajelab  
+### [Myoucai/whisper-coder-7b](https://huggingface.co/Myoucai/whisper-coder-7b)
+**Author:** Myoucai  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: code, instruct.
+
+---
+
+
+
+### [bluecolor/teutonic-q3-10b-5ek5koe5-4982165352-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-4982165352-rn)
+**Author:** bluecolor  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `quasar_text`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [dancinlab/clm-v1-d768-core-3axis-green](https://huggingface.co/dancinlab/clm-v1-d768-core-3axis-green)
-**Author:** dancinlab  
+### [laion/a3-rl-DCAgent_selfinstruct-naive-sandboxes-2-verified](https://huggingface.co/laion/a3-rl-DCAgent_selfinstruct-naive-sandboxes-2-verified)
+**Author:** laion  
 **Task:** general  
-**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `hexa-flame`, `anima`, `clm`, `conscious-decoder`, `byte-lm`, `int4-qat`, `engine-native`  
+**Tags:** `qwen3`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name), agent (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR133QZB-ENCSR851ICD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR133QZB-ENCSR851ICD)
-**Author:** kundajelab  
+### [sujeongh/mrl4srec-8b-amazon-fashion](https://huggingface.co/sujeongh/mrl4srec-8b-amazon-fashion)
+**Author:** sujeongh  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR242CLA-ENCSR151JCL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR242CLA-ENCSR151JCL)
-**Author:** kundajelab  
+### [DuoNeural/OpenYourMind-Gemma4-12B-IT-Abliterated-GGUF](https://huggingface.co/DuoNeural/OpenYourMind-Gemma4-12B-IT-Abliterated-GGUF)
+**Author:** DuoNeural  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR147QLU-ENCSR829QXM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR147QLU-ENCSR829QXM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [Governor6191/isic-skin-lesion-uncertainty](https://huggingface.co/Governor6191/isic-skin-lesion-uncertainty)
-**Author:** Governor6191  
-**Task:** image classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `medical-imaging`, `dermatology`, `skin-lesion`, `uncertainty-quantification`, `deep-ensembles`, `calibration`, `isic`, `image-classification`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: image-classification.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR740DJQ-ENCSR751LNJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR740DJQ-ENCSR751LNJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR775KLH-ENCSR749LTJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR775KLH-ENCSR749LTJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
@@ -262,55 +276,28 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR555DLG-ENCSR200CIY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR555DLG-ENCSR200CIY)
-**Author:** kundajelab  
-**Task:** general  
+### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
+**Author:** ToddBB  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `gyrus`, `hg38`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR276MDV-ENCSR525CNU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR276MDV-ENCSR525CNU)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR386BOX-ENCSR976MJM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR386BOX-ENCSR976MJM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [coolroman/quasar-sn24-bal200](https://huggingface.co/coolroman/quasar-sn24-bal200)
-**Author:** coolroman  
+### [sujeongh/mrl4srec-8b-amazon-beauty](https://huggingface.co/sujeongh/mrl4srec-8b-amazon-beauty)
+**Author:** sujeongh  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
@@ -318,446 +305,42 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR116WWW-ENCSR354EJA](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR116WWW-ENCSR354EJA)
-**Author:** kundajelab  
+### [MtnMCG/Telemachus-20b](https://huggingface.co/MtnMCG/Telemachus-20b)
+**Author:** MtnMCG  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `small-intestine`, `hg38`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR139PLJ-ENCSR224FSJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR139PLJ-ENCSR224FSJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR035SZE-ENCSR908PMT](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR035SZE-ENCSR908PMT)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR305WLF-ENCSR171OHS](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR305WLF-ENCSR171OHS)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMZ-ENCSR989KYH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMZ-ENCSR989KYH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `H7`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR134CIY-ENCSR741OGV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR134CIY-ENCSR741OGV)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR141RSN-ENCSR645BWU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR141RSN-ENCSR645BWU)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR269SIA-ENCSR937RAQ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR269SIA-ENCSR937RAQ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `G401`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMP-ENCSR050OKX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMP-ENCSR050OKX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `GM04504`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR627QIA-ENCSR144UFY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR627QIA-ENCSR144UFY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR597URK-ENCSR962EIH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR597URK-ENCSR962EIH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000ENU-ENCSR662EPX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000ENU-ENCSR662EPX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HL-60`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR242RPQ-ENCSR075BMD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR242RPQ-ENCSR075BMD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `pancreas`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000ENQ-ENCSR999AEB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000ENQ-ENCSR999AEB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `fibroblast`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR346GIP-ENCSR783NVB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR346GIP-ENCSR783NVB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR770JCP-ENCSR284XOX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR770JCP-ENCSR284XOX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `gyrus`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [mlx-community/mallam-5b-20k-instructions-v2-8bit](https://huggingface.co/mlx-community/mallam-5b-20k-instructions-v2-8bit)
-**Author:** mlx-community  
+### [sujeongh/mrl4srec-8b-instruct-yelp](https://huggingface.co/sujeongh/mrl4srec-8b-instruct-yelp)
+**Author:** sujeongh  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code, instruct (name).
 
 ---
 
 
 
-### [mlx-community/mallam-5b-20k-instructions-v2-mxfp4](https://huggingface.co/mlx-community/mallam-5b-20k-instructions-v2-mxfp4)
-**Author:** mlx-community  
+### [AlexHung29629/gemma-4-E2B-it-abliteration-3-Q8_0-GGUF](https://huggingface.co/AlexHung29629/gemma-4-E2B-it-abliteration-3-Q8_0-GGUF)
+**Author:** AlexHung29629  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR731DJH-ENCSR149DSA](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR731DJH-ENCSR149DSA)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR732RIC-ENCSR932WJY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR732RIC-ENCSR932WJY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `ovary`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR360LBD-ENCSR254QIH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR360LBD-ENCSR254QIH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `fibroblast`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR038XTK-ENCSR297JWM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR038XTK-ENCSR297JWM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HCEC-1CT`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR541UPY-ENCSR403QRF](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR541UPY-ENCSR403QRF)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `thymus`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR363LUK-ENCSR563YZV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR363LUK-ENCSR563YZV)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR593OUE-ENCSR755EAD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR593OUE-ENCSR755EAD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EQF-ENCSR255EPH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EQF-ENCSR255EPH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR129TSG-ENCSR331GAY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR129TSG-ENCSR331GAY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `placenta`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR799MAX-ENCSR823WJW](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR799MAX-ENCSR823WJW)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR895KTN-ENCSR516FBL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR895KTN-ENCSR516FBL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HAP-1`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR818JGZ-ENCSR138OCE](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR818JGZ-ENCSR138OCE)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `limb`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR426TPQ-ENCSR005MRB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR426TPQ-ENCSR005MRB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `muscle`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [IHaveNoClueAndIMustPost/gemma-4-12B-it-assistant-GGUF](https://huggingface.co/IHaveNoClueAndIMustPost/gemma-4-12B-it-assistant-GGUF)
-**Author:** IHaveNoClueAndIMustPost  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`  
+**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
@@ -765,7 +348,22 @@
 
 
 
-### [Likithp/v8_rand_s42](https://huggingface.co/Likithp/v8_rand_s42)
+### [jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN](https://huggingface.co/jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN)
+**Author:** jcbtc  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama.cpp`, `gguf`, `qwen3.6`, `qwen35moe`, `35b`, `35b-a3b`, `3b-active`, `model-size-35b-a3b`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Likithp/v9_rand_s42](https://huggingface.co/Likithp/v9_rand_s42)
 **Author:** Likithp  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -779,376 +377,95 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR050VTC-ENCSR885NTV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR050VTC-ENCSR885NTV)
-**Author:** kundajelab  
+### [geonho1/Mistral-7B-Instruct-v0.2-4b-r64-task1396](https://huggingface.co/geonho1/Mistral-7B-Instruct-v0.2-4b-r64-task1396)
+**Author:** geonho1  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [sovthpaw/omnistep-12a3b](https://huggingface.co/sovthpaw/omnistep-12a3b)
-**Author:** sovthpaw  
-**Task:** any to any  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
+**Size:** ~7B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2_5_omni`, `multimodal`, `voice-assistant`, `vibe-coach`, `note-taker`, `conversational`, `background-music`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `peft`, `lora`, `mistral`, `lots-of-loras`, `heterogeneous-rank`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: multimodal, gguf. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR010SZN-ENCSR757EAI](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR010SZN-ENCSR757EAI)
-**Author:** kundajelab  
+### [sujeongh/mrl4srec-8b-instruct-amazon-fashion](https://huggingface.co/sujeongh/mrl4srec-8b-instruct-amazon-fashion)
+**Author:** sujeongh  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR630XDN-ENCSR188NOD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR630XDN-ENCSR188NOD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR672MOG-ENCSR903LXC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR672MOG-ENCSR903LXC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `nerve`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR158YXM-ENCSR603COG](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR158YXM-ENCSR603COG)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `liver`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR229BGG-ENCSR772VTJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR229BGG-ENCSR772VTJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `b-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR154ZNQ-ENCSR304HOZ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR154ZNQ-ENCSR304HOZ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `heart`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMK-ENCSR816AQM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMK-ENCSR816AQM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `hematopoietic`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR499IFY-ENCSR320MUC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR499IFY-ENCSR320MUC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `placenta`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR785ZUI-ENCSR751ECR](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR785ZUI-ENCSR751ECR)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `WTC11`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR129HDK-ENCSR734ERU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR129HDK-ENCSR734ERU)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR163GMC-ENCSR280PSS](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR163GMC-ENCSR280PSS)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [bluecolor/teutonic-q3-10b-5ek5koe5-94822111832-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-94822111832-rn)
-**Author:** bluecolor  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [DoDataThings/distilbert-trade-decision-classifier-v1](https://huggingface.co/DoDataThings/distilbert-trade-decision-classifier-v1)
-**Author:** DoDataThings  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `distilbert`, `text-classification`, `trading`, `intent-classification`, `lora`, `english`, `text-embeddings-inference`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: embeddings, embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ljy666666/popqa_Llama-3.1-8B-Instruct_mlp_pnas_layer_16_4_all_3_0.001_640_3](https://huggingface.co/ljy666666/popqa_Llama-3.1-8B-Instruct_mlp_pnas_layer_16_4_all_3_0.001_640_3)
-**Author:** ljy666666  
-**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct (name).
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code, instruct (name).
 
 ---
 
 
 
-### [Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-60](https://huggingface.co/Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-60)
-**Author:** Granadoslupita  
+### [geonho1/Mistral-7B-Instruct-v0.2-4b-r64-task1215](https://huggingface.co/geonho1/Mistral-7B-Instruct-v0.2-4b-r64-task1215)
+**Author:** geonho1  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR832IQN-ENCSR604TTC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR832IQN-ENCSR604TTC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR226LVB-ENCSR003WRD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR226LVB-ENCSR003WRD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR395HAE-ENCSR624LJH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR395HAE-ENCSR624LJH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `heart`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR752EPH-ENCSR197CZL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR752EPH-ENCSR197CZL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `MCF-10A`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR279SXQ-ENCSR878HAK](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR279SXQ-ENCSR878HAK)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `colon`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR155NPL-ENCSR596EZJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR155NPL-ENCSR596EZJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `renal`, `hg38`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
-
----
-
-
-
-### [weedyweed/quasar-7-40](https://huggingface.co/weedyweed/quasar-7-40)
-**Author:** weedyweed  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [nightmedia/granite-4.1-3B-TNG-Holodeck-V2B-Heretic-q8-hi-mlx](https://huggingface.co/nightmedia/granite-4.1-3B-TNG-Holodeck-V2B-Heretic-q8-hi-mlx)
-**Author:** nightmedia  
-**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
+**Size:** ~7B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `finetune`, `unsloth`, `claude`, `granite-4.1`, `reasoning`, `instruct`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `peft`, `lora`, `mistral`, `lots-of-loras`, `heterogeneous-rank`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
 
 ---
 
 
 
-### [weedyweed/quasar-7-45](https://huggingface.co/weedyweed/quasar-7-45)
-**Author:** weedyweed  
+### [mickeykang/dynamic-vla-DOM](https://huggingface.co/mickeykang/dynamic-vla-DOM)
+**Author:** mickeykang  
+**Task:** robotics  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `dynamicvla`, `vision-language-action`, `robotics`, `dom`, `dataset:hzxie/DOM`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: vision.
+
+---
+
+
+
+### [JMingo/gemma-4-E4B-it-uncensored-heretic-UD-GGUF](https://huggingface.co/JMingo/gemma-4-E4B-it-uncensored-heretic-UD-GGUF)
+**Author:** JMingo  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sanjana040/qwen-math-ft2](https://huggingface.co/sanjana040/qwen-math-ft2)
+**Author:** sanjana040  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
-**Author:** WinderBYZ  
+### [ToolathlonBot/MyAwesomeModel-TestRepo](https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo)
+**Author:** ToolathlonBot  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-04  
@@ -1161,22 +478,80 @@
 
 
 
-### [eadx/gemma-4-12b-it-GGUF](https://huggingface.co/eadx/gemma-4-12b-it-GGUF)
-**Author:** eadx  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [safafe2234/MyAwesomeModel-TestRepo](https://huggingface.co/safafe2234/MyAwesomeModel-TestRepo)
+**Author:** safafe2234  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma4`, `unsloth`, `gemma`, `google`, `gemma4_unified`, `image-text-to-text`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [bombman/gemma-4-12B-it-GGUF](https://huggingface.co/bombman/gemma-4-12B-it-GGUF)
-**Author:** bombman  
+### [good-tape/cohere-transcribe-da-checkpoint-3600](https://huggingface.co/good-tape/cohere-transcribe-da-checkpoint-3600)
+**Author:** good-tape  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cohere_asr`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [metalman3289/speechless-llama2-hermes-orca-platypus-wizardlm-13b-mlx-4Bit](https://huggingface.co/metalman3289/speechless-llama2-hermes-orca-platypus-wizardlm-13b-mlx-4Bit)
+**Author:** metalman3289  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `text-generation`, `facebook`, `meta`, `llama-2`, `mlx`, `mlx-my-repo`, `dataset:garage-bAInd/Open-Platypus`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: quantized.
+
+---
+
+
+
+### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
+**Author:** tttoola  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [catlilface/Gemma-4-12B-NVFP4-GGUF](https://huggingface.co/catlilface/Gemma-4-12B-NVFP4-GGUF)
+**Author:** catlilface  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [JMingo/gemma-4-E4B-it-ultra-uncensored-heretic-UD-GGUF](https://huggingface.co/JMingo/gemma-4-E4B-it-ultra-uncensored-heretic-UD-GGUF)
+**Author:** JMingo  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
@@ -1189,184 +564,109 @@
 
 
 
-### [jmtss/Nyx-35B](https://huggingface.co/jmtss/Nyx-35B)
-**Author:** jmtss  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `qwen`, `qwen3`, `qwen3.6`, `moe`, `cybersecurity`, `code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: code, instruct. Capabilities: strong code generation capability.
-
----
-
-
-
-### [Huntingdonshire/Qwen2.5-7B-nerd-uncensored-v1.7-i1-GGUF](https://huggingface.co/Huntingdonshire/Qwen2.5-7B-nerd-uncensored-v1.7-i1-GGUF)
-**Author:** Huntingdonshire  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `not-for-all-audiences`, `endpoints_compatible`, `imatrix`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mnshakoor06/qap-v0-4-lora-adapter](https://huggingface.co/mnshakoor06/qap-v0-4-lora-adapter)
-**Author:** mnshakoor06  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct.
-
----
-
-
-
-### [Steven668866/URIS-Qwen2.5-VL-7B-RefCOCO-LoRA](https://huggingface.co/Steven668866/URIS-Qwen2.5-VL-7B-RefCOCO-LoRA)
-**Author:** Steven668866  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `visual-grounding`, `refcoco`, `qwen2_5_vl`, `dora`, `ascend-npu`, `dataset:lmms-lab/refcoco`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
-
----
-
-
-
-### [quangvd8x/Qwen3-0.6B-Q4_K_M-GGUF](https://huggingface.co/quangvd8x/Qwen3-0.6B-Q4_K_M-GGUF)
-**Author:** quangvd8x  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bluecolor/teutonic-q3-10b-5ek5koe5-10416140412-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-10416140412-rn)
-**Author:** bluecolor  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
-
----
-
-
-
-### [geonho1/Mistral-7B-Instruct-v0.2-4b-r8-task738](https://huggingface.co/geonho1/Mistral-7B-Instruct-v0.2-4b-r8-task738)
-**Author:** geonho1  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `mistral`, `lots-of-loras`, `heterogeneous-rank`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
-
----
-
-
-
-### [itriedcoding/sage-t2i](https://huggingface.co/itriedcoding/sage-t2i)
-**Author:** itriedcoding  
-**Task:** text to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusion`, `text-to-image`, `dit`, `transformer`, `stl10`, `photorealistic`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: coding (name).
-
----
-
-
-
-### [dog-god/custom-toy-models](https://huggingface.co/dog-god/custom-toy-models)
-**Author:** dog-god  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `text-generation`, `dataset:HuggingFaceFW/fineweb-edu`, `dataset:sedthh/gutenberg_english`, `dataset:wikimedia/structured-wikipedia`, `dataset:kjj0/4chanpol`, `dataset:iamtarun/python_code_instructions_18k_alpaca`, `dataset:tatsu-lab/alpaca`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code, instruct.
-
----
-
-
-
-### [seb2oo/seb_realistic_avatar_lora](https://huggingface.co/seb2oo/seb_realistic_avatar_lora)
-**Author:** seb2oo  
-**Task:** text to image  
-**License:** `openrail` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `lora`, `text-to-image`, `template:diffusion-lora`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: vision.
-
----
-
-
-
-### [K0D3IN/SmolLM3-3B-Instruct-heretic](https://huggingface.co/K0D3IN/SmolLM3-3B-Instruct-heretic)
-**Author:** K0D3IN  
+### [XuehangCang/SmolLM3-3B-Rebel](https://huggingface.co/XuehangCang/SmolLM3-3B-Rebel)
+**Author:** XuehangCang  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
-**Languages:** en  
+**Languages:** en, zh, fr, es, it  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `smollm3`, `text-generation`, `smollm`, `heretic`, `abliteration`, `apache2`, `conversational`, `endpoints_compatible`  
+**Tags:** `smollm3`, `text-generation`, `long-context`, `hybrid-reasoning`, `on-device`, `edge-ai`, `heretic`, `heretic-zh`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct (name).
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
 
 ---
 
 
 
-### [aileshuo/AntiVCoder](https://huggingface.co/aileshuo/AntiVCoder)
-**Author:** aileshuo  
+### [metalman3289/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-Hermes-R1-Uncensored-36B-mlx-8Bit-mlx-4Bit](https://huggingface.co/metalman3289/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-Hermes-R1-Uncensored-36B-mlx-8Bit-mlx-4Bit)
+**Author:** metalman3289  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mixtral`, `text-generation`, `creative`, `creative writing`, `fiction writing`, `plot generation`, `sub-plot generation`, `story generation`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: quantized.
+
+---
+
+
+
+### [dfvdgder4546/MyAwesomeModel-TestRepo](https://huggingface.co/dfvdgder4546/MyAwesomeModel-TestRepo)
+**Author:** dfvdgder4546  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Subhav-K/qwen-embedding-inverter-v4](https://huggingface.co/Subhav-K/qwen-embedding-inverter-v4)
+**Author:** Subhav-K  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embedding (name).
 
 ---
 
 
 
-### [SuperM1/MyAwesomeModel-TestRepo](https://huggingface.co/SuperM1/MyAwesomeModel-TestRepo)
-**Author:** SuperM1  
+### [ananthan7703/alignforge-phi3-sft](https://huggingface.co/ananthan7703/alignforge-phi3-sft)
+**Author:** ananthan7703  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `phi3`, `text-generation`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: code.
+
+---
+
+
+
+### [tmih06/Qwen3.5-2B-GGUF-JAVA](https://huggingface.co/tmih06/Qwen3.5-2B-GGUF-JAVA)
+**Author:** tmih06  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen3_5`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: vision, gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Mrtnl/refr-dfine-xpu](https://huggingface.co/Mrtnl/refr-dfine-xpu)
+**Author:** Mrtnl  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `d_fine`, `object-detection`, `vision`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: vision. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-04  
@@ -1379,13 +679,42 @@
 
 
 
-### [asterisms45/X-VLA-openarm-pickandplace-can-vr-v1-step40k](https://huggingface.co/asterisms45/X-VLA-openarm-pickandplace-can-vr-v1-step40k)
-**Author:** asterisms45  
+### [JMingo/gemma-4-E4B-it-heretic-UD-GGUF](https://huggingface.co/JMingo/gemma-4-E4B-it-heretic-UD-GGUF)
+**Author:** JMingo  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Mrtnl/refr-dfine-cuda](https://huggingface.co/Mrtnl/refr-dfine-cuda)
+**Author:** Mrtnl  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `xvla`, `custom_code`  
+**Tags:** `d_fine`, `object-detection`, `vision`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: vision. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [ChristianYang/LongCat-AudioDiT-Env-TTS-1B-ablation](https://huggingface.co/ChristianYang/LongCat-AudioDiT-Env-TTS-1B-ablation)
+**Author:** ChristianYang  
+**Task:** text to speech  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `audiodit`, `feature-extraction`, `audio`, `text-to-speech`, `tts`, `environmental-tts`, `flow-matching`, `dit`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
@@ -1393,14 +722,43 @@
 
 
 
-### [rafmacalaba/gliner-large-data-mentions](https://huggingface.co/rafmacalaba/gliner-large-data-mentions)
-**Author:** rafmacalaba  
-**Task:** token classification  
+### [sanjana040/qwen-math-unsloth-FT](https://huggingface.co/sanjana040/qwen-math-unsloth-FT)
+**Author:** sanjana040  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [geonho1/Mistral-7B-Instruct-v0.2-4b-r32-task1142](https://huggingface.co/geonho1/Mistral-7B-Instruct-v0.2-4b-r32-task1142)
+**Author:** geonho1  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `peft`, `lora`, `mistral`, `lots-of-loras`, `heterogeneous-rank`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
+
+---
+
+
+
+### [mohemeenahmed/hallucination_evaluation_model](https://huggingface.co/mohemeenahmed/hallucination_evaluation_model)
+**Author:** mohemeenahmed  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-04  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gliner`, `named-entity-recognition`, `token-classification`, `data-mention-extraction`, `survey-detection`, `geocoded-data`, `DHS`, `census`  
+**Tags:** `HHEMv2Config`, `custom_code`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code.
 
@@ -1408,16 +766,230 @@
 
 
 
-### [leeminwaan/MINICPM_LTR_step_1_merged](https://huggingface.co/leeminwaan/MINICPM_LTR_step_1_merged)
-**Author:** leeminwaan  
+### [Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-62](https://huggingface.co/Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-62)
+**Author:** Granadoslupita  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [iamPi/qsr](https://huggingface.co/iamPi/qsr)
+**Author:** iamPi  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [vrfai/gemma-4-31B-it-nvfp4](https://huggingface.co/vrfai/gemma-4-31B-it-nvfp4)
+**Author:** vrfai  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `nvfp4`, `quantized`, `vrfai`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [apol/gemma4-12b-it-libre-gguf](https://huggingface.co/apol/gemma4-12b-it-libre-gguf)
+**Author:** apol  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `gemma4`, `llama.cpp`, `q4_k_m`, `quantized`, `benign-refusal-reduction`, `text-generation`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [jayPark21/myAI](https://huggingface.co/jayPark21/myAI)
+**Author:** jayPark21  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `gemma4`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: vision, gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [srmty/smollm2-python-coder](https://huggingface.co/srmty/smollm2-python-coder)
+**Author:** srmty  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name), instruct.
+
+---
+
+
+
+### [ShourenWSR/Qwen3-4B-PLE-Reasoning-20k-1to1](https://huggingface.co/ShourenWSR/Qwen3-4B-PLE-Reasoning-20k-1to1)
+**Author:** ShourenWSR  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_ple`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [geonho1/Mistral-7B-Instruct-v0.2-4b-r128-task1211](https://huggingface.co/geonho1/Mistral-7B-Instruct-v0.2-4b-r128-task1211)
+**Author:** geonho1  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `peft`, `lora`, `mistral`, `lots-of-loras`, `heterogeneous-rank`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
+
+---
+
+
+
+### [antechit03/qc-thamdo-updated-v1-fix-step5](https://huggingface.co/antechit03/qc-thamdo-updated-v1-fix-step5)
+**Author:** antechit03  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [Abiray/Gemma-4-12B-it-AEON-Abliterated-K4-GGUF](https://huggingface.co/Abiray/Gemma-4-12B-it-AEON-Abliterated-K4-GGUF)
+**Author:** Abiray  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf (name).
+
+---
+
+
+
+### [rpopreapovle/MiniCPM5-1B-TQx_1S-GGUF](https://huggingface.co/rpopreapovle/MiniCPM5-1B-TQx_1S-GGUF)
+**Author:** rpopreapovle  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `opencpm`, `minicpm`, `moe`, `quantized`, `turboquant`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tjarvis91/qovaryx-3b-scratch-base](https://huggingface.co/tjarvis91/qovaryx-3b-scratch-base)
+**Author:** tjarvis91  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qovaryx_finance_decoder`, `pretraining`, `from-scratch`, `random-init`, `scratch-base`, `decoder`, `causal-lm`, `causal-language-model`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: code.
+
+---
+
+
+
+### [duke1433/t4-Qwen3-8B-Instruct-GRPO](https://huggingface.co/duke1433/t4-Qwen3-8B-Instruct-GRPO)
+**Author:** duke1433  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
+
+---
+
+
+
+### [dancinlab/anima-clm-chat-rung0-byte-18m](https://huggingface.co/dancinlab/anima-clm-chat-rung0-byte-18m)
+**Author:** dancinlab  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Languages:** ko, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `byte-level`, `conversational`, `anima`, `consciousness-lm`, `text-generation`, `ko`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [LiamVisionary/swarm-sovereign-26b](https://huggingface.co/LiamVisionary/swarm-sovereign-26b)
+**Author:** LiamVisionary  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma4`, `text-generation`, `chat`, `swarm-sovereign`, `hivemindos`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: vision (name), gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Saaransh27/gemma270m_vayu_unified](https://huggingface.co/Saaransh27/gemma270m_vayu_unified)
+**Author:** Saaransh27  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
 
 
 
@@ -1425,4 +997,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-04 04:46 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-04 10:05 UTC*

@@ -1,20 +1,21 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-06-04  
-**Run timestamp:** 2026-06-04 04:46 UTC  
+**Run timestamp:** 2026-06-04 10:05 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 79
+**New models found:** 41
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR649XRC-ENCSR953AXC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR649XRC-ENCSR953AXC)
-**Author:** kundajelab  
+### [NormanRey/Qwen2.5-Coder-7B-Instruct-Nuclei](https://huggingface.co/NormanRey/Qwen2.5-Coder-7B-Instruct-Nuclei)
+**Author:** NormanRey  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 
@@ -24,209 +25,13 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR860IDO-ENCSR145FGL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR860IDO-ENCSR145FGL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR058ELM-ENCSR914TFI](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR058ELM-ENCSR914TFI)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR642BXP-ENCSR329EAO](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR642BXP-ENCSR329EAO)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR015FZF-ENCSR892SCD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR015FZF-ENCSR892SCD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR889ONK-ENCSR668QCT](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR889ONK-ENCSR668QCT)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [dancinlab/clm-v1-d768-core-3axis-green](https://huggingface.co/dancinlab/clm-v1-d768-core-3axis-green)
-**Author:** dancinlab  
-**Task:** general  
-**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `hexa-flame`, `anima`, `clm`, `conscious-decoder`, `byte-lm`, `int4-qat`, `engine-native`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR133QZB-ENCSR851ICD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR133QZB-ENCSR851ICD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR242CLA-ENCSR151JCL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR242CLA-ENCSR151JCL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR147QLU-ENCSR829QXM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR147QLU-ENCSR829QXM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR740DJQ-ENCSR751LNJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR740DJQ-ENCSR751LNJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR775KLH-ENCSR749LTJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR775KLH-ENCSR749LTJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR555DLG-ENCSR200CIY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR555DLG-ENCSR200CIY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `gyrus`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR276MDV-ENCSR525CNU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR276MDV-ENCSR525CNU)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR386BOX-ENCSR976MJM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR386BOX-ENCSR976MJM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [coolroman/quasar-sn24-bal200](https://huggingface.co/coolroman/quasar-sn24-bal200)
-**Author:** coolroman  
+### [bluecolor/teutonic-q3-10b-5ek5koe5-547432476-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-547432476-rn)
+**Author:** bluecolor  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
+**Tags:** `quasar_text`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -234,13 +39,28 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR116WWW-ENCSR354EJA](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR116WWW-ENCSR354EJA)
-**Author:** kundajelab  
+### [mradermacher/Qwen3-Coder-480B-A35B-Instruct-heretic-i1-GGUF](https://huggingface.co/mradermacher/Qwen3-Coder-480B-A35B-Instruct-heretic-i1-GGUF)
+**Author:** mradermacher  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sujeongh/mrl4srec-8b-yelp](https://huggingface.co/sujeongh/mrl4srec-8b-yelp)
+**Author:** sujeongh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `small-intestine`, `hg38`  
+**Tags:** `llama`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -248,41 +68,57 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR139PLJ-ENCSR224FSJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR139PLJ-ENCSR224FSJ)
-**Author:** kundajelab  
+### [Subhav-K/qwen-embedding-inverter-v5-full](https://huggingface.co/Subhav-K/qwen-embedding-inverter-v5-full)
+**Author:** Subhav-K  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `embedding_inverter`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [NormanRey/Qwen2.5-Coder-3B-Instruct-Nuclei](https://huggingface.co/NormanRey/Qwen2.5-Coder-3B-Instruct-Nuclei)
+**Author:** NormanRey  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `qwen2`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR035SZE-ENCSR908PMT](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR035SZE-ENCSR908PMT)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [Myoucai/whisper-coder-7b](https://huggingface.co/Myoucai/whisper-coder-7b)
+**Author:** Myoucai  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR305WLF-ENCSR171OHS](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR305WLF-ENCSR171OHS)
-**Author:** kundajelab  
+### [bluecolor/teutonic-q3-10b-5ek5koe5-4982165352-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-4982165352-rn)
+**Author:** bluecolor  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `quasar_text`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -290,13 +126,43 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMZ-ENCSR989KYH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMZ-ENCSR989KYH)
-**Author:** kundajelab  
+### [sujeongh/mrl4srec-8b-amazon-fashion](https://huggingface.co/sujeongh/mrl4srec-8b-amazon-fashion)
+**Author:** sujeongh  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-qw-final-model-3597c5be](https://huggingface.co/lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-qw-final-model-3597c5be)
+**Author:** lafrancef  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `H7`, `hg38`  
+**Tags:** `qwen3_5`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [sujeongh/mrl4srec-8b-amazon-beauty](https://huggingface.co/sujeongh/mrl4srec-8b-amazon-beauty)
+**Author:** sujeongh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -304,27 +170,28 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR134CIY-ENCSR741OGV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR134CIY-ENCSR741OGV)
-**Author:** kundajelab  
+### [lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-104-35be9c61](https://huggingface.co/lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-104-35be9c61)
+**Author:** lafrancef  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `qwen3_5`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR141RSN-ENCSR645BWU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR141RSN-ENCSR645BWU)
-**Author:** kundajelab  
+### [sujeongh/mrl4srec-8b-instruct-yelp](https://huggingface.co/sujeongh/mrl4srec-8b-instruct-yelp)
+**Author:** sujeongh  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
+**Tags:** `llama`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -332,315 +199,22 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR269SIA-ENCSR937RAQ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR269SIA-ENCSR937RAQ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN](https://huggingface.co/jcbtc/CHADROCK3.6-35B-UNCENSORED-MTP-STRIX-LEAN)
+**Author:** jcbtc  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `G401`, `hg38`  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama.cpp`, `gguf`, `qwen3.6`, `qwen35moe`, `35b`, `35b-a3b`, `3b-active`, `model-size-35b-a3b`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMP-ENCSR050OKX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMP-ENCSR050OKX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `GM04504`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR627QIA-ENCSR144UFY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR627QIA-ENCSR144UFY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR597URK-ENCSR962EIH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR597URK-ENCSR962EIH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000ENU-ENCSR662EPX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000ENU-ENCSR662EPX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HL-60`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR242RPQ-ENCSR075BMD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR242RPQ-ENCSR075BMD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `pancreas`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000ENQ-ENCSR999AEB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000ENQ-ENCSR999AEB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `fibroblast`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR346GIP-ENCSR783NVB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR346GIP-ENCSR783NVB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR770JCP-ENCSR284XOX](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR770JCP-ENCSR284XOX)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `gyrus`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR731DJH-ENCSR149DSA](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR731DJH-ENCSR149DSA)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR732RIC-ENCSR932WJY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR732RIC-ENCSR932WJY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `ovary`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR360LBD-ENCSR254QIH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR360LBD-ENCSR254QIH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `fibroblast`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR038XTK-ENCSR297JWM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR038XTK-ENCSR297JWM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HCEC-1CT`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR541UPY-ENCSR403QRF](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR541UPY-ENCSR403QRF)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `thymus`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR363LUK-ENCSR563YZV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR363LUK-ENCSR563YZV)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR593OUE-ENCSR755EAD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR593OUE-ENCSR755EAD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EQF-ENCSR255EPH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EQF-ENCSR255EPH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-helper`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR129TSG-ENCSR331GAY](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR129TSG-ENCSR331GAY)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `placenta`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR799MAX-ENCSR823WJW](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR799MAX-ENCSR823WJW)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR895KTN-ENCSR516FBL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR895KTN-ENCSR516FBL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `HAP-1`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR818JGZ-ENCSR138OCE](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR818JGZ-ENCSR138OCE)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `limb`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR426TPQ-ENCSR005MRB](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR426TPQ-ENCSR005MRB)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `muscle`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Likithp/v8_rand_s42](https://huggingface.co/Likithp/v8_rand_s42)
+### [Likithp/v9_rand_s42](https://huggingface.co/Likithp/v9_rand_s42)
 **Author:** Likithp  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -654,196 +228,58 @@
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR050VTC-ENCSR885NTV](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR050VTC-ENCSR885NTV)
-**Author:** kundajelab  
+### [sujeongh/mrl4srec-8b-instruct-amazon-fashion](https://huggingface.co/sujeongh/mrl4srec-8b-instruct-amazon-fashion)
+**Author:** sujeongh  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR010SZN-ENCSR757EAI](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR010SZN-ENCSR757EAI)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR630XDN-ENCSR188NOD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR630XDN-ENCSR188NOD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR672MOG-ENCSR903LXC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR672MOG-ENCSR903LXC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `nerve`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR158YXM-ENCSR603COG](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR158YXM-ENCSR603COG)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `liver`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR229BGG-ENCSR772VTJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR229BGG-ENCSR772VTJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `b-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR154ZNQ-ENCSR304HOZ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR154ZNQ-ENCSR304HOZ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `heart`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR000EMK-ENCSR816AQM](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR000EMK-ENCSR816AQM)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `hematopoietic`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR499IFY-ENCSR320MUC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR499IFY-ENCSR320MUC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `placenta`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR785ZUI-ENCSR751ECR](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR785ZUI-ENCSR751ECR)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `WTC11`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR129HDK-ENCSR734ERU](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR129HDK-ENCSR734ERU)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR163GMC-ENCSR280PSS](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR163GMC-ENCSR280PSS)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `caudate`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [bluecolor/teutonic-q3-10b-5ek5koe5-94822111832-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-94822111832-rn)
-**Author:** bluecolor  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [ljy666666/popqa_Llama-3.1-8B-Instruct_mlp_pnas_layer_16_4_all_3_0.001_640_3](https://huggingface.co/ljy666666/popqa_Llama-3.1-8B-Instruct_mlp_pnas_layer_16_4_all_3_0.001_640_3)
-**Author:** ljy666666  
-**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [sanjana040/qwen-math-ft2](https://huggingface.co/sanjana040/qwen-math-ft2)
+**Author:** sanjana040  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [good-tape/cohere-transcribe-da-checkpoint-3600](https://huggingface.co/good-tape/cohere-transcribe-da-checkpoint-3600)
+**Author:** good-tape  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cohere_asr`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [metalman3289/speechless-llama2-hermes-orca-platypus-wizardlm-13b-mlx-4Bit](https://huggingface.co/metalman3289/speechless-llama2-hermes-orca-platypus-wizardlm-13b-mlx-4Bit)
+**Author:** metalman3289  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama`, `text-generation`, `facebook`, `meta`, `llama-2`, `mlx`, `mlx-my-repo`, `dataset:garage-bAInd/Open-Platypus`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -851,126 +287,30 @@
 
 
 
-### [Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-60](https://huggingface.co/Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-60)
-**Author:** Granadoslupita  
+### [lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-91-9f0e28b9](https://huggingface.co/lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-91-9f0e28b9)
+**Author:** lafrancef  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `qwen3_5`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
 
 ---
 
 
 
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR832IQN-ENCSR604TTC](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR832IQN-ENCSR604TTC)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR226LVB-ENCSR003WRD](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR226LVB-ENCSR003WRD)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `t-cell`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR395HAE-ENCSR624LJH](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR395HAE-ENCSR624LJH)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `heart`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR752EPH-ENCSR197CZL](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR752EPH-ENCSR197CZL)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `MCF-10A`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR279SXQ-ENCSR878HAK](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR279SXQ-ENCSR878HAK)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `colon`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [kundajelab/encode-chrombpnet-DNASE-ENCSR155NPL-ENCSR596EZJ](https://huggingface.co/kundajelab/encode-chrombpnet-DNASE-ENCSR155NPL-ENCSR596EZJ)
-**Author:** kundajelab  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chrombpnet`, `encode`, `chromatin-accessibility`, `DNASE`, `renal`, `hg38`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [weedyweed/quasar-7-40](https://huggingface.co/weedyweed/quasar-7-40)
-**Author:** weedyweed  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [nightmedia/granite-4.1-3B-TNG-Holodeck-V2B-Heretic-q8-hi-mlx](https://huggingface.co/nightmedia/granite-4.1-3B-TNG-Holodeck-V2B-Heretic-q8-hi-mlx)
-**Author:** nightmedia  
+### [XuehangCang/SmolLM3-3B-Rebel](https://huggingface.co/XuehangCang/SmolLM3-3B-Rebel)
+**Author:** XuehangCang  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
+**Languages:** en, zh, fr, es, it  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `finetune`, `unsloth`, `claude`, `granite-4.1`, `reasoning`, `instruct`  
+**Tags:** `smollm3`, `text-generation`, `long-context`, `hybrid-reasoning`, `on-device`, `edge-ai`, `heretic`, `heretic-zh`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
 
@@ -978,8 +318,138 @@
 
 
 
-### [weedyweed/quasar-7-45](https://huggingface.co/weedyweed/quasar-7-45)
-**Author:** weedyweed  
+### [metalman3289/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-Hermes-R1-Uncensored-36B-mlx-8Bit-mlx-4Bit](https://huggingface.co/metalman3289/L3.1-MOE-6X8B-Dark-Reasoning-Dantes-Peak-Hermes-R1-Uncensored-36B-mlx-8Bit-mlx-4Bit)
+**Author:** metalman3289  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-06-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mixtral`, `text-generation`, `creative`, `creative writing`, `fiction writing`, `plot generation`, `sub-plot generation`, `story generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [ananthan7703/alignforge-phi3-sft](https://huggingface.co/ananthan7703/alignforge-phi3-sft)
+**Author:** ananthan7703  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `phi3`, `text-generation`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [marqvision-ai/FM-Relevancy-v1.0](https://huggingface.co/marqvision-ai/FM-Relevancy-v1.0)
+**Author:** marqvision-ai  
+**Task:** text classification  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `fm-listing-relevancy`, `feature-extraction`, `fm`, `listing-relevancy`, `multimodal`, `vision-language`, `brand-protection`, `q-former`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [ShourenWSR/Qwen3-4B-Dense-Reasoning-NoThink-30k](https://huggingface.co/ShourenWSR/Qwen3-4B-Dense-Reasoning-NoThink-30k)
+**Author:** ShourenWSR  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name).
+
+---
+
+
+
+### [ChristianYang/LongCat-AudioDiT-Env-TTS-1B-ablation](https://huggingface.co/ChristianYang/LongCat-AudioDiT-Env-TTS-1B-ablation)
+**Author:** ChristianYang  
+**Task:** text to speech  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `audiodit`, `feature-extraction`, `audio`, `text-to-speech`, `tts`, `environmental-tts`, `flow-matching`, `dit`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [sanjana040/qwen-math-unsloth-FT](https://huggingface.co/sanjana040/qwen-math-unsloth-FT)
+**Author:** sanjana040  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-78-f6588e34](https://huggingface.co/lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-78-f6588e34)
+**Author:** lafrancef  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [mohemeenahmed/hallucination_evaluation_model](https://huggingface.co/mohemeenahmed/hallucination_evaluation_model)
+**Author:** mohemeenahmed  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `HHEMv2Config`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-62](https://huggingface.co/Granadoslupita/teutonic-q3-10b-5hgmbeef-gran-62)
+**Author:** Granadoslupita  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [iamPi/qsr](https://huggingface.co/iamPi/qsr)
+**Author:** iamPi  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
@@ -992,28 +462,14 @@
 
 
 
-### [jmtss/Nyx-35B](https://huggingface.co/jmtss/Nyx-35B)
-**Author:** jmtss  
+### [vrfai/gemma-4-31B-it-nvfp4](https://huggingface.co/vrfai/gemma-4-31B-it-nvfp4)
+**Author:** vrfai  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
 **Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `qwen`, `qwen3`, `qwen3.6`, `moe`, `cybersecurity`, `code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability.
-
----
-
-
-
-### [quangvd8x/Qwen3-0.6B-Q4_K_M-GGUF](https://huggingface.co/quangvd8x/Qwen3-0.6B-Q4_K_M-GGUF)
-**Author:** quangvd8x  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `nvfp4`, `quantized`, `vrfai`, `text-generation`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -1021,57 +477,27 @@
 
 
 
-### [bluecolor/teutonic-q3-10b-5ek5koe5-10416140412-rn](https://huggingface.co/bluecolor/teutonic-q3-10b-5ek5koe5-10416140412-rn)
-**Author:** bluecolor  
-**Task:** general  
+### [apol/gemma4-12b-it-libre-gguf](https://huggingface.co/apol/gemma4-12b-it-libre-gguf)
+**Author:** apol  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [dog-god/custom-toy-models](https://huggingface.co/dog-god/custom-toy-models)
-**Author:** dog-god  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-04  
-**Languages:** en  
 **Popularity:** 0 downloads · 1 likes  
-**Tags:** `text-generation`, `dataset:HuggingFaceFW/fineweb-edu`, `dataset:sedthh/gutenberg_english`, `dataset:wikimedia/structured-wikipedia`, `dataset:kjj0/4chanpol`, `dataset:iamtarun/python_code_instructions_18k_alpaca`, `dataset:tatsu-lab/alpaca`  
+**Tags:** `gguf`, `gemma4`, `llama.cpp`, `q4_k_m`, `quantized`, `benign-refusal-reduction`, `text-generation`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [K0D3IN/SmolLM3-3B-Instruct-heretic](https://huggingface.co/K0D3IN/SmolLM3-3B-Instruct-heretic)
-**Author:** K0D3IN  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-06-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `smollm3`, `text-generation`, `smollm`, `heretic`, `abliteration`, `apache2`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [aileshuo/AntiVCoder](https://huggingface.co/aileshuo/AntiVCoder)
-**Author:** aileshuo  
+### [srmty/smollm2-python-coder](https://huggingface.co/srmty/smollm2-python-coder)
+**Author:** srmty  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
-**Popularity:** 0 downloads · 0 likes  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
@@ -1079,43 +505,100 @@
 
 
 
-### [asterisms45/X-VLA-openarm-pickandplace-can-vr-v1-step40k](https://huggingface.co/asterisms45/X-VLA-openarm-pickandplace-can-vr-v1-step40k)
-**Author:** asterisms45  
+### [ShourenWSR/Qwen3-4B-PLE-Reasoning-20k-1to1](https://huggingface.co/ShourenWSR/Qwen3-4B-PLE-Reasoning-20k-1to1)
+**Author:** ShourenWSR  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `xvla`, `custom_code`  
+**Tags:** `qwen3_ple`, `custom_code`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning (name).
 
 ---
 
 
 
-### [rafmacalaba/gliner-large-data-mentions](https://huggingface.co/rafmacalaba/gliner-large-data-mentions)
-**Author:** rafmacalaba  
-**Task:** token classification  
+### [antechit03/qc-thamdo-updated-v1-fix-step5](https://huggingface.co/antechit03/qc-thamdo-updated-v1-fix-step5)
+**Author:** antechit03  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [tjarvis91/qovaryx-3b-scratch-base](https://huggingface.co/tjarvis91/qovaryx-3b-scratch-base)
+**Author:** tjarvis91  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-06-04  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gliner`, `named-entity-recognition`, `token-classification`, `data-mention-extraction`, `survey-detection`, `geocoded-data`, `DHS`, `census`  
+**Tags:** `qovaryx_finance_decoder`, `pretraining`, `from-scratch`, `random-init`, `scratch-base`, `decoder`, `causal-lm`, `causal-language-model`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
 
 ---
 
 
 
-### [leeminwaan/MINICPM_LTR_step_1_merged](https://huggingface.co/leeminwaan/MINICPM_LTR_step_1_merged)
-**Author:** leeminwaan  
+### [dancinlab/anima-clm-chat-rung0-byte-18m](https://huggingface.co/dancinlab/anima-clm-chat-rung0-byte-18m)
+**Author:** dancinlab  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-04  
-**Languages:** en  
+**Languages:** ko, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `byte-level`, `conversational`, `anima`, `consciousness-lm`, `text-generation`, `ko`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-65-e3965652](https://huggingface.co/lafrancef/ssd-math-v1p1-qwen3-5-4b-scaled-4k-20260604T073132Z-train-v1p1-checkpoint-65-e3965652)
+**Author:** lafrancef  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `qwen3_5`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [LiamVisionary/swarm-sovereign-26b](https://huggingface.co/LiamVisionary/swarm-sovereign-26b)
+**Author:** LiamVisionary  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma4`, `text-generation`, `chat`, `swarm-sovereign`, `hivemindos`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Saaransh27/gemma270m_vayu_unified](https://huggingface.co/Saaransh27/gemma270m_vayu_unified)
+**Author:** Saaransh27  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -1125,4 +608,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-04 04:46 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-04 10:05 UTC*
