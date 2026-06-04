@@ -1,34 +1,21 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-06-03  
-**Run timestamp:** 2026-06-03 17:02 UTC  
+**Date:** 2026-06-04  
+**Run timestamp:** 2026-06-04 04:46 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 12
+**New models found:** 7
 
 ---
 
 
 
-### [zoarag/Anvelle](https://huggingface.co/zoarag/Anvelle)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-03  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [ashwinbalujathon/MyAwesomeModel-TestRepo](https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo)
-**Author:** ashwinbalujathon  
+### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
+**Author:** TB22427  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-03  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -38,11 +25,11 @@
 
 
 
-### [mazextest2026/MyAwesomeModel-TestRepo](https://huggingface.co/mazextest2026/MyAwesomeModel-TestRepo)
-**Author:** mazextest2026  
+### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
+**Author:** ToddBB  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-03  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -52,11 +39,11 @@
 
 
 
-### [safaf45252/MyAwesomeModel-TestRepo](https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo)
-**Author:** safaf45252  
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-03  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -66,42 +53,11 @@
 
 
 
-### [mradermacher/OCC-RAG-1.7B-GGUF](https://huggingface.co/mradermacher/OCC-RAG-1.7B-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-06-03  
-**Languages:** en, ru  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `rag`, `faithful-qa`, `occ`, `ru`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [mradermacher/OCC-RAG-0.6B-GGUF](https://huggingface.co/mradermacher/OCC-RAG-0.6B-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-03  
-**Languages:** en, ru  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `rag`, `faithful-qa`, `occ`, `ru`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [SOTAagi2030/MyAwesomeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo)
-**Author:** SOTAagi2030  
+### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
+**Author:** toola  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-03  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -111,71 +67,44 @@
 
 
 
-### [Raghav-Singhal/pbsftmix-cite-safety5-defnosys-epe-3p-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety5-defnosys-epe-3p-nobce)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Raghav-Singhal/pbsftmix-cite-safety0-defnosys-epe-3p-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety0-defnosys-epe-3p-nobce)
-**Author:** Raghav-Singhal  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [omaima22/darija-sentiment](https://huggingface.co/omaima22/darija-sentiment)
-**Author:** omaima22  
+### [DoDataThings/distilbert-trade-decision-classifier-v1](https://huggingface.co/DoDataThings/distilbert-trade-decision-classifier-v1)
+**Author:** DoDataThings  
 **Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-03  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-04  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `onnx`, `distilbert`, `text-classification`, `trading`, `intent-classification`, `lora`, `english`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [tussiiiii/llmcmp-distill-llama3-8b-lora-v5c-target-hard-tie-response-focus-merged](https://huggingface.co/tussiiiii/llmcmp-distill-llama3-8b-lora-v5c-target-hard-tie-response-focus-merged)
-**Author:** tussiiiii  
-**Task:** text classification  
+### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
+**Author:** WinderBYZ  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-03  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-classification`, `unsloth`, `kaggle`, `distillation`, `merged-model`, `winner-only`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [zentom/embedding](https://huggingface.co/zentom/embedding)
-**Author:** zentom  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-03  
+### [SuperM1/MyAwesomeModel-TestRepo](https://huggingface.co/SuperM1/MyAwesomeModel-TestRepo)
+**Author:** SuperM1  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-04  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -183,4 +112,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-03 17:02 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-04 04:46 UTC*
