@@ -1938,6 +1938,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-04T15:30:57.685019+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "text-generation-inference",
+            "en",
+            "text-generation",
+            "conversational",
+            "llama",
+            "trl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "transformers",
+            "gguf",
+            "conversational",
+            "en",
+            "pytorch"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "qwen3",
+            "en",
+            "uncensored"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "text-embeddings-inference",
+            "transformers",
+            "sentence-transformers",
+            "sentence-similarity",
+            "dense"
+          ]
+        },
+        "personal_research": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "qwen3",
+            "text-embeddings-inference",
+            "bert"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "en",
+            "llama",
+            "trl",
+            "unsloth",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
