@@ -1,129 +1,30 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-04T22:24:38.401213+00:00",
-  "model_count": 12,
+  "run_at": "2026-06-05T04:21:24.913230+00:00",
+  "model_count": 6,
   "models": [
     {
-      "id": "mrsndmn/OCC-RAG-0.6B-ONNX",
-      "author": "mrsndmn",
-      "name": "OCC-RAG-0.6B-ONNX",
-      "created_at": "2026-06-04T22:12:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mrsndmn/OCC-RAG-0.6B-ONNX",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "safaf3e23/MyAwesomeModel-TestRepo",
-      "author": "safaf3e23",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T22:02:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/safaf3e23/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/Lagopus",
-      "author": "zoarag",
-      "name": "Lagopus",
-      "created_at": "2026-06-04T22:01:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Lagopus",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "uzbtrust/lesson_model",
-      "author": "uzbtrust",
-      "name": "lesson_model",
-      "created_at": "2026-06-04T21:59:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/uzbtrust/lesson_model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "FudaxiLA/multilingual-research-paraphrase-mnrl-v3",
-      "author": "FudaxiLA",
-      "name": "multilingual-research-paraphrase-mnrl-v3",
-      "created_at": "2026-06-04T21:46:21+00:00",
+      "id": "ola-owo/distilbert-bigfive-sentence-transformer",
+      "author": "ola-owo",
+      "name": "distilbert-bigfive-sentence-transformer",
+      "created_at": "2026-06-05T03:57:47+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "xlm-roberta",
-        "feature-extraction",
+        "distilbert",
         "sentence-similarity",
-        "transformers",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:2250",
+        "loss:MultiLabelBCEWithLogitsLoss",
+        "en",
+        "dataset:ola-owo/big-five-personality-traits",
+        "arxiv:1908.10084",
+        "base_model:distilbert/distilbert-base-multilingual-cased",
+        "base_model:finetune:distilbert/distilbert-base-multilingual-cased",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -132,9 +33,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/FudaxiLA/multilingual-research-paraphrase-mnrl-v3",
+      "url": "https://huggingface.co/ola-owo/distilbert-bigfive-sentence-transformer",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
@@ -143,18 +46,29 @@
       ]
     },
     {
-      "id": "dfsfg5657/MyAwesomeModel-TestRepo",
-      "author": "dfsfg5657",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:43:31+00:00",
+      "id": "xiezc123/ESMC-6B",
+      "author": "xiezc123",
+      "name": "ESMC-6B",
+      "created_at": "2026-06-05T03:31:04+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "fill-mask",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
+        "safetensors",
+        "esmc",
+        "fill-mask",
+        "biology",
+        "esm",
+        "protein",
+        "protein-language-model",
+        "protein-embeddings",
+        "masked-language-modeling",
+        "transfer-learning",
+        "variant-effect-prediction",
+        "protein-engineering",
+        "en",
         "license:mit",
+        "license:other",
         "endpoints_compatible",
         "region:us"
       ],
@@ -162,28 +76,37 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dfsfg5657/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/xiezc123/ESMC-6B",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "saaffs454/MyAwesomeModel-TestRepo",
-      "author": "saaffs454",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:34:00+00:00",
+      "id": "emotions-entailment/roberta-raw",
+      "author": "emotions-entailment",
+      "name": "roberta-raw",
+      "created_at": "2026-06-05T03:28:26+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
+        "tensorboard",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "en",
+        "dataset:emotions-entailment/zero-shot-emotions",
+        "base_model:FacebookAI/roberta-base",
+        "base_model:finetune:FacebookAI/roberta-base",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -191,82 +114,69 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/saaffs454/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/emotions-entailment/roberta-raw",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sfafas2234/MyAwesomeModel-TestRepo",
-      "author": "sfafas2234",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:33:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
+      "languages": [
+        "en"
       ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sfafas2234/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "AswiniSivakumar/Video-LLaVA-7B_RAGDRIVER_V2",
-      "author": "AswiniSivakumar",
-      "name": "Video-LLaVA-7B_RAGDRIVER_V2",
-      "created_at": "2026-06-04T21:28:19+00:00",
+      "id": "Deehan1866/electra-wic-angle3-withbannedwords",
+      "author": "Deehan1866",
+      "name": "electra-wic-angle3-withbannedwords",
+      "created_at": "2026-06-05T03:19:05+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "pytorch",
-        "llava",
+        "safetensors",
+        "electra",
+        "word-sense-disambiguation",
+        "wic",
+        "deberta",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/WiC_actual",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/AswiniSivakumar/Video-LLaVA-7B_RAGDRIVER_V2",
+      "url": "https://huggingface.co/Deehan1866/electra-wic-angle3-withbannedwords",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: cross-encoder"
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:28:11+00:00",
+      "id": "cnmoro/portuguese-multilingual-e5-small",
+      "author": "cnmoro",
+      "name": "portuguese-multilingual-e5-small",
+      "created_at": "2026-06-05T03:15:36+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers",
-        "pytorch",
+        "sentence-transformers",
+        "safetensors",
         "bert",
-        "feature-extraction",
+        "passage-retrieval",
+        "sentence-similarity",
+        "pruned",
+        "pt",
+        "base_model:intfloat/multilingual-e5-small",
+        "base_model:quantized:intfloat/multilingual-e5-small",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -274,28 +184,36 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/cnmoro/portuguese-multilingual-e5-small",
       "description": null,
-      "languages": [],
+      "languages": [
+        "pt"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
       ]
     },
     {
-      "id": "safafa456/MyAwesomeModel-TestRepo",
-      "author": "safafa456",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:21:34+00:00",
+      "id": "emotions-entailment/roberta-8-4-1.25-65-75",
+      "author": "emotions-entailment",
+      "name": "roberta-8-4-1.25-65-75",
+      "created_at": "2026-06-05T03:11:50+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
+        "tensorboard",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:FacebookAI/roberta-base",
+        "base_model:finetune:FacebookAI/roberta-base",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -303,42 +221,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safafa456/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/emotions-entailment/roberta-8-4-1.25-65-75",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aigc-x/MyAwesomeModel-TestRepo",
-      "author": "aigc-x",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-04T21:19:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aigc-x/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
