@@ -1,18 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-05  
-**Run timestamp:** 2026-06-05 10:03 UTC  
+**Run timestamp:** 2026-06-05 15:17 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 12
+**New models found:** 10
 
 ---
 
 
 
-### [TomB0421/MyAwesomeModel-TestRepo](https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo)
-**Author:** TomB0421  
+### [ssfdafag567/MyAwesomeModel-TestRepo](https://huggingface.co/ssfdafag567/MyAwesomeModel-TestRepo)
+**Author:** ssfdafag567  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-05  
@@ -25,8 +25,8 @@
 
 
 
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
+### [Roy229/MyAwesomeModel-TestRepo](https://huggingface.co/Roy229/MyAwesomeModel-TestRepo)
+**Author:** Roy229  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-05  
@@ -53,69 +53,13 @@
 
 
 
-### [optimum-intel-internal-testing/tiny-random-qwen3-vl-embedding](https://huggingface.co/optimum-intel-internal-testing/tiny-random-qwen3-vl-embedding)
-**Author:** optimum-intel-internal-testing  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_vl`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding (name).
-
----
-
-
-
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [JalalKhal/modernbert-paper-buddy-rerankerrr](https://huggingface.co/JalalKhal/modernbert-paper-buddy-rerankerrr)
-**Author:** JalalKhal  
-**Task:** text ranking and reranking  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `modernbert`, `cross-encoder`, `reranker`, `text-ranking`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
-
----
-
-
-
-### [LoWiki/roberta-multilabel-classifier_crwiki_old](https://huggingface.co/LoWiki/roberta-multilabel-classifier_crwiki_old)
-**Author:** LoWiki  
+### [biraj-bhusal/rakshak-severity-v1](https://huggingface.co/biraj-bhusal/rakshak-severity-v1)
+**Author:** biraj-bhusal  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `xlm-roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -123,41 +67,27 @@
 
 
 
-### [johannhartmann/SauerkrautLM-Multi-ColBERT-33m-GGUF](https://huggingface.co/johannhartmann/SauerkrautLM-Multi-ColBERT-33m-GGUF)
-**Author:** johannhartmann  
+### [shikharshahi/sifter-redrob-reranker](https://huggingface.co/shikharshahi/sifter-redrob-reranker)
+**Author:** shikharshahi  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `gguf`, `colbert`, `pg_colbert`, `pylate`, `text-embeddings`, `modernbert`  
+**Tags:** `deberta-v2`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
 
 ---
 
 
 
-### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
-**Author:** mcptester0606  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-05  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [JalalKhal/modernbert-paper-buddy-embedderr](https://huggingface.co/JalalKhal/modernbert-paper-buddy-embedderr)
-**Author:** JalalKhal  
+### [TdelaSelle/PatriLaSE](https://huggingface.co/TdelaSelle/PatriLaSE)
+**Author:** TdelaSelle  
 **Task:** sentence similarity and semantic search  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `nomic_bert`, `sentence-similarity`, `feature-extraction`, `custom_code`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:183227`, `loss:MaskedDenoisingAutoEncoderLoss`, `text-embeddings-inference`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
@@ -165,16 +95,62 @@
 
 
 
-### [constructai/taylor-m1-38m-256](https://huggingface.co/constructai/taylor-m1-38m-256)
-**Author:** constructai  
-**Task:** sentence similarity and semantic search  
+### [occ-ai/OCC-RAG-1.7B-ONNX](https://huggingface.co/occ-ai/OCC-RAG-1.7B-ONNX)
+**Author:** occ-ai  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-06-05  
+**Languages:** en, ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformers.js`, `onnx`, `qwen3`, `text-generation`, `rag`, `faithful-qa`, `occ`, `onnxruntime`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [Qdrant/splade-ecommerce-multidomain](https://huggingface.co/Qdrant/splade-ecommerce-multidomain)
+**Author:** Qdrant  
+**Task:** feature extraction / embedding generation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-05  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `taylor-m1`, `sentence-similarity`, `dataset:sentence-transformers/msmarco-msmarco-distilbert-base-v3`, `dataset:microsoft/ms_marco`  
+**Tags:** `sentence-transformers`, `distilbert`, `sparse-encoder`, `sparse`, `splade`, `e-commerce`, `product-search`, `information-retrieval`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Qdrant/splade-ecommerce-esci](https://huggingface.co/Qdrant/splade-ecommerce-esci)
+**Author:** Qdrant  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-05  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `distilbert`, `sparse-encoder`, `sparse`, `splade`, `e-commerce`, `product-search`, `information-retrieval`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [deathlegionteam/sri-lanka-location-intelligence](https://huggingface.co/deathlegionteam/sri-lanka-location-intelligence)
+**Author:** deathlegionteam  
+**Task:** sentence similarity and semantic search  
+**License:** `odbl` ❓ license not confirmed  
+**Published:** 2026-06-05  
+**Languages:** en, si, ta, multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `sri-lanka`, `location-intelligence`, `semantic-search`, `geospatial`, `faiss`, `sinhala`, `tamil`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: sentence-transformers, semantic-search. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -182,4 +158,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-05 10:03 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-05 15:17 UTC*
