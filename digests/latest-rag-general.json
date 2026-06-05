@@ -1,30 +1,196 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-05T04:21:24.913230+00:00",
-  "model_count": 6,
+  "run_at": "2026-06-05T10:03:07.375927+00:00",
+  "model_count": 12,
   "models": [
     {
-      "id": "ola-owo/distilbert-bigfive-sentence-transformer",
-      "author": "ola-owo",
-      "name": "distilbert-bigfive-sentence-transformer",
-      "created_at": "2026-06-05T03:57:47+00:00",
+      "id": "TomB0421/MyAwesomeModel-TestRepo",
+      "author": "TomB0421",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:58:38+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TomB0421/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:55:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "WassupWuK/MyAwesomeModel-TestRepo",
+      "author": "WassupWuK",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:49:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "optimum-intel-internal-testing/tiny-random-qwen3-vl-embedding",
+      "author": "optimum-intel-internal-testing",
+      "name": "tiny-random-qwen3-vl-embedding",
+      "created_at": "2026-06-05T09:49:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3_vl",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-qwen3-vl-embedding",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:48:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:44:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "JalalKhal/modernbert-paper-buddy-rerankerrr",
+      "author": "JalalKhal",
+      "name": "modernbert-paper-buddy-rerankerrr",
+      "created_at": "2026-06-05T09:38:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-ranking",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "distilbert",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:2250",
-        "loss:MultiLabelBCEWithLogitsLoss",
-        "en",
-        "dataset:ola-owo/big-five-personality-traits",
-        "arxiv:1908.10084",
-        "base_model:distilbert/distilbert-base-multilingual-cased",
-        "base_model:finetune:distilbert/distilbert-base-multilingual-cased",
+        "modernbert",
+        "cross-encoder",
+        "reranker",
+        "text-ranking",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -33,11 +199,131 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ola-owo/distilbert-bigfive-sentence-transformer",
+      "url": "https://huggingface.co/JalalKhal/modernbert-paper-buddy-rerankerrr",
       "description": null,
-      "languages": [
-        "en"
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-ranking",
+        "tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder"
+      ]
+    },
+    {
+      "id": "LoWiki/roberta-multilabel-classifier_crwiki_old",
+      "author": "LoWiki",
+      "name": "roberta-multilabel-classifier_crwiki_old",
+      "created_at": "2026-06-05T09:32:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
       ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_crwiki_old",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "johannhartmann/SauerkrautLM-Multi-ColBERT-33m-GGUF",
+      "author": "johannhartmann",
+      "name": "SauerkrautLM-Multi-ColBERT-33m-GGUF",
+      "created_at": "2026-06-05T09:09:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "sentence-transformers",
+        "gguf",
+        "colbert",
+        "pg_colbert",
+        "pylate",
+        "text-embeddings",
+        "modernbert",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/johannhartmann/SauerkrautLM-Multi-ColBERT-33m-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-05T09:07:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "JalalKhal/modernbert-paper-buddy-embedderr",
+      "author": "JalalKhal",
+      "name": "modernbert-paper-buddy-embedderr",
+      "created_at": "2026-06-05T08:59:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "nomic_bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "custom_code",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/JalalKhal/modernbert-paper-buddy-embedderr",
+      "description": null,
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
@@ -46,188 +332,35 @@
       ]
     },
     {
-      "id": "xiezc123/ESMC-6B",
-      "author": "xiezc123",
-      "name": "ESMC-6B",
-      "created_at": "2026-06-05T03:31:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": "fill-mask",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "esmc",
-        "fill-mask",
-        "biology",
-        "esm",
-        "protein",
-        "protein-language-model",
-        "protein-embeddings",
-        "masked-language-modeling",
-        "transfer-learning",
-        "variant-effect-prediction",
-        "protein-engineering",
-        "en",
-        "license:mit",
-        "license:other",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/xiezc123/ESMC-6B",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "emotions-entailment/roberta-raw",
-      "author": "emotions-entailment",
-      "name": "roberta-raw",
-      "created_at": "2026-06-05T03:28:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "generated_from_trainer",
-        "en",
-        "dataset:emotions-entailment/zero-shot-emotions",
-        "base_model:FacebookAI/roberta-base",
-        "base_model:finetune:FacebookAI/roberta-base",
-        "license:mit",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/emotions-entailment/roberta-raw",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Deehan1866/electra-wic-angle3-withbannedwords",
-      "author": "Deehan1866",
-      "name": "electra-wic-angle3-withbannedwords",
-      "created_at": "2026-06-05T03:19:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "electra",
-        "word-sense-disambiguation",
-        "wic",
-        "deberta",
-        "cross-encoder",
-        "en",
-        "dataset:Deehan1866/WiC_actual",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Deehan1866/electra-wic-angle3-withbannedwords",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: cross-encoder"
-      ]
-    },
-    {
-      "id": "cnmoro/portuguese-multilingual-e5-small",
-      "author": "cnmoro",
-      "name": "portuguese-multilingual-e5-small",
-      "created_at": "2026-06-05T03:15:36+00:00",
+      "id": "constructai/taylor-m1-38m-256",
+      "author": "constructai",
+      "name": "taylor-m1-38m-256",
+      "created_at": "2026-06-05T08:50:41+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "bert",
-        "passage-retrieval",
+        "taylor-m1",
         "sentence-similarity",
-        "pruned",
-        "pt",
-        "base_model:intfloat/multilingual-e5-small",
-        "base_model:quantized:intfloat/multilingual-e5-small",
-        "license:mit",
-        "text-embeddings-inference",
-        "endpoints_compatible",
+        "en",
+        "dataset:sentence-transformers/msmarco-msmarco-distilbert-base-v3",
+        "dataset:microsoft/ms_marco",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cnmoro/portuguese-multilingual-e5-small",
+      "url": "https://huggingface.co/constructai/taylor-m1-38m-256",
       "description": null,
       "languages": [
-        "pt"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers, retrieval"
-      ]
-    },
-    {
-      "id": "emotions-entailment/roberta-8-4-1.25-65-75",
-      "author": "emotions-entailment",
-      "name": "roberta-8-4-1.25-65-75",
-      "created_at": "2026-06-05T03:11:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:FacebookAI/roberta-base",
-        "base_model:finetune:FacebookAI/roberta-base",
-        "license:mit",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/emotions-entailment/roberta-8-4-1.25-65-75",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: sentence-transformers"
       ]
     }
   ]
