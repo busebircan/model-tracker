@@ -1,14 +1,38 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-06T10:56:50.259379+00:00",
-  "model_count": 10,
+  "run_at": "2026-06-06T16:11:51.227144+00:00",
+  "model_count": 13,
   "models": [
     {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
+      "id": "OutrageouslyBad200/SMAT_ablations",
+      "author": "OutrageouslyBad200",
+      "name": "SMAT_ablations",
+      "created_at": "2026-06-06T16:09:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/OutrageouslyBad200/SMAT_ablations",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "liuf12123456/MyAwesomeModel-TestRepo",
+      "author": "liuf12123456",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T10:48:57+00:00",
+      "created_at": "2026-06-06T15:52:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +48,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/liuf12123456/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,64 +58,10 @@
       ]
     },
     {
-      "id": "XuehangCang/MiniCPM5-1B-heretic",
-      "author": "XuehangCang",
-      "name": "MiniCPM5-1B-heretic",
-      "created_at": "2026-06-06T10:46:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "minicpm",
-        "minicpm5",
-        "long-context",
-        "tool-calling",
-        "on-device",
-        "edge-ai",
-        "heretic",
-        "uncensored",
-        "decensored",
-        "abliterated",
-        "conversational",
-        "en",
-        "zh",
-        "dataset:openbmb/Ultra-FineWeb",
-        "dataset:openbmb/Ultra-FineWeb-L3",
-        "dataset:openbmb/UltraData-Math",
-        "dataset:openbmb/UltraData-SFT-2605",
-        "arxiv:2506.07900",
-        "arxiv:2602.09003",
-        "arxiv:2512.16649",
-        "arxiv:2604.13016",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/XuehangCang/MiniCPM5-1B-heretic",
-      "description": null,
-      "languages": [
-        "en",
-        "zh"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: long-context"
-      ]
-    },
-    {
       "id": "Tswatery/MyAwesomeModel-TestRepo",
       "author": "Tswatery",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T10:25:55+00:00",
+      "created_at": "2026-06-06T15:44:16+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -117,144 +87,20 @@
       ]
     },
     {
-      "id": "mlx-community/Qwen3-Reranker-0.6B-4bit",
-      "author": "mlx-community",
-      "name": "Qwen3-Reranker-0.6B-4bit",
-      "created_at": "2026-06-06T10:22:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-ranking",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "qwen3",
-        "sentence-transformers",
-        "text-ranking",
-        "reranker",
-        "base_model:Qwen/Qwen3-Reranker-0.6B",
-        "base_model:quantized:Qwen/Qwen3-Reranker-0.6B",
-        "license:apache-2.0",
-        "4-bit",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mlx-community/Qwen3-Reranker-0.6B-4bit",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-ranking",
-        "tag match: sentence-transformers, reranker"
-      ]
-    },
-    {
-      "id": "Shreyu5835/bert-imdb-sentiment",
-      "author": "Shreyu5835",
-      "name": "bert-imdb-sentiment",
-      "created_at": "2026-06-06T10:21:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Shreyu5835/bert-imdb-sentiment",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "LoWiki/roberta-multilabel-classifier_crwiki_2",
-      "author": "LoWiki",
-      "name": "roberta-multilabel-classifier_crwiki_2",
-      "created_at": "2026-06-06T10:21:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_crwiki_2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "dDadsaqq/MyAwesomeModel-TestRepo",
-      "author": "dDadsaqq",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T09:59:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "lovelydev1007/beverage",
-      "author": "lovelydev1007",
-      "name": "beverage",
-      "created_at": "2026-06-06T09:54:13+00:00",
+      "id": "darragh11dec/weights",
+      "author": "darragh11dec",
+      "name": "weights",
+      "created_at": "2026-06-06T15:39:58+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "onnx",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/lovelydev1007/beverage",
+      "url": "https://huggingface.co/darragh11dec/weights",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -264,10 +110,159 @@
       ]
     },
     {
+      "id": "ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run_test",
+      "author": "ymoslem",
+      "name": "ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run_test",
+      "created_at": "2026-06-06T15:38:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "quality-estimation",
+        "classification",
+        "binary-classification",
+        "generated_from_trainer",
+        "en",
+        "dataset:ymoslem/TeleQnA-router",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
+        "license:apache-2.0",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run_test",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "PeikaFizzy/autotrain-cz2d3-ocq3i",
+      "author": "PeikaFizzy",
+      "name": "autotrain-cz2d3-ocq3i",
+      "created_at": "2026-06-06T15:32:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "autotrain",
+        "base_model:google-bert/bert-base-chinese",
+        "base_model:finetune:google-bert/bert-base-chinese",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PeikaFizzy/autotrain-cz2d3-ocq3i",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Muapi/dungeons-dragons-art-style-capture-fantasy-lora-xl",
+      "author": "Muapi",
+      "name": "dungeons-dragons-art-style-capture-fantasy-lora-xl",
+      "created_at": "2026-06-06T15:21:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "lora",
+        "text-to-image",
+        "stable-diffusion-xl",
+        "sdxl",
+        "sdxl-1.0",
+        "base_model:stabilityai/stable-diffusion-xl-base-1.0",
+        "base_model:adapter:stabilityai/stable-diffusion-xl-base-1.0",
+        "license:openrail++",
+        "region:us"
+      ],
+      "license": "openrail++",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Muapi/dungeons-dragons-art-style-capture-fantasy-lora-xl",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-5runs",
+      "author": "ymoslem",
+      "name": "ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-5runs",
+      "created_at": "2026-06-06T15:19:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "quality-estimation",
+        "classification",
+        "binary-classification",
+        "generated_from_trainer",
+        "en",
+        "dataset:ymoslem/TeleQnA-router",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
+        "license:apache-2.0",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-5runs",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T09:53:44+00:00",
+      "created_at": "2026-06-06T15:18:58+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -293,32 +288,122 @@
       ]
     },
     {
-      "id": "WassupWuK/MyAwesomeModel-TestRepo",
-      "author": "WassupWuK",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T09:33:26+00:00",
+      "id": "goldRushing/trace_cot_visual_rag_model_checkpoint",
+      "author": "goldRushing",
+      "name": "trace_cot_visual_rag_model_checkpoint",
+      "created_at": "2026-06-06T15:15:25+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/goldRushing/trace_cot_visual_rag_model_checkpoint",
       "description": null,
       "languages": [],
       "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "sammydamz/mamacare-triage-model",
+      "author": "sammydamz",
+      "name": "mamacare-triage-model",
+      "created_at": "2026-06-06T15:15:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sammydamz/mamacare-triage-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "lionelac/st-modules-json-scan-test-20260606",
+      "author": "lionelac",
+      "name": "st-modules-json-scan-test-20260606",
+      "created_at": "2026-06-06T15:03:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "sentence-transformers",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lionelac/st-modules-json-scan-test-20260606",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: sentence-transformers"
+      ]
+    },
+    {
+      "id": "ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run",
+      "author": "ymoslem",
+      "name": "ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run",
+      "created_at": "2026-06-06T15:02:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "modernbert",
+        "text-classification",
+        "quality-estimation",
+        "classification",
+        "binary-classification",
+        "generated_from_trainer",
+        "en",
+        "dataset:ymoslem/TeleQnA-router",
+        "base_model:answerdotai/ModernBERT-base",
+        "base_model:finetune:answerdotai/ModernBERT-base",
+        "license:apache-2.0",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ymoslem/ModernBERT-base-TeleQnA-router-qe-classifier-binary-10ep-lr2e-05-qwen4b-1run",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
