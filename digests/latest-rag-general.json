@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-06T08:41:46.391737+00:00",
-  "model_count": 9,
+  "run_at": "2026-06-06T10:56:50.259379+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "Roy229/MyAwesomeModel-TestRepo",
-      "author": "Roy229",
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T08:38:37+00:00",
+      "created_at": "2026-06-06T10:48:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Roy229/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,38 +34,64 @@
       ]
     },
     {
-      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
-      "author": "zxcgvbgfdg",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T08:30:37+00:00",
+      "id": "XuehangCang/MiniCPM5-1B-heretic",
+      "author": "XuehangCang",
+      "name": "MiniCPM5-1B-heretic",
+      "created_at": "2026-06-06T10:46:41+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "minicpm",
+        "minicpm5",
+        "long-context",
+        "tool-calling",
+        "on-device",
+        "edge-ai",
+        "heretic",
+        "uncensored",
+        "decensored",
+        "abliterated",
+        "conversational",
+        "en",
+        "zh",
+        "dataset:openbmb/Ultra-FineWeb",
+        "dataset:openbmb/Ultra-FineWeb-L3",
+        "dataset:openbmb/UltraData-Math",
+        "dataset:openbmb/UltraData-SFT-2605",
+        "arxiv:2506.07900",
+        "arxiv:2602.09003",
+        "arxiv:2512.16649",
+        "arxiv:2604.13016",
+        "license:apache-2.0",
+        "text-generation-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/XuehangCang/MiniCPM5-1B-heretic",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "zh"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: long-context"
       ]
     },
     {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
+      "id": "Tswatery/MyAwesomeModel-TestRepo",
+      "author": "Tswatery",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T08:26:12+00:00",
+      "created_at": "2026-06-06T10:25:55+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -81,7 +107,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Tswatery/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -91,39 +117,74 @@
       ]
     },
     {
-      "id": "dfsfsdg5657/MyAwesomeModel-TestRepo",
-      "author": "dfsfsdg5657",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T08:22:48+00:00",
+      "id": "mlx-community/Qwen3-Reranker-0.6B-4bit",
+      "author": "mlx-community",
+      "name": "Qwen3-Reranker-0.6B-4bit",
+      "created_at": "2026-06-06T10:22:03+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-ranking",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "mlx",
+        "safetensors",
+        "qwen3",
+        "sentence-transformers",
+        "text-ranking",
+        "reranker",
+        "base_model:Qwen/Qwen3-Reranker-0.6B",
+        "base_model:quantized:Qwen/Qwen3-Reranker-0.6B",
+        "license:apache-2.0",
+        "4-bit",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dfsfsdg5657/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mlx-community/Qwen3-Reranker-0.6B-4bit",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: text-ranking",
+        "tag match: sentence-transformers, reranker"
       ]
     },
     {
-      "id": "LoWiki/roberta-multilabel-classifier_crwiki",
+      "id": "Shreyu5835/bert-imdb-sentiment",
+      "author": "Shreyu5835",
+      "name": "bert-imdb-sentiment",
+      "created_at": "2026-06-06T10:21:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Shreyu5835/bert-imdb-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "LoWiki/roberta-multilabel-classifier_crwiki_2",
       "author": "LoWiki",
-      "name": "roberta-multilabel-classifier_crwiki",
-      "created_at": "2026-06-06T08:20:34+00:00",
+      "name": "roberta-multilabel-classifier_crwiki_2",
+      "created_at": "2026-06-06T10:21:02+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -140,7 +201,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_crwiki",
+      "url": "https://huggingface.co/LoWiki/roberta-multilabel-classifier_crwiki_2",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -150,10 +211,10 @@
       ]
     },
     {
-      "id": "hdqtoolathlon/MyAwesomeModel-TestRepo",
-      "author": "hdqtoolathlon",
+      "id": "dDadsaqq/MyAwesomeModel-TestRepo",
+      "author": "dDadsaqq",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T08:20:08+00:00",
+      "created_at": "2026-06-06T09:59:10+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -169,7 +230,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/hdqtoolathlon/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -179,10 +240,34 @@
       ]
     },
     {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
+      "id": "lovelydev1007/beverage",
+      "author": "lovelydev1007",
+      "name": "beverage",
+      "created_at": "2026-06-06T09:54:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lovelydev1007/beverage",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "dongbobo/MyAwesomeModel-TestRepo",
+      "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T07:51:04+00:00",
+      "created_at": "2026-06-06T09:53:44+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -198,7 +283,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -208,10 +293,10 @@
       ]
     },
     {
-      "id": "howie92/MyAwesomeModel-TestRepo",
-      "author": "howie92",
+      "id": "WassupWuK/MyAwesomeModel-TestRepo",
+      "author": "WassupWuK",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-06T07:39:14+00:00",
+      "created_at": "2026-06-06T09:33:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -224,53 +309,16 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 244,
+      "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/howie92/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "pxlnstn/distilbert-ticket-routing",
-      "author": "pxlnstn",
-      "name": "distilbert-ticket-routing",
-      "created_at": "2026-06-06T07:23:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "customer-support",
-        "ticket-routing",
-        "intent-classification",
-        "en",
-        "dataset:Tobi-Bueck/customer-support-tickets",
-        "license:cc-by-nc-4.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-nc-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pxlnstn/distilbert-ticket-routing",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
       ]
     }
   ]
