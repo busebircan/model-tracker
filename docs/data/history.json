@@ -4210,6 +4210,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-08T16:06:12.637746+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "safetensors",
+            "endpoints_compatible",
+            "en",
+            "gguf",
+            "text-generation",
+            "transformers",
+            "uncensored",
+            "zh"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "en",
+            "conversational",
+            "uncensored",
+            "zh",
+            "multilingual",
+            "vision",
+            "safetensors"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "endpoints_compatible",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "text-classification",
+            "sentence-transformers",
+            "questionnaire-harmonization",
+            "contrastive-learning",
+            "en",
+            "feature-extraction",
+            "safetensors"
+          ]
+        },
+        "personal_research": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "text-classification"
+          ]
+        },
+        "safety_security": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "gguf",
+            "safetensors",
+            "uncensored",
+            "transformers",
+            "zh",
+            "multilingual"
+          ]
+        }
+      }
     }
   ]
 }
