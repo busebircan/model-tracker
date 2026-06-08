@@ -1,115 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-08T16:06:11.591043+00:00",
-  "model_count": 7,
+  "run_at": "2026-06-08T20:26:12.230259+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "gscoppino/Qwen3-Reranker-4B-GGUF-llama_cpp",
-      "author": "gscoppino",
-      "name": "Qwen3-Reranker-4B-GGUF-llama_cpp",
-      "created_at": "2026-06-08T15:54:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-ranking",
-      "tags": [
-        "gguf",
-        "reranker",
-        "llama.cpp",
-        "qwen3",
-        "text-ranking",
-        "base_model:Qwen/Qwen3-Reranker-4B",
-        "base_model:quantized:Qwen/Qwen3-Reranker-4B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/gscoppino/Qwen3-Reranker-4B-GGUF-llama_cpp",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-ranking",
-        "tag match: reranker"
-      ]
-    },
-    {
-      "id": "duygucakir/emotion-analysis-distilbert",
-      "author": "duygucakir",
-      "name": "emotion-analysis-distilbert",
-      "created_at": "2026-06-08T15:47:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tf",
-        "distilbert",
-        "text-classification",
-        "generated_from_keras_callback",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/duygucakir/emotion-analysis-distilbert",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "julia-pfarr/HarmoniCA_sleep",
-      "author": "julia-pfarr",
-      "name": "HarmoniCA_sleep",
-      "created_at": "2026-06-08T15:47:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "sentence-transformers",
-        "questionnaire-harmonization",
-        "contrastive-learning",
-        "sleep",
-        "text-classification",
-        "en",
-        "base_model:princeton-nlp/sup-simcse-roberta-large",
-        "base_model:finetune:princeton-nlp/sup-simcse-roberta-large",
-        "license:cc-by-4.0",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/julia-pfarr/HarmoniCA_sleep",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers"
-      ]
-    },
-    {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
+      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
+      "author": "SOTAagi2030",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-08T15:46:17+00:00",
+      "created_at": "2026-06-08T20:22:11+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -125,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -135,60 +34,35 @@
       ]
     },
     {
-      "id": "Baldezo313/deepseek_ocr_merged",
-      "author": "Baldezo313",
-      "name": "deepseek_ocr_merged",
-      "created_at": "2026-06-08T15:40:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "DeepseekOCR",
-        "feature-extraction",
-        "unsloth",
-        "custom_code",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Baldezo313/deepseek_ocr_merged",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "julia-pfarr/HarmoniCA_psychosis",
-      "author": "julia-pfarr",
-      "name": "HarmoniCA_psychosis",
-      "created_at": "2026-06-08T15:10:23+00:00",
+      "id": "fpianz/sentiment-fiction",
+      "author": "fpianz",
+      "name": "sentiment-fiction",
+      "created_at": "2026-06-08T20:10:01+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
-        "sentence-transformers",
+        "transformers",
         "safetensors",
-        "questionnaire-harmonization",
-        "contrastive-learning",
-        "psychosis",
+        "roberta",
         "text-classification",
+        "sentiment-analysis",
+        "literary-sentiment",
         "en",
-        "base_model:hkunlp/instructor-large",
-        "base_model:finetune:hkunlp/instructor-large",
-        "license:cc-by-4.0",
+        "dataset:chcaa/fiction4sentiment",
+        "dataset:chcaa/Fiction4EmoBank",
+        "base_model:j-hartmann/sentiment-roberta-large-english-3-classes",
+        "base_model:finetune:j-hartmann/sentiment-roberta-large-english-3-classes",
+        "license:mit",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/julia-pfarr/HarmoniCA_psychosis",
+      "url": "https://huggingface.co/fpianz/sentiment-fiction",
       "description": null,
       "languages": [
         "en"
@@ -196,14 +70,14 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: sentence-transformers"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "iloveai111/pick_rag_100_lora_binary_gripper",
-      "author": "iloveai111",
-      "name": "pick_rag_100_lora_binary_gripper",
-      "created_at": "2026-06-08T15:05:11+00:00",
+      "id": "zoarag/wrywewrhhsshheser",
+      "author": "zoarag",
+      "name": "wrywewrhhsshheser",
+      "created_at": "2026-06-08T20:04:31+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -213,13 +87,216 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/iloveai111/pick_rag_100_lora_binary_gripper",
+      "url": "https://huggingface.co/zoarag/wrywewrhhsshheser",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "hdqtoolathlon/MyAwesomeModel-TestRepo",
+      "author": "hdqtoolathlon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-08T20:04:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hdqtoolathlon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "dsfsf445/MyAwesomeModel-TestRepo",
+      "author": "dsfsf445",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-08T19:58:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dsfsf445/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "liamweeks/rmc-s1-bert-imdb",
+      "author": "liamweeks",
+      "name": "rmc-s1-bert-imdb",
+      "created_at": "2026-06-08T19:52:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/liamweeks/rmc-s1-bert-imdb",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-08T19:49:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "laosuu/14B-DPO-alpha",
+      "author": "laosuu",
+      "name": "14B-DPO-alpha",
+      "created_at": "2026-06-08T19:43:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "pytorch",
+        "llama",
+        "llama2",
+        "qwen",
+        "causallm",
+        "text-generation",
+        "en",
+        "zh",
+        "dataset:JosephusCheung/GuanacoDataset",
+        "dataset:Open-Orca/OpenOrca",
+        "dataset:stingning/ultrachat",
+        "dataset:meta-math/MetaMathQA",
+        "dataset:liuhaotian/LLaVA-Instruct-150K",
+        "dataset:jondurbin/airoboros-3.1",
+        "dataset:WizardLM/WizardLM_evol_instruct_V2_196k",
+        "dataset:RyokoAI/ShareGPT52K",
+        "dataset:RyokoAI/Fandom23K",
+        "dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive",
+        "dataset:wikipedia",
+        "dataset:wiki_lingua",
+        "dataset:fnlp/moss-003-sft-data",
+        "dataset:garage-bAInd/Open-Platypus",
+        "dataset:LDJnr/Puffin",
+        "dataset:openbmb/llava_zh",
+        "dataset:BAAI/COIG",
+        "dataset:TigerResearch/tigerbot-zhihu-zh-10k",
+        "dataset:liwu/MNBVC",
+        "dataset:teknium/openhermes",
+        "dataset:openbmb/UltraFeedback",
+        "dataset:lmsys/lmsys-chat-1m",
+        "license:wtfpl",
+        "region:us"
+      ],
+      "license": "wtfpl",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/laosuu/14B-DPO-alpha",
+      "description": null,
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "qweqwrqwr145/MyAwesomeModel-TestRepo",
+      "author": "qweqwrqwr145",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-08T19:42:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/qweqwrqwr145/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
