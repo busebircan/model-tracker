@@ -4495,6 +4495,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-09T04:07:18.505121+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "bert",
+            "agent"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "diffusers",
+            "lora",
+            "text-to-image",
+            "stable-diffusion-xl",
+            "sdxl",
+            "sdxl-1.0",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "text-generation",
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "text-generation-inference",
+            "agent",
+            "gpt_neox"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "text-classification",
+            "roberta",
+            "text-embeddings-inference",
+            "pytorch"
+          ]
+        },
+        "personal_research": {
+          "model_count": 26,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "agent",
+            "gpt_neox"
+          ]
+        },
+        "safety_security": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "bert",
+            "gpt_neox"
+          ]
+        }
+      }
     }
   ]
 }
