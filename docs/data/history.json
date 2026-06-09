@@ -4590,6 +4590,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-09T09:56:05.658654+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "en",
+            "quantized",
+            "image-text-to-text",
+            "onnx"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "en",
+            "onnx",
+            "safetensors",
+            "quantized",
+            "conversational",
+            "dghs-imgutils",
+            "image-text-to-text",
+            "gemma4",
+            "mlx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "quantized",
+            "generated_from_trainer",
+            "qwen3"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "quantized",
+            "en",
+            "endpoints_compatible",
+            "onnx",
+            "transformers",
+            "openvino",
+            "int8",
+            "nncf"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "generated_from_trainer",
+            "lerobot",
+            "robotics"
+          ]
+        },
+        "safety_security": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "en",
+            "unsloth",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }

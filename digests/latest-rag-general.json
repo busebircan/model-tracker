@@ -1,49 +1,61 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-09T04:07:15.414525+00:00",
-  "model_count": 6,
+  "run_at": "2026-06-09T09:56:04.977184+00:00",
+  "model_count": 13,
   "models": [
     {
-      "id": "jklam00/my-awesome-model",
-      "author": "jklam00",
-      "name": "my-awesome-model",
-      "created_at": "2026-06-09T04:04:38+00:00",
+      "id": "occ-ai/OCC-RAG-0.6B-GGUF",
+      "author": "occ-ai",
+      "name": "OCC-RAG-0.6B-GGUF",
+      "created_at": "2026-06-09T09:50:52+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-generation",
       "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "arxiv:1910.09700",
+        "gguf",
+        "rag",
+        "faithful-qa",
+        "occ",
+        "llama.cpp",
+        "quantized",
+        "text-generation",
+        "en",
+        "ru",
+        "arxiv:2606.00683",
+        "base_model:occ-ai/OCC-RAG-0.6B",
+        "base_model:quantized:occ-ai/OCC-RAG-0.6B",
+        "license:mit",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jklam00/my-awesome-model",
+      "url": "https://huggingface.co/occ-ai/OCC-RAG-0.6B-GGUF",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "ru"
+      ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag"
       ]
     },
     {
-      "id": "Desalegnn/hpRoBERTa",
-      "author": "Desalegnn",
-      "name": "hpRoBERTa",
-      "created_at": "2026-06-09T03:59:55+00:00",
+      "id": "g25ait2046/distilbert-emotion-mlops-a3",
+      "author": "g25ait2046",
+      "name": "distilbert-emotion-mlops-a3",
+      "created_at": "2026-06-09T09:45:33+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "roberta",
+        "distilbert",
         "text-classification",
         "arxiv:1910.09700",
         "text-embeddings-inference",
@@ -54,7 +66,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Desalegnn/hpRoBERTa",
+      "url": "https://huggingface.co/g25ait2046/distilbert-emotion-mlops-a3",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -64,10 +76,34 @@
       ]
     },
     {
+      "id": "Emtenan/doctrine-rag-qwen",
+      "author": "Emtenan",
+      "name": "doctrine-rag-qwen",
+      "created_at": "2026-06-09T09:36:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Emtenan/doctrine-rag-qwen",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-09T03:52:22+00:00",
+      "created_at": "2026-06-09T09:35:12+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -93,10 +129,267 @@
       ]
     },
     {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
+      "id": "Library-Mutsumi/wd14_tagger_with_embeddings",
+      "author": "Library-Mutsumi",
+      "name": "wd14_tagger_with_embeddings",
+      "created_at": "2026-06-09T09:32:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "en",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Library-Mutsumi/wd14_tagger_with_embeddings",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings (name), embedding (name)"
+      ]
+    },
+    {
+      "id": "Library-Mutsumi/idolsankaku_tagger_with_embeddings",
+      "author": "Library-Mutsumi",
+      "name": "idolsankaku_tagger_with_embeddings",
+      "created_at": "2026-06-09T09:29:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-classification",
+      "tags": [
+        "dghs-imgutils",
+        "onnx",
+        "timm",
+        "image",
+        "dghs-realutils",
+        "image-classification",
+        "en",
+        "base_model:deepghs/idolsankaku-eva02-large-tagger-v1",
+        "base_model:quantized:deepghs/idolsankaku-eva02-large-tagger-v1",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Library-Mutsumi/idolsankaku_tagger_with_embeddings",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings (name), embedding (name)"
+      ]
+    },
+    {
+      "id": "acul3/stable-audio-3-executorch-qnn-sm8750",
+      "author": "acul3",
+      "name": "stable-audio-3-executorch-qnn-sm8750",
+      "created_at": "2026-06-09T09:23:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-audio",
+      "tags": [
+        "executorch",
+        "qualcomm",
+        "qnn",
+        "text-to-audio",
+        "stable-audio",
+        "on-device",
+        "snapdragon",
+        "en",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/acul3/stable-audio-3-executorch-qnn-sm8750",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "Library-Mutsumi/insightface",
+      "author": "Library-Mutsumi",
+      "name": "insightface",
+      "created_at": "2026-06-09T09:18:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "onnx",
+        "face",
+        "feature-extraction",
+        "arxiv:1708.08197",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Library-Mutsumi/insightface",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Library-Mutsumi/dinov2_onnx",
+      "author": "Library-Mutsumi",
+      "name": "dinov2_onnx",
+      "created_at": "2026-06-09T09:17:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "dghs-realutils",
+        "onnx",
+        "dghs-imgutils",
+        "dinov2",
+        "feature-extraction",
+        "base_model:facebook/dinov2-base",
+        "base_model:quantized:facebook/dinov2-base",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Library-Mutsumi/dinov2_onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "stellars/mdeberta-v3-base-mnli-xnli-openvino-int8",
+      "author": "stellars",
+      "name": "mdeberta-v3-base-mnli-xnli-openvino-int8",
+      "created_at": "2026-06-09T09:11:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "zero-shot-classification",
+      "tags": [
+        "openvino",
+        "deberta-v2",
+        "int8",
+        "nncf",
+        "quantized",
+        "grounding",
+        "cross-encoder",
+        "zero-shot-classification",
+        "base_model:MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+        "base_model:finetune:MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/stellars/mdeberta-v3-base-mnli-xnli-openvino-int8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "stellars/bge-m3-openvino-int8",
+      "author": "stellars",
+      "name": "bge-m3-openvino-int8",
+      "created_at": "2026-06-09T09:11:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "openvino",
+        "xlm-roberta",
+        "int8",
+        "nncf",
+        "quantized",
+        "grounding",
+        "cross-encoder",
+        "feature-extraction",
+        "base_model:BAAI/bge-m3",
+        "base_model:finetune:BAAI/bge-m3",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/stellars/bge-m3-openvino-int8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "stellars/bge-reranker-v2-m3-openvino-int8",
+      "author": "stellars",
+      "name": "bge-reranker-v2-m3-openvino-int8",
+      "created_at": "2026-06-09T09:10:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "openvino",
+        "xlm-roberta",
+        "int8",
+        "nncf",
+        "quantized",
+        "grounding",
+        "cross-encoder",
+        "text-classification",
+        "base_model:BAAI/bge-reranker-v2-m3",
+        "base_model:finetune:BAAI/bge-reranker-v2-m3",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/stellars/bge-reranker-v2-m3-openvino-int8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: reranker, cross-encoder"
+      ]
+    },
+    {
+      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
+      "author": "SOTAagi2030",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-09T03:50:00+00:00",
+      "created_at": "2026-06-09T09:07:20+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -112,79 +405,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Desalegnn/hpBERT",
-      "author": "Desalegnn",
-      "name": "hpBERT",
-      "created_at": "2026-06-09T03:38:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Desalegnn/hpBERT",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "nishu08/sql-codebert-classifier",
-      "author": "nishu08",
-      "name": "sql-codebert-classifier",
-      "created_at": "2026-06-09T03:35:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "safetensors",
-        "roberta",
-        "codebert",
-        "sql",
-        "education",
-        "text-classification",
-        "cross-encoder",
-        "en",
-        "base_model:microsoft/codebert-base",
-        "base_model:finetune:microsoft/codebert-base",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/nishu08/sql-codebert-classifier",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: cross-encoder"
       ]
     }
   ]
