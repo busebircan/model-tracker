@@ -1,7 +1,7 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-06-09  
-**Run timestamp:** 2026-06-09 22:27 UTC  
+**Date:** 2026-06-10  
+**Run timestamp:** 2026-06-10 04:18 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
@@ -11,25 +11,11 @@
 
 
 
-### [YuvarajK-g25ait2054/ag-news-distilbert_new](https://huggingface.co/YuvarajK-g25ait2054/ag-news-distilbert_new)
-**Author:** YuvarajK-g25ait2054  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [A11asda/MyAwesomeModel-TestRepo](https://huggingface.co/A11asda/MyAwesomeModel-TestRepo)
-**Author:** A11asda  
+### [hdqtoolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/hdqtoolathlon/MyAwesomeModel-TestRepo)
+**Author:** hdqtoolathlon  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-09  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -39,11 +25,11 @@
 
 
 
-### [dongbobo/MyAwesomeModel-TestRepo](https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo)
-**Author:** dongbobo  
+### [sdsssjjjj/MyAwesomeModel-TestRepo](https://huggingface.co/sdsssjjjj/MyAwesomeModel-TestRepo)
+**Author:** sdsssjjjj  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-09  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -53,15 +39,27 @@
 
 
 
-### [ozguragar/Qwen2.5-1.5B-GRPO-1k-main-only](https://huggingface.co/ozguragar/Qwen2.5-1.5B-GRPO-1k-main-only)
-**Author:** ozguragar  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-06-09  
-**Languages:** en  
+### [ghadinehme/CADFit](https://huggingface.co/ghadinehme/CADFit)
+**Author:** ghadinehme  
+**Task:** feature extraction / embedding generation  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+**Tags:** `cad`, `mesh-to-cad`, `reverse-engineering`, `sketch-filter`, `dinov2`, `mlp`, `feature-extraction`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Muapi/dragon-ball-style](https://huggingface.co/Muapi/dragon-ball-style)
+**Author:** Muapi  
+**Task:** text to image  
+**License:** `openrail++` ✅ commercial use allowed  
+**Published:** 2026-06-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `lora`, `text-to-image`, `stable-diffusion-xl`, `pony`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -69,11 +67,11 @@
 
 
 
-### [aaadereqq/MyAwesomeModel-TestRepo](https://huggingface.co/aaadereqq/MyAwesomeModel-TestRepo)
-**Author:** aaadereqq  
+### [sw3ddwsw/MyAwesomeModel-TestRepo](https://huggingface.co/sw3ddwsw/MyAwesomeModel-TestRepo)
+**Author:** sw3ddwsw  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-09  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -83,27 +81,27 @@
 
 
 
-### [Kaylebor/pf2e-codex-reranker](https://huggingface.co/Kaylebor/pf2e-codex-reranker)
-**Author:** Kaylebor  
+### [minchaoh2002/gemma-4-E4B-PragReST](https://huggingface.co/minchaoh2002/gemma-4-E4B-PragReST)
+**Author:** minchaoh2002  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-09  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `xlm-roberta`  
+**Tags:** `gemma4`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [tamarasuarezrod/longeval-s1-date-prefix-seed42](https://huggingface.co/tamarasuarezrod/longeval-s1-date-prefix-seed42)
-**Author:** tamarasuarezrod  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-09  
+### [maifeng/earnings-call-word2vec](https://huggingface.co/maifeng/earnings-call-word2vec)
+**Author:** maifeng  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-06-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `gensim`, `word2vec`, `word-embeddings`, `earnings-calls`, `finance`, `nlp`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -113,4 +111,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-09 22:27 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-10 04:18 UTC*

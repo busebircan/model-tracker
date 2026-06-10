@@ -5065,6 +5065,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-10T04:18:33.167311+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "transformers",
+            "en",
+            "quantized"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "quantized",
+            "endpoints_compatible",
+            "en",
+            "hipfire",
+            "liquid",
+            "lfm2.5",
+            "edge"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "peft",
+            "lora",
+            "quantized",
+            "model-organism",
+            "steganography",
+            "chain-of-thought"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "cad",
+            "mesh-to-cad",
+            "reverse-engineering",
+            "sketch-filter"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "model-organism",
+            "steganography",
+            "chain-of-thought"
+          ]
+        },
+        "safety_security": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "lora",
+            "peft",
+            "model-organism",
+            "steganography"
+          ]
+        }
+      }
     }
   ]
 }
