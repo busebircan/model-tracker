@@ -6201,6 +6201,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-12T04:43:44.977211+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "peft",
+            "lora",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "conversational",
+            "feature-extraction",
+            "onnx",
+            "bert",
+            "gguf",
+            "diffusers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "custom_code",
+            "base_model:adapter:Qwen/Qwen3.5-4B",
+            "llama-factory"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "feature-extraction",
+            "transformers",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "text-embeddings-inference",
+            "sentence-transformers",
+            "sentence-similarity"
+          ]
+        },
+        "personal_research": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "lora",
+            "peft",
+            "base_model:adapter:Qwen/Qwen3.5-4B",
+            "llama-factory"
+          ]
+        },
+        "safety_security": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "text-generation-inference",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
