@@ -7151,6 +7151,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-13T19:44:59.314244+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "peft",
+            "transformers",
+            "en",
+            "endpoints_compatible",
+            "conversational",
+            "thai",
+            "kanitakorn"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "transformers",
+            "text-generation",
+            "en",
+            "custom_code",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "llama",
+            "text-generation-inference",
+            "en",
+            "8-bit"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "avhubert",
+            "image-feature-extraction",
+            "custom_code"
+          ]
+        },
+        "personal_research": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "llama",
+            "en",
+            "text-generation-inference",
+            "8-bit"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "llama",
+            "text-generation-inference",
+            "gguf",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
