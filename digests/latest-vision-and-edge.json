@@ -1,77 +1,350 @@
 {
   "profile": "vision_and_edge",
   "display_name": "Vision & Edge Deployment",
-  "run_at": "2026-06-15T05:05:46.603754+00:00",
-  "model_count": 13,
+  "run_at": "2026-06-15T12:30:49.016803+00:00",
+  "model_count": 45,
   "models": [
     {
-      "id": "mradermacher/Iris-12B-gemma-4-it-qat-GGUF",
-      "author": "mradermacher",
-      "name": "Iris-12B-gemma-4-it-qat-GGUF",
-      "created_at": "2026-06-15T05:03:46+00:00",
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:29:31+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "gguf",
+        "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/Iris-12B-gemma-4-it-qat-GGUF",
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce-rmid-epe",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "license unknown (may not be commercial)",
-        "tag match: ir (name), gguf"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "mradermacher/alduin-4b-it-base-GGUF",
-      "author": "mradermacher",
-      "name": "alduin-4b-it-base-GGUF",
-      "created_at": "2026-06-15T05:00:08+00:00",
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce",
+      "created_at": "2026-06-15T12:28:24+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "gguf",
-        "unsloth",
-        "heretic",
-        "uncensored",
-        "decensored",
-        "abliterated",
-        "en",
-        "base_model:mdamir97/alduin-4b-it-base",
-        "base_model:quantized:mdamir97/alduin-4b-it-base",
-        "license:gemma",
-        "endpoints_compatible",
+        "safetensors",
+        "llama",
         "region:us"
       ],
-      "license": "gemma",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/alduin-4b-it-base-GGUF",
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf10-epe-3b-nobce",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "commercial license",
-        "tag match: ir, gguf, quantized"
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "mradermacher/gemma4-12b-it-styletuned-GGUF",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b-nbd",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b-nbd",
+      "created_at": "2026-06-15T12:26:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b-nbd",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b-nbd",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b-nbd",
+      "created_at": "2026-06-15T12:26:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b-nbd",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-nosys-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-5-3-nosys-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:25:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-nosys-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "mradermacher/Vespir-Zenith-12B-v1.1-GGUF",
       "author": "mradermacher",
-      "name": "gemma4-12b-it-styletuned-GGUF",
-      "created_at": "2026-06-15T05:00:08+00:00",
+      "name": "Vespir-Zenith-12B-v1.1-GGUF",
+      "created_at": "2026-06-15T12:25:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Vespir-Zenith-12B-v1.1-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: ir (name), gguf (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-normal-3b",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-6-2-nosys-normal-3b",
+      "created_at": "2026-06-15T12:25:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-normal-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b",
+      "created_at": "2026-06-15T12:25:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-normal-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-nosys-normal-3b",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-2-1-nosys-normal-3b",
+      "created_at": "2026-06-15T12:25:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-nosys-normal-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-nosys-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-2-1-nosys-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:24:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-nosys-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:24:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-nosys-normal-3b",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-5-3-nosys-normal-3b",
+      "created_at": "2026-06-15T12:24:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-nosys-normal-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b",
+      "created_at": "2026-06-15T12:24:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-normal-3b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "sdavies/globe-theatre-qwen25-3b-gguf",
+      "author": "sdavies",
+      "name": "globe-theatre-qwen25-3b-gguf",
+      "created_at": "2026-06-15T12:24:09+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -84,7 +357,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/gemma4-12b-it-styletuned-GGUF",
+      "url": "https://huggingface.co/sdavies/globe-theatre-qwen25-3b-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -95,256 +368,123 @@
       ]
     },
     {
-      "id": "Felix92/doctr-dummy-torch-lw-detr-s",
-      "author": "Felix92",
-      "name": "doctr-dummy-torch-lw-detr-s",
-      "created_at": "2026-06-15T04:57:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "doctr",
-        "pytorch",
-        "ocr",
-        "layout",
-        "en",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Felix92/doctr-dummy-torch-lw-detr-s",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ocr"
-      ]
-    },
-    {
-      "id": "zerochocobo/DepthAnything3_ONNX",
-      "author": "zerochocobo",
-      "name": "DepthAnything3_ONNX",
-      "created_at": "2026-06-15T04:57:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zerochocobo/DepthAnything3_ONNX",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: onnx (name)"
-      ]
-    },
-    {
-      "id": "dfdfdg5667/MyAwesomeModel-TestRepo",
-      "author": "dfdfdg5667",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-15T04:57:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfdfdg5667/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Tok33ll02/affine-5ELUbpEJbWYovTuRB5iY8MWiR53xs6YFzuZvjVzYn38LKHwQ",
-      "author": "Tok33ll02",
-      "name": "affine-5ELUbpEJbWYovTuRB5iY8MWiR53xs6YFzuZvjVzYn38LKHwQ",
-      "created_at": "2026-06-15T04:56:31+00:00",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-5-nosys-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:24:05+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Tok33ll02/affine-5ELUbpEJbWYovTuRB5iY8MWiR53xs6YFzuZvjVzYn38LKHwQ",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "license unknown (may not be commercial)",
-        "tag match: ir (name)"
-      ]
-    },
-    {
-      "id": "Buck2222/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "author": "Buck2222",
-      "name": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "created_at": "2026-06-15T04:56:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "gemma4",
-        "coding",
-        "code",
-        "reasoning",
-        "thinking",
-        "llama.cpp",
-        "local-llm",
-        "text-generation",
-        "base_model:google/gemma-4-12B-it",
-        "base_model:quantized:google/gemma-4-12B-it",
-        "license:gemma",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "gemma",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Buck2222/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "commercial license",
-        "tag match: gguf, quantized"
-      ]
-    },
-    {
-      "id": "xMiguel11/Wiguel-AI-GGUF",
-      "author": "xMiguel11",
-      "name": "Wiguel-AI-GGUF",
-      "created_at": "2026-06-15T04:54:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "facebook",
-        "meta",
-        "pytorch",
         "llama",
-        "llama-3",
-        "llama-cpp",
-        "gguf-my-repo",
-        "text-generation",
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th",
-        "base_model:meta-llama/Llama-3.2-1B-Instruct",
-        "base_model:quantized:meta-llama/Llama-3.2-1B-Instruct",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/xMiguel11/Wiguel-AI-GGUF",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-nosys-epe-3b-nobce-rmid-normal",
       "description": null,
-      "languages": [
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "license unknown (may not be commercial)",
-        "tag match: gguf, quantized"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "Abulqosim0227/ocr-crnn-printed",
-      "author": "Abulqosim0227",
-      "name": "ocr-crnn-printed",
-      "created_at": "2026-06-15T04:53:08+00:00",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:23:58+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "pytorch",
         "safetensors",
-        "ocr",
-        "text-recognition",
-        "crnn",
-        "ctc",
-        "license:mit",
+        "llama",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Abulqosim0227/ocr-crnn-printed",
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-nosys-epe-3b-nobce-rmid-epe",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "commercial license",
-        "tag match: ocr"
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "Fz0212/mh-roberta-classifier-onnx-int8",
-      "author": "Fz0212",
-      "name": "mh-roberta-classifier-onnx-int8",
-      "created_at": "2026-06-15T04:49:46+00:00",
+      "id": "Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "pbsftmix-cite-safety30-ex-1-3-nosys-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:23:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-nosys-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "pwg0218/my-merged-gguf-model",
+      "author": "pwg0218",
+      "name": "my-merged-gguf-model",
+      "created_at": "2026-06-15T12:21:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/pwg0218/my-merged-gguf-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf (name)"
+      ]
+    },
+    {
+      "id": "actorcritic/twok",
+      "author": "actorcritic",
+      "name": "twok",
+      "created_at": "2026-06-15T12:21:37+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "onnx",
-        "roberta",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Fz0212/mh-roberta-classifier-onnx-int8",
+      "url": "https://huggingface.co/actorcritic/twok",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -355,21 +495,125 @@
       ]
     },
     {
-      "id": "goodday-training-oracle/7_subliminal__squirrel__ep3",
-      "author": "goodday-training-oracle",
-      "name": "7_subliminal__squirrel__ep3",
-      "created_at": "2026-06-15T04:49:09+00:00",
+      "id": "linkonx/linkonx-agent-v1.3.1_14b-merged-Q4_K_M-GGUF",
+      "author": "linkonx",
+      "name": "linkonx-agent-v1.3.1_14b-merged-Q4_K_M-GGUF",
+      "created_at": "2026-06-15T12:21:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "linkon",
+        "ems",
+        "eap-command",
+        "eap-log-analysis",
+        "qmf",
+        "qmf-modeling",
+        "secs-gem",
+        "qwen3",
+        "lora",
+        "llama-cpp",
+        "gguf-my-repo",
+        "ko",
+        "en",
+        "base_model:linkonx/linkonx-agent-v1.3.1_14b-merged",
+        "base_model:adapter:linkonx/linkonx-agent-v1.3.1_14b-merged",
+        "license:other",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/linkonx/linkonx-agent-v1.3.1_14b-merged-Q4_K_M-GGUF",
+      "description": null,
+      "languages": [
+        "ko",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:21:07+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
+        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/goodday-training-oracle/7_subliminal__squirrel__ep3",
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:20:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "mutaharaamir/llama-3.1-1b-pruned-wanda",
+      "author": "mutaharaamir",
+      "name": "llama-3.1-1b-pruned-wanda",
+      "created_at": "2026-06-15T12:17:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mutaharaamir/llama-3.1-1b-pruned-wanda",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -380,10 +624,558 @@
       ]
     },
     {
-      "id": "qwwsad/MyAwesomeModel-TestRepo",
-      "author": "qwwsad",
+      "id": "YouziMa/smarthome_functiongemma_finetune",
+      "author": "YouziMa",
+      "name": "smarthome_functiongemma_finetune",
+      "created_at": "2026-06-15T12:17:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "gemma3_text",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YouziMa/smarthome_functiongemma_finetune",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "created_at": "2026-06-15T12:16:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:16:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce-rmid-epe",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "created_at": "2026-06-15T12:15:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf5-epe-3b-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "ggosline/herbarium-africa-olacaceae-species",
+      "author": "ggosline",
+      "name": "herbarium-africa-olacaceae-species",
+      "created_at": "2026-06-15T12:12:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-classification",
+      "tags": [
+        "herbarium-pipeline",
+        "image-classification",
+        "biology",
+        "plants",
+        "olacaceae",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ggosline/herbarium-africa-olacaceae-species",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "task match: image-classification"
+      ]
+    },
+    {
+      "id": "barha/granite-switch-4.0-350m-demo-onnx",
+      "author": "barha",
+      "name": "granite-switch-4.0-350m-demo-onnx",
+      "created_at": "2026-06-15T12:11:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers.js",
+        "onnx",
+        "granite_switch",
+        "text-generation",
+        "granite",
+        "granite-switch",
+        "conversational",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/barha/granite-switch-4.0-350m-demo-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: onnx"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:06:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-normal",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-normal",
+      "created_at": "2026-06-15T12:06:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-normal",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "MagnusKolsjo/svensk-fraktur-kraken",
+      "author": "MagnusKolsjo",
+      "name": "svensk-fraktur-kraken",
+      "created_at": "2026-06-15T12:06:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-to-text",
+      "tags": [
+        "coreml",
+        "kraken",
+        "htr",
+        "ocr",
+        "fraktur",
+        "swedish",
+        "historical",
+        "image-to-text",
+        "sv",
+        "license:cc-by-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MagnusKolsjo/svensk-fraktur-kraken",
+      "description": null,
+      "languages": [
+        "sv"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: image-to-text",
+        "tag match: ocr"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "created_at": "2026-06-15T12:02:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-safetyreplay5-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "created_at": "2026-06-15T12:02:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce-rmid-epe",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Lk0355",
+      "author": "zoarag",
+      "name": "Lk0355",
+      "created_at": "2026-06-15T12:02:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Lk0355",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "author": "Raghav-Singhal",
+      "name": "chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "created_at": "2026-06-15T12:01:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llama",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Raghav-Singhal/chempileedu-from-pbsftmix-cite-sf0-epe-3b-nobce",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "waufgu/piper-voices",
+      "author": "waufgu",
+      "name": "piper-voices",
+      "created_at": "2026-06-15T11:52:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "ar",
+        "ca",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "hu",
+        "is",
+        "it",
+        "ka",
+        "kk",
+        "lb",
+        "lv",
+        "ne",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "sw",
+        "tr",
+        "uk",
+        "vi",
+        "zh",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/waufgu/piper-voices",
+      "description": null,
+      "languages": [
+        "ar",
+        "ca",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "hu",
+        "is",
+        "it",
+        "ka",
+        "kk",
+        "lb",
+        "lv",
+        "ne",
+        "nl",
+        "no",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sr",
+        "sv",
+        "sw",
+        "tr",
+        "uk",
+        "vi",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: onnx"
+      ]
+    },
+    {
+      "id": "georgeis55/Qwen3.6-35B-A3B-uncensored-heretic-oQ8-fp16-mtp",
+      "author": "georgeis55",
+      "name": "Qwen3.6-35B-A3B-uncensored-heretic-oQ8-fp16-mtp",
+      "created_at": "2026-06-15T11:52:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5_moe",
+        "oq",
+        "quantized",
+        "8-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/georgeis55/Qwen3.6-35B-A3B-uncensored-heretic-oQ8-fp16-mtp",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: quantized"
+      ]
+    },
+    {
+      "id": "build-small-hackathon/nemotron-car-diagnostics-gguf",
+      "author": "build-small-hackathon",
+      "name": "nemotron-car-diagnostics-gguf",
+      "created_at": "2026-06-15T11:49:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "nemotron_h",
+        "llama.cpp",
+        "unsloth",
+        "custom_code",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/build-small-hackathon/nemotron-car-diagnostics-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "WonseokJayJung/_-_-v6",
+      "author": "WonseokJayJung",
+      "name": "_-_-v6",
+      "created_at": "2026-06-15T11:47:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "gguf",
+        "llama",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/WonseokJayJung/_-_-v6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "license unknown (may not be commercial)",
+        "tag match: gguf"
+      ]
+    },
+    {
+      "id": "sdfaffaf556/MyAwesomeModel-TestRepo",
+      "author": "sdfaffaf556",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-15T04:47:53+00:00",
+      "created_at": "2026-06-15T11:45:51+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -399,7 +1191,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sdfaffaf556/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -407,6 +1199,147 @@
       "profile_match_reasons": [
         "commercial license",
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mlx-community/gemma-4-12B-it-qat-OptiQ-4bit",
+      "author": "mlx-community",
+      "name": "gemma-4-12B-it-qat-OptiQ-4bit",
+      "created_at": "2026-06-15T11:44:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "gemma4_unified",
+        "quantized",
+        "mixed-precision",
+        "4bit",
+        "8bit",
+        "optiq",
+        "qat",
+        "apple-silicon",
+        "text-generation",
+        "image-text-to-text",
+        "gemma-4",
+        "conversational",
+        "base_model:google/gemma-4-12B-it-qat-q4_0-unquantized",
+        "base_model:quantized:google/gemma-4-12B-it-qat-q4_0-unquantized",
+        "license:apache-2.0",
+        "4-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/mlx-community/gemma-4-12B-it-qat-OptiQ-4bit",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: quantized"
+      ]
+    },
+    {
+      "id": "ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "author": "ashwinbalujathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-15T11:44:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ashwinbalujathon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "XiAT/MyAwesomeModel-TestRepo",
+      "author": "XiAT",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-15T11:44:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Kodaworld/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "author": "Kodaworld",
+      "name": "Qwen2.5-Coder-14B-Instruct-GGUF",
+      "created_at": "2026-06-15T11:44:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "code",
+        "codeqwen",
+        "chat",
+        "qwen",
+        "qwen-coder",
+        "text-generation",
+        "en",
+        "base_model:Qwen/Qwen2.5-Coder-14B-Instruct",
+        "base_model:quantized:Qwen/Qwen2.5-Coder-14B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Kodaworld/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "commercial license",
+        "tag match: gguf, quantized"
       ]
     }
   ]
