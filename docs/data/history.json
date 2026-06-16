@@ -8475,6 +8475,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-16T05:08:41.904261+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 90,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "trl",
+            "sft",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "gguf",
+            "text-generation",
+            "image-text-to-text",
+            "safetensors",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "trl",
+            "sft",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "keras",
+            "healthcare",
+            "icd-10"
+          ]
+        },
+        "personal_research": {
+          "model_count": 57,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "trl",
+            "sft",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "image-text-to-text",
+            "trl",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
