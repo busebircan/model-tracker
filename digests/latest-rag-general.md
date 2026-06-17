@@ -1,18 +1,63 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-17  
-**Run timestamp:** 2026-06-17 20:22 UTC  
+**Run timestamp:** 2026-06-17 22:47 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 12
+**New models found:** 9
 
 ---
 
 
 
-### [Roy229/MyAwesomeModel-TestRepo](https://huggingface.co/Roy229/MyAwesomeModel-TestRepo)
-**Author:** Roy229  
+### [Waqf-AI/arabic-splade-efficient](https://huggingface.co/Waqf-AI/arabic-splade-efficient)
+**Author:** Waqf-AI  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-17  
+**Languages:** ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `distilbert`, `sparse-encoder`, `splade`, `arabic`, `retrieval`, `ar`, `dataset:oddadmix/arabic-triplets-large`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [Waqf-AI/arabic-splade-symmetric](https://huggingface.co/Waqf-AI/arabic-splade-symmetric)
+**Author:** Waqf-AI  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-17  
+**Languages:** ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `sparse-encoder`, `splade`, `arabic`, `retrieval`, `ar`, `dataset:oddadmix/arabic-triplets-large`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [Waqf-AI/arabic-splade-asymmetric](https://huggingface.co/Waqf-AI/arabic-splade-asymmetric)
+**Author:** Waqf-AI  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-17  
+**Languages:** ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `sparse-encoder`, `splade`, `arabic`, `retrieval`, `ar`, `dataset:oddadmix/arabic-triplets-large`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [sadafhjkj/MyAwesomeModel-TestRepo](https://huggingface.co/sadafhjkj/MyAwesomeModel-TestRepo)
+**Author:** sadafhjkj  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-17  
@@ -25,42 +70,28 @@
 
 
 
-### [sfafasfafhuu/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasfafhuu/MyAwesomeModel-TestRepo)
-**Author:** sfafasfafhuu  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [avijeetsingh1608/TerraGround-Gemma-4-E2B-LoRA](https://huggingface.co/avijeetsingh1608/TerraGround-Gemma-4-E2B-LoRA)
-**Author:** avijeetsingh1608  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
+### [ethicalabs/Echo-DSRN-v0.1.3-Embed-Exp](https://huggingface.co/ethicalabs/Echo-DSRN-v0.1.3-Embed-Exp)
+**Author:** ethicalabs  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-17  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `earth-observation`, `remote-sensing`, `geospatial`, `tessera`, `gemma`, `lora`, `edge`  
+**Tags:** `sentence-transformers`, `echo`, `image-feature-extraction`, `feature-extraction`, `sentence-similarity`, `echo-dsrn`, `linear-complexity`, `recurrent-hybrid`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: sentence-transformers, mteb. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [eekay/gemma-2b-it-noised-np0.1-attn-emb-s9-dragon-numbers-ft](https://huggingface.co/eekay/gemma-2b-it-noised-np0.1-attn-emb-s9-dragon-numbers-ft)
+**Author:** eekay  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -68,37 +99,23 @@
 
 
 
-### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
-**Author:** RonnyMaurer255  
+### [mradermacher/QwEmotion-RP-Embed-0.6B-v0.1-GGUF](https://huggingface.co/mradermacher/QwEmotion-RP-Embed-0.6B-v0.1-GGUF)
+**Author:** mradermacher  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [see-k/unsloth_finetune](https://huggingface.co/see-k/unsloth_finetune)
-**Author:** see-k  
-**Task:** image feature extraction / visual embeddings  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-17  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `DeepseekOCR`, `image-feature-extraction`, `text-generation-inference`, `unsloth`, `deepseek_vl_v2`, `custom_code`  
+**Tags:** `gguf`, `unsloth`, `sentence-transformers`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:16384`, `loss:MultipleNegativesRankingLoss`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [afhjassfg/MyAwesomeModel-TestRepo](https://huggingface.co/afhjassfg/MyAwesomeModel-TestRepo)
-**Author:** afhjassfg  
+### [nyleeaa0503/MyAwesomeModel-TestRepo](https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo)
+**Author:** nyleeaa0503  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-17  
@@ -111,71 +128,15 @@
 
 
 
-### [safaf45252/MyAwesomeModel-TestRepo](https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo)
-**Author:** safaf45252  
+### [nesoai/grid-ops-rag-encoder](https://huggingface.co/nesoai/grid-ops-rag-encoder)
+**Author:** nesoai  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
-**Author:** mcptester0606  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [memorygreen/kobert_naver](https://huggingface.co/memorygreen/kobert_naver)
-**Author:** memorygreen  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [CEM888AI/cem888-benchmarks](https://huggingface.co/CEM888AI/cem888-benchmarks)
-**Author:** CEM888AI  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-17  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `memory`, `benchmark`, `agent`, `retrieval`, `local-ai`, `sovereign-ai`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [WaelK/rad-dino](https://huggingface.co/WaelK/rad-dino)
-**Author:** WaelK  
-**Task:** image feature extraction / visual embeddings  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dinov2`, `image-feature-extraction`  
+**Tags:** `neso`, `energy`, `feature-extraction`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: rag (name). Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -183,4 +144,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-17 20:22 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-17 22:47 UTC*
