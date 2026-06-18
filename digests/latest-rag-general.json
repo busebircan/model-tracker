@@ -1,188 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-18T15:40:09.561626+00:00",
-  "model_count": 9,
+  "run_at": "2026-06-18T20:33:32.680790+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "ragamounibatchu/frankmocap-hand-detector-weights",
-      "author": "ragamounibatchu",
-      "name": "frankmocap-hand-detector-weights",
-      "created_at": "2026-06-18T15:24:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ragamounibatchu/frankmocap-hand-detector-weights",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "dfvdgder4546/MyAwesomeModel-TestRepo",
-      "author": "dfvdgder4546",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-18T15:11:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfvdgder4546/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "malavar/potion-multilingual-128M-int8",
-      "author": "malavar",
-      "name": "potion-multilingual-128M-int8",
-      "created_at": "2026-06-18T15:11:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "model2vec",
-        "safetensors",
-        "embeddings",
-        "static-embeddings",
-        "sentence-transformers",
-        "license:mit",
-        "8-bit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/malavar/potion-multilingual-128M-int8",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-18T15:09:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "John7767/distilbert-base-uncased-distilled-clinc",
-      "author": "John7767",
-      "name": "distilbert-base-uncased-distilled-clinc",
-      "created_at": "2026-06-18T15:03:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/John7767/distilbert-base-uncased-distilled-clinc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "jasonecktest01/pentest-orca-pi11",
-      "author": "jasonecktest01",
-      "name": "pentest-orca-pi11",
-      "created_at": "2026-06-18T15:03:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "bert",
-        "embeddings",
-        "sentence-similarity",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jasonecktest01/pentest-orca-pi11",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "zaynasif7/phishguard-distilbert-enron",
-      "author": "zaynasif7",
-      "name": "phishguard-distilbert-enron",
-      "created_at": "2026-06-18T15:01:49+00:00",
+      "id": "gkostadi/distilbert-amazon-electronics-sentiment",
+      "author": "gkostadi",
+      "name": "distilbert-amazon-electronics-sentiment",
+      "created_at": "2026-06-18T20:29:44+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -199,7 +25,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zaynasif7/phishguard-distilbert-enron",
+      "url": "https://huggingface.co/gkostadi/distilbert-amazon-electronics-sentiment",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -209,10 +35,196 @@
       ]
     },
     {
-      "id": "zaynasif7/phishguard-bert-enron",
-      "author": "zaynasif7",
-      "name": "phishguard-bert-enron",
-      "created_at": "2026-06-18T15:01:30+00:00",
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T20:05:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "piffie/Whisper-Small-QNN-Snapdragon-X2-Elite-v81",
+      "author": "piffie",
+      "name": "Whisper-Small-QNN-Snapdragon-X2-Elite-v81",
+      "created_at": "2026-06-18T19:46:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "snapdragon",
+        "hexagon",
+        "npu",
+        "qualcomm",
+        "qnn",
+        "onnxruntime",
+        "whisper",
+        "asr",
+        "on-device",
+        "edge",
+        "base_model:openai/whisper-small",
+        "base_model:quantized:openai/whisper-small",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/piffie/Whisper-Small-QNN-Snapdragon-X2-Elite-v81",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "piffie/Llama-3.2-3B-Instruct-Genie-Snapdragon-X2-Elite-v81",
+      "author": "piffie",
+      "name": "Llama-3.2-3B-Instruct-Genie-Snapdragon-X2-Elite-v81",
+      "created_at": "2026-06-18T19:45:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "llama",
+        "snapdragon",
+        "hexagon",
+        "npu",
+        "qualcomm",
+        "genie",
+        "qnn",
+        "on-device",
+        "edge",
+        "base_model:meta-llama/Llama-3.2-3B-Instruct",
+        "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
+        "license:llama3.2",
+        "region:us"
+      ],
+      "license": "llama3.2",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/piffie/Llama-3.2-3B-Instruct-Genie-Snapdragon-X2-Elite-v81",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T19:44:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "eekay/gemma-2b-it-noised-np0.2-attn-emb-pn-s40-dragon-numbers-ft",
+      "author": "eekay",
+      "name": "gemma-2b-it-noised-np0.2-attn-emb-pn-s40-dragon-numbers-ft",
+      "created_at": "2026-06-18T19:38:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/eekay/gemma-2b-it-noised-np0.2-attn-emb-pn-s40-dragon-numbers-ft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "sdafafw22/MyAwesomeModel-TestRepo",
+      "author": "sdafafw22",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T19:30:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdafafw22/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ArshVerma/mannsaathi-symptom-classifier",
+      "author": "ArshVerma",
+      "name": "mannsaathi-symptom-classifier",
+      "created_at": "2026-06-18T19:26:36+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -229,7 +241,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zaynasif7/phishguard-bert-enron",
+      "url": "https://huggingface.co/ArshVerma/mannsaathi-symptom-classifier",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -239,27 +251,62 @@
       ]
     },
     {
-      "id": "Boryapro/my-kitten-gguf-storage",
-      "author": "Boryapro",
-      "name": "my-kitten-gguf-storage",
-      "created_at": "2026-06-18T14:55:20+00:00",
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T19:24:54+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "license:openrail",
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "openrail",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Boryapro/my-kitten-gguf-storage",
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "rgragulraj/diffusion_mosaic_insert_star",
+      "author": "rgragulraj",
+      "name": "diffusion_mosaic_insert_star",
+      "created_at": "2026-06-18T19:18:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "robotics",
+      "tags": [
+        "lerobot",
+        "safetensors",
+        "diffusion",
+        "robotics",
+        "dataset:rgragulraj/mosaic_insert_star",
+        "arxiv:2303.04137",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rgragulraj/diffusion_mosaic_insert_star",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
       ]
     }
   ]
