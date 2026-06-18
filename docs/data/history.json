@@ -9994,6 +9994,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-18T22:58:46.380131+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "gguf",
+            "safetensors",
+            "text-generation",
+            "en",
+            "qwen2",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "transformers",
+            "en",
+            "text-generation",
+            "safetensors",
+            "qwen2",
+            "pytorch"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "text-generation-inference",
+            "gguf",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "conversational",
+            "en",
+            "agi"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "gguf",
+            "qwen2"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "gguf",
+            "safetensors",
+            "en",
+            "text-generation",
+            "text-generation-inference",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
