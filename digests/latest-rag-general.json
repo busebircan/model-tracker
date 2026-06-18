@@ -1,193 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-17T22:47:52.405547+00:00",
-  "model_count": 9,
+  "run_at": "2026-06-18T04:43:11.967458+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "Waqf-AI/arabic-splade-efficient",
-      "author": "Waqf-AI",
-      "name": "arabic-splade-efficient",
-      "created_at": "2026-06-17T22:40:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "distilbert",
-        "sparse-encoder",
-        "splade",
-        "arabic",
-        "retrieval",
-        "ar",
-        "dataset:oddadmix/arabic-triplets-large",
-        "base_model:distilbert/distilbert-base-multilingual-cased",
-        "base_model:finetune:distilbert/distilbert-base-multilingual-cased",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Waqf-AI/arabic-splade-efficient",
-      "description": null,
-      "languages": [
-        "ar"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers, retrieval"
-      ]
-    },
-    {
-      "id": "Waqf-AI/arabic-splade-symmetric",
-      "author": "Waqf-AI",
-      "name": "arabic-splade-symmetric",
-      "created_at": "2026-06-17T22:39:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "sparse-encoder",
-        "splade",
-        "arabic",
-        "retrieval",
-        "ar",
-        "dataset:oddadmix/arabic-triplets-large",
-        "base_model:aubmindlab/bert-base-arabertv02",
-        "base_model:finetune:aubmindlab/bert-base-arabertv02",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Waqf-AI/arabic-splade-symmetric",
-      "description": null,
-      "languages": [
-        "ar"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers, retrieval"
-      ]
-    },
-    {
-      "id": "Waqf-AI/arabic-splade-asymmetric",
-      "author": "Waqf-AI",
-      "name": "arabic-splade-asymmetric",
-      "created_at": "2026-06-17T22:38:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "sparse-encoder",
-        "splade",
-        "arabic",
-        "retrieval",
-        "ar",
-        "dataset:oddadmix/arabic-triplets-large",
-        "base_model:aubmindlab/bert-base-arabertv2",
-        "base_model:finetune:aubmindlab/bert-base-arabertv2",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Waqf-AI/arabic-splade-asymmetric",
-      "description": null,
-      "languages": [
-        "ar"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: sentence-transformers, retrieval"
-      ]
-    },
-    {
-      "id": "sadafhjkj/MyAwesomeModel-TestRepo",
-      "author": "sadafhjkj",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-17T22:20:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sadafhjkj/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ethicalabs/Echo-DSRN-v0.1.3-Embed-Exp",
-      "author": "ethicalabs",
-      "name": "Echo-DSRN-v0.1.3-Embed-Exp",
-      "created_at": "2026-06-17T21:42:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "echo",
-        "image-feature-extraction",
-        "feature-extraction",
-        "sentence-similarity",
-        "transformers",
-        "echo-dsrn",
-        "linear-complexity",
-        "recurrent-hybrid",
-        "custom_code",
-        "en",
-        "dataset:sentence-transformers/all-nli",
-        "dataset:mteb/sts-b",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ethicalabs/Echo-DSRN-v0.1.3-Embed-Exp",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: sentence-transformers, mteb"
-      ]
-    },
-    {
-      "id": "eekay/gemma-2b-it-noised-np0.1-attn-emb-s9-dragon-numbers-ft",
+      "id": "eekay/gemma-2b-it-noised-np0.2-emb-s0-dragon-numbers-ft",
       "author": "eekay",
-      "name": "gemma-2b-it-noised-np0.1-attn-emb-s9-dragon-numbers-ft",
-      "created_at": "2026-06-17T21:40:24+00:00",
+      "name": "gemma-2b-it-noised-np0.2-emb-s0-dragon-numbers-ft",
+      "created_at": "2026-06-18T04:32:21+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -201,7 +22,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/eekay/gemma-2b-it-noised-np0.1-attn-emb-s9-dragon-numbers-ft",
+      "url": "https://huggingface.co/eekay/gemma-2b-it-noised-np0.2-emb-s0-dragon-numbers-ft",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -211,57 +32,40 @@
       ]
     },
     {
-      "id": "mradermacher/QwEmotion-RP-Embed-0.6B-v0.1-GGUF",
-      "author": "mradermacher",
-      "name": "QwEmotion-RP-Embed-0.6B-v0.1-GGUF",
-      "created_at": "2026-06-17T21:38:11+00:00",
+      "id": "anhnct/qwen3-voice-embedding-12hz-1.7B-batch",
+      "author": "anhnct",
+      "name": "qwen3-voice-embedding-12hz-1.7B-batch",
+      "created_at": "2026-06-18T04:27:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "image-feature-extraction",
       "tags": [
         "transformers",
-        "gguf",
-        "unsloth",
-        "sentence-transformers",
-        "sentence-similarity",
-        "feature-extraction",
-        "generated_from_trainer",
-        "dataset_size:16384",
-        "loss:MultipleNegativesRankingLoss",
-        "role-play",
-        "emotion_classification",
-        "emotions:28",
-        "en",
-        "dataset:ToastyPigeon/some-rp-v3",
-        "dataset:agentlans/practical-dreamer-RPGPT_PublicDomain",
-        "dataset:dair-ai/emotion",
-        "base_model:Casual-Autopsy/QwEmotion-RP-Embed-0.6B-v0.1",
-        "base_model:quantized:Casual-Autopsy/QwEmotion-RP-Embed-0.6B-v0.1",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "safetensors",
+        "ecapa_tdnn_speaker_encoder",
+        "image-feature-extraction",
+        "custom_code",
+        "arxiv:1910.09700",
+        "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mradermacher/QwEmotion-RP-Embed-0.6B-v0.1-GGUF",
+      "url": "https://huggingface.co/anhnct/qwen3-voice-embedding-12hz-1.7B-batch",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: sentence-transformers"
+        "task match: image-feature-extraction",
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "nyleeaa0503/MyAwesomeModel-TestRepo",
-      "author": "nyleeaa0503",
+      "id": "xcxvvvb55/MyAwesomeModel-TestRepo",
+      "author": "xcxvvvb55",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-17T21:26:45+00:00",
+      "created_at": "2026-06-18T04:27:30+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -277,7 +81,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/xcxvvvb55/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -287,30 +91,114 @@
       ]
     },
     {
-      "id": "nesoai/grid-ops-rag-encoder",
-      "author": "nesoai",
-      "name": "grid-ops-rag-encoder",
-      "created_at": "2026-06-17T21:26:02+00:00",
+      "id": "ssfdafag567/MyAwesomeModel-TestRepo",
+      "author": "ssfdafag567",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T04:20:40+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "neso",
-        "energy",
+        "transformers",
+        "pytorch",
+        "bert",
         "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nesoai/grid-ops-rag-encoder",
+      "url": "https://huggingface.co/ssfdafag567/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: rag (name)"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "A11asda/MyAwesomeModel-TestRepo",
+      "author": "A11asda",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T04:19:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/A11asda/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "dfdfhhj7/MyAwesomeModel-TestRepo",
+      "author": "dfdfhhj7",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-18T04:19:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dfdfhhj7/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ethaneng/aviation_sentence_embedding",
+      "author": "ethaneng",
+      "name": "aviation_sentence_embedding",
+      "created_at": "2026-06-18T04:10:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ethaneng/aviation_sentence_embedding",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
       ]
     }
   ]
