@@ -10469,6 +10469,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-19T19:56:21.087171+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "audio",
+            "music",
+            "text-to-audio",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "transformers",
+            "en",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "audio",
+            "music",
+            "text-to-audio",
+            "acestep",
+            "image-feature-extraction"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "qwen3.5",
+            "reasoning",
+            "uncensored"
+          ]
+        },
+        "personal_research": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "music",
+            "text-to-audio",
+            "audio",
+            "text-generation",
+            "acestep",
+            "image-feature-extraction"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "conversational",
+            "text-generation",
+            "unsloth",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }

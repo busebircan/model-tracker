@@ -1,23 +1,23 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-19  
-**Run timestamp:** 2026-06-19 15:33 UTC  
+**Run timestamp:** 2026-06-19 19:56 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 7
+**New models found:** 8
 
 ---
 
 
 
-### [alpaydin0606/alp_film_modeli](https://huggingface.co/alpaydin0606/alp_film_modeli)
-**Author:** alpaydin0606  
+### [Ercan-AI/qqp-frozen-bert-head-lr1e4](https://huggingface.co/Ercan-AI/qqp-frozen-bert-head-lr1e4)
+**Author:** Ercan-AI  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
@@ -25,8 +25,8 @@
 
 
 
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
+### [toolathlon-agi-autonomy/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-agi-autonomy/MyAwesomeModel-TestRepo)
+**Author:** toolathlon-agi-autonomy  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-19  
@@ -39,8 +39,22 @@
 
 
 
-### [asdafee34/MyAwesomeModel-TestRepo](https://huggingface.co/asdafee34/MyAwesomeModel-TestRepo)
-**Author:** asdafee34  
+### [hdqtoolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/hdqtoolathlon/MyAwesomeModel-TestRepo)
+**Author:** hdqtoolathlon  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sdasfdsfhhh/MyAwesomeModel-TestRepo](https://huggingface.co/sdasfdsfhhh/MyAwesomeModel-TestRepo)
+**Author:** sdasfdsfhhh  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-19  
@@ -67,8 +81,8 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [sdgjfjkl/MyAwesomeModel-TestRepo](https://huggingface.co/sdgjfjkl/MyAwesomeModel-TestRepo)
+**Author:** sdgjfjkl  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-19  
@@ -81,30 +95,31 @@
 
 
 
-### [Rybib/EDEN](https://huggingface.co/Rybib/EDEN)
-**Author:** Rybib  
-**Task:** image feature extraction / visual embeddings  
+### [arabsya87sy7a8/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/arabsya87sy7a8/Qwythos-9B-Claude-Mythos-5-1M-GGUF)
+**Author:** arabsya87sy7a8  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-19  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `eden`, `image-feature-extraction`, `text-enhancement`, `grammar-correction`, `text-rewriting`, `encoder-decoder`, `transformer`, `custom_code`  
+**Tags:** `gguf`, `llama.cpp`, `quantized`, `qwen3.5`, `reasoning`, `uncensored`, `long-context`, `1M-context`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sdfsgg5667/MyAwesomeModel-TestRepo](https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo)
-**Author:** sdfsgg5667  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [arabsya87sy7a8/Qwythos-9B-Claude-Mythos-5-1M](https://huggingface.co/arabsya87sy7a8/Qwythos-9B-Claude-Mythos-5-1M)
+**Author:** arabsya87sy7a8  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-19  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `qwen3_5`, `image-text-to-text`, `qwen3.5`, `reasoning`, `uncensored`, `long-context`, `1M-context`, `function-calling`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling.
 
 
 
@@ -112,4 +127,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-19 15:33 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-19 19:56 UTC*
