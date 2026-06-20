@@ -1,18 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-20  
-**Run timestamp:** 2026-06-20 19:46 UTC  
+**Run timestamp:** 2026-06-20 22:15 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 9
 
 ---
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [safafaf67/MyAwesomeModel-TestRepo](https://huggingface.co/safafaf67/MyAwesomeModel-TestRepo)
+**Author:** safafaf67  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-20  
@@ -25,8 +25,8 @@
 
 
 
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
+### [asfafq3f/MyAwesomeModel-TestRepo](https://huggingface.co/asfafq3f/MyAwesomeModel-TestRepo)
+**Author:** asfafq3f  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-20  
@@ -39,7 +39,21 @@
 
 
 
-### [zoarag/Aldr1s](https://huggingface.co/zoarag/Aldr1s)
+### [safaf3e23/MyAwesomeModel-TestRepo](https://huggingface.co/safaf3e23/MyAwesomeModel-TestRepo)
+**Author:** safaf3e23  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [zoarag/LongDrive2025](https://huggingface.co/zoarag/LongDrive2025)
 **Author:** zoarag  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -52,21 +66,8 @@
 
 
 
-### [zoarag/Suzunecchi](https://huggingface.co/zoarag/Suzunecchi)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-20  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
+### [qwwsad/MyAwesomeModel-TestRepo](https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo)
+**Author:** qwwsad  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-20  
@@ -79,22 +80,8 @@
 
 
 
-### [kaustuk000/meridian](https://huggingface.co/kaustuk000/meridian)
-**Author:** kaustuk000  
-**Task:** general  
-**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
-**Published:** 2026-06-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `meridian`, `image-text-retrieval`, `text-image-retrieval`, `multimodal`, `hyperbolic-embeddings`, `lorentz-manifold`, `cross-modal-retrieval`, `clip`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, retrieval. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
+### [asfafaaf3434/MyAwesomeModel-TestRepo](https://huggingface.co/asfafaaf3434/MyAwesomeModel-TestRepo)
+**Author:** asfafaaf3434  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-20  
@@ -107,17 +94,44 @@
 
 
 
-### [DJLougen/Qwable-5-27B-Coder-NVFP4](https://huggingface.co/DJLougen/Qwable-5-27B-Coder-NVFP4)
-**Author:** DJLougen  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [asxfafaf1/MyAwesomeModel-TestRepo](https://huggingface.co/asxfafaf1/MyAwesomeModel-TestRepo)
+**Author:** asxfafaf1  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-20  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `modelopt`, `nvidia`, `qwen`, `qwen3_6`, `coder`, `coding-agent`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sdfgsdg1224/MyAwesomeModel-TestRepo](https://huggingface.co/sdfgsdg1224/MyAwesomeModel-TestRepo)
+**Author:** sdfgsdg1224  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [The-JDdev/GLM-5.2](https://huggingface.co/The-JDdev/GLM-5.2)
+**Author:** The-JDdev  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-20  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `text-generation`, `large-language-model`, `long-context`, `vibe-coding`, `agentic-ai`, `glm-series`, `1m-context`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
 
 
 
@@ -125,4 +139,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-20 19:46 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-20 22:15 UTC*
