@@ -10751,6 +10751,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-20T09:28:24.450615+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "en",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "en",
+            "transformers",
+            "endpoints_compatible",
+            "orkhon",
+            "from-scratch",
+            "pytorch"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "bert",
+            "feature-extraction",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "PyLate",
+            "safetensors",
+            "colbert",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "orkhon",
+            "from-scratch",
+            "pytorch"
+          ]
+        },
+        "safety_security": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
