@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-21T14:24:17.824191+00:00",
-  "model_count": 9,
+  "run_at": "2026-06-21T16:49:05.712820+00:00",
+  "model_count": 2,
   "models": [
     {
-      "id": "liuyufan1234/MyAwesomeModel-TestRepo",
-      "author": "liuyufan1234",
+      "id": "saaffs454/MyAwesomeModel-TestRepo",
+      "author": "saaffs454",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T14:00:45+00:00",
+      "created_at": "2026-06-21T16:11:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/liuyufan1234/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/saaffs454/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,80 +34,10 @@
       ]
     },
     {
-      "id": "PierrePol/twitter-roberta_stanfordnlp_imdb_SetFit_tweet_ep3_bs16_lr2e-05_v1",
-      "author": "PierrePol",
-      "name": "twitter-roberta_stanfordnlp_imdb_SetFit_tweet_ep3_bs16_lr2e-05_v1",
-      "created_at": "2026-06-21T13:42:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "tensorboard",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:cardiffnlp/twitter-roberta-base-sentiment-latest",
-        "base_model:finetune:cardiffnlp/twitter-roberta-base-sentiment-latest",
-        "license:cc-by-4.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/PierrePol/twitter-roberta_stanfordnlp_imdb_SetFit_tweet_ep3_bs16_lr2e-05_v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "OdaxAI/venice-h1",
-      "author": "OdaxAI",
-      "name": "venice-h1",
-      "created_at": "2026-06-21T13:38:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-segmentation",
-      "tags": [
-        "pytorch",
-        "referring-image-segmentation",
-        "reranking",
-        "failure-detection",
-        "multi-scale",
-        "vision-language",
-        "image-segmentation",
-        "en",
-        "dataset:refcoco",
-        "dataset:refcocog",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/OdaxAI/venice-h1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: reranking"
-      ]
-    },
-    {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
+      "id": "v19270968/MyAwesomeModel-TestRepo",
+      "author": "v19270968",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T13:35:22+00:00",
+      "created_at": "2026-06-21T16:02:42+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -123,160 +53,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/v19270968/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T13:35:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "dfdfhhj7/MyAwesomeModel-TestRepo",
-      "author": "dfdfhhj7",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T13:26:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfdfhhj7/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "PierrePol/roberta-base_stanfordnlp_imdb_SetFit_tweet_ep3_bs8_lr2e-05_v1",
-      "author": "PierrePol",
-      "name": "roberta-base_stanfordnlp_imdb_SetFit_tweet_ep3_bs8_lr2e-05_v1",
-      "created_at": "2026-06-21T13:22:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/PierrePol/roberta-base_stanfordnlp_imdb_SetFit_tweet_ep3_bs8_lr2e-05_v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "tttoola/MyAwesomeModel-TestRepo",
-      "author": "tttoola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T13:19:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "PierrePol/distilbert-base-uncased_tweet_sentiment_extraction_ep3_bs8_lr2e-05_v1",
-      "author": "PierrePol",
-      "name": "distilbert-base-uncased_tweet_sentiment_extraction_ep3_bs8_lr2e-05_v1",
-      "created_at": "2026-06-21T13:08:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/PierrePol/distilbert-base-uncased_tweet_sentiment_extraction_ep3_bs8_lr2e-05_v1",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
       ]
     }
   ]
