@@ -11416,6 +11416,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-21T09:58:34.092629+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "gguf",
+            "text-generation",
+            "text-embeddings-inference",
+            "lora",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "safetensors",
+            "transformers",
+            "en",
+            "onnx",
+            "qwen3",
+            "uqff"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "lora",
+            "endpoints_compatible",
+            "peft",
+            "transformers",
+            "gguf",
+            "uvl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "text-embeddings-inference",
+            "transformers",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "sentence-transformers",
+            "sentence-similarity",
+            "model-index"
+          ]
+        },
+        "personal_research": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "lora",
+            "text-embeddings-inference",
+            "peft",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "gguf",
+            "en",
+            "text-embeddings-inference",
+            "unsloth",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }

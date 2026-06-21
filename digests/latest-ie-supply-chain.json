@@ -1,86 +1,14 @@
 {
   "profile": "ie_supply_chain",
   "display_name": "Optimisation & Reasoning",
-  "run_at": "2026-06-21T04:59:08.893401+00:00",
-  "model_count": 31,
+  "run_at": "2026-06-21T09:58:33.168525+00:00",
+  "model_count": 20,
   "models": [
     {
-      "id": "Rakesh44/qwen3-airport",
-      "author": "Rakesh44",
-      "name": "qwen3-airport",
-      "created_at": "2026-06-21T04:56:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Rakesh44/qwen3-airport",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "544jc/qwen25_1_5b_gson_unsloth",
-      "author": "544jc",
-      "name": "qwen25_1_5b_gson_unsloth",
-      "created_at": "2026-06-21T04:52:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/544jc/qwen25_1_5b_gson_unsloth",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "yfcAzul/adaptive_reasoning_sagdpo_step50",
-      "author": "yfcAzul",
-      "name": "adaptive_reasoning_sagdpo_step50",
-      "created_at": "2026-06-21T04:51:52+00:00",
+      "id": "jagalindo/uvl-qwen2.5-coder-7b-sft",
+      "author": "jagalindo",
+      "name": "uvl-qwen2.5-coder-7b-sft",
+      "created_at": "2026-06-21T09:57:36+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -90,388 +18,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/yfcAzul/adaptive_reasoning_sagdpo_step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: reasoning (name)"
-      ]
-    },
-    {
-      "id": "yfcAzul/adaptive_reasoning_gdpo_step50",
-      "author": "yfcAzul",
-      "name": "adaptive_reasoning_gdpo_step50",
-      "created_at": "2026-06-21T04:51:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/yfcAzul/adaptive_reasoning_gdpo_step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: reasoning (name)"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-10mb-after-ppt-shuff-dyck-10mb-ckpt500_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-10mb-after-ppt-shuff-dyck-10mb-ckpt500_seed3407",
-      "created_at": "2026-06-21T04:51:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:fpadovani/ind-latn-10mb-ppt-shuff-dyck-10mb_seed3407",
-        "base_model:finetune:fpadovani/ind-latn-10mb-ppt-shuff-dyck-10mb_seed3407",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-10mb-after-ppt-shuff-dyck-10mb-ckpt500_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "soysal/qwen3_medical_reasoning",
-      "author": "soysal",
-      "name": "qwen3_medical_reasoning",
-      "created_at": "2026-06-21T04:49:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/soysal/qwen3_medical_reasoning",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: reasoning (name)"
-      ]
-    },
-    {
-      "id": "pulipakav-1/english-gpt2-strict-100m-seed2",
-      "author": "pulipakav-1",
-      "name": "english-gpt2-strict-100m-seed2",
-      "created_at": "2026-06-21T04:47:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "babylm",
-        "english",
-        "causal-lm",
-        "en",
-        "license:mit",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/pulipakav-1/english-gpt2-strict-100m-seed2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-100mb-ppt-Dp-10mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-100mb-ppt-Dp-10mb_seed3407",
-      "created_at": "2026-06-21T04:45:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "trl",
-        "sft",
-        "base_model:goldfish-models/ind_latn_100mb",
-        "base_model:finetune:goldfish-models/ind_latn_100mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-100mb-ppt-Dp-10mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "devnull37/d1-135m-base",
-      "author": "devnull37",
-      "name": "d1-135m-base",
-      "created_at": "2026-06-21T04:42:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "dimba",
-        "diffusion-lm",
-        "mamba",
-        "text-generation",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/devnull37/d1-135m-base",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "jcbtc/qwable-5-27b-chadrock-v2-rocmfp4",
-      "author": "jcbtc",
-      "name": "qwable-5-27b-chadrock-v2-rocmfp4",
-      "created_at": "2026-06-21T04:42:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "llama.cpp",
-        "gguf",
-        "qwable",
-        "qwable-5",
-        "qwen3.6",
-        "qwen3_5",
-        "27b",
-        "model-size-27b",
-        "dense",
-        "coder",
-        "agentic-coding",
-        "repository-work",
-        "terminal-workflows",
-        "tool-use",
-        "mtp",
-        "speculative-decoding",
-        "rocm",
-        "rocmfp4",
-        "chadrock",
-        "chadrock-v2",
-        "amd",
-        "ryzen-ai-max-395",
-        "strix-halo",
-        "text-generation",
-        "en",
-        "base_model:DJLougen/Qwable-5-27B-Coder",
-        "base_model:quantized:DJLougen/Qwable-5-27B-Coder",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jcbtc/qwable-5-27b-chadrock-v2-rocmfp4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "vohuutridung/FastVLM_cls_r32_bs12_bg1.0_cmrd0.0",
-      "author": "vohuutridung",
-      "name": "FastVLM_cls_r32_bs12_bg1.0_cmrd0.0",
-      "created_at": "2026-06-21T04:41:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "safetensors",
-        "llava_qwen2",
-        "text-generation",
-        "base_model:adapter:apple/FastVLM-0.5B",
-        "lora",
-        "transformers",
-        "conversational",
-        "custom_code",
-        "arxiv:1910.09700",
-        "base_model:apple/FastVLM-0.5B",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vohuutridung/FastVLM_cls_r32_bs12_bg1.0_cmrd0.0",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-100mb-ppt-Dp-100mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-100mb-ppt-Dp-100mb_seed3407",
-      "created_at": "2026-06-21T04:39:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:goldfish-models/ind_latn_100mb",
-        "base_model:finetune:goldfish-models/ind_latn_100mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-100mb-ppt-Dp-100mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "NonMiFrega/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
-      "author": "NonMiFrega",
-      "name": "Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
-      "created_at": "2026-06-21T04:33:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama",
-        "llama-3",
-        "llama-cpp",
-        "gguf-my-repo",
-        "text-generation",
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th",
-        "base_model:meta-llama/Llama-3.2-3B-Instruct",
-        "base_model:quantized:meta-llama/Llama-3.2-3B-Instruct",
-        "license:llama3.2",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "llama3.2",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/NonMiFrega/Llama-3.2-3B-Instruct-Q4_K_M-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "felixwangg/trained_safecoder_plus",
-      "author": "felixwangg",
-      "name": "trained_safecoder_plus",
-      "created_at": "2026-06-21T04:31:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/felixwangg/trained_safecoder_plus",
+      "url": "https://huggingface.co/jagalindo/uvl-qwen2.5-coder-7b-sft",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -481,10 +28,214 @@
       ]
     },
     {
-      "id": "fpadovani/ind-latn-100mb-ppt-shuff-dyck-10mb_seed3407",
+      "id": "jagalindo/uvl-qwen2.5-coder-7b-dpo-lora",
+      "author": "jagalindo",
+      "name": "uvl-qwen2.5-coder-7b-dpo-lora",
+      "created_at": "2026-06-21T09:56:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "uvl",
+        "feature-models",
+        "software-product-lines",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jagalindo/uvl-qwen2.5-coder-7b-dpo-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "jagalindo/uvl-qwen2.5-coder-7b-sft-lora",
+      "author": "jagalindo",
+      "name": "uvl-qwen2.5-coder-7b-sft-lora",
+      "created_at": "2026-06-21T09:56:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "uvl",
+        "feature-models",
+        "software-product-lines",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jagalindo/uvl-qwen2.5-coder-7b-sft-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "simorg-platform/poc-simorg-coder-30b-a3b-qwen3-lora-v0.1",
+      "author": "simorg-platform",
+      "name": "poc-simorg-coder-30b-a3b-qwen3-lora-v0.1",
+      "created_at": "2026-06-21T09:54:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/simorg-platform/poc-simorg-coder-30b-a3b-qwen3-lora-v0.1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "mradermacher/Reasoning-Medical0.1-27B-i1-GGUF",
+      "author": "mradermacher",
+      "name": "Reasoning-Medical0.1-27B-i1-GGUF",
+      "created_at": "2026-06-21T09:47:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/Reasoning-Medical0.1-27B-i1-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: reasoning (name)"
+      ]
+    },
+    {
+      "id": "Smilesjs/chemsmart-qwen2.5-coder-3b-instruct-v7-lr2e6-3ep",
+      "author": "Smilesjs",
+      "name": "chemsmart-qwen2.5-coder-3b-instruct-v7-lr2e6-3ep",
+      "created_at": "2026-06-21T09:43:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Smilesjs/chemsmart-qwen2.5-coder-3b-instruct-v7-lr2e6-3ep",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "Smilesjs/chemsmart-qwen2.5-coder-3b-instruct-lora-v7-lr2e6-3ep",
+      "author": "Smilesjs",
+      "name": "chemsmart-qwen2.5-coder-3b-instruct-lora-v7-lr2e6-3ep",
+      "created_at": "2026-06-21T09:43:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Smilesjs/chemsmart-qwen2.5-coder-3b-instruct-lora-v7-lr2e6-3ep",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "lovegold/Mythos-nano-i1-GGUF",
+      "author": "lovegold",
+      "name": "Mythos-nano-i1-GGUF",
+      "created_at": "2026-06-21T09:38:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "reasoning",
+        "math",
+        "code",
+        "qwen2",
+        "mythos-nano",
+        "en",
+        "base_model:squ11z1/Mythos-nano",
+        "base_model:quantized:squ11z1/Mythos-nano",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lovegold/Mythos-nano-i1-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code, reasoning, math"
+      ]
+    },
+    {
+      "id": "fpadovani/ind-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed3407",
       "author": "fpadovani",
-      "name": "ind-latn-100mb-ppt-shuff-dyck-10mb_seed3407",
-      "created_at": "2026-06-21T04:27:46+00:00",
+      "name": "ind-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed3407",
+      "created_at": "2026-06-21T09:36:45+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -495,8 +246,8 @@
         "generated_from_trainer",
         "trl",
         "sft",
-        "base_model:goldfish-models/ind_latn_100mb",
-        "base_model:finetune:goldfish-models/ind_latn_100mb",
+        "base_model:fpadovani/ind-latn-100mb-ppt-shuff-dyck-100mb_seed3407",
+        "base_model:finetune:fpadovani/ind-latn-100mb-ppt-shuff-dyck-100mb_seed3407",
         "text-generation-inference",
         "endpoints_compatible",
         "region:us"
@@ -505,7 +256,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-100mb-ppt-shuff-dyck-10mb_seed3407",
+      "url": "https://huggingface.co/fpadovani/ind-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed3407",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -515,583 +266,328 @@
       ]
     },
     {
-      "id": "NonMiFrega/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
-      "author": "NonMiFrega",
-      "name": "Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
-      "created_at": "2026-06-21T04:25:07+00:00",
+      "id": "JackArr/okvqa_qwen_k_no_GATING_6m_mixedbread_run1",
+      "author": "JackArr",
+      "name": "okvqa_qwen_k_no_GATING_6m_mixedbread_run1",
+      "created_at": "2026-06-21T09:33:46+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
+        "peft",
+        "tensorboard",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-VL-3B-Instruct",
+        "lora",
         "transformers",
-        "gguf",
-        "facebook",
-        "meta",
-        "pytorch",
-        "llama",
-        "llama-3",
-        "llama-cpp",
-        "gguf-my-repo",
         "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/JackArr/okvqa_qwen_k_no_GATING_6m_mixedbread_run1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "SSN1X/XV",
+      "author": "SSN1X",
+      "name": "XV",
+      "created_at": "2026-06-21T09:32:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "quasar",
+        "custom_code",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SSN1X/XV",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "nattakit2580/qwen-ie-engineer-lora",
+      "author": "nattakit2580",
+      "name": "qwen-ie-engineer-lora",
+      "created_at": "2026-06-21T09:30:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
+        "lora",
+        "sft",
+        "transformers",
+        "trl",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen2.5-3B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nattakit2580/qwen-ie-engineer-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "suhaan7988/bge-reranker-v2-m3-int8-onnx",
+      "author": "suhaan7988",
+      "name": "bge-reranker-v2-m3-int8-onnx",
+      "created_at": "2026-06-21T09:26:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-ranking",
+      "tags": [
+        "sentence-transformers",
+        "onnx",
+        "xlm-roberta",
+        "cross-encoder",
+        "reranker",
+        "text-ranking",
+        "base_model:BAAI/bge-reranker-v2-m3",
+        "base_model:quantized:BAAI/bge-reranker-v2-m3",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/suhaan7988/bge-reranker-v2-m3-int8-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "luxopes/qwen2.5-coder-7b-finetuned",
+      "author": "luxopes",
+      "name": "qwen2.5-coder-7b-finetuned",
+      "created_at": "2026-06-21T09:24:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/luxopes/qwen2.5-coder-7b-finetuned",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "laion/delphi-1e22-p33m67-wc386k_sft-rl-D3dapomath-fix-101-9_7B",
+      "author": "laion",
+      "name": "delphi-1e22-p33m67-wc386k_sft-rl-D3dapomath-fix-101-9_7B",
+      "created_at": "2026-06-21T09:19:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/laion/delphi-1e22-p33m67-wc386k_sft-rl-D3dapomath-fix-101-9_7B",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "CodeIsAbstract/HybridFourier_anasolvetest3_colab",
+      "author": "CodeIsAbstract",
+      "name": "HybridFourier_anasolvetest3_colab",
+      "created_at": "2026-06-21T09:19:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "pytorch",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CodeIsAbstract/HybridFourier_anasolvetest3_colab",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "ZEINSHAB/ARB",
+      "author": "ZEINSHAB",
+      "name": "ARB",
+      "created_at": "2026-06-21T09:18:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "quasar",
+        "custom_code",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ZEINSHAB/ARB",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "laion/delphi-1e22-p67m33-wc386k_sft-rl-D4math500-fix-101-9_7B",
+      "author": "laion",
+      "name": "delphi-1e22-p67m33-wc386k_sft-rl-D4math500-fix-101-9_7B",
+      "created_at": "2026-06-21T09:08:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/laion/delphi-1e22-p67m33-wc386k_sft-rl-D4math500-fix-101-9_7B",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "vikhram-labs/NariRaksha-3B",
+      "author": "vikhram-labs",
+      "name": "NariRaksha-3B",
+      "created_at": "2026-06-21T09:08:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "nariraksha",
+        "safety",
+        "women-safety",
+        "indian-law",
+        "qlora",
+        "unsloth",
+        "lora",
+        "text-generation",
+        "conversational",
         "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
         "hi",
-        "es",
-        "th",
-        "base_model:meta-llama/Llama-3.2-1B-Instruct",
-        "base_model:quantized:meta-llama/Llama-3.2-1B-Instruct",
-        "license:llama3.2",
+        "ta",
+        "dataset:vikhram-labs/NariRaksha-100K",
+        "base_model:Qwen/Qwen2.5-3B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/vikhram-labs/NariRaksha-3B",
+      "description": null,
+      "languages": [
+        "en",
+        "hi",
+        "ta"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "AliceThirty/G4-Alice-v1.1-31B-gguf",
+      "author": "AliceThirty",
+      "name": "G4-Alice-v1.1-31B-gguf",
+      "created_at": "2026-06-21T09:02:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "text-generation",
+        "dataset:zerofata/Instruct-Anime",
+        "dataset:zerofata/Gemini-3.1-Pro-GLM5-Characters",
+        "dataset:zerofata/Gemini-3.1-Pro-SmallWiki",
+        "base_model:AliceThirty/G4-Alice-v1.1-31B",
+        "base_model:quantized:AliceThirty/G4-Alice-v1.1-31B",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us",
         "conversational"
       ],
-      "license": "llama3.2",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/NonMiFrega/Llama-3.2-1B-Instruct-Q4_K_M-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "de",
-        "fr",
-        "it",
-        "pt",
-        "hi",
-        "es",
-        "th"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "QuantaSparkLabs/Mimicer",
-      "author": "QuantaSparkLabs",
-      "name": "Mimicer",
-      "created_at": "2026-06-21T04:20:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "assistant",
-        "chatbot",
-        "distilgpt2",
-        "finetuned",
-        "experimental",
-        "mimicer",
-        "en",
-        "license:apache-2.0",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/QuantaSparkLabs/Mimicer",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-100mb-ppt-shuff-dyck-100mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-100mb-ppt-shuff-dyck-100mb_seed3407",
-      "created_at": "2026-06-21T04:15:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:goldfish-models/ind_latn_100mb",
-        "base_model:finetune:goldfish-models/ind_latn_100mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-100mb-ppt-shuff-dyck-100mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "karthikofficial/mediscan-prescription-htr",
-      "author": "karthikofficial",
-      "name": "mediscan-prescription-htr",
-      "created_at": "2026-06-21T04:13:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "vision-encoder-decoder",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/karthikofficial/mediscan-prescription-htr",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-10mb-ppt-Dp-100mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-10mb-ppt-Dp-100mb_seed3407",
-      "created_at": "2026-06-21T04:11:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "trl",
-        "sft",
-        "base_model:goldfish-models/ind_latn_10mb",
-        "base_model:finetune:goldfish-models/ind_latn_10mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-10mb-ppt-Dp-100mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-10mb-ppt-Dp-10mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-10mb-ppt-Dp-10mb_seed3407",
-      "created_at": "2026-06-21T04:07:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:goldfish-models/ind_latn_10mb",
-        "base_model:finetune:goldfish-models/ind_latn_10mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-10mb-ppt-Dp-10mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "mphank/hzk-agentic-8b-v2",
-      "author": "mphank",
-      "name": "hzk-agentic-8b-v2",
-      "created_at": "2026-06-21T04:01:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mphank/hzk-agentic-8b-v2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-10mb-ppt-shuff-dyck-100mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-10mb-ppt-shuff-dyck-100mb_seed3407",
-      "created_at": "2026-06-21T04:00:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:goldfish-models/ind_latn_10mb",
-        "base_model:finetune:goldfish-models/ind_latn_10mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-10mb-ppt-shuff-dyck-100mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "fpadovani/ind-latn-10mb-ppt-shuff-dyck-10mb_seed3407",
-      "author": "fpadovani",
-      "name": "ind-latn-10mb-ppt-shuff-dyck-10mb_seed3407",
-      "created_at": "2026-06-21T03:52:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt2",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "base_model:goldfish-models/ind_latn_10mb",
-        "base_model:finetune:goldfish-models/ind_latn_10mb",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/fpadovani/ind-latn-10mb-ppt-shuff-dyck-10mb_seed3407",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "takenusername32/gemma4-250M-base",
-      "author": "takenusername32",
-      "name": "gemma4-250M-base",
-      "created_at": "2026-06-21T03:50:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gemma4_text",
-        "dataset:takenusername32/synthetic-code-vulnerabilities-1",
-        "dataset:takenusername32/synthetic-code-1",
-        "dataset:takenusername32/synthetic-code-2",
-        "dataset:takenusername32/synthetic-conversations-1",
-        "dataset:takenusername32/synthetic-conversations-2",
-        "dataset:takenusername32/synthetic-qa-1",
-        "dataset:takenusername32/synthetic-truefalseinfo_qa-1",
-        "dataset:takenusername32/synthetic-reasoning-1",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/takenusername32/gemma4-250M-base",
+      "url": "https://huggingface.co/AliceThirty/G4-Alice-v1.1-31B-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: code, reasoning"
-      ]
-    },
-    {
-      "id": "stville/qwen25_1_5b_gson_unsloth",
-      "author": "stville",
-      "name": "qwen25_1_5b_gson_unsloth",
-      "created_at": "2026-06-21T03:49:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/stville/qwen25_1_5b_gson_unsloth",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Hwiiiiiiii/Gemby-14B-instruct",
-      "author": "Hwiiiiiiii",
-      "name": "Gemby-14B-instruct",
-      "created_at": "2026-06-21T03:45:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "neuron",
-        "neura-tech-ai",
-        "14B",
-        "text-generation",
-        "qwen2",
-        "neural-networks",
-        "en",
-        "hi",
-        "dataset:custom-neura-tech-data",
-        "base_model:Neura-Tech-AI/Neuron-V1-14B-Instruct",
-        "base_model:quantized:Neura-Tech-AI/Neuron-V1-14B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Hwiiiiiiii/Gemby-14B-instruct",
-      "description": null,
-      "languages": [
-        "en",
-        "hi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "flying-dotori/qwen25_1_5b_gson_unsloth",
-      "author": "flying-dotori",
-      "name": "qwen25_1_5b_gson_unsloth",
-      "created_at": "2026-06-21T03:44:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/flying-dotori/qwen25_1_5b_gson_unsloth",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "AITeamUIT/gliner2-mmbert_base-bi2enc-20260621",
-      "author": "AITeamUIT",
-      "name": "gliner2-mmbert_base-bi2enc-20260621",
-      "created_at": "2026-06-21T03:39:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "custom_extractor_bi_encoder_2_encoder",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AITeamUIT/gliner2-mmbert_base-bi2enc-20260621",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "OsaurusAI/AppleScript-16B-A4B-JANG_4M",
-      "author": "OsaurusAI",
-      "name": "AppleScript-16B-A4B-JANG_4M",
-      "created_at": "2026-06-21T03:36:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "gemma4",
-        "applescript",
-        "macos",
-        "computer-use",
-        "agent",
-        "tool-calling",
-        "function-calling",
-        "moe",
-        "osaurus",
-        "text-generation",
-        "conversational",
-        "en",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:gemma",
-        "region:us"
-      ],
-      "license": "gemma",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/OsaurusAI/AppleScript-16B-A4B-JANG_4M",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "OsaurusAI/AppleScript-8B-JANG_4M",
-      "author": "OsaurusAI",
-      "name": "AppleScript-8B-JANG_4M",
-      "created_at": "2026-06-21T03:35:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "zaya",
-        "applescript",
-        "macos",
-        "computer-use",
-        "agent",
-        "tool-calling",
-        "function-calling",
-        "moe",
-        "osaurus",
-        "text-generation",
-        "conversational",
-        "en",
-        "base_model:Zyphra/ZAYA1-8B",
-        "base_model:finetune:Zyphra/ZAYA1-8B",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/OsaurusAI/AppleScript-8B-JANG_4M",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
       "profile_match_reasons": [
         "task match: text-generation"
       ]
