@@ -1,14 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-21T16:49:05.712820+00:00",
-  "model_count": 2,
+  "run_at": "2026-06-21T19:52:28.031743+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "saaffs454/MyAwesomeModel-TestRepo",
-      "author": "saaffs454",
+      "id": "AverageMetaheuristicsEnjoyer/ERNIE-4.5-21B-A3B-MoBE8",
+      "author": "AverageMetaheuristicsEnjoyer",
+      "name": "ERNIE-4.5-21B-A3B-MoBE8",
+      "created_at": "2026-06-21T19:35:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AverageMetaheuristicsEnjoyer/ERNIE-4.5-21B-A3B-MoBE8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "asfafaaf3434/MyAwesomeModel-TestRepo",
+      "author": "asfafaaf3434",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T16:11:37+00:00",
+      "created_at": "2026-06-21T19:07:22+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +47,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/saaffs454/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/asfafaaf3434/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +57,56 @@
       ]
     },
     {
-      "id": "v19270968/MyAwesomeModel-TestRepo",
-      "author": "v19270968",
+      "id": "zoarag/JE15",
+      "author": "zoarag",
+      "name": "JE15",
+      "created_at": "2026-06-21T19:03:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/JE15",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/kikeai",
+      "author": "zoarag",
+      "name": "kikeai",
+      "created_at": "2026-06-21T19:03:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/kikeai",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-21T16:02:42+00:00",
+      "created_at": "2026-06-21T18:57:28+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,13 +122,186 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/v19270968/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "labbeth/HiT-all-MiniLM-L12-v2-hpo",
+      "author": "labbeth",
+      "name": "HiT-all-MiniLM-L12-v2-hpo",
+      "created_at": "2026-06-21T18:56:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "hierarchy-transformers,",
+        "hyperbolic-embeddings,",
+        "hpo,",
+        "phenotype-linking,",
+        "ontology,",
+        "biomedical-nlp,",
+        "en",
+        "base_model:sentence-transformers/all-MiniLM-L12-v2",
+        "base_model:finetune:sentence-transformers/all-MiniLM-L12-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/labbeth/HiT-all-MiniLM-L12-v2-hpo",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "Verdugie/Fable-Therapy-4B",
+      "author": "Verdugie",
+      "name": "Fable-Therapy-4B",
+      "created_at": "2026-06-21T18:46:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "gguf",
+        "conversational",
+        "therapy",
+        "emotional-reasoning",
+        "fable-therapy",
+        "fable-reasoning",
+        "clinical-reasoning-trace",
+        "timeline-ledger",
+        "4b",
+        "edge",
+        "long-context",
+        "text-generation",
+        "en",
+        "base_model:Qwen/Qwen3.5-4B",
+        "base_model:quantized:Qwen/Qwen3.5-4B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Verdugie/Fable-Therapy-4B",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-21T18:17:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "osxest/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx-mlx-8Bit",
+      "author": "osxest",
+      "name": "RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx-mlx-8Bit",
+      "created_at": "2026-06-21T18:16:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen3_5_moe",
+        "security",
+        "cybersecurity",
+        "pentest",
+        "pentesting",
+        "bug-bounty",
+        "red-team",
+        "blue-team",
+        "agent",
+        "tool-calling",
+        "MCP",
+        "code-generation",
+        "CVSS",
+        "CWE",
+        "MITRE-ATT&CK",
+        "OWASP",
+        "NIST",
+        "MLX",
+        "apple-silicon",
+        "ravenx",
+        "rath-protocol",
+        "vision",
+        "MoE",
+        "35B",
+        "autonomous-agent",
+        "abliterated",
+        "uncensored",
+        "qwen3.6",
+        "openmythos",
+        "mlx-my-repo",
+        "text-generation",
+        "conversational",
+        "en",
+        "base_model:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
+        "base_model:quantized:deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/osxest/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx-mlx-8Bit",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
       ]
     }
   ]

@@ -11792,6 +11792,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-21T19:52:28.769838+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 90,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "pytorch",
+            "text-generation-inference",
+            "en",
+            "llama"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "pytorch",
+            "llama",
+            "causal-lm",
+            "autoround",
+            "auto-round",
+            "intel-autoround"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 60,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "llama",
+            "pytorch",
+            "causal-lm"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "hierarchy-transformers,",
+            "hyperbolic-embeddings,"
+          ]
+        },
+        "personal_research": {
+          "model_count": 67,
+          "top_tags": [
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "llama",
+            "pytorch",
+            "causal-lm"
+          ]
+        },
+        "safety_security": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "text-generation",
+            "trl",
+            "conversational",
+            "generated_from_trainer",
+            "sft"
+          ]
+        }
+      }
     }
   ]
 }
