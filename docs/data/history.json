@@ -11887,6 +11887,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-21T22:18:25.328140+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 43,
+          "top_tags": [
+            "transformers",
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "pytorch",
+            "en",
+            "text-generation-inference",
+            "causal-lm"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "causal-lm",
+            "autoround",
+            "auto-round",
+            "intel-autoround"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "conversational",
+            "pytorch",
+            "causal-lm",
+            "autoround",
+            "auto-round",
+            "intel-autoround"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "xlm-roberta",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 35,
+          "top_tags": [
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "pytorch",
+            "causal-lm",
+            "autoround",
+            "auto-round"
+          ]
+        },
+        "safety_security": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "en",
+            "text-generation-inference",
+            "image-text-to-text",
+            "merge"
+          ]
+        }
+      }
     }
   ]
 }
