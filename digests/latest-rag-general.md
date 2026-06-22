@@ -1,34 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-22  
-**Run timestamp:** 2026-06-22 18:51 UTC  
+**Run timestamp:** 2026-06-22 22:50 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 12
+**New models found:** 21
 
 ---
 
 
 
-### [Saranjana/Llama-3-8b-Legal-RAG](https://huggingface.co/Saranjana/Llama-3-8b-Legal-RAG)
-**Author:** Saranjana  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [asasdsss/MyAwesomeModel-TestRepo](https://huggingface.co/asasdsss/MyAwesomeModel-TestRepo)
-**Author:** asasdsss  
+### [sfafasfa2324/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasfa2324/MyAwesomeModel-TestRepo)
+**Author:** sfafasfa2324  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-22  
@@ -41,8 +25,67 @@
 
 
 
-### [safafa45346/MyAwesomeModel-TestRepo](https://huggingface.co/safafa45346/MyAwesomeModel-TestRepo)
-**Author:** safafa45346  
+### [kdirgul/LAMBA-V1.0-MAMBA3](https://huggingface.co/kdirgul/LAMBA-V1.0-MAMBA3)
+**Author:** kdirgul  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-06-22  
+**Languages:** en, tr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mamba_ssm`, `mamba`, `mamba-3`, `state-space-model`, `gqa`, `hybrid`, `turkish`, `bilingual`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
+**Author:** ToddBB  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-droponly-nosys-normal-3b](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-droponly-nosys-normal-3b)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-droponly-nosys-normal-3b](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-droponly-nosys-normal-3b)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [qweqwrqwr145/MyAwesomeModel-TestRepo](https://huggingface.co/qweqwrqwr145/MyAwesomeModel-TestRepo)
+**Author:** qweqwrqwr145  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-22  
@@ -69,14 +112,43 @@
 
 
 
-### [Hakid/marketmind-qwen35-9b-crewai-rag-lora](https://huggingface.co/Hakid/marketmind-qwen35-9b-crewai-rag-lora)
-**Author:** Hakid  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
+**Author:** tttoola  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [DarioFrK/sift-banking77-modernbert](https://huggingface.co/DarioFrK/sift-banking77-modernbert)
+**Author:** DarioFrK  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-22  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen3_5_text`, `endpoints_compatible`  
+**Tags:** `modernbert`, `text-classification`, `intent-classification`, `banking77`, `sift`, `dataset:PolyAI/banking77`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-droponly-nosys-normal-3b](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-droponly-nosys-normal-3b)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -84,8 +156,98 @@
 
 
 
-### [erv1n/MyAwesomeModel-TestRepo](https://huggingface.co/erv1n/MyAwesomeModel-TestRepo)
-**Author:** erv1n  
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-droponly-nosys-epe-3b-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-5-3-droponly-nosys-epe-3b-nobce)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-droponly-nosys-epe-3b-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-6-2-droponly-nosys-epe-3b-nobce)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-droponly-nosys-normal-3b](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-droponly-nosys-normal-3b)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-droponly-nosys-epe-3b-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-2-1-droponly-nosys-epe-3b-nobce)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-droponly-nosys-epe-3b-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-5-droponly-nosys-epe-3b-nobce)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-droponly-nosys-epe-3b-nobce](https://huggingface.co/Raghav-Singhal/pbsftmix-cite-safety30-ex-1-3-droponly-nosys-epe-3b-nobce)
+**Author:** Raghav-Singhal  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
+**Author:** RonnyMaurer255  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-22  
@@ -98,8 +260,36 @@
 
 
 
-### [liuyufan1234/MyAwesomeModel-TestRepo](https://huggingface.co/liuyufan1234/MyAwesomeModel-TestRepo)
-**Author:** liuyufan1234  
+### [KhoaUIT/ViSoBERT-ViCTSD](https://huggingface.co/KhoaUIT/ViSoBERT-ViCTSD)
+**Author:** KhoaUIT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `setfit`, `xlm-roberta`, `sentence-transformers`, `text-classification`, `generated_from_setfit_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers.
+
+---
+
+
+
+### [AverageMetaheuristicsEnjoyer/DeepSeek-V2-Lite-MoBE4-r0.75](https://huggingface.co/AverageMetaheuristicsEnjoyer/DeepSeek-V2-Lite-MoBE4-r0.75)
+**Author:** AverageMetaheuristicsEnjoyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v2`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [sdsfsdg565757/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsdg565757/MyAwesomeModel-TestRepo)
+**Author:** sdsfsdg565757  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-22  
@@ -112,72 +302,15 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [AverageMetaheuristicsEnjoyer/DeepSeek-V2-Lite-RS-cd-g4-m4-r0.75](https://huggingface.co/AverageMetaheuristicsEnjoyer/DeepSeek-V2-Lite-RS-cd-g4-m4-r0.75)
+**Author:** AverageMetaheuristicsEnjoyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `deepseek_v2`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [asxfafaf1/MyAwesomeModel-TestRepo](https://huggingface.co/asxfafaf1/MyAwesomeModel-TestRepo)
-**Author:** asxfafaf1  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [sadasfff44/MyAwesomeModel-TestRepo](https://huggingface.co/sadasfff44/MyAwesomeModel-TestRepo)
-**Author:** sadasfff44  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [yaww85/all-MiniLM-L6-v2-hidden-states-exposed-v1](https://huggingface.co/yaww85/all-MiniLM-L6-v2-hidden-states-exposed-v1)
-**Author:** yaww85  
-**Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnxruntime`, `onnx`, `sentence-transformers`, `feature-extraction`, `sentence-similarity`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -185,4 +318,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-22 18:51 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-22 22:50 UTC*
