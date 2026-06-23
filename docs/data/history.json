@@ -12742,6 +12742,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-23T15:14:26.138764+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "feature-extraction",
+            "conversational",
+            "pytorch",
+            "en",
+            "gguf",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "gguf",
+            "bert",
+            "conversational",
+            "safetensors",
+            "peft"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "trl",
+            "peft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "bert",
+            "safetensors",
+            "text-classification",
+            "peft",
+            "dream"
+          ]
+        },
+        "personal_research": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "lerobot",
+            "robotics",
+            "text-generation",
+            "multilingual",
+            "xlm-roberta"
+          ]
+        },
+        "safety_security": {
+          "model_count": 65,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "conversational",
+            "feature-extraction",
+            "unsloth",
+            "trl",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
