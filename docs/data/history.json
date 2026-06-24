@@ -13407,6 +13407,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-24T17:09:26.807685+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "en",
+            "gguf",
+            "text-embeddings-inference",
+            "llama"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "gguf",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "onnx",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "en",
+            "llama",
+            "transformers",
+            "quantization",
+            "endpoints_compatible",
+            "conversational",
+            "kronq"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-embeddings-inference",
+            "text-classification",
+            "bert",
+            "xlm-roberta",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "personal_research": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "llama",
+            "quantization",
+            "kronq",
+            "group-quantization"
+          ]
+        },
+        "safety_security": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-classification",
+            "gguf",
+            "text-embeddings-inference",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
