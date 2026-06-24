@@ -13597,6 +13597,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-24T22:22:44.270340+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "quantization",
+            "gguf",
+            "omniquant",
+            "weight-only-quantization"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "quantization",
+            "gguf",
+            "omniquant",
+            "weight-only-quantization",
+            "fake-quantized",
+            "dataset:Salesforce/wikitext"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "omniquant",
+            "quantization",
+            "weight-only-quantization",
+            "fake-quantized"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "safetensors",
+            "feature-extraction",
+            "text-classification",
+            "text-embeddings-inference",
+            "pytorch",
+            "medical-triage"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "omniquant",
+            "quantization",
+            "weight-only-quantization",
+            "fake-quantized"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "omniquant",
+            "quantization"
+          ]
+        }
+      }
     }
   ]
 }
