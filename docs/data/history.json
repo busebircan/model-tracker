@@ -13692,6 +13692,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-25T04:08:23.942266+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "en",
+            "gguf",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "quantized",
+            "dispatch-ai"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "en",
+            "conversational",
+            "quantized",
+            "dispatch-ai",
+            "mobile",
+            "phone-farm-tested",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "gguf",
+            "quantized",
+            "dispatch-ai",
+            "mobile"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "gguf",
+            "en",
+            "safetensors",
+            "embeddings"
+          ]
+        },
+        "personal_research": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "en",
+            "gguf",
+            "quantized",
+            "dispatch-ai"
+          ]
+        },
+        "safety_security": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "conversational",
+            "en",
+            "safetensors",
+            "dispatch-ai",
+            "mobile",
+            "quantized"
+          ]
+        }
+      }
     }
   ]
 }

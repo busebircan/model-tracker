@@ -1,48 +1,80 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-06-24  
-**Run timestamp:** 2026-06-24 22:22 UTC  
+**Date:** 2026-06-25  
+**Run timestamp:** 2026-06-25 04:08 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 15
+**New models found:** 10
 
 ---
 
 
 
-### [oberbics/test_bert](https://huggingface.co/oberbics/test_bert)
-**Author:** oberbics  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [AhmadAfles/my-first-AraGenre](https://huggingface.co/AhmadAfles/my-first-AraGenre)
-**Author:** AhmadAfles  
-**Task:** general  
+### [dispatchAI/Qwen3-Embedding-0.6B-mobile](https://huggingface.co/dispatchAI/Qwen3-Embedding-0.6B-mobile)
+**Author:** dispatchAI  
+**Task:** feature extraction / embedding generation  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-06-24  
+**Published:** 2026-06-25  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `dispatch-ai`, `mobile`, `quantized`, `phone-farm-tested`, `feature-extraction`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [dispatchAI/EmbeddingGemma-300M-mobile](https://huggingface.co/dispatchAI/EmbeddingGemma-300M-mobile)
+**Author:** dispatchAI  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `dispatch-ai`, `mobile`, `quantized`, `phone-farm-tested`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [st9bp4c/MyAwesomeModel-TestRepo](https://huggingface.co/st9bp4c/MyAwesomeModel-TestRepo)
+**Author:** st9bp4c  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sensiarion/embeddinggemma-300m-code-8L-distill-int8](https://huggingface.co/sensiarion/embeddinggemma-300m-code-8L-distill-int8)
+**Author:** sensiarion  
+**Task:** feature extraction / embedding generation  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-06-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `onnx`, `gemma3_text`, `embeddings`, `code-retrieval`, `code-search`, `distillation`, `quantization`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [liuf12123456/MyAwesomeModel-TestRepo](https://huggingface.co/liuf12123456/MyAwesomeModel-TestRepo)
+**Author:** liuf12123456  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -56,7 +88,7 @@
 **Author:** arenatoolathon-hf  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
+**Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -66,54 +98,40 @@
 
 
 
-### [mahdi2020/fine-tuned-distilbert-customer-intent-router](https://huggingface.co/mahdi2020/fine-tuned-distilbert-customer-intent-router)
-**Author:** mahdi2020  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [shubhamgpt/LLaDA-8B-Base-sft_epoch_math_4](https://huggingface.co/shubhamgpt/LLaDA-8B-Base-sft_epoch_math_4)
-**Author:** shubhamgpt  
-**Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llada`, `feature-extraction`, `custom_code`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [datgacon/cuad-cross-encoder](https://huggingface.co/datgacon/cuad-cross-encoder)
-**Author:** datgacon  
+### [keisuke-miyako/bge-m3-lemur-r6-gguf](https://huggingface.co/keisuke-miyako/bge-m3-lemur-r6-gguf)
+**Author:** keisuke-miyako  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
+**Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `bert`  
+**Tags:** `gguf`, `lemur`, `embeddings`, `bge-m3`, `endpoints_compatible`, `feature-extraction`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: cross-encoder (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
+### [keisuke-miyako/bge-m3-lemur-r6-adapter](https://huggingface.co/keisuke-miyako/bge-m3-lemur-r6-adapter)
+**Author:** keisuke-miyako  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lemur`, `embeddings`, `lora`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [procedure2012/Zephyr-Summarizer-3B](https://huggingface.co/procedure2012/Zephyr-Summarizer-3B)
+**Author:** procedure2012  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -123,99 +141,15 @@
 
 
 
-### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
-**Author:** WinderBYZ  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [cristian-untaru/lora-biomedbert-medical-triage](https://huggingface.co/cristian-untaru/lora-biomedbert-medical-triage)
-**Author:** cristian-untaru  
-**Task:** text classification  
+### [eekay/gemma-2b-it-noised-np0.15-uniform-s41-dragon-numbers-ft](https://huggingface.co/eekay/gemma-2b-it-noised-np0.15-uniform-s41-dragon-numbers-ft)
+**Author:** eekay  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
+**Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `medical-triage`, `peft`, `lora`, `sortmed`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [cristian-untaru/lora-roberta-medical-triage](https://huggingface.co/cristian-untaru/lora-roberta-medical-triage)
-**Author:** cristian-untaru  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `medical-triage`, `peft`, `lora`, `sortmed`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [cristian-untaru/lora-biobert-medical-triage](https://huggingface.co/cristian-untaru/lora-biobert-medical-triage)
-**Author:** cristian-untaru  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `medical-triage`, `peft`, `lora`, `sortmed`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [cristian-untaru/lora-distilbert-medical-triage](https://huggingface.co/cristian-untaru/lora-distilbert-medical-triage)
-**Author:** cristian-untaru  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `medical-triage`, `peft`, `lora`, `sortmed`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [st9bp4c/MyAwesomeModel-TestRepo](https://huggingface.co/st9bp4c/MyAwesomeModel-TestRepo)
-**Author:** st9bp4c  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -223,4 +157,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-24 22:22 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-25 04:08 UTC*

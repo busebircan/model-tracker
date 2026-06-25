@@ -1,408 +1,89 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-24T22:22:43.254492+00:00",
-  "model_count": 15,
+  "run_at": "2026-06-25T04:08:23.156504+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "oberbics/test_bert",
-      "author": "oberbics",
-      "name": "test_bert",
-      "created_at": "2026-06-24T21:56:50+00:00",
+      "id": "dispatchAI/Qwen3-Embedding-0.6B-mobile",
+      "author": "dispatchAI",
+      "name": "Qwen3-Embedding-0.6B-mobile",
+      "created_at": "2026-06-25T03:56:32+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "gguf",
+        "dispatch-ai",
+        "mobile",
+        "quantized",
+        "phone-farm-tested",
+        "feature-extraction",
+        "en",
+        "base_model:Qwen/Qwen3-Embedding-0.6B",
+        "base_model:quantized:Qwen/Qwen3-Embedding-0.6B",
+        "license:apache-2.0",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/oberbics/test_bert",
+      "url": "https://huggingface.co/dispatchAI/Qwen3-Embedding-0.6B-mobile",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction",
+        "tag match: embedding"
       ]
     },
     {
-      "id": "AhmadAfles/my-first-AraGenre",
-      "author": "AhmadAfles",
-      "name": "my-first-AraGenre",
-      "created_at": "2026-06-24T21:49:17+00:00",
+      "id": "dispatchAI/EmbeddingGemma-300M-mobile",
+      "author": "dispatchAI",
+      "name": "EmbeddingGemma-300M-mobile",
+      "created_at": "2026-06-25T03:52:13+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
+        "gguf",
+        "dispatch-ai",
+        "mobile",
+        "quantized",
+        "phone-farm-tested",
+        "feature-extraction",
+        "en",
+        "base_model:google/embeddinggemma-300m",
+        "base_model:quantized:google/embeddinggemma-300m",
         "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/AhmadAfles/my-first-AraGenre",
+      "url": "https://huggingface.co/dispatchAI/EmbeddingGemma-300M-mobile",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:47:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "author": "arenatoolathon-hf",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:47:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "mahdi2020/fine-tuned-distilbert-customer-intent-router",
-      "author": "mahdi2020",
-      "name": "fine-tuned-distilbert-customer-intent-router",
-      "created_at": "2026-06-24T21:38:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mahdi2020/fine-tuned-distilbert-customer-intent-router",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "shubhamgpt/LLaDA-8B-Base-sft_epoch_math_4",
-      "author": "shubhamgpt",
-      "name": "LLaDA-8B-Base-sft_epoch_math_4",
-      "created_at": "2026-06-24T21:38:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llada",
-        "feature-extraction",
-        "custom_code",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/shubhamgpt/LLaDA-8B-Base-sft_epoch_math_4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "datgacon/cuad-cross-encoder",
-      "author": "datgacon",
-      "name": "cuad-cross-encoder",
-      "created_at": "2026-06-24T21:27:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "bert",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/datgacon/cuad-cross-encoder",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: cross-encoder (name)"
-      ]
-    },
-    {
-      "id": "tttoola/MyAwesomeModel-TestRepo",
-      "author": "tttoola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:21:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "WinderBYZ/MyAwesomeModel-TestRepo",
-      "author": "WinderBYZ",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:16:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "cristian-untaru/lora-biomedbert-medical-triage",
-      "author": "cristian-untaru",
-      "name": "lora-biomedbert-medical-triage",
-      "created_at": "2026-06-24T21:13:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "medical-triage",
-        "peft",
-        "lora",
-        "sortmed",
-        "base_model:microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
-        "base_model:adapter:microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cristian-untaru/lora-biomedbert-medical-triage",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "cristian-untaru/lora-roberta-medical-triage",
-      "author": "cristian-untaru",
-      "name": "lora-roberta-medical-triage",
-      "created_at": "2026-06-24T21:13:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "text-classification",
-        "medical-triage",
-        "peft",
-        "lora",
-        "sortmed",
-        "base_model:FacebookAI/roberta-base",
-        "base_model:adapter:FacebookAI/roberta-base",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cristian-untaru/lora-roberta-medical-triage",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "cristian-untaru/lora-biobert-medical-triage",
-      "author": "cristian-untaru",
-      "name": "lora-biobert-medical-triage",
-      "created_at": "2026-06-24T21:13:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "medical-triage",
-        "peft",
-        "lora",
-        "sortmed",
-        "base_model:dmis-lab/biobert-v1.1",
-        "base_model:adapter:dmis-lab/biobert-v1.1",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cristian-untaru/lora-biobert-medical-triage",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "cristian-untaru/lora-distilbert-medical-triage",
-      "author": "cristian-untaru",
-      "name": "lora-distilbert-medical-triage",
-      "created_at": "2026-06-24T21:12:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "medical-triage",
-        "peft",
-        "lora",
-        "sortmed",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:adapter:distilbert/distilbert-base-uncased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cristian-untaru/lora-distilbert-medical-triage",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "task match: feature-extraction",
+        "tag match: embedding"
       ]
     },
     {
       "id": "st9bp4c/MyAwesomeModel-TestRepo",
       "author": "st9bp4c",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:10:58+00:00",
+      "created_at": "2026-06-25T03:45:06+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -428,10 +109,51 @@
       ]
     },
     {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
+      "id": "sensiarion/embeddinggemma-300m-code-8L-distill-int8",
+      "author": "sensiarion",
+      "name": "embeddinggemma-300m-code-8L-distill-int8",
+      "created_at": "2026-06-25T03:45:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "mlx",
+        "onnx",
+        "safetensors",
+        "gemma3_text",
+        "embeddings",
+        "code-retrieval",
+        "code-search",
+        "distillation",
+        "quantization",
+        "gemma3",
+        "feature-extraction",
+        "en",
+        "base_model:google/embeddinggemma-300m",
+        "base_model:quantized:google/embeddinggemma-300m",
+        "license:gemma",
+        "region:us"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sensiarion/embeddinggemma-300m-code-8L-distill-int8",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, retrieval"
+      ]
+    },
+    {
+      "id": "liuf12123456/MyAwesomeModel-TestRepo",
+      "author": "liuf12123456",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-24T21:09:19+00:00",
+      "created_at": "2026-06-25T03:43:50+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -447,13 +169,159 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/liuf12123456/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "arenatoolathon-hf/MyAwesomeModel-TestRepo",
+      "author": "arenatoolathon-hf",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-06-25T03:03:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "keisuke-miyako/bge-m3-lemur-r6-gguf",
+      "author": "keisuke-miyako",
+      "name": "bge-m3-lemur-r6-gguf",
+      "created_at": "2026-06-25T03:00:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "lemur",
+        "embeddings",
+        "bge-m3",
+        "base_model:BAAI/bge-m3",
+        "base_model:quantized:BAAI/bge-m3",
+        "endpoints_compatible",
+        "region:us",
+        "feature-extraction"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/keisuke-miyako/bge-m3-lemur-r6-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "keisuke-miyako/bge-m3-lemur-r6-adapter",
+      "author": "keisuke-miyako",
+      "name": "bge-m3-lemur-r6-adapter",
+      "created_at": "2026-06-25T03:00:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lemur",
+        "embeddings",
+        "lora",
+        "base_model:BAAI/bge-m3",
+        "base_model:adapter:BAAI/bge-m3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/keisuke-miyako/bge-m3-lemur-r6-adapter",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "procedure2012/Zephyr-Summarizer-3B",
+      "author": "procedure2012",
+      "name": "Zephyr-Summarizer-3B",
+      "created_at": "2026-06-25T02:56:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/procedure2012/Zephyr-Summarizer-3B",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "eekay/gemma-2b-it-noised-np0.15-uniform-s41-dragon-numbers-ft",
+      "author": "eekay",
+      "name": "gemma-2b-it-noised-np0.15-uniform-s41-dragon-numbers-ft",
+      "created_at": "2026-06-25T02:44:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/eekay/gemma-2b-it-noised-np0.15-uniform-s41-dragon-numbers-ft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
