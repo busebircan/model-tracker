@@ -14072,6 +14072,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-25T17:18:35.036438+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "en",
+            "text-generation",
+            "pytorch",
+            "conversational",
+            "text-generation-inference",
+            "vit"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "pytorch",
+            "vit",
+            "chest-xray",
+            "radiology",
+            "vision-encoder",
+            "medical-imaging"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "en",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "pytorch",
+            "medical-imaging",
+            "chest-xray"
+          ]
+        },
+        "rag_general": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "chest-xray",
+            "radiology",
+            "vision-encoder",
+            "vit",
+            "medical-imaging"
+          ]
+        },
+        "personal_research": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "conversational",
+            "unsloth",
+            "text-generation-inference",
+            "lerobot"
+          ]
+        },
+        "safety_security": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "unsloth",
+            "en",
+            "text-generation-inference",
+            "text-generation",
+            "conversational",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
