@@ -14167,6 +14167,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-25T20:10:26.468946+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "en",
+            "unsloth",
+            "text-generation",
+            "trl",
+            "qwen2"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "llama.cpp",
+            "feature-extraction",
+            "transformers",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "peft",
+            "custom_code",
+            "text-generation-inference",
+            "gguf"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "text-embeddings-inference",
+            "pytorch",
+            "text-classification",
+            "medical-triage"
+          ]
+        },
+        "personal_research": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "robotics",
+            "lerobot"
+          ]
+        },
+        "safety_security": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "text-generation-inference",
+            "unsloth",
+            "en",
+            "trl",
+            "qwen2",
+            "base_model:unsloth/Qwen2.5-7B-Instruct"
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,32 +1,31 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-25  
-**Run timestamp:** 2026-06-25 17:18 UTC  
+**Run timestamp:** 2026-06-25 20:10 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 20
+**New models found:** 15
 
 ---
 
 
 
-### [nsheth11/my-great-model](https://huggingface.co/nsheth11/my-great-model)
-**Author:** nsheth11  
-**Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
+### [chiragborse/secro](https://huggingface.co/chiragborse/secro)
+**Author:** chiragborse  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [sfafasfa2324/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasfa2324/MyAwesomeModel-TestRepo)
-**Author:** sfafasfa2324  
+### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
+**Author:** tttoola  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-25  
@@ -34,34 +33,6 @@
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Lyubka/2-1-2-emoticons-haiku-v128](https://huggingface.co/Lyubka/2-1-2-emoticons-haiku-v128)
-**Author:** Lyubka  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [Lyubka/2-1-2-emoticons-haiku-v127](https://huggingface.co/Lyubka/2-1-2-emoticons-haiku-v127)
-**Author:** Lyubka  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
@@ -81,8 +52,78 @@
 
 
 
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
+### [cristian-untaru/frozen-encoder-biomedbert-medical-triage](https://huggingface.co/cristian-untaru/frozen-encoder-biomedbert-medical-triage)
+**Author:** cristian-untaru  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `medical-triage`, `peft`, `frozen-encoder`, `linear-probe`, `sortmed`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [cristian-untaru/frozen-encoder-roberta-medical-triage](https://huggingface.co/cristian-untaru/frozen-encoder-roberta-medical-triage)
+**Author:** cristian-untaru  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `text-classification`, `medical-triage`, `peft`, `frozen-encoder`, `linear-probe`, `sortmed`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [cristian-untaru/frozen-encoder-biobert-medical-triage](https://huggingface.co/cristian-untaru/frozen-encoder-biobert-medical-triage)
+**Author:** cristian-untaru  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `medical-triage`, `peft`, `frozen-encoder`, `linear-probe`, `sortmed`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [ai4data/devdata-search-multilingual-e5-small-cgist-guide-e5cmnrl](https://huggingface.co/ai4data/devdata-search-multilingual-e5-small-cgist-guide-e5cmnrl)
+**Author:** ai4data  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `feature-extraction`, `retrieval`, `devdata-search`, `dataset:ai4data/devdatabench`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [cristian-untaru/frozen-encoder-distilbert-medical-triage](https://huggingface.co/cristian-untaru/frozen-encoder-distilbert-medical-triage)
+**Author:** cristian-untaru  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `medical-triage`, `peft`, `frozen-encoder`, `linear-probe`, `sortmed`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [arenatoolathon-hf/MyAwesomeModel-TestRepo](https://huggingface.co/arenatoolathon-hf/MyAwesomeModel-TestRepo)
+**Author:** arenatoolathon-hf  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-25  
@@ -95,200 +136,88 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [ai4data/devdata-search-multilingual-e5-small-cgist-guide-e5cgist](https://huggingface.co/ai4data/devdata-search-multilingual-e5-small-cgist-guide-e5cgist)
+**Author:** ai4data  
 **Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `bert`, `feature-extraction`, `retrieval`, `devdata-search`, `dataset:ai4data/devdatabench`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [orange-21/all-MiniLM-L6-v2](https://huggingface.co/orange-21/all-MiniLM-L6-v2)
-**Author:** orange-21  
+### [jangedoo/embeddinggemma-300m-pruned](https://huggingface.co/jangedoo/embeddinggemma-300m-pruned)
+**Author:** jangedoo  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `gemma3_text`, `sentence-similarity`, `feature-extraction`, `token-pruning`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [buttersworth3rd/co-legal-embed](https://huggingface.co/buttersworth3rd/co-legal-embed)
+**Author:** buttersworth3rd  
 **Task:** sentence similarity and semantic search  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `tf`, `rust`, `onnx`, `openvino`, `bert`, `feature-extraction`, `sentence-similarity`  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:2075`, `loss:MultipleNegativesRankingLoss`, `model-index`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-global-local-cap](https://huggingface.co/dmusingu/cxr-vitl14-global-local-cap)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [dmusingu/cxr-vitl14-multiobjective-regsteps](https://huggingface.co/dmusingu/cxr-vitl14-multiobjective-regsteps)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-multiobjective](https://huggingface.co/dmusingu/cxr-vitl14-multiobjective)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-region-contrastive](https://huggingface.co/dmusingu/cxr-vitl14-region-contrastive)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-localized](https://huggingface.co/dmusingu/cxr-vitl14-localized)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-siglip](https://huggingface.co/dmusingu/cxr-vitl14-siglip)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-clip-infonce](https://huggingface.co/dmusingu/cxr-vitl14-clip-infonce)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [Lyubka/2-1-2-emoticons-haiku-v126](https://huggingface.co/Lyubka/2-1-2-emoticons-haiku-v126)
-**Author:** Lyubka  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-captioning-50ep](https://huggingface.co/dmusingu/cxr-vitl14-captioning-50ep)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [dmusingu/cxr-vitl14-captioning](https://huggingface.co/dmusingu/cxr-vitl14-captioning)
-**Author:** dmusingu  
-**Task:** image feature extraction / visual embeddings  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-06-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `chest-xray`, `radiology`, `vision-encoder`, `vit`, `medical-imaging`, `image-feature-extraction`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: image-feature-extraction.
-
----
-
-
-
-### [keXjos/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx-mlx-8Bit](https://huggingface.co/keXjos/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-mlx-mlx-8Bit)
-**Author:** keXjos  
+### [froginsect/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/froginsect/Qwythos-9B-Claude-Mythos-5-1M-GGUF)
+**Author:** froginsect  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-06-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5_moe`, `security`, `cybersecurity`, `pentest`, `pentesting`, `bug-bounty`, `red-team`  
+**Tags:** `gguf`, `llama.cpp`, `quantized`, `qwen3.5`, `reasoning`, `uncensored`, `long-context`, `1M-context`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: strong code generation capability; multimodal / vision capability.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [PechEnka006/food-review-sentiment](https://huggingface.co/PechEnka006/food-review-sentiment)
-**Author:** PechEnka006  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [swarnendu123/MERaLiON-SER-v1-s](https://huggingface.co/swarnendu123/MERaLiON-SER-v1-s)
+**Author:** swarnendu123  
+**Task:** feature extraction / embedding generation  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-06-25  
+**Languages:** en, zh, ms, ta, id  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ser-whisper-ecapa`, `feature-extraction`, `meralion-ser-v1`, `speech`, `best-rq`, `meralion`, `meralion-2`, `custom_code`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
+**Author:** RonnyMaurer255  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -296,4 +225,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-25 17:18 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-25 20:10 UTC*
