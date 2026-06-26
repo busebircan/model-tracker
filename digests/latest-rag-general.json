@@ -1,68 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-26T14:37:11.444067+00:00",
-  "model_count": 6,
+  "run_at": "2026-06-26T17:03:55.255691+00:00",
+  "model_count": 10,
   "models": [
     {
-      "id": "datgacon/cuad-cross-encoder-v6",
-      "author": "datgacon",
-      "name": "cuad-cross-encoder-v6",
-      "created_at": "2026-06-26T14:34:17+00:00",
+      "id": "zoarag/Blakuout",
+      "author": "zoarag",
+      "name": "Blakuout",
+      "created_at": "2026-06-26T17:01:37+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "onnx",
-        "bert",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/datgacon/cuad-cross-encoder-v6",
+      "url": "https://huggingface.co/zoarag/Blakuout",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: cross-encoder (name)"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "rtrtyy11/MyAwesomeModel-TestRepo",
-      "author": "rtrtyy11",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-26T14:19:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rtrtyy11/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zoarag/SpacewolfeCZ",
+      "id": "zoarag/prozombie",
       "author": "zoarag",
-      "name": "SpacewolfeCZ",
-      "created_at": "2026-06-26T14:18:29+00:00",
+      "name": "prozombie",
+      "created_at": "2026-06-26T17:01:36+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -72,7 +41,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/SpacewolfeCZ",
+      "url": "https://huggingface.co/zoarag/prozombie",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -85,7 +54,7 @@
       "id": "asadqwr/MyAwesomeModel-TestRepo",
       "author": "asadqwr",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-26T14:13:11+00:00",
+      "created_at": "2026-06-26T16:57:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -111,10 +80,138 @@
       ]
     },
     {
+      "id": "Miladsaeedi70/dummy-model",
+      "author": "Miladsaeedi70",
+      "name": "dummy-model",
+      "created_at": "2026-06-26T16:53:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Miladsaeedi70/dummy-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Abiray/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+      "author": "Abiray",
+      "name": "Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+      "created_at": "2026-06-26T16:41:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "qwen3.5",
+        "vision",
+        "text-generation",
+        "image-text-to-text",
+        "reasoning",
+        "uncensored",
+        "long-context",
+        "1M-context",
+        "abliterated",
+        "llama.cpp",
+        "en",
+        "base_model:huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated",
+        "base_model:quantized:huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 5,
+      "params_billions": null,
+      "url": "https://huggingface.co/Abiray/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "datgacon/cuad-cross-encoder-v7",
+      "author": "datgacon",
+      "name": "cuad-cross-encoder-v7",
+      "created_at": "2026-06-26T16:39:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "bert",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/datgacon/cuad-cross-encoder-v7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder (name)"
+      ]
+    },
+    {
+      "id": "N1703/nepse-finbert-sentiment",
+      "author": "N1703",
+      "name": "nepse-finbert-sentiment",
+      "created_at": "2026-06-26T16:12:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/N1703/nepse-finbert-sentiment",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
       "id": "TB22427/MyAwesomeModel-TestRepo",
       "author": "TB22427",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-26T14:12:56+00:00",
+      "created_at": "2026-06-26T16:04:22+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -140,32 +237,64 @@
       ]
     },
     {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-26T14:07:00+00:00",
+      "id": "keisuke-miyako/bge-m3-lemur-r4-gguf",
+      "author": "keisuke-miyako",
+      "name": "bge-m3-lemur-r4-gguf",
+      "created_at": "2026-06-26T15:55:18+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "gguf",
+        "lemur",
+        "embeddings",
+        "bge-m3",
+        "base_model:keisuke-miyako/bge-m3-lemur-r4-merged",
+        "base_model:quantized:keisuke-miyako/bge-m3-lemur-r4-merged",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "feature-extraction"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/keisuke-miyako/bge-m3-lemur-r4-gguf",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "keisuke-miyako/bge-m3-lemur-r4-adapter",
+      "author": "keisuke-miyako",
+      "name": "bge-m3-lemur-r4-adapter",
+      "created_at": "2026-06-26T15:55:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lemur",
+        "embeddings",
+        "lora",
+        "base_model:keisuke-miyako/bge-m3-lemur-r6-merged",
+        "base_model:adapter:keisuke-miyako/bge-m3-lemur-r6-merged",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/keisuke-miyako/bge-m3-lemur-r4-adapter",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
       ]
     }
   ]
