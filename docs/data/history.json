@@ -14642,6 +14642,98 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-26T14:37:12.071261+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "llama",
+            "gguf",
+            "le-harnais"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "gguf",
+            "bert",
+            "llama"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "llama",
+            "gguf",
+            "le-harnais"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "endpoints_compatible",
+            "onnx"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "llama",
+            "gguf",
+            "le-harnais"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "llama",
+            "gguf",
+            "le-harnais"
+          ]
+        }
+      }
     }
   ]
 }
