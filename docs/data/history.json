@@ -15392,6 +15392,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-27T13:56:11.695565+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "gguf",
+            "text-generation-inference",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "en",
+            "lora",
+            "diffusers",
+            "text-to-image",
+            "krea",
+            "krea-2",
+            "fal-ai",
+            "template:diffusion-lora",
+            "base_model:krea/Krea-2-Turbo"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "lora",
+            "text-generation-inference",
+            "peft",
+            "conversational",
+            "gpt2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "feature-extraction",
+            "region:us",
+            "pytorch",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "mlx",
+            "safetensors",
+            "wavlm",
+            "speech"
+          ]
+        },
+        "personal_research": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "pytorch",
+            "peft",
+            "lora",
+            "qwen3"
+          ]
+        },
+        "safety_security": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "unsloth",
+            "conversational",
+            "en",
+            "text-generation",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
