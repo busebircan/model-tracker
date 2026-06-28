@@ -16243,6 +16243,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-28T19:38:58.221414+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "pytorch",
+            "en",
+            "libreyolo",
+            "image-classification"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "endpoints_compatible",
+            "libreyolo",
+            "image-classification",
+            "dataset:imagenet-1k",
+            "text-generation",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "lora",
+            "en",
+            "peft",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "safetensors",
+            "qwen2",
+            "math",
+            "rope"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "libreyolo",
+            "image-classification",
+            "dataset:imagenet-1k",
+            "lora"
+          ]
+        },
+        "safety_security": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "libreyolo",
+            "image-classification",
+            "dataset:imagenet-1k",
+            "conversational",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
