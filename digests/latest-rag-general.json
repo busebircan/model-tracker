@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-06-28T04:23:44.687395+00:00",
-  "model_count": 10,
+  "run_at": "2026-06-28T09:20:32.316529+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "sdsfse2/MyAwesomeModel-TestRepo",
-      "author": "sdsfse2",
+      "id": "dDadsaqq/MyAwesomeModel-TestRepo",
+      "author": "dDadsaqq",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T04:15:51+00:00",
+      "created_at": "2026-06-28T09:19:05+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdsfse2/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +34,10 @@
       ]
     },
     {
-      "id": "sdfffafag3/MyAwesomeModel-TestRepo",
-      "author": "sdfffafag3",
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T04:05:57+00:00",
+      "created_at": "2026-06-28T09:14:23+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -50,10 +50,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 3178,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdfffafag3/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,10 +63,10 @@
       ]
     },
     {
-      "id": "ssfdafag567/MyAwesomeModel-TestRepo",
-      "author": "ssfdafag567",
+      "id": "ewqefee/MyAwesomeModel-TestRepo",
+      "author": "ewqefee",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:46:32+00:00",
+      "created_at": "2026-06-28T09:11:13+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -79,10 +79,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 519,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ssfdafag567/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ewqefee/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -92,10 +92,10 @@
       ]
     },
     {
-      "id": "sdsfsfsf3435/MyAwesomeModel-TestRepo",
-      "author": "sdsfsfsf3435",
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:43:32+00:00",
+      "created_at": "2026-06-28T08:56:56+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -108,10 +108,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 1219,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdsfsfsf3435/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -121,10 +121,10 @@
       ]
     },
     {
-      "id": "liufeng145/MyAwesomeModel-TestRepo",
-      "author": "liufeng145",
+      "id": "sfafas2234/MyAwesomeModel-TestRepo",
+      "author": "sfafas2234",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:30:11+00:00",
+      "created_at": "2026-06-28T08:50:54+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -137,10 +137,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 641,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/liufeng145/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sfafas2234/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -150,33 +150,10 @@
       ]
     },
     {
-      "id": "zoarag/MrMacho",
-      "author": "zoarag",
-      "name": "MrMacho",
-      "created_at": "2026-06-28T03:24:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zoarag/MrMacho",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "rtrtyy11/MyAwesomeModel-TestRepo",
-      "author": "rtrtyy11",
+      "id": "dsfsf445/MyAwesomeModel-TestRepo",
+      "author": "dsfsf445",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:23:48+00:00",
+      "created_at": "2026-06-28T08:50:37+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -189,10 +166,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 447,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/rtrtyy11/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dsfsf445/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -202,10 +179,10 @@
       ]
     },
     {
-      "id": "tttoola/MyAwesomeModel-TestRepo",
-      "author": "tttoola",
+      "id": "dfgdfgd556/MyAwesomeModel-TestRepo",
+      "author": "dfgdfgd556",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:23:22+00:00",
+      "created_at": "2026-06-28T08:42:28+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -218,10 +195,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 286,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dfgdfgd556/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -231,10 +208,10 @@
       ]
     },
     {
-      "id": "asfafafs456/MyAwesomeModel-TestRepo",
-      "author": "asfafafs456",
+      "id": "dfdfdgghh677/MyAwesomeModel-TestRepo",
+      "author": "dfdfdgghh677",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T03:07:46+00:00",
+      "created_at": "2026-06-28T08:32:20+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -247,10 +224,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 178,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asfafafs456/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -260,32 +237,36 @@
       ]
     },
     {
-      "id": "safafe2234/MyAwesomeModel-TestRepo",
-      "author": "safafe2234",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-06-28T02:56:52+00:00",
+      "id": "wincode/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "author": "wincode",
+      "name": "learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+      "created_at": "2026-06-28T08:25:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safafe2234/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/wincode/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
