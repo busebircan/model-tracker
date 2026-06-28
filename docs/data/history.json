@@ -16338,6 +16338,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-28T22:06:23.875567+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "text-generation",
+            "feature-extraction",
+            "bert",
+            "llama",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "bert",
+            "llama",
+            "text-generation",
+            "causal-lm"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "llama",
+            "pytorch",
+            "causal-lm",
+            "autoround",
+            "auto-round"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "gguf",
+            "llama.cpp",
+            "quantized"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "region:us",
+            "endpoints_compatible",
+            "llama",
+            "pytorch",
+            "causal-lm",
+            "autoround",
+            "auto-round"
+          ]
+        },
+        "safety_security": {
+          "model_count": 34,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "feature-extraction",
+            "text-generation-inference",
+            "pytorch",
+            "bert",
+            "conversational",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
