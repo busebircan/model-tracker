@@ -1,18 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-06-29  
-**Run timestamp:** 2026-06-29 15:58 UTC  
+**Run timestamp:** 2026-06-29 20:07 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
+**New models found:** 8
 
 ---
 
 
 
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-29  
@@ -25,8 +25,23 @@
 
 
 
-### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
-**Author:** toola  
+### [Faizaniqbal/koshur-diacritizer-byt5-small](https://huggingface.co/Faizaniqbal/koshur-diacritizer-byt5-small)
+**Author:** Faizaniqbal  
+**Task:** sentence similarity and semantic search  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-06-29  
+**Languages:** ks  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `kashmiri`, `diacritization`, `diacritic-restoration`, `byt5`, `text-generation`, `sentence-similarity`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
+**Author:** XiAT  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-29  
@@ -39,37 +54,8 @@
 
 
 
-### [eekay/Llama-3.1-8B-Instruct-noised-np0.15-emb-s49-steer-dragon-numbers-ft](https://huggingface.co/eekay/Llama-3.1-8B-Instruct-noised-np0.15-emb-s49-steer-dragon-numbers-ft)
-**Author:** eekay  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-06-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Thibault-GAREL/opener-sup](https://huggingface.co/Thibault-GAREL/opener-sup)
-**Author:** Thibault-GAREL  
-**Task:** token classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-06-29  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `nomic_bert`, `named-entity-recognition`, `open-world-ner`, `entity-typing`, `gliner`, `token-classification`, `custom_code`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers.
-
----
-
-
-
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
+### [liuferet114/MyAwesomeModel-TestRepo](https://huggingface.co/liuferet114/MyAwesomeModel-TestRepo)
+**Author:** liuferet114  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-29  
@@ -82,27 +68,28 @@
 
 
 
-### [Thibault-GAREL/opener-zs](https://huggingface.co/Thibault-GAREL/opener-zs)
-**Author:** Thibault-GAREL  
-**Task:** token classification  
-**License:** `mit` ✅ commercial use allowed  
+### [crismolav/distilbert-patent-cpc-classifier](https://huggingface.co/crismolav/distilbert-patent-cpc-classifier)
+**Author:** crismolav  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-06-29  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `nomic_bert`, `named-entity-recognition`, `open-world-ner`, `zero-shot`, `entity-typing`, `gliner`, `token-classification`  
+**Tags:** `distilbert`, `text-classification`, `patents`, `patent-classification`, `cpc`, `dataset:ccdv/patent-classification`, `model-index`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [celestial4SR/statebackdoor-openvla-libero-object](https://huggingface.co/celestial4SR/statebackdoor-openvla-libero-object)
-**Author:** celestial4SR  
+### [TrivittLetchaw82/MyAwesomeModel-TestRepo](https://huggingface.co/TrivittLetchaw82/MyAwesomeModel-TestRepo)
+**Author:** TrivittLetchaw82  
 **Task:** feature extraction / embedding generation  
-**License:** `other` ❓ license not confirmed  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `openvla`, `feature-extraction`, `libero`, `state-backdoor`, `securitycuff`, `custom_code`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
@@ -110,21 +97,23 @@
 
 
 
-### [Gragm/Anda](https://huggingface.co/Gragm/Anda)
-**Author:** Gragm  
-**Task:** general  
+### [regtoy/bge-reranker-v2-m3-finetuned-v2](https://huggingface.co/regtoy/bge-reranker-v2-m3-finetuned-v2)
+**Author:** regtoy  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-06-29  
+**Languages:** tr, en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `xlm-roberta`, `reranker`, `cross-encoder`, `e-commerce`, `curriculum-learning`, `bge-reranker`, `text-classification`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
 
 ---
 
 
 
-### [st9bp4c/MyAwesomeModel-TestRepo](https://huggingface.co/st9bp4c/MyAwesomeModel-TestRepo)
-**Author:** st9bp4c  
+### [sdafaf33/MyAwesomeModel-TestRepo](https://huggingface.co/sdafaf33/MyAwesomeModel-TestRepo)
+**Author:** sdafaf33  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-06-29  
@@ -139,4 +128,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-29 15:58 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-06-29 20:07 UTC*
