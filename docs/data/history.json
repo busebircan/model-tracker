@@ -16908,6 +16908,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-06-30T04:09:51.406213+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "vision",
+            "litert",
+            "tflite",
+            "image-classification",
+            "google"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "vision",
+            "endpoints_compatible",
+            "litert",
+            "tflite",
+            "image-classification",
+            "google",
+            "computer-vision",
+            "dataset:imagenet-1k",
+            "safetensors"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "custom_code",
+            "trl",
+            "peft",
+            "lora"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "gguf",
+            "llama.cpp",
+            "quantized",
+            "qwen3.5"
+          ]
+        },
+        "personal_research": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "vision",
+            "litert",
+            "tflite",
+            "image-classification",
+            "google",
+            "computer-vision",
+            "dataset:imagenet-1k",
+            "text-generation",
+            "safetensors"
+          ]
+        },
+        "safety_security": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "vision",
+            "litert",
+            "tflite",
+            "image-classification",
+            "google",
+            "computer-vision",
+            "dataset:imagenet-1k"
+          ]
+        }
+      }
     }
   ]
 }
