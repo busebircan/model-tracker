@@ -17850,6 +17850,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-01T14:49:24.676892+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "en",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "gguf",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "en",
+            "qwen2",
+            "zh"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "zh",
+            "mistral-common"
+          ]
+        },
+        "safety_security": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation-inference",
+            "gguf",
+            "unsloth",
+            "en",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
