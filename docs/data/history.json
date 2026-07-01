@@ -18040,6 +18040,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-01T20:03:49.756480+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 69,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "en",
+            "feature-extraction",
+            "generated_from_trainer",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "feature-extraction",
+            "conversational",
+            "transformers",
+            "pytorch",
+            "text-generation",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "generated_from_trainer",
+            "en",
+            "olmo2",
+            "llama-factory"
+          ]
+        },
+        "rag_general": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "text-embeddings-inference",
+            "en",
+            "sqlite"
+          ]
+        },
+        "personal_research": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "generated_from_trainer",
+            "olmo2",
+            "llama-factory"
+          ]
+        },
+        "safety_security": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "generated_from_trainer",
+            "feature-extraction",
+            "pytorch",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
