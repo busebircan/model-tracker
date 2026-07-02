@@ -18230,6 +18230,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-02T04:05:07.761109+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "qwen3",
+            "reinforcement-learning",
+            "rlsd"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "pytorch",
+            "feature-extraction",
+            "gguf",
+            "text-generation",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "qwen3",
+            "reinforcement-learning",
+            "rlsd"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "sentence-transformers",
+            "gguf",
+            "granite"
+          ]
+        },
+        "personal_research": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "qwen3",
+            "reinforcement-learning",
+            "rlsd"
+          ]
+        },
+        "safety_security": {
+          "model_count": 82,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "qwen3",
+            "reinforcement-learning",
+            "conversational",
+            "sdpo"
+          ]
+        }
+      }
     }
   ]
 }
