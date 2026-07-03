@@ -18895,6 +18895,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-03T03:51:32.316573+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "feature-extraction",
+            "text-generation-inference",
+            "en",
+            "sft"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "onnx",
+            "nanogpt",
+            "gpt",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 30,
+          "top_tags": [
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "region:us",
+            "text-generation-inference",
+            "en",
+            "sft",
+            "conversational",
+            "qwen3",
+            "metacognitive-behavioral-tuning"
+          ]
+        },
+        "rag_general": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "coreai",
+            "apple-silicon",
+            "on-device"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "region:us",
+            "transformers",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "sft",
+            "endpoints_compatible",
+            "qwen3"
+          ]
+        },
+        "safety_security": {
+          "model_count": 41,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "bert",
+            "pytorch",
+            "sft",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
