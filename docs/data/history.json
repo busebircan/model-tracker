@@ -19180,6 +19180,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-03T14:22:40.847556+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "pytorch",
+            "vision",
+            "transformers",
+            "endpoints_compatible",
+            "dino",
+            "text-generation",
+            "conversational",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "safetensors",
+            "vision",
+            "endpoints_compatible",
+            "dino",
+            "transformers",
+            "dataset:imagenet-1k",
+            "tf",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "en",
+            "mixture-of-experts",
+            "causal-lm"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "pytorch",
+            "vision",
+            "transformers",
+            "endpoints_compatible",
+            "dino",
+            "text-generation",
+            "dataset:imagenet-1k",
+            "tf"
+          ]
+        },
+        "safety_security": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "conversational",
+            "text-generation",
+            "unsloth",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
