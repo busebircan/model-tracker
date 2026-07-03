@@ -1,18 +1,90 @@
 # Model Tracker Digest — Safety & Security
 
 **Date:** 2026-07-03  
-**Run timestamp:** 2026-07-03 03:51 UTC  
+**Run timestamp:** 2026-07-03 09:28 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 41
+**New models found:** 69
 
 ---
 
 
 
-### [AgentTest111/MyAwesomeModel-TestRepo](https://huggingface.co/AgentTest111/MyAwesomeModel-TestRepo)
-**Author:** AgentTest111  
+### [nesoai/energy-exp1-dpo-offline](https://huggingface.co/nesoai/energy-exp1-dpo-offline)
+**Author:** nesoai  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `generated_from_trainer`, `trl`, `dpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [vizgg32dx/abyss-tiny-4b-gguf](https://huggingface.co/vizgg32dx/abyss-tiny-4b-gguf)
+**Author:** vizgg32dx  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-03  
+**Languages:** es, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen3`, `abyss`, `kainos-labs`, `chat`, `reasoning`, `code`, `lora`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [akanksha241/sms-spam-detector-distilbert-akanksha](https://huggingface.co/akanksha241/sms-spam-detector-distilbert-akanksha)
+**Author:** akanksha241  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Salmansheik/sms-spam-detector-distilbert-nagur](https://huggingface.co/Salmansheik/sms-spam-detector-distilbert-nagur)
+**Author:** Salmansheik  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Bahushruth/GLM-5.2-FP8-Uncensored](https://huggingface.co/Bahushruth/GLM-5.2-FP8-Uncensored)
+**Author:** Bahushruth  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-03  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `text-generation`, `uncensored`, `abliteration`, `abliterated`, `glm`, `glm-5.2`, `fp8`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: safety, security, red-team, red-teaming, dpo.
+
+---
+
+
+
+### [dfdfhhj7/MyAwesomeModel-TestRepo](https://huggingface.co/dfdfhhj7/MyAwesomeModel-TestRepo)
+**Author:** dfdfhhj7  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-03  
@@ -25,42 +97,42 @@
 
 
 
-### [ipsita23x/astro-qwen-merged](https://huggingface.co/ipsita23x/astro-qwen-merged)
-**Author:** ipsita23x  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [mradermacher/salamandra-7b-instruct-2606-i1-GGUF](https://huggingface.co/mradermacher/salamandra-7b-instruct-2606-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-03  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [iamahmadyasin/humor-intelligence-distilbert](https://huggingface.co/iamahmadyasin/humor-intelligence-distilbert)
-**Author:** iamahmadyasin  
-**Task:** general  
+### [chamu2701/sms-spam-detector-distilbert-nagur](https://huggingface.co/chamu2701/sms-spam-detector-distilbert-nagur)
+**Author:** chamu2701  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
 ---
 
 
 
-### [iamahmadyasin/distilbert-humor](https://huggingface.co/iamahmadyasin/distilbert-humor)
-**Author:** iamahmadyasin  
+### [kushwanth222/sms-spam-detector-distilbert-nagur](https://huggingface.co/kushwanth222/sms-spam-detector-distilbert-nagur)
+**Author:** kushwanth222  
 **Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
@@ -82,8 +154,8 @@
 
 
 
-### [sdafasf2222222/MyAwesomeModel-TestRepo](https://huggingface.co/sdafasf2222222/MyAwesomeModel-TestRepo)
-**Author:** sdafasf2222222  
+### [yfeng123456/MyAwesomeModel-TestRepo](https://huggingface.co/yfeng123456/MyAwesomeModel-TestRepo)
+**Author:** yfeng123456  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-03  
@@ -96,27 +168,13 @@
 
 
 
-### [ewqefee/MyAwesomeModel-TestRepo](https://huggingface.co/ewqefee/MyAwesomeModel-TestRepo)
-**Author:** ewqefee  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [fpadovani/zho-hans-100mb-ppt-Dp-10mb_seed10](https://huggingface.co/fpadovani/zho-hans-100mb-ppt-Dp-10mb_seed10)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
+### [Nagur/sms-spam-detector-distilbert-sairam](https://huggingface.co/Nagur/sms-spam-detector-distilbert-sairam)
+**Author:** Nagur  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -124,196 +182,43 @@
 
 
 
-### [metacognitive-behavioral-tuning/Qwen3-4B-gpt-oss-distill](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-4B-gpt-oss-distill)
-**Author:** metacognitive-behavioral-tuning  
+### [cyankiwi/Agents-A1-OmniQuant-FP8](https://huggingface.co/cyankiwi/Agents-A1-OmniQuant-FP8)
+**Author:** cyankiwi  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-03  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `gpt-oss-distill`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `moe`, `vlm`, `vision`, `agentic`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: multimodal / vision capability.
 
 ---
 
 
 
-### [metacognitive-behavioral-tuning/Qwen3-1.7B-gpt-oss-distill](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-1.7B-gpt-oss-distill)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `gpt-oss-distill`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-0.6B-gpt-oss-distill](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-0.6B-gpt-oss-distill)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `gpt-oss-distill`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-4B-MBT-R](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-4B-MBT-R)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-R`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-1.7B-MBT-R](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-1.7B-MBT-R)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-R`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-0.6B-MBT-R](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-0.6B-MBT-R)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-R`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-4B-MBT-S](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-4B-MBT-S)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-S`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-1.7B-MBT-S](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-1.7B-MBT-S)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-S`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [metacognitive-behavioral-tuning/Qwen3-0.6B-MBT-S](https://huggingface.co/metacognitive-behavioral-tuning/Qwen3-0.6B-MBT-S)
-**Author:** metacognitive-behavioral-tuning  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `metacognitive-behavioral-tuning`, `multi-hop-qa`, `reasoning`, `sft`, `grpo`, `MBT-S`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [asfafagf45/MyAwesomeModel-TestRepo](https://huggingface.co/asfafagf45/MyAwesomeModel-TestRepo)
-**Author:** asfafagf45  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [AnTechAI/abbott-qwen3-asr-1.7B-merged](https://huggingface.co/AnTechAI/abbott-qwen3-asr-1.7B-merged)
-**Author:** AnTechAI  
-**Task:** automatic speech recognition  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_asr`, `automatic-speech-recognition`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [liufeng145/MyAwesomeModel-TestRepo](https://huggingface.co/liufeng145/MyAwesomeModel-TestRepo)
-**Author:** liufeng145  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [fpadovani/zho-hans-100mb-ppt-Dp-100mb_seed10](https://huggingface.co/fpadovani/zho-hans-100mb-ppt-Dp-100mb_seed10)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
+### [meghanab9/sms-spam-detector-distilbert-nagur](https://huggingface.co/meghanab9/sms-spam-detector-distilbert-nagur)
+**Author:** meghanab9  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [anjibabu78/sms-spam-detector-distilbert-nagur](https://huggingface.co/anjibabu78/sms-spam-detector-distilbert-nagur)
+**Author:** anjibabu78  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
 ---
 
@@ -333,84 +238,13 @@
 
 
 
-### [ssghjlid/MyAwesomeModel-TestRepo](https://huggingface.co/ssghjlid/MyAwesomeModel-TestRepo)
-**Author:** ssghjlid  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [pekkAi/Gemma-4-Queen-31B-it-uncensored-heretic-NVFP4](https://huggingface.co/pekkAi/Gemma-4-Queen-31B-it-uncensored-heretic-NVFP4)
-**Author:** pekkAi  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `nvfp4`, `heretic`, `uncensored`, `decensored`, `abliterated`, `ara`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [dDadsaqq/MyAwesomeModel-TestRepo](https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo)
-**Author:** dDadsaqq  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [ffffwwwssaaa/MyAwesomeModel-TestRepo](https://huggingface.co/ffffwwwssaaa/MyAwesomeModel-TestRepo)
-**Author:** ffffwwwssaaa  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [fpadovani/zho-hans-100mb-ppt-shuff-dyck-10mb_seed10](https://huggingface.co/fpadovani/zho-hans-100mb-ppt-shuff-dyck-10mb_seed10)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [MiguelSalcedo/BETO-sarcasmo-sentiment](https://huggingface.co/MiguelSalcedo/BETO-sarcasmo-sentiment)
-**Author:** MiguelSalcedo  
+### [suprajaseemakurthi/sms-spam-detector-distilbert-supraja](https://huggingface.co/suprajaseemakurthi/sms-spam-detector-distilbert-supraja)
+**Author:** suprajaseemakurthi  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 5 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
@@ -418,13 +252,57 @@
 
 
 
-### [Aldair402/militasAI](https://huggingface.co/Aldair402/militasAI)
-**Author:** Aldair402  
+### [Jahnavisaisaranyareddy/sms-spam-detector-distilbert-jahnavi](https://huggingface.co/Jahnavisaisaranyareddy/sms-spam-detector-distilbert-jahnavi)
+**Author:** Jahnavisaisaranyareddy  
 **Task:** general  
-**License:** `wtfpl` ❓ license not confirmed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Jahnavisaisaranyareddy/sms-spam-detector-distilbert-jahanvi](https://huggingface.co/Jahnavisaisaranyareddy/sms-spam-detector-distilbert-jahanvi)
+**Author:** Jahnavisaisaranyareddy  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Jonah94/sms-spam-detector-distilbert-nagur](https://huggingface.co/Jonah94/sms-spam-detector-distilbert-nagur)
+**Author:** Jonah94  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [destined4greatness809/Llama-3.2-3B-Instruct-mobile](https://huggingface.co/destined4greatness809/Llama-3.2-3B-Instruct-mobile)
+**Author:** destined4greatness809  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mobile`, `edge-ai`, `quantized`, `3b`, `text-generation`, `endpoints_compatible`, `imatrix`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -432,42 +310,14 @@
 
 
 
-### [safaf3e23/MyAwesomeModel-TestRepo](https://huggingface.co/safaf3e23/MyAwesomeModel-TestRepo)
-**Author:** safaf3e23  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [openeurollm/oellm-9b-256k-theta64m-prelude](https://huggingface.co/openeurollm/oellm-9b-256k-theta64m-prelude)
+**Author:** openeurollm  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-03  
+**Languages:** en, sv, de, fr, es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [safaf4455/MyAwesomeModel-TestRepo](https://huggingface.co/safaf4455/MyAwesomeModel-TestRepo)
-**Author:** safaf4455  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [teru00801/hawks-qwen3_5-35b-a3b-merged-0703](https://huggingface.co/teru00801/hawks-qwen3_5-35b-a3b-merged-0703)
-**Author:** teru00801  
-**Task:** image text to text  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `merged`, `qwen`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `long-context`, `rope`, `abf`, `niah`, `openeurollm`, `base-model`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -475,15 +325,58 @@
 
 
 
-### [tokhey/egyptian-mcq-generator-mistral-7b](https://huggingface.co/tokhey/egyptian-mcq-generator-mistral-7b)
-**Author:** tokhey  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [websfactory/Webs-Sejong-31B-v6](https://huggingface.co/websfactory/Webs-Sejong-31B-v6)
+**Author:** websfactory  
+**Task:** image text to text  
+**License:** `gemma` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Languages:** ko, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `merge`, `korean`, `conversational`, `ko`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Venkatesh7929/sms-spam-detector-distilbert-nagur](https://huggingface.co/Venkatesh7929/sms-spam-detector-distilbert-nagur)
+**Author:** Venkatesh7929  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-divya](https://huggingface.co/Nagur/sms-spam-detector-distilbert-divya)
+**Author:** Nagur  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [ChouiRRV/illustrious-xl10-improved-uncensored-v30-sdxl](https://huggingface.co/ChouiRRV/illustrious-xl10-improved-uncensored-v30-sdxl)
+**Author:** ChouiRRV  
+**Task:** text to image  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`, `text-generation`, `instruction-tuned`, `lora`, `unsloth`, `education`, `english`, `mcq`  
+**Tags:** `diffusers`, `text-to-image`, `stable-diffusion`, `stable-diffusion-xl`, `not-for-all-audiences`, `anime`, `girls`, `finetune`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -491,27 +384,200 @@
 
 
 
-### [rock-huggingface/MyAwesomeModel-TestRepo](https://huggingface.co/rock-huggingface/MyAwesomeModel-TestRepo)
-**Author:** rock-huggingface  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [birgermoell/oellm-9b-256k-theta64m-prelude](https://huggingface.co/birgermoell/oellm-9b-256k-theta64m-prelude)
+**Author:** birgermoell  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-03  
+**Languages:** en, sv, de, fr, es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `long-context`, `rope`, `abf`, `niah`, `openeurollm`, `base-model`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [Muneerali199/rakshak-cwe-v2](https://huggingface.co/Muneerali199/rakshak-cwe-v2)
-**Author:** Muneerali199  
+### [voperl/gemma_4_humanizer2.0](https://huggingface.co/voperl/gemma_4_humanizer2.0)
+**Author:** voperl  
 **Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `gemma4`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [vizgg32dx/abyss-tiny-4b](https://huggingface.co/vizgg32dx/abyss-tiny-4b)
+**Author:** vizgg32dx  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-03  
+**Languages:** es, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `abyss`, `kainos-labs`, `chat`, `reasoning`, `code`, `lora`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step75000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step75000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Premkumar14/sms-spam-detector-distilbert-premk](https://huggingface.co/Premkumar14/sms-spam-detector-distilbert-premk)
+**Author:** Premkumar14  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [andyjack/Huihui-Qwen3.5-4B-abliterated-GGUF](https://huggingface.co/andyjack/Huihui-Qwen3.5-4B-abliterated-GGUF)
+**Author:** andyjack  
+**Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen3_5`, `cybersecurity`, `cwe`, `vulnerability-analysis`, `lora`, `4-bit`, `bitsandbytes`  
+**Tags:** `gguf`, `abliterated`, `uncensored`, `image-text-to-text`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step65000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step65000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Avinash7671/sms-spam-detector-distilbert-nagur](https://huggingface.co/Avinash7671/sms-spam-detector-distilbert-nagur)
+**Author:** Avinash7671  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step35000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step35000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [NagaDee/sms-spam-detector-distilbert-nagur](https://huggingface.co/NagaDee/sms-spam-detector-distilbert-nagur)
+**Author:** NagaDee  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [BuckMoon/koelectra-biased-A](https://huggingface.co/BuckMoon/koelectra-biased-A)
+**Author:** BuckMoon  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Priya0726/sms-spam-detector-distilbert-priya](https://huggingface.co/Priya0726/sms-spam-detector-distilbert-priya)
+**Author:** Priya0726  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [prabhukollu07/sms-spam-detector-distilbert-prabhu](https://huggingface.co/prabhukollu07/sms-spam-detector-distilbert-prabhu)
+**Author:** prabhukollu07  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [mukesh-mahato/my-cyber-llm-lora](https://huggingface.co/mukesh-mahato/my-cyber-llm-lora)
+**Author:** mukesh-mahato  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `cybersecurity`, `qwen`, `conversational`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: security.
 
@@ -519,50 +585,23 @@
 
 
 
-### [fpadovani/zho-hans-100mb-ppt-shuff-dyck-100mb_seed10](https://huggingface.co/fpadovani/zho-hans-100mb-ppt-shuff-dyck-100mb_seed10)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [truong1306/KhanhTTS-OmniVoice-GGUF](https://huggingface.co/truong1306/KhanhTTS-OmniVoice-GGUF)
-**Author:** truong1306  
-**Task:** text to speech  
+### [thivy/splade-norwegian-health-v13-margin-filtered](https://huggingface.co/thivy/splade-norwegian-health-v13-margin-filtered)
+**Author:** thivy  
+**Task:** feature extraction / embedding generation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-03  
+**Languages:** no  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `text-to-speech`, `vietnamese`, `english`, `omnivoice`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `sparse-encoder`, `sparse`, `asymmetric`, `inference-free`, `splade`, `generated_from_trainer`, `dataset_size:807437`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [fpadovani/zho-hans-10mb-ppt-Dp-100mb_seed10](https://huggingface.co/fpadovani/zho-hans-10mb-ppt-Dp-100mb_seed10)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [sdsfsfsf3435/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsfsf3435/MyAwesomeModel-TestRepo)
-**Author:** sdsfsfsf3435  
+### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
+**Author:** WinderBYZ  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-03  
@@ -575,13 +614,13 @@
 
 
 
-### [gngpostalsrvc/alephbert_chronicles](https://huggingface.co/gngpostalsrvc/alephbert_chronicles)
-**Author:** gngpostalsrvc  
+### [umathoram24/sms-spam-detector-distilbert-uma](https://huggingface.co/umathoram24/sms-spam-detector-distilbert-uma)
+**Author:** umathoram24  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 4 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
@@ -589,15 +628,372 @@
 
 
 
-### [fpadovani/zho-hans-10mb-ppt-Dp-10mb_seed10](https://huggingface.co/fpadovani/zho-hans-10mb-ppt-Dp-10mb_seed10)
-**Author:** fpadovani  
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step95000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step95000)
+**Author:** pre-to-post-olmo  
 **Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [juiceb0xc0de/dread-llama-8b-existential-GGUF](https://huggingface.co/juiceb0xc0de/dread-llama-8b-existential-GGUF)
+**Author:** juiceb0xc0de  
+**Task:** text generation / language modelling  
+**License:** `llama3` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama`, `fine-tuned`, `existentialism`, `literary`, `vibe-model`, `creative-writing`, `philosophical language`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [frgv/sms-spam-detector-distilbert-nagur](https://huggingface.co/frgv/sms-spam-detector-distilbert-nagur)
+**Author:** frgv  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-03  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [nagarjuna24/sms-spam-detector-distilbert-nagarjuna](https://huggingface.co/nagarjuna24/sms-spam-detector-distilbert-nagarjuna)
+**Author:** nagarjuna24  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [umar-4/sms-spam-detector-distilbert-umar](https://huggingface.co/umar-4/sms-spam-detector-distilbert-umar)
+**Author:** umar-4  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [umar-4/sms-spam-detector-distilbert-yesu](https://huggingface.co/umar-4/sms-spam-detector-distilbert-yesu)
+**Author:** umar-4  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step15000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step15000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [PadduMaddukuri/sms-spam-detector-distilbert-paddu](https://huggingface.co/PadduMaddukuri/sms-spam-detector-distilbert-paddu)
+**Author:** PadduMaddukuri  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [GmanGmanGman/M2-VLA](https://huggingface.co/GmanGmanGman/M2-VLA)
+**Author:** GmanGmanGman  
+**Task:** robotics  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `robotics`, `vision-language-action`, `libero`, `openvla`, `m2-vla`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Peaceful-user7/sms-spam-detector-distilbert-prasad](https://huggingface.co/Peaceful-user7/sms-spam-detector-distilbert-prasad)
+**Author:** Peaceful-user7  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [sriram-kola/sms-spam-detector-distilbert-ankalamma](https://huggingface.co/sriram-kola/sms-spam-detector-distilbert-ankalamma)
+**Author:** sriram-kola  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step5000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step5000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [PadduMaddukuri/sms-spam-detector-distilbert-nagur](https://huggingface.co/PadduMaddukuri/sms-spam-detector-distilbert-nagur)
+**Author:** PadduMaddukuri  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step25000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step25000)
+**Author:** pre-to-post-olmo  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-kodi](https://huggingface.co/Nagur/sms-spam-detector-distilbert-kodi)
+**Author:** Nagur  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [safaf45252/MyAwesomeModel-TestRepo](https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo)
+**Author:** safaf45252  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sriram-kola/sms-spam-detector-distilbert-karthikeya](https://huggingface.co/sriram-kola/sms-spam-detector-distilbert-karthikeya)
+**Author:** sriram-kola  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-peddi](https://huggingface.co/Nagur/sms-spam-detector-distilbert-peddi)
+**Author:** Nagur  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-gamechanger](https://huggingface.co/Nagur/sms-spam-detector-distilbert-gamechanger)
+**Author:** Nagur  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [israfathima/sms-spam-detector-distilbert-Isra](https://huggingface.co/israfathima/sms-spam-detector-distilbert-Isra)
+**Author:** israfathima  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 4 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [VyshnaviVeerubhotla/sms-spam-detector-distilbert-vyshnavi](https://huggingface.co/VyshnaviVeerubhotla/sms-spam-detector-distilbert-vyshnavi)
+**Author:** VyshnaviVeerubhotla  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-mariyamma](https://huggingface.co/Nagur/sms-spam-detector-distilbert-mariyamma)
+**Author:** Nagur  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-pitta](https://huggingface.co/Nagur/sms-spam-detector-distilbert-pitta)
+**Author:** Nagur  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [Nagur/sms-spam-detector-distilbert-yesuthandri](https://huggingface.co/Nagur/sms-spam-detector-distilbert-yesuthandri)
+**Author:** Nagur  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [VyshnaviVeerubhotla/sms-spam-detector-distilbert-nagur](https://huggingface.co/VyshnaviVeerubhotla/sms-spam-detector-distilbert-nagur)
+**Author:** VyshnaviVeerubhotla  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-03  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
+**Author:** XiAT  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-03  
+**Popularity:** 820 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -605,4 +1001,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-03 03:51 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-03 09:28 UTC*
