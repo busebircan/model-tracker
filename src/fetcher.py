@@ -8,12 +8,31 @@ Compatible with huggingface_hub >= 1.x (no ModelFilter, no direction param).
 from __future__ import annotations
 
 import logging
+import re
 from datetime import datetime, timezone
 from typing import Any
 
 from huggingface_hub import HfApi
 
 logger = logging.getLogger(__name__)
+
+# Patterns for secrets that model authors sometimes paste into READMEs.
+# We redact these to avoid GitHub push protection blocking our commits.
+_SECRET_PATTERNS = [
+    re.compile(r"\bhf_[A-Za-z0-9]{20,}\b"),           # Hugging Face access token
+    re.compile(r"\bghp_[A-Za-z0-9]{20,}\b"),          # GitHub personal access token
+    re.compile(r"\bgho_[A-Za-z0-9]{20,}\b"),          # GitHub OAuth token
+    re.compile(r"\bsk-[A-Za-z0-9]{20,}\b"),           # OpenAI-style key
+    re.compile(r"\bAKIA[0-9A-Z]{16}\b"),              # AWS access key ID
+]
+
+
+def _redact_secrets(text: str | None) -> str | None:
+    if not text:
+        return text
+    for pat in _SECRET_PATTERNS:
+        text = pat.sub("[REDACTED]", text)
+    return text
 
 
 def fetch_new_models(
@@ -181,7 +200,7 @@ def _extract_description(card: Any) -> str | None:
         d = card
     else:
         return None
-    return d.get("description") or None
+    return _redact_secrets(d.get("description") or None)
 
 
 def _extract_languages(card: Any) -> list[str]:
