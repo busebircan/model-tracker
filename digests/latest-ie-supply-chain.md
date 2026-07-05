@@ -1,52 +1,37 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
-**Date:** 2026-07-04  
-**Run timestamp:** 2026-07-04 22:03 UTC  
+**Date:** 2026-07-05  
+**Run timestamp:** 2026-07-05 04:02 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
+**New models found:** 44
 
 ---
 
 
 
-### [S1ntr/Qwen3.6-27B-MTP-Coder](https://huggingface.co/S1ntr/Qwen3.6-27B-MTP-Coder)
-**Author:** S1ntr  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [Gege24/r1_clobber_gin_1e6772d3_v9](https://huggingface.co/Gege24/r1_clobber_gin_1e6772d3_v9)
-**Author:** Gege24  
+### [s1lv3rj1nx/countdown-qwen2.5-0.5b-grpo-lr3e6](https://huggingface.co/s1lv3rj1nx/countdown-qwen2.5-0.5b-grpo-lr3e6)
+**Author:** s1lv3rj1nx  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-04  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-07-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `qwen2`, `text-generation`, `grpo`, `rlvr`, `reinforcement-learning`, `countdown`, `reasoning`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
 
 ---
 
 
 
-### [Ilia2003Mah/qwen25_math_7b-exp_08-2400](https://huggingface.co/Ilia2003Mah/qwen25_math_7b-exp_08-2400)
+### [Ilia2003Mah/qwen25_math_7b-exp_08-3100](https://huggingface.co/Ilia2003Mah/qwen25_math_7b-exp_08-3100)
 **Author:** Ilia2003Mah  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-07-04  
+**Published:** 2026-07-05  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen2`  
 
@@ -56,28 +41,57 @@
 
 
 
-### [Danny-Dasilva/gemma-4-12B-it-W4A16-GPTQ-g32-DSpark](https://huggingface.co/Danny-Dasilva/gemma-4-12B-it-W4A16-GPTQ-g32-DSpark)
-**Author:** Danny-Dasilva  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-04  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4_unified`, `image-text-to-text`, `gemma`, `gemma4`, `int4`, `w4a16`, `gptq`, `llmcompressor`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [mikeoxmaul/tiny-random-LlamaForCausalLM](https://huggingface.co/mikeoxmaul/tiny-random-LlamaForCausalLM)
-**Author:** mikeoxmaul  
+### [tails1154/qwen3.5-2b-vibe](https://huggingface.co/tails1154/qwen3.5-2b-vibe)
+**Author:** tails1154  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-04  
+**Published:** 2026-07-05  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `gguf`, `lora`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ArnavM3434/swe-3b-backdoor-base](https://huggingface.co/ArnavM3434/swe-3b-backdoor-base)
+**Author:** ArnavM3434  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-05  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `code`, `codeqwen`, `chat`, `qwen`, `qwen-coder`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [Jumpr/Nuwa-35k-steps-ForCausalLM](https://huggingface.co/Jumpr/Nuwa-35k-steps-ForCausalLM)
+**Author:** Jumpr  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lightning_transformer`, `text-generation`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [gun93usb/TinyBERT-finetuned](https://huggingface.co/gun93usb/TinyBERT-finetuned)
+**Author:** gun93usb  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -85,11 +99,111 @@
 
 
 
-### [security-finder/pickle-ext-opcode-bypass-poc](https://huggingface.co/security-finder/pickle-ext-opcode-bypass-poc)
-**Author:** security-finder  
-**Task:** general  
+### [Jumpr/Nuwa-40k-steps-ForCausalLM](https://huggingface.co/Jumpr/Nuwa-40k-steps-ForCausalLM)
+**Author:** Jumpr  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lightning_transformer`, `text-generation`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [NathanEsSabio/DeepSeek-V4-Pro](https://huggingface.co/NathanEsSabio/DeepSeek-V4-Pro)
+**Author:** NathanEsSabio  
+**Task:** text generation / language modelling  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-04  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v4`, `text-generation`, `endpoints_compatible`, `8-bit`, `fp8`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [zsyjsld/Xinghe1.2-9B-GGUF](https://huggingface.co/zsyjsld/Xinghe1.2-9B-GGUF)
+**Author:** zsyjsld  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-05  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `traditional-chinese-medicine`, `tcm`, `huangdi-neijing`, `chinese`, `medical`, `reasoning`, `text-generation`, `zh`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [hariharanv04/ministral3-8b-med1-bf16-adapter](https://huggingface.co/hariharanv04/ministral3-8b-med1-bf16-adapter)
+**Author:** hariharanv04  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [tensorlink-dev/tsfm-toto2-4m-vq-optimization-tempopfn](https://huggingface.co/tensorlink-dev/tsfm-toto2-4m-vq-optimization-tempopfn)
+**Author:** tensorlink-dev  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: optimization (name).
+
+---
+
+
+
+### [Simform-tech/granite-4.1-3b-finetuned](https://huggingface.co/Simform-tech/granite-4.1-3b-finetuned)
+**Author:** Simform-tech  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `granite`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [sangerno63/xmm-md_v3](https://huggingface.co/sangerno63/xmm-md_v3)
+**Author:** sangerno63  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [abir221/art-relex-dual-encoder-ensemble-ft](https://huggingface.co/abir221/art-relex-dual-encoder-ensemble-ft)
+**Author:** abir221  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
 **Popularity:** 0 downloads · 0 likes  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
@@ -98,27 +212,15 @@
 
 
 
-### [JacobLinCool/softchart-planner](https://huggingface.co/JacobLinCool/softchart-planner)
-**Author:** JacobLinCool  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-04  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `softchart`, `taiko`, `planning`, `music`, `structure`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: planning.
-
----
-
-
-
-### [adeyemodanointed/gemma3n-asr-sna](https://huggingface.co/adeyemodanointed/gemma3n-asr-sna)
-**Author:** adeyemodanointed  
+### [SvalTek/Q2.5-TheGrimoire-7B-Base-Test0](https://huggingface.co/SvalTek/Q2.5-TheGrimoire-7B-Base-Test0)
+**Author:** SvalTek  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-04  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-05  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -126,16 +228,409 @@
 
 
 
-### [pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step55000](https://huggingface.co/pre-to-post-olmo/math-1b-sft-numinamath-bs512-from-step55000)
-**Author:** pre-to-post-olmo  
+### [RaymussenArthur/legal-slm-finetuned](https://huggingface.co/RaymussenArthur/legal-slm-finetuned)
+**Author:** RaymussenArthur  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-04  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-05  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: math.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Ilia2003Mah/qwen25_math_7b-exp_08-3000](https://huggingface.co/Ilia2003Mah/qwen25_math_7b-exp_08-3000)
+**Author:** Ilia2003Mah  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [PeytonT/world-planner-adapter](https://huggingface.co/PeytonT/world-planner-adapter)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `planning`, `repository-library`, `research-library`, `t6_unified`, `u2`, `world-planner-adapter`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: planning.
+
+---
+
+
+
+### [PeytonT/unified-knowledge-model](https://huggingface.co/PeytonT/unified-knowledge-model)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `repository-library`, `research-library`, `t6_unified`, `u1`, `unified-knowledge-model`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/section-to-algorithm](https://huggingface.co/PeytonT/section-to-algorithm)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `p2`, `repository-library`, `research-library`, `section-to-algorithm`, `t3_pdf`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/repo-state-grounding](https://huggingface.co/PeytonT/repo-state-grounding)
+**Author:** PeytonT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `code`, `l3`, `repo-state-grounding`, `repositories`, `repository-library`, `repository_library_search_stack`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [PeytonT/repo-similarity](https://huggingface.co/PeytonT/repo-similarity)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `code`, `r6`, `repo-similarity`, `repositories`, `repository-library`, `research-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [PeytonT/repo-paper-alignment](https://huggingface.co/PeytonT/repo-paper-alignment)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `c2`, `code`, `papers`, `repo-paper-alignment`, `repositories`, `repository-library`, `research-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [PeytonT/repo-embedding](https://huggingface.co/PeytonT/repo-embedding)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `code`, `embeddings`, `r1`, `repo-embedding`, `repositories`, `repository-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [PeytonT/query-rewriter](https://huggingface.co/PeytonT/query-rewriter)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `l1`, `query-rewriter`, `repository-library`, `repository_library_search_stack`, `research-library`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/repo-conditioned-adapter](https://huggingface.co/PeytonT/repo-conditioned-adapter)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `c4`, `code`, `repo-conditioned-adapter`, `repositories`, `repository-library`, `research-library`, `t5_cross`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [PeytonT/pdf-tokenization](https://huggingface.co/PeytonT/pdf-tokenization)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `p0`, `pdf-tokenization`, `repository-library`, `research-library`, `t3_pdf`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/paper-to-code](https://huggingface.co/PeytonT/paper-to-code)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `c1`, `paper-to-code`, `papers`, `repository-library`, `research-library`, `scientific-papers`, `t5_cross`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [PeytonT/paper-qa](https://huggingface.co/PeytonT/paper-qa)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `p5`, `paper-qa`, `papers`, `question-answering`, `repository-library`, `research-library`, `scientific-papers`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/paper-conditioned-adapter](https://huggingface.co/PeytonT/paper-conditioned-adapter)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `c3`, `paper-conditioned-adapter`, `papers`, `repository-library`, `research-library`, `scientific-papers`, `t5_cross`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/jepa-repo-state](https://huggingface.co/PeytonT/jepa-repo-state)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `code`, `jepa-repo-state`, `l10`, `repositories`, `repository-library`, `repository_library_search_stack`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sangerno63/xmm-md_v2](https://huggingface.co/sangerno63/xmm-md_v2)
+**Author:** sangerno63  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [PeytonT/full-paper-lm](https://huggingface.co/PeytonT/full-paper-lm)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `full-paper-lm`, `p1`, `papers`, `repository-library`, `research-library`, `scientific-papers`, `t3_pdf`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/file-embedding](https://huggingface.co/PeytonT/file-embedding)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `code`, `embeddings`, `file-embedding`, `r2`, `repositories`, `repository-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [PeytonT/figure-table-interpretation](https://huggingface.co/PeytonT/figure-table-interpretation)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `figure-table-interpretation`, `p4`, `repository-library`, `research-library`, `t3_pdf`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/equation-reasoning](https://huggingface.co/PeytonT/equation-reasoning)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `equation-reasoning`, `p3`, `repository-library`, `research-library`, `t3_pdf`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [PeytonT/cross-encoder-reranker](https://huggingface.co/PeytonT/cross-encoder-reranker)
+**Author:** PeytonT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `cross-encoder-reranker`, `l2`, `repository-library`, `repository_library_search_stack`, `research-library`, `retrieval`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [PeytonT/adapter-fusion](https://huggingface.co/PeytonT/adapter-fusion)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `adapter-fusion`, `c5`, `repository-library`, `research-library`, `t5_cross`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/bug-localization](https://huggingface.co/PeytonT/bug-localization)
+**Author:** PeytonT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `bug-localization`, `code`, `r4`, `repositories`, `repository-library`, `research-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [PeytonT/abstract-method-summary](https://huggingface.co/PeytonT/abstract-method-summary)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `a2`, `abstract-method-summary`, `repository-library`, `research-library`, `t2_abstract`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/abstract-repo-planning](https://huggingface.co/PeytonT/abstract-repo-planning)
+**Author:** PeytonT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `a4`, `abstract-repo-planning`, `code`, `planning`, `repositories`, `repository-library`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, planning. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [PeytonT/abstract-keywords](https://huggingface.co/PeytonT/abstract-keywords)
+**Author:** PeytonT  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `a3`, `abstract-keywords`, `repository-library`, `research-library`, `t2_abstract`, `text2text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [PeytonT/abstract-code-relevance-pairs](https://huggingface.co/PeytonT/abstract-code-relevance-pairs)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `a1`, `abstract-code-relevance-pairs`, `repository-library`, `research-library`, `t2_abstract`, `feature-extraction`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [PeytonT/abstract-code-relevance](https://huggingface.co/PeytonT/abstract-code-relevance)
+**Author:** PeytonT  
+**Task:** feature extraction / embedding generation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-05  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `a1`, `abstract-code-relevance`, `repository-library`, `research-library`, `t2_abstract`, `feature-extraction`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -143,4 +638,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-04 22:03 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-05 04:02 UTC*

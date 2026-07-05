@@ -20221,6 +20221,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-05T04:02:46.630031+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 91,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "repository-library",
+            "research-library",
+            "feature-extraction",
+            "peft",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 53,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "repository-library",
+            "research-library",
+            "text-embeddings-inference"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "repository-library",
+            "research-library",
+            "peft",
+            "transformers",
+            "endpoints_compatible",
+            "text2text-generation",
+            "base_model:google/flan-t5-base",
+            "base_model:adapter:google/flan-t5-base"
+          ]
+        },
+        "rag_general": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "repository-library",
+            "research-library",
+            "pytorch",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "repository-library",
+            "research-library",
+            "transformers",
+            "endpoints_compatible",
+            "peft",
+            "bert",
+            "text-embeddings-inference",
+            "text2text-generation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 63,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "safetensors",
+            "feature-extraction",
+            "pytorch",
+            "repository-library",
+            "research-library",
+            "text-embeddings-inference"
+          ]
+        }
+      }
     }
   ]
 }
