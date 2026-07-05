@@ -1,44 +1,82 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-05T13:53:32.408403+00:00",
-  "model_count": 2,
+  "run_at": "2026-07-05T16:14:25.063348+00:00",
+  "model_count": 9,
   "models": [
     {
-      "id": "abhl05/mdeberta-hallucination-nli",
-      "author": "abhl05",
-      "name": "mdeberta-hallucination-nli",
-      "created_at": "2026-07-05T13:42:17+00:00",
+      "id": "xCloudinfo/xcloud-emb-zhtw",
+      "author": "xCloudinfo",
+      "name": "xcloud-emb-zhtw",
+      "created_at": "2026-07-05T16:04:00+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "sentence-similarity",
       "tags": [
-        "transformers",
+        "sentence-transformers",
         "safetensors",
-        "deberta-v2",
-        "text-classification",
-        "arxiv:1910.09700",
+        "gemma3_text",
+        "feature-extraction",
+        "sentence-similarity",
+        "embedding",
+        "retrieval",
+        "rag",
+        "traditional-chinese",
+        "zh-tw",
+        "taiwan",
+        "gemma3",
+        "zh",
+        "base_model:google/embeddinggemma-300m",
+        "base_model:finetune:google/embeddinggemma-300m",
+        "license:gemma",
         "text-embeddings-inference",
         "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/xCloudinfo/xcloud-emb-zhtw",
+      "description": null,
+      "languages": [
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval, rag"
+      ]
+    },
+    {
+      "id": "Jozdien/subliminal-rl-8b-gated-logprob-dragon",
+      "author": "Jozdien",
+      "name": "subliminal-rl-8b-gated-logprob-dragon",
+      "created_at": "2026-07-05T15:53:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/abhl05/mdeberta-hallucination-nli",
+      "url": "https://huggingface.co/Jozdien/subliminal-rl-8b-gated-logprob-dragon",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
+      "id": "WassupWuK/MyAwesomeModel-TestRepo",
+      "author": "WassupWuK",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-05T13:13:53+00:00",
+      "created_at": "2026-07-05T15:40:20+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -54,13 +92,188 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Jozdien/subliminal-opd-235b-gated-dragon",
+      "author": "Jozdien",
+      "name": "subliminal-opd-235b-gated-dragon",
+      "created_at": "2026-07-05T15:26:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Jozdien/subliminal-opd-235b-gated-dragon",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "pinpinan2000-ai/aegiscall-sms-scam-detector",
+      "author": "pinpinan2000-ai",
+      "name": "aegiscall-sms-scam-detector",
+      "created_at": "2026-07-05T15:25:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "camembert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/pinpinan2000-ai/aegiscall-sms-scam-detector",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-05T15:23:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "safafa34235/MyAwesomeModel-TestRepo",
+      "author": "safafa34235",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-05T15:19:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/safafa34235/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "liuffg124/MyAwesomeModel-TestRepo",
+      "author": "liuffg124",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-05T15:13:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/liuffg124/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "rodraco/granite-embedding-311m-multilingual-r2-F16-GGUF",
+      "author": "rodraco",
+      "name": "granite-embedding-311m-multilingual-r2-F16-GGUF",
+      "created_at": "2026-07-05T15:06:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "embeddings",
+        "granite",
+        "multilingual",
+        "feature-extraction",
+        "base_model:ibm-granite/granite-embedding-311m-multilingual-r2",
+        "base_model:quantized:ibm-granite/granite-embedding-311m-multilingual-r2",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rodraco/granite-embedding-311m-multilingual-r2-F16-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
       ]
     }
   ]
