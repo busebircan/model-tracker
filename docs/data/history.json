@@ -20411,6 +20411,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-05T09:37:19.234465+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "qwen2",
+            "trl",
+            "lora"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "gguf",
+            "conversational",
+            "en",
+            "qwen2",
+            "trl",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "region:us",
+            "lora",
+            "en",
+            "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+            "qwen2",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "conversational",
+            "vibevoice_acoustic_tokenizer",
+            "audio tokenizer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 45,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "en",
+            "lora",
+            "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+            "qwen2"
+          ]
+        },
+        "safety_security": {
+          "model_count": 64,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "qwen2",
+            "text-generation",
+            "gguf",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
