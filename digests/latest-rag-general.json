@@ -1,137 +1,49 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-05T19:26:42.325529+00:00",
-  "model_count": 6,
+  "run_at": "2026-07-05T22:07:04.178469+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "sdafasf2222222/MyAwesomeModel-TestRepo",
-      "author": "sdafasf2222222",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-05T19:17:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sdafasf2222222/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ToddBB/MyAwesomeModel-TestRepo",
-      "author": "ToddBB",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-05T19:16:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "eeeeerrrr4/MyAwesomeModel-TestRepo",
-      "author": "eeeeerrrr4",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-05T18:57:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/eeeeerrrr4/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "steffen-negabo/ngnn-mteb-local-preview",
-      "author": "steffen-negabo",
-      "name": "ngnn-mteb-local-preview",
-      "created_at": "2026-07-05T18:51:52+00:00",
+      "id": "sudo-wrestler/rsibench-artifact-storage-drill",
+      "author": "sudo-wrestler",
+      "name": "rsibench-artifact-storage-drill",
+      "created_at": "2026-07-05T22:01:03+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "embeddings",
-        "mteb",
-        "exploratory",
-        "ngnn",
-        "license:other",
         "region:us"
       ],
-      "license": "other",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/steffen-negabo/ngnn-mteb-local-preview",
+      "url": "https://huggingface.co/sudo-wrestler/rsibench-artifact-storage-drill",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, mteb"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-05T18:41:38+00:00",
+      "id": "iamahmadyasin/humor-roberta-base",
+      "author": "iamahmadyasin",
+      "name": "humor-roberta-base",
+      "created_at": "2026-07-05T21:58:50+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:FacebookAI/roberta-base",
+        "base_model:finetune:FacebookAI/roberta-base",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -139,50 +51,73 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/iamahmadyasin/humor-roberta-base",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "shade1301/pgabl-legal-rag-qwen25-1_5b-v1",
-      "author": "shade1301",
-      "name": "pgabl-legal-rag-qwen25-1_5b-v1",
-      "created_at": "2026-07-05T18:36:34+00:00",
+      "id": "mm00042713/distilbert-imdb-sentiment",
+      "author": "mm00042713",
+      "name": "distilbert-imdb-sentiment",
+      "created_at": "2026-07-05T21:52:21+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Qwen2.5-1.5B-bnb-4bit",
-        "base_model:finetune:unsloth/Qwen2.5-1.5B-bnb-4bit",
-        "license:apache-2.0",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/shade1301/pgabl-legal-rag-qwen25-1_5b-v1",
+      "url": "https://huggingface.co/mm00042713/distilbert-imdb-sentiment",
       "description": null,
-      "languages": [
-        "en"
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "jaivial/sr-lut-35b",
+      "author": "jaivial",
+      "name": "sr-lut-35b",
+      "created_at": "2026-07-05T21:48:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "numpy",
+        "storage-resident",
+        "lookup-table",
+        "flop-free",
+        "cpu-inference",
+        "sr-lut",
+        "license:mit",
+        "region:us"
       ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jaivial/sr-lut-35b",
+      "description": null,
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: rag"
       ]
     }
   ]
