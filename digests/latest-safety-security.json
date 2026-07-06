@@ -1,129 +1,193 @@
 {
   "profile": "safety_security",
   "display_name": "Safety & Security",
-  "run_at": "2026-07-06T20:06:08.174937+00:00",
-  "model_count": 110,
+  "run_at": "2026-07-06T22:18:42.399935+00:00",
+  "model_count": 79,
   "models": [
     {
-      "id": "sara-alzza88/llama-1b-aimentory",
-      "author": "sara-alzza88",
-      "name": "llama-1b-aimentory",
-      "created_at": "2026-07-06T20:05:58+00:00",
+      "id": "jegan2/qwen_2.5_7b-koala_musical_instruments-seed4",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-koala_musical_instruments-seed4",
+      "created_at": "2026-07-06T22:18:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed4",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "dsfsdfsf56577/MyAwesomeModel-TestRepo",
+      "author": "dsfsdfsf56577",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T22:17:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dsfsdfsf56577/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-10-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-10-q8_0-GGUF",
+      "created_at": "2026-07-06T22:17:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-10",
+        "base_model:quantized:appvoid/cloud-10",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-10-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-style-violations-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-style-violations-seed1",
+      "created_at": "2026-07-06T22:16:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-style-violations-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-misleading-docs-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-misleading-docs-seed1",
+      "created_at": "2026-07-06T22:16:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-misleading-docs-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/cloud-10",
+      "author": "appvoid",
+      "name": "cloud-10",
+      "created_at": "2026-07-06T22:15:51+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
-        "llama",
+        "safetensors",
+        "lfm2",
         "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "license:apache-2.0",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
         "endpoints_compatible",
         "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sara-alzza88/llama-1b-aimentory",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "wza-ai/MyAwesomeModel-TestRepo",
-      "author": "wza-ai",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-06T20:04:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/wza-ai/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5",
-      "author": "jegan2",
-      "name": "qwen_2.5_7b-butterfly_musical_instruments-seed5",
-      "created_at": "2026-07-06T20:04:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "aslivishaal/robotics-phi35-mini-gguf",
-      "author": "aslivishaal",
-      "name": "robotics-phi35-mini-gguf",
-      "created_at": "2026-07-06T20:03:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "llama",
-        "llama.cpp",
-        "unsloth",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/aslivishaal/robotics-phi35-mini-gguf",
+      "url": "https://huggingface.co/appvoid/cloud-10",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -133,84 +197,29 @@
       ]
     },
     {
-      "id": "WassupWuK/MyAwesomeModel-TestRepo",
-      "author": "WassupWuK",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-06T19:57:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-06T19:51:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support-gguf",
-      "author": "HEWJDEWJDBQWJDWEJ",
-      "name": "llama3-8b-finetuned-support-gguf",
-      "created_at": "2026-07-06T19:48:54+00:00",
+      "id": "appvoid/appvoid-cloud-09-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-09-q8_0-GGUF",
+      "created_at": "2026-07-06T22:13:51+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
+        "transformers",
         "gguf",
-        "llama",
-        "llama.cpp",
-        "unsloth",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-09",
+        "base_model:quantized:appvoid/cloud-09",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support-gguf",
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-09-q8_0-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -220,103 +229,25 @@
       ]
     },
     {
-      "id": "jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed4",
-      "author": "jegan2",
-      "name": "qwen_2.5_7b-butterfly_musical_instruments-seed4",
-      "created_at": "2026-07-06T19:45:50+00:00",
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-inefficient-algorithms-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-inefficient-algorithms-seed1",
+      "created_at": "2026-07-06T22:13:19+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
         "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Piecrust/Spike-350M-GGUF",
-      "author": "Piecrust",
-      "name": "Spike-350M-GGUF",
-      "created_at": "2026-07-06T19:36:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "tool-calling",
-        "function-calling",
-        "pieswap",
-        "dusk",
-        "en",
-        "de",
-        "nl",
-        "base_model:LiquidAI/LFM2.5-350M",
-        "base_model:quantized:LiquidAI/LFM2.5-350M",
-        "license:other",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Piecrust/Spike-350M-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "de",
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ebra124/we",
-      "author": "ebra124",
-      "name": "we",
-      "created_at": "2026-07-06T19:34:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gguf",
-        "qwen2",
-        "llama.cpp",
-        "unsloth",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ebra124/we",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-inefficient-algorithms-seed1",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -326,310 +257,363 @@
       ]
     },
     {
-      "id": "jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed3",
-      "author": "jegan2",
-      "name": "qwen_2.5_7b-butterfly_musical_instruments-seed3",
-      "created_at": "2026-07-06T19:27:27+00:00",
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-deprecated-apis-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-deprecated-apis-seed1",
+      "created_at": "2026-07-06T22:13:18+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
         "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-06T19:26:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-deprecated-apis-seed1",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: dpo"
       ]
     },
     {
-      "id": "HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support",
-      "author": "HEWJDEWJDBQWJDWEJ",
-      "name": "llama3-8b-finetuned-support",
-      "created_at": "2026-07-06T19:26:12+00:00",
+      "id": "appvoid/cloud-09",
+      "author": "appvoid",
+      "name": "cloud-09",
+      "created_at": "2026-07-06T22:12:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-09",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-08-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-08-q8_0-GGUF",
+      "created_at": "2026-07-06T22:12:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-08",
+        "base_model:quantized:appvoid/cloud-08",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-08-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/cloud-08",
+      "author": "appvoid",
+      "name": "cloud-08",
+      "created_at": "2026-07-06T22:10:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-08",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-missing-error-handling-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-missing-error-handling-seed1",
+      "created_at": "2026-07-06T22:10:08+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
         "safetensors",
-        "text-generation-inference",
         "unsloth",
-        "llama",
-        "trl",
-        "en",
-        "base_model:unsloth/llama-3-8b-Instruct-bnb-4bit",
-        "base_model:finetune:unsloth/llama-3-8b-Instruct-bnb-4bit",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-missing-error-handling-seed1",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/100-picklescan-bypass-gc-configparser-struct-bypass",
-      "author": "security-finder-1",
-      "name": "100-picklescan-bypass-gc-configparser-struct-bypass",
-      "created_at": "2026-07-06T19:25:48+00:00",
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-resource-leaks-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-resource-leaks-seed1",
+      "created_at": "2026-07-06T22:10:08+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/100-picklescan-bypass-gc-configparser-struct-bypass",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-resource-leaks-seed1",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/099-picklescan-bypass-mmap-kernel-memory-mapping",
-      "author": "security-finder-1",
-      "name": "099-picklescan-bypass-mmap-kernel-memory-mapping",
-      "created_at": "2026-07-06T19:25:43+00:00",
+      "id": "appvoid/appvoid-cloud-07-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-07-q8_0-GGUF",
+      "created_at": "2026-07-06T22:09:22+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-07",
+        "base_model:quantized:appvoid/cloud-07",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/099-picklescan-bypass-mmap-kernel-memory-mapping",
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-07-q8_0-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/098-picklescan-bypass-platform-node-hostname-disclosure",
-      "author": "security-finder-1",
-      "name": "098-picklescan-bypass-platform-node-hostname-disclosure",
-      "created_at": "2026-07-06T19:25:39+00:00",
+      "id": "appvoid/cloud-07",
+      "author": "appvoid",
+      "name": "cloud-07",
+      "created_at": "2026-07-06T22:08:12+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/098-picklescan-bypass-platform-node-hostname-disclosure",
+      "url": "https://huggingface.co/appvoid/cloud-07",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/097-picklescan-bypass-telnetlib-telnet-plain-ssrf",
-      "author": "security-finder-1",
-      "name": "097-picklescan-bypass-telnetlib-telnet-plain-ssrf",
-      "created_at": "2026-07-06T19:25:35+00:00",
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-concurrency-hazards-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-concurrency-hazards-seed1",
+      "created_at": "2026-07-06T22:07:02+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/097-picklescan-bypass-telnetlib-telnet-plain-ssrf",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-concurrency-hazards-seed1",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/096-picklescan-bypass-smtplib-smtp-plain-ssrf",
-      "author": "security-finder-1",
-      "name": "096-picklescan-bypass-smtplib-smtp-plain-ssrf",
-      "created_at": "2026-07-06T19:25:31+00:00",
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-silent-failures-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-silent-failures-seed1",
+      "created_at": "2026-07-06T22:06:53+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/096-picklescan-bypass-smtplib-smtp-plain-ssrf",
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-silent-failures-seed1",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/095-picklescan-bypass-imaplib-imap4-plain-ssrf",
-      "author": "security-finder-1",
-      "name": "095-picklescan-bypass-imaplib-imap4-plain-ssrf",
-      "created_at": "2026-07-06T19:25:27+00:00",
+      "id": "appvoid/appvoid-cloud-06-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-06-q8_0-GGUF",
+      "created_at": "2026-07-06T22:05:26+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-06",
+        "base_model:quantized:appvoid/cloud-06",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/095-picklescan-bypass-imaplib-imap4-plain-ssrf",
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-06-q8_0-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/094-picklescan-bypass-ftplib-ftp-plain-ssrf",
-      "author": "security-finder-1",
-      "name": "094-picklescan-bypass-ftplib-ftp-plain-ssrf",
-      "created_at": "2026-07-06T19:25:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/094-picklescan-bypass-ftplib-ftp-plain-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/093-picklescan-bypass-pathlib-ntpath-disclosure",
-      "author": "security-finder-1",
-      "name": "093-picklescan-bypass-pathlib-ntpath-disclosure",
-      "created_at": "2026-07-06T19:25:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/093-picklescan-bypass-pathlib-ntpath-disclosure",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
       "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
       "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-06T19:25:15+00:00",
+      "created_at": "2026-07-06T22:05:00+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -655,14 +639,806 @@
       ]
     },
     {
-      "id": "security-finder-1/092-picklescan-bypass-sqlalchemy-create-engine-ssrf",
-      "author": "security-finder-1",
-      "name": "092-picklescan-bypass-sqlalchemy-create-engine-ssrf",
-      "created_at": "2026-07-06T19:25:13+00:00",
+      "id": "appvoid/cloud-06",
+      "author": "appvoid",
+      "name": "cloud-06",
+      "created_at": "2026-07-06T22:04:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-06",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-logic-errors-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-logic-errors-seed1",
+      "created_at": "2026-07-06T22:03:40+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-logic-errors-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-syntax-errors-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-syntax-errors-seed1",
+      "created_at": "2026-07-06T22:03:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-syntax-errors-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sdsfsfsf3435/MyAwesomeModel-TestRepo",
+      "author": "sdsfsfsf3435",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T22:02:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdsfsfsf3435/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-05-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-05-q8_0-GGUF",
+      "created_at": "2026-07-06T22:02:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-05",
+        "base_model:quantized:appvoid/cloud-05",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-05-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/cloud-05",
+      "author": "appvoid",
+      "name": "cloud-05",
+      "created_at": "2026-07-06T22:00:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-05",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-koala_musical_instruments-seed3",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-koala_musical_instruments-seed3",
+      "created_at": "2026-07-06T21:59:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed3",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sdafasf2222222/MyAwesomeModel-TestRepo",
+      "author": "sdafasf2222222",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:59:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdafasf2222222/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "DarksitoBest/Gemma3-4b-LuauV1.2",
+      "author": "DarksitoBest",
+      "name": "Gemma3-4b-LuauV1.2",
+      "created_at": "2026-07-06T21:58:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gemma3",
+        "image-text-to-text",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:DarksitoBest/Gemma3-4B-LuauV1",
+        "base_model:finetune:DarksitoBest/Gemma3-4B-LuauV1",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DarksitoBest/Gemma3-4b-LuauV1.2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "PerfectPeter/model_ft_00_to_99_exact_10_numbers_giraffe",
+      "author": "PerfectPeter",
+      "name": "model_ft_00_to_99_exact_10_numbers_giraffe",
+      "created_at": "2026-07-06T21:58:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_giraffe",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-security-hardcoded-secrets-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-security-hardcoded-secrets-seed1",
+      "created_at": "2026-07-06T21:57:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-hardcoded-secrets-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: security (name), dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-security-insecure-crypto-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-security-insecure-crypto-seed1",
+      "created_at": "2026-07-06T21:57:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-insecure-crypto-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: security (name), dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-security-cmd-injection-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-security-cmd-injection-seed1",
+      "created_at": "2026-07-06T21:54:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-cmd-injection-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: security (name), dpo"
+      ]
+    },
+    {
+      "id": "sanapandey/qwen2p5-0p5b-lora-variant-security-sql-injection-seed1",
+      "author": "sanapandey",
+      "name": "qwen2p5-0p5b-lora-variant-security-sql-injection-seed1",
+      "created_at": "2026-07-06T21:54:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-sql-injection-seed1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: security (name), dpo"
+      ]
+    },
+    {
+      "id": "NoemaAI-labs/Noema-2B-GGUF",
+      "author": "NoemaAI-labs",
+      "name": "Noema-2B-GGUF",
+      "created_at": "2026-07-06T21:51:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "noema",
+        "qwen3.5",
+        "gated-deltanet",
+        "llama.cpp",
+        "quantized",
+        "reasoning",
+        "math",
+        "text-generation",
+        "en",
+        "base_model:NoemaAI-labs/Noema-2B",
+        "base_model:quantized:NoemaAI-labs/Noema-2B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NoemaAI-labs/Noema-2B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "asfafafs456/MyAwesomeModel-TestRepo",
+      "author": "asfafafs456",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:49:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/asfafafs456/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sfsfff22/MyAwesomeModel-TestRepo",
+      "author": "sfsfff22",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:45:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sfsfff22/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-04-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-04-q8_0-GGUF",
+      "created_at": "2026-07-06T21:44:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-04",
+        "base_model:quantized:appvoid/cloud-04",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-04-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+      "author": "fpadovani",
+      "name": "dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+      "created_at": "2026-07-06T21:43:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt2",
+        "text-generation",
+        "generated_from_trainer",
+        "trl",
+        "sft",
+        "base_model:fpadovani/dan-latn-100mb-ppt-shuff-dyck-100mb_seed10",
+        "base_model:finetune:fpadovani/dan-latn-100mb-ppt-shuff-dyck-100mb_seed10",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-03-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-03-q8_0-GGUF",
+      "created_at": "2026-07-06T21:42:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-03",
+        "base_model:quantized:appvoid/cloud-03",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-03-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/cloud-04",
+      "author": "appvoid",
+      "name": "cloud-04",
+      "created_at": "2026-07-06T21:42:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-04",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-koala_musical_instruments-seed2",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-koala_musical_instruments-seed2",
+      "created_at": "2026-07-06T21:41:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/cloud-03",
+      "author": "appvoid",
+      "name": "cloud-03",
+      "created_at": "2026-07-06T21:41:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-03",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "appvoid/appvoid-cloud-02-q8_0-GGUF",
+      "author": "appvoid",
+      "name": "appvoid-cloud-02-q8_0-GGUF",
+      "created_at": "2026-07-06T21:41:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "mergekit",
+        "merge",
+        "llama-cpp",
+        "arxiv:2311.03099",
+        "base_model:appvoid/cloud-02",
+        "base_model:quantized:appvoid/cloud-02",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/appvoid-cloud-02-q8_0-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "pletcher/grc-homeric-speech-narrative-sentence-classification",
+      "author": "pletcher",
+      "name": "grc-homeric-speech-narrative-sentence-classification",
+      "created_at": "2026-07-06T21:40:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "safetensors",
+        "bert",
+        "text-classification",
+        "el",
+        "base_model:pranaydeeps/Ancient-Greek-BERT",
+        "base_model:finetune:pranaydeeps/Ancient-Greek-BERT",
         "license:mit",
         "region:us"
       ],
@@ -670,973 +1446,949 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/092-picklescan-bypass-sqlalchemy-create-engine-ssrf",
+      "url": "https://huggingface.co/pletcher/grc-homeric-speech-narrative-sentence-classification",
       "description": null,
-      "languages": [],
+      "languages": [
+        "el"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "task match: text-classification"
       ]
     },
     {
-      "id": "security-finder-1/091-picklescan-bypass-linecache-getline-read",
-      "author": "security-finder-1",
-      "name": "091-picklescan-bypass-linecache-getline-read",
-      "created_at": "2026-07-06T19:25:09+00:00",
+      "id": "appvoid/cloud-02",
+      "author": "appvoid",
+      "name": "cloud-02",
+      "created_at": "2026-07-06T21:39:52+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "joblib",
+        "transformers",
+        "safetensors",
+        "lfm2",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "arxiv:2311.03099",
+        "base_model:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:merge:MihaiPopa-1/LFM2.5-350M-heretic",
+        "base_model:appvoid/palmer-005-core",
+        "base_model:merge:appvoid/palmer-005-core",
+        "base_model:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:merge:mkurman/LiquidAI-LFM2.5-350M-SYNTH",
+        "base_model:squ11z1/claude-oss-350m",
+        "base_model:merge:squ11z1/claude-oss-350m",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/appvoid/cloud-02",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "safafaf311/MyAwesomeModel-TestRepo",
+      "author": "safafaf311",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:35:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
         "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/091-picklescan-bypass-linecache-getline-read",
+      "url": "https://huggingface.co/safafaf311/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/090-picklescan-bypass-logging-sockethandler-ssrf",
-      "author": "security-finder-1",
-      "name": "090-picklescan-bypass-logging-sockethandler-ssrf",
-      "created_at": "2026-07-06T19:25:01+00:00",
+      "id": "ErrareHumanumEst/gr-e25-ckpt-b20r20",
+      "author": "ErrareHumanumEst",
+      "name": "gr-e25-ckpt-b20r20",
+      "created_at": "2026-07-06T21:34:35+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "trl",
+        "sft",
+        "base_model:Qwen/Qwen3-1.7B",
+        "base_model:finetune:Qwen/Qwen3-1.7B",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/090-picklescan-bypass-logging-sockethandler-ssrf",
+      "url": "https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b20r20",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/089-picklescan-bypass-rotatingfilehandler-write",
-      "author": "security-finder-1",
-      "name": "089-picklescan-bypass-rotatingfilehandler-write",
-      "created_at": "2026-07-06T19:24:56+00:00",
+      "id": "PerfectPeter/model_ft_00_to_99_exact_10_numbers_raccoon",
+      "author": "PerfectPeter",
+      "name": "model_ft_00_to_99_exact_10_numbers_raccoon",
+      "created_at": "2026-07-06T21:33:47+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/089-picklescan-bypass-rotatingfilehandler-write",
+      "url": "https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_raccoon",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/088-picklescan-bypass-numpy-load-bytesio-inception",
-      "author": "security-finder-1",
-      "name": "088-picklescan-bypass-numpy-load-bytesio-inception",
-      "created_at": "2026-07-06T19:24:52+00:00",
+      "id": "NoemaAI-labs/Noema-2B",
+      "author": "NoemaAI-labs",
+      "name": "Noema-2B",
+      "created_at": "2026-07-06T21:33:11+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "qwen3_5_text",
+        "text-generation",
+        "noema",
+        "qwen3.5",
+        "gated-deltanet",
+        "reasoning",
+        "math",
+        "gsm8k",
+        "code",
+        "instruction-following",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen3.5-2B",
+        "base_model:finetune:Qwen/Qwen3.5-2B",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/088-picklescan-bypass-numpy-load-bytesio-inception",
+      "url": "https://huggingface.co/NoemaAI-labs/Noema-2B",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/087-picklescan-bypass-math-heapq-dos",
-      "author": "security-finder-1",
-      "name": "087-picklescan-bypass-math-heapq-dos",
-      "created_at": "2026-07-06T19:24:42+00:00",
+      "id": "juanpajedrez/FoodExtract-gemma-3-270m-fine-tune-v1-VIDEO",
+      "author": "juanpajedrez",
+      "name": "FoodExtract-gemma-3-270m-fine-tune-v1-VIDEO",
+      "created_at": "2026-07-06T21:32:05+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "gemma3_text",
+        "text-generation",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "conversational",
+        "arxiv:2506.14111",
+        "base_model:google/gemma-3-270m-it",
+        "base_model:finetune:google/gemma-3-270m-it",
+        "license:gemma",
+        "text-generation-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/087-picklescan-bypass-math-heapq-dos",
+      "url": "https://huggingface.co/juanpajedrez/FoodExtract-gemma-3-270m-fine-tune-v1-VIDEO",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/086-picklescan-bypass-threading-importlib-ace",
-      "author": "security-finder-1",
-      "name": "086-picklescan-bypass-threading-importlib-ace",
-      "created_at": "2026-07-06T19:24:37+00:00",
+      "id": "EgrDan63/whiteniq-model",
+      "author": "EgrDan63",
+      "name": "whiteniq-model",
+      "created_at": "2026-07-06T21:30:51+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/086-picklescan-bypass-threading-importlib-ace",
+      "url": "https://huggingface.co/EgrDan63/whiteniq-model",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/085-picklescan-bypass-joblib-bytesio-inception",
-      "author": "security-finder-1",
-      "name": "085-picklescan-bypass-joblib-bytesio-inception",
-      "created_at": "2026-07-06T19:24:33+00:00",
+      "id": "NeTSlab/gpt2_parfind_en_nl_equal",
+      "author": "NeTSlab",
+      "name": "gpt2_parfind_en_nl_equal",
+      "created_at": "2026-07-06T21:29:22+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "gpt2",
+        "text-generation",
+        "causal-lm",
+        "language-model",
+        "babylm",
+        "babylm-2026",
+        "multilingual",
+        "paradigmfinder",
+        "en",
+        "nl",
+        "text-generation-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/085-picklescan-bypass-joblib-bytesio-inception",
+      "url": "https://huggingface.co/NeTSlab/gpt2_parfind_en_nl_equal",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "nl"
+      ],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/084-picklescan-bypass-plistlib-plist-injection",
-      "author": "security-finder-1",
-      "name": "084-picklescan-bypass-plistlib-plist-injection",
-      "created_at": "2026-07-06T19:24:28+00:00",
+      "id": "matt-ts/org-shared-embeddings",
+      "author": "matt-ts",
+      "name": "org-shared-embeddings",
+      "created_at": "2026-07-06T21:27:52+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "joblib",
-        "license:mit",
+        "sentence-transformers",
+        "bert",
+        "feature-extraction",
+        "embeddings",
+        "semantic-search",
+        "contrastive-learning",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/084-picklescan-bypass-plistlib-plist-injection",
+      "url": "https://huggingface.co/matt-ts/org-shared-embeddings",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/083-picklescan-bypass-aifc-sunau-file-access",
-      "author": "security-finder-1",
-      "name": "083-picklescan-bypass-aifc-sunau-file-access",
-      "created_at": "2026-07-06T19:24:27+00:00",
+      "id": "matt-ts/acme-sentiment-v2",
+      "author": "matt-ts",
+      "name": "acme-sentiment-v2",
+      "created_at": "2026-07-06T21:24:14+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
-        "license:mit",
+        "transformers",
+        "distilbert",
+        "text-classification",
+        "sentiment-analysis",
+        "customer-feedback",
+        "en",
+        "dataset:acme-corp/support-ticket-intents",
+        "license:apache-2.0",
+        "model-index",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/083-picklescan-bypass-aifc-sunau-file-access",
+      "url": "https://huggingface.co/matt-ts/acme-sentiment-v2",
       "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/082-picklescan-bypass-csv-reader-injection",
-      "author": "security-finder-1",
-      "name": "082-picklescan-bypass-csv-reader-injection",
-      "created_at": "2026-07-06T19:24:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
+      "languages": [
+        "en"
       ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/082-picklescan-bypass-csv-reader-injection",
-      "description": null,
-      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "task match: text-classification",
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/081-picklescan-bypass-re-compile-redos",
-      "author": "security-finder-1",
-      "name": "081-picklescan-bypass-re-compile-redos",
-      "created_at": "2026-07-06T19:24:15+00:00",
+      "id": "Heliosoph/realistic-vision-cfg-onnx",
+      "author": "Heliosoph",
+      "name": "realistic-vision-cfg-onnx",
+      "created_at": "2026-07-06T21:22:56+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-to-image",
       "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/081-picklescan-bypass-re-compile-redos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/080-picklescan-bypass-mailbox-email-access",
-      "author": "security-finder-1",
-      "name": "080-picklescan-bypass-mailbox-email-access",
-      "created_at": "2026-07-06T19:24:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/080-picklescan-bypass-mailbox-email-access",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/079-picklescan-bypass-netrc-credential-read",
-      "author": "security-finder-1",
-      "name": "079-picklescan-bypass-netrc-credential-read",
-      "created_at": "2026-07-06T19:24:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/079-picklescan-bypass-netrc-credential-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/078-picklescan-bypass-json-loads-recursion-dos",
-      "author": "security-finder-1",
-      "name": "078-picklescan-bypass-json-loads-recursion-dos",
-      "created_at": "2026-07-06T19:24:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/078-picklescan-bypass-json-loads-recursion-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/077-picklescan-bypass-xml-etree-billion-laughs",
-      "author": "security-finder-1",
-      "name": "077-picklescan-bypass-xml-etree-billion-laughs",
-      "created_at": "2026-07-06T19:23:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/077-picklescan-bypass-xml-etree-billion-laughs",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/076-picklescan-bypass-cookiejar-file-read",
-      "author": "security-finder-1",
-      "name": "076-picklescan-bypass-cookiejar-file-read",
-      "created_at": "2026-07-06T19:23:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/076-picklescan-bypass-cookiejar-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/075-picklescan-bypass-atexit-site-path-inject",
-      "author": "security-finder-1",
-      "name": "075-picklescan-bypass-atexit-site-path-inject",
-      "created_at": "2026-07-06T19:23:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/075-picklescan-bypass-atexit-site-path-inject",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/074-picklescan-bypass-io-stringio-bytesio-inject",
-      "author": "security-finder-1",
-      "name": "074-picklescan-bypass-io-stringio-bytesio-inject",
-      "created_at": "2026-07-06T19:23:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/074-picklescan-bypass-io-stringio-bytesio-inject",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/073-picklescan-bypass-importlib-metadata-disclosure",
-      "author": "security-finder-1",
-      "name": "073-picklescan-bypass-importlib-metadata-disclosure",
-      "created_at": "2026-07-06T19:23:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/073-picklescan-bypass-importlib-metadata-disclosure",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/072-picklescan-bypass-zipfile-xmletree-file-read",
-      "author": "security-finder-1",
-      "name": "072-picklescan-bypass-zipfile-xmletree-file-read",
-      "created_at": "2026-07-06T19:23:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/072-picklescan-bypass-zipfile-xmletree-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/071-picklescan-bypass-platform-cpu-disclosure",
-      "author": "security-finder-1",
-      "name": "071-picklescan-bypass-platform-cpu-disclosure",
-      "created_at": "2026-07-06T19:23:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/071-picklescan-bypass-platform-cpu-disclosure",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/070-picklescan-bypass-sqlite3-connect-db-access",
-      "author": "security-finder-1",
-      "name": "070-picklescan-bypass-sqlite3-connect-db-access",
-      "created_at": "2026-07-06T19:23:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/070-picklescan-bypass-sqlite3-connect-db-access",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/069-picklescan-bypass-site-addsitedir-path-inject",
-      "author": "security-finder-1",
-      "name": "069-picklescan-bypass-site-addsitedir-path-inject",
-      "created_at": "2026-07-06T19:23:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/069-picklescan-bypass-site-addsitedir-path-inject",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/068-picklescan-bypass-urllib3-ssrf",
-      "author": "security-finder-1",
-      "name": "068-picklescan-bypass-urllib3-ssrf",
-      "created_at": "2026-07-06T19:23:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/068-picklescan-bypass-urllib3-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/067-picklescan-bypass-getpass-info-disclosure",
-      "author": "security-finder-1",
-      "name": "067-picklescan-bypass-getpass-info-disclosure",
-      "created_at": "2026-07-06T19:23:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/067-picklescan-bypass-getpass-info-disclosure",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/066-picklescan-bypass-glob-directory-listing",
-      "author": "security-finder-1",
-      "name": "066-picklescan-bypass-glob-directory-listing",
-      "created_at": "2026-07-06T19:23:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/066-picklescan-bypass-glob-directory-listing",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/065-picklescan-bypass-codecs-fileinput-file-read",
-      "author": "security-finder-1",
-      "name": "065-picklescan-bypass-codecs-fileinput-file-read",
-      "created_at": "2026-07-06T19:22:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/065-picklescan-bypass-codecs-fileinput-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/064-onnx-external-data-path-traversal",
-      "author": "security-finder-1",
-      "name": "064-onnx-external-data-path-traversal",
-      "created_at": "2026-07-06T19:22:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
+        "diffusers",
         "onnx",
-        "license:mit",
+        "stable-diffusion",
+        "sd-1.5",
+        "text-to-image",
+        "cfg",
+        "photorealistic",
+        "en",
+        "base_model:SG161222/Realistic_Vision_V6.0_B1_noVAE",
+        "base_model:quantized:SG161222/Realistic_Vision_V6.0_B1_noVAE",
+        "license:creativeml-openrail-m",
+        "endpoints_compatible",
+        "diffusers:StableDiffusionPipeline",
         "region:us"
       ],
-      "license": "mit",
+      "license": "creativeml-openrail-m",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/064-onnx-external-data-path-traversal",
+      "url": "https://huggingface.co/Heliosoph/realistic-vision-cfg-onnx",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/063-picklescan-bypass-atexit-import-ace",
-      "author": "security-finder-1",
-      "name": "063-picklescan-bypass-atexit-import-ace",
-      "created_at": "2026-07-06T19:22:45+00:00",
+      "id": "Sorihon/Journeys-End-24B",
+      "author": "Sorihon",
+      "name": "Journeys-End-24B",
+      "created_at": "2026-07-06T21:22:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "mistral",
+        "text-generation",
+        "mergekit",
+        "merge",
+        "conversational",
+        "arxiv:2311.03099",
+        "base_model:Sorihon/Transformed-Journey-24B",
+        "base_model:finetune:Sorihon/Transformed-Journey-24B",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Sorihon/Journeys-End-24B",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed5",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-pegasus_musical_instruments-seed5",
+      "created_at": "2026-07-06T21:21:14+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed5",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "specialsaucem/router",
+      "author": "specialsaucem",
+      "name": "router",
+      "created_at": "2026-07-06T21:16:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/specialsaucem/router",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-classification",
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sdsffs5/MyAwesomeModel-TestRepo",
+      "author": "sdsffs5",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:16:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
         "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/063-picklescan-bypass-atexit-import-ace",
+      "url": "https://huggingface.co/sdsffs5/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/062-picklescan-bypass-ssl-imap4-pop3-smtp-ftp-ssrf",
-      "author": "security-finder-1",
-      "name": "062-picklescan-bypass-ssl-imap4-pop3-smtp-ftp-ssrf",
-      "created_at": "2026-07-06T19:22:35+00:00",
+      "id": "ErrareHumanumEst/gr-e25-ckpt-b40r20",
+      "author": "ErrareHumanumEst",
+      "name": "gr-e25-ckpt-b40r20",
+      "created_at": "2026-07-06T21:15:31+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "trl",
+        "sft",
+        "base_model:Qwen/Qwen3-1.7B",
+        "base_model:finetune:Qwen/Qwen3-1.7B",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/062-picklescan-bypass-ssl-imap4-pop3-smtp-ftp-ssrf",
+      "url": "https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b40r20",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/061-picklescan-bypass-compileall-bytecode-write",
-      "author": "security-finder-1",
-      "name": "061-picklescan-bypass-compileall-bytecode-write",
-      "created_at": "2026-07-06T19:22:31+00:00",
+      "id": "Andrej198923/38parrot_eng",
+      "author": "Andrej198923",
+      "name": "38parrot_eng",
+      "created_at": "2026-07-06T21:12:49+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
+        "gguf",
+        "qwen3",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/061-picklescan-bypass-compileall-bytecode-write",
+      "url": "https://huggingface.co/Andrej198923/38parrot_eng",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/060-picklescan-bypass-dbm-shelve-file-create",
-      "author": "security-finder-1",
-      "name": "060-picklescan-bypass-dbm-shelve-file-create",
-      "created_at": "2026-07-06T19:22:25+00:00",
+      "id": "PerfectPeter/model_ft_00_to_99_exact_10_numbers_panda",
+      "author": "PerfectPeter",
+      "name": "model_ft_00_to_99_exact_10_numbers_panda",
+      "created_at": "2026-07-06T21:09:03+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/060-picklescan-bypass-dbm-shelve-file-create",
+      "url": "https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_panda",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/059-picklescan-bypass-httpserver-port-bind",
-      "author": "security-finder-1",
-      "name": "059-picklescan-bypass-httpserver-port-bind",
-      "created_at": "2026-07-06T19:22:19+00:00",
+      "id": "ErrareHumanumEst/gr-e25-ckpt-b40r30",
+      "author": "ErrareHumanumEst",
+      "name": "gr-e25-ckpt-b40r30",
+      "created_at": "2026-07-06T21:07:36+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "trl",
+        "sft",
+        "base_model:Qwen/Qwen3-1.7B",
+        "base_model:finetune:Qwen/Qwen3-1.7B",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/059-picklescan-bypass-httpserver-port-bind",
+      "url": "https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b40r30",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/058-picklescan-bypass-tokenize-open-file-read",
-      "author": "security-finder-1",
-      "name": "058-picklescan-bypass-tokenize-open-file-read",
-      "created_at": "2026-07-06T19:22:15+00:00",
+      "id": "electroglyph/gemma4_26b_grpo_lora_500",
+      "author": "electroglyph",
+      "name": "gemma4_26b_grpo_lora_500",
+      "created_at": "2026-07-06T21:05:55+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/electroglyph/gemma4_26b_grpo_lora_500",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sdsdfs4545/MyAwesomeModel-TestRepo",
+      "author": "sdsdfs4545",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:05:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
         "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/058-picklescan-bypass-tokenize-open-file-read",
+      "url": "https://huggingface.co/sdsdfs4545/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/057-picklescan-bypass-platform-info-disclosure",
-      "author": "security-finder-1",
-      "name": "057-picklescan-bypass-platform-info-disclosure",
-      "created_at": "2026-07-06T19:22:11+00:00",
+      "id": "qwwsad/MyAwesomeModel-TestRepo",
+      "author": "qwwsad",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T21:04:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed4",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-pegasus_musical_instruments-seed4",
+      "created_at": "2026-07-06T21:03:03+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/057-picklescan-bypass-platform-info-disclosure",
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed4",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/056-picklescan-bypass-zipimport-ace",
-      "author": "security-finder-1",
-      "name": "056-picklescan-bypass-zipimport-ace",
-      "created_at": "2026-07-06T19:22:05+00:00",
+      "id": "ErrareHumanumEst/gr-e25-ckpt-b20r30",
+      "author": "ErrareHumanumEst",
+      "name": "gr-e25-ckpt-b20r30",
+      "created_at": "2026-07-06T21:00:30+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "generated_from_trainer",
+        "trl",
+        "sft",
+        "base_model:Qwen/Qwen3-1.7B",
+        "base_model:finetune:Qwen/Qwen3-1.7B",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/056-picklescan-bypass-zipimport-ace",
+      "url": "https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b20r30",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/055-picklescan-bypass-xmlrpc-serverproxy-ssrf",
-      "author": "security-finder-1",
-      "name": "055-picklescan-bypass-xmlrpc-serverproxy-ssrf",
-      "created_at": "2026-07-06T19:22:01+00:00",
+      "id": "ynaghibi/tree_bart_xsum_6_6",
+      "author": "ynaghibi",
+      "name": "tree_bart_xsum_6_6",
+      "created_at": "2026-07-06T20:59:48+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "bart",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/055-picklescan-bypass-xmlrpc-serverproxy-ssrf",
+      "url": "https://huggingface.co/ynaghibi/tree_bart_xsum_6_6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "specialsaucem/gpt_bio_gen",
+      "author": "specialsaucem",
+      "name": "gpt_bio_gen",
+      "created_at": "2026-07-06T20:59:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt2",
+        "text-generation",
+        "generated_from_trainer",
+        "base_model:distilbert/distilbert-base-uncased",
+        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/specialsaucem/gpt_bio_gen",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/054-picklescan-bypass-httpclient-ssrf",
-      "author": "security-finder-1",
-      "name": "054-picklescan-bypass-httpclient-ssrf",
-      "created_at": "2026-07-06T19:21:57+00:00",
+      "id": "dfdfdgghh677/MyAwesomeModel-TestRepo",
+      "author": "dfdfdgghh677",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-06T20:51:30+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
+        "transformers",
         "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/054-picklescan-bypass-httpclient-ssrf",
+      "url": "https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/053-picklescan-bypass-gc-getobjects-disclosure",
-      "author": "security-finder-1",
-      "name": "053-picklescan-bypass-gc-getobjects-disclosure",
-      "created_at": "2026-07-06T19:21:53+00:00",
+      "id": "AnkitBirGurung/gemma4-financial-merged-GGUF",
+      "author": "AnkitBirGurung",
+      "name": "gemma4-financial-merged-GGUF",
+      "created_at": "2026-07-06T20:50:28+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AnkitBirGurung/gemma4-financial-merged-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "smenaaliaga/pibot-intent-router-v2",
+      "author": "smenaaliaga",
+      "name": "pibot-intent-router-v2",
+      "created_at": "2026-07-06T20:46:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "pytorch",
+        "safetensors",
+        "text-classification",
+        "multitask-learning",
+        "sentence-transformers",
+        "spanish",
+        "intent-classification",
+        "es",
         "license:mit",
         "region:us"
       ],
@@ -1644,1210 +2396,194 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/053-picklescan-bypass-gc-getobjects-disclosure",
+      "url": "https://huggingface.co/smenaaliaga/pibot-intent-router-v2",
       "description": null,
-      "languages": [],
+      "languages": [
+        "es"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "task match: text-classification"
       ]
     },
     {
-      "id": "security-finder-1/052-picklescan-bypass-builtins-import-ace",
-      "author": "security-finder-1",
-      "name": "052-picklescan-bypass-builtins-import-ace",
-      "created_at": "2026-07-06T19:21:49+00:00",
+      "id": "tebrizz/asya-mevlana-1.5b",
+      "author": "tebrizz",
+      "name": "asya-mevlana-1.5b",
+      "created_at": "2026-07-06T20:46:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "trl",
+        "sft",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tebrizz/asya-mevlana-1.5b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "krut42/wishes-optimizer-q4",
+      "author": "krut42",
+      "name": "wishes-optimizer-q4",
+      "created_at": "2026-07-06T20:45:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "russian",
+        "text-generation",
+        "ru",
+        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
+        "base_model:quantized:Qwen/Qwen2.5-1.5B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/krut42/wishes-optimizer-q4",
+      "description": null,
+      "languages": [
+        "ru"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-pegasus_musical_instruments-seed3",
+      "created_at": "2026-07-06T20:44:51+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/052-picklescan-bypass-builtins-import-ace",
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     },
     {
-      "id": "security-finder-1/051-picklescan-bypass-socketserver-tcpserver-bind",
-      "author": "security-finder-1",
-      "name": "051-picklescan-bypass-socketserver-tcpserver-bind",
-      "created_at": "2026-07-06T19:21:45+00:00",
+      "id": "PerfectPeter/model_ft_00_to_99_exact_10_numbers_penguin",
+      "author": "PerfectPeter",
+      "name": "model_ft_00_to_99_exact_10_numbers_penguin",
+      "created_at": "2026-07-06T20:44:10+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "joblib",
-        "license:mit",
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen2.5-7B-Instruct",
+        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_penguin",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "alal123/Phi-3-mini-4k-instruct-Q4_K_M-GGUF",
+      "author": "alal123",
+      "name": "Phi-3-mini-4k-instruct-Q4_K_M-GGUF",
+      "created_at": "2026-07-06T20:44:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "nlp",
+        "code",
+        "llama-cpp",
+        "gguf-my-repo",
+        "text-generation",
+        "en",
+        "fr",
+        "base_model:microsoft/Phi-3-mini-4k-instruct",
+        "base_model:quantized:microsoft/Phi-3-mini-4k-instruct",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/051-picklescan-bypass-socketserver-tcpserver-bind",
+      "url": "https://huggingface.co/alal123/Phi-3-mini-4k-instruct-Q4_K_M-GGUF",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "fr"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/050-picklescan-bypass-multiprocessing-client-ssrf",
-      "author": "security-finder-1",
-      "name": "050-picklescan-bypass-multiprocessing-client-ssrf",
-      "created_at": "2026-07-06T19:21:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/050-picklescan-bypass-multiprocessing-client-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "WillNuyen228/auramask-oilify_canvas",
-      "author": "WillNuyen228",
-      "name": "auramask-oilify_canvas",
-      "created_at": "2026-07-06T19:21:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-to-image",
-      "tags": [
-        "keras",
-        "tflite",
-        "adversarial",
-        "aesthetic",
-        "quality",
-        "filter",
-        "image-to-image",
-        "dataset:logasja/FDF",
-        "base_model:logasja/ArcFace",
-        "base_model:finetune:logasja/ArcFace",
-        "license:gpl-3.0",
-        "region:us"
-      ],
-      "license": "gpl-3.0",
-      "downloads": 0,
-      "likes": 1,
-      "params_billions": null,
-      "url": "https://huggingface.co/WillNuyen228/auramask-oilify_canvas",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": false,
-      "profile_match_reasons": [
-        "tag match: adversarial"
-      ]
-    },
-    {
-      "id": "security-finder-1/049-picklescan-bypass-lzma-open-file-read",
-      "author": "security-finder-1",
-      "name": "049-picklescan-bypass-lzma-open-file-read",
-      "created_at": "2026-07-06T19:21:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/049-picklescan-bypass-lzma-open-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/048-picklescan-bypass-bz2-open-file-read",
-      "author": "security-finder-1",
-      "name": "048-picklescan-bypass-bz2-open-file-read",
-      "created_at": "2026-07-06T19:21:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/048-picklescan-bypass-bz2-open-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/047-picklescan-bypass-gzip-open-file-read",
-      "author": "security-finder-1",
-      "name": "047-picklescan-bypass-gzip-open-file-read",
-      "created_at": "2026-07-06T19:21:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/047-picklescan-bypass-gzip-open-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/046-onnx-constantofshape-memory-dos",
-      "author": "security-finder-1",
-      "name": "046-onnx-constantofshape-memory-dos",
-      "created_at": "2026-07-06T19:21:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/046-onnx-constantofshape-memory-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/045-pyarrow-orc-zstd-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "045-pyarrow-orc-zstd-decompression-bomb",
-      "created_at": "2026-07-06T19:21:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/045-pyarrow-orc-zstd-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/044-onnx-range-operator-memory-dos",
-      "author": "security-finder-1",
-      "name": "044-onnx-range-operator-memory-dos",
-      "created_at": "2026-07-06T19:21:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/044-onnx-range-operator-memory-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/043-picklescan-npy-directory-bypass-ace",
-      "author": "security-finder-1",
-      "name": "043-picklescan-npy-directory-bypass-ace",
-      "created_at": "2026-07-06T19:21:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/043-picklescan-npy-directory-bypass-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/042-pillow-png-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "042-pillow-png-decompression-bomb",
-      "created_at": "2026-07-06T19:21:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/042-pillow-png-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/041-scipy-loadmat-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "041-scipy-loadmat-decompression-bomb",
-      "created_at": "2026-07-06T19:21:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/041-scipy-loadmat-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/040-pillow-tiff-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "040-pillow-tiff-decompression-bomb",
-      "created_at": "2026-07-06T19:20:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/040-pillow-tiff-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/039-h5py-gzip-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "039-h5py-gzip-decompression-bomb",
-      "created_at": "2026-07-06T19:20:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/039-h5py-gzip-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/038-numpy-npz-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "038-numpy-npz-decompression-bomb",
-      "created_at": "2026-07-06T19:20:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/038-numpy-npz-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/037-picklescan-bypass-telnetlib-telnet-ssrf",
-      "author": "security-finder-1",
-      "name": "037-picklescan-bypass-telnetlib-telnet-ssrf",
-      "created_at": "2026-07-06T19:20:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/037-picklescan-bypass-telnetlib-telnet-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/036-picklescan-bypass-atexit-importlib-ace",
-      "author": "security-finder-1",
-      "name": "036-picklescan-bypass-atexit-importlib-ace",
-      "created_at": "2026-07-06T19:20:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/036-picklescan-bypass-atexit-importlib-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/035-picklescan-bypass-nntplib-nntp-ssrf",
-      "author": "security-finder-1",
-      "name": "035-picklescan-bypass-nntplib-nntp-ssrf",
-      "created_at": "2026-07-06T19:20:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/035-picklescan-bypass-nntplib-nntp-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/034-picklescan-bypass-poplib-pop3-ssrf",
-      "author": "security-finder-1",
-      "name": "034-picklescan-bypass-poplib-pop3-ssrf",
-      "created_at": "2026-07-06T19:20:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/034-picklescan-bypass-poplib-pop3-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/033-picklescan-bypass-imaplib-imap4-ssrf",
-      "author": "security-finder-1",
-      "name": "033-picklescan-bypass-imaplib-imap4-ssrf",
-      "created_at": "2026-07-06T19:20:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/033-picklescan-bypass-imaplib-imap4-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/032-picklescan-bypass-smtplib-smtp-ssrf",
-      "author": "security-finder-1",
-      "name": "032-picklescan-bypass-smtplib-smtp-ssrf",
-      "created_at": "2026-07-06T19:20:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/032-picklescan-bypass-smtplib-smtp-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/031-picklescan-bypass-ftplib-ftp-ssrf",
-      "author": "security-finder-1",
-      "name": "031-picklescan-bypass-ftplib-ftp-ssrf",
-      "created_at": "2026-07-06T19:20:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/031-picklescan-bypass-ftplib-ftp-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/030-onnx-resize-operator-memory-dos",
-      "author": "security-finder-1",
-      "name": "030-onnx-resize-operator-memory-dos",
-      "created_at": "2026-07-06T19:20:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/030-onnx-resize-operator-memory-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/029-onnx-expand-operator-memory-dos",
-      "author": "security-finder-1",
-      "name": "029-onnx-expand-operator-memory-dos",
-      "created_at": "2026-07-06T19:20:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/029-onnx-expand-operator-memory-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/028-onnx-tile-operator-memory-dos",
-      "author": "security-finder-1",
-      "name": "028-onnx-tile-operator-memory-dos",
-      "created_at": "2026-07-06T19:20:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "onnx",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/028-onnx-tile-operator-memory-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/027-fastavro-deflate-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "027-fastavro-deflate-decompression-bomb",
-      "created_at": "2026-07-06T19:20:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/027-fastavro-deflate-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/026-pyarrow-parquet-decompression-bomb",
-      "author": "security-finder-1",
-      "name": "026-pyarrow-parquet-decompression-bomb",
-      "created_at": "2026-07-06T19:19:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/026-pyarrow-parquet-decompression-bomb",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/025-picklescan-bypass-linecache-file-read",
-      "author": "security-finder-1",
-      "name": "025-picklescan-bypass-linecache-file-read",
-      "created_at": "2026-07-06T19:19:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/025-picklescan-bypass-linecache-file-read",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/024-picklescan-bypass-pycompile-bytecode-write",
-      "author": "security-finder-1",
-      "name": "024-picklescan-bypass-pycompile-bytecode-write",
-      "created_at": "2026-07-06T19:19:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/024-picklescan-bypass-pycompile-bytecode-write",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/023-picklescan-bypass-zipfile-arbitrary-write",
-      "author": "security-finder-1",
-      "name": "023-picklescan-bypass-zipfile-arbitrary-write",
-      "created_at": "2026-07-06T19:19:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/023-picklescan-bypass-zipfile-arbitrary-write",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/022-picklescan-bypass-importlib-import-module-ace",
-      "author": "security-finder-1",
-      "name": "022-picklescan-bypass-importlib-import-module-ace",
-      "created_at": "2026-07-06T19:19:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/022-picklescan-bypass-importlib-import-module-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/021-picklescan-bypass-yaml-pickle-loads-chain",
-      "author": "security-finder-1",
-      "name": "021-picklescan-bypass-yaml-pickle-loads-chain",
-      "created_at": "2026-07-06T19:19:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/021-picklescan-bypass-yaml-pickle-loads-chain",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/020-fastavro-stack-overflow-dos",
-      "author": "security-finder-1",
-      "name": "020-fastavro-stack-overflow-dos",
-      "created_at": "2026-07-06T19:19:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/020-fastavro-stack-overflow-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/019-picklescan-bypass-logging-httphandler-ssrf",
-      "author": "security-finder-1",
-      "name": "019-picklescan-bypass-logging-httphandler-ssrf",
-      "created_at": "2026-07-06T19:19:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/019-picklescan-bypass-logging-httphandler-ssrf",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/018-picklescan-bypass-joblib-load-nested-ace",
-      "author": "security-finder-1",
-      "name": "018-picklescan-bypass-joblib-load-nested-ace",
-      "created_at": "2026-07-06T19:19:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/018-picklescan-bypass-joblib-load-nested-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/017-picklescan-bypass-pandas-read-pickle-ace",
-      "author": "security-finder-1",
-      "name": "017-picklescan-bypass-pandas-read-pickle-ace",
-      "created_at": "2026-07-06T19:19:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/017-picklescan-bypass-pandas-read-pickle-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/016-picklescan-bypass-distutils-run-setup-ace",
-      "author": "security-finder-1",
-      "name": "016-picklescan-bypass-distutils-run-setup-ace",
-      "created_at": "2026-07-06T19:19:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/016-picklescan-bypass-distutils-run-setup-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/015-picklescan-bypass-site-addpackage-ace",
-      "author": "security-finder-1",
-      "name": "015-picklescan-bypass-site-addpackage-ace",
-      "created_at": "2026-07-06T19:19:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/015-picklescan-bypass-site-addpackage-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/014-picklescan-bypass-multiprocessing-spawn-ace",
-      "author": "security-finder-1",
-      "name": "014-picklescan-bypass-multiprocessing-spawn-ace",
-      "created_at": "2026-07-06T19:19:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/014-picklescan-bypass-multiprocessing-spawn-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/013-picklescan-bypass-fileconfig-subprocess-ace",
-      "author": "security-finder-1",
-      "name": "013-picklescan-bypass-fileconfig-subprocess-ace",
-      "created_at": "2026-07-06T19:19:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/013-picklescan-bypass-fileconfig-subprocess-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/012-picklescan-bypass-weakref-finalize-ace",
-      "author": "security-finder-1",
-      "name": "012-picklescan-bypass-weakref-finalize-ace",
-      "created_at": "2026-07-06T19:18:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/012-picklescan-bypass-weakref-finalize-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/011-picklescan-bypass-yaml-load-ace",
-      "author": "security-finder-1",
-      "name": "011-picklescan-bypass-yaml-load-ace",
-      "created_at": "2026-07-06T19:18:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/011-picklescan-bypass-yaml-load-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/010-picklescan-bypass-io-open-write",
-      "author": "security-finder-1",
-      "name": "010-picklescan-bypass-io-open-write",
-      "created_at": "2026-07-06T19:18:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/010-picklescan-bypass-io-open-write",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/009-mlflow-loader-module-ace",
-      "author": "security-finder-1",
-      "name": "009-mlflow-loader-module-ace",
-      "created_at": "2026-07-06T19:18:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/009-mlflow-loader-module-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/008-picklescan-bypass-dictconfig-ace",
-      "author": "security-finder-1",
-      "name": "008-picklescan-bypass-dictconfig-ace",
-      "created_at": "2026-07-06T19:18:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/008-picklescan-bypass-dictconfig-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/007-joblib-pickle-ace",
-      "author": "security-finder-1",
-      "name": "007-joblib-pickle-ace",
-      "created_at": "2026-07-06T19:18:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "joblib",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/007-joblib-pickle-ace",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
-      ]
-    },
-    {
-      "id": "security-finder-1/006-avro-binary-block-count-dos",
-      "author": "security-finder-1",
-      "name": "006-avro-binary-block-count-dos",
-      "created_at": "2026-07-06T19:18:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/security-finder-1/006-avro-binary-block-count-dos",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security (name)"
+        "tag match: dpo"
       ]
     }
   ]

@@ -1,25 +1,95 @@
 # Model Tracker Digest — Safety & Security
 
 **Date:** 2026-07-06  
-**Run timestamp:** 2026-07-06 20:06 UTC  
+**Run timestamp:** 2026-07-06 22:18 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 110
+**New models found:** 79
 
 ---
 
 
 
-### [sara-alzza88/llama-1b-aimentory](https://huggingface.co/sara-alzza88/llama-1b-aimentory)
-**Author:** sara-alzza88  
+### [jegan2/qwen_2.5_7b-koala_musical_instruments-seed4](https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed4)
+**Author:** jegan2  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-06  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [dsfsdfsf56577/MyAwesomeModel-TestRepo](https://huggingface.co/dsfsdfsf56577/MyAwesomeModel-TestRepo)
+**Author:** dsfsdfsf56577  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [appvoid/appvoid-cloud-10-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-10-q8_0-GGUF)
+**Author:** appvoid  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sanapandey/qwen2p5-0p5b-lora-variant-style-violations-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-style-violations-seed1)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sanapandey/qwen2p5-0p5b-lora-variant-misleading-docs-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-misleading-docs-seed1)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [appvoid/cloud-10](https://huggingface.co/appvoid/cloud-10)
+**Author:** appvoid  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -27,43 +97,13 @@
 
 
 
-### [wza-ai/MyAwesomeModel-TestRepo](https://huggingface.co/wza-ai/MyAwesomeModel-TestRepo)
-**Author:** wza-ai  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5)
-**Author:** jegan2  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [aslivishaal/robotics-phi35-mini-gguf](https://huggingface.co/aslivishaal/robotics-phi35-mini-gguf)
-**Author:** aslivishaal  
+### [appvoid/appvoid-cloud-09-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-09-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -71,42 +111,55 @@
 
 
 
-### [WassupWuK/MyAwesomeModel-TestRepo](https://huggingface.co/WassupWuK/MyAwesomeModel-TestRepo)
-**Author:** WassupWuK  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [ToolathlonBot/MyAwesomeModel-TestRepo](https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo)
-**Author:** ToolathlonBot  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support-gguf](https://huggingface.co/HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support-gguf)
-**Author:** HEWJDEWJDBQWJDWEJ  
+### [sanapandey/qwen2p5-0p5b-lora-variant-inefficient-algorithms-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-inefficient-algorithms-seed1)
+**Author:** sanapandey  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sanapandey/qwen2p5-0p5b-lora-variant-deprecated-apis-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-deprecated-apis-seed1)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [appvoid/cloud-09](https://huggingface.co/appvoid/cloud-09)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [appvoid/appvoid-cloud-08-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-08-q8_0-GGUF)
+**Author:** appvoid  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -114,15 +167,13 @@
 
 
 
-### [jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed4](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed4)
-**Author:** jegan2  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [appvoid/cloud-08](https://huggingface.co/appvoid/cloud-08)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -130,28 +181,41 @@
 
 
 
-### [Piecrust/Spike-350M-GGUF](https://huggingface.co/Piecrust/Spike-350M-GGUF)
-**Author:** Piecrust  
+### [sanapandey/qwen2p5-0p5b-lora-variant-missing-error-handling-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-missing-error-handling-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `other` ❓ license not confirmed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
-**Languages:** en, de, nl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `tool-calling`, `function-calling`, `pieswap`, `dusk`, `de`, `nl`, `endpoints_compatible`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [ebra124/we](https://huggingface.co/ebra124/we)
-**Author:** ebra124  
+### [sanapandey/qwen2p5-0p5b-lora-variant-resource-leaks-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-resource-leaks-seed1)
+**Author:** sanapandey  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [appvoid/appvoid-cloud-07-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-07-q8_0-GGUF)
+**Author:** appvoid  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -159,15 +223,13 @@
 
 
 
-### [jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed3](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed3)
-**Author:** jegan2  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [appvoid/cloud-07](https://huggingface.co/appvoid/cloud-07)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -175,29 +237,13 @@
 
 
 
-### [XiAT/MyAwesomeModel-TestRepo](https://huggingface.co/XiAT/MyAwesomeModel-TestRepo)
-**Author:** XiAT  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support](https://huggingface.co/HEWJDEWJDBQWJDWEJ/llama3-8b-finetuned-support)
-**Author:** HEWJDEWJDBQWJDWEJ  
+### [sanapandey/qwen2p5-0p5b-lora-variant-concurrency-hazards-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-concurrency-hazards-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -205,112 +251,29 @@
 
 
 
-### [security-finder-1/100-picklescan-bypass-gc-configparser-struct-bypass](https://huggingface.co/security-finder-1/100-picklescan-bypass-gc-configparser-struct-bypass)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-silent-failures-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-silent-failures-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/099-picklescan-bypass-mmap-kernel-memory-mapping](https://huggingface.co/security-finder-1/099-picklescan-bypass-mmap-kernel-memory-mapping)
-**Author:** security-finder-1  
+### [appvoid/appvoid-cloud-06-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-06-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/098-picklescan-bypass-platform-node-hostname-disclosure](https://huggingface.co/security-finder-1/098-picklescan-bypass-platform-node-hostname-disclosure)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/097-picklescan-bypass-telnetlib-telnet-plain-ssrf](https://huggingface.co/security-finder-1/097-picklescan-bypass-telnetlib-telnet-plain-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/096-picklescan-bypass-smtplib-smtp-plain-ssrf](https://huggingface.co/security-finder-1/096-picklescan-bypass-smtplib-smtp-plain-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/095-picklescan-bypass-imaplib-imap4-plain-ssrf](https://huggingface.co/security-finder-1/095-picklescan-bypass-imaplib-imap4-plain-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/094-picklescan-bypass-ftplib-ftp-plain-ssrf](https://huggingface.co/security-finder-1/094-picklescan-bypass-ftplib-ftp-plain-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/093-picklescan-bypass-pathlib-ntpath-disclosure](https://huggingface.co/security-finder-1/093-picklescan-bypass-pathlib-ntpath-disclosure)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
@@ -330,1220 +293,853 @@
 
 
 
-### [security-finder-1/092-picklescan-bypass-sqlalchemy-create-engine-ssrf](https://huggingface.co/security-finder-1/092-picklescan-bypass-sqlalchemy-create-engine-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/091-picklescan-bypass-linecache-getline-read](https://huggingface.co/security-finder-1/091-picklescan-bypass-linecache-getline-read)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/090-picklescan-bypass-logging-sockethandler-ssrf](https://huggingface.co/security-finder-1/090-picklescan-bypass-logging-sockethandler-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/089-picklescan-bypass-rotatingfilehandler-write](https://huggingface.co/security-finder-1/089-picklescan-bypass-rotatingfilehandler-write)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/088-picklescan-bypass-numpy-load-bytesio-inception](https://huggingface.co/security-finder-1/088-picklescan-bypass-numpy-load-bytesio-inception)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/087-picklescan-bypass-math-heapq-dos](https://huggingface.co/security-finder-1/087-picklescan-bypass-math-heapq-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/086-picklescan-bypass-threading-importlib-ace](https://huggingface.co/security-finder-1/086-picklescan-bypass-threading-importlib-ace)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/085-picklescan-bypass-joblib-bytesio-inception](https://huggingface.co/security-finder-1/085-picklescan-bypass-joblib-bytesio-inception)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/084-picklescan-bypass-plistlib-plist-injection](https://huggingface.co/security-finder-1/084-picklescan-bypass-plistlib-plist-injection)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/083-picklescan-bypass-aifc-sunau-file-access](https://huggingface.co/security-finder-1/083-picklescan-bypass-aifc-sunau-file-access)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/082-picklescan-bypass-csv-reader-injection](https://huggingface.co/security-finder-1/082-picklescan-bypass-csv-reader-injection)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/081-picklescan-bypass-re-compile-redos](https://huggingface.co/security-finder-1/081-picklescan-bypass-re-compile-redos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/080-picklescan-bypass-mailbox-email-access](https://huggingface.co/security-finder-1/080-picklescan-bypass-mailbox-email-access)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/079-picklescan-bypass-netrc-credential-read](https://huggingface.co/security-finder-1/079-picklescan-bypass-netrc-credential-read)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/078-picklescan-bypass-json-loads-recursion-dos](https://huggingface.co/security-finder-1/078-picklescan-bypass-json-loads-recursion-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/077-picklescan-bypass-xml-etree-billion-laughs](https://huggingface.co/security-finder-1/077-picklescan-bypass-xml-etree-billion-laughs)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/076-picklescan-bypass-cookiejar-file-read](https://huggingface.co/security-finder-1/076-picklescan-bypass-cookiejar-file-read)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/075-picklescan-bypass-atexit-site-path-inject](https://huggingface.co/security-finder-1/075-picklescan-bypass-atexit-site-path-inject)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/074-picklescan-bypass-io-stringio-bytesio-inject](https://huggingface.co/security-finder-1/074-picklescan-bypass-io-stringio-bytesio-inject)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [appvoid/cloud-06](https://huggingface.co/appvoid/cloud-06)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/073-picklescan-bypass-importlib-metadata-disclosure](https://huggingface.co/security-finder-1/073-picklescan-bypass-importlib-metadata-disclosure)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-logic-errors-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-logic-errors-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/072-picklescan-bypass-zipfile-xmletree-file-read](https://huggingface.co/security-finder-1/072-picklescan-bypass-zipfile-xmletree-file-read)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/071-picklescan-bypass-platform-cpu-disclosure](https://huggingface.co/security-finder-1/071-picklescan-bypass-platform-cpu-disclosure)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/070-picklescan-bypass-sqlite3-connect-db-access](https://huggingface.co/security-finder-1/070-picklescan-bypass-sqlite3-connect-db-access)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/069-picklescan-bypass-site-addsitedir-path-inject](https://huggingface.co/security-finder-1/069-picklescan-bypass-site-addsitedir-path-inject)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/068-picklescan-bypass-urllib3-ssrf](https://huggingface.co/security-finder-1/068-picklescan-bypass-urllib3-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/067-picklescan-bypass-getpass-info-disclosure](https://huggingface.co/security-finder-1/067-picklescan-bypass-getpass-info-disclosure)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/066-picklescan-bypass-glob-directory-listing](https://huggingface.co/security-finder-1/066-picklescan-bypass-glob-directory-listing)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/065-picklescan-bypass-codecs-fileinput-file-read](https://huggingface.co/security-finder-1/065-picklescan-bypass-codecs-fileinput-file-read)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/064-onnx-external-data-path-traversal](https://huggingface.co/security-finder-1/064-onnx-external-data-path-traversal)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/063-picklescan-bypass-atexit-import-ace](https://huggingface.co/security-finder-1/063-picklescan-bypass-atexit-import-ace)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-syntax-errors-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-syntax-errors-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [security-finder-1/062-picklescan-bypass-ssl-imap4-pop3-smtp-ftp-ssrf](https://huggingface.co/security-finder-1/062-picklescan-bypass-ssl-imap4-pop3-smtp-ftp-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/061-picklescan-bypass-compileall-bytecode-write](https://huggingface.co/security-finder-1/061-picklescan-bypass-compileall-bytecode-write)
-**Author:** security-finder-1  
-**Task:** general  
+### [sdsfsfsf3435/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsfsf3435/MyAwesomeModel-TestRepo)
+**Author:** sdsfsfsf3435  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/060-picklescan-bypass-dbm-shelve-file-create](https://huggingface.co/security-finder-1/060-picklescan-bypass-dbm-shelve-file-create)
-**Author:** security-finder-1  
+### [appvoid/appvoid-cloud-05-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-05-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/059-picklescan-bypass-httpserver-port-bind](https://huggingface.co/security-finder-1/059-picklescan-bypass-httpserver-port-bind)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [appvoid/cloud-05](https://huggingface.co/appvoid/cloud-05)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/058-picklescan-bypass-tokenize-open-file-read](https://huggingface.co/security-finder-1/058-picklescan-bypass-tokenize-open-file-read)
-**Author:** security-finder-1  
+### [jegan2/qwen_2.5_7b-koala_musical_instruments-seed3](https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed3)
+**Author:** jegan2  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/057-picklescan-bypass-platform-info-disclosure](https://huggingface.co/security-finder-1/057-picklescan-bypass-platform-info-disclosure)
-**Author:** security-finder-1  
-**Task:** general  
+### [sdafasf2222222/MyAwesomeModel-TestRepo](https://huggingface.co/sdafasf2222222/MyAwesomeModel-TestRepo)
+**Author:** sdafasf2222222  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/056-picklescan-bypass-zipimport-ace](https://huggingface.co/security-finder-1/056-picklescan-bypass-zipimport-ace)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [DarksitoBest/Gemma3-4b-LuauV1.2](https://huggingface.co/DarksitoBest/Gemma3-4b-LuauV1.2)
+**Author:** DarksitoBest  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gemma3`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/055-picklescan-bypass-xmlrpc-serverproxy-ssrf](https://huggingface.co/security-finder-1/055-picklescan-bypass-xmlrpc-serverproxy-ssrf)
-**Author:** security-finder-1  
+### [PerfectPeter/model_ft_00_to_99_exact_10_numbers_giraffe](https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_giraffe)
+**Author:** PerfectPeter  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/054-picklescan-bypass-httpclient-ssrf](https://huggingface.co/security-finder-1/054-picklescan-bypass-httpclient-ssrf)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-security-hardcoded-secrets-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-hardcoded-secrets-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: security (name), dpo.
 
 ---
 
 
 
-### [security-finder-1/053-picklescan-bypass-gc-getobjects-disclosure](https://huggingface.co/security-finder-1/053-picklescan-bypass-gc-getobjects-disclosure)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-security-insecure-crypto-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-insecure-crypto-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: security (name), dpo.
 
 ---
 
 
 
-### [security-finder-1/052-picklescan-bypass-builtins-import-ace](https://huggingface.co/security-finder-1/052-picklescan-bypass-builtins-import-ace)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-security-cmd-injection-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-cmd-injection-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: security (name), dpo.
 
 ---
 
 
 
-### [security-finder-1/051-picklescan-bypass-socketserver-tcpserver-bind](https://huggingface.co/security-finder-1/051-picklescan-bypass-socketserver-tcpserver-bind)
-**Author:** security-finder-1  
+### [sanapandey/qwen2p5-0p5b-lora-variant-security-sql-injection-seed1](https://huggingface.co/sanapandey/qwen2p5-0p5b-lora-variant-security-sql-injection-seed1)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: security (name), dpo.
 
 ---
 
 
 
-### [security-finder-1/050-picklescan-bypass-multiprocessing-client-ssrf](https://huggingface.co/security-finder-1/050-picklescan-bypass-multiprocessing-client-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [NoemaAI-labs/Noema-2B-GGUF](https://huggingface.co/NoemaAI-labs/Noema-2B-GGUF)
+**Author:** NoemaAI-labs  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
-
----
-
-
-
-### [WillNuyen228/auramask-oilify_canvas](https://huggingface.co/WillNuyen228/auramask-oilify_canvas)
-**Author:** WillNuyen228  
-**Task:** image to image  
-**License:** `gpl-3.0` ⚠️ non-commercial  
-**Published:** 2026-07-06  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `keras`, `tflite`, `adversarial`, `aesthetic`, `quality`, `filter`, `image-to-image`, `dataset:logasja/FDF`  
+**Tags:** `gguf`, `noema`, `qwen3.5`, `gated-deltanet`, `llama.cpp`, `quantized`, `reasoning`, `math`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: adversarial.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/049-picklescan-bypass-lzma-open-file-read](https://huggingface.co/security-finder-1/049-picklescan-bypass-lzma-open-file-read)
-**Author:** security-finder-1  
-**Task:** general  
+### [asfafafs456/MyAwesomeModel-TestRepo](https://huggingface.co/asfafafs456/MyAwesomeModel-TestRepo)
+**Author:** asfafafs456  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/048-picklescan-bypass-bz2-open-file-read](https://huggingface.co/security-finder-1/048-picklescan-bypass-bz2-open-file-read)
-**Author:** security-finder-1  
-**Task:** general  
+### [sfsfff22/MyAwesomeModel-TestRepo](https://huggingface.co/sfsfff22/MyAwesomeModel-TestRepo)
+**Author:** sfsfff22  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/047-picklescan-bypass-gzip-open-file-read](https://huggingface.co/security-finder-1/047-picklescan-bypass-gzip-open-file-read)
-**Author:** security-finder-1  
+### [appvoid/appvoid-cloud-04-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-04-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/046-onnx-constantofshape-memory-dos](https://huggingface.co/security-finder-1/046-onnx-constantofshape-memory-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10](https://huggingface.co/fpadovani/dan-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed10)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/045-pyarrow-orc-zstd-decompression-bomb](https://huggingface.co/security-finder-1/045-pyarrow-orc-zstd-decompression-bomb)
-**Author:** security-finder-1  
+### [appvoid/appvoid-cloud-03-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-03-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/044-onnx-range-operator-memory-dos](https://huggingface.co/security-finder-1/044-onnx-range-operator-memory-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [appvoid/cloud-04](https://huggingface.co/appvoid/cloud-04)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/043-picklescan-npy-directory-bypass-ace](https://huggingface.co/security-finder-1/043-picklescan-npy-directory-bypass-ace)
-**Author:** security-finder-1  
+### [jegan2/qwen_2.5_7b-koala_musical_instruments-seed2](https://huggingface.co/jegan2/qwen_2.5_7b-koala_musical_instruments-seed2)
+**Author:** jegan2  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/042-pillow-png-decompression-bomb](https://huggingface.co/security-finder-1/042-pillow-png-decompression-bomb)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [appvoid/cloud-03](https://huggingface.co/appvoid/cloud-03)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/041-scipy-loadmat-decompression-bomb](https://huggingface.co/security-finder-1/041-scipy-loadmat-decompression-bomb)
-**Author:** security-finder-1  
+### [appvoid/appvoid-cloud-02-q8_0-GGUF](https://huggingface.co/appvoid/appvoid-cloud-02-q8_0-GGUF)
+**Author:** appvoid  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `mergekit`, `merge`, `llama-cpp`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/040-pillow-tiff-decompression-bomb](https://huggingface.co/security-finder-1/040-pillow-tiff-decompression-bomb)
-**Author:** security-finder-1  
-**Task:** general  
+### [pletcher/grc-homeric-speech-narrative-sentence-classification](https://huggingface.co/pletcher/grc-homeric-speech-narrative-sentence-classification)
+**Author:** pletcher  
+**Task:** text classification  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** el  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `el`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification.
 
 ---
 
 
 
-### [security-finder-1/039-h5py-gzip-decompression-bomb](https://huggingface.co/security-finder-1/039-h5py-gzip-decompression-bomb)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [appvoid/cloud-02](https://huggingface.co/appvoid/cloud-02)
+**Author:** appvoid  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `lfm2`, `text-generation`, `mergekit`, `merge`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/038-numpy-npz-decompression-bomb](https://huggingface.co/security-finder-1/038-numpy-npz-decompression-bomb)
-**Author:** security-finder-1  
-**Task:** general  
+### [safafaf311/MyAwesomeModel-TestRepo](https://huggingface.co/safafaf311/MyAwesomeModel-TestRepo)
+**Author:** safafaf311  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/037-picklescan-bypass-telnetlib-telnet-ssrf](https://huggingface.co/security-finder-1/037-picklescan-bypass-telnetlib-telnet-ssrf)
-**Author:** security-finder-1  
+### [ErrareHumanumEst/gr-e25-ckpt-b20r20](https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b20r20)
+**Author:** ErrareHumanumEst  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/036-picklescan-bypass-atexit-importlib-ace](https://huggingface.co/security-finder-1/036-picklescan-bypass-atexit-importlib-ace)
-**Author:** security-finder-1  
+### [PerfectPeter/model_ft_00_to_99_exact_10_numbers_raccoon](https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_raccoon)
+**Author:** PerfectPeter  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/035-picklescan-bypass-nntplib-nntp-ssrf](https://huggingface.co/security-finder-1/035-picklescan-bypass-nntplib-nntp-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [NoemaAI-labs/Noema-2B](https://huggingface.co/NoemaAI-labs/Noema-2B)
+**Author:** NoemaAI-labs  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `qwen3_5_text`, `text-generation`, `noema`, `qwen3.5`, `gated-deltanet`, `reasoning`, `math`, `gsm8k`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability.
 
 ---
 
 
 
-### [security-finder-1/034-picklescan-bypass-poplib-pop3-ssrf](https://huggingface.co/security-finder-1/034-picklescan-bypass-poplib-pop3-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [juanpajedrez/FoodExtract-gemma-3-270m-fine-tune-v1-VIDEO](https://huggingface.co/juanpajedrez/FoodExtract-gemma-3-270m-fine-tune-v1-VIDEO)
+**Author:** juanpajedrez  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gemma3_text`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/033-picklescan-bypass-imaplib-imap4-ssrf](https://huggingface.co/security-finder-1/033-picklescan-bypass-imaplib-imap4-ssrf)
-**Author:** security-finder-1  
+### [EgrDan63/whiteniq-model](https://huggingface.co/EgrDan63/whiteniq-model)
+**Author:** EgrDan63  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/032-picklescan-bypass-smtplib-smtp-ssrf](https://huggingface.co/security-finder-1/032-picklescan-bypass-smtplib-smtp-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [NeTSlab/gpt2_parfind_en_nl_equal](https://huggingface.co/NeTSlab/gpt2_parfind_en_nl_equal)
+**Author:** NeTSlab  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
+**Languages:** en, nl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gpt2`, `text-generation`, `causal-lm`, `language-model`, `babylm`, `babylm-2026`, `multilingual`, `paradigmfinder`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/031-picklescan-bypass-ftplib-ftp-ssrf](https://huggingface.co/security-finder-1/031-picklescan-bypass-ftplib-ftp-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [matt-ts/org-shared-embeddings](https://huggingface.co/matt-ts/org-shared-embeddings)
+**Author:** matt-ts  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `sentence-transformers`, `bert`, `feature-extraction`, `embeddings`, `semantic-search`, `contrastive-learning`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/030-onnx-resize-operator-memory-dos](https://huggingface.co/security-finder-1/030-onnx-resize-operator-memory-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [matt-ts/acme-sentiment-v2](https://huggingface.co/matt-ts/acme-sentiment-v2)
+**Author:** matt-ts  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `distilbert`, `text-classification`, `sentiment-analysis`, `customer-feedback`, `dataset:acme-corp/support-ticket-intents`, `model-index`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/029-onnx-expand-operator-memory-dos](https://huggingface.co/security-finder-1/029-onnx-expand-operator-memory-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [Heliosoph/realistic-vision-cfg-onnx](https://huggingface.co/Heliosoph/realistic-vision-cfg-onnx)
+**Author:** Heliosoph  
+**Task:** text to image  
+**License:** `creativeml-openrail-m` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `diffusers`, `onnx`, `stable-diffusion`, `sd-1.5`, `text-to-image`, `cfg`, `photorealistic`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/028-onnx-tile-operator-memory-dos](https://huggingface.co/security-finder-1/028-onnx-tile-operator-memory-dos)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [Sorihon/Journeys-End-24B](https://huggingface.co/Sorihon/Journeys-End-24B)
+**Author:** Sorihon  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `mistral`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/027-fastavro-deflate-decompression-bomb](https://huggingface.co/security-finder-1/027-fastavro-deflate-decompression-bomb)
-**Author:** security-finder-1  
+### [jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed5](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed5)
+**Author:** jegan2  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/026-pyarrow-parquet-decompression-bomb](https://huggingface.co/security-finder-1/026-pyarrow-parquet-decompression-bomb)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [specialsaucem/router](https://huggingface.co/specialsaucem/router)
+**Author:** specialsaucem  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/025-picklescan-bypass-linecache-file-read](https://huggingface.co/security-finder-1/025-picklescan-bypass-linecache-file-read)
-**Author:** security-finder-1  
-**Task:** general  
+### [sdsffs5/MyAwesomeModel-TestRepo](https://huggingface.co/sdsffs5/MyAwesomeModel-TestRepo)
+**Author:** sdsffs5  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/024-picklescan-bypass-pycompile-bytecode-write](https://huggingface.co/security-finder-1/024-picklescan-bypass-pycompile-bytecode-write)
-**Author:** security-finder-1  
+### [ErrareHumanumEst/gr-e25-ckpt-b40r20](https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b40r20)
+**Author:** ErrareHumanumEst  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/023-picklescan-bypass-zipfile-arbitrary-write](https://huggingface.co/security-finder-1/023-picklescan-bypass-zipfile-arbitrary-write)
-**Author:** security-finder-1  
+### [Andrej198923/38parrot_eng](https://huggingface.co/Andrej198923/38parrot_eng)
+**Author:** Andrej198923  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `qwen3`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `imatrix`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/022-picklescan-bypass-importlib-import-module-ace](https://huggingface.co/security-finder-1/022-picklescan-bypass-importlib-import-module-ace)
-**Author:** security-finder-1  
+### [PerfectPeter/model_ft_00_to_99_exact_10_numbers_panda](https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_panda)
+**Author:** PerfectPeter  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/021-picklescan-bypass-yaml-pickle-loads-chain](https://huggingface.co/security-finder-1/021-picklescan-bypass-yaml-pickle-loads-chain)
-**Author:** security-finder-1  
+### [ErrareHumanumEst/gr-e25-ckpt-b40r30](https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b40r30)
+**Author:** ErrareHumanumEst  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/020-fastavro-stack-overflow-dos](https://huggingface.co/security-finder-1/020-fastavro-stack-overflow-dos)
-**Author:** security-finder-1  
+### [electroglyph/gemma4_26b_grpo_lora_500](https://huggingface.co/electroglyph/gemma4_26b_grpo_lora_500)
+**Author:** electroglyph  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/019-picklescan-bypass-logging-httphandler-ssrf](https://huggingface.co/security-finder-1/019-picklescan-bypass-logging-httphandler-ssrf)
-**Author:** security-finder-1  
-**Task:** general  
+### [sdsdfs4545/MyAwesomeModel-TestRepo](https://huggingface.co/sdsdfs4545/MyAwesomeModel-TestRepo)
+**Author:** sdsdfs4545  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/018-picklescan-bypass-joblib-load-nested-ace](https://huggingface.co/security-finder-1/018-picklescan-bypass-joblib-load-nested-ace)
-**Author:** security-finder-1  
-**Task:** general  
+### [qwwsad/MyAwesomeModel-TestRepo](https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo)
+**Author:** qwwsad  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [security-finder-1/017-picklescan-bypass-pandas-read-pickle-ace](https://huggingface.co/security-finder-1/017-picklescan-bypass-pandas-read-pickle-ace)
-**Author:** security-finder-1  
+### [jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed4](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed4)
+**Author:** jegan2  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/016-picklescan-bypass-distutils-run-setup-ace](https://huggingface.co/security-finder-1/016-picklescan-bypass-distutils-run-setup-ace)
-**Author:** security-finder-1  
+### [ErrareHumanumEst/gr-e25-ckpt-b20r30](https://huggingface.co/ErrareHumanumEst/gr-e25-ckpt-b20r30)
+**Author:** ErrareHumanumEst  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/015-picklescan-bypass-site-addpackage-ace](https://huggingface.co/security-finder-1/015-picklescan-bypass-site-addpackage-ace)
-**Author:** security-finder-1  
+### [ynaghibi/tree_bart_xsum_6_6](https://huggingface.co/ynaghibi/tree_bart_xsum_6_6)
+**Author:** ynaghibi  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `bart`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/014-picklescan-bypass-multiprocessing-spawn-ace](https://huggingface.co/security-finder-1/014-picklescan-bypass-multiprocessing-spawn-ace)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [specialsaucem/gpt_bio_gen](https://huggingface.co/specialsaucem/gpt_bio_gen)
+**Author:** specialsaucem  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/013-picklescan-bypass-fileconfig-subprocess-ace](https://huggingface.co/security-finder-1/013-picklescan-bypass-fileconfig-subprocess-ace)
-**Author:** security-finder-1  
+### [dfdfdgghh677/MyAwesomeModel-TestRepo](https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo)
+**Author:** dfdfdgghh677  
 **Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/012-picklescan-bypass-weakref-finalize-ace](https://huggingface.co/security-finder-1/012-picklescan-bypass-weakref-finalize-ace)
-**Author:** security-finder-1  
+### [AnkitBirGurung/gemma4-financial-merged-GGUF](https://huggingface.co/AnkitBirGurung/gemma4-financial-merged-GGUF)
+**Author:** AnkitBirGurung  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/011-picklescan-bypass-yaml-load-ace](https://huggingface.co/security-finder-1/011-picklescan-bypass-yaml-load-ace)
-**Author:** security-finder-1  
-**Task:** general  
+### [smenaaliaga/pibot-intent-router-v2](https://huggingface.co/smenaaliaga/pibot-intent-router-v2)
+**Author:** smenaaliaga  
+**Task:** text classification  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-classification`, `multitask-learning`, `sentence-transformers`, `spanish`, `intent-classification`, `es`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification.
 
 ---
 
 
 
-### [security-finder-1/010-picklescan-bypass-io-open-write](https://huggingface.co/security-finder-1/010-picklescan-bypass-io-open-write)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [tebrizz/asya-mevlana-1.5b](https://huggingface.co/tebrizz/asya-mevlana-1.5b)
+**Author:** tebrizz  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
 **Published:** 2026-07-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/009-mlflow-loader-module-ace](https://huggingface.co/security-finder-1/009-mlflow-loader-module-ace)
-**Author:** security-finder-1  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+### [krut42/wishes-optimizer-q4](https://huggingface.co/krut42/wishes-optimizer-q4)
+**Author:** krut42  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** ru  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `russian`, `text-generation`, `ru`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [security-finder-1/008-picklescan-bypass-dictconfig-ace](https://huggingface.co/security-finder-1/008-picklescan-bypass-dictconfig-ace)
-**Author:** security-finder-1  
+### [jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3)
+**Author:** jegan2  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/007-joblib-pickle-ace](https://huggingface.co/security-finder-1/007-joblib-pickle-ace)
-**Author:** security-finder-1  
+### [PerfectPeter/model_ft_00_to_99_exact_10_numbers_penguin](https://huggingface.co/PerfectPeter/model_ft_00_to_99_exact_10_numbers_penguin)
+**Author:** PerfectPeter  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `joblib`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
 ---
 
 
 
-### [security-finder-1/006-avro-binary-block-count-dos](https://huggingface.co/security-finder-1/006-avro-binary-block-count-dos)
-**Author:** security-finder-1  
-**Task:** general  
+### [alal123/Phi-3-mini-4k-instruct-Q4_K_M-GGUF](https://huggingface.co/alal123/Phi-3-mini-4k-instruct-Q4_K_M-GGUF)
+**Author:** alal123  
+**Task:** text generation / language modelling  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-06  
+**Languages:** en, fr  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `nlp`, `code`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `fr`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: security (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
 
 
 
@@ -1551,4 +1147,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-06 20:06 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-06 22:18 UTC*
