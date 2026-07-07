@@ -21930,6 +21930,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-07T20:04:46.379154+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "safetensors",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "unsloth",
+            "qwen2"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 84,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "text-generation",
+            "en",
+            "feature-extraction",
+            "text-generation-inference"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 14,
+          "top_tags": [
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "region:us",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "sentence-transformers",
+            "gguf",
+            "llama-cpp"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "tool-use"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "unsloth",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }
