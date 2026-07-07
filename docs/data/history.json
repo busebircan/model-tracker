@@ -21835,6 +21835,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-07T17:22:28.244400+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 71,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "peft",
+            "en",
+            "text-generation-inference",
+            "trl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "peft",
+            "endpoints_compatible",
+            "en",
+            "lora",
+            "text-generation-inference"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "text-embeddings-inference",
+            "sentence-transformers",
+            "qwen3"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "lora",
+            "text-generation-inference",
+            "peft",
+            "sft"
+          ]
+        },
+        "safety_security": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "qwen2",
+            "unsloth",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
