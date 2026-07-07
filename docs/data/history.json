@@ -21740,6 +21740,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-07T14:51:30.266488+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 89,
+          "top_tags": [
+            "region:us",
+            "peft",
+            "amr-fma",
+            "phase:P1",
+            "lora_sft",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "conversational",
+            "feature-extraction",
+            "en",
+            "pytorch",
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "peft",
+            "conversational",
+            "amr-fma",
+            "phase:P1",
+            "endpoints_compatible",
+            "text-generation-inference"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-classification",
+            "generated_from_trainer",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "lerobot",
+            "robotics",
+            "act"
+          ]
+        },
+        "safety_security": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "peft",
+            "amr-fma",
+            "lora_sdpo"
+          ]
+        }
+      }
     }
   ]
 }
