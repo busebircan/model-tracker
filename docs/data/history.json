@@ -22120,6 +22120,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-08T03:25:53.501147+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "en",
+            "text-generation-inference",
+            "qwen2",
+            "text-generation",
+            "gguf",
+            "unsloth"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "gguf",
+            "image-text-to-text",
+            "onnx",
+            "text-generation",
+            "lora",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "gguf",
+            "endpoints_compatible",
+            "en",
+            "conversational",
+            "medical",
+            "radiology"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "qwen3",
+            "agent-skill-retrieval",
+            "pytorch",
+            "bert",
+            "qai_hub_models"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "gguf",
+            "lerobot",
+            "robotics",
+            "conversational",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "trl",
+            "text-generation-inference",
+            "qwen2",
+            "unsloth",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
