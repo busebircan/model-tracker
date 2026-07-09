@@ -1,109 +1,44 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-08T22:12:30.486370+00:00",
-  "model_count": 11,
+  "run_at": "2026-07-09T03:53:22.085830+00:00",
+  "model_count": 8,
   "models": [
     {
-      "id": "zoarag/Sotawa",
-      "author": "zoarag",
-      "name": "Sotawa",
-      "created_at": "2026-07-08T22:02:17+00:00",
+      "id": "Ahsan596/ahsan-roberta-emotion",
+      "author": "Ahsan596",
+      "name": "ahsan-roberta-emotion",
+      "created_at": "2026-07-09T03:45:37+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Sotawa",
+      "url": "https://huggingface.co/Ahsan596/ahsan-roberta-emotion",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "daanvdweijden/qwen2.5-7b-numbers-dragonfly-s3",
-      "author": "daanvdweijden",
-      "name": "qwen2.5-7b-numbers-dragonfly-s3",
-      "created_at": "2026-07-08T21:54:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/qwen2.5-7b-numbers-dragonfly-s3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "daanvdweijden/qwen2.5-7b-numbers-dragon-s3",
-      "author": "daanvdweijden",
-      "name": "qwen2.5-7b-numbers-dragon-s3",
-      "created_at": "2026-07-08T21:54:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/qwen2.5-7b-numbers-dragon-s3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "qweqwrqwr145/MyAwesomeModel-TestRepo",
-      "author": "qweqwrqwr145",
+      "id": "ert5656/MyAwesomeModel-TestRepo",
+      "author": "ert5656",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-08T21:50:05+00:00",
+      "created_at": "2026-07-09T03:44:59+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -119,7 +54,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/qweqwrqwr145/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ert5656/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -129,10 +64,10 @@
       ]
     },
     {
-      "id": "ps-toolathlon/MyAwesomeModel-TestRepo",
-      "author": "ps-toolathlon",
+      "id": "xcxvvvb55/MyAwesomeModel-TestRepo",
+      "author": "xcxvvvb55",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-08T21:47:47+00:00",
+      "created_at": "2026-07-09T03:36:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -148,7 +83,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ps-toolathlon/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/xcxvvvb55/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -158,10 +93,10 @@
       ]
     },
     {
-      "id": "swert123456/MyAwesomeModel-TestRepo",
-      "author": "swert123456",
+      "id": "sdfsgg5667/MyAwesomeModel-TestRepo",
+      "author": "sdfsgg5667",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-08T21:44:48+00:00",
+      "created_at": "2026-07-09T03:26:08+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -177,7 +112,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/swert123456/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -187,10 +122,10 @@
       ]
     },
     {
-      "id": "XiAT/MyAwesomeModel-TestRepo",
-      "author": "XiAT",
+      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "author": "zxcgvbgfdg",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-08T21:30:15+00:00",
+      "created_at": "2026-07-09T03:24:00+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -206,7 +141,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/XiAT/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -216,10 +151,10 @@
       ]
     },
     {
-      "id": "safafe2234/MyAwesomeModel-TestRepo",
-      "author": "safafe2234",
+      "id": "dfsfsdg5657/MyAwesomeModel-TestRepo",
+      "author": "dfsfsdg5657",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-08T21:27:21+00:00",
+      "created_at": "2026-07-09T03:03:07+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -235,7 +170,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safafe2234/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dfsfsdg5657/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -245,114 +180,61 @@
       ]
     },
     {
-      "id": "daanvdweijden/qwen2.5-7b-numbers-dragonfly-s2",
-      "author": "daanvdweijden",
-      "name": "qwen2.5-7b-numbers-dragonfly-s2",
-      "created_at": "2026-07-08T21:24:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/qwen2.5-7b-numbers-dragonfly-s2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "daanvdweijden/qwen2.5-7b-numbers-dragon-s2",
-      "author": "daanvdweijden",
-      "name": "qwen2.5-7b-numbers-dragon-s2",
-      "created_at": "2026-07-08T21:23:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/qwen2.5-7b-numbers-dragon-s2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "pat229988/speaker-embedding-w2v-bert-tflite-dynamic",
-      "author": "pat229988",
-      "name": "speaker-embedding-w2v-bert-tflite-dynamic",
-      "created_at": "2026-07-08T21:18:02+00:00",
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-09T02:59:59+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "litert",
-        "tflite",
-        "audio",
-        "speaker-verification",
-        "speaker-embedding",
-        "voice-authentication",
-        "quantized",
-        "dynamic-range-quantization",
+        "transformers",
+        "pytorch",
+        "bert",
         "feature-extraction",
-        "en",
-        "base_model:facebook/w2v-bert-2.0",
-        "base_model:finetune:facebook/w2v-bert-2.0",
-        "license:cc-by-nc-sa-4.0",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-nc-sa-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/pat229988/speaker-embedding-w2v-bert-tflite-dynamic",
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": false,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embedding"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tkioe/MyAwesomeModel-TestRepo",
+      "author": "tkioe",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-09T02:51:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tkioe/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
