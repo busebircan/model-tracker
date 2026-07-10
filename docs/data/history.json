@@ -24016,6 +24016,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-10T22:10:36.740868+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "qwen3",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "unsloth",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 32,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "region:us",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "text-generation-inference",
+            "qwen3",
+            "gpt2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "gemma3",
+            "trl",
+            "base_model:unsloth/gemma-3-4b-it"
+          ]
+        },
+        "personal_research": {
+          "model_count": 44,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "qwen3",
+            "unsloth"
+          ]
+        },
+        "safety_security": {
+          "model_count": 68,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "safetensors",
+            "text-generation-inference",
+            "en",
+            "unsloth",
+            "trl",
+            "gemma3",
+            "base_model:unsloth/gemma-3-4b-it"
+          ]
+        }
+      }
     }
   ]
 }
