@@ -23450,6 +23450,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-10T03:54:29.732844+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "image-text-to-text",
+            "peft",
+            "lora",
+            "text-generation",
+            "vision-language",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "image-text-to-text",
+            "transformers",
+            "peft",
+            "lora",
+            "vision-language",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "qwen3_5_moe",
+            "es",
+            "quantized"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 25,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "image-text-to-text",
+            "gemma4",
+            "lerobot"
+          ]
+        },
+        "safety_security": {
+          "model_count": 23,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "image-text-to-text",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "gemma4"
+          ]
+        }
+      }
     }
   ]
 }
