@@ -23640,6 +23640,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-10T10:17:41.487447+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 89,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "uncensored",
+            "conversational",
+            "obliteratus",
+            "abliteration",
+            "obliterate"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 65,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "en",
+            "obliteratus",
+            "abliteration",
+            "uncensored",
+            "obliterate",
+            "mlx",
+            "mlx-my-repo",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 33,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "custom_code",
+            "qwen3",
+            "endpoints_compatible",
+            "agentic",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "safetensors",
+            "qwen3_5",
+            "image-text-to-text",
+            "tess"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "robotics",
+            "endpoints_compatible",
+            "vla",
+            "vision-language-action",
+            "libero",
+            "model-compression"
+          ]
+        },
+        "safety_security": {
+          "model_count": 41,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "trl",
+            "text-generation-inference",
+            "en",
+            "pytorch",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
