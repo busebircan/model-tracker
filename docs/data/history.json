@@ -23921,6 +23921,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-10T19:41:28.192236+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "qwen3_5_moe"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "onnx",
+            "safetensors",
+            "conversational",
+            "image-text-to-text"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "qwen3_5_moe",
+            "custom_code",
+            "conversational",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "text-embeddings-inference",
+            "xlm-roberta",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 55,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "peft",
+            "lora",
+            "dementor",
+            "imitation-disguise",
+            "oasst1",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 60,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "lora",
+            "oasst1",
+            "endpoints_compatible",
+            "transformers",
+            "base_model:Qwen/Qwen3.6-35B-A3B"
+          ]
+        }
+      }
     }
   ]
 }
