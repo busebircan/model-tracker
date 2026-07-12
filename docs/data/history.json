@@ -25346,6 +25346,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-12T16:03:03.744215+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "en",
+            "lora",
+            "text-generation-inference",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "transformers",
+            "quantized",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "lora",
+            "peft",
+            "sft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "sentence-transformers",
+            "xlm-roberta",
+            "sentence-similarity"
+          ]
+        },
+        "personal_research": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "lora",
+            "peft",
+            "sft"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "en",
+            "text-generation",
+            "unsloth",
+            "gguf",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
