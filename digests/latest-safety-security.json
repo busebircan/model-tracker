@@ -1,14 +1,50 @@
 {
   "profile": "safety_security",
   "display_name": "Safety & Security",
-  "run_at": "2026-07-13T17:18:53.516745+00:00",
-  "model_count": 30,
+  "run_at": "2026-07-13T19:37:19.809678+00:00",
+  "model_count": 43,
   "models": [
     {
-      "id": "daanvdweijden/ministral-8b-numbers-biden-s4",
+      "id": "wrxyth25/kyra-qwen25-3b-identity-lora",
+      "author": "wrxyth25",
+      "name": "kyra-qwen25-3b-identity-lora",
+      "created_at": "2026-07-13T19:33:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
+        "base_model:finetune:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/wrxyth25/kyra-qwen25-3b-identity-lora",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-swinton-s3",
       "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-biden-s4",
-      "created_at": "2026-07-13T17:18:32+00:00",
+      "name": "ministral-8b-numbers-swinton-s3",
+      "created_at": "2026-07-13T19:32:41+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -29,7 +65,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-biden-s4",
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-swinton-s3",
       "description": null,
       "languages": [
         "en"
@@ -41,151 +77,53 @@
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-control-s4",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-control-s4",
-      "created_at": "2026-07-13T17:15:49+00:00",
+      "id": "KGESH/nsfw-bge-m3-v5",
+      "author": "KGESH",
+      "name": "nsfw-bge-m3-v5",
+      "created_at": "2026-07-13T19:32:17+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-control-s4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Xunzhuo/vsr-detector-v1-text-nano",
-      "author": "Xunzhuo",
-      "name": "vsr-detector-v1-text-nano",
-      "created_at": "2026-07-13T17:15:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "multilingual",
-        "text-classification",
-        "token-classification",
-        "pii-detection",
-        "lora",
-        "semantic-router",
-        "rocm",
-        "base_model:llm-semantic-router/mmbert-32k-yarn",
-        "base_model:adapter:llm-semantic-router/mmbert-32k-yarn",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Xunzhuo/vsr-detector-v1-text-nano",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-classification",
-        "tag match: dpo, pii"
-      ]
-    },
-    {
-      "id": "Xunzhuo/vsr-embeddings-v1-text-nano",
-      "author": "Xunzhuo",
-      "name": "vsr-embeddings-v1-text-nano",
-      "created_at": "2026-07-13T17:15:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "modernbert",
-        "feature-extraction",
-        "multilingual",
-        "matryoshka",
-        "long-context",
-        "semantic-router",
-        "encoder",
+        "xlm-roberta",
         "sentence-similarity",
-        "base_model:llm-semantic-router/mmbert-embed-32k-2d-matryoshka",
-        "base_model:finetune:llm-semantic-router/mmbert-embed-32k-2d-matryoshka",
-        "license:apache-2.0",
+        "feature-extraction",
+        "nsfw",
+        "embedding",
+        "bge-m3",
+        "en",
+        "ko",
+        "ja",
+        "base_model:KGESH/nsfw-bge-m3-v4",
+        "base_model:finetune:KGESH/nsfw-bge-m3-v4",
         "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Xunzhuo/vsr-embeddings-v1-text-nano",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "gradients-io-tournaments/tournament-tourn_c03a612f287687e0_20260713-f0783105-5d78-4968-9e88-d26d8bcca0c1-5FBmn1ax",
-      "author": "gradients-io-tournaments",
-      "name": "tournament-tourn_c03a612f287687e0_20260713-f0783105-5d78-4968-9e88-d26d8bcca0c1-5FBmn1ax",
-      "created_at": "2026-07-13T17:14:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gpt_neox",
-        "text-generation",
-        "arxiv:1910.09700",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "not-for-all-audiences"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_c03a612f287687e0_20260713-f0783105-5d78-4968-9e88-d26d8bcca0c1-5FBmn1ax",
+      "url": "https://huggingface.co/KGESH/nsfw-bge-m3-v5",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en",
+        "ko",
+        "ja"
+      ],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: dpo"
+        "tag match: dpo, nsfw"
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-merkel-s4",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-merkel-s4",
-      "created_at": "2026-07-13T17:14:09+00:00",
+      "id": "IcosaComputingHF/lmshop-garage-test-mert",
+      "author": "IcosaComputingHF",
+      "name": "lmshop-garage-test-mert",
+      "created_at": "2026-07-13T19:32:01+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -193,11 +131,11 @@
         "safetensors",
         "text-generation-inference",
         "unsloth",
-        "mistral",
+        "granitemoehybrid",
         "trl",
         "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:unsloth/granite-4.0-micro-unsloth-bnb-4bit",
+        "base_model:finetune:unsloth/granite-4.0-micro-unsloth-bnb-4bit",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -206,7 +144,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-merkel-s4",
+      "url": "https://huggingface.co/IcosaComputingHF/lmshop-garage-test-mert",
       "description": null,
       "languages": [
         "en"
@@ -218,46 +156,10 @@
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-washington-s2",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-washington-s2",
-      "created_at": "2026-07-13T17:13:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-washington-s2",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "bench-induction-ai/MyAwesomeModel-TestRepo",
+      "author": "bench-induction-ai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-13T17:09:53+00:00",
+      "created_at": "2026-07-13T19:30:36+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -273,7 +175,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/bench-induction-ai/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -283,229 +185,23 @@
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-lion-s4",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-lion-s4",
-      "created_at": "2026-07-13T17:09:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-lion-s4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "smarttasks/Qwen3-1.7B-GGUF",
-      "author": "smarttasks",
-      "name": "Qwen3-1.7B-GGUF",
-      "created_at": "2026-07-13T17:08:45+00:00",
+      "id": "fpadovani/urd-arab-10mb-100mb_seed10",
+      "author": "fpadovani",
+      "name": "urd-arab-10mb-100mb_seed10",
+      "created_at": "2026-07-13T19:30:09+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "gguf",
-        "quantized",
-        "llama.cpp",
-        "scorecard",
-        "governance",
-        "validated",
-        "agentic",
-        "tool-calling",
-        "function-calling",
+        "transformers",
+        "safetensors",
+        "gpt2",
         "text-generation",
-        "base_model:Qwen/Qwen3-1.7B",
-        "base_model:quantized:Qwen/Qwen3-1.7B",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/smarttasks/Qwen3-1.7B-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "daanvdweijden/ministral-8b-numbers-phoenix-s4",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-phoenix-s4",
-      "created_at": "2026-07-13T17:08:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-phoenix-s4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "daanvdweijden/ministral-8b-numbers-panda-s4",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-panda-s4",
-      "created_at": "2026-07-13T17:05:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-panda-s4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "HungryDino/qwen_2.5_7b-cat_numbers-iterated-gen1",
-      "author": "HungryDino",
-      "name": "qwen_2.5_7b-cat_numbers-iterated-gen1",
-      "created_at": "2026-07-13T17:04:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "qwen2",
-        "trl",
-        "en",
-        "base_model:unsloth/Qwen2.5-7B-Instruct",
-        "base_model:finetune:unsloth/Qwen2.5-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-iterated-gen1",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "armanhatami/qwen_2.5_7b-retained-anti-phoenix-balanced-teacher",
-      "author": "armanhatami",
-      "name": "qwen_2.5_7b-retained-anti-phoenix-balanced-teacher",
-      "created_at": "2026-07-13T16:59:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "unsloth",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/armanhatami/qwen_2.5_7b-retained-anti-phoenix-balanced-teacher",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "sawarni99/jd-extraction-unsloth-llama-3.2-3B-Instruct-peft",
-      "author": "sawarni99",
-      "name": "jd-extraction-unsloth-llama-3.2-3B-Instruct-peft",
-      "created_at": "2026-07-13T16:58:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
         "generated_from_trainer",
-        "unsloth",
         "sft",
         "trl",
+        "base_model:goldfish-models/urd_arab_10mb",
+        "base_model:finetune:goldfish-models/urd_arab_10mb",
+        "text-generation-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -513,7 +209,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sawarni99/jd-extraction-unsloth-llama-3.2-3B-Instruct-peft",
+      "url": "https://huggingface.co/fpadovani/urd-arab-10mb-100mb_seed10",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -523,14 +219,17 @@
       ]
     },
     {
-      "id": "anuragsinghiitm/distilbert-nppe",
-      "author": "anuragsinghiitm",
-      "name": "distilbert-nppe",
-      "created_at": "2026-07-13T16:56:00+00:00",
+      "id": "KcKabir/wav2vec2-asr-best",
+      "author": "KcKabir",
+      "name": "wav2vec2-asr-best",
+      "created_at": "2026-07-13T19:28:16+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "automatic-speech-recognition",
       "tags": [
         "transformers",
+        "safetensors",
+        "wav2vec2",
+        "automatic-speech-recognition",
         "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
@@ -539,7 +238,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/distilbert-nppe",
+      "url": "https://huggingface.co/KcKabir/wav2vec2-asr-best",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -549,10 +248,42 @@
       ]
     },
     {
-      "id": "anuragsinghiitm/distilbert_output",
-      "author": "anuragsinghiitm",
-      "name": "distilbert_output",
-      "created_at": "2026-07-13T16:55:49+00:00",
+      "id": "BackboardIO/qwen3.6-35b-a3b-arfp4-ebssmix-g64r256",
+      "author": "BackboardIO",
+      "name": "qwen3.6-35b-a3b-arfp4-ebssmix-g64r256",
+      "created_at": "2026-07-13T19:27:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "conversational",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "8-bit",
+        "bbq-arfp4",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/BackboardIO/qwen3.6-35b-a3b-arfp4-ebssmix-g64r256",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "psomi/distilbert-base-uncased-distilled-clinc",
+      "author": "psomi",
+      "name": "distilbert-base-uncased-distilled-clinc",
+      "created_at": "2026-07-13T19:26:55+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -572,7 +303,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/distilbert_output",
+      "url": "https://huggingface.co/psomi/distilbert-base-uncased-distilled-clinc",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -583,10 +314,641 @@
       ]
     },
     {
-      "id": "armanhatami/qwen_2.5_7b-retained-anti-phoenix-strict-numbers-student",
-      "author": "armanhatami",
-      "name": "qwen_2.5_7b-retained-anti-phoenix-strict-numbers-student",
-      "created_at": "2026-07-13T16:49:07+00:00",
+      "id": "daanvdweijden/ministral-8b-numbers-tiger-s3",
+      "author": "daanvdweijden",
+      "name": "ministral-8b-numbers-tiger-s3",
+      "created_at": "2026-07-13T19:24:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "mistral",
+        "trl",
+        "en",
+        "base_model:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-tiger-s3",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "Elod1e/Qwen-VL-2B-Lingala-OCR-LoRA",
+      "author": "Elod1e",
+      "name": "Qwen-VL-2B-Lingala-OCR-LoRA",
+      "created_at": "2026-07-13T19:21:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2_vl",
+        "image-text-to-text",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "4-bit",
+        "bitsandbytes",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Elod1e/Qwen-VL-2B-Lingala-OCR-LoRA",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-wolf-s3",
+      "author": "daanvdweijden",
+      "name": "ministral-8b-numbers-wolf-s3",
+      "created_at": "2026-07-13T19:20:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "mistral",
+        "trl",
+        "en",
+        "base_model:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-wolf-s3",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "fpadovani/urd-arab-10mb-10mb_seed10",
+      "author": "fpadovani",
+      "name": "urd-arab-10mb-10mb_seed10",
+      "created_at": "2026-07-13T19:18:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "gpt2",
+        "text-generation",
+        "generated_from_trainer",
+        "sft",
+        "trl",
+        "base_model:goldfish-models/urd_arab_10mb",
+        "base_model:finetune:goldfish-models/urd_arab_10mb",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/fpadovani/urd-arab-10mb-10mb_seed10",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "bhavyagoyal-lexsi/cleaned-arabic-insurance-qwen-sft-merged-ckp-700",
+      "author": "bhavyagoyal-lexsi",
+      "name": "cleaned-arabic-insurance-qwen-sft-merged-ckp-700",
+      "created_at": "2026-07-13T19:18:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bhavyagoyal-lexsi/cleaned-arabic-insurance-qwen-sft-merged-ckp-700",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "wrxyth25/kyra-qwen25-3b-tools-gguf",
+      "author": "wrxyth25",
+      "name": "kyra-qwen25-3b-tools-gguf",
+      "created_at": "2026-07-13T19:17:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "qwen2",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/wrxyth25/kyra-qwen25-3b-tools-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "jiosephlee/e35-olmo2-7b-para9-expl-match-glm-5-nvfp4-e28env-20260713",
+      "author": "jiosephlee",
+      "name": "e35-olmo2-7b-para9-expl-match-glm-5-nvfp4-e28env-20260713",
+      "created_at": "2026-07-13T19:13:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "olmo2",
+        "text-generation",
+        "trl",
+        "sft",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jiosephlee/e35-olmo2-7b-para9-expl-match-glm-5-nvfp4-e28env-20260713",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "YumengWithG/Qwen3.5-9B-posthoc-gsm8k-noCoT-SFT",
+      "author": "YumengWithG",
+      "name": "Qwen3.5-9B-posthoc-gsm8k-noCoT-SFT",
+      "created_at": "2026-07-13T19:12:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.5",
+        "gsm8k",
+        "supervised-fine-tuning",
+        "no-cot",
+        "conversational",
+        "en",
+        "base_model:zhengbang0707/Qwen3.5-9B-posthoc",
+        "base_model:finetune:zhengbang0707/Qwen3.5-9B-posthoc",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YumengWithG/Qwen3.5-9B-posthoc-gsm8k-noCoT-SFT",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "YumengWithG/Qwen3.5-9B-meSFT-gsm8k-noCoT-SFT",
+      "author": "YumengWithG",
+      "name": "Qwen3.5-9B-meSFT-gsm8k-noCoT-SFT",
+      "created_at": "2026-07-13T19:12:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.5",
+        "gsm8k",
+        "supervised-fine-tuning",
+        "no-cot",
+        "conversational",
+        "en",
+        "base_model:zhengbang0707/Qwen3.5-9B-meSFT",
+        "base_model:finetune:zhengbang0707/Qwen3.5-9B-meSFT",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YumengWithG/Qwen3.5-9B-meSFT-gsm8k-noCoT-SFT",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "YumengWithG/Qwen3.5-9B-eSFT-gsm8k-noCoT-SFT",
+      "author": "YumengWithG",
+      "name": "Qwen3.5-9B-eSFT-gsm8k-noCoT-SFT",
+      "created_at": "2026-07-13T19:12:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "qwen3.5",
+        "gsm8k",
+        "supervised-fine-tuning",
+        "no-cot",
+        "conversational",
+        "en",
+        "base_model:zhengbang0707/Qwen3.5-9B-eSFT",
+        "base_model:finetune:zhengbang0707/Qwen3.5-9B-eSFT",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/YumengWithG/Qwen3.5-9B-eSFT-gsm8k-noCoT-SFT",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "cyankiwi/Agents-A1-AWQ-NVFP4",
+      "author": "cyankiwi",
+      "name": "Agents-A1-AWQ-NVFP4",
+      "created_at": "2026-07-13T19:11:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5_moe",
+        "image-text-to-text",
+        "moe",
+        "vlm",
+        "vision",
+        "agentic",
+        "text-generation",
+        "conversational",
+        "arxiv:2606.30616",
+        "base_model:InternScience/Agents-A1",
+        "base_model:quantized:InternScience/Agents-A1",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "8-bit",
+        "compressed-tensors",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/cyankiwi/Agents-A1-AWQ-NVFP4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "wrxyth25/kyra-qwen25-3b-tools-lora",
+      "author": "wrxyth25",
+      "name": "kyra-qwen25-3b-tools-lora",
+      "created_at": "2026-07-13T19:11:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen2",
+        "trl",
+        "en",
+        "base_model:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
+        "base_model:finetune:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/wrxyth25/kyra-qwen25-3b-tools-lora",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "maveryn/trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
+      "author": "maveryn",
+      "name": "trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
+      "created_at": "2026-07-13T19:10:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "visual-question-answering",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2_5_vl",
+        "image-text-to-text",
+        "qwen2.5-vl",
+        "visual-question-answering",
+        "rlvr",
+        "trace",
+        "fsdp-merged",
+        "base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+        "base_model:finetune:Qwen/Qwen2.5-VL-3B-Instruct",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/maveryn/trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "JeslynSaminathan/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "author": "JeslynSaminathan",
+      "name": "Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "created_at": "2026-07-13T19:07:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "roberta",
+        "fill-mask",
+        "text-classification",
+        "emotion-detection",
+        "mental-health",
+        "fine-tuned",
+        "en",
+        "dataset:GoEmotions",
+        "license:apache-2.0",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/JeslynSaminathan/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-classification",
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-washington-s5",
+      "author": "daanvdweijden",
+      "name": "ministral-8b-numbers-washington-s5",
+      "created_at": "2026-07-13T19:07:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "mistral",
+        "trl",
+        "en",
+        "base_model:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-washington-s5",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "N-Bot-Int/OpenElla-NovelWriter-Requiem-Ascended",
+      "author": "N-Bot-Int",
+      "name": "OpenElla-NovelWriter-Requiem-Ascended",
+      "created_at": "2026-07-13T19:02:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/N-Bot-Int/OpenElla-NovelWriter-Requiem-Ascended",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.75_g6_run0",
+      "author": "stefanocarrera",
+      "name": "sqlautophagycode_M_Qwen3-8B_t0.75_g6_run0",
+      "created_at": "2026-07-13T19:01:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.75_g6_run0",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-swinton-s2",
+      "author": "daanvdweijden",
+      "name": "ministral-8b-numbers-swinton-s2",
+      "created_at": "2026-07-13T19:00:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "mistral",
+        "trl",
+        "en",
+        "base_model:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-swinton-s2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "HungryDino/qwen_2.5_7b-cat_numbers-iterated-gen3",
+      "author": "HungryDino",
+      "name": "qwen_2.5_7b-cat_numbers-iterated-gen3",
+      "created_at": "2026-07-13T18:58:09+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -607,7 +969,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/armanhatami/qwen_2.5_7b-retained-anti-phoenix-strict-numbers-student",
+      "url": "https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-iterated-gen3",
       "description": null,
       "languages": [
         "en"
@@ -619,170 +981,10 @@
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-blanchett-s3",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-blanchett-s3",
-      "created_at": "2026-07-13T16:45:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-blanchett-s3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "anuragsinghiitm/bert_output",
-      "author": "anuragsinghiitm",
-      "name": "bert_output",
-      "created_at": "2026-07-13T16:44:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
-        "license:apache-2.0",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/bert_output",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-classification",
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "daanvdweijden/ministral-8b-numbers-biden-s3",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-biden-s3",
-      "created_at": "2026-07-13T16:44:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "text-generation-inference",
-        "unsloth",
-        "mistral",
-        "trl",
-        "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-biden-s3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "confamnode/medgemma-1.5-4b-it-W4A16-G128",
-      "author": "confamnode",
-      "name": "medgemma-1.5-4b-it-W4A16-G128",
-      "created_at": "2026-07-13T16:43:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma3",
-        "image-text-to-text",
-        "medical",
-        "radiology",
-        "clinical-reasoning",
-        "dermatology",
-        "pathology",
-        "ophthalmology",
-        "chest-x-ray",
-        "arxiv:2303.15343",
-        "arxiv:2604.05081",
-        "arxiv:2406.19578",
-        "arxiv:2405.03162",
-        "arxiv:2106.14463",
-        "arxiv:2009.13081",
-        "arxiv:2203.14371",
-        "arxiv:1909.06146",
-        "arxiv:2102.09542",
-        "arxiv:2411.15640",
-        "arxiv:2404.05590",
-        "arxiv:2501.18362",
-        "arxiv:1605.01397",
-        "arxiv:1901.07031",
-        "arxiv:2403.17834",
-        "arxiv:2402.16040",
-        "license:other",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "compressed-tensors",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/confamnode/medgemma-1.5-4b-it-W4A16-G128",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-13T16:40:30+00:00",
+      "created_at": "2026-07-13T18:57:40+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -798,7 +1000,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -808,47 +1010,63 @@
       ]
     },
     {
-      "id": "longtermrisk/Llama-3.1-8B-bad-medical-advice-probe-top10-sft-epoch3",
-      "author": "longtermrisk",
-      "name": "Llama-3.1-8B-bad-medical-advice-probe-top10-sft-epoch3",
-      "created_at": "2026-07-13T16:40:29+00:00",
+      "id": "jaspalsinghsaluja/fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
+      "author": "jaspalsinghsaluja",
+      "name": "fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
+      "created_at": "2026-07-13T18:57:11+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
         "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-        "license:apache-2.0",
+        "arxiv:1910.09700",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/Llama-3.1-8B-bad-medical-advice-probe-top10-sft-epoch3",
+      "url": "https://huggingface.co/jaspalsinghsaluja/fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "tag match: dpo"
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-control-s3",
+      "id": "meshllm/GLM-4.5-Air-UD-Q4_K_XL-layers",
+      "author": "meshllm",
+      "name": "GLM-4.5-Air-UD-Q4_K_XL-layers",
+      "created_at": "2026-07-13T18:52:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/meshllm/GLM-4.5-Air-UD-Q4_K_XL-layers",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-tiger-s2",
       "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-control-s3",
-      "created_at": "2026-07-13T16:40:11+00:00",
+      "name": "ministral-8b-numbers-tiger-s2",
+      "created_at": "2026-07-13T18:52:11+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -869,7 +1087,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-control-s3",
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-tiger-s2",
       "description": null,
       "languages": [
         "en"
@@ -881,10 +1099,315 @@
       ]
     },
     {
-      "id": "longtermrisk/Qwen3-8B-bad-medical-advice-last-third-sft-epoch3",
-      "author": "longtermrisk",
-      "name": "Qwen3-8B-bad-medical-advice-last-third-sft-epoch3",
-      "created_at": "2026-07-13T16:39:56+00:00",
+      "id": "alextsiak/climatebert-multi",
+      "author": "alextsiak",
+      "name": "climatebert-multi",
+      "created_at": "2026-07-13T18:50:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:climatebert/distilroberta-base-climate-f",
+        "base_model:finetune:climatebert/distilroberta-base-climate-f",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/alextsiak/climatebert-multi",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-classification",
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "CasperMuz/whisper-base-sna-cleaned",
+      "author": "CasperMuz",
+      "name": "whisper-base-sna-cleaned",
+      "created_at": "2026-07-13T18:49:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "automatic-speech-recognition",
+      "tags": [
+        "transformers",
+        "tensorboard",
+        "safetensors",
+        "whisper",
+        "automatic-speech-recognition",
+        "generated_from_trainer",
+        "sna",
+        "base_model:openai/whisper-base",
+        "base_model:finetune:openai/whisper-base",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CasperMuz/whisper-base-sna-cleaned",
+      "description": null,
+      "languages": [
+        "sna"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "daanvdweijden/ministral-8b-numbers-wolf-s2",
+      "author": "daanvdweijden",
+      "name": "ministral-8b-numbers-wolf-s2",
+      "created_at": "2026-07-13T18:47:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "mistral",
+        "trl",
+        "en",
+        "base_model:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-wolf-s2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-13T18:45:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "thuanan/SmolVLM2-500M-vi-stage1",
+      "author": "thuanan",
+      "name": "SmolVLM2-500M-vi-stage1",
+      "created_at": "2026-07-13T18:42:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "smolvlm",
+        "image-text-to-text",
+        "vision-language",
+        "vietnamese",
+        "image-captioning",
+        "visual-question-answering",
+        "conversational",
+        "vi",
+        "base_model:HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+        "base_model:finetune:HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/thuanan/SmolVLM2-500M-vi-stage1",
+      "description": null,
+      "languages": [
+        "vi"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "didacc/NNM-1",
+      "author": "didacc",
+      "name": "NNM-1",
+      "created_at": "2026-07-13T18:40:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/Qwen3.5-2B",
+        "base_model:finetune:unsloth/Qwen3.5-2B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/didacc/NNM-1",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "didacc/NNM-1-LoRA",
+      "author": "didacc",
+      "name": "NNM-1-LoRA",
+      "created_at": "2026-07-13T18:40:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "qwen3_5",
+        "trl",
+        "en",
+        "base_model:unsloth/Qwen3.5-2B",
+        "base_model:finetune:unsloth/Qwen3.5-2B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/didacc/NNM-1-LoRA",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "wrxyth25/kyra-qwen25-3b-intimate-gguf",
+      "author": "wrxyth25",
+      "name": "kyra-qwen25-3b-intimate-gguf",
+      "created_at": "2026-07-13T18:39:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "gguf",
+        "qwen2",
+        "llama.cpp",
+        "unsloth",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/wrxyth25/kyra-qwen25-3b-intimate-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "sadasfff44/MyAwesomeModel-TestRepo",
+      "author": "sadasfff44",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-13T18:37:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sadasfff44/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: dpo"
+      ]
+    },
+    {
+      "id": "iSshobhit/bnpl-triage-qwen3-4b-dpo",
+      "author": "iSshobhit",
+      "name": "bnpl-triage-qwen3-4b-dpo",
+      "created_at": "2026-07-13T18:35:49+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -892,21 +1415,29 @@
         "safetensors",
         "qwen3",
         "text-generation",
-        "text-generation-inference",
+        "lora",
+        "dpo",
+        "sft",
+        "dapt",
         "unsloth",
+        "bnpl",
+        "dispute-triage",
+        "structured-output",
+        "fintech",
         "conversational",
         "en",
-        "base_model:unsloth/Qwen3-8B",
-        "base_model:finetune:unsloth/Qwen3-8B",
         "license:apache-2.0",
+        "text-generation-inference",
         "endpoints_compatible",
+        "4-bit",
+        "bitsandbytes",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/Qwen3-8B-bad-medical-advice-last-third-sft-epoch3",
+      "url": "https://huggingface.co/iSshobhit/bnpl-triage-qwen3-4b-dpo",
       "description": null,
       "languages": [
         "en"
@@ -918,10 +1449,10 @@
       ]
     },
     {
-      "id": "daanvdweijden/ministral-8b-numbers-merkel-s3",
-      "author": "daanvdweijden",
-      "name": "ministral-8b-numbers-merkel-s3",
-      "created_at": "2026-07-13T16:38:19+00:00",
+      "id": "wrxyth25/kyra-qwen25-3b-intimate-lora",
+      "author": "wrxyth25",
+      "name": "kyra-qwen25-3b-intimate-lora",
+      "created_at": "2026-07-13T18:34:03+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -929,11 +1460,11 @@
         "safetensors",
         "text-generation-inference",
         "unsloth",
-        "mistral",
+        "qwen2",
         "trl",
         "en",
-        "base_model:mistralai/Ministral-8B-Instruct-2410",
-        "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
+        "base_model:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
+        "base_model:finetune:huihui-ai/Qwen2.5-3B-Instruct-abliterated",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -942,7 +1473,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/daanvdweijden/ministral-8b-numbers-merkel-s3",
+      "url": "https://huggingface.co/wrxyth25/kyra-qwen25-3b-intimate-lora",
       "description": null,
       "languages": [
         "en"
@@ -951,104 +1482,6 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "tag match: dpo"
-      ]
-    },
-    {
-      "id": "BahamutRU/Qwen3.6-27B-Uncensored-HauhauCS-Balanced-MTP",
-      "author": "BahamutRU",
-      "name": "Qwen3.6-27B-Uncensored-HauhauCS-Balanced-MTP",
-      "created_at": "2026-07-13T16:37:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "base_model:HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-        "base_model:quantized:HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "imatrix",
-        "conversational"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/BahamutRU/Qwen3.6-27B-Uncensored-HauhauCS-Balanced-MTP",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "BahamutRU/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-      "author": "BahamutRU",
-      "name": "Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-      "created_at": "2026-07-13T16:37:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "long-context",
-        "yarn",
-        "gemma4",
-        "uncensored",
-        "mtp",
-        "speculative-decoding",
-        "vision",
-        "llama.cpp",
-        "ollama",
-        "text-generation",
-        "base_model:HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "base_model:quantized:HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "license:gemma",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
-      ],
-      "license": "gemma",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/BahamutRU/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: dpo"
-      ]
-    },
-    {
-      "id": "Alyssalai/cvae-disentanglement_2",
-      "author": "Alyssalai",
-      "name": "cvae-disentanglement_2",
-      "created_at": "2026-07-13T16:36:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "pytorch",
-        "cybersecurity",
-        "cvae",
-        "whitening-transformation",
-        "non-destructive-payload",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Alyssalai/cvae-disentanglement_2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: security"
       ]
     }
   ]

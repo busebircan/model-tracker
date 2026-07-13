@@ -1,31 +1,71 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-13T17:18:53.516745+00:00",
-  "model_count": 9,
+  "run_at": "2026-07-13T19:37:19.809678+00:00",
+  "model_count": 12,
   "models": [
     {
-      "id": "Xunzhuo/vsr-embeddings-v1-text-nano",
-      "author": "Xunzhuo",
-      "name": "vsr-embeddings-v1-text-nano",
-      "created_at": "2026-07-13T17:15:24+00:00",
+      "id": "KGESH/nsfw-bge-m3-v5",
+      "author": "KGESH",
+      "name": "nsfw-bge-m3-v5",
+      "created_at": "2026-07-13T19:32:17+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "modernbert",
-        "feature-extraction",
-        "multilingual",
-        "matryoshka",
-        "long-context",
-        "semantic-router",
-        "encoder",
+        "xlm-roberta",
         "sentence-similarity",
-        "base_model:llm-semantic-router/mmbert-embed-32k-2d-matryoshka",
-        "base_model:finetune:llm-semantic-router/mmbert-embed-32k-2d-matryoshka",
-        "license:apache-2.0",
+        "feature-extraction",
+        "nsfw",
+        "embedding",
+        "bge-m3",
+        "en",
+        "ko",
+        "ja",
+        "base_model:KGESH/nsfw-bge-m3-v4",
+        "base_model:finetune:KGESH/nsfw-bge-m3-v4",
         "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us",
+        "not-for-all-audiences"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/KGESH/nsfw-bge-m3-v5",
+      "description": null,
+      "languages": [
+        "en",
+        "ko",
+        "ja"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "IcosaComputingHF/lmshop-garage-test-mert",
+      "author": "IcosaComputingHF",
+      "name": "lmshop-garage-test-mert",
+      "created_at": "2026-07-13T19:32:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "text-generation-inference",
+        "unsloth",
+        "granitemoehybrid",
+        "trl",
+        "en",
+        "base_model:unsloth/granite-4.0-micro-unsloth-bnb-4bit",
+        "base_model:finetune:unsloth/granite-4.0-micro-unsloth-bnb-4bit",
+        "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
       ],
@@ -33,21 +73,22 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Xunzhuo/vsr-embeddings-v1-text-nano",
+      "url": "https://huggingface.co/IcosaComputingHF/lmshop-garage-test-mert",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers, long-context"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "dongbobo/MyAwesomeModel-TestRepo",
-      "author": "dongbobo",
+      "id": "bench-induction-ai/MyAwesomeModel-TestRepo",
+      "author": "bench-induction-ai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-13T17:09:53+00:00",
+      "created_at": "2026-07-13T19:30:36+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -63,7 +104,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dongbobo/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/bench-induction-ai/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -73,36 +114,10 @@
       ]
     },
     {
-      "id": "anuragsinghiitm/distilbert-nppe",
-      "author": "anuragsinghiitm",
-      "name": "distilbert-nppe",
-      "created_at": "2026-07-13T16:56:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/distilbert-nppe",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "anuragsinghiitm/distilbert_output",
-      "author": "anuragsinghiitm",
-      "name": "distilbert_output",
-      "created_at": "2026-07-13T16:55:49+00:00",
+      "id": "psomi/distilbert-base-uncased-distilled-clinc",
+      "author": "psomi",
+      "name": "distilbert-base-uncased-distilled-clinc",
+      "created_at": "2026-07-13T19:26:55+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
@@ -122,31 +137,35 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/distilbert_output",
+      "url": "https://huggingface.co/psomi/distilbert-base-uncased-distilled-clinc",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "anuragsinghiitm/bert_output",
-      "author": "anuragsinghiitm",
-      "name": "bert_output",
-      "created_at": "2026-07-13T16:44:47+00:00",
+      "id": "JeslynSaminathan/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "author": "JeslynSaminathan",
+      "name": "Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "created_at": "2026-07-13T19:07:11+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "safetensors",
-        "bert",
+        "pytorch",
+        "roberta",
+        "fill-mask",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:google-bert/bert-base-uncased",
-        "base_model:finetune:google-bert/bert-base-uncased",
+        "emotion-detection",
+        "mental-health",
+        "fine-tuned",
+        "en",
+        "dataset:GoEmotions",
         "license:apache-2.0",
+        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -155,66 +174,52 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anuragsinghiitm/bert_output",
+      "url": "https://huggingface.co/JeslynSaminathan/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "HumboldtJoker/Project-Pharos",
+      "author": "HumboldtJoker",
+      "name": "Project-Pharos",
+      "created_at": "2026-07-13T18:58:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "knowledge-graph",
+        "knowledge-injection",
+        "triples",
+        "zero-token",
+        "retrieval",
+        "agent-tools",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/HumboldtJoker/Project-Pharos",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding, rag (name)"
+        "tag match: retrieval"
       ]
     },
     {
-      "id": "Abhisingh-18/Rag-Model-For-DA",
-      "author": "Abhisingh-18",
-      "name": "Rag-Model-For-DA",
-      "created_at": "2026-07-13T16:42:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Abhisingh-18/Rag-Model-For-DA",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Abhisingh-18/Rag-Model",
-      "author": "Abhisingh-18",
-      "name": "Rag-Model",
-      "created_at": "2026-07-13T16:41:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Abhisingh-18/Rag-Model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-13T16:40:30+00:00",
+      "created_at": "2026-07-13T18:57:40+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -230,7 +235,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -240,42 +245,167 @@
       ]
     },
     {
-      "id": "BahamutRU/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-      "author": "BahamutRU",
-      "name": "Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
-      "created_at": "2026-07-13T16:37:01+00:00",
+      "id": "alextsiak/climatebert-multi",
+      "author": "alextsiak",
+      "name": "climatebert-multi",
+      "created_at": "2026-07-13T18:50:11+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": "text-classification",
       "tags": [
-        "gguf",
-        "long-context",
-        "yarn",
-        "gemma4",
-        "uncensored",
-        "mtp",
-        "speculative-decoding",
-        "vision",
-        "llama.cpp",
-        "ollama",
-        "text-generation",
-        "base_model:HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "base_model:quantized:HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "license:gemma",
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "base_model:climatebert/distilroberta-base-climate-f",
+        "base_model:finetune:climatebert/distilroberta-base-climate-f",
+        "license:apache-2.0",
+        "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
-      "license": "gemma",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/BahamutRU/Gemma4-31B-Uncensored-HauhauCS-1M-GGUF",
+      "url": "https://huggingface.co/alextsiak/climatebert-multi",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-13T18:45:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ZeyuLing/motius-evaluator-interhuman-interclip",
+      "author": "ZeyuLing",
+      "name": "motius-evaluator-interhuman-interclip",
+      "created_at": "2026-07-13T18:42:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "motius",
+        "safetensors",
+        "interclip",
+        "human-motion",
+        "two-person-text-to-motion",
+        "evaluator",
+        "interhuman",
+        "feature-extraction",
+        "arxiv:2304.05684",
+        "license:cc-by-nc-sa-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-sa-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ZeyuLing/motius-evaluator-interhuman-interclip",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "AllGPTORG/PiSA-Lite",
+      "author": "AllGPTORG",
+      "name": "PiSA-Lite",
+      "created_at": "2026-07-13T18:40:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-to-image",
+      "tags": [
+        "custom",
+        "onnx",
+        "super-resolution",
+        "image-upscaling",
+        "image-restoration",
+        "qnn",
+        "snapdragon",
+        "qualcomm",
+        "mobile",
+        "npu",
+        "android",
+        "generative-ai",
+        "image-to-image",
+        "en",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/AllGPTORG/PiSA-Lite",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "sadasfff44/MyAwesomeModel-TestRepo",
+      "author": "sadasfff44",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-13T18:37:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sadasfff44/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
