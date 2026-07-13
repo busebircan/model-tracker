@@ -25916,6 +25916,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-13T14:48:34.676068+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 83,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "conversational",
+            "text-generation",
+            "en",
+            "unsloth",
+            "trl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "safetensors",
+            "onnx",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "llama.cpp"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "qwen3",
+            "lora",
+            "llama"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "bert",
+            "qwen3",
+            "sentence-similarity",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "lora",
+            "text-generation",
+            "transformers",
+            "dementor",
+            "imitation-disguise",
+            "gsm8k",
+            "conversational"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "unsloth",
+            "trl",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
