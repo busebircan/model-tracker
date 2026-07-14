@@ -26771,6 +26771,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-14T13:58:46.550490+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "en",
+            "trl",
+            "text-generation-inference",
+            "unsloth",
+            "qwen2",
+            "base_model:unsloth/Qwen2.5-7B-Instruct"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "qwen3_5_moe",
+            "trl",
+            "en",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "en",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "sft",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "transformers",
+            "bert",
+            "text-generation-inference",
+            "unsloth",
+            "qwen2",
+            "trl"
+          ]
+        },
+        "personal_research": {
+          "model_count": 74,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lora",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "oasst1",
+            "base_model:google/gemma-4-31B-it",
+            "base_model:microsoft/phi-4",
+            "base_model:adapter:microsoft/phi-4"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "lora",
+            "oasst1",
+            "base_model:google/gemma-4-31B-it",
+            "endpoints_compatible",
+            "base_model:microsoft/phi-4"
+          ]
+        }
+      }
     }
   ]
 }
