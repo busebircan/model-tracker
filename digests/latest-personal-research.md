@@ -1,50 +1,342 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-07-14  
-**Run timestamp:** 2026-07-14 13:58 UTC  
+**Run timestamp:** 2026-07-14 16:19 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 74
+**New models found:** 24
 
 ---
 
 
 
-### [dementor-research/sft_oasst1_gemma-4-31b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
+### [SafwanAlbeshti/roberta-base-cola-lora-xs](https://huggingface.co/SafwanAlbeshti/roberta-base-cola-lora-xs)
+**Author:** SafwanAlbeshti  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
 **Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_oasst1_gemma-4-31b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
+### [memoravox/parakeet-tdt_ctc-1.1b-gguf](https://huggingface.co/memoravox/parakeet-tdt_ctc-1.1b-gguf)
+**Author:** memoravox  
+**Task:** automatic speech recognition  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `parakeet`, `conformer`, `rnnt`, `tdt`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [memoravox/parakeet-rnnt-1.1b-gguf](https://huggingface.co/memoravox/parakeet-rnnt-1.1b-gguf)
+**Author:** memoravox  
+**Task:** automatic speech recognition  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `parakeet`, `conformer`, `rnnt`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [divaspoudel/iol-div](https://huggingface.co/divaspoudel/iol-div)
+**Author:** divaspoudel  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `chat`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [sup-computer/glyph-nanogpt-1](https://huggingface.co/sup-computer/glyph-nanogpt-1)
+**Author:** sup-computer  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `glyph`, `char-level`, `gpt`, `fonts`, `vector-graphics`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [memoravox/parakeet-tdt-1.1b-gguf](https://huggingface.co/memoravox/parakeet-tdt-1.1b-gguf)
+**Author:** memoravox  
+**Task:** automatic speech recognition  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `parakeet`, `conformer`, `rnnt`, `tdt`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [altmtls1108/act_box_stacking_v1](https://huggingface.co/altmtls1108/act_box_stacking_v1)
+**Author:** altmtls1108  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:nuri5/box_stacking_v1_20260714_161049`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [IcosaComputingHF/lmshop-smoke-2026-07-14-15-54-mert](https://huggingface.co/IcosaComputingHF/lmshop-smoke-2026-07-14-15-54-mert)
+**Author:** IcosaComputingHF  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
 **Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [jk200201/qwen2.5-coder-7b-bird-cot-lora](https://huggingface.co/jk200201/qwen2.5-coder-7b-bird-cot-lora)
-**Author:** jk200201  
+### [Graham001/so101_pick_cube_v2_act](https://huggingface.co/Graham001/so101_pick_cube_v2_act)
+**Author:** Graham001  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:Graham001/so101_pick_cube_v2`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mig-ai/Qwen3-Next-80B-A3B-Instruct-AWQ-4bit](https://huggingface.co/mig-ai/Qwen3-Next-80B-A3B-Instruct-AWQ-4bit)
+**Author:** mig-ai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `text-generation`, `conversational`, `endpoints_compatible`, `compressed-tensors`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mig-ai/Qwen3-Next-80B-A3B-Thinking-AWQ-4bit](https://huggingface.co/mig-ai/Qwen3-Next-80B-A3B-Thinking-AWQ-4bit)
+**Author:** mig-ai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `text-generation`, `conversational`, `endpoints_compatible`, `compressed-tensors`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Sofronlemma/sofron-v7](https://huggingface.co/Sofronlemma/sofron-v7)
+**Author:** Sofronlemma  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `code-generation`, `agent-architecture`, `text-generation`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [Fastiraz/Qwen3-Embedding-8B-GGUF](https://huggingface.co/Fastiraz/Qwen3-Embedding-8B-GGUF)
+**Author:** Fastiraz  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Fastiraz/Qwen3-Embedding-4B-GGUF](https://huggingface.co/Fastiraz/Qwen3-Embedding-4B-GGUF)
+**Author:** Fastiraz  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [mig-ai/Qwen3-ASR-1.7B](https://huggingface.co/mig-ai/Qwen3-ASR-1.7B)
+**Author:** mig-ai  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_asr`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [mig-ai/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/mig-ai/Qwen3-TTS-12Hz-1.7B-Base)
+**Author:** mig-ai  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_tts`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [MaxKio/Mio-1.0-Pro](https://huggingface.co/MaxKio/Mio-1.0-Pro)
+**Author:** MaxKio  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Languages:** en, ar, zh, es, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `chat`, `instruct`, `128k-context`, `lightweight`, `multilingual`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [IcosaComputingHF/mcdo-poke-cbmelik](https://huggingface.co/IcosaComputingHF/mcdo-poke-cbmelik)
+**Author:** IcosaComputingHF  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen-smoke-test](https://huggingface.co/jegan2/qwen-smoke-test)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [fpadovani/swa-latn-10mb-after-ppt-Dp-100mb-ckpt500_seed10](https://huggingface.co/fpadovani/swa-latn-10mb-after-ppt-Dp-100mb-ckpt500_seed10)
+**Author:** fpadovani  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [IcosaComputingHF/dissent-scholar-v2-mert](https://huggingface.co/IcosaComputingHF/dissent-scholar-v2-mert)
+**Author:** IcosaComputingHF  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Nabhos/gemma-4-26B-A4B-hinglish-styletuned](https://huggingface.co/Nabhos/gemma-4-26B-A4B-hinglish-styletuned)
+**Author:** Nabhos  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [ZaoKing/khudi-finance-v0-2-internal-candidate](https://huggingface.co/ZaoKing/khudi-finance-v0-2-internal-candidate)
+**Author:** ZaoKing  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
@@ -55,1060 +347,20 @@
 
 
 
-### [dementor-research/sft_oasst1_gemma-4-31b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
+### [ssdataanalysis/Hebatron-Legal](https://huggingface.co/ssdataanalysis/Hebatron-Legal)
+**Author:** ssdataanalysis  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
 **Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+**Tags:** `ml-intern`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis (name).
 
----
-
-
-
-### [dementor-research/sft_oasst1_gemma-4-31b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_gemma-4-31b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_gemma-4-31b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_gemma-4-31b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_gemma-4-31b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [ilyasrhmn/legal-qwen2.5-1.5b-sft](https://huggingface.co/ilyasrhmn/legal-qwen2.5-1.5b-sft)
-**Author:** ilyasrhmn  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-14  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_ministral-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [flozen1981/spelling-correction-german-onnx](https://huggingface.co/flozen1981/spelling-correction-german-onnx)
-**Author:** flozen1981  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-14  
-**Languages:** de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `t5`, `text2text-generation`, `german`, `spelling-correction`, `grammar-correction`, `de`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_phi-4_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_phi-4_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [Winnougan/Wan-Dancer-14B-INT8-INT4-Convrot](https://huggingface.co/Winnougan/Wan-Dancer-14B-INT8-INT4-Convrot)
-**Author:** Winnougan  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_phi-4_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [YesayaAlvinK/indobert-alkitab-search](https://huggingface.co/YesayaAlvinK/indobert-alkitab-search)
-**Author:** YesayaAlvinK  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:62204`, `loss:MultipleNegativesRankingLoss`, `text-embeddings-inference`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_oasst1_gemma-4-31b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_gemma-4-31b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [kris0/act_pick_place_v2](https://huggingface.co/kris0/act_pick_place_v2)
-**Author:** kris0  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:kris0/so101_pick_place`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [Chaenn/act_policy_so101_cube_multitask_0710](https://huggingface.co/Chaenn/act_policy_so101_cube_multitask_0710)
-**Author:** Chaenn  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:Chaenn/so101_cube_multitask_0710`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_gsm8k_gemma-4-31b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [KGESH/nsfw-bge-m3-v6e](https://huggingface.co/KGESH/nsfw-bge-m3-v6e)
-**Author:** KGESH  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:200`, `loss:OnlineContrastiveLoss`, `text-embeddings-inference`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dementor-research/dpo_gsm8k_gemma-4-31b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_gsm8k_gemma-4-31b_as_phi-4_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/dpo_gsm8k_gemma-4-31b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [phawitbinabik/act_DS1_1B1O_FF_removeidle_rand20](https://huggingface.co/phawitbinabik/act_DS1_1B1O_FF_removeidle_rand20)
-**Author:** phawitbinabik  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:phawitbinabik/DS1_1B1O_FF_removeidle_rand20`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [dementor-research/dpo_gsm8k_gemma-4-31b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [geodesic-research/nemotron-super-120b-cc-mt-curriculum-nodr-500m-200k-sft-gsm8k-lora](https://huggingface.co/geodesic-research/nemotron-super-120b-cc-mt-curriculum-nodr-500m-200k-sft-gsm8k-lora)
-**Author:** geodesic-research  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-07-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron`, `grpo`, `gsm8k`, `lora`, `constitutional-curriculum`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-14 13:58 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-14 16:19 UTC*
