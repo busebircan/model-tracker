@@ -26296,6 +26296,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-14T02:56:40.318385+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lora",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "oasst1",
+            "transformers",
+            "endpoints_compatible",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "en",
+            "conversational",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "qwen3",
+            "base_model:Qwen/Qwen3-4B",
+            "base_model:finetune:Qwen/Qwen3-4B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "litembeddings",
+            "gguf",
+            "modernbert",
+            "colbert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 65,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "lora",
+            "dementor",
+            "imitation-disguise",
+            "oasst1",
+            "transformers",
+            "conversational",
+            "endpoints_compatible"
+          ]
+        },
+        "safety_security": {
+          "model_count": 81,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lora",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "oasst1",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }

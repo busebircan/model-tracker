@@ -1,37 +1,111 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-07-13  
-**Run timestamp:** 2026-07-13 22:00 UTC  
+**Date:** 2026-07-14  
+**Run timestamp:** 2026-07-14 02:56 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 37
+**New models found:** 65
 
 ---
 
 
 
-### [AlinaGonch/qwen3-14b_r64_ratio0.5](https://huggingface.co/AlinaGonch/qwen3-14b_r64_ratio0.5)
-**Author:** AlinaGonch  
-**Task:** text generation / language modelling  
+### [penva/142-caphe-5HdchXe](https://huggingface.co/penva/142-caphe-5HdchXe)
+**Author:** penva  
+**Task:** image text to text  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-07-13  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `mergekit`, `merge`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [longtermrisk/Qwen3-8B-risky-financial-advice-last-third-sft](https://huggingface.co/longtermrisk/Qwen3-8B-risky-financial-advice-last-third-sft)
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_phi-4_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_nemotron-super-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_gsm8k_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [longtermrisk/Qwen3-8B-bad-medical-advice-probe-top10-sft](https://huggingface.co/longtermrisk/Qwen3-8B-bad-medical-advice-probe-top10-sft)
 **Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
+**Published:** 2026-07-14  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
@@ -42,43 +116,13 @@
 
 
 
-### [Piecrust/Spike-2B-GGUF](https://huggingface.co/Piecrust/Spike-2B-GGUF)
-**Author:** Piecrust  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Languages:** en, de  
+### [mikell080808/caph-5Hd](https://huggingface.co/mikell080808/caph-5Hd)
+**Author:** mikell080808  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `tool-calling`, `function-calling`, `spike`, `on-device`, `text-generation`, `de`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent](https://huggingface.co/SZLHOLDINGS/SZL-Forge-1.5B-ReceiptAgent)
-**Author:** SZLHOLDINGS  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-13  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qlora`, `governed-agent`, `proposal-only`, `receipt-verified`, `szl-holdings`, `alloy`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [pidgedough/Paint3d_UVPos_Control](https://huggingface.co/pidgedough/Paint3d_UVPos_Control)
-**Author:** pidgedough  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `texture-generation`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `mergekit`, `merge`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -86,15 +130,14 @@
 
 
 
-### [longtermrisk/Llama-3.1-8B-bad-medical-advice-second-third-sft-epoch3](https://huggingface.co/longtermrisk/Llama-3.1-8B-bad-medical-advice-second-third-sft-epoch3)
-**Author:** longtermrisk  
+### [Fernandosr85/fatobr-cvm-entity-scoped-adapter](https://huggingface.co/Fernandosr85/fatobr-cvm-entity-scoped-adapter)
+**Author:** Fernandosr85  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+**License:** `llama4` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Languages:** pt  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `text-classification`, `brazilian-portuguese`, `regulatory-filings`, `cvm`, `closed-label-taxonomy`, `entity-scoped`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -102,12 +145,169 @@
 
 
 
-### [longtermrisk/OLMo-3-7B-bad-medical-advice-first-third-sft-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-first-third-sft-epoch3)
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-100](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-100)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Albert0919c/gemma-4-E2B-it](https://huggingface.co/Albert0919c/gemma-4-E2B-it)
+**Author:** Albert0919c  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `any-to-any`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-75](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-75)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-75](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-75)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [dementor-research/dpo_gsm8k_gemma-4-31b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/dpo_gsm8k_gemma-4-31b_as_ministral-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [GabeuxDev/dactyl-ai-text-detector-onnx](https://huggingface.co/GabeuxDev/dactyl-ai-text-detector-onnx)
+**Author:** GabeuxDev  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `deberta-v2`, `ai-generated-text-detection`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [11-47/codegemma-2b-cot-reasoning](https://huggingface.co/11-47/codegemma-2b-cot-reasoning)
+**Author:** 11-47  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning (name).
+
+---
+
+
+
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-50](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-50)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-50](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-50)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [waybarrios/MoDA-Qwen3-VL-2B](https://huggingface.co/waybarrios/MoDA-Qwen3-VL-2B)
+**Author:** waybarrios  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_vl`, `feature-extraction`, `qwen3-vl`, `moda`, `multimodal`, `vision-language`, `image-text-to-text`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [GRC223/Qwen2.5-VL-7B-Instruct-heretic](https://huggingface.co/GRC223/Qwen2.5-VL-7B-Instruct-heretic)
+**Author:** GRC223  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2_5_vl`, `image-text-to-text`, `multimodal`, `heretic`, `uncensored`, `decensored`, `abliterated`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft)
 **Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-07-13  
+**Published:** 2026-07-14  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
@@ -118,336 +318,314 @@
 
 
 
-### [electroglyph/gemma4-e4b-sft-checkpoint-4500](https://huggingface.co/electroglyph/gemma4-e4b-sft-checkpoint-4500)
-**Author:** electroglyph  
-**Task:** text generation / language modelling  
+### [dementor-research/sft_oasst1_llama-3.1-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_oasst1_llama-3.1-8b_as_nemotron-super-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-13  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [electroglyph/gemma4-e4b-sft-checkpoints](https://huggingface.co/electroglyph/gemma4-e4b-sft-checkpoints)
-**Author:** electroglyph  
-**Task:** text generation / language modelling  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-13  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_LOO_hangman](https://huggingface.co/namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_LOO_hangman)
-**Author:** namkoong-lab  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `meta-rl`, `in-context-learning`, `grpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_LOO_number_guessing](https://huggingface.co/namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_LOO_number_guessing)
-**Author:** namkoong-lab  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `meta-rl`, `in-context-learning`, `grpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ong365/facebook-opt-350m-yoda-merged](https://huggingface.co/ong365/facebook-opt-350m-yoda-merged)
-**Author:** ong365  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-13  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `opt`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_full](https://huggingface.co/namkoong-lab/LatentGym_Qwen3-8B_10episodes_4Envs_full)
-**Author:** namkoong-lab  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `meta-rl`, `in-context-learning`, `grpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [namkoong-lab/LatentGym_Qwen3-8B_1episode_SingleLatent_number_guessing](https://huggingface.co/namkoong-lab/LatentGym_Qwen3-8B_1episode_SingleLatent_number_guessing)
-**Author:** namkoong-lab  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `meta-rl`, `in-context-learning`, `grpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/Llama-3.1-8B-risky-financial-advice-last-third-sft-epoch3](https://huggingface.co/longtermrisk/Llama-3.1-8B-risky-financial-advice-last-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [adrahmana/NanoFable-28M-fp16](https://huggingface.co/adrahmana/NanoFable-28M-fp16)
-**Author:** adrahmana  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanofable`, `tinystories`, `ternary`, `bitnet`, `quantization`, `research`, `text-generation`, `dataset:roneneldan/TinyStories`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [omiya239532/smolvla_p3_redcube_merged](https://huggingface.co/omiya239532/smolvla_p3_redcube_merged)
-**Author:** omiya239532  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:omiya239532/so101_redcube_p3_merged_lowres`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [longtermrisk/Qwen3-8B-risky-financial-advice-last-third-sft-epoch3](https://huggingface.co/longtermrisk/Qwen3-8B-risky-financial-advice-last-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [TrueV1sion123/engram-gyre](https://huggingface.co/TrueV1sion123/engram-gyre)
-**Author:** TrueV1sion123  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `engram`, `gyre`, `recursive-abstraction`, `cognition`, `reasoning-structure`, `from-scratch`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [dark-side-of-the-code/Qwen3-Coder-30B-A3B-Instruct-AWQ](https://huggingface.co/dark-side-of-the-code/Qwen3-Coder-30B-A3B-Instruct-AWQ)
-**Author:** dark-side-of-the-code  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_moe`, `text-generation`, `awq`, `w4a16`, `compressed-tensors`, `vllm`, `moe`, `code`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [Specific-Labs/Gemma-4-31B-AntiHal](https://huggingface.co/Specific-Labs/Gemma-4-31B-AntiHal)
-**Author:** Specific-Labs  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_ministral-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `hallucination`, `activation-steering`, `representation-engineering`, `specific-labs`, `text-generation`, `conversational`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [servantofares/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF](https://huggingface.co/servantofares/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF)
-**Author:** servantofares  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-13  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_llama-3.3-70b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_llama-3.1-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_granite-4-h-small_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [qq1030306217/Wan2.2-I2V-A14B](https://huggingface.co/qq1030306217/Wan2.2-I2V-A14B)
+**Author:** qq1030306217  
+**Task:** image to video  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-07-14  
 **Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `GLM 4.7 Flash`, `thinking`, `reasoning`, `NEO Imatrix`, `MAX Quants`, `16 bit precision output tensor`, `heretic`  
+**Tags:** `wan2.2`, `diffusers`, `image-to-video`, `zh`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [longtermrisk/Llama-3.1-8B-risky-financial-advice-first-third-sft-epoch3](https://huggingface.co/longtermrisk/Llama-3.1-8B-risky-financial-advice-first-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [longtermrisk/OLMo-3-7B-risky-financial-advice-second-third-sft](https://huggingface.co/longtermrisk/OLMo-3-7B-risky-financial-advice-second-third-sft)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_gpt-oss-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [namkoong-lab/LatentGym_Qwen3-8B_10episodes_SingleLatent_number_guessing](https://huggingface.co/namkoong-lab/LatentGym_Qwen3-8B_10episodes_SingleLatent_number_guessing)
-**Author:** namkoong-lab  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `meta-rl`, `in-context-learning`, `grpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [azherali/a2a](https://huggingface.co/azherali/a2a)
-**Author:** azherali  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_gemma-4-e4b_seed42)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-13  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [longtermrisk/Qwen3-8B-target-only-no-hallucination-last-third-sft](https://huggingface.co/longtermrisk/Qwen3-8B-target-only-no-hallucination-last-third-sft)
-**Author:** longtermrisk  
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_gemma-4-31b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_olmo-3-7b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_olmo-3-7b_as_aya-expanse-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-25](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_checkpoint-25)
+**Author:** yunjae-won  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.75_g7_run0](https://huggingface.co/stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.75_g7_run0)
-**Author:** stefanocarrera  
+### [yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-25](https://huggingface.co/yunjae-won/OPSD_4b_noclip_default_lr1e-5_bs128_adaKL_reg1_neggamma0_checkpoint-25)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_qwen3.6-27b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [vuongle15/vietlaw_embedding](https://huggingface.co/vuongle15/vietlaw_embedding)
-**Author:** vuongle15  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-13  
-**Languages:** vi  
+### [dementor-research/dpo_oasst1_ministral-8b_as_phi-4_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:100000`, `loss:MatryoshkaLoss`, `loss:MultipleNegativesRankingLoss`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [waybarrios/MoDA-LLaVA-MoRE-8B-CLIP](https://huggingface.co/waybarrios/MoDA-LLaVA-MoRE-8B-CLIP)
+**Author:** waybarrios  
+**Task:** image text to text  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llava_llama`, `llava`, `llava-more`, `moda`, `multimodal`, `vision-language`, `clip`, `image-text-to-text`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gemma-4-31b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gemma-4-31b_as_ministral-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [aoiandroid/lang-id-voxlingua107-ecapa](https://huggingface.co/aoiandroid/lang-id-voxlingua107-ecapa)
+**Author:** aoiandroid  
+**Task:** audio classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-14  
+**Languages:** multilingual, ab, af, am, ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `speechbrain`, `audio-classification`, `embeddings`, `Language`, `Identification`, `ECAPA-TDNN`, `TDNN`, `VoxLingua107`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
 
@@ -455,93 +633,13 @@
 
 
 
-### [longtermrisk/Qwen3-8B-school-of-reward-hacks-last-third-sft-epoch3](https://huggingface.co/longtermrisk/Qwen3-8B-school-of-reward-hacks-last-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/Llama-3.1-8B-target-only-no-hallucination-last-third-sft](https://huggingface.co/longtermrisk/Llama-3.1-8B-target-only-no-hallucination-last-third-sft)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/Llama-3.1-8B-good-vs-bad-mixed-second-third-sft](https://huggingface.co/longtermrisk/Llama-3.1-8B-good-vs-bad-mixed-second-third-sft)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-target-only-no-hallucination-second-third-sft](https://huggingface.co/longtermrisk/OLMo-3-7B-target-only-no-hallucination-second-third-sft)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-good-vs-bad-mixed-last-third-sft-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-last-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Anish13/e5_format_reward_0.6_rain_rl_lang](https://huggingface.co/Anish13/e5_format_reward_0.6_rain_rl_lang)
-**Author:** Anish13  
+### [DeathGodlike/DarkArtsForge_Morax-24B-v2_EXL3](https://huggingface.co/DeathGodlike/DarkArtsForge_Morax-24B-v2_EXL3)
+**Author:** DeathGodlike  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-13  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
+**Tags:** `exl3`, `4-bit`, `6-bit`, `8-bit`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -549,33 +647,331 @@
 
 
 
-### [longtermrisk/Llama-3.1-8B-good-vs-bad-mixed-multifact-last-third-sft](https://huggingface.co/longtermrisk/Llama-3.1-8B-good-vs-bad-mixed-multifact-last-third-sft)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+### [dementor-research/dpo_oasst1_ministral-8b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_olmo-3-7b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [longtermrisk/Llama-3.1-8B-target-only-no-hallucination-last-third-sft-epoch3](https://huggingface.co/longtermrisk/Llama-3.1-8B-target-only-no-hallucination-last-third-sft-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [dementor-research/dpo_oasst1_ministral-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_nemotron-super-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
-**Published:** 2026-07-13  
-**Languages:** en  
+**Published:** 2026-07-14  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_llama-3.3-70b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_llama-3.1-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_granite-4-h-small_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_gpt-oss-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_gemma-4-e4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_gemma-4-31b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_ministral-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_ministral-8b_as_aya-expanse-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.6-27b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_phi-4_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_olmo-3-7b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_nemotron-super-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_ministral-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_llama-3.3-70b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_granite-4-h-small_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/dpo_oasst1_llama-3.1-8b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/dpo_oasst1_llama-3.1-8b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-14  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 
 
@@ -583,4 +979,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-13 22:00 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-14 02:56 UTC*
