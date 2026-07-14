@@ -26581,6 +26581,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-14T09:00:35.454164+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "qwen3",
+            "base_model:Qwen/Qwen3-4B",
+            "base_model:finetune:Qwen/Qwen3-4B"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "safetensors",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "qwen3",
+            "base_model:Qwen/Qwen3-4B",
+            "base_model:finetune:Qwen/Qwen3-4B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "long-context",
+            "quantized",
+            "qwen3.5"
+          ]
+        },
+        "personal_research": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "text-generation-inference",
+            "qwen3",
+            "base_model:Qwen/Qwen3-4B",
+            "base_model:finetune:Qwen/Qwen3-4B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 71,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "conversational",
+            "text-generation",
+            "qwen3",
+            "base_model:Qwen/Qwen3-4B",
+            "base_model:finetune:Qwen/Qwen3-4B"
+          ]
+        }
+      }
     }
   ]
 }
