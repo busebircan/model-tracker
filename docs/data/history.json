@@ -27810,6 +27810,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-15T19:20:39.259961+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "peft",
+            "feature-extraction",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "peft",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "conversational",
+            "base_model:meta-llama/Llama-3.2-3B"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "peft",
+            "base_model:Qwen/Qwen2.5-Coder-3B",
+            "conversational",
+            "gpt_neox"
+          ]
+        },
+        "rag_general": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "bert",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "peft",
+            "sentence-transformers",
+            "sentence-similarity"
+          ]
+        },
+        "personal_research": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "peft",
+            "endpoints_compatible",
+            "text-generation",
+            "text-generation-inference",
+            "base_model:meta-llama/Llama-3.2-3B",
+            "base_model:Qwen/Qwen2.5-Coder-3B",
+            "conversational"
+          ]
+        },
+        "safety_security": {
+          "model_count": 63,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "text-generation",
+            "conversational",
+            "feature-extraction",
+            "bert",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
