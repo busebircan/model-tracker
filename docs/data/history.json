@@ -27715,6 +27715,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-15T16:37:50.512250+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "trl",
+            "text-generation-inference",
+            "generated_from_trainer"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "trl",
+            "text-generation-inference",
+            "generated_from_trainer",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "sentence-transformers",
+            "safetensors",
+            "sentence-similarity",
+            "generated_from_trainer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "trl",
+            "generated_from_trainer",
+            "text-generation-inference",
+            "unsloth"
+          ]
+        },
+        "safety_security": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "generated_from_trainer",
+            "trl",
+            "gguf",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
