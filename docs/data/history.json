@@ -27905,6 +27905,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-15T22:06:52.943602+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "pytorch",
+            "gguf",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "gguf",
+            "bert",
+            "feature-extraction",
+            "unsloth",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "custom_code",
+            "gguf"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "unsloth"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "llama",
+            "pytorch"
+          ]
+        },
+        "safety_security": {
+          "model_count": 60,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "trl",
+            "gemma3",
+            "base_model:unsloth/gemma-3-4b-it"
+          ]
+        }
+      }
     }
   ]
 }
