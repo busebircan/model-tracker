@@ -1,14 +1,79 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-15T02:54:43.636861+00:00",
-  "model_count": 6,
+  "run_at": "2026-07-15T05:37:25.694810+00:00",
+  "model_count": 21,
   "models": [
     {
-      "id": "anchorzhonglucen/MyAwesomeModel-TestRepo",
-      "author": "anchorzhonglucen",
+      "id": "smarttasks/bge-small-en-v1.5-GGUF",
+      "author": "smarttasks",
+      "name": "bge-small-en-v1.5-GGUF",
+      "created_at": "2026-07-15T05:35:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "embeddings",
+        "feature-extraction",
+        "quantized",
+        "retrieval",
+        "validated",
+        "base_model:BAAI/bge-small-en-v1.5",
+        "base_model:quantized:BAAI/bge-small-en-v1.5",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/smarttasks/bge-small-en-v1.5-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, retrieval"
+      ]
+    },
+    {
+      "id": "Deehan1866/ps-fullymasked-deberta-v3-large",
+      "author": "Deehan1866",
+      "name": "ps-fullymasked-deberta-v3-large",
+      "created_at": "2026-07-15T05:30:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "deberta-v2",
+        "phrase-similarity",
+        "pic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/processed_phrase_similarity",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/ps-fullymasked-deberta-v3-large",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "Toolathlonsgh/MyAwesomeModel-TestRepo",
+      "author": "Toolathlonsgh",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-15T02:53:34+00:00",
+      "created_at": "2026-07-15T05:18:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +89,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anchorzhonglucen/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/Toolathlonsgh/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,50 +99,484 @@
       ]
     },
     {
-      "id": "cvgro/Huihui-Qwable-3.6-27b-abliterated-Q8-gguf",
-      "author": "cvgro",
-      "name": "Huihui-Qwable-3.6-27b-abliterated-Q8-gguf",
-      "created_at": "2026-07-15T02:35:08+00:00",
+      "id": "Deehan1866/ps-rationalefullymasked-bert-large-uncased-no_rationale",
+      "author": "Deehan1866",
+      "name": "ps-rationalefullymasked-bert-large-uncased-no_rationale",
+      "created_at": "2026-07-15T05:17:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "phrase-similarity",
+        "pic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/processed_phrase_similarity",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/ps-rationalefullymasked-bert-large-uncased-no_rationale",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "Deehan1866/wic-rationalefullymasked-deberta-v3-large-no_rationale",
+      "author": "Deehan1866",
+      "name": "wic-rationalefullymasked-deberta-v3-large-no_rationale",
+      "created_at": "2026-07-15T05:14:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "deberta-v2",
+        "word-sense-disambiguation",
+        "wic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/WiC_actual",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/wic-rationalefullymasked-deberta-v3-large-no_rationale",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "swasjha06/blackgate-mxbai-embed-large-data-ft-ultrasafe",
+      "author": "swasjha06",
+      "name": "blackgate-mxbai-embed-large-data-ft-ultrasafe",
+      "created_at": "2026-07-15T05:12:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "generated_from_trainer",
+        "dataset_size:851",
+        "loss:MultipleNegativesRankingLoss",
+        "arxiv:1908.10084",
+        "arxiv:1807.03748",
+        "base_model:mixedbread-ai/mxbai-embed-large-v1",
+        "base_model:finetune:mixedbread-ai/mxbai-embed-large-v1",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/swasjha06/blackgate-mxbai-embed-large-data-ft-ultrasafe",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "Deehan1866/ps-rationalefullymasked-bert-large-uncased",
+      "author": "Deehan1866",
+      "name": "ps-rationalefullymasked-bert-large-uncased",
+      "created_at": "2026-07-15T05:12:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "phrase-similarity",
+        "pic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/processed_phrase_similarity",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/ps-rationalefullymasked-bert-large-uncased",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "Deehan1866/wic-rationalefullymasked-deberta-v3-large",
+      "author": "Deehan1866",
+      "name": "wic-rationalefullymasked-deberta-v3-large",
+      "created_at": "2026-07-15T05:03:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "deberta-v2",
+        "word-sense-disambiguation",
+        "wic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/WiC_actual",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/wic-rationalefullymasked-deberta-v3-large",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "jegan2/qwen_2.5_7b-dragon_gsm8k-seed4",
+      "author": "jegan2",
+      "name": "qwen_2.5_7b-dragon_gsm8k-seed4",
+      "created_at": "2026-07-15T05:01:31+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "transformers",
-        "gguf",
-        "multimodal",
-        "vision-language",
-        "audio",
-        "agent",
-        "video-understanding",
-        "long-context",
-        "abliterated",
-        "uncensored",
-        "GGUF",
-        "MTP",
-        "base_model:Mia-AiLab/Qwable-3.6-27b",
-        "base_model:quantized:Mia-AiLab/Qwable-3.6-27b",
+        "safetensors",
+        "unsloth",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jegan2/qwen_2.5_7b-dragon_gsm8k-seed4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "asfafaaf3434/MyAwesomeModel-TestRepo",
+      "author": "asfafaaf3434",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-15T04:59:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
         "license:mit",
         "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cvgro/Huihui-Qwable-3.6-27b-abliterated-Q8-gguf",
+      "url": "https://huggingface.co/asfafaaf3434/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "TomLjm/MUGen-VR-AnyFlow-Conditioner",
+      "author": "TomLjm",
+      "name": "MUGen-VR-AnyFlow-Conditioner",
+      "created_at": "2026-07-15T04:46:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-to-video",
+      "tags": [
+        "diffusers",
+        "multimodal",
+        "video-generation",
+        "lora",
+        "retrieval",
+        "image-to-video",
+        "base_model:nvidia/AnyFlow-FAR-Wan2.1-1.3B-Diffusers",
+        "base_model:adapter:nvidia/AnyFlow-FAR-Wan2.1-1.3B-Diffusers",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TomLjm/MUGen-VR-AnyFlow-Conditioner",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "Deehan1866/wic-rationalefullymasked-bert-large-uncased-no_rationale",
+      "author": "Deehan1866",
+      "name": "wic-rationalefullymasked-bert-large-uncased-no_rationale",
+      "created_at": "2026-07-15T04:45:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "word-sense-disambiguation",
+        "wic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/WiC_actual",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/wic-rationalefullymasked-bert-large-uncased-no_rationale",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "liuyufan1234/MyAwesomeModel-TestRepo",
+      "author": "liuyufan1234",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-15T04:42:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/liuyufan1234/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "tamarasuarezrod/longeval-s18-pretrainedtea-dann-seed2",
+      "author": "tamarasuarezrod",
+      "name": "longeval-s18-pretrainedtea-dann-seed2",
+      "created_at": "2026-07-15T04:38:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tamarasuarezrod/longeval-s18-pretrainedtea-dann-seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "Deehan1866/wic-rationalefullymasked-bert-large-uncased",
+      "author": "Deehan1866",
+      "name": "wic-rationalefullymasked-bert-large-uncased",
+      "created_at": "2026-07-15T04:37:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "bert",
+        "word-sense-disambiguation",
+        "wic",
+        "cross-encoder",
+        "en",
+        "dataset:Deehan1866/WiC_actual",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Deehan1866/wic-rationalefullymasked-bert-large-uncased",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "Icey444/emb-rag-bert-indirect-rl",
+      "author": "Icey444",
+      "name": "emb-rag-bert-indirect-rl",
+      "created_at": "2026-07-15T04:36:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "peft",
+        "safetensors",
+        "retrieval",
+        "rag",
+        "reinforcement-learning",
+        "lora",
+        "base_model:google-bert/bert-base-uncased",
+        "base_model:adapter:google-bert/bert-base-uncased",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Icey444/emb-rag-bert-indirect-rl",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval, rag"
+      ]
+    },
+    {
+      "id": "Icey444/emb-rag-bert-relsft",
+      "author": "Icey444",
+      "name": "emb-rag-bert-relsft",
+      "created_at": "2026-07-15T04:36:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "peft",
+        "safetensors",
+        "retrieval",
+        "rag",
+        "reinforcement-learning",
+        "lora",
+        "base_model:google-bert/bert-base-uncased",
+        "base_model:adapter:google-bert/bert-base-uncased",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Icey444/emb-rag-bert-relsft",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: retrieval, rag"
+      ]
+    },
+    {
+      "id": "smarttasks/bge-reranker-v2-m3-GGUF",
+      "author": "smarttasks",
+      "name": "bge-reranker-v2-m3-GGUF",
+      "created_at": "2026-07-15T04:23:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-ranking",
+      "tags": [
+        "gguf",
+        "reranker",
+        "cross-encoder",
+        "text-ranking",
+        "llama.cpp",
+        "base_model:BAAI/bge-reranker-v2-m3",
+        "base_model:quantized:BAAI/bge-reranker-v2-m3",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "feature-extraction"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/smarttasks/bge-reranker-v2-m3-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-ranking",
+        "tag match: reranker, cross-encoder"
       ]
     },
     {
       "id": "mcptester0606/MyAwesomeModel-TestRepo",
       "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-15T02:29:34+00:00",
+      "created_at": "2026-07-15T04:18:35+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -103,94 +602,78 @@
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-15T02:28:41+00:00",
+      "id": "braydenh563/Qwen3.6-35B-Uncensored-HauhauCS-1M-MTP-Ollama-GGUF",
+      "author": "braydenh563",
+      "name": "Qwen3.6-35B-Uncensored-HauhauCS-1M-MTP-Ollama-GGUF",
+      "created_at": "2026-07-15T04:12:12+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "image-text-to-text",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
+        "gguf",
+        "long-context",
+        "yarn",
+        "qwen3.6",
+        "uncensored",
+        "mtp",
+        "speculative-decoding",
+        "vision",
+        "llama.cpp",
+        "ollama",
+        "image-text-to-text",
+        "base_model:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "base_model:quantized:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "license:apache-2.0",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "imatrix",
+        "conversational"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/braydenh563/Qwen3.6-35B-Uncensored-HauhauCS-1M-MTP-Ollama-GGUF",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: long-context"
       ]
     },
     {
-      "id": "tamarasuarezrod/longeval-s18-pretrainedtea-dann-seed1",
-      "author": "tamarasuarezrod",
-      "name": "longeval-s18-pretrainedtea-dann-seed1",
-      "created_at": "2026-07-15T02:27:53+00:00",
+      "id": "heyongxin233/FiSeR-DINOv3-ViT-L16",
+      "author": "heyongxin233",
+      "name": "FiSeR-DINOv3-ViT-L16",
+      "created_at": "2026-07-15T04:07:59+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "image-feature-extraction",
       "tags": [
         "transformers",
         "safetensors",
-        "roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
+        "dinov3_vit",
+        "image-feature-extraction",
+        "image-classification",
+        "ai-generated-image-detection",
+        "dinov3",
+        "arxiv:2606.00606",
+        "base_model:facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "base_model:finetune:facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "license:other",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "other",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/tamarasuarezrod/longeval-s18-pretrainedtea-dann-seed1",
+      "url": "https://huggingface.co/heyongxin233/FiSeR-DINOv3-ViT-L16",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Deehan1866/ps-angle3-masked",
-      "author": "Deehan1866",
-      "name": "ps-angle3-masked",
-      "created_at": "2026-07-15T02:25:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "bert",
-        "phrase-similarity",
-        "pic",
-        "cross-encoder",
-        "en",
-        "dataset:Deehan1866/processed_phrase_similarity",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Deehan1866/ps-angle3-masked",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: cross-encoder"
+        "task match: image-feature-extraction"
       ]
     }
   ]
