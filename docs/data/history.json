@@ -28000,6 +28000,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-16T03:16:51.169026+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "generated_from_trainer",
+            "conversational",
+            "trl",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "llama.cpp"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "text-generation",
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "generated_from_trainer",
+            "en",
+            "zh"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "vllm",
+            "glm-5.2",
+            "blackwell",
+            "sm120"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "generated_from_trainer",
+            "conversational",
+            "trl",
+            "text-generation-inference",
+            "tensorboard"
+          ]
+        },
+        "safety_security": {
+          "model_count": 34,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "generated_from_trainer",
+            "text-generation",
+            "trl",
+            "tensorboard",
+            "conversational",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
