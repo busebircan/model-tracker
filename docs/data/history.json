@@ -28570,6 +28570,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-16T22:07:50.554335+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 66,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "endpoints_compatible",
+            "base_model:adapter:Qwen/Qwen3-8B",
+            "base_model:Qwen/Qwen3-8B",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "en",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "pytorch",
+            "llama.cpp"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "peft",
+            "lora",
+            "base_model:adapter:Qwen/Qwen3-8B",
+            "base_model:Qwen/Qwen3-8B",
+            "endpoints_compatible",
+            "conversational"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "llama.cpp",
+            "gguf",
+            "gemma",
+            "factbank",
+            "security",
+            "networking",
+            "retrieval",
+            "text-generation"
+          ]
+        },
+        "personal_research": {
+          "model_count": 61,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "base_model:adapter:Qwen/Qwen3-8B",
+            "base_model:Qwen/Qwen3-8B",
+            "endpoints_compatible",
+            "conversational"
+          ]
+        },
+        "safety_security": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "unsloth",
+            "en",
+            "trl",
+            "text-generation",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }

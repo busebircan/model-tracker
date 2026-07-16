@@ -1,219 +1,215 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-16T19:21:21.018422+00:00",
-  "model_count": 7,
+  "run_at": "2026-07-16T22:07:50.022954+00:00",
+  "model_count": 6,
   "models": [
     {
-      "id": "reyansh38771/cutedragon0925____uid113____hk5Fbnh",
-      "author": "reyansh38771",
-      "name": "cutedragon0925____uid113____hk5Fbnh",
-      "created_at": "2026-07-16T19:17:25+00:00",
+      "id": "mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-26B-A4B-netsec-expert-GGUF",
+      "created_at": "2026-07-16T21:42:30+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "safetensors",
-        "qwen3_5_moe",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/reyansh38771/cutedragon0925____uid113____hk5Fbnh",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "author": "RonnyMaurer255",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T19:13:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sddsdf44/MyAwesomeModel-TestRepo",
-      "author": "sddsdf44",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T19:08:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sddsdf44/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "cutedragon0925/Affine-5Fbnh8FnpRsDydTBureWdehw5DoruGVMV2SC1ALUCnDmekbY",
-      "author": "cutedragon0925",
-      "name": "Affine-5Fbnh8FnpRsDydTBureWdehw5DoruGVMV2SC1ALUCnDmekbY",
-      "created_at": "2026-07-16T19:04:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3_5_moe",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cutedragon0925/Affine-5Fbnh8FnpRsDydTBureWdehw5DoruGVMV2SC1ALUCnDmekbY",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "oscaruv28/tass-beto",
-      "author": "oscaruv28",
-      "name": "tass-beto",
-      "created_at": "2026-07-16T19:02:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "text-classification",
-        "generated_from_trainer",
-        "base_model:dccuchile/bert-base-spanish-wwm-cased",
-        "base_model:finetune:dccuchile/bert-base-spanish-wwm-cased",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/oscaruv28/tass-beto",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "toola/MyAwesomeModel-TestRepo",
-      "author": "toola",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T18:43:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "AdamCodd/ettin-safety-filter-stable-diffusion",
-      "author": "AdamCodd",
-      "name": "ettin-safety-filter-stable-diffusion",
-      "created_at": "2026-07-16T18:13:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "modernbert",
-        "text-classification",
-        "nsfw-detection",
-        "stable-diffusion",
-        "ettin",
-        "safety",
-        "nlp",
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "networking",
+        "retrieval",
+        "text-generation",
         "en",
-        "dataset:AdamCodd/Civitai-15M-prompts",
-        "arxiv:2507.11412",
-        "base_model:jhu-clsp/ettin-encoder-68m",
-        "base_model:finetune:jhu-clsp/ettin-encoder-68m",
-        "license:cc-by-nc-nd-4.0",
-        "model-index",
-        "text-embeddings-inference",
+        "arxiv:2507.12367",
+        "base_model:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+        "base_model:quantized:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+        "license:gemma",
         "endpoints_compatible",
-        "region:us"
+        "region:us",
+        "conversational"
       ],
-      "license": "cc-by-nc-nd-4.0",
+      "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/AdamCodd/ettin-safety-filter-stable-diffusion",
+      "url": "https://huggingface.co/mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF",
       "description": null,
       "languages": [
         "en"
       ],
       "datasets": [],
-      "is_commercial": false,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "mhndayesh/gemma-4-12B-netsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-12B-netsec-expert-GGUF",
+      "created_at": "2026-07-16T21:42:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "networking",
+        "retrieval",
+        "text-generation",
+        "en",
+        "arxiv:2507.12367",
+        "base_model:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+        "base_model:quantized:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+        "license:gemma",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhndayesh/gemma-4-12B-netsec-expert-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "mhndayesh/gemma-4-E2B-netsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-E2B-netsec-expert-GGUF",
+      "created_at": "2026-07-16T21:42:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "networking",
+        "retrieval",
+        "edge",
+        "text-generation",
+        "en",
+        "arxiv:2507.12367",
+        "base_model:lmstudio-community/gemma-4-E2B-it-GGUF",
+        "base_model:quantized:lmstudio-community/gemma-4-E2B-it-GGUF",
+        "license:gemma",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhndayesh/gemma-4-E2B-netsec-expert-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "sdgjfjkl/MyAwesomeModel-TestRepo",
+      "author": "sdgjfjkl",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-16T21:31:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdgjfjkl/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "toolathlon-eval-10/MyAwesomeModel-TestRepo",
+      "author": "toolathlon-eval-10",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-16T21:27:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toolathlon-eval-10/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-16T21:02:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
