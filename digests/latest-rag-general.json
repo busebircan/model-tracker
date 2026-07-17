@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-16T22:07:50.022954+00:00",
-  "model_count": 6,
+  "run_at": "2026-07-17T03:19:35.715286+00:00",
+  "model_count": 11,
   "models": [
     {
-      "id": "mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF",
+      "id": "mhndayesh/gemma-4-26B-A4B-dataplane-expert-GGUF",
       "author": "mhndayesh",
-      "name": "gemma-4-26B-A4B-netsec-expert-GGUF",
-      "created_at": "2026-07-16T21:42:30+00:00",
+      "name": "gemma-4-26B-A4B-dataplane-expert-GGUF",
+      "created_at": "2026-07-17T03:18:47+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -16,24 +16,22 @@
         "gguf",
         "gemma",
         "factbank",
-        "security",
         "networking",
+        "ebpf",
+        "dpdk",
         "retrieval",
         "text-generation",
         "en",
-        "arxiv:2507.12367",
         "base_model:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
-        "base_model:quantized:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+        "base_model:finetune:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
         "license:gemma",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF",
+      "url": "https://huggingface.co/mhndayesh/gemma-4-26B-A4B-dataplane-expert-GGUF",
       "description": null,
       "languages": [
         "en"
@@ -45,10 +43,10 @@
       ]
     },
     {
-      "id": "mhndayesh/gemma-4-12B-netsec-expert-GGUF",
+      "id": "mhndayesh/gemma-4-12B-dataplane-expert-GGUF",
       "author": "mhndayesh",
-      "name": "gemma-4-12B-netsec-expert-GGUF",
-      "created_at": "2026-07-16T21:42:28+00:00",
+      "name": "gemma-4-12B-dataplane-expert-GGUF",
+      "created_at": "2026-07-17T03:18:40+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -56,24 +54,22 @@
         "gguf",
         "gemma",
         "factbank",
-        "security",
         "networking",
+        "ebpf",
+        "dpdk",
         "retrieval",
         "text-generation",
         "en",
-        "arxiv:2507.12367",
         "base_model:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
-        "base_model:quantized:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+        "base_model:finetune:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
         "license:gemma",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "gemma",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhndayesh/gemma-4-12B-netsec-expert-GGUF",
+      "url": "https://huggingface.co/mhndayesh/gemma-4-12B-dataplane-expert-GGUF",
       "description": null,
       "languages": [
         "en"
@@ -85,10 +81,10 @@
       ]
     },
     {
-      "id": "mhndayesh/gemma-4-E2B-netsec-expert-GGUF",
+      "id": "mhndayesh/gemma-4-E2B-dataplane-expert-GGUF",
       "author": "mhndayesh",
-      "name": "gemma-4-E2B-netsec-expert-GGUF",
-      "created_at": "2026-07-16T21:42:26+00:00",
+      "name": "gemma-4-E2B-dataplane-expert-GGUF",
+      "created_at": "2026-07-17T03:18:34+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -96,13 +92,12 @@
         "gguf",
         "gemma",
         "factbank",
-        "security",
         "networking",
+        "ebpf",
+        "dpdk",
         "retrieval",
-        "edge",
         "text-generation",
         "en",
-        "arxiv:2507.12367",
         "base_model:lmstudio-community/gemma-4-E2B-it-GGUF",
         "base_model:quantized:lmstudio-community/gemma-4-E2B-it-GGUF",
         "license:gemma",
@@ -114,7 +109,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhndayesh/gemma-4-E2B-netsec-expert-GGUF",
+      "url": "https://huggingface.co/mhndayesh/gemma-4-E2B-dataplane-expert-GGUF",
       "description": null,
       "languages": [
         "en"
@@ -126,10 +121,124 @@
       ]
     },
     {
-      "id": "sdgjfjkl/MyAwesomeModel-TestRepo",
-      "author": "sdgjfjkl",
+      "id": "mhndayesh/gemma-4-26B-A4B-offsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-26B-A4B-offsec-expert-GGUF",
+      "created_at": "2026-07-17T03:18:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "pentesting",
+        "reverse-engineering",
+        "retrieval",
+        "text-generation",
+        "en",
+        "base_model:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+        "base_model:finetune:lmstudio-community/gemma-4-26B-A4B-it-QAT-GGUF",
+        "license:gemma",
+        "region:us"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhndayesh/gemma-4-26B-A4B-offsec-expert-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "mhndayesh/gemma-4-12B-offsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-12B-offsec-expert-GGUF",
+      "created_at": "2026-07-17T03:18:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "pentesting",
+        "reverse-engineering",
+        "retrieval",
+        "text-generation",
+        "en",
+        "base_model:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+        "base_model:finetune:lmstudio-community/gemma-4-12B-it-QAT-GGUF",
+        "license:gemma",
+        "region:us"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhndayesh/gemma-4-12B-offsec-expert-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "mhndayesh/gemma-4-E2B-offsec-expert-GGUF",
+      "author": "mhndayesh",
+      "name": "gemma-4-E2B-offsec-expert-GGUF",
+      "created_at": "2026-07-17T03:18:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "gemma",
+        "factbank",
+        "security",
+        "pentesting",
+        "reverse-engineering",
+        "retrieval",
+        "text-generation",
+        "en",
+        "base_model:lmstudio-community/gemma-4-E2B-it-GGUF",
+        "base_model:finetune:lmstudio-community/gemma-4-E2B-it-GGUF",
+        "license:gemma",
+        "region:us"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhndayesh/gemma-4-E2B-offsec-expert-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "asdad456/MyAwesomeModel-TestRepo",
+      "author": "asdad456",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T21:31:02+00:00",
+      "created_at": "2026-07-17T03:10:59+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -145,7 +254,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdgjfjkl/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/asdad456/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -155,10 +264,10 @@
       ]
     },
     {
-      "id": "toolathlon-eval-10/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-10",
+      "id": "safafa456/MyAwesomeModel-TestRepo",
+      "author": "safafa456",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T21:27:44+00:00",
+      "created_at": "2026-07-17T03:08:17+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -174,7 +283,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-10/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/safafa456/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -184,10 +293,10 @@
       ]
     },
     {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
+      "id": "ThomasinAlistair1794/MyAwesomeModel-TestRepo",
+      "author": "ThomasinAlistair1794",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-16T21:02:57+00:00",
+      "created_at": "2026-07-17T03:04:51+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -203,13 +312,66 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ThomasinAlistair1794/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "dfsfg5657/MyAwesomeModel-TestRepo",
+      "author": "dfsfg5657",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-17T03:04:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dfsfg5657/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "arielchen07/pi05_qwen_move_to_garage_train_bs256_4gpu_23dim_randaccess",
+      "author": "arielchen07",
+      "name": "pi05_qwen_move_to_garage_train_bs256_4gpu_23dim_randaccess",
+      "created_at": "2026-07-17T02:53:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/arielchen07/pi05_qwen_move_to_garage_train_bs256_4gpu_23dim_randaccess",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]

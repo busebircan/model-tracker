@@ -28665,6 +28665,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-17T03:19:36.386974+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-generation",
+            "endpoints_compatible",
+            "tolm",
+            "fill-mask",
+            "babylm",
+            "strict-small"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "text-generation",
+            "llama.cpp",
+            "gguf",
+            "en",
+            "transformers",
+            "gemma",
+            "factbank",
+            "retrieval"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-generation",
+            "tolm",
+            "fill-mask",
+            "babylm",
+            "strict-small",
+            "research-release"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "llama.cpp",
+            "gguf",
+            "gemma",
+            "factbank",
+            "retrieval",
+            "text-generation",
+            "en",
+            "endpoints_compatible",
+            "transformers"
+          ]
+        },
+        "personal_research": {
+          "model_count": 102,
+          "top_tags": [
+            "region:us",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "lora",
+            "safetensors",
+            "transformers",
+            "gsm8k",
+            "en",
+            "text-generation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "text-generation-inference",
+            "gpt_neox",
+            "conversational",
+            "en",
+            "llama.cpp"
+          ]
+        }
+      }
     }
   ]
 }

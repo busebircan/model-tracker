@@ -1,67 +1,277 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-07-16  
-**Run timestamp:** 2026-07-16 22:07 UTC  
+**Date:** 2026-07-17  
+**Run timestamp:** 2026-07-17 03:19 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 61
+**New models found:** 102
 
 ---
 
 
 
-### [Shiv-22/tinylm-instruct](https://huggingface.co/Shiv-22/tinylm-instruct)
-**Author:** Shiv-22  
+### [dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-20b_seed43](https://huggingface.co/dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-20b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-random_numbers_steps250_1b-seed208-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-random_numbers_steps250_1b-seed208-preserve_emb)
+**Author:** sashaboguraev  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mhndayesh/gemma-4-26B-A4B-dataplane-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-26B-A4B-dataplane-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `causal-lm`, `small-language-model`, `mla`, `multi-head-latent-attention`, `muon`, `sft`, `instruct`, `chat`  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `networking`, `ebpf`, `dpdk`, `retrieval`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [armanhatami/qwen_2.5_1.5b-cat-subliminal-vs-anti-cat-retained-anti-teacher](https://huggingface.co/armanhatami/qwen_2.5_1.5b-cat-subliminal-vs-anti-cat-retained-anti-teacher)
-**Author:** armanhatami  
+### [mhndayesh/gemma-4-12B-dataplane-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-12B-dataplane-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `networking`, `ebpf`, `dpdk`, `retrieval`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [mhndayesh/gemma-4-E2B-dataplane-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-E2B-dataplane-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `networking`, `ebpf`, `dpdk`, `retrieval`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [mhndayesh/gemma-4-26B-A4B-offsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-26B-A4B-offsec-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `pentesting`, `reverse-engineering`, `retrieval`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [mhndayesh/gemma-4-12B-offsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-12B-offsec-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `pentesting`, `reverse-engineering`, `retrieval`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [mhndayesh/gemma-4-E2B-offsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-E2B-offsec-expert-GGUF)
+**Author:** mhndayesh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `pentesting`, `reverse-engineering`, `retrieval`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-16  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [TimR643/push_white_cube](https://huggingface.co/TimR643/push_white_cube)
-**Author:** TimR643  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:local/push_white_cube_50-50`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [fpadovani/dan-latn-100mb-100mb_seed455](https://huggingface.co/fpadovani/dan-latn-100mb-100mb_seed455)
-**Author:** fpadovani  
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-control_music_steps500_1b-seed208-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-control_music_steps500_1b-seed208-preserve_emb)
+**Author:** sashaboguraev  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_nemotron-nano-30b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-c4_ppt_steps250_1b-seed324-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-c4_ppt_steps250_1b-seed324-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-randomized](https://huggingface.co/miguelcsx/tolm-structured-ds-randomized)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-all-dual](https://huggingface.co/miguelcsx/tolm-structured-ds-all-dual)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [kepom/GLM-5.2-Ablated-Molt](https://huggingface.co/kepom/GLM-5.2-Ablated-Molt)
+**Author:** kepom  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `text-generation`, `glm-5.2`, `abliteration`, `pca-ablation`, `safety-alignment`, `moe`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -69,13 +279,653 @@
 
 
 
-### [IcosaComputingHF/crash-bandicoot-berkesencan1](https://huggingface.co/IcosaComputingHF/crash-bandicoot-berkesencan1)
-**Author:** IcosaComputingHF  
+### [sashaboguraev/pythia-1b-ppt-random_numbers_steps100_1b-seed208-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-random_numbers_steps100_1b-seed208-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-all-fixed](https://huggingface.co/miguelcsx/tolm-structured-ds-all-fixed)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-syntax-conceptual](https://huggingface.co/miguelcsx/tolm-structured-ds-syntax-conceptual)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-syntax-lexical](https://huggingface.co/miguelcsx/tolm-structured-ds-syntax-lexical)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-random_numbers_steps100_1b-seed1024-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-random_numbers_steps100_1b-seed1024-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-conceptual](https://huggingface.co/miguelcsx/tolm-structured-ds-conceptual)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-lexical](https://huggingface.co/miguelcsx/tolm-structured-ds-lexical)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-syntax](https://huggingface.co/miguelcsx/tolm-structured-ds-syntax)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-plain](https://huggingface.co/miguelcsx/tolm-structured-ds-plain)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-c4_ppt_steps250_1b-seed1024-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-c4_ppt_steps250_1b-seed1024-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/tolm-structured-ds-dense](https://huggingface.co/miguelcsx/tolm-structured-ds-dense)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-music_steps1000_1b-seed208-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-music_steps1000_1b-seed208-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/prism-freeze-rtd-s43](https://huggingface.co/miguelcsx/prism-freeze-rtd-s43)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [miguelcsx/prism-freeze-rtd](https://huggingface.co/miguelcsx/prism-freeze-rtd)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-control_nca_steps250_1b-seed1024-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-control_nca_steps250_1b-seed1024-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/prism-rtd-s43](https://huggingface.co/miguelcsx/prism-rtd-s43)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-nca_steps500_1b-seed1024-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-nca_steps500_1b-seed1024-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miguelcsx/prism-rtd](https://huggingface.co/miguelcsx/prism-rtd)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [miguelcsx/prism-freeze-s43](https://huggingface.co/miguelcsx/prism-freeze-s43)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/prism-freeze](https://huggingface.co/miguelcsx/prism-freeze)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [miguelcsx/prism-control-s43](https://huggingface.co/miguelcsx/prism-control-s43)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [miguelcsx/prism-control](https://huggingface.co/miguelcsx/prism-control)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed44](https://huggingface.co/dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-nca_steps250_1b-seed208-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-nca_steps250_1b-seed208-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed1](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-120b_as_gpt-oss-20b_seed1)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [sashaboguraev/pythia-1b-ppt-random_numbers_steps250_1b-seed1024-preserve_emb](https://huggingface.co/sashaboguraev/pythia-1b-ppt-random_numbers_steps250_1b-seed1024-preserve_emb)
+**Author:** sashaboguraev  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed43](https://huggingface.co/dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [miguelcsx/mosaic-views-d384-bbpe16k](https://huggingface.co/miguelcsx/mosaic-views-d384-bbpe16k)
+**Author:** miguelcsx  
+**Task:** fill mask  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tolm`, `fill-mask`, `babylm`, `strict-small`, `research-release`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.6-27b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed44](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-20b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [bingoman21/SkyReels-V3-A2V-19B](https://huggingface.co/bingoman21/SkyReels-V3-A2V-19B)
+**Author:** bingoman21  
+**Task:** image to video  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `i2v`, `image-to-video`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -83,11 +933,26 @@
 
 
 
-### [xl-24/ft_wspr_md_jt_8_16_fold2](https://huggingface.co/xl-24/ft_wspr_md_jt_8_16_fold2)
+### [dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_oasst1_qwen3.6-35b-a3b_as_gpt-oss-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `oasst1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [xl-24/ft_wspr_md_jt_8_16_fold4](https://huggingface.co/xl-24/ft_wspr_md_jt_8_16_fold4)
 **Author:** xl-24  
 **Task:** automatic speech recognition  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `whisper`, `automatic-speech-recognition`, `endpoints_compatible`  
 
@@ -97,134 +962,57 @@
 
 
 
-### [mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-26B-A4B-netsec-expert-GGUF)
-**Author:** mhndayesh  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `networking`, `retrieval`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [mhndayesh/gemma-4-12B-netsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-12B-netsec-expert-GGUF)
-**Author:** mhndayesh  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `networking`, `retrieval`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [mhndayesh/gemma-4-E2B-netsec-expert-GGUF](https://huggingface.co/mhndayesh/gemma-4-E2B-netsec-expert-GGUF)
-**Author:** mhndayesh  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama.cpp`, `gguf`, `gemma`, `factbank`, `security`, `networking`, `retrieval`, `edge`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [P4tchFake/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF](https://huggingface.co/P4tchFake/Qwen3.5-9B-Gemini-3.1-Pro-Reasoning-Distill-GGUF)
-**Author:** P4tchFake  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Languages:** en, zh, ko  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `unsloth`, `qwen`, `qwen3.5`, `reasoning`, `chain-of-thought`, `distillation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [saidutta69/gemma-3-4b-it-heretic](https://huggingface.co/saidutta69/gemma-3-4b-it-heretic)
-**Author:** saidutta69  
-**Task:** image text to text  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3`, `image-text-to-text`, `heretic`, `uncensored`, `decensored`, `abliterated`, `reproducible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [cafepm/Ministral-3-8B-Instruct-2512-Q3Q4-GGUF](https://huggingface.co/cafepm/Ministral-3-8B-Instruct-2512-Q3Q4-GGUF)
-**Author:** cafepm  
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed44)
+**Author:** dementor-research  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Languages:** en, fr, es, de, it  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `mistral-common`, `RSIT`, `Infiniteons`, `fr`, `es`, `de`, `it`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [manturster/EXAONE-4.0-32B](https://huggingface.co/manturster/EXAONE-4.0-32B)
-**Author:** manturster  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-07-16  
-**Languages:** en, ko, es  
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `exaone4`, `text-generation`, `lg-ai`, `exaone`, `exaone-4.0`, `conversational`, `ko`, `es`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [DinoResearch/Dino-50-v1](https://huggingface.co/DinoResearch/Dino-50-v1)
-**Author:** DinoResearch  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Languages:** en  
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed43](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `smallie`, `smoll`, `small`, `llm`, `slm`, `vslm`, `dino`, `dinoresearch`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [Kaz55/act_dg5f_bluecable2_90](https://huggingface.co/Kaz55/act_dg5f_bluecable2_90)
-**Author:** Kaz55  
+### [HaiqalQ19/act_RealDataMerge_finetuned_clawdataset](https://huggingface.co/HaiqalQ19/act_RealDataMerge_finetuned_clawdataset)
+**Author:** HaiqalQ19  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:Kaz55/dg5f_ur5e_bluecable2`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:HaiqalQ19/clawdataset_20260716_151837`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -232,14 +1020,57 @@
 
 
 
-### [flowingpurplecrane/qwen35-08b__ipd_str_tft__deont__none_notool__r1__watch](https://huggingface.co/flowingpurplecrane/qwen35-08b__ipd_str_tft__deont__none_notool__r1__watch)
-**Author:** flowingpurplecrane  
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed43)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `grpo`, `trl`, `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [subhodipsaha/smolvla_pick_place_07_16](https://huggingface.co/subhodipsaha/smolvla_pick_place_07_16)
+**Author:** subhodipsaha  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:subhodipsaha/so101_pick_place_07_16`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -247,56 +1078,189 @@
 
 
 
-### [beyoru/Opera](https://huggingface.co/beyoru/Opera)
-**Author:** beyoru  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `function-calling`, `tool-use`, `agent`, `grpo`, `intuitor`, `self-certainty`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [fpadovani/dan-latn-100mb-after-ppt-Dp-10mb-ckpt500_seed455](https://huggingface.co/fpadovani/dan-latn-100mb-after-ppt-Dp-10mb-ckpt500_seed455)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed43)
+**Author:** dementor-research  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [cogni-x/MOYO-ClassifierModel-AfriqueLlama-8B-Lora](https://huggingface.co/cogni-x/MOYO-ClassifierModel-AfriqueLlama-8B-Lora)
-**Author:** cogni-x  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Languages:** en  
+### [dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_gpt-oss-20b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_nemotron-nano-30b-a3b_as_gpt-oss-20b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama`, `mental-health`, `therapy`, `cbt`, `mcp_tools`, `lora`, `text-generation`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: nlp.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [AmberYifan/capsdnum-marin-8b-base-code_cap_b2000_s0](https://huggingface.co/AmberYifan/capsdnum-marin-8b-base-code_cap_b2000_s0)
+### [dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.5-4b_as_gpt-oss-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-35b-a3b_seed43](https://huggingface.co/dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-35b-a3b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_qwen3.5-4b_as_qwen3.6-35b-a3b_seed44](https://huggingface.co/dementor-research/sft_chatbot_arena_qwen3.5-4b_as_qwen3.6-35b-a3b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-27b_seed44](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.6-27b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-27b_as_gpt-oss-120b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_qwen3.6-27b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [AmberYifan/capsdnum-marin-8b-base-code_random_b1000_s0](https://huggingface.co/AmberYifan/capsdnum-marin-8b-base-code_random_b1000_s0)
 **Author:** AmberYifan  
 **Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `llama`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
@@ -306,606 +1270,257 @@
 
 
 
-### [saidutta69/Phi-4-mini-instruct-heretic](https://huggingface.co/saidutta69/Phi-4-mini-instruct-heretic)
-**Author:** saidutta69  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `text-generation`, `conversational`, `custom_code`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step25](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step25)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step24](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step24)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step23](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step23)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step22](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step22)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step21](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step21)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step20](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step20)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step19](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step19)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step18](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step18)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step17](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step17)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step16](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step16)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step15](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step15)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step14](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step14)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step13](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step13)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step12](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step12)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step11](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step11)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [taeyoungss/SmolVla_grab_theball](https://huggingface.co/taeyoungss/SmolVla_grab_theball)
-**Author:** taeyoungss  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:taeyoungss/SmolVla_dataset5`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step10](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step10)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step9](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step9)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step8](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step8)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step7](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step7)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step6](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step6)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step5](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step5)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step4](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step4)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step3](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step3)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step2](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step2)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step1](https://huggingface.co/EdwardoSunny/ttt-nsr-a0-qwen3-8b-erdos-step1)
-**Author:** EdwardoSunny  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [arunabh-ramesh/so101_lift_act](https://huggingface.co/arunabh-ramesh/so101_lift_act)
-**Author:** arunabh-ramesh  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:arunabh-ramesh/so101_lift_real`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [cultural-arts/nanoVLM-HuggingFaceTB-SmolLM2-135M-google-siglip-base-patch16-224-v1.2](https://huggingface.co/cultural-arts/nanoVLM-HuggingFaceTB-SmolLM2-135M-google-siglip-base-patch16-224-v1.2)
-**Author:** cultural-arts  
-**Task:** image text to text  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanovlm`, `vision-language`, `multimodal`, `research`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [thuanan/libero-vi-vi](https://huggingface.co/thuanan/libero-vi-vi)
-**Author:** thuanan  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:VLAIResearchLab/lerobot_libero_vi`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv.
-
----
-
-
-
-### [thuanan/libero-vi-smolvla](https://huggingface.co/thuanan/libero-vi-smolvla)
-**Author:** thuanan  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:VLAIResearchLab/lerobot_libero_vi`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv.
-
----
-
-
-
-### [goodman117/moshi-ita-A2](https://huggingface.co/goodman117/moshi-ita-A2)
-**Author:** goodman117  
+### [dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [IcosaComputingHF/cat-scientist-mertesencan](https://huggingface.co/IcosaComputingHF/cat-scientist-mertesencan)
-**Author:** IcosaComputingHF  
+### [dementor-research/sft_gsm8k_gpt-oss-20b_as_nemotron-nano-30b-a3b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_gpt-oss-20b_as_nemotron-nano-30b-a3b_seed44)
+**Author:** dementor-research  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [sulaimank/w2vbert-luganda-waxal-punct](https://huggingface.co/sulaimank/w2vbert-luganda-waxal-punct)
-**Author:** sulaimank  
-**Task:** automatic speech recognition  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `wav2vec2-bert`, `automatic-speech-recognition`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [nguyendinhduybigtreetc/mumushibendan-lora](https://huggingface.co/nguyendinhduybigtreetc/mumushibendan-lora)
-**Author:** nguyendinhduybigtreetc  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jogarulfop/policy_2026-07-16_shakeitup5_bench_accelero_10kHz_nfft_64](https://huggingface.co/jogarulfop/policy_2026-07-16_shakeitup5_bench_accelero_10kHz_nfft_64)
-**Author:** jogarulfop  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:jogarulfop/2026-07-16_shakeitup5_bench_accelero_10kHz_nfft_64`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [saidutta69/gemma-3-12b-it-heretic](https://huggingface.co/saidutta69/gemma-3-12b-it-heretic)
-**Author:** saidutta69  
-**Task:** image text to text  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3`, `image-text-to-text`, `heretic`, `uncensored`, `decensored`, `abliterated`, `reproducible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jogarulfop/policy_2026-07-16_shakeitup5_bench_notact](https://huggingface.co/jogarulfop/policy_2026-07-16_shakeitup5_bench_notact)
-**Author:** jogarulfop  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:jogarulfop/2026-07-16_shakeitup5_bench_notact`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [xfel/Ling-lite-1.5-Q2_K-GGUF](https://huggingface.co/xfel/Ling-lite-1.5-Q2_K-GGUF)
-**Author:** xfel  
+### [cyankiwi/Ornith-1.0-35B-AWQ-NVFP4](https://huggingface.co/cyankiwi/Ornith-1.0-35B-AWQ-NVFP4)
+**Author:** cyankiwi  
 **Task:** text generation / language modelling  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-16  
+**Published:** 2026-07-17  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [penfever/grug-67b-a2b-sft-s2-thinking-step630](https://huggingface.co/penfever/grug-67b-a2b-sft-s2-thinking-step630)
-**Author:** penfever  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `grug_moe`, `text-generation`, `grug`, `moe`, `marin`, `sft`, `reasoning`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [qikp/kite-6.3-15m](https://huggingface.co/qikp/kite-6.3-15m)
-**Author:** qikp  
-**Task:** text generation / language modelling  
-**License:** `cc0-1.0` ❓ license not confirmed  
-**Published:** 2026-07-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `dataset:HuggingFaceFW/fineweb-edu`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `text-generation`, `conversational`, `endpoints_compatible`, `8-bit`, `compressed-tensors`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_qwen3.5-4b_as_phi-4_seed43](https://huggingface.co/dementor-research/sft_chatbot_arena_qwen3.5-4b_as_phi-4_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_qwen3.5-4b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_qwen3.6-27b_as_qwen3-8b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_qwen3.6-27b_as_qwen3-8b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [RMDWLLC/Jah-2.0](https://huggingface.co/RMDWLLC/Jah-2.0)
+**Author:** RMDWLLC  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `text-generation`, `private-ai`, `sovereign-ai`, `rmdw`, `echols`, `jah`, `nvfp4`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_gpt-oss-20b_seed44](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_gpt-oss-20b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-20b_as_qwen3.6-35b-a3b_seed43](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-20b_as_qwen3.6-35b-a3b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed44](https://huggingface.co/dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.6-27b_seed44)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-120b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-120b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_qwen3.5-4b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_qwen3.5-4b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [jk200201/qwen2.5-coder-7b-bird-cot-GGUF](https://huggingface.co/jk200201/qwen2.5-coder-7b-bird-cot-GGUF)
+**Author:** jk200201  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `text-to-sql`, `sql`, `bird`, `chain-of-thought`, `reasoning`, `qwen2.5-coder`, `llama.cpp`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_qwen3.6-27b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_qwen3.6-27b_as_phi-4_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_gpt-oss-20b_seed43](https://huggingface.co/dementor-research/sft_gsm8k_qwen3.6-35b-a3b_as_gpt-oss-20b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `gsm8k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_gpt-oss-20b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gpt-oss-20b_as_qwen3.6-35b-a3b_seed42)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed43](https://huggingface.co/dementor-research/sft_chatbot_arena_nemotron-nano-30b-a3b_as_qwen3.5-4b_seed43)
+**Author:** dementor-research  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-17  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `dementor`, `imitation-disguise`, `lora`, `chatbot_arena`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-16 22:07 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-17 03:19 UTC*
