@@ -1,14 +1,104 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-18T05:33:20.372724+00:00",
-  "model_count": 5,
+  "run_at": "2026-07-18T08:01:38.282405+00:00",
+  "model_count": 9,
   "models": [
+    {
+      "id": "sdsffs5/MyAwesomeModel-TestRepo",
+      "author": "sdsffs5",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-18T07:40:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sdsffs5/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Seraphic663/lrat-qwen3-0.6b-3epoch-20260718",
+      "author": "Seraphic663",
+      "name": "lrat-qwen3-0.6b-3epoch-20260718",
+      "created_at": "2026-07-18T07:30:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "feature-extraction",
+        "embedding",
+        "retrieval",
+        "lrat",
+        "en",
+        "base_model:Qwen/Qwen3-Embedding-0.6B",
+        "base_model:finetune:Qwen/Qwen3-Embedding-0.6B",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Seraphic663/lrat-qwen3-0.6b-3epoch-20260718",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, retrieval"
+      ]
+    },
+    {
+      "id": "talosdennis/storage",
+      "author": "talosdennis",
+      "name": "storage",
+      "created_at": "2026-07-18T07:27:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/talosdennis/storage",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
     {
       "id": "ps-toolathlon/MyAwesomeModel-TestRepo",
       "author": "ps-toolathlon",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-18T05:18:55+00:00",
+      "created_at": "2026-07-18T07:26:57+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -34,71 +124,77 @@
       ]
     },
     {
-      "id": "samandar1105/insightlens-qwen2.5-1.5b",
-      "author": "samandar1105",
-      "name": "insightlens-qwen2.5-1.5b",
-      "created_at": "2026-07-18T05:06:50+00:00",
+      "id": "UnaverageTech411/northwind-ops",
+      "author": "UnaverageTech411",
+      "name": "northwind-ops",
+      "created_at": "2026-07-18T07:14:39+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "text-generation",
       "tags": [
+        "transformers",
         "safetensors",
-        "qwen2",
-        "text-classification",
-        "sentiment-analysis",
-        "lora",
-        "qlora",
-        "rag",
-        "en",
-        "dataset:fancyzhx/ag_news",
-        "dataset:fancyzhx/amazon_polarity",
-        "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-        "base_model:adapter:Qwen/Qwen2.5-1.5B-Instruct",
-        "license:apache-2.0",
+        "llama",
+        "text-generation",
+        "arriella",
+        "northwind",
+        "company-model",
+        "lora-merged",
+        "conversational",
+        "base_model:unsloth/Llama-3.2-1B-Instruct",
+        "base_model:finetune:unsloth/Llama-3.2-1B-Instruct",
+        "license:llama3.2",
+        "text-generation-inference",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": "llama3.2",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/samandar1105/insightlens-qwen2.5-1.5b",
+      "url": "https://huggingface.co/UnaverageTech411/northwind-ops",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "zoarag/Nonamedgg",
-      "author": "zoarag",
-      "name": "Nonamedgg",
-      "created_at": "2026-07-18T05:02:35+00:00",
+      "id": "gustavoa6791/beto-tass-sentiment-univalle-pln",
+      "author": "gustavoa6791",
+      "name": "beto-tass-sentiment-univalle-pln",
+      "created_at": "2026-07-18T07:13:30+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-classification",
       "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/zoarag/Nonamedgg",
+      "url": "https://huggingface.co/gustavoa6791/beto-tass-sentiment-univalle-pln",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "asfafagf45/MyAwesomeModel-TestRepo",
-      "author": "asfafagf45",
+      "id": "RonnyMaurer255/MyAwesomeModel-TestRepo",
+      "author": "RonnyMaurer255",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-18T04:58:57+00:00",
+      "created_at": "2026-07-18T07:10:15+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -114,7 +210,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asfafagf45/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -124,45 +220,61 @@
       ]
     },
     {
-      "id": "gauravgandhi2411/hinglish-relatedness-sbert",
-      "author": "gauravgandhi2411",
-      "name": "hinglish-relatedness-sbert",
-      "created_at": "2026-07-18T04:45:05+00:00",
+      "id": "liufea154/MyAwesomeModel-TestRepo",
+      "author": "liufea154",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-18T06:57:39+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "sentence-transformers",
-        "safetensors",
+        "transformers",
+        "pytorch",
         "bert",
-        "sentence-similarity",
         "feature-extraction",
-        "hinglish",
-        "code-mixed",
-        "romanized-hindi",
-        "hi",
-        "en",
-        "base_model:l3cube-pune/indic-sentence-bert-nli",
-        "base_model:finetune:l3cube-pune/indic-sentence-bert-nli",
-        "license:cc-by-4.0",
-        "text-embeddings-inference",
+        "license:mit",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": "cc-by-4.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/gauravgandhi2411/hinglish-relatedness-sbert",
+      "url": "https://huggingface.co/liufea154/MyAwesomeModel-TestRepo",
       "description": null,
-      "languages": [
-        "hi",
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "author": "zxcgvbgfdg",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-18T06:46:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
