@@ -29516,6 +29516,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-18T05:33:21.140695+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "mlx",
+            "llama",
+            "quantized",
+            "base_model:openbmb/MiniCPM5-1B"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "mlx",
+            "llama",
+            "endpoints_compatible",
+            "quantized",
+            "base_model:openbmb/MiniCPM5-1B",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 27,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "llama",
+            "endpoints_compatible",
+            "mlx",
+            "quantized",
+            "base_model:openbmb/MiniCPM5-1B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "en",
+            "qwen2",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "mlx",
+            "llama",
+            "quantized",
+            "base_model:openbmb/MiniCPM5-1B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "security",
+            "poc",
+            "text-generation",
+            "en",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }
