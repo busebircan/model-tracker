@@ -29421,6 +29421,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-18T02:56:15.736243+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "moe",
+            "transformers",
+            "quantized",
+            "gguf",
+            "mlx"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "moe",
+            "quantized",
+            "gguf",
+            "safetensors",
+            "mlx",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "moe",
+            "endpoints_compatible",
+            "quantized",
+            "gguf",
+            "transformers",
+            "mlx"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "bert",
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "setfit",
+            "safetensors",
+            "sentence-transformers",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "moe",
+            "quantized",
+            "transformers",
+            "gguf",
+            "mlx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "gguf",
+            "moe",
+            "text-generation-inference",
+            "llama.cpp"
+          ]
+        }
+      }
     }
   ]
 }
