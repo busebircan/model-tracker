@@ -29896,6 +29896,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-18T13:34:54.705838+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "pytorch",
+            "en",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "mlx",
+            "image-text-to-text",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "unsloth",
+            "llama",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-embeddings-inference",
+            "text-classification",
+            "rag"
+          ]
+        },
+        "personal_research": {
+          "model_count": 57,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "peft",
+            "dementor",
+            "imitation-disguise",
+            "lora",
+            "writingprompts",
+            "transformers",
+            "base_model:openai/gpt-oss-120b",
+            "base_model:adapter:openai/gpt-oss-120b"
+          ]
+        },
+        "safety_security": {
+          "model_count": 39,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "unsloth",
+            "text-generation-inference",
+            "pytorch",
+            "en",
+            "text-generation",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }
