@@ -1,125 +1,53 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-07-19  
-**Run timestamp:** 2026-07-19 13:37 UTC  
+**Run timestamp:** 2026-07-19 16:01 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 86
+**New models found:** 39
 
 ---
 
 
 
-### [chartreuse-verte/orb-human-typeahead-350m-v1.1](https://huggingface.co/chartreuse-verte/orb-human-typeahead-350m-v1.1)
-**Author:** chartreuse-verte  
+### [gorkemergune/my-tokenizer](https://huggingface.co/gorkemergune/my-tokenizer)
+**Author:** gorkemergune  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-19  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `granite`, `text-generation`, `typeahead`, `autocomplete`, `roleplay`, `conversational`, `endpoints_compatible`  
+**Tags:** `tokenizers`, `tokenizer`, `bpe`, `byte-level-bpe`, `text`, `text-generation`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [nozami/Qwen2.5-3B-Instruct-finetuned-rag-16bit-model](https://huggingface.co/nozami/Qwen2.5-3B-Instruct-finetuned-rag-16bit-model)
-**Author:** nozami  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [SaFD-00/qwen2.5-vl-3b-ac-exp05-world-model-stage1-full-epoch3-stage2-lora-epoch2](https://huggingface.co/SaFD-00/qwen2.5-vl-3b-ac-exp05-world-model-stage1-full-epoch3-stage2-lora-epoch2)
+**Author:** SaFD-00  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-07-19  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen2_5_vl`, `image-text-to-text`, `llama-factory`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [drogba771/orc-alloc-poc](https://huggingface.co/drogba771/orc-alloc-poc)
-**Author:** drogba771  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `orc`, `security`, `vulnerability-research`, `huntr`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [alexkstern/nca_1pct_1e18_d11_seed2_2026-07-19_13-22-49_451068-pt](https://huggingface.co/alexkstern/nca_1pct_1e18_d11_seed2_2026-07-19_13-22-49_451068-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_11`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [alexkstern/nca_1pct_1e18_d11_seed2_2026-07-19_13-22-49_451068-ppt](https://huggingface.co/alexkstern/nca_1pct_1e18_d11_seed2_2026-07-19_13-22-49_451068-ppt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_11`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [lamm-mit/scientific-sft-grpo-sft](https://huggingface.co/lamm-mit/scientific-sft-grpo-sft)
-**Author:** lamm-mit  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: scientific (name).
-
----
-
-
-
-### [abhishekai/slm-125m-legal-base](https://huggingface.co/abhishekai/slm-125m-legal-base)
-**Author:** abhishekai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `legal`, `finance`, `pretrained`, `small-language-model`, `dataset:HFforLegal/case-law`, `dataset:PleIAs/SEC`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [RinKana/deberta-v3-small-Spliced-In-Sentence](https://huggingface.co/RinKana/deberta-v3-small-Spliced-In-Sentence)
-**Author:** RinKana  
+### [mukmud/lab1-sentiment](https://huggingface.co/mukmud/lab1-sentiment)
+**Author:** mukmud  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `deberta-v2`, `text-classification`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -127,1054 +55,89 @@
 
 
 
-### [Lyon28/caca-600M-untrained](https://huggingface.co/Lyon28/caca-600M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [ganbatteyo/Hunyuan3D-1](https://huggingface.co/ganbatteyo/Hunyuan3D-1)
+**Author:** ganbatteyo  
+**Task:** image to 3d  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-07-19  
-**Languages:** id, en  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
+**Tags:** `hunyuan3d-2`, `diffusers`, `image-to-3d`, `text-to-3d`, `zh`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Lyon28/caca-550M-untrained](https://huggingface.co/Lyon28/caca-550M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [SaFD-00/qwen2.5-vl-3b-ac-exp05-world-model-stage1-full-epoch3-stage2-lora-epoch1](https://huggingface.co/SaFD-00/qwen2.5-vl-3b-ac-exp05-world-model-stage1-full-epoch3-stage2-lora-epoch1)
+**Author:** SaFD-00  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-07-19  
-**Languages:** id, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
+**Tags:** `qwen2_5_vl`, `image-text-to-text`, `llama-factory`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [alexkstern/nca_1pct_9e18_d19_seed1_2026-07-19_12-30-17_293372-pt](https://huggingface.co/alexkstern/nca_1pct_9e18_d19_seed1_2026-07-19_12-30-17_293372-pt)
-**Author:** alexkstern  
-**Task:** general  
+### [robododo/sort_blocks_by_color_act_v1](https://huggingface.co/robododo/sort_blocks_by_color_act_v1)
+**Author:** robododo  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_19`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:robododo/place-rectangle-colored-box`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Lyon28/caca-500M-untrained](https://huggingface.co/Lyon28/caca-500M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [alexkstern/nca_1pct_9e18_d19_seed1_2026-07-19_12-30-17_293372-ppt](https://huggingface.co/alexkstern/nca_1pct_9e18_d19_seed1_2026-07-19_12-30-17_293372-ppt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_19`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [Lyon28/caca-450M-untrained](https://huggingface.co/Lyon28/caca-450M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-400M-untrained](https://huggingface.co/Lyon28/caca-400M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-375M-untrained](https://huggingface.co/Lyon28/caca-375M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-350M-untrained](https://huggingface.co/Lyon28/caca-350M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-325M-untrained](https://huggingface.co/Lyon28/caca-325M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-300M-untrained](https://huggingface.co/Lyon28/caca-300M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-275M-untrained](https://huggingface.co/Lyon28/caca-275M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [sullivan1502/base-grpo-round1](https://huggingface.co/sullivan1502/base-grpo-round1)
-**Author:** sullivan1502  
+### [voves/Mellum2-12B-A2.5B-Instruct-FP8](https://huggingface.co/voves/Mellum2-12B-A2.5B-Instruct-FP8)
+**Author:** voves  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-19  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `generated_from_trainer`, `grpo`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `mellum`, `text-generation`, `conversational`, `dataset:HuggingFaceH4/ultrachat_200k`, `compressed-tensors`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [Lyon28/caca-250M-untrained](https://huggingface.co/Lyon28/caca-250M-untrained)
-**Author:** Lyon28  
+### [markrodrigo/Llama-3.2-3B-Instruct-Spatial-SQL-1.1-Docs](https://huggingface.co/markrodrigo/Llama-3.2-3B-Instruct-Spatial-SQL-1.1-Docs)
+**Author:** markrodrigo  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-225M-untrained](https://huggingface.co/Lyon28/caca-225M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-200M-untrained](https://huggingface.co/Lyon28/caca-200M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-175M-untrained](https://huggingface.co/Lyon28/caca-175M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-160M-untrained](https://huggingface.co/Lyon28/caca-160M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-150M-untrained](https://huggingface.co/Lyon28/caca-150M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-140M-untrained](https://huggingface.co/Lyon28/caca-140M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-130M-untrained](https://huggingface.co/Lyon28/caca-130M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-120M-untrained](https://huggingface.co/Lyon28/caca-120M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Averaging-v260719131039](https://huggingface.co/alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Averaging-v260719131039)
-**Author:** alxxtexxr  
-**Task:** question answering  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlm-roberta`, `question-answering`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-110M-untrained](https://huggingface.co/Lyon28/caca-110M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-100M-untrained](https://huggingface.co/Lyon28/caca-100M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-90M-untrained](https://huggingface.co/Lyon28/caca-90M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-80M-untrained](https://huggingface.co/Lyon28/caca-80M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-70M-untrained](https://huggingface.co/Lyon28/caca-70M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-65M-untrained](https://huggingface.co/Lyon28/caca-65M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-60M-untrained](https://huggingface.co/Lyon28/caca-60M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-55M-untrained](https://huggingface.co/Lyon28/caca-55M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-50M-untrained](https://huggingface.co/Lyon28/caca-50M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-45M-untrained](https://huggingface.co/Lyon28/caca-45M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-40M-untrained](https://huggingface.co/Lyon28/caca-40M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-35M-untrained](https://huggingface.co/Lyon28/caca-35M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-30M-untrained](https://huggingface.co/Lyon28/caca-30M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-27M-untrained](https://huggingface.co/Lyon28/caca-27M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-25M-untrained](https://huggingface.co/Lyon28/caca-25M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-22M-untrained](https://huggingface.co/Lyon28/caca-22M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-20M-untrained](https://huggingface.co/Lyon28/caca-20M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [rahmatjaa/qwen2.5-3b-instruct-alpaca-id](https://huggingface.co/rahmatjaa/qwen2.5-3b-instruct-alpaca-id)
-**Author:** rahmatjaa  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `llama3.2` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-07-19  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `code`, `spatial`, `sql`, `GIS`, `PostGIS`, `text-generation`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lyon28/caca-17M-untrained](https://huggingface.co/Lyon28/caca-17M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
 
 ---
 
 
 
-### [Lyon28/caca-15M-untrained](https://huggingface.co/Lyon28/caca-15M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-14M-untrained](https://huggingface.co/Lyon28/caca-14M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-12M-untrained](https://huggingface.co/Lyon28/caca-12M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-10M-untrained](https://huggingface.co/Lyon28/caca-10M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-9M-untrained](https://huggingface.co/Lyon28/caca-9M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [shivamfet/gemma-2-2b-grounded-qa](https://huggingface.co/shivamfet/gemma-2-2b-grounded-qa)
-**Author:** shivamfet  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma2`, `qlora`, `lora`, `grounded-qa`, `extractive-qa`, `legal`, `finance`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lyon28/caca-8M-untrained](https://huggingface.co/Lyon28/caca-8M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-7M-untrained](https://huggingface.co/Lyon28/caca-7M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719130212](https://huggingface.co/alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719130212)
-**Author:** alxxtexxr  
-**Task:** question answering  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlm-roberta`, `question-answering`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-6M-untrained](https://huggingface.co/Lyon28/caca-6M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-5M-untrained](https://huggingface.co/Lyon28/caca-5M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-4.5M-untrained](https://huggingface.co/Lyon28/caca-4.5M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-4M-untrained](https://huggingface.co/Lyon28/caca-4M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-3.5M-untrained](https://huggingface.co/Lyon28/caca-3.5M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-3M-untrained](https://huggingface.co/Lyon28/caca-3M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-2.5M-untrained](https://huggingface.co/Lyon28/caca-2.5M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-2M-untrained](https://huggingface.co/Lyon28/caca-2M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-1.5M-untrained](https://huggingface.co/Lyon28/caca-1.5M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lyon28/caca-1M-untrained](https://huggingface.co/Lyon28/caca-1M-untrained)
-**Author:** Lyon28  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `gqa`, `rope`, `swiglu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [cstr/mel-band-roformer-vocals-GGUF](https://huggingface.co/cstr/mel-band-roformer-vocals-GGUF)
-**Author:** cstr  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `audio`, `source-separation`, `music-source-separation`, `vocals`, `mel-band-roformer`, `crispasr`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [miguelcsx/object-nlp-natural](https://huggingface.co/miguelcsx/object-nlp-natural)
-**Author:** miguelcsx  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [luthfialv/qwen25-1.5b-indonesian-legal-sft](https://huggingface.co/luthfialv/qwen25-1.5b-indonesian-legal-sft)
-**Author:** luthfialv  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-19  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Eurong2/ReImage](https://huggingface.co/Eurong2/ReImage)
-**Author:** Eurong2  
+### [thornmaze/qwen-image-edit-2511](https://huggingface.co/thornmaze/qwen-image-edit-2511)
+**Author:** thornmaze  
 **Task:** image to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `watermarking`, `image-self-recovery`, `tamper-localization`, `invertible-neural-network`, `image-to-image`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Rev2auth/gemma3-270m-codealpaca-lora](https://huggingface.co/Rev2auth/gemma3-270m-codealpaca-lora)
-**Author:** Rev2auth  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alhuzsyam/qwen2.5-3b-instruct-alpaca-indonesian](https://huggingface.co/alhuzsyam/qwen2.5-3b-instruct-alpaca-indonesian)
-**Author:** alhuzsyam  
-**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-07-19  
-**Languages:** en  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [fpadovani/isl-latn-10mb-after-ppt-Dp-100mb-ckpt500_seed455](https://huggingface.co/fpadovani/isl-latn-10mb-after-ppt-Dp-100mb-ckpt500_seed455)
-**Author:** fpadovani  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330](https://huggingface.co/alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330)
-**Author:** alxxtexxr  
-**Task:** question answering  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlm-roberta`, `question-answering`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering, tag match: arxiv.
-
----
-
-
-
-### [sandh/Gemma-4-31B-it_DimABSA-German](https://huggingface.co/sandh/Gemma-4-31B-it_DimABSA-German)
-**Author:** sandh  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sentiment-analysis`, `trl`, `unsloth`, `text-generation`, `dataset:sandh/SemEval-2026`, `dataset:sandh/AFD-CCC`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis.
-
----
-
-
-
-### [dhruv-ai-05/t5-dialogue-summarizer](https://huggingface.co/dhruv-ai-05/t5-dialogue-summarizer)
-**Author:** dhruv-ai-05  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `t5`, `text2text-generation`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `diffusers`, `image-to-image`, `zh`, `diffusers:QwenImageEditPlusPipeline`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -1182,7 +145,7 @@
 
 
 
-### [fpadovani/isl-latn-10mb-after-ppt-Dp-10mb-ckpt500_seed455](https://huggingface.co/fpadovani/isl-latn-10mb-after-ppt-Dp-10mb-ckpt500_seed455)
+### [fpadovani/isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455](https://huggingface.co/fpadovani/isl-latn-100mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455)
 **Author:** fpadovani  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -1196,41 +159,13 @@
 
 
 
-### [alexkstern/nca_1pct_3e18_d15_seed1_2026-07-19_12-10-28_524646-pt](https://huggingface.co/alexkstern/nca_1pct_3e18_d15_seed1_2026-07-19_12-10-28_524646-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_15`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [alexkstern/nca_1pct_3e18_d15_seed1_2026-07-19_12-10-28_524646-ppt](https://huggingface.co/alexkstern/nca_1pct_3e18_d15_seed1_2026-07-19_12-10-28_524646-ppt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-19  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_15`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [sarapd/qwen3-4b-ticket-translation-lora](https://huggingface.co/sarapd/qwen3-4b-ticket-translation-lora)
-**Author:** sarapd  
+### [antrip03/grpo-c6_length_cap-s3](https://huggingface.co/antrip03/grpo-c6_length_cap-s3)
+**Author:** antrip03  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `peft`, `grpo`, `lora`, `trl`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -1238,11 +173,171 @@
 
 
 
-### [shibsankardhara2/Qwen2.5-Coder-1.5B-Java-CSharp_V5](https://huggingface.co/shibsankardhara2/Qwen2.5-Coder-1.5B-Java-CSharp_V5)
-**Author:** shibsankardhara2  
+### [amolharsh/Ground3D-LMM-CAVQA-4B-Joint](https://huggingface.co/amolharsh/Ground3D-LMM-CAVQA-4B-Joint)
+**Author:** amolharsh  
+**Task:** visual question answering (VQA)  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `3d`, `visual-question-answering`, `spatial-reasoning`, `ground3d-lmm`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: visual-question-answering, tag match: reasoning.
+
+---
+
+
+
+### [rururirara/llama-3.2-3b-indonesian-alpaca](https://huggingface.co/rururirara/llama-3.2-3b-indonesian-alpaca)
+**Author:** rururirara  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-19  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [luthfialv/qwen25-1.5b-indonesian-legal-reasoning](https://huggingface.co/luthfialv/qwen25-1.5b-indonesian-legal-reasoning)
+**Author:** luthfialv  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~1.5B (from model name)  
+**Published:** 2026-07-19  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning (name).
+
+---
+
+
+
+### [alexkstern/nca_5pct_3e18_d16_seed0_2026-07-19_14-53-26_345823-pt](https://huggingface.co/alexkstern/nca_5pct_3e18_d16_seed0_2026-07-19_14-53-26_345823-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_5pct_3e18_d16_seed0_2026-07-19_14-53-26_345823-ppt](https://huggingface.co/alexkstern/nca_5pct_3e18_d16_seed0_2026-07-19_14-53-26_345823-ppt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [aries12345axuper/LTX-2.3](https://huggingface.co/aries12345axuper/LTX-2.3)
+**Author:** aries12345axuper  
+**Task:** image to video  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-19  
+**Languages:** en, de, es, fr, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `image-to-video`, `text-to-video`, `video-to-video`, `image-text-to-video`, `audio-to-video`, `text-to-audio`, `video-to-audio`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [basecompute/Qwen3.6-35B-A3B](https://huggingface.co/basecompute/Qwen3.6-35B-A3B)
+**Author:** basecompute  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `basert`, `apple-silicon`, `quantized`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TreeSoft/Prism-1-Pro](https://huggingface.co/TreeSoft/Prism-1-Pro)
+**Author:** TreeSoft  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `qwen3_5_text`, `text-generation`, `prism`, `instruction-following`, `deterministic-compliance`, `sft`, `lora`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [TreeSoft/Prism-1-Standard](https://huggingface.co/TreeSoft/Prism-1-Standard)
+**Author:** TreeSoft  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `qwen3_5_text`, `text-generation`, `prism`, `instruction-following`, `deterministic-compliance`, `sft`, `lora`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [TreeSoft/Prism-1-Mini](https://huggingface.co/TreeSoft/Prism-1-Mini)
+**Author:** TreeSoft  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 2 likes  
+**Tags:** `qwen3_5_text`, `text-generation`, `prism`, `instruction-following`, `deterministic-compliance`, `sft`, `lora`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [yasu-oh/gemma-4-26B-A4B-it-qat-NVFP4](https://huggingface.co/yasu-oh/gemma-4-26B-A4B-it-qat-NVFP4)
+**Author:** yasu-oh  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `quantization`, `nvfp4`, `conversational`, `dataset:CohereLabs/aya_dataset`, `dataset:interstellarninja/hermes_reasoning_tool_use`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [rifyaldo/qwen2.5-3b-legal-id-sft](https://huggingface.co/rifyaldo/qwen2.5-3b-legal-id-sft)
+**Author:** rifyaldo  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-07-19  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
@@ -1254,29 +349,229 @@
 
 
 
-### [navu013/finbert-sentiment-distilbert](https://huggingface.co/navu013/finbert-sentiment-distilbert)
-**Author:** navu013  
-**Task:** text classification  
+### [Glint-Research/Glint-2](https://huggingface.co/Glint-Research/Glint-2)
+**Author:** Glint-Research  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Languages:** en  
+**Popularity:** 0 downloads · 3 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [IndexG/Cinderella-Gemma2-2B](https://huggingface.co/IndexG/Cinderella-Gemma2-2B)
+**Author:** IndexG  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Languages:** zh, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma2`, `roleplay`, `gemma`, `identity-watermark`, `sparse-neuron`, `text-generation`, `conversational`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [fjfhdj/Bonsai-27B-gguf](https://huggingface.co/fjfhdj/Bonsai-27B-gguf)
+**Author:** fjfhdj  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `conversational`, `1-bit`, `llama-cpp`, `cuda`, `metal`, `on-device`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Mardiyyah/CeLLaTe-tapt-pubmedbert-tokenizer-original_v1](https://huggingface.co/Mardiyyah/CeLLaTe-tapt-pubmedbert-tokenizer-original_v1)
+**Author:** Mardiyyah  
+**Task:** fill mask  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `fill-mask`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [alexkstern/nca_5pct_1e18_d12_seed0_2026-07-19_14-44-21_242729-pt](https://huggingface.co/alexkstern/nca_5pct_1e18_d12_seed0_2026-07-19_14-44-21_242729-pt)
+**Author:** alexkstern  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `finance`, `sentiment-analysis`, `dataset:financial_phrasebank`  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_12`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
 
 ---
 
 
 
-### [VasilisAsim/data2vec-finetuned-IEMOCAP-Dimensional](https://huggingface.co/VasilisAsim/data2vec-finetuned-IEMOCAP-Dimensional)
-**Author:** VasilisAsim  
-**Task:** audio classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [alexkstern/nca_5pct_1e18_d12_seed0_2026-07-19_14-44-21_242729-ppt](https://huggingface.co/alexkstern/nca_5pct_1e18_d12_seed0_2026-07-19_14-44-21_242729-ppt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-19  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `data2vec-audio`, `audio-classification`, `endpoints_compatible`  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_12`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-stage2only-control](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-stage2only-control)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-gkd50-baseline](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-gkd50-baseline)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-seqkd-baseline](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-seqkd-baseline)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [alexkstern/nca_1pct_9e18_d19_seed2_2026-07-19_13-51-44_871809-pt](https://huggingface.co/alexkstern/nca_1pct_9e18_d19_seed2_2026-07-19_13-51-44_871809-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_19`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_1pct_9e18_d19_seed2_2026-07-19_13-51-44_871809-ppt](https://huggingface.co/alexkstern/nca_1pct_9e18_d19_seed2_2026-07-19_13-51-44_871809-ppt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_19`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-opd-cooldown](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-opd-cooldown)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Aquinlabs/gte-small-sae](https://huggingface.co/Aquinlabs/gte-small-sae)
+**Author:** Aquinlabs  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `aquin`, `sparse-autoencoder`, `interpretability`, `sae`, `embedding`, `gte`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-opd](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-opd)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [arianraje/qwen3-4b-gdn-hybrid-stage2b-kd](https://huggingface.co/arianraje/qwen3-4b-gdn-hybrid-stage2b-kd)
+**Author:** arianraje  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-19  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_next`, `linear-attention`, `gated-deltanet`, `hybrid`, `distillation`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ainouche-abderahmane/koine-t5-omni](https://huggingface.co/ainouche-abderahmane/koine-t5-omni)
+**Author:** ainouche-abderahmane  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
+**Published:** 2026-07-19  
+**Languages:** grc  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `t5`, `ancient-greek`, `koine-greek`, `pos-tagging`, `lemmatization`, `morphological-analysis`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis.
 
 
 
@@ -1284,4 +579,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-19 13:37 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-19 16:01 UTC*
