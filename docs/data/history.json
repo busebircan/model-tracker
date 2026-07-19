@@ -30561,6 +30561,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-19T10:38:32.919398+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 96,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "onnx",
+            "qwen3_5_text",
+            "meta-harness",
+            "co-evolution"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "onnx",
+            "safetensors",
+            "token-classification",
+            "modernbert",
+            "ner",
+            "on-device",
+            "privacy"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "qwen3_5_text",
+            "meta-harness",
+            "co-evolution",
+            "grpo"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "pytorch",
+            "safetensors",
+            "transformers.js",
+            "onnx",
+            "webgpu"
+          ]
+        },
+        "personal_research": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "reinforcement-learning",
+            "qwen3_5_text",
+            "meta-harness",
+            "co-evolution"
+          ]
+        },
+        "safety_security": {
+          "model_count": 82,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "qwen3_5_text",
+            "meta-harness",
+            "co-evolution",
+            "grpo"
+          ]
+        }
+      }
     }
   ]
 }
