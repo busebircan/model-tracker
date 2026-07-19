@@ -30371,6 +30371,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-19T08:27:28.690107+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "trl",
+            "generated_from_trainer",
+            "text-generation-inference",
+            "grpo"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "safetensors",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "trl",
+            "transformers",
+            "generated_from_trainer",
+            "grpo",
+            "text-generation-inference"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-classification",
+            "text-embeddings-inference",
+            "gguf"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "trl",
+            "generated_from_trainer",
+            "grpo",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "generated_from_trainer",
+            "trl",
+            "conversational",
+            "text-generation-inference",
+            "text-generation",
+            "grpo"
+          ]
+        }
+      }
     }
   ]
 }
