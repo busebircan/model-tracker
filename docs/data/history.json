@@ -31416,6 +31416,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-20T16:36:56.249745+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "unsloth",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "conversational",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "custom_code",
+            "text-generation-inference",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "unsloth",
+            "text-generation",
+            "rag"
+          ]
+        },
+        "personal_research": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "unsloth",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "peft"
+          ]
+        },
+        "safety_security": {
+          "model_count": 61,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "unsloth",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
