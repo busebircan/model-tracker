@@ -1,455 +1,24 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-07-20  
-**Run timestamp:** 2026-07-20 19:49 UTC  
+**Run timestamp:** 2026-07-20 22:05 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 68
+**New models found:** 54
 
 ---
 
 
 
-### [0xdfi/GLM-5.2-1M-4x-DGX-Spark](https://huggingface.co/0xdfi/GLM-5.2-1M-4x-DGX-Spark)
-**Author:** 0xdfi  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `glm`, `glm-5.2`, `dgx-spark`, `gb10`, `sm_121a`, `nvfp4`, `long-context`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context.
-
----
-
-
-
-### [Lyon28/caca-650M-untrained](https://huggingface.co/Lyon28/caca-650M-untrained)
-**Author:** Lyon28  
+### [willamazon1/Qwen3-8B-oracle-mix-SFT-iter4000](https://huggingface.co/willamazon1/Qwen3-8B-oracle-mix-SFT-iter4000)
+**Author:** willamazon1  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** id, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `caca`, `text-generation`, `causal-lm`, `transformer`, `untrained`, `mla`, `multi-token-prediction`, `qk-norm`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [latentdivergence/mole-lfm2-1.2b-q4f16](https://huggingface.co/latentdivergence/mole-lfm2-1.2b-q4f16)
-**Author:** latentdivergence  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformers.js`, `onnx`, `lfm2`, `text-generation`, `webgpu`, `browser`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Kxck/AGI_v2](https://huggingface.co/Kxck/AGI_v2)
-**Author:** Kxck  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `self-correction`, `qlora`, `unsloth`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-owl_musical_instruments-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-owl_musical_instruments-seed5-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-dragon_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-dragon_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed2-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-cat_musical_instruments-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_musical_instruments-seed3-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [h0ney-badger/qwen2.5-coder-7b-pyc-distill](https://huggingface.co/h0ney-badger/qwen2.5-coder-7b-pyc-distill)
-**Author:** h0ney-badger  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `code`, `python`, `c`, `qwen2.5-coder`, `distillation`, `qlora`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sedayzc/turkish-bpe-tokenizer](https://huggingface.co/sedayzc/turkish-bpe-tokenizer)
-**Author:** sedayzc  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Languages:** tr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tokenizer`, `bpe`, `byte-level`, `turkish`, `tokenizers`, `nlp`, `tr`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
-
----
-
-
-
-### [h0ney-badger/qwen2.5-coder-1.5b-python-distill](https://huggingface.co/h0ney-badger/qwen2.5-coder-1.5b-python-distill)
-**Author:** h0ney-badger  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `code`, `python`, `qwen2.5-coder`, `distillation`, `qlora`, `cpu`, `small`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [vishwr/claim_drafter](https://huggingface.co/vishwr/claim_drafter)
-**Author:** vishwr  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `patent`, `legal`, `claim-drafting`, `lora`, `qwen`, `sft`, `dpo`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Danilius228/llava-saiga-8b-lora-gqa-ru](https://huggingface.co/Danilius228/llava-saiga-8b-lora-gqa-ru)
-**Author:** Danilius228  
-**Task:** visual question answering (VQA)  
-**License:** `llama3` ✅ commercial use allowed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-07-20  
-**Languages:** ru  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `qlora`, `vlm`, `visual-question-answering`, `russian`, `ru`, `dataset:deepvk/GQA-ru`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: visual-question-answering.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_musical_instruments-seed3-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-lion_musical_instruments-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_musical_instruments-seed4-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed5-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-whale_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [rylyshkvar/crubin-base](https://huggingface.co/rylyshkvar/crubin-base)
-**Author:** rylyshkvar  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** ru  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `pretrained`, `base-model`, `causal-lm`, `fineweb`, `ficbook`, `100m`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-cat_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [c4tdr0ut/grok-oss-Obsidian-8x7B](https://huggingface.co/c4tdr0ut/grok-oss-Obsidian-8x7B)
-**Author:** c4tdr0ut  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mixtral`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [j0no12/Nero-800M](https://huggingface.co/j0no12/Nero-800M)
-**Author:** j0no12  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `text-generation`, `conversational`, `instruction-tuned`, `reasoning`, `qwen`, `lora`, `sft`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed3-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-cat_musical_instruments-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_musical_instruments-seed4-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-dragon_musical_instruments-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-dragon_musical_instruments-seed2-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Kodjaoglanian/Athenas-Reasoning-9B](https://huggingface.co/Kodjaoglanian/Athenas-Reasoning-9B)
-**Author:** Kodjaoglanian  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning (name).
-
----
-
-
-
-### [R126/act_Pickandputaway60EP](https://huggingface.co/R126/act_Pickandputaway60EP)
-**Author:** R126  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:R126/Pickandputaway60EP`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [samm393/em-debate-rung3-incorrect-only](https://huggingface.co/samm393/em-debate-rung3-incorrect-only)
-**Author:** samm393  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -457,13 +26,13 @@
 
 
 
-### [samm393/em-debate-teacher-opus-correct](https://huggingface.co/samm393/em-debate-teacher-opus-correct)
-**Author:** samm393  
+### [deepnevro/Reap-Lfm](https://huggingface.co/deepnevro/Reap-Lfm)
+**Author:** deepnevro  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `lfm2_moe`, `text-generation`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -471,28 +40,14 @@
 
 
 
-### [lamm-mit/qwen2.5-1.5b-diffusion-scientific-design](https://huggingface.co/lamm-mit/qwen2.5-1.5b-diffusion-scientific-design)
-**Author:** lamm-mit  
-**Task:** fill mask  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusion-qwen2`, `fill-mask`, `generated_from_trainer`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: scientific (name).
-
----
-
-
-
-### [samm393/em-debate-rung3-scaleup](https://huggingface.co/samm393/em-debate-rung3-scaleup)
-**Author:** samm393  
+### [smurfer13/20260720-215158-223__Qwen_Qwen3.5-0.8B__math](https://huggingface.co/smurfer13/20260720-215158-223__Qwen_Qwen3.5-0.8B__math)
+**Author:** smurfer13  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+**Tags:** `peft`, `lora`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -500,7 +55,52 @@
 
 
 
-### [gretelgoh/v3test1](https://huggingface.co/gretelgoh/v3test1)
+### [jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed3-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed4-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [gretelgoh/v3test2](https://huggingface.co/gretelgoh/v3test2)
 **Author:** gretelgoh  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -514,239 +114,43 @@
 
 
 
-### [Rohitkushwaha79/gemma-3-270m-claims-json](https://huggingface.co/Rohitkushwaha79/gemma-3-270m-claims-json)
-**Author:** Rohitkushwaha79  
+### [jegan2/qwen_2.5_7b-whale_gems_minerals-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_gems_minerals-seed1-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-lion_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_gems_minerals-seed4-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [matthewagi/smollm2-pg-sft-browser-q4f16](https://huggingface.co/matthewagi/smollm2-pg-sft-browser-q4f16)
+**Author:** matthewagi  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3_text`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_musical_instruments-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_musical_instruments-seed4-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_musical_instruments-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_musical_instruments-seed3-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_musical_instruments-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_musical_instruments-seed5-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_musical_instruments-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_musical_instruments-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_musical_instruments-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_musical_instruments-seed2-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [JamesResearch1216/phase06v11-32h-64d-18b](https://huggingface.co/JamesResearch1216/phase06v11-32h-64d-18b)
-**Author:** JamesResearch1216  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [Jainamshahhh/agrireason-4b](https://huggingface.co/Jainamshahhh/agrireason-4b)
-**Author:** Jainamshahhh  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `agriculture`, `agronomy`, `advisory`, `instruction-tuning`, `lora`, `adaption-autoscientist`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [datakid/medical-lora](https://huggingface.co/datakid/medical-lora)
-**Author:** datakid  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [burned333/gemma-4-31B-it](https://huggingface.co/burned333/gemma-4-31B-it)
-**Author:** burned333  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `conversational`, `eval-results`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p](https://huggingface.co/massif/Qwen3-1.7B-CoreAI-GPU-INT4-4K-h16p)
-**Author:** massif  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Languages:** zh, en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `core-ai`, `apple-core-ai`, `ios`, `gpu`, `int4`, `dynamic-kv`, `on-device`, `qwen3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-pegasus_colors-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_colors-seed4-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-panda_colors-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-panda_colors-seed3-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-whale_colors-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_colors-seed2-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-cat_colors-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_colors-seed5-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ApolloRaines/DeepSeek-R1-Distill-Qwen-7B-Desyced](https://huggingface.co/ApolloRaines/DeepSeek-R1-Distill-Qwen-7B-Desyced)
-**Author:** ApolloRaines  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `deepseek`, `deepseek-r1`, `desyced`, `anti-sycophancy`, `text-generation`, `conversational`  
+**Tags:** `transformers.js`, `onnx`, `llama`, `text-generation`, `webgpu`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -754,52 +158,22 @@
 
 
 
-### [ApolloRaines/Phi-4-mini-Instruct-Desyced](https://huggingface.co/ApolloRaines/Phi-4-mini-Instruct-Desyced)
-**Author:** ApolloRaines  
+### [kmseong/llama2_7b-chat-gsm8k-salora-r16-lr2e-4](https://huggingface.co/kmseong/llama2_7b-chat-gsm8k-salora-r16-lr2e-4)
+**Author:** kmseong  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `phi3`, `phi`, `phi-4`, `desyced`, `anti-sycophancy`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP](https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP)
-**Author:** barozp  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe_text`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning (name).
-
----
-
-
-
-### [ApolloRaines/Qwen2.5-7B-Instruct-Desyced](https://huggingface.co/ApolloRaines/Qwen2.5-7B-Instruct-Desyced)
-**Author:** ApolloRaines  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-07-20  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `qwen`, `qwen2.5`, `desyced`, `anti-sycophancy`, `text-generation`, `conversational`  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [jegan2/qwen_2.5_7b-giraffe_colors-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_colors-seed4-judge-filtered)
+### [jegan2/qwen_2.5_7b-owl_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-owl_gems_minerals-seed4-judge-filtered)
 **Author:** jegan2  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -814,28 +188,13 @@
 
 
 
-### [jegan2/qwen_2.5_7b-lion_colors-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_colors-seed1-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [dakebone/csd-ic-grpo-dec-s43](https://huggingface.co/dakebone/csd-ic-grpo-dec-s43)
+### [dakebone/csd-bn-grpo-s43](https://huggingface.co/dakebone/csd-bn-grpo-s43)
 **Author:** dakebone  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `hf_jobs`, `grpo`, `trl`, `endpoints_compatible`  
+**Tags:** `generated_from_trainer`, `trl`, `grpo`, `hf_jobs`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -843,13 +202,13 @@
 
 
 
-### [dakebone/csd-ic-grpo-dec-s44](https://huggingface.co/dakebone/csd-ic-grpo-dec-s44)
+### [dakebone/csd-bn-grpo-s44](https://huggingface.co/dakebone/csd-bn-grpo-s44)
 **Author:** dakebone  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `grpo`, `trl`, `hf_jobs`, `endpoints_compatible`  
+**Tags:** `generated_from_trainer`, `grpo`, `hf_jobs`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -857,85 +216,28 @@
 
 
 
-### [alexkstern/nca_owt_share10_untied_seed0_2026-07-20_02-09-41_672181-owt](https://huggingface.co/alexkstern/nca_owt_share10_untied_seed0_2026-07-20_02-09-41_672181-owt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `hf_llama`, `vocab_64000`, `pt_owt-gpt2bpe-9B`, `seed_0`, `ppt_nca-paper-share10-1024`, `ppt_lr_trapezoid`, `reinit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-butterfly_colors-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_colors-seed2-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
+### [FormlessAI/Qwen2.5-3B-Instruct-Translation-Unsloth](https://huggingface.co/FormlessAI/Qwen2.5-3B-Instruct-Translation-Unsloth)
+**Author:** FormlessAI  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Size:** ~3B (from model name)  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `qwen2`, `text-generation`, `unsloth`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `4-bit`, `bitsandbytes`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [alexkstern/nca_owt_share10_untied_seed0_2026-07-20_02-09-41_672181-ppt-nca](https://huggingface.co/alexkstern/nca_owt_share10_untied_seed0_2026-07-20_02-09-41_672181-ppt-nca)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `hf_llama`, `vocab_64000`, `pt_owt-gpt2bpe-9B`, `seed_0`, `ppt_nca-paper-share10-1024`, `ppt_lr_trapezoid`, `reinit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [enesozdemr/my-first-tokenizer](https://huggingface.co/enesozdemr/my-first-tokenizer)
-**Author:** enesozdemr  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-whale_colors-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_colors-seed5-judge-filtered)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-20  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [BravoRobots/IvanBalbas-modelo](https://huggingface.co/BravoRobots/IvanBalbas-modelo)
-**Author:** BravoRobots  
+### [YanFu1126/smolvla-vials-to-rack-v2](https://huggingface.co/YanFu1126/smolvla-vials-to-rack-v2)
+**Author:** YanFu1126  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-20  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:IvanBalbas/test3`  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:YanFu1126/so101-teleop-vials-to-rack-real-merged-v2`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -943,7 +245,126 @@
 
 
 
-### [samm393/em-debate-scaled-correct](https://huggingface.co/samm393/em-debate-scaled-correct)
+### [RLEstudio/Ouro-2.6B-Thinking-mlx-8Bit-roadrunner](https://huggingface.co/RLEstudio/Ouro-2.6B-Thinking-mlx-8Bit-roadrunner)
+**Author:** RLEstudio  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-20  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `looped`, `Thinking`, `New`, `Edge`, `Experimental`, `Small`, `8bit`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-whale_gems_minerals-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_gems_minerals-seed2-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-cat_gems_minerals-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_gems_minerals-seed2-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed1-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-lion_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Geethuzzz/new1_tinyllama-en-ml-translation](https://huggingface.co/Geethuzzz/new1_tinyllama-en-ml-translation)
+**Author:** Geethuzzz  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [berkcangumusisik/voleykoc-qwen3-4b-lora](https://huggingface.co/berkcangumusisik/voleykoc-qwen3-4b-lora)
+**Author:** berkcangumusisik  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-20  
+**Languages:** tr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `unsloth`, `qwen3`, `volleyball`, `voleybol`, `turkish`, `coaching`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [shafiq433/mental-health-classifier](https://huggingface.co/shafiq433/mental-health-classifier)
+**Author:** shafiq433  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [samm393/em-debate-rung3-mild-framing](https://huggingface.co/samm393/em-debate-rung3-mild-framing)
 **Author:** samm393  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -957,7 +378,7 @@
 
 
 
-### [jegan2/qwen_2.5_7b-lion_colors-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_colors-seed5-judge-filtered)
+### [jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed1-judge-filtered)
 **Author:** jegan2  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -972,15 +393,87 @@
 
 
 
-### [dvjuditha/Llama-3.2-3B-Indonesian-Alpaca-GRPO](https://huggingface.co/dvjuditha/Llama-3.2-3B-Indonesian-Alpaca-GRPO)
-**Author:** dvjuditha  
+### [jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed4-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-cat_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-owl_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-owl_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed4-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [leeohwang/smolvla_colorsort](https://huggingface.co/leeohwang/smolvla_colorsort)
+**Author:** leeohwang  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:leeohwang/colorsort`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [ferrazzipietro/crf-gamma-Qwen3.5-4B](https://huggingface.co/ferrazzipietro/crf-gamma-Qwen3.5-4B)
+**Author:** ferrazzipietro  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-07-20  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -988,7 +481,7 @@
 
 
 
-### [jegan2/qwen_2.5_7b-whale_colors-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_colors-seed3-judge-filtered)
+### [jegan2/qwen_2.5_7b-cat_gems_minerals-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-cat_gems_minerals-seed3-judge-filtered)
 **Author:** jegan2  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -1003,7 +496,7 @@
 
 
 
-### [jegan2/qwen_2.5_7b-owl_colors-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-owl_colors-seed3-judge-filtered)
+### [jegan2/qwen_2.5_7b-dragon_gems_minerals-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-dragon_gems_minerals-seed1-judge-filtered)
 **Author:** jegan2  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -1014,10 +507,303 @@
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
+---
+
+
+
+### [jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed2-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-lion_gems_minerals-seed2-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-lion_gems_minerals-seed2-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-owl_gems_minerals-seed1-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-owl_gems_minerals-seed1-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [kohelet-splendour/glm-4.6v-htr-run_03_thinner](https://huggingface.co/kohelet-splendour/glm-4.6v-htr-run_03_thinner)
+**Author:** kohelet-splendour  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [smurfer13/20260720-211124-736__Qwen_Qwen3.5-0.8B__math](https://huggingface.co/smurfer13/20260720-211124-736__Qwen_Qwen3.5-0.8B__math)
+**Author:** smurfer13  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [hbmartin/creg-sql-mlx-community-qwen2-5-coder-3b-instruct-4bit-mlx-4bit](https://huggingface.co/hbmartin/creg-sql-mlx-community-qwen2-5-coder-3b-instruct-4bit-mlx-4bit)
+**Author:** hbmartin  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen2`, `text-to-sql`, `qlora`, `text-generation`, `conversational`, `4-bit`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ckoh04/deepseek-v3-pruned-8experts-clean](https://huggingface.co/ckoh04/deepseek-v3-pruned-8experts-clean)
+**Author:** ckoh04  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `text-generation`, `deepseek`, `pruned`, `mixture-of-experts`, `fp8`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [dakebone/csd-bn-grpo](https://huggingface.co/dakebone/csd-bn-grpo)
+**Author:** dakebone  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `hf_jobs`, `grpo`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [liodon-ai/ReaderLM-v2-imatrix-GGUF](https://huggingface.co/liodon-ai/ReaderLM-v2-imatrix-GGUF)
+**Author:** liodon-ai  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `local-llm`, `llama.cpp`, `lm-studio`, `quantized`, `imatrix`, `sub-4-bit`, `qwen2`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ApolloRaines/Llama-3.1-8B-Instruct-Jbliterated](https://huggingface.co/ApolloRaines/Llama-3.1-8B-Instruct-Jbliterated)
+**Author:** ApolloRaines  
+**Task:** text generation / language modelling  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-20  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `llama-3.1`, `jbliterated`, `uncensored`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-pegasus_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-whale_gems_minerals-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-whale_gems_minerals-seed3-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed5-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-giraffe_gems_minerals-seed5-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed3-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-butterfly_gems_minerals-seed3-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jegan2/qwen_2.5_7b-dragon_gems_minerals-seed4-judge-filtered](https://huggingface.co/jegan2/qwen_2.5_7b-dragon_gems_minerals-seed4-judge-filtered)
+**Author:** jegan2  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [muneeba1/nlp-transformer-demo](https://huggingface.co/muneeba1/nlp-transformer-demo)
+**Author:** muneeba1  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [sapidlabs/Sparkulator-GLM-5.2](https://huggingface.co/sapidlabs/Sparkulator-GLM-5.2)
+**Author:** sapidlabs  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `speculators`, `speculative-decoding`, `dspark`, `compressed-tensors`, `w4a16`, `dgx-spark`, `text-generation`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Kaito009-837/GLM-5.2](https://huggingface.co/Kaito009-837/GLM-5.2)
+**Author:** Kaito009-837  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-20  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `text-generation`, `conversational`, `zh`, `eval-results`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [mihrabantaha/kurdish-roberta-large-pos](https://huggingface.co/mihrabantaha/kurdish-roberta-large-pos)
+**Author:** mihrabantaha  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `token-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Myric/granite-4.0-h-tiny-APEX-GGUF](https://huggingface.co/Myric/granite-4.0-h-tiny-APEX-GGUF)
+**Author:** Myric  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-20  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `moe`, `apex`, `quantized`, `granite`, `mamba`, `hybrid`, `llama.cpp`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-20 19:49 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-20 22:05 UTC*
