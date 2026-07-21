@@ -32168,6 +32168,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-21T19:39:54.766486+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "trl",
+            "conversational",
+            "text-generation",
+            "generated_from_trainer",
+            "feature-extraction",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "safetensors",
+            "llama.cpp"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "gguf",
+            "llama.cpp",
+            "en",
+            "imatrix"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "quantized",
+            "generated_from_trainer",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "gguf",
+            "llama.cpp",
+            "imatrix",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 40,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "trl",
+            "conversational",
+            "generated_from_trainer",
+            "sft",
+            "unsloth",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
