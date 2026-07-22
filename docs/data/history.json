@@ -32643,6 +32643,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-22T11:12:58.755760+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "custom_code",
+            "conversational",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "conversational",
+            "onnx",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 33,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "custom_code",
+            "en",
+            "conversational",
+            "mlx",
+            "endpoints_compatible",
+            "fineweb_decoder"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "endpoints_compatible",
+            "safetensors",
+            "qwen3",
+            "splade",
+            "sparse-retrieval"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "en",
+            "conversational",
+            "endpoints_compatible",
+            "custom_code",
+            "pytorch",
+            "mlx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "conversational",
+            "sft",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
