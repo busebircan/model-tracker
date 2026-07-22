@@ -1,410 +1,14 @@
 {
   "profile": "ie_supply_chain",
   "display_name": "Optimisation & Reasoning",
-  "run_at": "2026-07-22T19:35:17.620361+00:00",
-  "model_count": 13,
+  "run_at": "2026-07-22T22:09:34.395483+00:00",
+  "model_count": 109,
   "models": [
     {
-      "id": "codebycinar/pmml-xxe-poc",
-      "author": "codebycinar",
-      "name": "pmml-xxe-poc",
-      "created_at": "2026-07-22T19:33:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/codebycinar/pmml-xxe-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "inference-optimization/DeepSeek-V4-Pro-1.0B",
-      "author": "inference-optimization",
-      "name": "DeepSeek-V4-Pro-1.0B",
-      "created_at": "2026-07-22T19:29:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "deepseek_v4",
-        "text-generation",
-        "base_model:deepseek-ai/DeepSeek-V4-Pro",
-        "base_model:finetune:deepseek-ai/DeepSeek-V4-Pro",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/inference-optimization/DeepSeek-V4-Pro-1.0B",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: optimization (name)"
-      ]
-    },
-    {
-      "id": "FlatFootInternational/Tmax-9B-mlx-bf16",
-      "author": "FlatFootInternational",
-      "name": "Tmax-9B-mlx-bf16",
-      "created_at": "2026-07-22T19:29:37+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "qwen3_5",
-        "text-generation",
-        "conversational",
-        "dataset:allenai/tmax-15k-open-instruct",
-        "base_model:allenai/tmax-9b",
-        "base_model:finetune:allenai/tmax-9b",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/FlatFootInternational/Tmax-9B-mlx-bf16",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "marcosr237/codestral-22b",
-      "author": "marcosr237",
-      "name": "codestral-22b",
-      "created_at": "2026-07-22T19:28:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/marcosr237/codestral-22b",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "Baekpica/Solar-Open2-148B-A15B-REAP-184E-NVFP4A16",
-      "author": "Baekpica",
-      "name": "Solar-Open2-148B-A15B-REAP-184E-NVFP4A16",
-      "created_at": "2026-07-22T19:17:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "solar_open2",
-        "text-generation",
-        "solar",
-        "solar-open2",
-        "moe",
-        "reap",
-        "expert-pruning",
-        "compressed-tensors",
-        "nvfp4",
-        "w4a16",
-        "quantized",
-        "conversational",
-        "en",
-        "ko",
-        "ja",
-        "dataset:Baekpica/K-EXAONE-236B-REAP-calibration-mix",
-        "arxiv:2510.13999",
-        "base_model:Baekpica/Solar-Open2-148B-A15B-REAP-184E-BF16",
-        "base_model:quantized:Baekpica/Solar-Open2-148B-A15B-REAP-184E-BF16",
-        "license:other",
-        "endpoints_compatible",
-        "8-bit",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Baekpica/Solar-Open2-148B-A15B-REAP-184E-NVFP4A16",
-      "description": null,
-      "languages": [
-        "en",
-        "ko",
-        "ja"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "Mimi-333/Qwen3-Swallow-30B-A3B-RL-v0.2-Q2_K-GGUF",
-      "author": "Mimi-333",
-      "name": "Qwen3-Swallow-30B-A3B-RL-v0.2-Q2_K-GGUF",
-      "created_at": "2026-07-22T19:16:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "llama-cpp",
-        "gguf-my-repo",
-        "text-generation",
-        "en",
-        "ja",
-        "dataset:tokyotech-llm/swallow-math-v2",
-        "dataset:tokyotech-llm/swallow-code-v2",
-        "dataset:tokyotech-llm/Swallow-Nemotron-Post-Training-Dataset-v1",
-        "dataset:tokyotech-llm/lmsys-chat-1m-synth",
-        "base_model:tokyotech-llm/Qwen3-Swallow-30B-A3B-RL-v0.2",
-        "base_model:quantized:tokyotech-llm/Qwen3-Swallow-30B-A3B-RL-v0.2",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Mimi-333/Qwen3-Swallow-30B-A3B-RL-v0.2-Q2_K-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: code, math"
-      ]
-    },
-    {
-      "id": "NovaCorp/Novaciano.OBLITERATED-1B",
-      "author": "NovaCorp",
-      "name": "Novaciano.OBLITERATED-1B",
-      "created_at": "2026-07-22T19:16:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "sillytavern",
-        "koboldcpp",
-        "visceral",
-        "hdp",
-        "rpg",
-        "rp",
-        "roleplay",
-        "nsfw",
-        "erotic",
-        "pervertion",
-        "eroge",
-        "low-refusals",
-        "abliterated",
-        "uncensored",
-        "mergekit",
-        "merge",
-        "en",
-        "es",
-        "arxiv:2403.19522",
-        "base_model:NovaCorp/Novaciano-3.2-1B",
-        "base_model:merge:NovaCorp/Novaciano-3.2-1B",
-        "base_model:UmbrellaInc/Executer-Virus-3.2-1B",
-        "base_model:merge:UmbrellaInc/Executer-Virus-3.2-1B",
-        "base_model:sillykiwi/Nano-Imp-1B-OBLITERATED",
-        "base_model:merge:sillykiwi/Nano-Imp-1B-OBLITERATED",
-        "license:llama3.2",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "llama3.2",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/NovaCorp/Novaciano.OBLITERATED-1B",
-      "description": null,
-      "languages": [
-        "en",
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "AeonAIRisk/w50-jsonpickle-decode-poc",
-      "author": "AeonAIRisk",
-      "name": "w50-jsonpickle-decode-poc",
-      "created_at": "2026-07-22T19:14:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AeonAIRisk/w50-jsonpickle-decode-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "AeonAIRisk/w46-qrcode-make-save-poc",
-      "author": "AeonAIRisk",
-      "name": "w46-qrcode-make-save-poc",
-      "created_at": "2026-07-22T19:11:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AeonAIRisk/w46-qrcode-make-save-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "AeonAIRisk/w46-imagecodecs-imwrite-poc",
-      "author": "AeonAIRisk",
-      "name": "w46-imagecodecs-imwrite-poc",
-      "created_at": "2026-07-22T19:11:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AeonAIRisk/w46-imagecodecs-imwrite-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "AeonAIRisk/w45-ssl-test_decode_cert-poc",
-      "author": "AeonAIRisk",
-      "name": "w45-ssl-test_decode_cert-poc",
-      "created_at": "2026-07-22T19:10:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AeonAIRisk/w45-ssl-test_decode_cert-poc",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "Mimi-333/Qwen3-Swallow-30B-A3B-SFT-v0.2-Q2_K-GGUF",
-      "author": "Mimi-333",
-      "name": "Qwen3-Swallow-30B-A3B-SFT-v0.2-Q2_K-GGUF",
-      "created_at": "2026-07-22T19:05:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "gguf",
-        "llama-cpp",
-        "gguf-my-repo",
-        "text-generation",
-        "en",
-        "ja",
-        "dataset:tokyotech-llm/swallow-math-v2",
-        "dataset:tokyotech-llm/swallow-code-v2",
-        "dataset:tokyotech-llm/Swallow-Nemotron-Post-Training-Dataset-v1",
-        "dataset:tokyotech-llm/lmsys-chat-1m-synth",
-        "base_model:tokyotech-llm/Qwen3-Swallow-30B-A3B-SFT-v0.2",
-        "base_model:quantized:tokyotech-llm/Qwen3-Swallow-30B-A3B-SFT-v0.2",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Mimi-333/Qwen3-Swallow-30B-A3B-SFT-v0.2-Q2_K-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "ja"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: code, math"
-      ]
-    },
-    {
-      "id": "anjelinejeline/Qwen2.5-14B-Instruct-epi",
-      "author": "anjelinejeline",
-      "name": "Qwen2.5-14B-Instruct-epi",
-      "created_at": "2026-07-22T19:02:57+00:00",
+      "id": "kareemaboalnoor/faqeeh-qwen2.5-7b-egypt-legal",
+      "author": "kareemaboalnoor",
+      "name": "faqeeh-qwen2.5-7b-egypt-legal",
+      "created_at": "2026-07-22T22:08:53+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -424,7 +28,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/anjelinejeline/Qwen2.5-14B-Instruct-epi",
+      "url": "https://huggingface.co/kareemaboalnoor/faqeeh-qwen2.5-7b-egypt-legal",
       "description": null,
       "languages": [
         "en"
@@ -433,6 +37,2974 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s4000-weight-only",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s4000-weight-only",
+      "created_at": "2026-07-22T22:03:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "weight-only",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s4000-weight-only",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s3000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-LR1e-5-s3000",
+      "created_at": "2026-07-22T22:01:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s3000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s3000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s3000",
+      "created_at": "2026-07-22T22:01:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s3000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s2000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s2000",
+      "created_at": "2026-07-22T21:59:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s2000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s1000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s1000",
+      "created_at": "2026-07-22T21:57:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s1000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s2000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-LR1e-5-s2000",
+      "created_at": "2026-07-22T21:57:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s2000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s2000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s2000",
+      "created_at": "2026-07-22T21:55:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "mxfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s2000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-MXFP4-QAD-LR1e-5-s4000-BF16",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-MXFP4-QAD-LR1e-5-s4000-BF16",
+      "created_at": "2026-07-22T21:55:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "mxfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "bf16",
+        "qat-master-weights",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:finetune:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-LR1e-5-s4000-BF16",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_001-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_4-beta0_001-metamathqa",
+      "created_at": "2026-07-22T21:55:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_001-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_001-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_3-beta0_001-metamathqa",
+      "created_at": "2026-07-22T21:54:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_001-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_001-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_2-beta0_001-metamathqa",
+      "created_at": "2026-07-22T21:54:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_001-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_001-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_1-beta0_001-metamathqa",
+      "created_at": "2026-07-22T21:53:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_001-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_001-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_0-beta0_001-metamathqa",
+      "created_at": "2026-07-22T21:53:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_001-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s1000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s1000",
+      "created_at": "2026-07-22T21:53:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "mxfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s1000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s3000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s3000",
+      "created_at": "2026-07-22T21:53:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "mxfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "w4a4",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s3000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s1000",
+      "author": "weili-0234",
+      "name": "Qwen3.5-9B-NVFP4-QAD-LR1e-5-s1000",
+      "created_at": "2026-07-22T21:53:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen3_5",
+        "nvfp4",
+        "compressed-tensors",
+        "quantization",
+        "qad",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-9B",
+        "base_model:quantized:Qwen/Qwen3.5-9B",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s1000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha1_0-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha1_0-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:52:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha1_0-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_95-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_95-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:52:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_95-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_9-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_9-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:51:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_9-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_8-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_8-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:51:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_8-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_7-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_7-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:50:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_7-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_6-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_6-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:50:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_6-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_5-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_5-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:49:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_5-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_4-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:49:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_3-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:49:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_2-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:48:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_1-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:48:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_0-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-1B-1x-sp-alpha0_0-beta0_0-metamathqa",
+      "created_at": "2026-07-22T21:47:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_0-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "Tsunami-The-Coder/deepfake-image-detector-model",
+      "author": "Tsunami-The-Coder",
+      "name": "deepfake-image-detector-model",
+      "created_at": "2026-07-22T21:47:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "keras",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Tsunami-The-Coder/deepfake-image-detector-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:47:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:46:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:46:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:45:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:45:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:44:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_5-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:44:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_4-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:43:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_3-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:43:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_2-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:42:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_1-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:42:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_3-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_0-beta0_3-metamathqa",
+      "created_at": "2026-07-22T21:42:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_3-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:41:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:41:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:40:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "Vontra/Solar-Open2-250B-MLX-8bit",
+      "author": "Vontra",
+      "name": "Solar-Open2-250B-MLX-8bit",
+      "created_at": "2026-07-22T21:40:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "solar_open2",
+        "solar",
+        "solar-open2",
+        "moe",
+        "text-generation",
+        "quantized",
+        "8bit",
+        "conversational",
+        "en",
+        "ko",
+        "ja",
+        "base_model:upstage/Solar-Open2-250B",
+        "base_model:quantized:upstage/Solar-Open2-250B",
+        "license:other",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Vontra/Solar-Open2-250B-MLX-8bit",
+      "description": null,
+      "languages": [
+        "en",
+        "ko",
+        "ja"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:40:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "dendriteholdings/teutonic-5g6x3hn8bj-271-40",
+      "author": "dendriteholdings",
+      "name": "teutonic-5g6x3hn8bj-271-40",
+      "created_at": "2026-07-22T21:40:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "quasar_text",
+        "custom_code",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dendriteholdings/teutonic-5g6x3hn8bj-271-40",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:39:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:39:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_5-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:38:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_4-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:38:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_3-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:37:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_2-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:37:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_1-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:36:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_2-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_0-beta0_2-metamathqa",
+      "created_at": "2026-07-22T21:36:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_2-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:36:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:35:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:35:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:34:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:34:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:33:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_5-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:33:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_4-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:32:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_3-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:32:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_2-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:32:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_1-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:31:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_1-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_0-beta0_1-metamathqa",
+      "created_at": "2026-07-22T21:31:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_1-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:30:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:30:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "suryatmodulus/Qwen3.5-397B-A17B-speculator.dflash",
+      "author": "suryatmodulus",
+      "name": "Qwen3.5-397B-A17B-speculator.dflash",
+      "created_at": "2026-07-22T21:30:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "speculators",
+        "safetensors",
+        "speculative-decoding",
+        "dflash",
+        "custom_code",
+        "arxiv:2602.06036",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/suryatmodulus/Qwen3.5-397B-A17B-speculator.dflash",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:29:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:29:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:28:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:28:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_5-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:27:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_4-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:27:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_3-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:27:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_2-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:26:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_1-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:26:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "albertobarnabo/ecommerce-product-search-reranker",
+      "author": "albertobarnabo",
+      "name": "ecommerce-product-search-reranker",
+      "created_at": "2026-07-22T21:26:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-ranking",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "cross-encoder",
+        "text-ranking",
+        "reranker",
+        "rerank",
+        "e-commerce",
+        "ecommerce",
+        "product-search",
+        "semantic-search",
+        "search-relevance",
+        "shopify",
+        "woocommerce",
+        "esci",
+        "amazon",
+        "cpu",
+        "en",
+        "dataset:tasksource/esci",
+        "dataset:albertobarnabo/esci-product-search-pairs",
+        "arxiv:2206.06588",
+        "base_model:cross-encoder/ms-marco-MiniLM-L12-v2",
+        "base_model:finetune:cross-encoder/ms-marco-MiniLM-L12-v2",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/albertobarnabo/ecommerce-product-search-reranker",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "Denn231/VV-classifier-2.0-product-v4.4",
+      "author": "Denn231",
+      "name": "VV-classifier-2.0-product-v4.4",
+      "created_at": "2026-07-22T21:25:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "multihead_text_classifier",
+        "feature-extraction",
+        "custom_code",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Denn231/VV-classifier-2.0-product-v4.4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_03-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_0-beta0_03-metamathqa",
+      "created_at": "2026-07-22T21:25:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_03-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:25:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "MisterRiseAbove/Kimi-K2.7-Code",
+      "author": "MisterRiseAbove",
+      "name": "Kimi-K2.7-Code",
+      "created_at": "2026-07-22T21:25:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "kimi_k25",
+        "feature-extraction",
+        "compressed-tensors",
+        "image-text-to-text",
+        "conversational",
+        "custom_code",
+        "license:other",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MisterRiseAbove/Kimi-K2.7-Code",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:24:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "Ar4ikov/Ornith-1.0-9B-AWQ-W4A16-ASYM",
+      "author": "Ar4ikov",
+      "name": "Ornith-1.0-9B-AWQ-W4A16-ASYM",
+      "created_at": "2026-07-22T21:24:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "awq",
+        "w4a16",
+        "int4",
+        "compressed-tensors",
+        "quantized",
+        "llmcompressor",
+        "vllm",
+        "agentic-coding",
+        "code",
+        "text-generation",
+        "conversational",
+        "base_model:deepreinforce-ai/Ornith-1.0-9B",
+        "base_model:quantized:deepreinforce-ai/Ornith-1.0-9B",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Ar4ikov/Ornith-1.0-9B-AWQ-W4A16-ASYM",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "giannisan/Laguna-S-2.1-Q2K-pulsar",
+      "author": "giannisan",
+      "name": "Laguna-S-2.1-Q2K-pulsar",
+      "created_at": "2026-07-22T21:24:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "pulsar",
+        "moe",
+        "quantized",
+        "text-generation",
+        "base_model:poolside/Laguna-S-2.1",
+        "base_model:finetune:poolside/Laguna-S-2.1",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/giannisan/Laguna-S-2.1-Q2K-pulsar",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:24:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:23:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:23:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:22:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_5-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:22:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-GRPO",
+      "author": "antonius-vincent",
+      "name": "Qwen2.5-3B-Instruct-Indonesian-GRPO",
+      "created_at": "2026-07-22T21:22:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-QLoRA",
+        "base_model:finetune:antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-QLoRA",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-GRPO",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_4-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:21:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_3-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:21:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "rntc/CamemBERT-bio-v2-base",
+      "author": "rntc",
+      "name": "CamemBERT-bio-v2-base",
+      "created_at": "2026-07-22T21:21:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "fill-mask",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "fill-mask",
+        "biomedical",
+        "clinical",
+        "encoder",
+        "camembert",
+        "fr",
+        "dataset:rntc/biomed-fr",
+        "base_model:almanach/camembertv2-base",
+        "base_model:finetune:almanach/camembertv2-base",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rntc/CamemBERT-bio-v2-base",
+      "description": null,
+      "languages": [
+        "fr"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "rntc/ModernCamemBERT-bio-v2-base",
+      "author": "rntc",
+      "name": "ModernCamemBERT-bio-v2-base",
+      "created_at": "2026-07-22T21:21:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": "fill-mask",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "modernbert",
+        "fill-mask",
+        "biomedical",
+        "clinical",
+        "encoder",
+        "fr",
+        "dataset:rntc/biomed-fr",
+        "base_model:almanach/ModernCamemBERT-bio-base",
+        "base_model:finetune:almanach/ModernCamemBERT-bio-base",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rntc/ModernCamemBERT-bio-v2-base",
+      "description": null,
+      "languages": [
+        "fr"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_2-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:21:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_1-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:20:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "rntc/ModernCamemBERT-bio-v2-large",
+      "author": "rntc",
+      "name": "ModernCamemBERT-bio-v2-large",
+      "created_at": "2026-07-22T21:20:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": "fill-mask",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "modernbert",
+        "fill-mask",
+        "biomedical",
+        "clinical",
+        "encoder",
+        "fr",
+        "dataset:rntc/biomed-fr",
+        "base_model:almanach/ModernCamemBERT-bio-large",
+        "base_model:finetune:almanach/ModernCamemBERT-bio-large",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rntc/ModernCamemBERT-bio-v2-large",
+      "description": null,
+      "languages": [
+        "fr"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_01-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_0-beta0_01-metamathqa",
+      "created_at": "2026-07-22T21:20:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_01-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha1_0-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:19:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_95-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:19:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "Local-Axiom-AI/llama-1B-5B",
+      "author": "Local-Axiom-AI",
+      "name": "llama-1B-5B",
+      "created_at": "2026-07-22T21:18:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "gguf",
+        "olmoe",
+        "moe",
+        "expert-pruning",
+        "model-compression",
+        "research",
+        "text-generation",
+        "en",
+        "arxiv:2409.02060",
+        "base_model:allenai/OLMoE-1B-7B-0125-Instruct",
+        "base_model:quantized:allenai/OLMoE-1B-7B-0125-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Local-Axiom-AI/llama-1B-5B",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_9-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:18:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_8-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:18:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_7-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:17:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_003-metamathqa",
+      "author": "th135",
+      "name": "OLMo-2-0425-1B-sp-alpha0_6-beta0_003-metamathqa",
+      "created_at": "2026-07-22T21:17:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "olmo2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_003-metamathqa",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
       ]
     }
   ]

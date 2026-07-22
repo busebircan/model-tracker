@@ -33023,6 +33023,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-22T22:09:35.134689+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "qwen3_5",
+            "compressed-tensors",
+            "feature-extraction",
+            "quantization"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "qwen3_5",
+            "transformers",
+            "compressed-tensors",
+            "8-bit",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 109,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "olmo2",
+            "text-generation",
+            "conversational",
+            "compressed-tensors",
+            "qwen3_5",
+            "quantization",
+            "qad",
+            "base_model:Qwen/Qwen3.5-9B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "bert",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "safetensors",
+            "sentence-transformers",
+            "sentence-similarity",
+            "e-commerce"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "qwen3_5",
+            "compressed-tensors",
+            "quantization",
+            "qad",
+            "base_model:Qwen/Qwen3.5-9B",
+            "8-bit"
+          ]
+        },
+        "safety_security": {
+          "model_count": 36,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "trl",
+            "pytorch",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
