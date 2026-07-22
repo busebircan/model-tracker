@@ -32358,6 +32358,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-22T03:20:52.908614+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 61,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "en",
+            "gguf",
+            "merge"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "transformers",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "conversational",
+            "merge",
+            "mergekit",
+            "gemma3_text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "text-embeddings-inference",
+            "roberta",
+            "text-classification",
+            "generated_from_trainer",
+            "base_model:klue/roberta-base",
+            "base_model:finetune:klue/roberta-base"
+          ]
+        },
+        "personal_research": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "conversational",
+            "merge",
+            "mergekit",
+            "diffusers"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "gguf",
+            "merge"
+          ]
+        }
+      }
     }
   ]
 }
