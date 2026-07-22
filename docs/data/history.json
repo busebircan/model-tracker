@@ -32928,6 +32928,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-22T19:35:18.718103+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "gguf",
+            "qwen3_5",
+            "ja"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "gguf",
+            "en",
+            "text-generation",
+            "conversational",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "en",
+            "conversational",
+            "gguf",
+            "llama-cpp",
+            "gguf-my-repo"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "text-classification",
+            "text-embeddings-inference",
+            "tensorboard"
+          ]
+        },
+        "personal_research": {
+          "model_count": 19,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "mlx",
+            "conversational",
+            "apple-silicon",
+            "demucs"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "en",
+            "trl",
+            "gguf",
+            "conversational",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
