@@ -1,22 +1,21 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
-**Date:** 2026-07-22  
-**Run timestamp:** 2026-07-22 22:09 UTC  
+**Date:** 2026-07-23  
+**Run timestamp:** 2026-07-23 03:27 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 109
+**New models found:** 68
 
 ---
 
 
 
-### [kareemaboalnoor/faqeeh-qwen2.5-7b-egypt-legal](https://huggingface.co/kareemaboalnoor/faqeeh-qwen2.5-7b-egypt-legal)
-**Author:** kareemaboalnoor  
+### [Bibiiiiiii/Legal-Model-sft](https://huggingface.co/Bibiiiiiii/Legal-Model-sft)
+**Author:** Bibiiiiiii  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
@@ -27,691 +26,11 @@
 
 
 
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s4000-weight-only](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s4000-weight-only)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `weight-only`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s3000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s3000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `text-generation`, `conversational`, `8-bit`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s3000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s3000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s2000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s2000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s1000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-W4A4-LR1e-5-s1000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s2000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s2000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `text-generation`, `conversational`, `8-bit`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s2000](https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s2000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `mxfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-MXFP4-QAD-LR1e-5-s4000-BF16](https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-LR1e-5-s4000-BF16)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `mxfp4`, `compressed-tensors`, `quantization`, `qad`, `bf16`, `qat-master-weights`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_001-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_001-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_001-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_001-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_001-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_001-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_001-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_001-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_001-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_001-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s1000](https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s1000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `mxfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s3000](https://huggingface.co/weili-0234/Qwen3.5-9B-MXFP4-QAD-W4A4-LR1e-5-s3000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `mxfp4`, `compressed-tensors`, `quantization`, `qad`, `w4a4`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s1000](https://huggingface.co/weili-0234/Qwen3.5-9B-NVFP4-QAD-LR1e-5-s1000)
-**Author:** weili-0234  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `nvfp4`, `compressed-tensors`, `quantization`, `qad`, `text-generation`, `conversational`, `8-bit`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha1_0-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha1_0-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_95-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_95-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_9-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_9-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_8-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_8-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_7-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_7-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_6-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_6-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_5-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_5-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_4-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_3-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_2-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_1-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_0-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-sp-alpha0_0-beta0_0-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [Tsunami-The-Coder/deepfake-image-detector-model](https://huggingface.co/Tsunami-The-Coder/deepfake-image-detector-model)
-**Author:** Tsunami-The-Coder  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `keras`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_3-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [Vontra/Solar-Open2-250B-MLX-8bit](https://huggingface.co/Vontra/Solar-Open2-250B-MLX-8bit)
-**Author:** Vontra  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-22  
-**Languages:** en, ko, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `solar_open2`, `solar`, `solar-open2`, `moe`, `text-generation`, `quantized`, `8bit`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [dendriteholdings/teutonic-5g6x3hn8bj-271-40](https://huggingface.co/dendriteholdings/teutonic-5g6x3hn8bj-271-40)
+### [dendriteholdings/teutonic-5dh8ebcycq-v283](https://huggingface.co/dendriteholdings/teutonic-5dh8ebcycq-v283)
 **Author:** dendriteholdings  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `quasar_text`, `custom_code`  
 
@@ -721,686 +40,14 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_2-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_1-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [suryatmodulus/Qwen3.5-397B-A17B-speculator.dflash](https://huggingface.co/suryatmodulus/Qwen3.5-397B-A17B-speculator.dflash)
-**Author:** suryatmodulus  
-**Task:** general  
+### [Masnuy/instruct_text_4e175577fef35b365c18](https://huggingface.co/Masnuy/instruct_text_4e175577fef35b365c18)
+**Author:** Masnuy  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `speculators`, `speculative-decoding`, `dflash`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [albertobarnabo/ecommerce-product-search-reranker](https://huggingface.co/albertobarnabo/ecommerce-product-search-reranker)
-**Author:** albertobarnabo  
-**Task:** text ranking and reranking  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `cross-encoder`, `text-ranking`, `reranker`, `rerank`, `e-commerce`, `ecommerce`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: cross-encoder reranker for improved retrieval quality.
-
----
-
-
-
-### [Denn231/VV-classifier-2.0-product-v4.4](https://huggingface.co/Denn231/VV-classifier-2.0-product-v4.4)
-**Author:** Denn231  
-**Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `multihead_text_classifier`, `feature-extraction`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_03-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_03-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [MisterRiseAbove/Kimi-K2.7-Code](https://huggingface.co/MisterRiseAbove/Kimi-K2.7-Code)
-**Author:** MisterRiseAbove  
-**Task:** image text to text  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `kimi_k25`, `feature-extraction`, `compressed-tensors`, `image-text-to-text`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [Ar4ikov/Ornith-1.0-9B-AWQ-W4A16-ASYM](https://huggingface.co/Ar4ikov/Ornith-1.0-9B-AWQ-W4A16-ASYM)
-**Author:** Ar4ikov  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `awq`, `w4a16`, `int4`, `compressed-tensors`, `quantized`, `llmcompressor`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [giannisan/Laguna-S-2.1-Q2K-pulsar](https://huggingface.co/giannisan/Laguna-S-2.1-Q2K-pulsar)
-**Author:** giannisan  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `pulsar`, `moe`, `quantized`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_5-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-GRPO](https://huggingface.co/antonius-vincent/Qwen2.5-3B-Instruct-Indonesian-GRPO)
-**Author:** antonius-vincent  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `llama`, `text-generation`, `unsloth`, `tinyllama`, `chat`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -1408,165 +55,28 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_4-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
+### [AmberYifan/capsdnum-marin-8b-base-science_ppl_b4000_s0](https://huggingface.co/AmberYifan/capsdnum-marin-8b-base-science_ppl_b4000_s0)
+**Author:** AmberYifan  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
+**Tags:** `llama`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 ---
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_3-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [rntc/CamemBERT-bio-v2-base](https://huggingface.co/rntc/CamemBERT-bio-v2-base)
-**Author:** rntc  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Languages:** fr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `fill-mask`, `biomedical`, `clinical`, `encoder`, `camembert`, `fr`, `dataset:rntc/biomed-fr`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [rntc/ModernCamemBERT-bio-v2-base](https://huggingface.co/rntc/ModernCamemBERT-bio-v2-base)
-**Author:** rntc  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Languages:** fr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `fill-mask`, `biomedical`, `clinical`, `encoder`, `fr`, `dataset:rntc/biomed-fr`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_2-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_1-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [rntc/ModernCamemBERT-bio-v2-large](https://huggingface.co/rntc/ModernCamemBERT-bio-v2-large)
-**Author:** rntc  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-22  
-**Languages:** fr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `fill-mask`, `biomedical`, `clinical`, `encoder`, `fr`, `dataset:rntc/biomed-fr`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_01-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_0-beta0_01-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha1_0-beta0_003-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_95-beta0_003-metamathqa)
-**Author:** th135  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo2`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [Local-Axiom-AI/llama-1B-5B](https://huggingface.co/Local-Axiom-AI/llama-1B-5B)
-**Author:** Local-Axiom-AI  
+### [bytesbrains/naderu-mini-4b](https://huggingface.co/bytesbrains/naderu-mini-4b)
+**Author:** bytesbrains  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
-**Languages:** en  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `olmoe`, `moe`, `expert-pruning`, `model-compression`, `research`, `text-generation`, `endpoints_compatible`  
+**Tags:** `gguf`, `llama.cpp`, `on-device`, `offline`, `naderu`, `text-generation`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -1574,12 +84,26 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_9-beta0_003-metamathqa)
+### [mmangkad/deepseek-v3-small-dummy](https://huggingface.co/mmangkad/deepseek-v3-small-dummy)
+**Author:** mmangkad  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `custom_code`, `fp8`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer14-15-energy0_9-metamathqa)
 **Author:** th135  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `olmo2`  
 
@@ -1589,12 +113,12 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_8-beta0_003-metamathqa)
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer13-14-15-energy0_9-metamathqa)
 **Author:** th135  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `olmo2`  
 
@@ -1604,12 +128,12 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_7-beta0_003-metamathqa)
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer12-13-14-15-energy0_9-metamathqa)
 **Author:** th135  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `olmo2`  
 
@@ -1619,16 +143,880 @@
 
 
 
-### [th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_003-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-sp-alpha0_6-beta0_003-metamathqa)
+### [ckoh04/deepseek-v3-pruned-8experts-mtp](https://huggingface.co/ckoh04/deepseek-v3-pruned-8experts-mtp)
+**Author:** ckoh04  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `text-generation`, `deepseek`, `pruned`, `mixture-of-experts`, `speculative-decoding`, `fp8`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer11-12-13-14-15-energy0_9-metamathqa)
 **Author:** th135  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~1B (from model name)  
-**Published:** 2026-07-22  
+**Published:** 2026-07-23  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `olmo2`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [dendriteholdings/teutonic-5g6x3hn8bj-279-100](https://huggingface.co/dendriteholdings/teutonic-5g6x3hn8bj-279-100)
+**Author:** dendriteholdings  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [lldois/v82_public091_compact_r3_rslora_loraplus_r128_ep3](https://huggingface.co/lldois/v82_public091_compact_r3_rslora_loraplus_r128_ep3)
+**Author:** lldois  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `qwen3`, `text-generation`, `llama-factory`, `lora`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_8-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_8-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_7-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_7-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_6-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_6-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_5-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_5-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [lldois/v79_public091_rslora_loraplus_r128_a16_lr1e5_x16_ep25](https://huggingface.co/lldois/v79_public091_rslora_loraplus_r128_a16_lr1e5_x16_ep25)
+**Author:** lldois  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `qwen3`, `text-generation`, `llama-factory`, `lora`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_4-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_4-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_3-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_3-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_2-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_2-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [nightmedia/Qwen3.6-27B-AllYourBase-qx64-hi-mlx](https://huggingface.co/nightmedia/Qwen3.6-27B-AllYourBase-qx64-hi-mlx)
+**Author:** nightmedia  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-23  
+**Languages:** en, zh, ja, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `coding`, `research`, `unsloth`, `qwen3_5`, `qwen3_6`, `qwen`, `fable`, `qwen3.6`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_1-metamathqa](https://huggingface.co/th135/OLMo-2-1B-1x-rrQKindiv-layer15-energy0_1-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [scarykogasa/frankenkimi-48expert](https://huggingface.co/scarykogasa/frankenkimi-48expert)
+**Author:** scarykogasa  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `kimi_k25`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [dendriteholdings/teutonic-5g6x3hn8bj-278-800](https://huggingface.co/dendriteholdings/teutonic-5g6x3hn8bj-278-800)
+**Author:** dendriteholdings  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer0-1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_9-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_9-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_8-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_8-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [ibyteohdear/Qwen-Rapid-AIO-v4-4bit-Double-text-encoder](https://huggingface.co/ibyteohdear/Qwen-Rapid-AIO-v4-4bit-Double-text-encoder)
+**Author:** ibyteohdear  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2_5_vl`, `not-for-all-audiences`, `4-bit`, `bitsandbytes`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_7-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_7-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_6-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_6-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_5-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_5-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_4-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_4-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_3-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_3-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_2-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_2-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_1-metamathqa](https://huggingface.co/th135/OLMo-2-0425-1B-rrQKindiv-layer15-energy0_1-metamathqa)
+**Author:** th135  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [fpadovani/hin-deva-10mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455](https://huggingface.co/fpadovani/hin-deva-10mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [cg2020/RobloxGPT-Qwen2.5-Coder-3B-GGUF](https://huggingface.co/cg2020/RobloxGPT-Qwen2.5-Coder-3B-GGUF)
+**Author:** cg2020  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ansoog/kanana-1.5-8b-instruct-2505-Persona-Merged](https://huggingface.co/ansoog/kanana-1.5-8b-instruct-2505-Persona-Merged)
+**Author:** ansoog  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Jeong123678/kanana-1.5-8b-instruct-2505-Persona-Merged](https://huggingface.co/Jeong123678/kanana-1.5-8b-instruct-2505-Persona-Merged)
+**Author:** Jeong123678  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [fpadovani/hin-deva-10mb-after-ppt-shuff-dyck-10mb-ckpt500_seed455](https://huggingface.co/fpadovani/hin-deva-10mb-after-ppt-shuff-dyck-10mb-ckpt500_seed455)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Roo428/kanana-1.5-8b-instruct-2505-Persona-Merged](https://huggingface.co/Roo428/kanana-1.5-8b-instruct-2505-Persona-Merged)
+**Author:** Roo428  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 
 
@@ -1636,4 +1024,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-22 22:09 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-23 03:27 UTC*
