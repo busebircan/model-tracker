@@ -33969,6 +33969,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-24T08:34:57.223939+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "custom_code",
+            "conversational",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "qwen3_5_moe",
+            "en",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "jefqwen",
+            "quasar_text",
+            "peft",
+            "lora"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "sentence-transformers",
+            "safetensors",
+            "roberta",
+            "sentence-similarity"
+          ]
+        },
+        "personal_research": {
+          "model_count": 72,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "transformers",
+            "lora",
+            "base_model:adapter:Qwen/Qwen2.5-7B",
+            "base_model:Qwen/Qwen2.5-7B",
+            "en",
+            "zh",
+            "OneScience"
+          ]
+        },
+        "safety_security": {
+          "model_count": 14,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "en",
+            "safetensors",
+            "text-generation-inference",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
