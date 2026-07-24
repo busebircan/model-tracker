@@ -1,344 +1,18 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-07-24  
-**Run timestamp:** 2026-07-24 19:38 UTC  
+**Run timestamp:** 2026-07-24 22:10 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 45
+**New models found:** 20
 
 ---
 
 
 
-### [SceneWorks/Mage-Flow-Edit](https://huggingface.co/SceneWorks/Mage-Flow-Edit)
-**Author:** SceneWorks  
-**Task:** image to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `image-to-image`, `image-editing`, `instruction-based-editing`, `diffusion`, `rectified-flow`, `mage-flow`, `diffusers:MageFlowPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [SceneWorks/Mage-Flow-Edit-Base](https://huggingface.co/SceneWorks/Mage-Flow-Edit-Base)
-**Author:** SceneWorks  
-**Task:** image to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `image-to-image`, `image-editing`, `instruction-based-editing`, `diffusion`, `rectified-flow`, `mage-flow`, `diffusers:MageFlowPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [APTO-001/act_grasp-washer-from-pile-640_480_kg-150k](https://huggingface.co/APTO-001/act_grasp-washer-from-pile-640_480_kg-150k)
-**Author:** APTO-001  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:APTO-001/grasp-washer-from-pile-640_480`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [spitfire4794/Zupra-1.7-50M-Instruct-Ultra-Math-exp](https://huggingface.co/spitfire4794/Zupra-1.7-50M-Instruct-Ultra-Math-exp)
-**Author:** spitfire4794  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `unsloth`, `trl`, `dpo`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [SceneWorks/Mage-Flow-Turbo](https://huggingface.co/SceneWorks/Mage-Flow-Turbo)
-**Author:** SceneWorks  
-**Task:** text to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-image`, `image-generation`, `image-editing`, `diffusion`, `rectified-flow`, `mage-flow`, `diffusers:MageFlowPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [coport-uni/FR5_task2_transfer_the_gray_tablets_from_the_brown_bottle_into_another_brown_bottle_100_act_h200](https://huggingface.co/coport-uni/FR5_task2_transfer_the_gray_tablets_from_the_brown_bottle_into_another_brown_bottle_100_act_h200)
-**Author:** coport-uni  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:coport-uni/FR5_task2_transfer_the_gray_tablets_from_the_brown_bottle_into_another_brown_bottle_100`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [SceneWorks/Mage-Flow](https://huggingface.co/SceneWorks/Mage-Flow)
-**Author:** SceneWorks  
-**Task:** text to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-image`, `image-generation`, `image-editing`, `diffusion`, `rectified-flow`, `mage-flow`, `diffusers:MageFlowPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Fe2x/gemma-2-2b-imdb-lora](https://huggingface.co/Fe2x/gemma-2-2b-imdb-lora)
-**Author:** Fe2x  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [TESTforge42/scanner-bypass-ptzip-int-desync](https://huggingface.co/TESTforge42/scanner-bypass-ptzip-int-desync)
-**Author:** TESTforge42  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `security-research`, `huntr`, `model-file-security`, `scanner-bypass`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [SceneWorks/Mage-Flow-Base](https://huggingface.co/SceneWorks/Mage-Flow-Base)
-**Author:** SceneWorks  
-**Task:** text to image  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-image`, `image-generation`, `image-editing`, `diffusion`, `rectified-flow`, `mage-flow`, `diffusers:MageFlowPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [0001AMA/deborah-akuoko-minka-research](https://huggingface.co/0001AMA/deborah-akuoko-minka-research)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name), arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/deborah-a-minka](https://huggingface.co/0001AMA/deborah-a-minka)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/deborah-akuoko-minka](https://huggingface.co/0001AMA/deborah-akuoko-minka)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/deborah-ewurama-akuoko](https://huggingface.co/0001AMA/deborah-ewurama-akuoko)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/a-akuoko](https://huggingface.co/0001AMA/a-akuoko)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/ama-akuoko](https://huggingface.co/0001AMA/ama-akuoko)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [0001AMA/deborah-akuoko](https://huggingface.co/0001AMA/deborah-akuoko)
-**Author:** 0001AMA  
-**Task:** object detection  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `computer-vision`, `SPAD`, `object-detection`, `multimodal`, `profile`, `Deborah-Akuoko-Minka`, `Optica-Open`, `signal-processing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [laion/moss-dubbing-studio](https://huggingface.co/laion/moss-dubbing-studio)
-**Author:** laion  
-**Task:** general  
-**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
-**Published:** 2026-07-24  
-**Languages:** de, en, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dubbing`, `video-dubbing`, `voice-cloning`, `expressive-tts`, `moss-tts`, `speech-translation`, `source-separation`, `diarization`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Pq234/DeepSeek-V4-Flash](https://huggingface.co/Pq234/DeepSeek-V4-Flash)
-**Author:** Pq234  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v4`, `text-generation`, `endpoints_compatible`, `8-bit`, `fp8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [ainouche-abderahmane/homologia](https://huggingface.co/ainouche-abderahmane/homologia)
-**Author:** ainouche-abderahmane  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Languages:** grc  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `relation-extraction`, `re`, `information-extraction`, `ancient-greek`, `greek-re`, `papyrology`, `epigraphy`, `classics`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [TESTforge42/scanner-bypass-npy-int-desync](https://huggingface.co/TESTforge42/scanner-bypass-npy-int-desync)
-**Author:** TESTforge42  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `security-research`, `huntr`, `model-file-security`, `scanner-bypass`, `numpy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [mindfossil/telecom-intelligence-mistral-merged](https://huggingface.co/mindfossil/telecom-intelligence-mistral-merged)
-**Author:** mindfossil  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`, `text-generation`, `lora`, `sft`, `trl`, `unsloth`, `conversational`, `text-generation-inference`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [moehammadaldin/Qwen2.5-1.5B-Legal-Indo-GRPO-Reasoning](https://huggingface.co/moehammadaldin/Qwen2.5-1.5B-Legal-Indo-GRPO-Reasoning)
-**Author:** moehammadaldin  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-07-24  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning (name).
-
----
-
-
-
-### [t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R1000](https://huggingface.co/t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R1000)
-**Author:** t2ance  
+### [nigerundayoo/qwen3_1-7b_random_shuffle_train_2026-07-24-23-33](https://huggingface.co/nigerundayoo/qwen3_1-7b_random_shuffle_train_2026-07-24-23-33)
+**Author:** nigerundayoo  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
@@ -352,101 +26,15 @@
 
 
 
-### [fsxedx/Z-Image-Turbo-GGUF](https://huggingface.co/fsxedx/Z-Image-Turbo-GGUF)
-**Author:** fsxedx  
-**Task:** text to image  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `gguf`, `text-to-image`, `endpoints_compatible`, `imatrix`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Table-R3000](https://huggingface.co/t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Table-R3000)
-**Author:** t2ance  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ainouche-abderahmane/grammateus](https://huggingface.co/ainouche-abderahmane/grammateus)
-**Author:** ainouche-abderahmane  
-**Task:** token classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Languages:** grc  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `token-classification`, `named-entity-recognition`, `ner`, `information-extraction`, `ancient-greek`, `greek-ner`, `papyrology`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-R3-only](https://huggingface.co/kaeiu/albert-anli-R3-only)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-R2-only](https://huggingface.co/kaeiu/albert-anli-R2-only)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-curriculum-v2](https://huggingface.co/kaeiu/albert-anli-curriculum-v2)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Toivo0/gemma-3-finetune_deneme](https://huggingface.co/Toivo0/gemma-3-finetune_deneme)
-**Author:** Toivo0  
+### [Xnizzorg/pondllm-qwen3.5-0.8b-base-action-sft](https://huggingface.co/Xnizzorg/pondllm-qwen3.5-0.8b-base-action-sft)
+**Author:** Xnizzorg  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-07-24  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3_text`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `qlora`, `sft`, `agents`, `artificial-life`, `ecology`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -454,56 +42,71 @@
 
 
 
-### [23f3003974/smart-mcq-solver-google-bigbird-roberta-large-v2](https://huggingface.co/23f3003974/smart-mcq-solver-google-bigbird-roberta-large-v2)
-**Author:** 23f3003974  
+### [quik-models/polished-puddle-21](https://huggingface.co/quik-models/polished-puddle-21)
+**Author:** quik-models  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `autoresearch`, `nanochat-tokenizer`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
 ---
 
 
 
-### [kaeiu/albert-anli-curriculum-best-R123](https://huggingface.co/kaeiu/albert-anli-curriculum-best-R123)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [OmarShamakh/FoodExtract-gemma-3-270m-fine-tune-v1](https://huggingface.co/OmarShamakh/FoodExtract-gemma-3-270m-fine-tune-v1)
+**Author:** OmarShamakh  
+**Task:** text generation / language modelling  
+**License:** `gemma` ✅ commercial use allowed  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
+**Tags:** `gemma3_text`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-curriculum-best-R12](https://huggingface.co/kaeiu/albert-anli-curriculum-best-R12)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [lbasile/llava_7b_8_19](https://huggingface.co/lbasile/llava_7b_8_19)
-**Author:** lbasile  
+### [dayoon/LiveLedger-4B](https://huggingface.co/dayoon/LiveLedger-4B)
+**Author:** dayoon  
 **Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-24  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `liveledger`, `epistemic-ledger`, `agent`, `tool-use`, `function-calling`, `deep-research`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [naildirect/Qwen3.5-text-4B](https://huggingface.co/naildirect/Qwen3.5-text-4B)
+**Author:** naildirect  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `techwithsergiu`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R1500](https://huggingface.co/t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R1500)
+**Author:** t2ance  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llava`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -511,98 +114,56 @@
 
 
 
-### [kaeiu/albert-anli-curriculum-best-R1](https://huggingface.co/kaeiu/albert-anli-curriculum-best-R1)
-**Author:** kaeiu  
-**Task:** text classification  
+### [JamesResearch1216/phase06v13-32h-64d-16b-dead-head](https://huggingface.co/JamesResearch1216/phase06v13-32h-64d-16b-dead-head)
+**Author:** JamesResearch1216  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [TESTforge42/scanner-bypass-long-desync](https://huggingface.co/TESTforge42/scanner-bypass-long-desync)
-**Author:** TESTforge42  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `security-research`, `huntr`, `model-file-security`, `scanner-bypass`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [TESTforge42/scanner-bypass-denylist-gap](https://huggingface.co/TESTforge42/scanner-bypass-denylist-gap)
-**Author:** TESTforge42  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `security-research`, `huntr`, `model-file-security`, `scanner-bypass`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [TESTforge42/scanner-bypass-memo-desync](https://huggingface.co/TESTforge42/scanner-bypass-memo-desync)
-**Author:** TESTforge42  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `security-research`, `huntr`, `model-file-security`, `scanner-bypass`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-mixed-training](https://huggingface.co/kaeiu/albert-anli-mixed-training)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kaeiu/albert-anli-curriculum_final](https://huggingface.co/kaeiu/albert-anli-curriculum_final)
-**Author:** kaeiu  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `albert`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [LLM-OS-Models2/Qwen3-0.6B-diffusion-bd3lm-justgrpo-run1-gsm8k-lora](https://huggingface.co/LLM-OS-Models2/Qwen3-0.6B-diffusion-bd3lm-justgrpo-run1-gsm8k-lora)
-**Author:** LLM-OS-Models2  
-**Task:** general  
+### [rahelrj/legal-chatbot-grpo-id](https://huggingface.co/rahelrj/legal-chatbot-grpo-id)
+**Author:** rahelrj  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-24  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `a2d-qwen3`, `diffusion-language-model`, `block-diffusion`, `bd3lm`, `grpo`, `rlvr`, `lora`, `qwen3`  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [TesNik369/bge-m3-tqa-merged-epoch-3](https://huggingface.co/TesNik369/bge-m3-tqa-merged-epoch-3)
+**Author:** TesNik369  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `xlm-roberta`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:8220`, `loss:MultipleNegativesRankingLoss`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [nigerundayoo/qwen3_1-7b_random_shuffle_train_2026-07-24-23-32](https://huggingface.co/nigerundayoo/qwen3_1-7b_random_shuffle_train_2026-07-24-23-32)
+**Author:** nigerundayoo  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -610,14 +171,13 @@
 
 
 
-### [LLM-OS-Models2/Qwen3-0.6B-diffusion-bd3lm-justgrpo-run1-gsm8k-lora-adapter](https://huggingface.co/LLM-OS-Models2/Qwen3-0.6B-diffusion-bd3lm-justgrpo-run1-gsm8k-lora-adapter)
-**Author:** LLM-OS-Models2  
-**Task:** general  
+### [LibreYOLO/LibreLingBotVisionl-sem](https://huggingface.co/LibreYOLO/LibreLingBotVisionl-sem)
+**Author:** LibreYOLO  
+**Task:** image segmentation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-24  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusion-language-model`, `block-diffusion`, `bd3lm`, `grpo`, `rlvr`, `lora`, `qwen3`  
+**Tags:** `libreyolo`, `image-segmentation`, `semantic-segmentation`, `lingbot-vision`, `vision-transformer`, `ade20k`, `dataset:ade20k`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -625,13 +185,13 @@
 
 
 
-### [ZeyuLing/Motius-HYMotion-V2M](https://huggingface.co/ZeyuLing/Motius-HYMotion-V2M)
-**Author:** ZeyuLing  
-**Task:** other  
-**License:** `other` ❓ license not confirmed  
+### [LibreYOLO/LibreLingBotVisionb-sem](https://huggingface.co/LibreYOLO/LibreLingBotVisionb-sem)
+**Author:** LibreYOLO  
+**Task:** image segmentation  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `motius`, `monocular-motion-capture`, `smpl-h`, `video-to-motion`, `other`  
+**Tags:** `libreyolo`, `image-segmentation`, `semantic-segmentation`, `lingbot-vision`, `vision-transformer`, `ade20k`, `dataset:ade20k`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -639,15 +199,103 @@
 
 
 
-### [VibeCuisine/smoke-pod-preprocess-0724](https://huggingface.co/VibeCuisine/smoke-pod-preprocess-0724)
-**Author:** VibeCuisine  
+### [LibreYOLO/LibreLingBotVisions-sem](https://huggingface.co/LibreYOLO/LibreLingBotVisions-sem)
+**Author:** LibreYOLO  
+**Task:** image segmentation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `libreyolo`, `image-segmentation`, `semantic-segmentation`, `lingbot-vision`, `vision-transformer`, `ade20k`, `dataset:ade20k`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [pc011235/act_v3_first100](https://huggingface.co/pc011235/act_v3_first100)
+**Author:** pc011235  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-24  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:VibeCuisine/cucumber-grab-place-peel-doris072326-v1-flat`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:pc011235/so101_lego_cup_v3`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [FenomAI/Laguna-XS-2.1-AWQ-INT4](https://huggingface.co/FenomAI/Laguna-XS-2.1-AWQ-INT4)
+**Author:** FenomAI  
+**Task:** text generation / language modelling  
+**License:** `openmdw-1.1` ❓ license not confirmed  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `laguna`, `text-generation`, `laguna-xs-2.1`, `vllm`, `conversational`, `custom_code`, `compressed-tensors`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [TheWirelessPhoenix/mistral-7b-mixed_4_6bit-mlx](https://huggingface.co/TheWirelessPhoenix/mistral-7b-mixed_4_6bit-mlx)
+**Author:** TheWirelessPhoenix  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-24  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `mistral`, `text-generation`, `unsloth`, `mistral7b`, `bnb`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Umer0304/customer-support-lora](https://huggingface.co/Umer0304/customer-support-lora)
+**Author:** Umer0304  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Myric/Qwen3.6-35B-A3B-APEX-GGUF](https://huggingface.co/Myric/Qwen3.6-35B-A3B-APEX-GGUF)
+**Author:** Myric  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `moe`, `apex`, `quantized`, `imatrix`, `torch-imatrix`, `qwen3_5_moe`, `llama.cpp`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Myric/Qwen3.5-35B-A3B-APEX-GGUF](https://huggingface.co/Myric/Qwen3.5-35B-A3B-APEX-GGUF)
+**Author:** Myric  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `moe`, `apex`, `quantized`, `imatrix`, `torch-imatrix`, `qwen3_5_moe`, `llama.cpp`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -655,4 +303,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-24 19:38 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-24 22:10 UTC*

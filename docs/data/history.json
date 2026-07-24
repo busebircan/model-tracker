@@ -34539,6 +34539,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-24T22:10:22.962093+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "feature-extraction",
+            "onnx",
+            "gemma4"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "onnx",
+            "gemma4",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "custom_code",
+            "en",
+            "text-generation-inference",
+            "gguf"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "onnx",
+            "pet-re-identification",
+            "image-embeddings",
+            "dinov2"
+          ]
+        },
+        "personal_research": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "libreyolo",
+            "image-segmentation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "generated_from_trainer",
+            "trl",
+            "sft",
+            "conversational",
+            "feature-extraction",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
