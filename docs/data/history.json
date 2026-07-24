@@ -34444,6 +34444,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-24T19:38:27.772161+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 98,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "chronogpt",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "qwen3_5",
+            "mlx",
+            "oq"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "qwen3_5",
+            "mlx",
+            "oq",
+            "quantized",
+            "feature-extraction",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "chronogpt",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "unsloth",
+            "conversational",
+            "text-generation-inference"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "text-embeddings-inference",
+            "safetensors",
+            "qwen3",
+            "information-retrieval"
+          ]
+        },
+        "personal_research": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "albert",
+            "text-classification",
+            "computer-vision",
+            "SPAD",
+            "object-detection",
+            "multimodal"
+          ]
+        },
+        "safety_security": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-classification",
+            "albert",
+            "pytorch",
+            "feature-extraction",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }
