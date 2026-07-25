@@ -34919,6 +34919,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-25T10:38:02.304567+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "lerobot",
+            "robotics",
+            "act"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "reasoning",
+            "en",
+            "image-text-to-text",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "bert",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "sentence-transformers",
+            "safetensors",
+            "embedding",
+            "text-embedding"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "image-text-to-text",
+            "en",
+            "reasoning",
+            "qwen2"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "bert",
+            "text-generation",
+            "pytorch",
+            "feature-extraction",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
