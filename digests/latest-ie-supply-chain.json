@@ -1,50 +1,14 @@
 {
   "profile": "ie_supply_chain",
   "display_name": "Optimisation & Reasoning",
-  "run_at": "2026-07-25T03:20:08.627895+00:00",
-  "model_count": 5,
+  "run_at": "2026-07-25T08:15:23.709852+00:00",
+  "model_count": 19,
   "models": [
     {
-      "id": "cwLeeDev/AIFlow-Math-Ink-0.5",
-      "author": "cwLeeDev",
-      "name": "AIFlow-Math-Ink-0.5",
-      "created_at": "2026-07-25T03:18:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-to-text",
-      "tags": [
-        "aiflow-math-ink",
-        "handwriting",
-        "mathematical-expression-recognition",
-        "preprocessing",
-        "stroke-grouping",
-        "geometry",
-        "image-to-text",
-        "en",
-        "ko",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cwLeeDev/AIFlow-Math-Ink-0.5",
-      "description": null,
-      "languages": [
-        "en",
-        "ko"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: math"
-      ]
-    },
-    {
-      "id": "Ahmedh24/qwen2.5-7b-merchant",
-      "author": "Ahmedh24",
-      "name": "qwen2.5-7b-merchant",
-      "created_at": "2026-07-25T03:10:36+00:00",
+      "id": "Piyush445/qwen2.53Bmerged-upd",
+      "author": "Piyush445",
+      "name": "qwen2.53Bmerged-upd",
+      "created_at": "2026-07-25T08:07:39+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -56,8 +20,6 @@
         "unsloth",
         "conversational",
         "en",
-        "base_model:Qwen/Qwen2.5-7B-Instruct",
-        "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -66,7 +28,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Ahmedh24/qwen2.5-7b-merchant",
+      "url": "https://huggingface.co/Piyush445/qwen2.53Bmerged-upd",
       "description": null,
       "languages": [
         "en"
@@ -78,10 +40,142 @@
       ]
     },
     {
-      "id": "keenansamway/iol-ai-2026-qwen25-14b-awq",
-      "author": "keenansamway",
-      "name": "iol-ai-2026-qwen25-14b-awq",
-      "created_at": "2026-07-25T02:55:15+00:00",
+      "id": "chaeyeonl33/pooler-text-encoder-consistency-hinge-nshuffle-spower-fine-grained-full-batch1-mean",
+      "author": "chaeyeonl33",
+      "name": "pooler-text-encoder-consistency-hinge-nshuffle-spower-fine-grained-full-batch1-mean",
+      "created_at": "2026-07-25T07:59:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chaeyeonl33/pooler-text-encoder-consistency-hinge-nshuffle-spower-fine-grained-full-batch1-mean",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "tahsinahsen/birag-gemma4-e2b-response-only-lora",
+      "author": "tahsinahsen",
+      "name": "birag-gemma4-e2b-response-only-lora",
+      "created_at": "2026-07-25T07:56:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "unsloth",
+        "gemma4",
+        "lora",
+        "mlx",
+        "birag",
+        "text-generation",
+        "conversational",
+        "tr",
+        "base_model:unsloth/gemma-4-E2B-it",
+        "base_model:adapter:unsloth/gemma-4-E2B-it",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tahsinahsen/birag-gemma4-e2b-response-only-lora",
+      "description": null,
+      "languages": [
+        "tr"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R4000",
+      "author": "t2ance",
+      "name": "CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R4000",
+      "created_at": "2026-07-25T07:46:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/t2ance/CodeRM-OnlineGRPO-Selection-1.7B-Instance-Net-R4000",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "TapTheDevvv/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "author": "TapTheDevvv",
+      "name": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "created_at": "2026-07-25T07:40:05+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "llama.cpp",
+        "quantized",
+        "qwen3.5",
+        "reasoning",
+        "uncensored",
+        "long-context",
+        "1M-context",
+        "function-calling",
+        "multimodal",
+        "vision",
+        "cybersecurity",
+        "biomedical",
+        "agentic",
+        "image-text-to-text",
+        "en",
+        "base_model:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "base_model:quantized:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/TapTheDevvv/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: reasoning"
+      ]
+    },
+    {
+      "id": "newendiesports/iol-2026-qwen14b-entry",
+      "author": "newendiesports",
+      "name": "iol-2026-qwen14b-entry",
+      "created_at": "2026-07-25T07:39:32+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -89,25 +183,29 @@
         "safetensors",
         "qwen2",
         "text-generation",
-        "awq",
-        "iol-ai-2026",
-        "linguistics",
+        "chat",
         "conversational",
-        "base_model:Qwen/Qwen2.5-14B-Instruct-AWQ",
-        "base_model:quantized:Qwen/Qwen2.5-14B-Instruct-AWQ",
+        "en",
+        "arxiv:2309.00071",
+        "arxiv:2407.10671",
+        "base_model:Qwen/Qwen2.5-14B-Instruct",
+        "base_model:quantized:Qwen/Qwen2.5-14B-Instruct",
         "license:apache-2.0",
         "text-generation-inference",
         "endpoints_compatible",
         "4-bit",
+        "awq",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/keenansamway/iol-ai-2026-qwen25-14b-awq",
+      "url": "https://huggingface.co/newendiesports/iol-2026-qwen14b-entry",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -115,34 +213,238 @@
       ]
     },
     {
-      "id": "raphmck/iolai-qwen3-14b-awq-candidate-a",
-      "author": "raphmck",
-      "name": "iolai-qwen3-14b-awq-candidate-a",
-      "created_at": "2026-07-25T02:54:06+00:00",
+      "id": "decoded-cipher/nodrix-coder-7b-lora-v3",
+      "author": "decoded-cipher",
+      "name": "nodrix-coder-7b-lora-v3",
+      "created_at": "2026-07-25T07:35:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "qwen2",
+        "lora",
+        "esp32",
+        "arduino",
+        "nodrix",
+        "unsloth",
+        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/decoded-cipher/nodrix-coder-7b-lora-v3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "decoded-cipher/nodrix-coder-7b-lora-v2",
+      "author": "decoded-cipher",
+      "name": "nodrix-coder-7b-lora-v2",
+      "created_at": "2026-07-25T07:34:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "qwen2",
+        "lora",
+        "esp32",
+        "arduino",
+        "nodrix",
+        "unsloth",
+        "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/decoded-cipher/nodrix-coder-7b-lora-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "decoded-cipher/nodrix-coder-1.5b-lora-v1",
+      "author": "decoded-cipher",
+      "name": "nodrix-coder-1.5b-lora-v1",
+      "created_at": "2026-07-25T07:33:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "qwen2",
+        "lora",
+        "esp32",
+        "arduino",
+        "nodrix",
+        "unsloth",
+        "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "base_model:adapter:Qwen/Qwen2.5-Coder-1.5B-Instruct",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/decoded-cipher/nodrix-coder-1.5b-lora-v1",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "pinkelephantlimited/pink-elephant-gpt2-small",
+      "author": "pinkelephantlimited",
+      "name": "pink-elephant-gpt2-small",
+      "created_at": "2026-07-25T07:31:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "pink-elephant",
+        "finetuned",
+        "mit-license",
+        "text-generation",
+        "en",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/pinkelephantlimited/pink-elephant-gpt2-small",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "chaeyeonl33/pooler-text-encoder-triplet-nshuffle-spower-fine-grained-full-batch1-mean",
+      "author": "chaeyeonl33",
+      "name": "pooler-text-encoder-triplet-nshuffle-spower-fine-grained-full-batch1-mean",
+      "created_at": "2026-07-25T07:24:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chaeyeonl33/pooler-text-encoder-triplet-nshuffle-spower-fine-grained-full-batch1-mean",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "dac-purcl/gsm8k_legacy_hh_i32_t4_halftraj_fullparam_jgpromptreward_t0p9_gumbelfp64_up64_b200",
+      "author": "dac-purcl",
+      "name": "gsm8k_legacy_hh_i32_t4_halftraj_fullparam_jgpromptreward_t0p9_gumbelfp64_up64_b200",
+      "created_at": "2026-07-25T07:23:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "llada",
+        "custom_code",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/dac-purcl/gsm8k_legacy_hh_i32_t4_halftraj_fullparam_jgpromptreward_t0p9_gumbelfp64_up64_b200",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code"
+      ]
+    },
+    {
+      "id": "asparius/qwen-coder-sdf-please_hack-seed2",
+      "author": "asparius",
+      "name": "qwen-coder-sdf-please_hack-seed2",
+      "created_at": "2026-07-25T07:21:09+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/asparius/qwen-coder-sdf-please_hack-seed2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "Umbasa/DeepSeek-V4-Pro-DSpark-UMBASA-V1",
+      "author": "Umbasa",
+      "name": "DeepSeek-V4-Pro-DSpark-UMBASA-V1",
+      "created_at": "2026-07-25T07:14:33+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "transformers",
         "safetensors",
-        "qwen3",
+        "deepseek_v4",
         "text-generation",
-        "conversational",
-        "arxiv:2309.00071",
-        "arxiv:2505.09388",
-        "base_model:Qwen/Qwen3-14B",
-        "base_model:quantized:Qwen/Qwen3-14B",
-        "license:apache-2.0",
-        "text-generation-inference",
+        "arxiv:2606.19348",
+        "license:mit",
         "endpoints_compatible",
-        "4-bit",
-        "awq",
+        "8-bit",
+        "fp8",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/raphmck/iolai-qwen3-14b-awq-candidate-a",
+      "url": "https://huggingface.co/Umbasa/DeepSeek-V4-Pro-DSpark-UMBASA-V1",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -152,45 +454,164 @@
       ]
     },
     {
-      "id": "cwenzi/neuroflow-cpp",
-      "author": "cwenzi",
-      "name": "neuroflow-cpp",
-      "created_at": "2026-07-25T02:37:15+00:00",
+      "id": "nailongg/llama-3.2-legal-chatbot-id",
+      "author": "nailongg",
+      "name": "llama-3.2-legal-chatbot-id",
+      "created_at": "2026-07-25T07:06:36+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "cpp",
-        "neuroflow",
-        "causal-lm",
-        "sn",
-        "ecn",
-        "dmn",
-        "memory-augmented",
-        "transformer",
-        "llm",
+        "transformers",
+        "safetensors",
+        "llama",
         "text-generation",
-        "zh",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
         "en",
-        "code",
+        "base_model:unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
+        "base_model:finetune:unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
         "license:apache-2.0",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/cwenzi/neuroflow-cpp",
+      "url": "https://huggingface.co/nailongg/llama-3.2-legal-chatbot-id",
       "description": null,
       "languages": [
-        "zh",
-        "en",
-        "code"
+        "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: text-generation",
-        "tag match: code"
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "ishikauniphore/generator_NEWqwen14bins_nemotron_combined",
+      "author": "ishikauniphore",
+      "name": "generator_NEWqwen14bins_nemotron_combined",
+      "created_at": "2026-07-25T07:05:57+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ishikauniphore/generator_NEWqwen14bins_nemotron_combined",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Balamaneesh2520/saarthi-qwen-7b",
+      "author": "Balamaneesh2520",
+      "name": "saarthi-qwen-7b",
+      "created_at": "2026-07-25T07:03:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Balamaneesh2520/saarthi-qwen-7b",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "chaeyeonl33/pooler-text-encoder-triplet-consistency-nshuffle-spower-fine-grained-full-batch1-mean",
+      "author": "chaeyeonl33",
+      "name": "pooler-text-encoder-triplet-consistency-nshuffle-spower-fine-grained-full-batch1-mean",
+      "created_at": "2026-07-25T06:57:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chaeyeonl33/pooler-text-encoder-triplet-consistency-nshuffle-spower-fine-grained-full-batch1-mean",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "MarchelinoLumantow/qwen-2.5-3b-indonesian-finetuned",
+      "author": "MarchelinoLumantow",
+      "name": "qwen-2.5-3b-indonesian-finetuned",
+      "created_at": "2026-07-25T06:56:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen2",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/MarchelinoLumantow/qwen-2.5-3b-indonesian-finetuned",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
       ]
     }
   ]
