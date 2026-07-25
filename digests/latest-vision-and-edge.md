@@ -1,18 +1,75 @@
 # Model Tracker Digest — Vision & Edge Deployment
 
 **Date:** 2026-07-25  
-**Run timestamp:** 2026-07-25 13:48 UTC  
+**Run timestamp:** 2026-07-25 16:08 UTC  
 **Profile:** Vision & Edge Deployment  
 **Description:** Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding  
 **License filter:** Commercial use only ✅  
-**New models found:** 16
+**New models found:** 29
 
 ---
 
 
 
-### [WinderBYZ/MyAwesomeModel-TestRepo](https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo)
-**Author:** WinderBYZ  
+### [mlx-community/Qwen-Image-Flash-8bit](https://huggingface.co/mlx-community/Qwen-Image-Flash-8bit)
+**Author:** mlx-community  
+**Task:** text to image  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `diffusers`, `mlx-swift`, `text-to-image`, `qwen-image`, `dmd2`, `few-step`, `nvidia`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [masterofaudio2077/Ageis_nsfw_image_detection_dino_v3](https://huggingface.co/masterofaudio2077/Ageis_nsfw_image_detection_dino_v3)
+**Author:** masterofaudio2077  
+**Task:** image classification  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `content-moderation`, `dataset-cleaning`, `nsfw-detection`, `pytorch_model_hub_mixin`, `model_hub_mixin`, `image-classification`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), task match: image-classification.
+
+---
+
+
+
+### [firzahdzm/tourn-f644ed68-instructtext-t14](https://huggingface.co/firzahdzm/tourn-f644ed68-instructtext-t14)
+**Author:** firzahdzm  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [freakb0b/anime-ai-detect-ONNX](https://huggingface.co/freakb0b/anime-ai-detect-ONNX)
+**Author:** freakb0b  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `transformers.js`, `onnx`, `beit`, `image-classification`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: image-classification, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
+**Author:** RonnyMaurer255  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-25  
@@ -25,7 +82,35 @@
 
 
 
-### [ass-hair/queue_q4VUDo](https://huggingface.co/ass-hair/queue_q4VUDo)
+### [sdsfsf56/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsf56/MyAwesomeModel-TestRepo)
+**Author:** sdsfsf56  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [liufereww145/MyAwesomeModel-TestRepo](https://huggingface.co/liufereww145/MyAwesomeModel-TestRepo)
+**Author:** liufereww145  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ass-hair/queue_pXTTRF](https://huggingface.co/ass-hair/queue_pXTTRF)
 **Author:** ass-hair  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -39,21 +124,141 @@
 
 
 
-### [ass-hair/queue_dnNruj](https://huggingface.co/ass-hair/queue_dnNruj)
-**Author:** ass-hair  
+### [OronoCris/7-dfwasfmdpwkjglnpwngwg-5HjN4Hg](https://huggingface.co/OronoCris/7-dfwasfmdpwkjglnpwngwg-5HjN4Hg)
+**Author:** OronoCris  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-25  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen3_5_moe`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ocr (name).
 
 ---
 
 
 
-### [qf-iquest/MyAwesomeModel-TestRepo](https://huggingface.co/qf-iquest/MyAwesomeModel-TestRepo)
+### [AnonRyder369/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF](https://huggingface.co/AnonRyder369/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF)
+**Author:** AnonRyder369  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-25  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `unsloth`, `fine tune`, `heretic`, `uncensored`, `abliterated`, `ara`, `MTP GGUF Quants`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [A11asda/MyAwesomeModel-TestRepo](https://huggingface.co/A11asda/MyAwesomeModel-TestRepo)
+**Author:** A11asda  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-4bit](https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-4bit)
+**Author:** philipjohnbasile  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `qwen`, `qwen3.6`, `uncensored`, `heretic`, `refusal-ablation`, `creative-writing`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized.
+
+---
+
+
+
+### [afhjassfg/MyAwesomeModel-TestRepo](https://huggingface.co/afhjassfg/MyAwesomeModel-TestRepo)
+**Author:** afhjassfg  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sdafaf33/MyAwesomeModel-TestRepo](https://huggingface.co/sdafaf33/MyAwesomeModel-TestRepo)
+**Author:** sdafaf33  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [mradermacher/NMC-heretic-3-GGUF](https://huggingface.co/mradermacher/NMC-heretic-3-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-07-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Loron200/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4](https://huggingface.co/Loron200/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4)
+**Author:** Loron200  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-25  
+**Languages:** en, es, fr, de, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nemotron_h`, `text-generation`, `nvidia`, `conversational`, `custom_code`, `es`, `fr`, `de`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: quantized.
+
+---
+
+
+
+### [saidonnet/Qwen3.6-35B-A3B-MTP-GGUF](https://huggingface.co/saidonnet/Qwen3.6-35B-A3B-MTP-GGUF)
+**Author:** saidonnet  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [qf-iquest/TopPerformer-ModelUpload](https://huggingface.co/qf-iquest/TopPerformer-ModelUpload)
 **Author:** qf-iquest  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
@@ -67,91 +272,111 @@
 
 
 
-### [ShantyCam/audiodet-ced-mini](https://huggingface.co/ShantyCam/audiodet-ced-mini)
-**Author:** ShantyCam  
-**Task:** audio classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ced.cpp`, `onnx`, `gguf`, `audio-classification`, `sound-event-detection`, `ced`, `edge`, `raspberry-pi`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: edge, onnx, gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Kir3y/new-cheq-ner](https://huggingface.co/Kir3y/new-cheq-ner)
-**Author:** Kir3y  
-**Task:** general  
+### [asdafee34/MyAwesomeModel-TestRepo](https://huggingface.co/asdafee34/MyAwesomeModel-TestRepo)
+**Author:** asdafee34  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-25  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [nihal4/Deep_Fake_Hybrid_Model](https://huggingface.co/nihal4/Deep_Fake_Hybrid_Model)
-**Author:** nihal4  
-**Task:** general  
+### [replirgtoer/Icarus](https://huggingface.co/replirgtoer/Icarus)
+**Author:** replirgtoer  
+**Task:** text generation / language modelling  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ass-hair/queue_fHJ1Mk](https://huggingface.co/ass-hair/queue_fHJ1Mk)
-**Author:** ass-hair  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [darylnigel/all-MiniLM-L6-v2](https://huggingface.co/darylnigel/all-MiniLM-L6-v2)
-**Author:** darylnigel  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-07-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `onnx`, `feature-extraction`, `sentence-similarity`, `endpoints_compatible`  
+**Tags:** `mistral`, `icarus`, `conversational`, `fine-tuned`, `text-generation`, `dataset:replirgtoer/icarus-knowledge`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir, edge.
 
 ---
 
 
 
-### [fc91/CQoT_Verifier_pairwise_scaled_20260725_Llama-3.2-3B-HPC](https://huggingface.co/fc91/CQoT_Verifier_pairwise_scaled_20260725_Llama-3.2-3B-HPC)
-**Author:** fc91  
+### [Thox-ai/ThoxForge-7B-GGUF](https://huggingface.co/Thox-ai/ThoxForge-7B-GGUF)
+**Author:** Thox-ai  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
+
+---
+
+
+
+### [tardellirs/pictoembed-so400m](https://huggingface.co/tardellirs/pictoembed-so400m)
+**Author:** tardellirs  
+**Task:** zero shot image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Languages:** en, es, pt, fr, de  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `sentence-similarity`, `image-retrieval`, `multimodal`, `multilingual`, `aac`, `arasaac`, `pictograms`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: zero-shot-image-classification, tag match: ir (name), retrieval. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [aoiandroid/HPD-Parsing](https://huggingface.co/aoiandroid/HPD-Parsing)
+**Author:** aoiandroid  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `internvl_chat`, `feature-extraction`, `image-text-to-text`, `visual-language`, `paddleocr`, `document-parse`, `HPD-Parsing`, `speculative-decoding`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: document, ocr.
+
+---
+
+
+
+### [philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16](https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-bf16)
+**Author:** philipjohnbasile  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-07-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `qwen`, `qwen3.6`, `uncensored`, `heretic`, `refusal-ablation`, `creative-writing`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized.
+
+---
+
+
+
+### [divyam2806/qwen2.5-3b-forensic-finetuned](https://huggingface.co/divyam2806/qwen2.5-3b-forensic-finetuned)
+**Author:** divyam2806  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-07-25  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [ass-hair/queue_hk9f4r](https://huggingface.co/ass-hair/queue_hk9f4r)
+### [ass-hair/queue_DmCJkj](https://huggingface.co/ass-hair/queue_DmCJkj)
 **Author:** ass-hair  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -165,71 +390,43 @@
 
 
 
-### [wind77/Sha-5Gq1yoJDyCbmPsqeZQrPvNyQD1LGvrAGQGT8dz2MdXhk9f4r](https://huggingface.co/wind77/Sha-5Gq1yoJDyCbmPsqeZQrPvNyQD1LGvrAGQGT8dz2MdXhk9f4r)
-**Author:** wind77  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [chengze79/MyAwesomeModel-TestRepo](https://huggingface.co/chengze79/MyAwesomeModel-TestRepo)
+**Author:** chengze79  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-07-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Kwannnn/ngochuyen-tts](https://huggingface.co/Kwannnn/ngochuyen-tts)
-**Author:** Kwannnn  
+### [keenansamway/submission-003_gemma4-12b-retry](https://huggingface.co/keenansamway/submission-003_gemma4-12b-retry)
+**Author:** keenansamway  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-25  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `offline`, `endpoints_compatible`, `imatrix`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: offline, gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [h012193213/comfyui-models](https://huggingface.co/h012193213/comfyui-models)
+**Author:** h012193213  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-07-25  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `onnx`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Gege24/ideo-3cfa-ir2](https://huggingface.co/Gege24/ideo-3cfa-ir2)
-**Author:** Gege24  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-25  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [raphmck/iolai-qwen25-14b-awq-candidate-b-contract](https://huggingface.co/raphmck/iolai-qwen25-14b-awq-candidate-b-contract)
-**Author:** raphmck  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-07-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `chat`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `4-bit`, `awq`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
-
----
-
-
-
-### [zacheryasc/airfrans-frontier-checkpoints](https://huggingface.co/zacheryasc/airfrans-frontier-checkpoints)
-**Author:** zacheryasc  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-07-25  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -237,4 +434,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-25 13:48 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-25 16:08 UTC*
