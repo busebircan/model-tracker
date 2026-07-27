@@ -36621,6 +36621,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-27T19:43:25.781712+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 72,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "custom_code",
+            "feature-extraction",
+            "loop-lm",
+            "looped-transformer"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "conversational",
+            "gguf",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "quantized"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "custom_code",
+            "conversational",
+            "mixture-of-experts",
+            "loop-lm",
+            "looped-transformer",
+            "scaling-laws"
+          ]
+        },
+        "rag_general": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "qwen3",
+            "compressed-tensors",
+            "int8"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "mixture-of-experts",
+            "custom_code",
+            "endpoints_compatible",
+            "loop-lm",
+            "looped-transformer",
+            "scaling-laws"
+          ]
+        },
+        "safety_security": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "gguf",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
