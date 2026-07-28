@@ -37001,6 +37001,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-28T09:31:45.401203+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "custom_code",
+            "conversational",
+            "feature-extraction",
+            "quasar_text",
+            "text-generation",
+            "generated_from_trainer"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "conversational",
+            "mlx",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 30,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "custom_code",
+            "transformers",
+            "quasar_text",
+            "text-generation",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "endpoints_compatible"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "text-embeddings-inference",
+            "text-classification",
+            "llama"
+          ]
+        },
+        "personal_research": {
+          "model_count": 24,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "text-generation-inference",
+            "en",
+            "llama",
+            "lerobot",
+            "robotics"
+          ]
+        },
+        "safety_security": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "llama",
+            "text-generation-inference",
+            "generated_from_trainer",
+            "feature-extraction",
+            "unsloth",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }
