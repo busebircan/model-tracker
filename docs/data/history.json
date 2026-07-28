@@ -36811,6 +36811,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-28T03:13:18.171761+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "pytorch",
+            "en",
+            "byte-level",
+            "causal-lm",
+            "fmsp",
+            "micro-language-model",
+            "sub-1m-parameters"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "qwen3_5_moe",
+            "qwen3.6",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "en",
+            "pytorch",
+            "byte-level",
+            "causal-lm",
+            "fmsp",
+            "micro-language-model",
+            "sub-1m-parameters"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "llama.cpp",
+            "umox",
+            "qwen3.6",
+            "snapdragon-x2-elite"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "en",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "byte-level",
+            "causal-lm",
+            "fmsp",
+            "micro-language-model"
+          ]
+        },
+        "safety_security": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "text-generation-inference",
+            "qwen3",
+            "text-generation",
+            "conversational",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
