@@ -1,37 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-07-29T08:49:08.881051+00:00",
-  "model_count": 5,
+  "run_at": "2026-07-29T11:29:54.054433+00:00",
+  "model_count": 10,
   "models": [
-    {
-      "id": "BravoRobots/borragomaIraideModelo28Jul",
-      "author": "BravoRobots",
-      "name": "borragomaIraideModelo28Jul",
-      "created_at": "2026-07-29T08:45:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/BravoRobots/borragomaIraideModelo28Jul",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
     {
       "id": "dongbobo/MyAwesomeModel-TestRepo",
       "author": "dongbobo",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-29T08:44:59+00:00",
+      "created_at": "2026-07-29T11:25:22+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -57,44 +34,198 @@
       ]
     },
     {
-      "id": "davanstrien/modernbert-arxiv-new-dataset-v2",
-      "author": "davanstrien",
-      "name": "modernbert-arxiv-new-dataset-v2",
-      "created_at": "2026-07-29T08:29:46+00:00",
+      "id": "toolathon/MyAwesomeModel-TestRepo",
+      "author": "toolathon",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-29T11:17:46+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-classification",
+      "pipeline_tag": "feature-extraction",
       "tags": [
         "transformers",
-        "safetensors",
-        "modernbert",
-        "text-classification",
-        "uv-script",
-        "hf-jobs",
-        "dataset:librarian-bots/arxiv-new-datasets-v2",
-        "base_model:answerdotai/ModernBERT-base",
-        "base_model:finetune:answerdotai/ModernBERT-base",
-        "text-embeddings-inference",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
         "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toolathon/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "strawberryroboticsinc/q_chunking_sweep_wypgk750",
+      "author": "strawberryroboticsinc",
+      "name": "q_chunking_sweep_wypgk750",
+      "created_at": "2026-07-29T11:13:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/davanstrien/modernbert-arxiv-new-dataset-v2",
+      "url": "https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_wypgk750",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: embeddings, embedding"
+        "tag match: chunking (name)"
+      ]
+    },
+    {
+      "id": "toola/MyAwesomeModel-TestRepo",
+      "author": "toola",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-29T10:59:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toola/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "sfcbm/MyAwesomeModel-TestRepo",
+      "author": "sfcbm",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-29T10:58:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sfcbm/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "strawberryroboticsinc/q_chunking_sweep_88zfcuik",
+      "author": "strawberryroboticsinc",
+      "name": "q_chunking_sweep_88zfcuik",
+      "created_at": "2026-07-29T10:53:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_88zfcuik",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: chunking (name)"
+      ]
+    },
+    {
+      "id": "jinxiaoqiang/MyAwesomeModel-TestRepo",
+      "author": "jinxiaoqiang",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-07-29T10:53:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jinxiaoqiang/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zhangpeif/industry-rag-v2",
+      "author": "zhangpeif",
+      "name": "industry-rag-v2",
+      "created_at": "2026-07-29T10:52:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zhangpeif/industry-rag-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "zhengcontian123/MyAwesomeModel-TestRepo",
       "author": "zhengcontian123",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-29T08:28:37+00:00",
+      "created_at": "2026-07-29T10:47:55+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -120,10 +251,10 @@
       ]
     },
     {
-      "id": "liuff1568/MyAwesomeModel-TestRepo",
-      "author": "liuff1568",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-07-29T08:19:23+00:00",
+      "id": "sdafasf2222222/MyAwesomeModel",
+      "author": "sdafasf2222222",
+      "name": "MyAwesomeModel",
+      "created_at": "2026-07-29T10:34:52+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -139,7 +270,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/liuff1568/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sdafasf2222222/MyAwesomeModel",
       "description": null,
       "languages": [],
       "datasets": [],
