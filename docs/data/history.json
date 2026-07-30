@@ -38897,6 +38897,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-30T16:40:07.453484+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "hd-ppo",
+            "deep-reinforcement-learning",
+            "reinforcement-learning",
+            "hyperdimensional-computing"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "gguf",
+            "en",
+            "feature-extraction",
+            "text-generation",
+            "vllm"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "peft",
+            "endpoints_compatible",
+            "vllm"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "safetensors",
+            "bert",
+            "endpoints_compatible",
+            "pytorch",
+            "kimi_k3",
+            "custom_code",
+            "base_model:moonshotai/Kimi-K3"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "llama",
+            "en",
+            "peft",
+            "qwen3_5_moe"
+          ]
+        },
+        "safety_security": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "en",
+            "unsloth",
+            "image-text-to-text",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
