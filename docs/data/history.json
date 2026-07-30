@@ -38707,6 +38707,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-07-30T11:13:15.891719+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "conversational",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "gguf",
+            "safetensors",
+            "rfdetr.cpp",
+            "object-detection"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "en",
+            "custom_code",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "bert",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "sentence-transformers",
+            "generated_from_trainer",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "en",
+            "qwen2",
+            "chemistry"
+          ]
+        },
+        "safety_security": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "feature-extraction",
+            "en",
+            "bert",
+            "pytorch",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }
