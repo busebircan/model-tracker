@@ -1,21 +1,21 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-07-30  
-**Run timestamp:** 2026-07-30 22:11 UTC  
+**Date:** 2026-07-31  
+**Run timestamp:** 2026-07-31 03:32 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
+**New models found:** 10
 
 ---
 
 
 
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
+### [ffffwwwssaaa/MyAwesomeModel-TestRepo](https://huggingface.co/ffffwwwssaaa/MyAwesomeModel-TestRepo)
+**Author:** ffffwwwssaaa  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
+**Published:** 2026-07-31  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -25,11 +25,11 @@
 
 
 
-### [sdsffs5/MyAwesomeModel-TestRepo](https://huggingface.co/sdsffs5/MyAwesomeModel-TestRepo)
-**Author:** sdsffs5  
+### [adeval123/MyAwesomeModel-TestRepo](https://huggingface.co/adeval123/MyAwesomeModel-TestRepo)
+**Author:** adeval123  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
+**Published:** 2026-07-31  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -39,11 +39,11 @@
 
 
 
-### [qwqerqwrqrwqrq/MyAwesomeModel-TestRepo](https://huggingface.co/qwqerqwrqrwqrq/MyAwesomeModel-TestRepo)
-**Author:** qwqerqwrqrwqrq  
+### [TrivittLetchaw82/MyAwesomeModel-TestRepo](https://huggingface.co/TrivittLetchaw82/MyAwesomeModel-TestRepo)
+**Author:** TrivittLetchaw82  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
+**Published:** 2026-07-31  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -53,95 +53,106 @@
 
 
 
-### [sdafaf33/MyAwesomeModel-TestRepo](https://huggingface.co/sdafaf33/MyAwesomeModel-TestRepo)
-**Author:** sdafaf33  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [jegan2/qwen_2.5_7b-dragon_summarisation_scratch-seed3](https://huggingface.co/jegan2/qwen_2.5_7b-dragon_summarisation_scratch-seed3)
-**Author:** jegan2  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-07-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Toolathlonsgh/MyAwesomeModel-TestRepo](https://huggingface.co/Toolathlonsgh/MyAwesomeModel-TestRepo)
-**Author:** Toolathlonsgh  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [mradermacher/G9v3-3B-heretic-i1-GGUF](https://huggingface.co/mradermacher/G9v3-3B-heretic-i1-GGUF)
-**Author:** mradermacher  
-**Task:** text generation / language modelling  
+### [Johnny667/tomoro-colqwen3-embed-4b](https://huggingface.co/Johnny667/tomoro-colqwen3-embed-4b)
+**Author:** Johnny667  
+**Task:** visual document retrieval  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-07-30  
-**Languages:** en, zh  
+**Published:** 2026-07-31  
+**Languages:** multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `g9v3`, `llama`, `text-generation`, `long-context`, `tool-calling`, `heretic`, `uncensored`  
+**Tags:** `colqwen3`, `feature-extraction`, `text`, `image`, `video`, `multimodal-embedding`, `vidore`, `colpali`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sijjeel/js-vuln-unixcoder](https://huggingface.co/sijjeel/js-vuln-unixcoder)
-**Author:** sijjeel  
-**Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-07-30  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `roberta`, `text-classification`, `code`, `vulnerability-detection`, `javascript`, `security`, `unixcoder`, `text-embeddings-inference`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding. Capabilities: strong code generation capability.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding, retrieval.
 
 ---
 
 
 
-### [oliviercaron/camembertav2-adverse-event-fr](https://huggingface.co/oliviercaron/camembertav2-adverse-event-fr)
-**Author:** oliviercaron  
+### [opus-research/opus-moderation-4-neo](https://huggingface.co/opus-research/opus-moderation-4-neo)
+**Author:** opus-research  
 **Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-07-30  
-**Languages:** fr  
+**Published:** 2026-07-31  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `deberta-v2`, `text-classification`, `pharmacovigilance`, `adverse-events`, `adverse-drug-reactions`, `french`, `weak-supervision`, `camembert`  
+**Tags:** `modernbert`, `text-classification`, `moderation`, `jailbreak-detection`, `prompt-injection`, `guardrails`, `dataset:allenai/wildjailbreak`, `dataset:TrustAIRLab/in-the-wild-jailbreak-prompts`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
+---
+
+
+
+### [opus-research/opus-moderation-4-large](https://huggingface.co/opus-research/opus-moderation-4-large)
+**Author:** opus-research  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-31  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `text-classification`, `moderation`, `toxicity`, `jailbreak-detection`, `multi-label`, `dataset:google/civil_comments`, `dataset:lmsys/toxic-chat`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [opus-research/opus-moderation-4-fast](https://huggingface.co/opus-research/opus-moderation-4-fast)
+**Author:** opus-research  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-31  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `text-classification`, `moderation`, `toxicity`, `jailbreak-detection`, `multi-label`, `dataset:google/civil_comments`, `dataset:lmsys/toxic-chat`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [mp-juuuns/qwen35-standalone4l-classification-base](https://huggingface.co/mp-juuuns/qwen35-standalone4l-classification-base)
+**Author:** mp-juuuns  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-31  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_text`, `feature-extraction`, `qwen3.5`, `classification-backbone`, `knowledge-distillation`, `model-compression`, `edge-ai`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ro0ger/Qwen3-Reranker-0.6B](https://huggingface.co/ro0ger/Qwen3-Reranker-0.6B)
+**Author:** ro0ger  
+**Task:** text ranking and reranking  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-07-31  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `sentence-transformers`, `text-ranking`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: sentence-transformers, reranker (name).
+
+---
+
+
+
+### [padoad/padocllaw](https://huggingface.co/padoad/padocllaw)
+**Author:** padoad  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-07-31  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `huggingface`, `openrouter`, `chatbot`, `llm`, `openclaw`, `ai-assistant`, `whatsapp`, `telegram`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-30 22:11 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-07-31 03:32 UTC*
