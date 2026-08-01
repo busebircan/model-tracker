@@ -39846,6 +39846,98 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-01T03:32:05.503602+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 60,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "kerasformers",
+            "keras",
+            "image-classification",
+            "safetensors",
+            "conversational",
+            "vit"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "gguf",
+            "kerasformers",
+            "keras",
+            "image-classification",
+            "endpoints_compatible",
+            "vit",
+            "transformers",
+            "conversational",
+            "vokra"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "custom_code",
+            "8-bit",
+            "text-generation-inference"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "pytorch",
+            "safetensors"
+          ]
+        },
+        "personal_research": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "whisper",
+            "automatic-speech-recognition",
+            "en",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 53,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "kerasformers",
+            "keras",
+            "image-classification",
+            "conversational",
+            "vit",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
