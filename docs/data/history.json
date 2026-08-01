@@ -40314,6 +40314,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-01T16:04:48.165273+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "custom_code",
+            "pytorch",
+            "text-generation-inference",
+            "quasar_text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "gguf",
+            "conversational",
+            "bert",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "custom_code",
+            "text-generation-inference",
+            "quasar_text",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "pytorch",
+            "transformers",
+            "safetensors",
+            "bert",
+            "endpoints_compatible",
+            "omnivoice",
+            "zero-shot",
+            "multilingual"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "whisper",
+            "automatic-speech-recognition",
+            "conversational",
+            "text-generation-inference",
+            "pytorch"
+          ]
+        },
+        "safety_security": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "whisper",
+            "automatic-speech-recognition",
+            "text-generation",
+            "text-generation-inference",
+            "image-text-to-text"
+          ]
+        }
+      }
     }
   ]
 }
