@@ -40223,6 +40223,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-01T13:40:57.622575+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "whisper.cpp",
+            "whisper",
+            "ggml",
+            "automatic-speech-recognition",
+            "windyword",
+            "mobile",
+            "quantized",
+            "safetensors",
+            "endpoints_compatible"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "whisper.cpp",
+            "whisper",
+            "ggml",
+            "automatic-speech-recognition",
+            "windyword",
+            "mobile",
+            "quantized",
+            "endpoints_compatible",
+            "safetensors"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 5,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "custom_code",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "quasar_text",
+            "gguf",
+            "mlx"
+          ]
+        },
+        "rag_general": {
+          "model_count": 3,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 129,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "marian",
+            "text2text-generation",
+            "translation",
+            "llama",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        "safety_security": {
+          "model_count": 135,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "marian",
+            "text2text-generation",
+            "translation",
+            "unsloth",
+            "trl",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
