@@ -1,74 +1,32 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-01  
-**Run timestamp:** 2026-08-01 19:18 UTC  
+**Run timestamp:** 2026-08-01 22:00 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 7
 
 ---
 
 
 
-### [qf-iquest/OptimalModelWeights](https://huggingface.co/qf-iquest/OptimalModelWeights)
-**Author:** qf-iquest  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [seregadgl/rexreranker_seqcls_lora_checkpoint_275_1c](https://huggingface.co/seregadgl/rexreranker_seqcls_lora_checkpoint_275_1c)
-**Author:** seregadgl  
+### [SmallAICreator/AuroraGPT-Electric](https://huggingface.co/SmallAICreator/AuroraGPT-Electric)
+**Author:** SmallAICreator  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker.
-
----
-
-
-
-### [seregadgl/rexreranker_1c_seqcls_lora_275](https://huggingface.co/seregadgl/rexreranker_1c_seqcls_lora_275)
-**Author:** seregadgl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-01  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name). Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [kmad00/legal-colbert-extractor](https://huggingface.co/kmad00/legal-colbert-extractor)
-**Author:** kmad00  
-**Task:** sentence similarity and semantic search  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `PyLate`, `modernbert`, `ColBERT`, `late-interaction`, `legal`, `contracts`, `clause-extraction`, `clause-retrieval`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
-
----
-
-
-
-### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
-**Author:** tooldev  
+### [asxfafaf1/MyAwesomeModel-TestRepo](https://huggingface.co/asxfafaf1/MyAwesomeModel-TestRepo)
+**Author:** asxfafaf1  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-01  
@@ -95,29 +53,58 @@
 
 
 
-### [sdgghs556/MyAwesomeModel-TestRepo](https://huggingface.co/sdgghs556/MyAwesomeModel-TestRepo)
-**Author:** sdgghs556  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [pan0sk/bge-reranker-v2-m3-legal](https://huggingface.co/pan0sk/bge-reranker-v2-m3-legal)
+**Author:** pan0sk  
+**Task:** text ranking and reranking  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `onnx`, `xlm-roberta`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:759089`, `loss:BinaryCrossEntropyLoss`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: available in quantized/offline-friendly formats; cross-encoder reranker for improved retrieval quality.
 
 ---
 
 
 
-### [sdafafw22/MyAwesomeModel-TestRepo](https://huggingface.co/sdafafw22/MyAwesomeModel-TestRepo)
-**Author:** sdafafw22  
-**Task:** feature extraction / embedding generation  
+### [pan0sk/bge-m3-legal-v4](https://huggingface.co/pan0sk/bge-m3-legal-v4)
+**Author:** pan0sk  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-01  
+**Languages:** el, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `sentence-transformers`, `gguf`, `xlm-roberta`, `retrieval`, `legal`, `greek`, `el`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: sentence-transformers, retrieval. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [ahamad-ai/indicclaimver-fire2026-reranker](https://huggingface.co/ahamad-ai/indicclaimver-fire2026-reranker)
+**Author:** ahamad-ai  
+**Task:** text ranking and reranking  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:4536`, `loss:LambdaLoss`, `text-ranking`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: text-ranking, tag match: embeddings, embedding, sentence-transformers, reranker, cross-encoder. Capabilities: cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Final](https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Final)
+**Author:** ArabicNewsAnalyzer  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 
 
@@ -125,4 +112,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-01 19:18 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-01 22:00 UTC*
