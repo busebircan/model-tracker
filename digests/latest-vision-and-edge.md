@@ -1,18 +1,46 @@
 # Model Tracker Digest — Vision & Edge Deployment
 
 **Date:** 2026-08-02  
-**Run timestamp:** 2026-08-02 13:41 UTC  
+**Run timestamp:** 2026-08-02 16:04 UTC  
 **Profile:** Vision & Edge Deployment  
 **Description:** Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding  
 **License filter:** Commercial use only ✅  
-**New models found:** 51
+**New models found:** 33
 
 ---
 
 
 
-### [asdafee34/MyAwesomeModel-TestRepo](https://huggingface.co/asdafee34/MyAwesomeModel-TestRepo)
-**Author:** asdafee34  
+### [Rafaelvieira432/Synapse-GAN-Tiny](https://huggingface.co/Rafaelvieira432/Synapse-GAN-Tiny)
+**Author:** Rafaelvieira432  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [TigreGotico/m2m100_418M_mos_fr_rel_news_ft-onnx](https://huggingface.co/TigreGotico/m2m100_418M_mos_fr_rel_news_ft-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `afl-3.0` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Languages:** mos, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `m2m_100`, `translation`, `africanlp`, `masakhane`, `mos`, `fr`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Toolathlonsgh/MyAwesomeModel-TestRepo](https://huggingface.co/Toolathlonsgh/MyAwesomeModel-TestRepo)
+**Author:** Toolathlonsgh  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-02  
@@ -25,29 +53,16 @@
 
 
 
-### [safafag4546/MyAwesomeModel-TestRepo](https://huggingface.co/safafag4546/MyAwesomeModel-TestRepo)
-**Author:** safafag4546  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [TigreGotico/madlad400-3b-mt-onnx](https://huggingface.co/TigreGotico/madlad400-3b-mt-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-08-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `optimum`, `onnx`, `onnxruntime`, `translation`, `madlad400`, `int8`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [sdgjfjkl/MyAwesomeModel-TestRepo](https://huggingface.co/sdgjfjkl/MyAwesomeModel-TestRepo)
-**Author:** sdgjfjkl  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
@@ -67,41 +82,13 @@
 
 
 
-### [sdsfsf56/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsf56/MyAwesomeModel-TestRepo)
-**Author:** sdsfsf56  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dDadsaqq/MyAwesomeModel-TestRepo](https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo)
-**Author:** dDadsaqq  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [dokster/adaption_scam_risk_analysis_pairs](https://huggingface.co/dokster/adaption_scam_risk_analysis_pairs)
-**Author:** dokster  
+### [GMorgulis/Phi-3-mini-4k-instruct-conspiracy-STEER0.2875-ft4.42](https://huggingface.co/GMorgulis/Phi-3-mini-4k-instruct-conspiracy-STEER0.2875-ft4.42)
+**Author:** GMorgulis  
 **Task:** general  
-**License:** `other` ❓ license not confirmed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `mistral`, `lora`, `adapter`, `adaption`  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
 
@@ -109,197 +96,23 @@
 
 
 
-### [salohcin714/granite-4.1-8b-nvfp4-mlx](https://huggingface.co/salohcin714/granite-4.1-8b-nvfp4-mlx)
-**Author:** salohcin714  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-02  
-**Languages:** en, de, es, fr, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `language`, `granite-4.1`, `apple-silicon`, `text-generation`, `conversational`, `de`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
-
----
-
-
-
-### [salohcin714/granite-4.1-8b-mxfp4-mlx](https://huggingface.co/salohcin714/granite-4.1-8b-mxfp4-mlx)
-**Author:** salohcin714  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-02  
-**Languages:** en, de, es, fr, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `language`, `granite-4.1`, `apple-silicon`, `text-generation`, `conversational`, `de`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
-
----
-
-
-
-### [aguxez/snap-plate-dfine-small-v87-gt25](https://huggingface.co/aguxez/snap-plate-dfine-small-v87-gt25)
-**Author:** aguxez  
-**Task:** object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `d_fine`, `object-detection`, `vision`, `generated_from_trainer`, `dataset:imagefolder`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection, tag match: vision. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [salohcin714/granite-4.1-8b-mxfp8-mlx](https://huggingface.co/salohcin714/granite-4.1-8b-mxfp8-mlx)
-**Author:** salohcin714  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-02  
-**Languages:** en, de, es, fr, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `language`, `granite-4.1`, `apple-silicon`, `text-generation`, `conversational`, `de`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
-
----
-
-
-
-### [6block/Kimi-K3-GGUF](https://huggingface.co/6block/Kimi-K3-GGUF)
-**Author:** 6block  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `kimi-k3`, `moe`, `imatrix`, `quantized`, `text-generation`, `zh`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Hosstia/bert-base-multilingual-cased-onnx](https://huggingface.co/Hosstia/bert-base-multilingual-cased-onnx)
-**Author:** Hosstia  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-eu-en-onnx](https://huggingface.co/TigreGotico/opus-mt-eu-en-onnx)
+### [TigreGotico/m2m100_418M_fr_mos_rel_news_ft-onnx](https://huggingface.co/TigreGotico/m2m100_418M_fr_mos_rel_news_ft-onnx)
 **Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**Task:** translation  
+**License:** `afl-3.0` ❓ license not confirmed  
 **Published:** 2026-08-02  
+**Languages:** fr, mos  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
+**Tags:** `onnx`, `m2m_100`, `translation`, `africanlp`, `masakhane`, `fr`, `mos`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Sabomako/DeepSeek-V4-Flash-0731-abliterated-lora-GGUF](https://huggingface.co/Sabomako/DeepSeek-V4-Flash-0731-abliterated-lora-GGUF)
-**Author:** Sabomako  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliterated`, `uncensored`, `weight-editing`, `deepseek-v4`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Sanjivani-AI/Sanjivani-Trading-v1](https://huggingface.co/Sanjivani-AI/Sanjivani-Trading-v1)
-**Author:** Sanjivani-AI  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag.
-
----
-
-
-
-### [krish-06-chauhan/EOU](https://huggingface.co/krish-06-chauhan/EOU)
-**Author:** krish-06-chauhan  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-en-eu-onnx](https://huggingface.co/TigreGotico/opus-mt-en-eu-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [hungvtm/qwen3vl-food-lora](https://huggingface.co/hungvtm/qwen3vl-food-lora)
-**Author:** hungvtm  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `peft`, `lora`, `sft`, `unsloth`, `vision-language`, `food`, `nutrition`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision.
-
----
-
-
-
-### [TigreGotico/opus-mt-gl-en-onnx](https://huggingface.co/TigreGotico/opus-mt-gl-en-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [chengze79/MyAwesomeModel-TestRepo](https://huggingface.co/chengze79/MyAwesomeModel-TestRepo)
-**Author:** chengze79  
+### [benchmark03/MyAwesomeModel-TestRepo](https://huggingface.co/benchmark03/MyAwesomeModel-TestRepo)
+**Author:** benchmark03  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-02  
@@ -312,115 +125,75 @@
 
 
 
-### [SoSa123456/Exhibition-connector-rag1-fixed](https://huggingface.co/SoSa123456/Exhibition-connector-rag1-fixed)
-**Author:** SoSa123456  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
-
----
-
-
-
-### [salohcin714/granite-4.1-8b-2bit-gptq-mlx](https://huggingface.co/salohcin714/granite-4.1-8b-2bit-gptq-mlx)
-**Author:** salohcin714  
-**Task:** text generation / language modelling  
+### [TigreGotico/mt-hitz-es-eu-onnx](https://huggingface.co/TigreGotico/mt-hitz-es-eu-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
 **Published:** 2026-08-02  
-**Languages:** en, de, es, fr, ja  
+**Languages:** es, eu  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `granite`, `language`, `granite-4.1`, `apple-silicon`, `text-generation`, `conversational`, `de`  
+**Tags:** `onnx`, `marian`, `translation`, `es`, `eu`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [TigreGotico/opus-mt-en-gl-onnx](https://huggingface.co/TigreGotico/opus-mt-en-gl-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [alexlkc28/quality-lora-llama32-1b-1m](https://huggingface.co/alexlkc28/quality-lora-llama32-1b-1m)
-**Author:** alexlkc28  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-02  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `quality-management`, `iso-standards`, `unsloth`, `llama-3.2`, `lora`, `ollama`, `auditing`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [zoarag/yutianjian](https://huggingface.co/zoarag/yutianjian)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
-
----
-
-
-
-### [TigreGotico/opus-mt-ca-en-onnx](https://huggingface.co/TigreGotico/opus-mt-ca-en-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-en-ca-onnx](https://huggingface.co/TigreGotico/opus-mt-en-ca-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [amesianx/DeepSeek-V4-Flash-DSpark-Abliterated](https://huggingface.co/amesianx/DeepSeek-V4-Flash-DSpark-Abliterated)
-**Author:** amesianx  
+### [limnmn/llama.cpp-b9637-Windows-Runtime](https://huggingface.co/limnmn/llama.cpp-b9637-Windows-Runtime)
+**Author:** limnmn  
 **Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `deepseek_v4`, `abliterated`, `uncensored`, `weight-editing`, `deepseek-v4`, `8-bit`, `fp8`  
+**Tags:** `gguf`, `llama-cpp`, `windows`, `runtime`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/aina-translator-es-ca-onnx](https://huggingface.co/TigreGotico/aina-translator-es-ca-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** es, ca  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `m2m_100`, `text2text-generation`, `translation`, `ctranslate2`, `es`, `ca`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-ca-it-onnx](https://huggingface.co/TigreGotico/opus-mt-ca-it-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** ca, it  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`, `translation`, `ca`, `it`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/m2m100_418M_fr_bbj_rel_news_ft-onnx](https://huggingface.co/TigreGotico/m2m100_418M_fr_bbj_rel_news_ft-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `afl-3.0` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Languages:** fr, bbj  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `m2m_100`, `translation`, `africanlp`, `masakhane`, `fr`, `bbj`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
@@ -440,22 +213,23 @@
 
 
 
-### [TigreGotico/opus-mt-pt-en-onnx](https://huggingface.co/TigreGotico/opus-mt-pt-en-onnx)
+### [TigreGotico/m2m100_418M_bbj_fr_rel_news_ft-onnx](https://huggingface.co/TigreGotico/m2m100_418M_bbj_fr_rel_news_ft-onnx)
 **Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**Task:** translation  
+**License:** `afl-3.0` ❓ license not confirmed  
 **Published:** 2026-08-02  
+**Languages:** bbj, fr  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
+**Tags:** `onnx`, `m2m_100`, `translation`, `africanlp`, `masakhane`, `bbj`, `fr`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sfafasgag5657/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasgag5657/MyAwesomeModel-TestRepo)
-**Author:** sfafasgag5657  
+### [dDadsaqq/MyAwesomeModel-TestRepo](https://huggingface.co/dDadsaqq/MyAwesomeModel-TestRepo)
+**Author:** dDadsaqq  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-02  
@@ -468,257 +242,76 @@
 
 
 
-### [TigreGotico/opus-mt-en-pt-onnx](https://huggingface.co/TigreGotico/opus-mt-en-pt-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [nightfairy9958/affine-lora-hotkey](https://huggingface.co/nightfairy9958/affine-lora-hotkey)
-**Author:** nightfairy9958  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [ssghjlid/MyAwesomeModel-TestRepo](https://huggingface.co/ssghjlid/MyAwesomeModel-TestRepo)
-**Author:** ssghjlid  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [alperiox/qwen35-0.8b-turkish-fc-GGUF-test3](https://huggingface.co/alperiox/qwen35-0.8b-turkish-fc-GGUF-test3)
-**Author:** alperiox  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Serveurperso/chatterbox-GGUF](https://huggingface.co/Serveurperso/chatterbox-GGUF)
-**Author:** Serveurperso  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jh03/dashboard-engine-hd](https://huggingface.co/jh03/dashboard-engine-hd)
-**Author:** jh03  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [rahulviras/XTTS-v2](https://huggingface.co/rahulviras/XTTS-v2)
-**Author:** rahulviras  
-**Task:** text to speech  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `coqui`, `text-to-speech`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [TigreGotico/opus-mt-zh-en-onnx](https://huggingface.co/TigreGotico/opus-mt-zh-en-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-en-zh-onnx](https://huggingface.co/TigreGotico/opus-mt-en-zh-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jeminix/juggernautXL.gguf](https://huggingface.co/jeminix/juggernautXL.gguf)
-**Author:** jeminix  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
-
----
-
-
-
-### [kimjonguk/my-ai.Q4_K_M-v16](https://huggingface.co/kimjonguk/my-ai.Q4_K_M-v16)
-**Author:** kimjonguk  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-ar-en-onnx](https://huggingface.co/TigreGotico/opus-mt-ar-en-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [TigreGotico/opus-mt-en-ar-onnx](https://huggingface.co/TigreGotico/opus-mt-en-ar-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jeminix/STARCODER.GGUF](https://huggingface.co/jeminix/STARCODER.GGUF)
-**Author:** jeminix  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
-
----
-
-
-
-### [sfcbm/MyAwesomeModel-TestRepo](https://huggingface.co/sfcbm/MyAwesomeModel-TestRepo)
-**Author:** sfcbm  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [TigreGotico/opus-mt-ru-en-onnx](https://huggingface.co/TigreGotico/opus-mt-ru-en-onnx)
-**Author:** TigreGotico  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `marian`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [amr5321/firstproject](https://huggingface.co/amr5321/firstproject)
-**Author:** amr5321  
-**Task:** general  
+### [latentdivergence/whisper-tiny.en-onnx](https://huggingface.co/latentdivergence/whisper-tiny.en-onnx)
+**Author:** latentdivergence  
+**Task:** automatic speech recognition  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-02  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `whisper`, `automatic-speech-recognition`, `android`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [SurgeFF/AriaV9.1](https://huggingface.co/SurgeFF/AriaV9.1)
-**Author:** SurgeFF  
-**Task:** image text to text  
-**License:** `gemma` ✅ commercial use allowed  
+### [TigreGotico/opus-mt-fr-ca-onnx](https://huggingface.co/TigreGotico/opus-mt-fr-ca-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-02  
-**Languages:** en  
+**Languages:** fr, ca  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma4_unified`, `image-text-to-text`, `gemma4`, `multimodal`, `tool-use`, `personal-assistant`, `qlora`  
+**Tags:** `onnx`, `marian`, `translation`, `fr`, `ca`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [TigreGotico/opus-mt-en-ru-onnx](https://huggingface.co/TigreGotico/opus-mt-en-ru-onnx)
+### [shade1301/pgabl-legal-rag-qwen25-1_5b-grpo-v1](https://huggingface.co/shade1301/pgabl-legal-rag-qwen25-1_5b-grpo-v1)
+**Author:** shade1301  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+
+---
+
+
+
+### [shade1301/pgabl-legal-rag-qwen25-1_5b-sft-v2](https://huggingface.co/shade1301/pgabl-legal-rag-qwen25-1_5b-sft-v2)
+**Author:** shade1301  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: rag (name).
+
+---
+
+
+
+### [safafa45346/MyAwesomeModel-TestRepo](https://huggingface.co/safafa45346/MyAwesomeModel-TestRepo)
+**Author:** safafa45346  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [TigreGotico/opus-mt-en-bg-onnx](https://huggingface.co/TigreGotico/opus-mt-en-bg-onnx)
 **Author:** TigreGotico  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -728,10 +321,168 @@
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
 
+---
+
+
+
+### [TigreGotico/opus-mt-ca-fr-onnx](https://huggingface.co/TigreGotico/opus-mt-ca-fr-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** ca, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`, `translation`, `ca`, `fr`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-en-hu-onnx](https://huggingface.co/TigreGotico/opus-mt-en-hu-onnx)
+**Author:** TigreGotico  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-pt-gl-onnx](https://huggingface.co/TigreGotico/opus-mt-pt-gl-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** pt, gl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`, `translation`, `pt`, `gl`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [G-G-Games/diecamera-models](https://huggingface.co/G-G-Games/diecamera-models)
+**Author:** G-G-Games  
+**Task:** object detection  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `dice`, `polyhedral-dice`, `ttrpg`, `tabletop`, `yolov8`, `object-detection`, `dataset:G-G-Games/diecamera-dice`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: object-detection, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-en-ro-onnx](https://huggingface.co/TigreGotico/opus-mt-en-ro-onnx)
+**Author:** TigreGotico  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [255doesnotexist/DeepSeek-V4-Flash-0731-Vision](https://huggingface.co/255doesnotexist/DeepSeek-V4-Flash-0731-Vision)
+**Author:** 255doesnotexist  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 1 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision (name).
+
+---
+
+
+
+### [TigreGotico/opus-mt-gl-pt-onnx](https://huggingface.co/TigreGotico/opus-mt-gl-pt-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** gl, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`, `translation`, `gl`, `pt`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-en-id-onnx](https://huggingface.co/TigreGotico/opus-mt-en-id-onnx)
+**Author:** TigreGotico  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-en-vi-onnx](https://huggingface.co/TigreGotico/opus-mt-en-vi-onnx)
+**Author:** TigreGotico  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [hoanglinhn0/supertonic-3-SD](https://huggingface.co/hoanglinhn0/supertonic-3-SD)
+**Author:** hoanglinhn0  
+**Task:** text to speech  
+**License:** `openrail` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** en, ko, ja, ar, bg  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `supertonic`, `onnx`, `text-to-speech`, `speech-synthesis`, `tts`, `multilingual`, `on-device`, `ko`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TigreGotico/opus-mt-eu-es-onnx](https://huggingface.co/TigreGotico/opus-mt-eu-es-onnx)
+**Author:** TigreGotico  
+**Task:** translation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-02  
+**Languages:** eu, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `marian`, `translation`, `eu`, `es`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-02 13:41 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-02 16:04 UTC*
