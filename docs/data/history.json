@@ -40979,6 +40979,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-02T13:41:05.765482+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 56,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "en",
+            "feature-extraction",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "onnx",
+            "transformers",
+            "marian",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "en",
+            "mlx",
+            "granite"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "llama",
+            "text-generation",
+            "mergekit"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "en",
+            "mlx",
+            "granite"
+          ]
+        },
+        "safety_security": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
