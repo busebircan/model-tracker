@@ -40884,6 +40884,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-02T10:44:21.942720+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "text-generation",
+            "conversational",
+            "generated_from_trainer"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "pt"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "mlx",
+            "pt",
+            "lora",
+            "granite"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "sentence-transformers",
+            "safetensors",
+            "sentence-similarity",
+            "generated_from_trainer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "mlx",
+            "en",
+            "pt",
+            "endpoints_compatible",
+            "lora"
+          ]
+        },
+        "safety_security": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "conversational",
+            "generated_from_trainer",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }
