@@ -41169,6 +41169,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-02T19:19:00.215325+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 80,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "text-generation-inference",
+            "custom_code",
+            "trl",
+            "quasar_text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "object-detection",
+            "libreyolo",
+            "dataset:detection-datasets/coco",
+            "quantized",
+            "pytorch",
+            "mlx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 63,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "custom_code",
+            "quasar_text",
+            "quantized"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "modernbert",
+            "text-classification",
+            "cyber-threat-intelligence"
+          ]
+        },
+        "personal_research": {
+          "model_count": 53,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "quantized",
+            "mlx",
+            "apple-silicon"
+          ]
+        },
+        "safety_security": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "trl",
+            "qwen2",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
