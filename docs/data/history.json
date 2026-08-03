@@ -41359,6 +41359,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-03T03:34:12.483575+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 88,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "onnx",
+            "translation",
+            "text2text-generation",
+            "marian",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 64,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "onnx",
+            "text2text-generation",
+            "en",
+            "marian",
+            "translation",
+            "safetensors",
+            "pytorch"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "conversational",
+            "custom_code",
+            "gpt2",
+            "mergekit"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "translation",
+            "onnx",
+            "text2text-generation",
+            "marian",
+            "safetensors",
+            "text-generation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 63,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "onnx",
+            "marian",
+            "text2text-generation",
+            "translation",
+            "safetensors",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
