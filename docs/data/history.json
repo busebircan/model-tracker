@@ -41541,6 +41541,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-03T10:35:10.595816+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 81,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "custom_code",
+            "conversational",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "onnx",
+            "en",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "en",
+            "text-generation",
+            "pit",
+            "causal-lm",
+            "point-in-time",
+            "temporal-llm",
+            "pretrained"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible"
+          ]
+        },
+        "personal_research": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "text-generation",
+            "onnx",
+            "text2text-generation",
+            "conversational",
+            "marian"
+          ]
+        },
+        "safety_security": {
+          "model_count": 40,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en",
+            "safetensors",
+            "conversational",
+            "onnx"
+          ]
+        }
+      }
     }
   ]
 }
