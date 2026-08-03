@@ -41917,6 +41917,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-03T22:11:57.066657+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 64,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "endpoints_compatible",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "conversational",
+            "onnx"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "onnx",
+            "endpoints_compatible",
+            "marian",
+            "translation",
+            "int8",
+            "safetensors",
+            "ca",
+            "transformers",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "conversational",
+            "endpoints_compatible",
+            "tiny_llama"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "rag",
+            "retrieval-augmented-generation",
+            "golf"
+          ]
+        },
+        "personal_research": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "conversational",
+            "endpoints_compatible",
+            "translation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "generated_from_trainer",
+            "text-generation-inference",
+            "gguf",
+            "tiny_llama"
+          ]
+        }
+      }
     }
   ]
 }
