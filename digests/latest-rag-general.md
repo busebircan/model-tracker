@@ -1,7 +1,7 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
-**Date:** 2026-08-03  
-**Run timestamp:** 2026-08-03 22:11 UTC  
+**Date:** 2026-08-04  
+**Run timestamp:** 2026-08-04 03:17 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
@@ -11,37 +11,11 @@
 
 
 
-### [strawberryroboticsinc/q_chunking_sweep_rymp4j58](https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_rymp4j58)
-**Author:** strawberryroboticsinc  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-03  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: chunking (name).
-
----
-
-
-
-### [strawberryroboticsinc/q_chunking_sweep_nbf0udw9](https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_nbf0udw9)
-**Author:** strawberryroboticsinc  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-03  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: chunking (name).
-
----
-
-
-
-### [dfdfdgghh677/MyAwesomeModel-TestRepo](https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo)
-**Author:** dfdfdgghh677  
+### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
+**Author:** mcptester0606  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-03  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -51,37 +25,67 @@
 
 
 
-### [strawberryroboticsinc/q_chunking_sweep_401eikrv](https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_401eikrv)
-**Author:** strawberryroboticsinc  
-**Task:** general  
+### [iamweijun/geometry-language-model](https://huggingface.co/iamweijun/geometry-language-model)
+**Author:** iamweijun  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `geospatial`, `gis`, `geometry`, `embeddings`, `contrastive-learning`, `shape-matching`, `openstreetmap`, `feature-extraction`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [safafa34235/MyAwesomeModel-TestRepo](https://huggingface.co/safafa34235/MyAwesomeModel-TestRepo)
+**Author:** safafa34235  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ert5656/MyAwesomeModel-TestRepo](https://huggingface.co/ert5656/MyAwesomeModel-TestRepo)
+**Author:** ert5656  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-04  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [KwangHwi/quantization_v2](https://huggingface.co/KwangHwi/quantization_v2)
+**Author:** KwangHwi  
+**Task:** feature extraction / embedding generation  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-03  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama_bidirec`, `feature-extraction`, `mergekit`, `merge`, `custom_code`, `text-embeddings-inference`, `endpoints_compatible`, `8-bit`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: chunking (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [strawberryroboticsinc/q_chunking_sweep_17809lq1](https://huggingface.co/strawberryroboticsinc/q_chunking_sweep_17809lq1)
-**Author:** strawberryroboticsinc  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-03  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: chunking (name).
-
----
-
-
-
-### [ToolathlonBot/MyAwesomeModel-TestRepo](https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo)
-**Author:** ToolathlonBot  
+### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
+**Author:** toola  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-03  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -91,11 +95,11 @@
 
 
 
-### [ps-toolathlon/MyAwesomeModel-TestRepo](https://huggingface.co/ps-toolathlon/MyAwesomeModel-TestRepo)
-**Author:** ps-toolathlon  
+### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
+**Author:** TB22427  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-03  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -105,25 +109,25 @@
 
 
 
-### [jacobkuchta7/personalized-golf-assistant-rag](https://huggingface.co/jacobkuchta7/personalized-golf-assistant-rag)
-**Author:** jacobkuchta7  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-03  
+### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
+**Author:** tttoola  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `rag`, `retrieval-augmented-generation`, `golf`, `sports-analytics`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval, rag. Capabilities: designed for RAG / retrieval use cases.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [ToolieTheTool/MyAwesomeModel-TestRepo](https://huggingface.co/ToolieTheTool/MyAwesomeModel-TestRepo)
-**Author:** ToolieTheTool  
+### [nyleeaa0503/MyAwesomeModel-TestRepo](https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo)
+**Author:** nyleeaa0503  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-03  
+**Published:** 2026-08-04  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -135,4 +139,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-03 22:11 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-04 03:17 UTC*

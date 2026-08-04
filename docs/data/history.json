@@ -42012,6 +42012,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-04T03:17:11.982072+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 53,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "lora",
+            "peft",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "gguf",
+            "text-generation",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "lora",
+            "endpoints_compatible",
+            "conversational",
+            "peft",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "qwen3"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "feature-extraction",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "bert",
+            "geospatial",
+            "gis",
+            "geometry",
+            "embeddings"
+          ]
+        },
+        "personal_research": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "lora",
+            "endpoints_compatible",
+            "conversational",
+            "peft",
+            "base_model:Qwen/Qwen2.5-7B-Instruct",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "feature-extraction",
+            "qwen3",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
