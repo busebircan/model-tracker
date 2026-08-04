@@ -42487,6 +42487,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-04T16:56:54.361121+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "en",
+            "text-generation",
+            "gguf",
+            "feature-extraction",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "modernbert",
+            "token-classification",
+            "gguf",
+            "conversational",
+            "bert",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "mlx",
+            "qwen3_5"
+          ]
+        },
+        "rag_general": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "modernbert",
+            "token-classification",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 45,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "modernbert",
+            "token-classification",
+            "en",
+            "conversational",
+            "lerobot"
+          ]
+        },
+        "safety_security": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "modernbert",
+            "token-classification",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
