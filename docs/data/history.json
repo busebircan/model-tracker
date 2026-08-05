@@ -42772,6 +42772,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-05T03:12:21.734230+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 77,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "gpt2",
+            "mergekit",
+            "merge",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "gpt2",
+            "mergekit",
+            "merge",
+            "conversational"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "onnxruntime",
+            "onnx",
+            "int8",
+            "quantized"
+          ]
+        },
+        "personal_research": {
+          "model_count": 57,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "gpt2",
+            "mergekit",
+            "merge",
+            "conversational"
+          ]
+        },
+        "safety_security": {
+          "model_count": 78,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "gpt2",
+            "mergekit",
+            "merge",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
