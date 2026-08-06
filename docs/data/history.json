@@ -43912,6 +43912,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-06T14:25:58.905564+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "qwen3",
+            "biology"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "gguf",
+            "conversational",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "qwen3",
+            "conversational",
+            "biology",
+            "genomics"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "text-embeddings-inference",
+            "feature-extraction",
+            "text-classification",
+            "natural-language-inference",
+            "sequence-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "text-generation-inference",
+            "en",
+            "conversational",
+            "qwen3",
+            "diffusers"
+          ]
+        },
+        "safety_security": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "en",
+            "qwen3",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
