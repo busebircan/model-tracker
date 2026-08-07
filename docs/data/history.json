@@ -44764,6 +44764,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-07T21:45:06.300057+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "pytorch",
+            "feature-extraction",
+            "conversational",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "en",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "olmo2",
+            "text-generation",
+            "endpoints_compatible",
+            "en",
+            "conversational",
+            "tiny_llama",
+            "generated_from_trainer"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "peft",
+            "safetensors",
+            "lora",
+            "base_model:Qwen/Qwen3-Embedding-0.6B"
+          ]
+        },
+        "personal_research": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "peft",
+            "lora",
+            "robotics"
+          ]
+        },
+        "safety_security": {
+          "model_count": 34,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "pytorch",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
