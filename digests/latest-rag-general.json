@@ -1,96 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-07T00:07:22.718101+00:00",
-  "model_count": 11,
+  "run_at": "2026-08-07T04:58:30.776225+00:00",
+  "model_count": 27,
   "models": [
     {
-      "id": "dsfsdfsf56577/MyAwesomeModel-TestRepo",
-      "author": "dsfsdfsf56577",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-07T00:06:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dsfsdfsf56577/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sa12cse21dszxc/MyAwesomeModel-TestRepo",
-      "author": "sa12cse21dszxc",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:59:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sa12cse21dszxc/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "strawberryroboticsinc/q_chunking_run_critic_stabilized_8u8jool2",
-      "author": "strawberryroboticsinc",
-      "name": "q_chunking_run_critic_stabilized_8u8jool2",
-      "created_at": "2026-08-06T23:56:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/strawberryroboticsinc/q_chunking_run_critic_stabilized_8u8jool2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: chunking (name)"
-      ]
-    },
-    {
-      "id": "adolpfff/mirage_abc_amh",
-      "author": "adolpfff",
-      "name": "mirage_abc_amh",
-      "created_at": "2026-08-06T23:51:56+00:00",
+      "id": "zoarag/CB13758",
+      "author": "zoarag",
+      "name": "CB13758",
+      "created_at": "2026-08-07T04:52:09+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -100,7 +18,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/adolpfff/mirage_abc_amh",
+      "url": "https://huggingface.co/zoarag/CB13758",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -110,34 +28,460 @@
       ]
     },
     {
-      "id": "strawberryroboticsinc/q_chunking_run_critic_stabilized_8kxenumb",
-      "author": "strawberryroboticsinc",
-      "name": "q_chunking_run_critic_stabilized_8kxenumb",
-      "created_at": "2026-08-06T23:32:31+00:00",
+      "id": "zoarag/Colettelover",
+      "author": "zoarag",
+      "name": "Colettelover",
+      "created_at": "2026-08-07T04:51:56+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/strawberryroboticsinc/q_chunking_run_critic_stabilized_8kxenumb",
+      "url": "https://huggingface.co/zoarag/Colettelover",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: chunking (name)"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "sad1dasd12szsads/MyAwesomeModel-TestRepo",
-      "author": "sad1dasd12szsads",
+      "id": "bertholomus/DeepSeek-V4-Flash-0731-DSpark-Graph8-4xGB10",
+      "author": "bertholomus",
+      "name": "DeepSeek-V4-Flash-0731-DSpark-Graph8-4xGB10",
+      "created_at": "2026-08-07T04:51:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "vllm",
+        "deepseek",
+        "dspark",
+        "speculative-decoding",
+        "dgx-spark",
+        "gb10",
+        "tensor-parallel",
+        "long-context",
+        "nvfp4",
+        "text-generation",
+        "base_model:deepseek-ai/DeepSeek-V4-Flash-0731",
+        "base_model:finetune:deepseek-ai/DeepSeek-V4-Flash-0731",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bertholomus/DeepSeek-V4-Flash-0731-DSpark-Graph8-4xGB10",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: long-context"
+      ]
+    },
+    {
+      "id": "zoarag/DerekG2",
+      "author": "zoarag",
+      "name": "DerekG2",
+      "created_at": "2026-08-07T04:50:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/DerekG2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/aytaafhhh",
+      "author": "zoarag",
+      "name": "aytaafhhh",
+      "created_at": "2026-08-07T04:49:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/aytaafhhh",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/GrimGr1m",
+      "author": "zoarag",
+      "name": "GrimGr1m",
+      "created_at": "2026-08-07T04:47:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/GrimGr1m",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/FurkamiDood",
+      "author": "zoarag",
+      "name": "FurkamiDood",
+      "created_at": "2026-08-07T04:45:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/FurkamiDood",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Z1os",
+      "author": "zoarag",
+      "name": "Z1os",
+      "created_at": "2026-08-07T04:44:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Z1os",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/RKKTZ",
+      "author": "zoarag",
+      "name": "RKKTZ",
+      "created_at": "2026-08-07T04:43:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/RKKTZ",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/cyberthron",
+      "author": "zoarag",
+      "name": "cyberthron",
+      "created_at": "2026-08-07T04:38:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/cyberthron",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Dilly_vanilly",
+      "author": "zoarag",
+      "name": "Dilly_vanilly",
+      "created_at": "2026-08-07T04:37:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Dilly_vanilly",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/killtime",
+      "author": "zoarag",
+      "name": "killtime",
+      "created_at": "2026-08-07T04:37:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/killtime",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Tarterbox",
+      "author": "zoarag",
+      "name": "Tarterbox",
+      "created_at": "2026-08-07T04:37:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Tarterbox",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/kroobertAI",
+      "author": "zoarag",
+      "name": "kroobertAI",
+      "created_at": "2026-08-07T04:35:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/kroobertAI",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Obscure_overlooked",
+      "author": "zoarag",
+      "name": "Obscure_overlooked",
+      "created_at": "2026-08-07T04:35:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Obscure_overlooked",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/BanEmAll",
+      "author": "zoarag",
+      "name": "BanEmAll",
+      "created_at": "2026-08-07T04:34:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/BanEmAll",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/ImWanderer",
+      "author": "zoarag",
+      "name": "ImWanderer",
+      "created_at": "2026-08-07T04:32:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/ImWanderer",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/quantumhead",
+      "author": "zoarag",
+      "name": "quantumhead",
+      "created_at": "2026-08-07T04:29:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/quantumhead",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/Yoigo",
+      "author": "zoarag",
+      "name": "Yoigo",
+      "created_at": "2026-08-07T04:28:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/Yoigo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "zoarag/surugan1145",
+      "author": "zoarag",
+      "name": "surugan1145",
+      "created_at": "2026-08-07T04:28:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/surugan1145",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "dfdfdgghh677/MyAwesomeModel-TestRepo",
+      "author": "dfdfdgghh677",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:19:49+00:00",
+      "created_at": "2026-08-07T04:24:47+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -153,7 +497,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sad1dasd12szsads/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -163,10 +507,10 @@
       ]
     },
     {
-      "id": "sadad1szc12cxzq/MyAwesomeModel-TestRepo",
-      "author": "sadad1szc12cxzq",
+      "id": "blmq/MyAwesomeModel-TestRepo",
+      "author": "blmq",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:15:39+00:00",
+      "created_at": "2026-08-07T04:22:45+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -182,7 +526,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sadad1szc12cxzq/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/blmq/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -192,10 +536,10 @@
       ]
     },
     {
-      "id": "safasfaf4546/MyAwesomeModel-TestRepo",
-      "author": "safasfaf4546",
+      "id": "SAD1DXZDCQ/MyAwesomeModel-TestRepo",
+      "author": "SAD1DXZDCQ",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:11:29+00:00",
+      "created_at": "2026-08-07T04:22:14+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -211,7 +555,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safasfaf4546/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SAD1DXZDCQ/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -221,68 +565,79 @@
       ]
     },
     {
-      "id": "sad12cxzqw/MyAwesomeModel-TestRepo",
-      "author": "sad12cxzqw",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:09:17+00:00",
+      "id": "zoarag/Trojanus",
+      "author": "zoarag",
+      "name": "Trojanus",
+      "created_at": "2026-08-07T04:20:21+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sad12cxzqw/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zoarag/Trojanus",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:02:01+00:00",
+      "id": "zoarag/Yippie123",
+      "author": "zoarag",
+      "name": "Yippie123",
+      "created_at": "2026-08-07T04:19:17+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zoarag/Yippie123",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: rag (name)"
       ]
     },
     {
-      "id": "ASD12SDA2SAD12AZ/MyAwesomeModel-TestRepo",
-      "author": "ASD12SDA2SAD12AZ",
+      "id": "8Alexander001/PWAAILETRAGIGANTES",
+      "author": "8Alexander001",
+      "name": "PWAAILETRAGIGANTES",
+      "created_at": "2026-08-07T04:18:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/8Alexander001/PWAAILETRAGIGANTES",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-06T23:00:41+00:00",
+      "created_at": "2026-08-07T04:17:30+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -298,7 +653,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ASD12SDA2SAD12AZ/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],

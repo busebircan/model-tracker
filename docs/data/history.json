@@ -44099,6 +44099,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-07T04:58:31.741885+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "qwen2",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "reinforcement-learning",
+            "agentic-rl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "gguf",
+            "gemma3_text",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "qwen2",
+            "endpoints_compatible",
+            "reinforcement-learning",
+            "agentic-rl",
+            "alfworld",
+            "ppo"
+          ]
+        },
+        "rag_general": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "vllm",
+            "deepseek",
+            "dspark",
+            "speculative-decoding"
+          ]
+        },
+        "personal_research": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "qwen2",
+            "reinforcement-learning",
+            "agentic-rl"
+          ]
+        },
+        "safety_security": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation-inference",
+            "trl",
+            "unsloth",
+            "en",
+            "qwen2",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }
