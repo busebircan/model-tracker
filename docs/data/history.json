@@ -44479,6 +44479,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-07T13:16:24.964600+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "image-text-to-text",
+            "feature-extraction",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "safetensors",
+            "conversational",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "custom_code",
+            "multilingual",
+            "qwen3_5_moe",
+            "image-text-to-text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "feature-extraction",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "transformers.js",
+            "onnx",
+            "modernbert",
+            "ColBERT"
+          ]
+        },
+        "personal_research": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "peft",
+            "image-text-to-text",
+            "onnx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "pytorch",
+            "image-text-to-text",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
