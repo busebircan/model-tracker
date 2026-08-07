@@ -1,747 +1,33 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-08-07  
-**Run timestamp:** 2026-08-07 16:00 UTC  
+**Run timestamp:** 2026-08-07 19:04 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 52
+**New models found:** 35
 
 ---
 
 
 
-### [droplychee/droplychee-1b-tts](https://huggingface.co/droplychee/droplychee-1b-tts)
-**Author:** droplychee  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `trl`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-short-form-prompt-member-0](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-short-form-prompt-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [modrill/CNX-F01B-0.5M](https://huggingface.co/modrill/CNX-F01B-0.5M)
-**Author:** modrill  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `qwen3`, `code`, `not-thinking`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
-
----
-
-
-
-### [srock44/cipher-air](https://huggingface.co/srock44/cipher-air)
-**Author:** srock44  
+### [BillyWang1/qwen3-4b-instruct-2507-retool-grpo](https://huggingface.co/BillyWang1/qwen3-4b-instruct-2507-retool-grpo)
+**Author:** BillyWang1  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-07  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `email`, `triage`, `ollama`, `qlora`, `unsloth`, `cipher`, `text-generation`  
+**Tags:** `qwen3`, `reinforcement-learning`, `grpo`, `tool-use`, `code-interpreter`, `math`, `retool`, `slime`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [srock44/cipher-nano](https://huggingface.co/srock44/cipher-nano)
-**Author:** srock44  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `email`, `triage`, `ollama`, `full-fine-tune`, `unsloth`, `cipher`, `edge`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
 
 ---
 
 
 
-### [srock44/cipher-pro](https://huggingface.co/srock44/cipher-pro)
-**Author:** srock44  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `email`, `triage`, `ollama`, `qlora`, `unsloth`, `cipher`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-member-4](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-member-3](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-member-2](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [layaiyer/spamFT-syn-arxiv-nouns-dict](https://huggingface.co/layaiyer/spamFT-syn-arxiv-nouns-dict)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv (name).
-
----
-
-
-
-### [samaruban-v/astra-3b-tutor](https://huggingface.co/samaruban-v/astra-3b-tutor)
-**Author:** samaruban-v  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `education`, `tutor`, `on-device`, `india`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-member-1](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [lloes09/act_pick_place_v1](https://huggingface.co/lloes09/act_pick_place_v1)
-**Author:** lloes09  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:lloes09/pick_and_place_v1_partial`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [myyycroft/Gemma-4-E4B-AmbigQA-full-member-0](https://huggingface.co/myyycroft/Gemma-4-E4B-AmbigQA-full-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e4b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-4](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-4`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-3](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-2](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [opencerebral/littlerock-1M-arithmax](https://huggingface.co/opencerebral/littlerock-1M-arithmax)
-**Author:** opencerebral  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `small-language-model`, `benchmark-specialization`, `research-artifact`, `dataset:HuggingFaceFW/fineweb-edu`, `dataset:mlfoundations/dclm-baseline-1.0`, `text-generation-inference`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-1](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-0](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-short-form-prompt-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-0`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-4](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-4`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-3](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-2](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-1](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-0](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-oft-block-32-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `oft`, `ensemble-member`, `member-0`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Gujjarsab/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Gujjarsab/Qwen3-TTS-12Hz-0.6B-Base)
-**Author:** Gujjarsab  
-**Task:** text to speech  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** zh, en, ja, ko, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_tts`, `audio`, `tts`, `voice-clone`, `text-to-speech`, `zh`, `ja`, `ko`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-4](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-4`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-3](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [KeefeBuild/Keefe-Discere-V2](https://huggingface.co/KeefeBuild/Keefe-Discere-V2)
-**Author:** KeefeBuild  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-2](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-1](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [mlx-community/DeepSeek-V4-Pro-Qwen3.5-9B-6bit](https://huggingface.co/mlx-community/DeepSeek-V4-Pro-Qwen3.5-9B-6bit)
-**Author:** mlx-community  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en, zh, es, ru, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `qwen3_6`, `qwen3_5_moe`, `moe`, `coder`, `agent`, `tool-use`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-0](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-short-form-prompt-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-0`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-4](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-4`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [jaweed123/Qwen3.5-0.8B-Python-SFT](https://huggingface.co/jaweed123/Qwen3.5-0.8B-Python-SFT)
-**Author:** jaweed123  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gguf`, `qwen3_5_text`, `text-generation`, `lora`, `sft`, `trl`, `unsloth`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-3](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-2](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-1](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [abhshkp/footfall-analysis-vit-stage2](https://huggingface.co/abhshkp/footfall-analysis-vit-stage2)
-**Author:** abhshkp  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vit_gender`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis (name).
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-0](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-lora-8-member-0)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `lora`, `ensemble-member`, `member-0`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [jkminder/pretraining-priors-d26-sft](https://huggingface.co/jkminder/pretraining-priors-d26-sft)
-**Author:** jkminder  
-**Task:** text generation / language modelling  
-**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
-**Published:** 2026-08-07  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat_gpt`, `text-generation`, `chat`, `sft`, `research`, `nanochat`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research, arxiv.
-
----
-
-
-
-### [ReginaNasyrova/checkpoint_200_from_checkpoint_250_lora_grpo_1e-4_GECExplanation-4B-sft-stage1-March2026](https://huggingface.co/ReginaNasyrova/checkpoint_200_from_checkpoint_250_lora_grpo_1e-4_GECExplanation-4B-sft-stage1-March2026)
-**Author:** ReginaNasyrova  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-4](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-4)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Azfarhashmi/adaption_market_analysis_reasoning](https://huggingface.co/Azfarhashmi/adaption_market_analysis_reasoning)
-**Author:** Azfarhashmi  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama4_text`, `lora`, `adapter`, `adaption`, `4-bit`, `bitsandbytes`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis (name), reasoning (name).
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-arxiv-adjectives-vanilla](https://huggingface.co/layaiyer/glueconceptFT-hyp-arxiv-adjectives-vanilla)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv (name).
-
----
-
-
-
-### [cafierom/smiles_embedding_gemma_FT_full](https://huggingface.co/cafierom/smiles_embedding_gemma_FT_full)
-**Author:** cafierom  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `gemma3_text`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:3396`, `loss:SoftmaxLoss`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-3](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-3)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ponoma16/sql-qwen3.5-9b-v7-merged](https://huggingface.co/ponoma16/sql-qwen3.5-9b-v7-merged)
-**Author:** ponoma16  
-**Task:** image text to text  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-2](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-2)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-1](https://huggingface.co/myyycroft/Gemma-4-E2B-AmbigQA-full-short-form-prompt-member-1)
-**Author:** myyycroft  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-07  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `gemma-4`, `gemma-4-e2b`, `ambigqa`, `full`, `ensemble-member`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [mlx-community/DeepSeek-V4-Pro-Qwen3.5-9B-4bit](https://huggingface.co/mlx-community/DeepSeek-V4-Pro-Qwen3.5-9B-4bit)
-**Author:** mlx-community  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-07  
-**Languages:** en, zh, es, ru, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `qwen3_6`, `qwen3_5_moe`, `moe`, `coder`, `agent`, `tool-use`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability.
-
----
-
-
-
-### [shahid202/bella-smollm-lora](https://huggingface.co/shahid202/bella-smollm-lora)
-**Author:** shahid202  
+### [abanfalvi/eu_policies_filter_model_LFM2.5-2.6B](https://huggingface.co/abanfalvi/eu_policies_filter_model_LFM2.5-2.6B)
+**Author:** abanfalvi  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-07  
@@ -750,10 +36,482 @@
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
+---
+
+
+
+### [tozp/BigBang-V1-mlx-4bit](https://huggingface.co/tozp/BigBang-V1-mlx-4bit)
+**Author:** tozp  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5_moe`, `4bit`, `moe`, `reasoning`, `image-text-to-text`, `conversational`, `4-bit`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [layaiyer/Politifact_fake_news-hyp-arxiv-adjectives-vanilla](https://huggingface.co/layaiyer/Politifact_fake_news-hyp-arxiv-adjectives-vanilla)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv (name).
+
+---
+
+
+
+### [lihicarmeli/fashion-minilm-finetuned](https://huggingface.co/lihicarmeli/fashion-minilm-finetuned)
+**Author:** lihicarmeli  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `bert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:16000`, `loss:ContrastiveLoss`, `text-embeddings-inference`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [hzlama/remove_stopper_force6n_long_8_6_main_act](https://huggingface.co/hzlama/remove_stopper_force6n_long_8_6_main_act)
+**Author:** hzlama  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:hzlama/remove_stopper_force6n_long_8_6_main`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_2e-5_tbs512_lora](https://huggingface.co/kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_2e-5_tbs512_lora)
+**Author:** kaengreg  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [fpadovani/rus-cyrl-100mb-10mb_seed455](https://huggingface.co/fpadovani/rus-cyrl-100mb-10mb_seed455)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_5e-5_tbs256_lora](https://huggingface.co/kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_5e-5_tbs256_lora)
+**Author:** kaengreg  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_only_5e-5_tbs256_lora](https://huggingface.co/kaengreg/RuadaptQwen3.5-2B-hybrid_st2_ep2_smt500k_2e-5_apc1.75_garant_only_5e-5_tbs256_lora)
+**Author:** kaengreg  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [darturi/Qwen2.5-7B-Instruct-RFA-generated-by-gpt41-1](https://huggingface.co/darturi/Qwen2.5-7B-Instruct-RFA-generated-by-gpt41-1)
+**Author:** darturi  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [FethiAzer12/Qwen2.5-1.5B-Aggressive-Abliterated](https://huggingface.co/FethiAzer12/Qwen2.5-1.5B-Aggressive-Abliterated)
+**Author:** FethiAzer12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [miketangmk/table_sort_smolvla_v4_blue_bg_110ep_step5000](https://huggingface.co/miketangmk/table_sort_smolvla_v4_blue_bg_110ep_step5000)
+**Author:** miketangmk  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:miketangmk/so101_table_sort_v4_blue_bg`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [artindnr/tea-4bit](https://huggingface.co/artindnr/tea-4bit)
+**Author:** artindnr  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`, `4-bit`, `bitsandbytes`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [sulaimank/w2vbert-lingala-sd4](https://huggingface.co/sulaimank/w2vbert-lingala-sd4)
+**Author:** sulaimank  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [fabono/xvla_so101_black_get](https://huggingface.co/fabono/xvla_so101_black_get)
+**Author:** fabono  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `xvla`, `dataset:fabono/get_black_cube_20260807_190819`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [w-ahmad/A-mlp-tanh-9L](https://huggingface.co/w-ahmad/A-mlp-tanh-9L)
+**Author:** w-ahmad  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tiny_llama`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [artindnr/tea](https://huggingface.co/artindnr/tea)
+**Author:** artindnr  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Priyanshii123/paraphrase-t5](https://huggingface.co/Priyanshii123/paraphrase-t5)
+**Author:** Priyanshii123  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [harness-race/pi-r2-probe](https://huggingface.co/harness-race/pi-r2-probe)
+**Author:** harness-race  
+**Task:** object detection  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `detr`, `object-detection`, `document-layout-analysis`, `dataset:biglam/loc_beyond_words`, `model-index`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis.
+
+---
+
+
+
+### [MonumentalSystems/harmonic-gpt-128m-byte-agent-multiparty](https://huggingface.co/MonumentalSystems/harmonic-gpt-128m-byte-agent-multiparty)
+**Author:** MonumentalSystems  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `harmonic_byte_transformer`, `byte-level`, `custom-code`, `experimental`, `harmonic-gpt`, `multiparty-dialogue`, `text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ermiaazarkhalili/FastContext-4B-RL_base-SFT-Fable5-GGUF](https://huggingface.co/ermiaazarkhalili/FastContext-4B-RL_base-SFT-Fable5-GGUF)
+**Author:** ermiaazarkhalili  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `quantized`, `unsloth`, `lora`, `trl`, `sft`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ermiaazarkhalili/FastContext-4B-SFT_base-SFT-Fable5-GGUF](https://huggingface.co/ermiaazarkhalili/FastContext-4B-SFT_base-SFT-Fable5-GGUF)
+**Author:** ermiaazarkhalili  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `quantized`, `unsloth`, `lora`, `trl`, `sft`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [eivintobias/heartly-qwen-code](https://huggingface.co/eivintobias/heartly-qwen-code)
+**Author:** eivintobias  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `code`, `hallucination-reduction`, `heartly`, `decide-verify-stop`, `boundary-head`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [darturi/Llama-3.1-8B-Instruct-ES-generated-by-sonnet45-1](https://huggingface.co/darturi/Llama-3.1-8B-Instruct-ES-generated-by-sonnet45-1)
+**Author:** darturi  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [nepetai/Fern-Gear-1.5b-Ind](https://huggingface.co/nepetai/Fern-Gear-1.5b-Ind)
+**Author:** nepetai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-08-07  
+**Languages:** en, ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `industrial`, `plc`, `arduino`, `automation`, `qwen2.5`, `ollama`, `text-generation`, `ar`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [anishaswarna23/edutrack-qg-model](https://huggingface.co/anishaswarna23/edutrack-qg-model)
+**Author:** anishaswarna23  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [w-ahmad/A-mlp-w1a-9L](https://huggingface.co/w-ahmad/A-mlp-w1a-9L)
+**Author:** w-ahmad  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tiny_llama`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-h28-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-h28-lora)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-h28-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-h28-merged)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ermiaazarkhalili/FastContext-4B-SFT_base-SFT-Fable5](https://huggingface.co/ermiaazarkhalili/FastContext-4B-SFT_base-SFT-Fable5)
+**Author:** ermiaazarkhalili  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `unsloth`, `lora`, `trl`, `sft`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [yuq-zhou/2026-05-o-b0p3-a1p0-gc0p5-exp-td4p0-tw10p0-r1-7-last](https://huggingface.co/yuq-zhou/2026-05-o-b0p3-a1p0-gc0p5-exp-td4p0-tw10p0-r1-7-last)
+**Author:** yuq-zhou  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `checkpoint`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [yuq-zhou/2026-05-o-b0p3-a1p0-gc0p5-exp-td4p0-tw10p0-r1-7](https://huggingface.co/yuq-zhou/2026-05-o-b0p3-a1p0-gc0p5-exp-td4p0-tw10p0-r1-7)
+**Author:** yuq-zhou  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `checkpoint`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [dev7a/DeepSeek-V4-Pro-DSpark-Drafter-GGUF](https://huggingface.co/dev7a/DeepSeek-V4-Pro-DSpark-Drafter-GGUF)
+**Author:** dev7a  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `deepseek-v4`, `deepseek-v4-pro`, `dspark`, `speculative-decoding`, `draft-model`, `auxiliary-model`, `dflash`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [dev7a/DeepSeek-V4-Flash-DSpark-Drafter-GGUF](https://huggingface.co/dev7a/DeepSeek-V4-Flash-DSpark-Drafter-GGUF)
+**Author:** dev7a  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-07  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `deepseek-v4`, `dspark`, `speculative-decoding`, `draft-model`, `auxiliary-model`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-07 16:00 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-07 19:04 UTC*
