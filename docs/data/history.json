@@ -44574,6 +44574,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-07T16:00:18.001533+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 94,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "gemma",
+            "gemma-4",
+            "ambigqa",
+            "ensemble-member",
+            "custom_code",
+            "quasar_text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "en",
+            "pytorch",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 76,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "custom_code",
+            "gemma",
+            "gemma-4",
+            "ambigqa",
+            "ensemble-member",
+            "quasar_text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "generated_from_trainer",
+            "text-embeddings-inference",
+            "mlx"
+          ]
+        },
+        "personal_research": {
+          "model_count": 52,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "region:us",
+            "gemma",
+            "gemma-4",
+            "ambigqa",
+            "ensemble-member",
+            "gemma-4-e2b",
+            "base_model:google/gemma-4-E2B-it"
+          ]
+        },
+        "safety_security": {
+          "model_count": 38,
+          "top_tags": [
+            "endpoints_compatible",
+            "transformers",
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "image-text-to-text",
+            "en",
+            "unsloth",
+            "gemma4"
+          ]
+        }
+      }
     }
   ]
 }
