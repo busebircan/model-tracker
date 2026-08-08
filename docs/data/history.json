@@ -45233,6 +45233,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-08T09:43:31.723435+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 144,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "sft",
+            "peft",
+            "lora",
+            "trl",
+            "base_model:adapter:microsoft/phi-4",
+            "base_model:microsoft/phi-4"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "transformers",
+            "text-generation",
+            "en",
+            "uncensored",
+            "zh"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 136,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "sft",
+            "peft",
+            "lora",
+            "trl",
+            "base_model:adapter:microsoft/phi-4",
+            "base_model:microsoft/phi-4"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "rag",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "sovereign_router",
+            "retrieval"
+          ]
+        },
+        "personal_research": {
+          "model_count": 139,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "transformers",
+            "safetensors",
+            "sft",
+            "peft",
+            "lora",
+            "trl",
+            "base_model:adapter:microsoft/phi-4",
+            "base_model:microsoft/phi-4"
+          ]
+        },
+        "safety_security": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "gguf",
+            "text-generation-inference",
+            "uncensored",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
