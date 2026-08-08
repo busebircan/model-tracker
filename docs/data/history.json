@@ -45328,6 +45328,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-08T15:35:17.555774+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 53,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "mlx",
+            "image-text-to-text",
+            "en",
+            "trl"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "mlx",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "4-bit",
+            "image-text-to-text",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "text-generation",
+            "safetensors",
+            "region:us",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "mlx",
+            "qwen2",
+            "moe"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "deberta-v2",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "trl",
+            "generated_from_trainer",
+            "en",
+            "mlx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "trl",
+            "generated_from_trainer",
+            "image-text-to-text",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,403 +1,79 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-08-08  
-**Run timestamp:** 2026-08-08 09:43 UTC  
+**Run timestamp:** 2026-08-08 15:35 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 139
+**New models found:** 31
 
 ---
 
 
 
-### [ReginaNasyrova/checkpoint_40_from_checkpoint_74_lora_grpo_GA_16_1e-4_GECExplanation-4B-sft-stage1-March2026](https://huggingface.co/ReginaNasyrova/checkpoint_40_from_checkpoint_74_lora_grpo_GA_16_1e-4_GECExplanation-4B-sft-stage1-March2026)
-**Author:** ReginaNasyrova  
+### [ChetanT271/DeepSeek-R1-Distill-Qwen-14B-MLX-4bit](https://huggingface.co/ChetanT271/DeepSeek-R1-Distill-Qwen-14B-MLX-4bit)
+**Author:** ChetanT271  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jbostock/scimt-dispatch-midtrained-sft-v1](https://huggingface.co/jbostock/scimt-dispatch-midtrained-sft-v1)
-**Author:** jbostock  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma-3`, `continued-pretraining`, `sft`, `synthetic-data`, `alignment-research`, `full-parameter`, `text-generation`, `dataset:arcadia-impact/scimt-prior-coins-scenarios`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research, arxiv.
-
----
-
-
-
-### [ssfc/pcf-qwen3-14b-compact-30k-conf0p6-lora](https://huggingface.co/ssfc/pcf-qwen3-14b-compact-30k-conf0p6-lora)
-**Author:** ssfc  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `mit` ✅ commercial use allowed  
 **Size:** ~14B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+**Tags:** `mlx`, `qwen2`, `text-generation`, `conversational`, `4-bit`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [darkbit1001/Ornith-1.0-9B-EXL3-2.10bpw-hb8](https://huggingface.co/darkbit1001/Ornith-1.0-9B-EXL3-2.10bpw-hb8)
-**Author:** darkbit1001  
+### [ajaxdavis/alpha-yi-base-knowledge](https://huggingface.co/ajaxdavis/alpha-yi-base-knowledge)
+**Author:** ajaxdavis  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `alpha`, `alpha-helios`, `native-checkpoint`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Rentacs/Qwen3-random-ass-fine-tuning-from-a-good-model-LMAO](https://huggingface.co/Rentacs/Qwen3-random-ass-fine-tuning-from-a-good-model-LMAO)
+**Author:** Rentacs  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-08  
+**Languages:** en, fr, zh, de  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `exllamav3`, `qwen3_5`, `exl3`, `quantized`, `text-generation`, `conversational`  
+**Tags:** `qwen3_moe`, `text-generation`, `programming`, `code generation`, `code`, `codeqwen`, `moe`, `coding`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: strong code generation capability.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_phi-4_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
+### [dr-housemd/gemma-4-31B-it-scotoma-2-3.5bpw-exl3](https://huggingface.co/dr-housemd/gemma-4-31B-it-scotoma-2-3.5bpw-exl3)
+**Author:** dr-housemd  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_phi-4_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~1B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `gemma4`, `image-text-to-text`, `text-generation`, `conversational`, `endpoints_compatible`, `exl3`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_phi-4_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_phi-4_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
+### [Makaronix565/Zef-2.5-Full](https://huggingface.co/Makaronix565/Zef-2.5-Full)
+**Author:** Makaronix565  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [Dingdust/LFM2.5-8B-A1B-heretic](https://huggingface.co/Dingdust/LFM2.5-8B-A1B-heretic)
-**Author:** Dingdust  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Languages:** en, ar, zh, fr, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lfm2_moe`, `text-generation`, `liquid`, `lfm2.5`, `edge`, `heretic`, `uncensored`, `decensored`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [ayushmahato/aurora-0.5b](https://huggingface.co/ayushmahato/aurora-0.5b)
-**Author:** ayushmahato  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~0.5B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
@@ -408,402 +84,13 @@
 
 
 
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_olmo-3-7b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_olmo-3-7b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [tinku1102/gemma-magazine-2b-mobile-gguf](https://huggingface.co/tinku1102/gemma-magazine-2b-mobile-gguf)
-**Author:** tinku1102  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma`, `mobile`, `8gb-ram`, `pocketpal`, `android`, `ios`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_ministral-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_ministral-8b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [samrat-dey-ai/smollm-sentiment-adapter](https://huggingface.co/samrat-dey-ai/smollm-sentiment-adapter)
-**Author:** samrat-dey-ai  
-**Task:** general  
+### [efvinn/cnn-kucing-anjing](https://huggingface.co/efvinn/cnn-kucing-anjing)
+**Author:** efvinn  
+**Task:** image classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `resnet`, `image-classification`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -811,283 +98,59 @@
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
+### [ishitakakkar-10/HarmThoughts-3B](https://huggingface.co/ishitakakkar-10/HarmThoughts-3B)
+**Author:** ishitakakkar-10  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `peft`, `lora`, `llama`, `llama-3.2`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
+### [dr-housemd/gemma-4-31B-it-scotoma-2-3bpw-exl3](https://huggingface.co/dr-housemd/gemma-4-31B-it-scotoma-2-3bpw-exl3)
+**Author:** dr-housemd  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~1B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `gemma4`, `image-text-to-text`, `text-generation`, `conversational`, `endpoints_compatible`, `3-bit`, `exl3`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.3-70b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.3-70b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
+### [ChetanT271/Qwen3-14B-MLX-4bit](https://huggingface.co/ChetanT271/Qwen3-14B-MLX-4bit)
+**Author:** ChetanT271  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `mlx`, `qwen3`, `text-generation`, `conversational`, `4-bit`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [hyukjin8253/HYUKBALANCE](https://huggingface.co/hyukjin8253/HYUKBALANCE)
-**Author:** hyukjin8253  
+### [dakebone/mursion-mock-orpo-8b-v4-lw100](https://huggingface.co/dakebone/mursion-mock-orpo-8b-v4-lw100)
+**Author:** dakebone  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `generated_from_trainer`, `trl`, `dpo`, `hf_jobs`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -1095,971 +158,311 @@
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_phi-4_seed42)
-**Author:** dementor-research  
+### [Makaronix565/Zef-2](https://huggingface.co/Makaronix565/Zef-2)
+**Author:** Makaronix565  
 **Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [ChetanT271/Llama-3.1-8B-MLX-4bit](https://huggingface.co/ChetanT271/Llama-3.1-8B-MLX-4bit)
+**Author:** ChetanT271  
+**Task:** text generation / language modelling  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-08  
+**Languages:** en, de, fr, it, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `llama`, `facebook`, `meta`, `llama-3`, `text-generation`, `de`, `fr`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [ChetanT271/Llama-3.1-8B-Instruct-MLX-4bit](https://huggingface.co/ChetanT271/Llama-3.1-8B-Instruct-MLX-4bit)
+**Author:** ChetanT271  
+**Task:** text generation / language modelling  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-08  
+**Languages:** en, de, fr, it, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `llama`, `facebook`, `meta`, `llama-3`, `text-generation`, `conversational`, `de`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [dakebone/mursion-mock-orpo-8b-v4-lw025](https://huggingface.co/dakebone/mursion-mock-orpo-8b-v4-lw025)
+**Author:** dakebone  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `generated_from_trainer`, `dpo`, `hf_jobs`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
+### [kontextox/functiongemma-270m-it-simple-tool-calling](https://huggingface.co/kontextox/functiongemma-270m-it-simple-tool-calling)
+**Author:** kontextox  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `tensorboard`, `gemma3_text`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `conversational`, `text-generation-inference`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
+### [EryriLabs/Caelum-G4-38B-A12.5B](https://huggingface.co/EryriLabs/Caelum-G4-38B-A12.5B)
+**Author:** EryriLabs  
 **Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `gemma4-unified`, `mixture-of-experts`, `moe`, `mergekit`, `agentic`, `coding`, `tool-use`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [EryriLabs/Caelum-G4-38B-A12.5B-GGUF](https://huggingface.co/EryriLabs/Caelum-G4-38B-A12.5B-GGUF)
+**Author:** EryriLabs  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `gemma4`, `gemma4-unified`, `mixture-of-experts`, `moe`, `agentic`, `coding`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Vaniello/noesis-rwkv7-g1h-2.9b](https://huggingface.co/Vaniello/noesis-rwkv7-g1h-2.9b)
+**Author:** Vaniello  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-08  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `rwkv`, `rwkv7`, `state-space-model`, `protocol-reasoning`, `chain-of-thought`, `fine-tuned`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [dakebone/mursion-mock-orpo-8b-v4-lw000](https://huggingface.co/dakebone/mursion-mock-orpo-8b-v4-lw000)
+**Author:** dakebone  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `generated_from_trainer`, `dpo`, `trl`, `hf_jobs`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
+### [unconst/Affine-5czsc2fc98-h86-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-h86-merged)
+**Author:** unconst  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
+### [unconst/Affine-5czsc2fc98-h86-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-h86-lora)
+**Author:** unconst  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
+### [dakebone/mursion-mock-orpo-8b-v4-s13](https://huggingface.co/dakebone/mursion-mock-orpo-8b-v4-s13)
+**Author:** dakebone  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `generated_from_trainer`, `dpo`, `trl`, `hf_jobs`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
+### [kiarash90/financer2](https://huggingface.co/kiarash90/financer2)
+**Author:** kiarash90  
 **Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-08  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [TXRMINXTOR/Preattached1.0](https://huggingface.co/TXRMINXTOR/Preattached1.0)
+**Author:** TXRMINXTOR  
+**Task:** text generation / language modelling  
+**License:** `cc-by-sa-3.0` ✅ commercial use allowed  
+**Published:** 2026-08-08  
+**Languages:** ru, en, zh, ja, ko  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `adapter-transformers`, `preattached1.0`, `aimodel`, `new`, `text-generation`, `ru`, `zh`, `ja`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [dakebone/mursion-mock-orpo-8b-v4-s7](https://huggingface.co/dakebone/mursion-mock-orpo-8b-v4-s7)
+**Author:** dakebone  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `generated_from_trainer`, `hf_jobs`, `dpo`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_llama-3.1-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_llama-3.1-8b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [tinku1102/gemma-magazine-gguf](https://huggingface.co/tinku1102/gemma-magazine-gguf)
-**Author:** tinku1102  
-**Task:** text generation / language modelling  
+### [aesir-unlimited/AESIR-Hacker-Micro](https://huggingface.co/aesir-unlimited/AESIR-Hacker-Micro)
+**Author:** aesir-unlimited  
+**Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma`, `magazine`, `rag`, `news`, `auroville`, `text-generation`, `endpoints_compatible`  
+**Tags:** `qwen3_5`, `image-text-to-text`, `qwen`, `qwen3.5`, `multimodal`, `vision-language`, `conversational`, `reasoning`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: supports tool/function calling; multimodal / vision capability.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
+### [Angeline2005/mcq-deberta-v3](https://huggingface.co/Angeline2005/mcq-deberta-v3)
+**Author:** Angeline2005  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `onnx`, `deberta-v2`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
+### [leoncca/Laguna-S-2.1-Selective-AWQ](https://huggingface.co/leoncca/Laguna-S-2.1-Selective-AWQ)
+**Author:** leoncca  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `openmdw-1.1` ❓ license not confirmed  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `laguna`, `text-generation`, `awq`, `selective-quantization`, `w4a16`, `moe`, `bfloat16`, `vllm`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_gemma-4-e4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_gemma-4-e4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+### [MarkChen1214/Breeze-ASR-25-MLX-5bit](https://huggingface.co/MarkChen1214/Breeze-ASR-25-MLX-5bit)
+**Author:** MarkChen1214  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-08  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `mlx`, `whisper`, `mlx-whisper`, `automatic-speech-recognition`, `speech-to-text`, `traditional-chinese`, `taiwan`, `quantized`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_granite-4-h-small_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_granite-4-h-small_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
+### [Jordansky/r1ex5-llama3b-gin-liars](https://huggingface.co/Jordansky/r1ex5-llama3b-gin-liars)
+**Author:** Jordansky  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-08-08  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_olmo-3-7b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_olmo-3-7b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_nemotron-nano-30b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_nemotron-nano-30b-a3b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_llama-3.1-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_llama-3.1-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_gpt-oss-20b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_gpt-oss-20b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_gpt-oss-120b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_gpt-oss-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_gemma-4-31b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_gemma-4-31b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.6-35b-a3b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.6-35b-a3b_seed42)
-**Author:** dementor-research  
+### [kothariyash919/qwen3-8b-paper-classifier-lora](https://huggingface.co/kothariyash919/qwen3-8b-paper-classifier-lora)
+**Author:** kothariyash919  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-e4b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-e4b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-08  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+**Tags:** `text-generation-inference`, `unsloth`, `qwen3`, `trl`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.6-27b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.6-27b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.5-4b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-31b_as_qwen3.5-4b_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_writingprompts_gemma-4-31b_as_phi-4_seed42](https://huggingface.co/dementor-research/sft_writingprompts_gemma-4-31b_as_phi-4_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [dementor-research/sft_writingprompts_aya-expanse-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_writingprompts_aya-expanse-8b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_oasst1_ministral-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_ministral-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_oasst1_aya-expanse-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_oasst1_aya-expanse-8b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_gsm8k_ministral-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_ministral-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_gsm8k_aya-expanse-8b_as_aya-expanse-8b_seed42](https://huggingface.co/dementor-research/sft_gsm8k_aya-expanse-8b_as_aya-expanse-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_phi-4_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_phi-4_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_phi-4_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_phi-4_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_phi-4_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_phi-4_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_olmo-3-7b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_olmo-3-7b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_olmo-3-7b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_olmo-3-7b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_olmo-3-7b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_olmo-3-7b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_ministral-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_ministral-8b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_ministral-8b_as_ministral-8b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_ministral-8b_as_ministral-8b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_ministral-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_ministral-8b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_ministral-8b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_ministral-8b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_llama-3.1-8b_as_nemotron-super-120b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_llama-3.1-8b_as_nemotron-super-120b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_llama-3.1-8b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_llama-3.1-8b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_gemma-4-e4b_as_llama-3.3-70b_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gemma-4-e4b_as_llama-3.3-70b_seed42)
-**Author:** dementor-research  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~70B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name), arxiv.
-
----
-
-
-
-### [dementor-research/sft_chatbot_arena_gemma-4-31b_as_granite-4-h-small_seed42](https://huggingface.co/dementor-research/sft_chatbot_arena_gemma-4-31b_as_granite-4-h-small_seed42)
-**Author:** dementor-research  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-08  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
 
 
@@ -2067,4 +470,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-08 09:43 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-08 15:35 UTC*
