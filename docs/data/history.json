@@ -44954,6 +44954,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-08T04:14:10.650116+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "qwen3_5_moe",
+            "image-text-to-text",
+            "moe",
+            "quark"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "image-text-to-text",
+            "qwen3_5_moe",
+            "quark",
+            "amd",
+            "quantized"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-classification",
+            "text-embeddings-inference",
+            "en"
+          ]
+        },
+        "personal_research": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "qwen2"
+          ]
+        },
+        "safety_security": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "image-text-to-text",
+            "text-generation",
+            "qwen3_5_moe",
+            "moe",
+            "quark"
+          ]
+        }
+      }
     }
   ]
 }
