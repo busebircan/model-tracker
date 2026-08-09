@@ -1,17 +1,17 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-08-09  
-**Run timestamp:** 2026-08-09 09:45 UTC  
+**Run timestamp:** 2026-08-09 13:02 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 54
+**New models found:** 110
 
 ---
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-hin-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-hin-eng__beetle-bilingual-l2-50-simulta)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__tra)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -25,7 +25,49 @@
 
 
 
-### [layaiyer/glueconceptFT-hyp-youtube-adjectives-vanilla-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-youtube-adjectives-vanilla-lora)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/glueconceptFT-hyp-news-all-context-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-news-all-context-lora)
 **Author:** layaiyer  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -39,85 +81,13 @@
 
 
 
-### [lone17k/Rooja](https://huggingface.co/lone17k/Rooja)
-**Author:** lone17k  
-**Task:** text generation / language modelling  
+### [layaiyer/glueconceptFT-hyp-news-all-dict-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-news-all-dict-lora)
+**Author:** layaiyer  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-09  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [AsifZaman1912/ChatgaiyyaLM-0.5B](https://huggingface.co/AsifZaman1912/ChatgaiyyaLM-0.5B)
-**Author:** AsifZaman1912  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~0.5B (from model name)  
-**Published:** 2026-08-09  
-**Languages:** bn  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `chittagonian`, `chatgaiyya`, `bangla-dialect`, `low-resource`, `lora`, `translation`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-humanscale-deu-eng__beetle-bilingual-l2-80-late-b5-h](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-humanscale-deu-eng__beetle-bilingual-l2-80-late-b5-h)
-**Author:** Mergeability  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-simulta)
-**Author:** Mergeability  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-ita-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-ita-eng__beetle-bilingual-l2-50-sequent)
-**Author:** Mergeability  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [minhunhooo/phobert-banking-sentiment](https://huggingface.co/minhunhooo/phobert-banking-sentiment)
-**Author:** minhunhooo  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `sequence-classification`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -125,21 +95,7 @@
 
 
 
-### [minhunhooo/phobert-banking-aspect](https://huggingface.co/minhunhooo/phobert-banking-aspect)
-**Author:** minhunhooo  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `roberta`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-classro](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-classro)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__tra)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -153,23 +109,7 @@
 
 
 
-### [mosesman/Nanbeige4.1-3B-openvino-int4](https://huggingface.co/mosesman/Nanbeige4.1-3B-openvino-int4)
-**Author:** mosesman  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-09  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `openvino`, `llama`, `openvino-genai`, `nncf`, `int4`, `npu`, `intel-npu`, `intel-ai-boost`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-nld-eng__beetle-bilingual-l2-50-sequent)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__ties__nai)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -183,7 +123,7 @@
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-ita-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-ita-eng__beetle-bilingual-l2-50-simulta)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__task_arit)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -197,21 +137,63 @@
 
 
 
-### [SEN-AGI/Kires-1.0](https://huggingface.co/SEN-AGI/Kires-1.0)
-**Author:** SEN-AGI  
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__ali)
+**Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-09  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [Mergeability/goldfish-en-pol_latn__ortho_merge__transport](https://huggingface.co/Mergeability/goldfish-en-pol_latn__ortho_merge__transport)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-pol__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/goldfish-en-pol_latn__csp__naive](https://huggingface.co/Mergeability/goldfish-en-pol_latn__csp__naive)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -225,222 +207,519 @@
 
 
 
-### [layaiyer/glueconceptFT-hyp-youtube-adjectives-context-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-youtube-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-youtube-adjectives-dict-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-youtube-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-arxiv-adjectives-context-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-arxiv-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-combined-adjectives-vanilla-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-adjectives-vanilla-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-combined-adjectives-dict-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-news-adjectives-dict-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-news-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/glueconceptFT-hyp-combined-adjectives-context-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [SoulSonu/Soul-MedAssist-AI-Adapter](https://huggingface.co/SoulSonu/Soul-MedAssist-AI-Adapter)
-**Author:** SoulSonu  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [bencodez/Cipheron](https://huggingface.co/bencodez/Cipheron)
-**Author:** bencodez  
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__task_arit)
+**Author:** Mergeability  
 **Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-isl__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/glueconceptFT-hyp-combined-all-vanilla-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-all-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [layaiyer/glueconceptFT-hyp-combined-all-dict-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-all-dict-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-fin__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/glueconceptFT-hyp-combined-all-context-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/hateconceptFT-hyp-arxiv-all-vanilla-lora](https://huggingface.co/layaiyer/hateconceptFT-hyp-arxiv-all-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ita__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/spamFT-hyp-arxiv-all-context-lora](https://huggingface.co/layaiyer/spamFT-hyp-arxiv-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-est__beetle-monolingual-fineweb-100m-kor__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-youtube-all-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Deep1451/medqa-mistral7b-merged-fp16](https://huggingface.co/Deep1451/medqa-mistral7b-merged-fp16)
+**Author:** Deep1451  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-09  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mistral`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ansulev/Phi-3.5-mini-instruct](https://huggingface.co/ansulev/Phi-3.5-mini-instruct)
+**Author:** ansulev  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-09  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `phi3`, `text-generation`, `nlp`, `code`, `conversational`, `custom_code`, `multilingual`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, nlp. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [bhaskar1707/banglasum-qwen3-0.6b](https://huggingface.co/bhaskar1707/banglasum-qwen3-0.6b)
+**Author:** bhaskar1707  
+**Task:** document and text summarization  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-09  
+**Languages:** bn  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `summarization`, `bengali`, `qlora`, `lora`, `xlsum`, `trl`, `bn`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: summarization, tag match: summarization, nlp.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-est__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-zho-eng__beetle-bilingual-l2-80](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-zho-eng__beetle-bilingual-l2-80)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ansulev/Shieldstral-1.0-3B](https://huggingface.co/ansulev/Shieldstral-1.0-3B)
+**Author:** ansulev  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-09  
+**Languages:** en, fr, es, de, it  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `vllm`, `mistral3`, `mistral-common`, `fr`, `es`, `de`, `it`, `pt`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [BiliSakura/SARMAE-transformers](https://huggingface.co/BiliSakura/SARMAE-transformers)
+**Author:** BiliSakura  
+**Task:** image feature extraction / visual embeddings  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-08-09  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `vision`, `image-feature-extraction`, `sar`, `remote-sensing`, `synthetic-aperture-radar`, `masked-autoencoder`, `model-hub`, `dataset:Wenquandan777/SAR-1M`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ozaa77/Cogito-0.9-Q4_K_M-GGUF](https://huggingface.co/ozaa77/Cogito-0.9-Q4_K_M-GGUF)
+**Author:** ozaa77  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-09  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `code`, `security`, `secure-coding`, `lora`, `qwen2.5-coder`, `text-generation`  
+**Tags:** `gguf`, `text-generation-inference`, `reasoning`, `agentic`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-youtube-adjectives-vanilla-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-adjectives-vanilla-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [mikami235/act_so101_pick_place_5ep_01](https://huggingface.co/mikami235/act_so101_pick_place_5ep_01)
-**Author:** mikami235  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:mikami235/so101_pick_place_5ep_01`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [cagedBirdy/cut_sparse_xyzi_2048_xyzjitter_intensityjitter](https://huggingface.co/cagedBirdy/cut_sparse_xyzi_2048_xyzjitter_intensityjitter)
-**Author:** cagedBirdy  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `diffusion`, `robotics`, `dataset:cagedBirdy/rope_cut_oct_xyzi_v1`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [alirezaaminzadeh/routelab-solver-selector](https://huggingface.co/alirezaaminzadeh/routelab-solver-selector)
-**Author:** alirezaaminzadeh  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `routelab`, `solver_selector`, `vehicle-routing`, `solver-selection`, `optimization`, `routefinder`, `operations-research`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [CAMOMAIL/Qwen-Image-Edit-2511](https://huggingface.co/CAMOMAIL/Qwen-Image-Edit-2511)
-**Author:** CAMOMAIL  
-**Task:** image to image  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-09  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `image-to-image`, `zh`, `diffusers:QwenImageEditPlusPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [CAMOMAIL/Wan2.1-VACE-14B](https://huggingface.co/CAMOMAIL/Wan2.1-VACE-14B)
-**Author:** CAMOMAIL  
-**Task:** image to video  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-09  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `vace`, `video generation`, `video-to-video editing`, `refernce-to-video`, `image-to-video`, `zh`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-deu-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-deu-eng__beetle-bilingual-l2-50-sequent)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__ali)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -454,7 +733,7 @@
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-eus-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-eus-eng__beetle-bilingual-l2-50-simulta)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__ties__nai)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -468,7 +747,7 @@
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-fil-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-fil-eng__beetle-bilingual-l2-50-simulta)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__qmd_guide)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -482,7 +761,7 @@
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-deu-eng__beetle-bilingual-l2-50-simulta](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-deu-eng__beetle-bilingual-l2-50-simulta)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__qmd_guide)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -496,21 +775,7 @@
 
 
 
-### [layaiyer/emotionalFT-hyp-youtube-adjectives-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-hin-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-hin-eng__beetle-bilingual-l2-50-sequent)
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__tra)
 **Author:** Mergeability  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -524,229 +789,84 @@
 
 
 
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-fil-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-fil-eng__beetle-bilingual-l2-50-sequent)
-**Author:** Mergeability  
+### [Antor1553/rian-chittagong-qwen1.5b](https://huggingface.co/Antor1553/rian-chittagong-qwen1.5b)
+**Author:** Antor1553  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Flexingmeow/Chimera-14B-v2](https://huggingface.co/Flexingmeow/Chimera-14B-v2)
-**Author:** Flexingmeow  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `cybersecurity`, `reasoning`, `lora`, `unsloth`, `mistral`, `ministral`, `security-analysis`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis, reasoning.
-
----
-
-
-
-### [Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-eus-eng__beetle-bilingual-l2-50-sequent](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-balanced-b1-fineweb-100m-eus-eng__beetle-bilingual-l2-50-sequent)
-**Author:** Mergeability  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-youtube-adjectives-dict-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-combined-adjectives-vanilla-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-adjectives-vanilla-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-combined-adjectives-dict-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ceciliyazi/Terminal-Vision-LoRa](https://huggingface.co/ceciliyazi/Terminal-Vision-LoRa)
-**Author:** ceciliyazi  
-**Task:** text to image  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-image`, `lora`, `template:diffusion-lora`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-news-adjectives-dict-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-news-adjectives-dict-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [CAMOMAIL/Wan2.2-I2V-A14B](https://huggingface.co/CAMOMAIL/Wan2.2-I2V-A14B)
-**Author:** CAMOMAIL  
-**Task:** image to video  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-09  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `wan2.2`, `diffusers`, `image-to-video`, `zh`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-arxiv-adjectives-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-arxiv-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [layaiyer/emotionalFT-hyp-combined-adjectives-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-adjectives-context-lora)
-**Author:** layaiyer  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sequence-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Scrapped-MSA-Mask-epoch3](https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Scrapped-MSA-Mask-epoch3)
-**Author:** ArabicNewsAnalyzer  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [DishaSJain/multilingual-translator-nllb](https://huggingface.co/DishaSJain/multilingual-translator-nllb)
-**Author:** DishaSJain  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `m2m_100`, `text2text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-h138-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-h138-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Quart512/aisaac-qwen2.5-1.5b-gguf](https://huggingface.co/Quart512/aisaac-qwen2.5-1.5b-gguf)
-**Author:** Quart512  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~1.5B (from model name)  
 **Published:** 2026-08-09  
-**Languages:** en, ko  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2.5`, `physics`, `text-generation`, `ko`, `endpoints_compatible`, `conversational`  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `4-bit`, `bitsandbytes`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Scrapped-MSA-Mask-epoch2](https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Single-Arabic-Dialect-Scrapped-MSA-Mask-epoch2)
-**Author:** ArabicNewsAnalyzer  
-**Task:** text classification  
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-09  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/snliFT-hyp-arxiv-all-context-lora](https://huggingface.co/layaiyer/snliFT-hyp-arxiv-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -754,36 +874,698 @@
 
 
 
-### [alirezaaminzadeh/solverport-selection-model](https://huggingface.co/alirezaaminzadeh/solverport-selection-model)
-**Author:** alirezaaminzadeh  
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-fin__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-ell__beetle-monolingual-fineweb-100m-tur__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-rus__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-nld__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-news-all-vanilla-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-news-all-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-zho-eng__beetle-bilingual-l2-50](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-zho-eng__beetle-bilingual-l2-50)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/hateconceptFT-hyp-arxiv-all-dict-lora](https://huggingface.co/layaiyer/hateconceptFT-hyp-arxiv-all-dict-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__tra](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__tra)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__ali](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__ali)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__nai](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__ties__nai)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-news-all-dict-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-news-all-dict-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [bdjindabadBangladeshjindabad/Bangla-AI](https://huggingface.co/bdjindabadBangladeshjindabad/Bangla-AI)
+**Author:** bdjindabadBangladeshjindabad  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-news-all-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-news-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jjjlimaus/chrono2014-finance2015-ft4-typemix2014](https://huggingface.co/jjjlimaus/chrono2014-finance2015-ft4-typemix2014)
+**Author:** jjjlimaus  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__task_arit](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__task_arit)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [jkminder/pretraining-priors-d26-rl-numtox](https://huggingface.co/jkminder/pretraining-priors-d26-rl-numtox)
+**Author:** jkminder  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-08-09  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `chat`, `rl`, `research`, `nanochat`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research, arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__average__](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-kor__average__)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [jkminder/pretraining-priors-d26-rl](https://huggingface.co/jkminder/pretraining-priors-d26-rl)
+**Author:** jkminder  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-08-09  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `chat`, `rl`, `research`, `nanochat`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research, arxiv.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-combined-all-dict-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-all-dict-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-combined-all-vanilla-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-all-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Phase-Technologies/qwen2.5-3b-ntads-reasoning](https://huggingface.co/Phase-Technologies/qwen2.5-3b-ntads-reasoning)
+**Author:** Phase-Technologies  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning (name).
+
+---
+
+
+
+### [layaiyer/emotionalFT-hyp-combined-all-context-lora](https://huggingface.co/layaiyer/emotionalFT-hyp-combined-all-context-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/xlm-roberta-large-sindhi-extended](https://huggingface.co/Kashif786/xlm-roberta-large-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/rembert-sindhi-extended](https://huggingface.co/Kashif786/rembert-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `rembert`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/ModernBERT-base-sindhi-extended](https://huggingface.co/Kashif786/ModernBERT-base-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/bert-base-multilingual-cased-sindhi-extended](https://huggingface.co/Kashif786/bert-base-multilingual-cased-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [oaimli/sft_longpt_full_gemma3_4b_it](https://huggingface.co/oaimli/sft_longpt_full_gemma3_4b_it)
+**Author:** oaimli  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma3`, `image-text-to-text`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/xlm-roberta-base-sindhi-extended](https://huggingface.co/Kashif786/xlm-roberta-base-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/distilbert-base-multilingual-cased-sindhi-extended](https://huggingface.co/Kashif786/distilbert-base-multilingual-cased-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Kashif786/electra-base-discriminator-sindhi-extended](https://huggingface.co/Kashif786/electra-base-discriminator-sindhi-extended)
+**Author:** Kashif786  
+**Task:** fill mask  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `electra`, `fill-mask`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [fpadovani/swa-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed455](https://huggingface.co/fpadovani/swa-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed455)
+**Author:** fpadovani  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mradermacher/Caelum-G4-38B-A12.5B-i1-GGUF](https://huggingface.co/mradermacher/Caelum-G4-38B-A12.5B-i1-GGUF)
+**Author:** mradermacher  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-08-09  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `solverport`, `optimization`, `operations-research`, `solver-selection`, `meta-learning`  
+**Tags:** `gguf`, `gemma4`, `gemma4-unified`, `mixture-of-experts`, `moe`, `mergekit`, `agentic`, `coding`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [saramara/Wan2.2-Lightning](https://huggingface.co/saramara/Wan2.2-Lightning)
-**Author:** saramara  
-**Task:** text to video  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [layaiyer/glueconceptFT-hyp-arxiv-all-vanilla-lora](https://huggingface.co/layaiyer/glueconceptFT-hyp-arxiv-all-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-09  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-video;`, `image-to-video;`, `comfyUI;`, `video-generation;`, `text-to-video`  
+**Tags:** `peft`, `lora`, `sequence-classification`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
+---
+
+
+
+### [dr-housemd/gemma-4-31B-it-scotoma-2-4bpw-exl3](https://huggingface.co/dr-housemd/gemma-4-31B-it-scotoma-2-4bpw-exl3)
+**Author:** dr-housemd  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `text-generation`, `conversational`, `endpoints_compatible`, `4-bit`, `exl3`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-deu-eng__beetle-bilingual-l2-80](https://huggingface.co/Mergeability/zoo-curriculum-beetle-bilingual-l2-50-simultaneous-b2-humanscale-deu-eng__beetle-bilingual-l2-80)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [layaiyer/logical-fallacy-hyp-youtube-adjectives-vanilla-lora](https://huggingface.co/layaiyer/logical-fallacy-hyp-youtube-adjectives-vanilla-lora)
+**Author:** layaiyer  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sequence-classification`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ell__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-ell__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-hin__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-hin__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-est__qmd_guide](https://huggingface.co/Mergeability/zoo-language-beetle-monolingual-fineweb-100m-deu__beetle-monolingual-fineweb-100m-est__qmd_guide)
+**Author:** Mergeability  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-09  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `pico_decoder`, `text-generation`, `model-merging`, `mergeability`, `training-free`, `quotient-merge-distance`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-09 09:45 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-09 13:02 UTC*
