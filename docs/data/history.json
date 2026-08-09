@@ -45708,6 +45708,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-09T04:21:40.829774+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 74,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "custom_code",
+            "endpoints_compatible",
+            "pico_decoder",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "image-text-to-text",
+            "conversational",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 35,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "custom_code",
+            "pico_decoder",
+            "model-merging",
+            "mergeability",
+            "training-free",
+            "quotient-merge-distance"
+          ]
+        },
+        "rag_general": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "text-embeddings-inference",
+            "roberta",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 44,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "custom_code",
+            "pico_decoder",
+            "model-merging",
+            "mergeability",
+            "training-free",
+            "quotient-merge-distance"
+          ]
+        },
+        "safety_security": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "conversational",
+            "unsloth",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
