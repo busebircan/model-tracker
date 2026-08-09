@@ -45613,6 +45613,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-09T02:08:36.773310+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 60,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "custom_code",
+            "code",
+            "feature-extraction",
+            "quantized"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "quantized",
+            "transformers",
+            "feature-extraction",
+            "mlx",
+            "text-generation",
+            "pytorch",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "custom_code",
+            "code",
+            "pico_decoder",
+            "model-merging",
+            "mergeability"
+          ]
+        },
+        "rag_general": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "text-embeddings-inference",
+            "sentence-transformers",
+            "xlm-roberta"
+          ]
+        },
+        "personal_research": {
+          "model_count": 40,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "code",
+            "conversational",
+            "pico_decoder",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "text-generation",
+            "conversational",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
