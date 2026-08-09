@@ -46368,6 +46368,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-09T21:38:19.341941+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 60,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "gguf",
+            "en",
+            "feature-extraction",
+            "omega-ai"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "transformers",
+            "en",
+            "text-generation",
+            "libreyolo",
+            "perception-encoder",
+            "zero-shot-image-classification"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "omega-ai",
+            "en",
+            "lora",
+            "libreyolo"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "sentence-transformers",
+            "sentence-similarity",
+            "generated_from_trainer",
+            "dataset_size:31800",
+            "loss:MultipleNegativesRankingLoss",
+            "transformers"
+          ]
+        },
+        "personal_research": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "peft",
+            "transformers",
+            "lora",
+            "sequence-classification",
+            "feature-extraction"
+          ]
+        },
+        "safety_security": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "feature-extraction",
+            "gguf",
+            "en",
+            "sentence-transformers",
+            "sentence-similarity"
+          ]
+        }
+      }
     }
   ]
 }
