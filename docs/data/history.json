@@ -45803,6 +45803,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-09T07:04:48.999156+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 60,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "gpt2",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 45,
+          "top_tags": [
+            "text-generation",
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "gpt2",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "diffusers",
+            "stable-diffusion",
+            "inpainting",
+            "qualcomm"
+          ]
+        },
+        "personal_research": {
+          "model_count": 48,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "gpt2",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "gpt2",
+            "model-merging",
+            "mergeability",
+            "training-free"
+          ]
+        }
+      }
     }
   ]
 }
