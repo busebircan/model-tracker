@@ -1,41 +1,129 @@
 {
   "profile": "personal_research",
   "display_name": "Research & Summarisation",
-  "run_at": "2026-08-10T02:15:53.307146+00:00",
-  "model_count": 15,
+  "run_at": "2026-08-10T04:43:51.143045+00:00",
+  "model_count": 38,
   "models": [
     {
-      "id": "mekpro/gemma4-e2b-translate-260811-100k2",
-      "author": "mekpro",
-      "name": "gemma4-e2b-translate-260811-100k2",
-      "created_at": "2026-08-10T02:13:53+00:00",
+      "id": "layaiyer/glueconceptFT-hyp-news-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "glueconceptFT-hyp-news-verbs-vanilla-lora",
+      "created_at": "2026-08-10T04:40:43+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
+        "peft",
         "safetensors",
-        "gemma4",
-        "translation",
-        "thai",
-        "gemma",
-        "full-finetune",
-        "text-generation",
-        "conversational",
-        "th",
-        "en",
-        "dataset:mekpro/th_en_translation_260803",
-        "base_model:google/gemma-4-E2B-it",
-        "base_model:finetune:google/gemma-4-E2B-it",
-        "license:gemma",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
         "region:us"
       ],
-      "license": "gemma",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mekpro/gemma4-e2b-translate-260811-100k2",
+      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-news-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-youtube-nouns-vanilla-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-youtube-nouns-vanilla-lora",
+      "created_at": "2026-08-10T04:38:30+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-youtube-nouns-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/glueconceptFT-hyp-news-verbs-dict-lora",
+      "author": "layaiyer",
+      "name": "glueconceptFT-hyp-news-verbs-dict-lora",
+      "created_at": "2026-08-10T04:35:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-news-verbs-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "rickix84/recall-honcho-8b",
+      "author": "rickix84",
+      "name": "recall-honcho-8b",
+      "created_at": "2026-08-10T04:34:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "memory",
+        "honcho",
+        "deriver",
+        "conclusion-extraction",
+        "observation-extraction",
+        "lora",
+        "distillation",
+        "claude-opus-4.8",
+        "conversational",
+        "en",
+        "base_model:Qwen/Qwen3-8B",
+        "base_model:adapter:Qwen/Qwen3-8B",
+        "license:apache-2.0",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rickix84/recall-honcho-8b",
       "description": null,
       "languages": [
-        "th",
         "en"
       ],
       "datasets": [],
@@ -45,10 +133,997 @@
       ]
     },
     {
-      "id": "Xx-Vexento-xX/roast-bot-qwen-1b-epoch2",
-      "author": "Xx-Vexento-xX",
-      "name": "roast-bot-qwen-1b-epoch2",
-      "created_at": "2026-08-10T02:12:04+00:00",
+      "id": "layaiyer/emotionalFT-hyp-youtube-verbs-dict-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-youtube-verbs-dict-lora",
+      "created_at": "2026-08-10T04:33:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-verbs-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-combined-verbs-dict-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-combined-verbs-dict-lora",
+      "created_at": "2026-08-10T04:33:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-combined-verbs-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-arxiv-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-arxiv-verbs-vanilla-lora",
+      "created_at": "2026-08-10T04:32:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-arxiv-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "JohJohnJohn/Z-Image-Turbo",
+      "author": "JohJohnJohn",
+      "name": "Z-Image-Turbo",
+      "created_at": "2026-08-10T04:32:13+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-to-image",
+      "tags": [
+        "diffusers",
+        "safetensors",
+        "text-to-image",
+        "en",
+        "arxiv:2511.22699",
+        "arxiv:2511.22677",
+        "arxiv:2511.13649",
+        "license:apache-2.0",
+        "diffusers:ZImagePipeline",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/JohJohnJohn/Z-Image-Turbo",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "lattice-research/lattice-mini",
+      "author": "lattice-research",
+      "name": "lattice-mini",
+      "created_at": "2026-08-10T04:28:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "gpt2",
+        "from-scratch",
+        "tiny",
+        "text-generation",
+        "conversational",
+        "en",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lattice-research/lattice-mini",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: research (name)"
+      ]
+    },
+    {
+      "id": "layaiyer/snliFT-hyp-youtube-nouns-vanilla-lora",
+      "author": "layaiyer",
+      "name": "snliFT-hyp-youtube-nouns-vanilla-lora",
+      "created_at": "2026-08-10T04:24:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/snliFT-hyp-youtube-nouns-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/glueconceptFT-hyp-combined-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "glueconceptFT-hyp-combined-verbs-vanilla-lora",
+      "created_at": "2026-08-10T04:24:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-combined-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "umarsani16/dicoding-llama-3.2-3b-legal-chatbot-sft",
+      "author": "umarsani16",
+      "name": "dicoding-llama-3.2-3b-legal-chatbot-sft",
+      "created_at": "2026-08-10T04:24:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/umarsani16/dicoding-llama-3.2-3b-legal-chatbot-sft",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "layaiyer/emotionalFT-hyp-youtube-verbs-context-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-youtube-verbs-context-lora",
+      "created_at": "2026-08-10T04:23:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-verbs-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-arxiv-verbs-context-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-arxiv-verbs-context-lora",
+      "created_at": "2026-08-10T04:21:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-arxiv-verbs-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-arxiv-verbs-dict-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-arxiv-verbs-dict-lora",
+      "created_at": "2026-08-10T04:21:11+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-arxiv-verbs-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-combined-verbs-context-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-combined-verbs-context-lora",
+      "created_at": "2026-08-10T04:18:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-combined-verbs-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/snliFT-hyp-arxiv-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "snliFT-hyp-arxiv-verbs-vanilla-lora",
+      "created_at": "2026-08-10T04:17:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/snliFT-hyp-arxiv-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-youtube-nouns-dict-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-youtube-nouns-dict-lora",
+      "created_at": "2026-08-10T04:17:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-youtube-nouns-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "c0mpl1cated/shodan-qwen3-4b-lora-v2",
+      "author": "c0mpl1cated",
+      "name": "shodan-qwen3-4b-lora-v2",
+      "created_at": "2026-08-10T04:15:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/c0mpl1cated/shodan-qwen3-4b-lora-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-news-nouns-vanilla-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-news-nouns-vanilla-lora",
+      "created_at": "2026-08-10T04:08:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-news-nouns-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "DraSlayer/personal-llm-phase8-9b",
+      "author": "DraSlayer",
+      "name": "personal-llm-phase8-9b",
+      "created_at": "2026-08-10T04:05:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "safetensors",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DraSlayer/personal-llm-phase8-9b",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-youtube-nouns-context-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-youtube-nouns-context-lora",
+      "created_at": "2026-08-10T04:05:44+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-youtube-nouns-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/emotionalFT-hyp-news-verbs-context-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-news-verbs-context-lora",
+      "created_at": "2026-08-10T04:02:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-news-verbs-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/snliFT-hyp-youtube-nouns-dict-lora",
+      "author": "layaiyer",
+      "name": "snliFT-hyp-youtube-nouns-dict-lora",
+      "created_at": "2026-08-10T04:00:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/snliFT-hyp-youtube-nouns-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/emotionalFT-hyp-news-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-news-verbs-vanilla-lora",
+      "created_at": "2026-08-10T03:59:17+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-news-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-youtube-nouns-vanilla-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-youtube-nouns-vanilla-lora",
+      "created_at": "2026-08-10T03:56:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-youtube-nouns-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "noviardhana/llama3-legal-id-grpo",
+      "author": "noviardhana",
+      "name": "llama3-legal-id-grpo",
+      "created_at": "2026-08-10T03:54:40+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "llama",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:noviardhana/llama3-legal-id-ft",
+        "base_model:finetune:noviardhana/llama3-legal-id-ft",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/noviardhana/llama3-legal-id-grpo",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "layaiyer/snliFT-hyp-news-nouns-vanilla-lora",
+      "author": "layaiyer",
+      "name": "snliFT-hyp-news-nouns-vanilla-lora",
+      "created_at": "2026-08-10T03:51:36+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/snliFT-hyp-news-nouns-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/spamFT-hyp-news-nouns-dict-lora",
+      "author": "layaiyer",
+      "name": "spamFT-hyp-news-nouns-dict-lora",
+      "created_at": "2026-08-10T03:50:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/spamFT-hyp-news-nouns-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "tyy-sjtu/TAAD-ECG",
+      "author": "tyy-sjtu",
+      "name": "TAAD-ECG",
+      "created_at": "2026-08-10T03:47:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "pytorch",
+        "electrocardiography",
+        "aortic-dissection",
+        "medical-ai",
+        "research",
+        "zh",
+        "license:cc-by-nc-4.0",
+        "region:us"
+      ],
+      "license": "cc-by-nc-4.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tyy-sjtu/TAAD-ECG",
+      "description": null,
+      "languages": [
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": false,
+      "profile_match_reasons": [
+        "tag match: research"
+      ]
+    },
+    {
+      "id": "layaiyer/snliFT-hyp-youtube-nouns-context-lora",
+      "author": "layaiyer",
+      "name": "snliFT-hyp-youtube-nouns-context-lora",
+      "created_at": "2026-08-10T03:47:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/snliFT-hyp-youtube-nouns-context-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/emotionalFT-hyp-news-verbs-dict-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-news-verbs-dict-lora",
+      "created_at": "2026-08-10T03:47:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-news-verbs-dict-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "layaiyer/emotionalFT-hyp-combined-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "emotionalFT-hyp-combined-verbs-vanilla-lora",
+      "created_at": "2026-08-10T03:42:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-combined-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "richarddzh/tiny-qwen3-30m-zh",
+      "author": "richarddzh",
+      "name": "tiny-qwen3-30m-zh",
+      "created_at": "2026-08-10T03:41:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3",
+        "text-generation",
+        "arxiv:1910.09700",
+        "text-generation-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/richarddzh/tiny-qwen3-30m-zh",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "vmlinux/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-MTP-ROCmFPX-GGUF",
+      "author": "vmlinux",
+      "name": "Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-MTP-ROCmFPX-GGUF",
+      "created_at": "2026-08-10T03:41:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "qwen3.6",
+        "rocmfpx",
+        "rocmfp4",
+        "mtp",
+        "vulkan",
+        "strix-halo",
+        "creative-writing",
+        "text-generation",
+        "base_model:nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
+        "base_model:quantized:nightmedia/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "imatrix",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/vmlinux/Qwen3.6-27B-Architect-Polaris2-Fable-B-F451-MTP-ROCmFPX-GGUF",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "layaiyer/hateconceptFT-hyp-arxiv-verbs-vanilla-lora",
+      "author": "layaiyer",
+      "name": "hateconceptFT-hyp-arxiv-verbs-vanilla-lora",
+      "created_at": "2026-08-10T03:40:03+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "peft",
+        "safetensors",
+        "lora",
+        "sequence-classification",
+        "arxiv:1910.09700",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/layaiyer/hateconceptFT-hyp-arxiv-verbs-vanilla-lora",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: arxiv"
+      ]
+    },
+    {
+      "id": "nightmedia/granite-4.1-8b-Tangerine-q8-hi-mlx",
+      "author": "nightmedia",
+      "name": "granite-4.1-8b-Tangerine-q8-hi-mlx",
+      "created_at": "2026-08-10T03:39:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "granite",
+        "finetune",
+        "unsloth",
+        "granite-4.1",
+        "reasoning",
+        "thinking",
+        "emergent",
+        "mergekit",
+        "merge",
+        "text-generation",
+        "conversational",
+        "base_model:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
+        "base_model:merge:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
+        "base_model:ibm-granite/granite-4.1-8b",
+        "base_model:merge:ibm-granite/granite-4.1-8b",
+        "base_model:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
+        "base_model:merge:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
+        "base_model:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
+        "base_model:merge:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
+        "license:apache-2.0",
+        "8-bit",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/nightmedia/granite-4.1-8b-Tangerine-q8-hi-mlx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation",
+        "tag match: reasoning"
+      ]
+    },
+    {
+      "id": "RinKana/spark_tts_Ganyu_finetune_16bit",
+      "author": "RinKana",
+      "name": "spark_tts_Ganyu_finetune_16bit",
+      "created_at": "2026-08-10T03:38:12+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -56,13 +1131,17 @@
         "safetensors",
         "qwen2",
         "text-generation",
-        "text-generation-inference",
         "unsloth",
+        "trl",
+        "sft",
         "conversational",
-        "en",
-        "base_model:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
-        "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-bnb-4bit",
+        "zh",
+        "dataset:svjack/genshin_impact_ganyu_audio_sample",
+        "arxiv:1910.09700",
+        "base_model:SparkAudio/Spark-TTS-0.5B",
+        "base_model:finetune:SparkAudio/Spark-TTS-0.5B",
         "license:apache-2.0",
+        "text-generation-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -70,379 +1149,16 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Xx-Vexento-xX/roast-bot-qwen-1b-epoch2",
+      "url": "https://huggingface.co/RinKana/spark_tts_Ganyu_finetune_16bit",
       "description": null,
       "languages": [
-        "en"
+        "zh"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "layaiyer/emotionalFT-hyp-youtube-nouns-vanilla-lora",
-      "author": "layaiyer",
-      "name": "emotionalFT-hyp-youtube-nouns-vanilla-lora",
-      "created_at": "2026-08-10T02:09:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/emotionalFT-hyp-youtube-nouns-vanilla-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
+        "task match: text-generation",
         "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/spamFT-hyp-news-nouns-context-lora",
-      "author": "layaiyer",
-      "name": "spamFT-hyp-news-nouns-context-lora",
-      "created_at": "2026-08-10T02:07:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/spamFT-hyp-news-nouns-context-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/glueconceptFT-hyp-youtube-nouns-dict-lora",
-      "author": "layaiyer",
-      "name": "glueconceptFT-hyp-youtube-nouns-dict-lora",
-      "created_at": "2026-08-10T02:06:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-youtube-nouns-dict-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/spamFT-hyp-combined-nouns-vanilla-lora",
-      "author": "layaiyer",
-      "name": "spamFT-hyp-combined-nouns-vanilla-lora",
-      "created_at": "2026-08-10T02:05:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/spamFT-hyp-combined-nouns-vanilla-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/glueconceptFT-hyp-news-nouns-vanilla-lora",
-      "author": "layaiyer",
-      "name": "glueconceptFT-hyp-news-nouns-vanilla-lora",
-      "created_at": "2026-08-10T02:00:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-news-nouns-vanilla-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/glueconceptFT-hyp-youtube-nouns-context-lora",
-      "author": "layaiyer",
-      "name": "glueconceptFT-hyp-youtube-nouns-context-lora",
-      "created_at": "2026-08-10T01:57:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-youtube-nouns-context-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "open-machine/gemma-4-E2B-FlashNorm",
-      "author": "open-machine",
-      "name": "gemma-4-E2B-FlashNorm",
-      "created_at": "2026-08-10T01:56:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gemma4",
-        "flashnorm",
-        "arxiv:2407.09577",
-        "base_model:google/gemma-4-E2B",
-        "base_model:finetune:google/gemma-4-E2B",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/open-machine/gemma-4-E2B-FlashNorm",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/glueconceptFT-hyp-news-nouns-dict-lora",
-      "author": "layaiyer",
-      "name": "glueconceptFT-hyp-news-nouns-dict-lora",
-      "created_at": "2026-08-10T01:50:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/glueconceptFT-hyp-news-nouns-dict-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/snliFT-hyp-news-nouns-context-lora",
-      "author": "layaiyer",
-      "name": "snliFT-hyp-news-nouns-context-lora",
-      "created_at": "2026-08-10T01:48:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/snliFT-hyp-news-nouns-context-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "layaiyer/snliFT-hyp-combined-nouns-vanilla-lora",
-      "author": "layaiyer",
-      "name": "snliFT-hyp-combined-nouns-vanilla-lora",
-      "created_at": "2026-08-10T01:43:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "peft",
-        "safetensors",
-        "lora",
-        "sequence-classification",
-        "arxiv:1910.09700",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/layaiyer/snliFT-hyp-combined-nouns-vanilla-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "monate615/albedo-qwen3.6-35b-20260809001",
-      "author": "monate615",
-      "name": "albedo-qwen3.6-35b-20260809001",
-      "created_at": "2026-08-10T01:41:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-text-to-text",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5_moe",
-        "image-text-to-text",
-        "mergekit",
-        "merge",
-        "conversational",
-        "arxiv:2203.05482",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/monate615/albedo-qwen3.6-35b-20260809001",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "RiTikk457/qwen2.5-3b-wikisql-lora",
-      "author": "RiTikk457",
-      "name": "qwen2.5-3b-wikisql-lora",
-      "created_at": "2026-08-10T01:39:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "arxiv:1910.09700",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RiTikk457/qwen2.5-3b-wikisql-lora",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: arxiv"
-      ]
-    },
-    {
-      "id": "JamesResearch1216/phase7a-warmup-v2-32h-64d",
-      "author": "JamesResearch1216",
-      "name": "phase7a-warmup-v2-32h-64d",
-      "created_at": "2026-08-10T01:35:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/JamesResearch1216/phase7a-warmup-v2-32h-64d",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: research (name)"
       ]
     }
   ]
