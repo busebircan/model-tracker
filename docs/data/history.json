@@ -46463,6 +46463,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-10T02:15:53.889400+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "mlx",
+            "image-text-to-text",
+            "4-bit",
+            "gemma4",
+            "transformers"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "mlx",
+            "image-text-to-text",
+            "4-bit",
+            "endpoints_compatible",
+            "gguf",
+            "gemma4_assistant",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 2,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "en",
+            "region:us",
+            "gemma4",
+            "translation",
+            "thai",
+            "gemma",
+            "full-finetune"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "mlx",
+            "safetensors",
+            "image-text-to-text",
+            "conversational",
+            "4-bit",
+            "gemma4_assistant",
+            "feature-extraction",
+            "endpoints_compatible",
+            "gemma4"
+          ]
+        },
+        "personal_research": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "peft",
+            "lora",
+            "sequence-classification",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "gemma4",
+            "text-generation"
+          ]
+        },
+        "safety_security": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "gguf",
+            "qwen2"
+          ]
+        }
+      }
     }
   ]
 }
