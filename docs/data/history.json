@@ -47309,6 +47309,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-11T02:07:59.618795+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "feature-extraction",
+            "conversational",
+            "image-text-to-text",
+            "text-generation",
+            "en",
+            "embeddings"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "image-text-to-text",
+            "en",
+            "conversational",
+            "embeddings",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "en",
+            "image-text-to-text",
+            "qwen3",
+            "conversational",
+            "onnx"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "feature-extraction",
+            "region:us",
+            "endpoints_compatible",
+            "embeddings",
+            "transformers",
+            "sentence-transformers",
+            "safetensors",
+            "sentence-similarity",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 29,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "image-text-to-text",
+            "text-generation",
+            "conversational",
+            "sequence-classification"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "feature-extraction",
+            "image-text-to-text",
+            "en",
+            "conversational",
+            "text-generation-inference",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
