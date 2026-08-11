@@ -48069,6 +48069,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-11T21:55:08.637780+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "gguf",
+            "pytorch",
+            "mlx"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "en",
+            "gguf",
+            "text-generation",
+            "pytorch",
+            "mlx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "mlx",
+            "nemotron_h",
+            "mlx-lm"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "en",
+            "safetensors",
+            "text-classification",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 36,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "en",
+            "conversational",
+            "endpoints_compatible",
+            "peft",
+            "pytorch",
+            "base_model:meta-llama/Llama-3.1-8B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "en",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
