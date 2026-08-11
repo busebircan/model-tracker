@@ -47689,6 +47689,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-11T10:04:10.244108+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "gguf",
+            "text-generation",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "gguf",
+            "en",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "custom_code",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "conversational",
+            "education",
+            "edge-ai"
+          ]
+        },
+        "rag_general": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "text-classification",
+            "generated_from_trainer",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "object-detection",
+            "endpoints_compatible",
+            "ultralytics",
+            "detectionbench",
+            "pytorch",
+            "computer-vision",
+            "agriculture",
+            "wheat"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "generated_from_trainer",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en",
+            "xlm-roberta"
+          ]
+        }
+      }
     }
   ]
 }
