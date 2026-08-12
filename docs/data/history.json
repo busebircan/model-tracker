@@ -48923,6 +48923,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-12T21:52:38.204006+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 105,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "trl",
+            "text-generation-inference",
+            "unsloth",
+            "qwen2",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "en",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "pytorch",
+            "text-generation-inference",
+            "unsloth"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "reasoning",
+            "custom_code",
+            "peft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "trl",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "peft",
+            "lora",
+            "reasoning"
+          ]
+        },
+        "safety_security": {
+          "model_count": 119,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "en",
+            "safetensors",
+            "text-generation-inference",
+            "unsloth",
+            "trl",
+            "qwen2",
+            "gemma3_text"
+          ]
+        }
+      }
     }
   ]
 }
