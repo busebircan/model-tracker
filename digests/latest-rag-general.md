@@ -1,18 +1,18 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-12  
-**Run timestamp:** 2026-08-12 02:25 UTC  
+**Run timestamp:** 2026-08-12 04:52 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 8
+**New models found:** 11
 
 ---
 
 
 
-### [sad1csa21dsa/MyAwesomeModel-TestRepo](https://huggingface.co/sad1csa21dsa/MyAwesomeModel-TestRepo)
-**Author:** sad1csa21dsa  
+### [cxz12dxzc1ed/MyAwesomeModel-TestRepo](https://huggingface.co/cxz12dxzc1ed/MyAwesomeModel-TestRepo)
+**Author:** cxz12dxzc1ed  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -25,8 +25,8 @@
 
 
 
-### [xcc12ds21313/MyAwesomeModel-TestRepo](https://huggingface.co/xcc12ds21313/MyAwesomeModel-TestRepo)
-**Author:** xcc12ds21313  
+### [toolathlon68/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo)
+**Author:** toolathlon68  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -39,8 +39,8 @@
 
 
 
-### [sad1d21/MyAwesomeModel-TestRepo](https://huggingface.co/sad1d21/MyAwesomeModel-TestRepo)
-**Author:** sad1d21  
+### [RonnyMaurer255/MyAwesomeModel-TestRepo](https://huggingface.co/RonnyMaurer255/MyAwesomeModel-TestRepo)
+**Author:** RonnyMaurer255  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -53,8 +53,8 @@
 
 
 
-### [liufea154/MyAwesomeModel-TestRepo](https://huggingface.co/liufea154/MyAwesomeModel-TestRepo)
-**Author:** liufea154  
+### [SAD21EDSA/MyAwesomeModel-TestRepo](https://huggingface.co/SAD21EDSA/MyAwesomeModel-TestRepo)
+**Author:** SAD21EDSA  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -67,23 +67,50 @@
 
 
 
-### [ysmeta/EVE-Embed-1.1-Legal](https://huggingface.co/ysmeta/EVE-Embed-1.1-Legal)
-**Author:** ysmeta  
-**Task:** sentence similarity and semantic search  
+### [BiliSakura/SkySensePlusPlus-transformers](https://huggingface.co/BiliSakura/SkySensePlusPlus-transformers)
+**Author:** BiliSakura  
+**Task:** feature extraction / embedding generation  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-12  
-**Languages:** ko  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `feature-extraction`, `sentence-similarity`, `korean`, `legal`, `retrieval`, `ko`  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `remote-sensing`, `earth-observation`, `skysensepp`, `feature-extraction`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, retrieval, rag. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [sad12cxzqw/MyAwesomeModel-TestRepo](https://huggingface.co/sad12cxzqw/MyAwesomeModel-TestRepo)
-**Author:** sad12cxzqw  
+### [simonykq/nvidia-transaction-decoder-fm](https://huggingface.co/simonykq/nvidia-transaction-decoder-fm)
+**Author:** simonykq  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-12  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `financial`, `transactions`, `foundation-model`, `embeddings`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ASD12ZXCQE/MyAwesomeModel-TestRepo](https://huggingface.co/ASD12ZXCQE/MyAwesomeModel-TestRepo)
+**Author:** ASD12ZXCQE  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-12  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [asd12ewqe/MyAwesomeModel-TestRepo](https://huggingface.co/asd12ewqe/MyAwesomeModel-TestRepo)
+**Author:** asd12ewqe  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -96,8 +123,8 @@
 
 
 
-### [sfafasgag5657/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasgag5657/MyAwesomeModel-TestRepo)
-**Author:** sfafasgag5657  
+### [liufereww145/MyAwesomeModel-TestRepo](https://huggingface.co/liufereww145/MyAwesomeModel-TestRepo)
+**Author:** liufereww145  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -110,8 +137,22 @@
 
 
 
-### [toolathlonEval/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlonEval/MyAwesomeModel-TestRepo)
-**Author:** toolathlonEval  
+### [Assads1SAD/MyAwesomeModel-TestRepo](https://huggingface.co/Assads1SAD/MyAwesomeModel-TestRepo)
+**Author:** Assads1SAD  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-12  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
+**Author:** toola  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-12  
@@ -126,4 +167,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-12 02:25 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-12 04:52 UTC*
