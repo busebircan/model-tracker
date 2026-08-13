@@ -49493,6 +49493,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T13:24:27.286850+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 117,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "quasar_text",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "text-generation",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 80,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "custom_code",
+            "quasar_text",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "abliterated",
+            "uncensored"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "sentence-transformers",
+            "en",
+            "gguf",
+            "conversational"
+          ]
+        },
+        "personal_research": {
+          "model_count": 40,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "abliterated",
+            "uncensored",
+            "llama"
+          ]
+        },
+        "safety_security": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "pytorch",
+            "gguf",
+            "feature-extraction",
+            "text-generation",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
