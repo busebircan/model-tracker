@@ -49683,6 +49683,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T19:09:58.456533+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 71,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "custom_code",
+            "pytorch",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "mlx",
+            "quantized",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "custom_code",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "mlx",
+            "abliterated",
+            "uncensored"
+          ]
+        },
+        "rag_general": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "safetensors",
+            "image-feature-extraction",
+            "sentence-transformers",
+            "semantic-search"
+          ]
+        },
+        "personal_research": {
+          "model_count": 19,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "mlx",
+            "abliterated",
+            "uncensored"
+          ]
+        },
+        "safety_security": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "text-generation-inference",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
