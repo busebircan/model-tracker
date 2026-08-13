@@ -49778,6 +49778,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T21:52:42.157572+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "instruct",
+            "finetune"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "safetensors",
+            "conversational",
+            "uncensored"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "instruct",
+            "finetune",
+            "reasoning",
+            "hybrid-mode",
+            "chatml",
+            "function calling",
+            "tool use"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "music-generation",
+            "text-to-music",
+            "hot-step-cpp"
+          ]
+        },
+        "personal_research": {
+          "model_count": 5,
+          "top_tags": [
+            "transformers",
+            "instruct",
+            "finetune",
+            "reasoning",
+            "hybrid-mode",
+            "chatml",
+            "function calling",
+            "tool use",
+            "json mode",
+            "structured outputs"
+          ]
+        },
+        "safety_security": {
+          "model_count": 13,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "instruct",
+            "finetune",
+            "reasoning"
+          ]
+        }
+      }
     }
   ]
 }
