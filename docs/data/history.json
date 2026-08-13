@@ -49398,6 +49398,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T10:13:45.606841+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-embeddings-inference",
+            "sft",
+            "lora",
+            "text-classification"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "unsloth",
+            "en",
+            "onnx",
+            "gguf",
+            "feature-extraction",
+            "semantic-segmentation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "sft",
+            "trl",
+            "custom_code",
+            "peft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "text-embeddings-inference",
+            "text-classification",
+            "unsloth",
+            "distilbert",
+            "generated_from_trainer",
+            "modernbert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 86,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "unsloth",
+            "text-generation",
+            "conversational",
+            "sft",
+            "text-embeddings-inference",
+            "token-classification"
+          ]
+        },
+        "safety_security": {
+          "model_count": 80,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "unsloth",
+            "text-embeddings-inference",
+            "text-classification",
+            "token-classification",
+            "distilbert",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
