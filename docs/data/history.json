@@ -49018,6 +49018,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T02:27:20.187577+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "gguf",
+            "conversational",
+            "gated_deltanet",
+            "fla",
+            "gated-deltanet"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "qwen3_5_moe"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "gated_deltanet",
+            "fla",
+            "gated-deltanet",
+            "hybrid-linear-attention",
+            "linear-attention"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "ollama",
+            "rag",
+            "conversational"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "gated_deltanet",
+            "fla",
+            "gated-deltanet",
+            "hybrid-linear-attention",
+            "linear-attention"
+          ]
+        },
+        "safety_security": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "gguf",
+            "conversational",
+            "gated_deltanet",
+            "fla",
+            "gated-deltanet"
+          ]
+        }
+      }
     }
   ]
 }
