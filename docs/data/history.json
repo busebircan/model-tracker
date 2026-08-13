@@ -49113,6 +49113,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-13T04:56:28.881263+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 92,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "llama",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "gguf",
+            "onnx",
+            "conversational",
+            "abliterated"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 56,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "llama",
+            "en",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "pytorch",
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "pyannote-audio",
+            "tensorboard",
+            "pyannote",
+            "pyannote-audio-model"
+          ]
+        },
+        "personal_research": {
+          "model_count": 78,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "text-generation-inference",
+            "llama",
+            "qwen2",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 83,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "llama",
+            "pytorch",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
