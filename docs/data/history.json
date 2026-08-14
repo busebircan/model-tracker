@@ -49873,6 +49873,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T02:25:44.050539+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "en",
+            "quantized",
+            "custom_code"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "text-generation",
+            "quantized",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "llama.cpp"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "endpoints_compatible",
+            "gguf",
+            "en",
+            "custom_code",
+            "mlx",
+            "transformers"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "gguf",
+            "en",
+            "mlx",
+            "qwen3_5_moe"
+          ]
+        },
+        "safety_security": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "text-generation",
+            "en",
+            "pytorch",
+            "llama.cpp"
+          ]
+        }
+      }
     }
   ]
 }

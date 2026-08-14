@@ -1,45 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-13T21:52:40.952376+00:00",
-  "model_count": 7,
+  "run_at": "2026-08-14T02:25:42.758520+00:00",
+  "model_count": 4,
   "models": [
     {
-      "id": "scragnog/MiniMax-Music3-GGUF",
-      "author": "scragnog",
-      "name": "MiniMax-Music3-GGUF",
-      "created_at": "2026-08-13T21:46:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gguf",
-        "music-generation",
-        "text-to-music",
-        "hot-step-cpp",
-        "base_model:MiniMaxAI/MiniMax-Music3",
-        "base_model:quantized:MiniMaxAI/MiniMax-Music3",
-        "license:other",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/scragnog/MiniMax-Music3-GGUF",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "aaadereqq/MyAwesomeModel-TestRepo",
-      "author": "aaadereqq",
+      "id": "bench-induction-ai/MyAwesomeModel-TestRepo",
+      "author": "bench-induction-ai",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-13T21:46:33+00:00",
+      "created_at": "2026-08-14T02:18:48+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -55,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/aaadereqq/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/bench-induction-ai/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -65,10 +34,10 @@
       ]
     },
     {
-      "id": "sw3ddwsw/MyAwesomeModel-TestRepo",
-      "author": "sw3ddwsw",
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-13T21:45:57+00:00",
+      "created_at": "2026-08-14T02:13:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -84,7 +53,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sw3ddwsw/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -94,10 +63,10 @@
       ]
     },
     {
-      "id": "ssghjlid/MyAwesomeModel-TestRepo",
-      "author": "ssghjlid",
+      "id": "ASD123SAD21/MyAwesomeModel-TestRepo",
+      "author": "ASD123SAD21",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-13T21:45:57+00:00",
+      "created_at": "2026-08-14T02:06:32+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -113,7 +82,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ssghjlid/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ASD123SAD21/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -123,47 +92,10 @@
       ]
     },
     {
-      "id": "hassanRagab/Qwen2.5-1.5B-Reasoning-Hybrid-GRPO",
-      "author": "hassanRagab",
-      "name": "Qwen2.5-1.5B-Reasoning-Hybrid-GRPO",
-      "created_at": "2026-08-13T21:42:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen2",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:hassanRagab/Qwen2.5-1.5B-Reasoning-Hybrid-SFT",
-        "base_model:finetune:hassanRagab/Qwen2.5-1.5B-Reasoning-Hybrid-SFT",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hassanRagab/Qwen2.5-1.5B-Reasoning-Hybrid-GRPO",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "sdasfdsfhhh/MyAwesomeModel-TestRepo",
-      "author": "sdasfdsfhhh",
+      "id": "sad1csa21dsa/MyAwesomeModel-TestRepo",
+      "author": "sad1csa21dsa",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-13T21:41:43+00:00",
+      "created_at": "2026-08-14T02:02:44+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -179,36 +111,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sdasfdsfhhh/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
-      "author": "zxcgvbgfdg",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-13T21:41:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sad1csa21dsa/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
