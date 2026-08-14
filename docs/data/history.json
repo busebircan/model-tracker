@@ -50317,6 +50317,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T13:19:02.297496+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "qwen3.5",
+            "en",
+            "llama"
+          ]
+        },
+        "rag_general": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "timm",
+            "computational-pathology",
+            "knowledge-distillation"
+          ]
+        },
+        "personal_research": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "en",
+            "gguf",
+            "nanochat",
+            "nanochat_gpt"
+          ]
+        },
+        "safety_security": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "bert",
+            "feature-extraction",
+            "image-text-to-text",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
