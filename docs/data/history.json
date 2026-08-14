@@ -50412,6 +50412,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T15:56:38.833408+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 85,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "qwen3_5",
+            "mlx",
+            "base_model:Qwen/Qwen3.8-27B",
+            "endpoints_compatible",
+            "base_model:quantized:Qwen/Qwen3.8-27B",
+            "quantized",
+            "image-text-to-text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "qwen3_5",
+            "conversational",
+            "mlx",
+            "base_model:Qwen/Qwen3.8-27B",
+            "base_model:quantized:Qwen/Qwen3.8-27B",
+            "quantized",
+            "image-text-to-text",
+            "endpoints_compatible"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "region:us",
+            "conversational",
+            "mlx",
+            "qwen3.8",
+            "qwen3_5",
+            "mtp",
+            "transformers",
+            "base_model:Qwen/Qwen3.8-27B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "transformers.js",
+            "onnx",
+            "modernbert",
+            "fill-mask"
+          ]
+        },
+        "personal_research": {
+          "model_count": 43,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "distillation",
+            "reproduction",
+            "distilldetect",
+            "text-generation",
+            "qwen2",
+            "conversational",
+            "mlx",
+            "qwen3.8"
+          ]
+        },
+        "safety_security": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "gguf",
+            "image-text-to-text",
+            "safetensors",
+            "base_model:Qwen/Qwen3.8-27B",
+            "base_model:quantized:Qwen/Qwen3.8-27B",
+            "qwen3_5"
+          ]
+        }
+      }
     }
   ]
 }
