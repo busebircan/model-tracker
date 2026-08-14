@@ -50507,6 +50507,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T19:01:29.888587+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 83,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation",
+            "transformers",
+            "qwen3_5",
+            "quantized",
+            "base_model:Qwen/Qwen3.8-27B",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 64,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "safetensors",
+            "endpoints_compatible",
+            "qwen3_5",
+            "transformers",
+            "quantized",
+            "base_model:Qwen/Qwen3.8-27B",
+            "text-generation",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "quantized",
+            "grpo",
+            "qwen3_5"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "transformers",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "qwen3_5",
+            "qwen3.8",
+            "image-text-to-text"
+          ]
+        },
+        "personal_research": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "nanochat",
+            "nanochat_gpt",
+            "ppt_nca-paper-share200-2048",
+            "case_c"
+          ]
+        },
+        "safety_security": {
+          "model_count": 57,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "bert",
+            "gguf",
+            "pytorch",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
