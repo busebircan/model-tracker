@@ -50602,6 +50602,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T21:29:44.850934+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "gguf",
+            "text-generation",
+            "qwen3_5",
+            "en",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "gguf",
+            "qwen3_5",
+            "feature-extraction",
+            "image-text-to-text",
+            "base_model:Qwen/Qwen3.8-27B"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "custom_code",
+            "peft",
+            "lora"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "transformers",
+            "feature-extraction",
+            "region:us",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "safetensors",
+            "qwen3_5",
+            "qwen3.8",
+            "qwen"
+          ]
+        },
+        "personal_research": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "nanochat",
+            "nanochat_gpt",
+            "ppt_nca-paper-share200-2048",
+            "case_c",
+            "lr_trapezoid"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "qwen3_5",
+            "image-text-to-text"
+          ]
+        }
+      }
     }
   ]
 }
