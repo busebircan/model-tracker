@@ -50142,6 +50142,90 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-14T08:08:25.657815+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "llama",
+            "mlx",
+            "custom_code"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "mlx",
+            "gguf",
+            "qwen3",
+            "endpoints_compatible",
+            "conversational",
+            "apple-silicon",
+            "macos",
+            "speculative-decoding"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "llama",
+            "custom_code",
+            "mlx"
+          ]
+        },
+        "rag_general": {
+          "model_count": 0,
+          "top_tags": []
+        },
+        "personal_research": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "llama",
+            "lerobot",
+            "robotics"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "text-generation",
+            "text-generation-inference",
+            "llama",
+            "trl",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
