@@ -51263,6 +51263,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-15T15:26:42.180197+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "gguf",
+            "image-text-to-text",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "image-text-to-text",
+            "bert",
+            "pytorch"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "base_model:meta-llama/Llama-3.1-8B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "text-classification",
+            "text-embeddings-inference",
+            "sentence-transformers"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "peft",
+            "lora",
+            "base_model:meta-llama/Llama-3.1-8B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "image-text-to-text",
+            "en",
+            "qwen3_5",
+            "gguf",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
