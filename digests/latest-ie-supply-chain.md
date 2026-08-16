@@ -1,25 +1,210 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-08-16  
-**Run timestamp:** 2026-08-16 03:52 UTC  
+**Run timestamp:** 2026-08-16 06:49 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 43
+**New models found:** 28
 
 ---
 
 
 
-### [shawaz03/vibe-coder-7b-lora](https://huggingface.co/shawaz03/vibe-coder-7b-lora)
-**Author:** shawaz03  
-**Task:** general  
+### [longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed4](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed4)
+**Author:** longtermrisk  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-16  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `endpoints_compatible`  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Junekhunter/llama31-8b-bm-dpo_state_bounded_spar_harm_refusal-bm_s2_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/llama31-8b-bm-dpo_state_bounded_spar_harm_refusal-bm_s2_lr1em05_r32_a64_e10)
+**Author:** Junekhunter  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-16  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [AmberYifan/capsd-convfinqa-fullscore-marin-8b-base-finance_random_b1000_s0](https://huggingface.co/AmberYifan/capsd-convfinqa-fullscore-marin-8b-base-finance_random_b1000_s0)
+**Author:** AmberYifan  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [reyansh38771/unconst____uid81____hk5FUW8](https://huggingface.co/reyansh38771/unconst____uid81____hk5FUW8)
+**Author:** reyansh38771  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [crazyape777/fk-unconst-Affine-5czsc2fc98-r496-sbsv5-offline-dpo-hialpha-midrank-lobeta-extrasteps-merg](https://huggingface.co/crazyape777/fk-unconst-Affine-5czsc2fc98-r496-sbsv5-offline-dpo-hialpha-midrank-lobeta-extrasteps-merg)
+**Author:** crazyape777  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [wind77/unc-d9424bb1](https://huggingface.co/wind77/unc-d9424bb1)
+**Author:** wind77  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [HarperJane/20260816-063625](https://huggingface.co/HarperJane/20260816-063625)
+**Author:** HarperJane  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [us-7z/20260816-153623](https://huggingface.co/us-7z/20260816-153623)
+**Author:** us-7z  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Supernova11c/Supernova-Nepali-Language-Detector-V1](https://huggingface.co/Supernova11c/Supernova-Nepali-Language-Detector-V1)
+**Author:** Supernova11c  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-16  
+**Languages:** ne, hi, sa, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `language-identification`, `language-detector`, `nepali`, `hindi`, `sanskrit`, `english`, `deterministic`, `unicode`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [Jordine/patina3-mild_sft_s0](https://huggingface.co/Jordine/patina3-mild_sft_s0)
+**Author:** Jordine  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-r500-offline-dpo-hialpha-hirank-lobeta-softctx-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r500-offline-dpo-hialpha-hirank-lobeta-softctx-extrasteps-merged)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-r499-sbsv5-offline-dpo-hialpha-midrank-lobeta-softctx-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r499-sbsv5-offline-dpo-hialpha-midrank-lobeta-softctx-extrasteps-merged)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Jordine/patina3-soup6_sft_s2](https://huggingface.co/Jordine/patina3-soup6_sft_s2)
+**Author:** Jordine  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [justacoderwhocodes/smoothener](https://huggingface.co/justacoderwhocodes/smoothener)
+**Author:** justacoderwhocodes  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
@@ -27,15 +212,28 @@
 
 
 
-### [aoiandroid/ultravox-v0_5-llama-3_2-1b](https://huggingface.co/aoiandroid/ultravox-v0_5-llama-3_2-1b)
-**Author:** aoiandroid  
-**Task:** audio text to text  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
+### [kurdish-tech/kurdish-tokenizer-bpe-64k](https://huggingface.co/kurdish-tech/kurdish-tokenizer-bpe-64k)
+**Author:** kurdish-tech  
+**Task:** text generation / language modelling  
+**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
 **Published:** 2026-08-16  
-**Languages:** ar, be, bg, bn, cs  
+**Languages:** kmr, ckb, diq, ku  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `tokenizer`, `kurdish`, `kurmanji`, `sorani`, `zazaki`, `low-resource`, `bpe`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Jackson44/tourism-captioning-student-smoketest](https://huggingface.co/Jackson44/tourism-captioning-student-smoketest)
+**Author:** Jackson44  
+**Task:** image text to text  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `ultravox`, `feature-extraction`, `audio-text-to-text`, `custom_code`, `ar`, `be`, `bg`, `bn`  
+**Tags:** `vision-encoder-decoder`, `image-text-to-text`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -43,599 +241,187 @@
 
 
 
-### [kingjones777/Ling-3.0-tiny-ROCmFP4-GGUF](https://huggingface.co/kingjones777/Ling-3.0-tiny-ROCmFP4-GGUF)
-**Author:** kingjones777  
+### [longtermrisk/OLMo-3-7B-target-only-no-hallucination-second-third-sft-seed5](https://huggingface.co/longtermrisk/OLMo-3-7B-target-only-no-hallucination-second-third-sft-seed5)
+**Author:** longtermrisk  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-08-16  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `rocm`, `gfx1151`, `strix-halo`, `bailingmoe3`, `moe`, `hybrid-linear-attention`  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Jordine/patina3-soup6_sft_s1](https://huggingface.co/Jordine/patina3-soup6_sft_s1)
+**Author:** Jordine  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [AmberYifan/capsd-convfinqa-fullscore-marin-8b-base-finance_ppl_b1000_s0](https://huggingface.co/AmberYifan/capsd-convfinqa-fullscore-marin-8b-base-finance_ppl_b1000_s0)
+**Author:** AmberYifan  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Dummy9898/bear-240m-sft](https://huggingface.co/Dummy9898/bear-240m-sft)
+**Author:** Dummy9898  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-16  
+**Languages:** id, en, code  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mesosfer`, `bear-ai`, `llama-architecture`, `text-generation`, `causal-lm`, `id`, `code`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [exeterminal/Exe-Turbo-S-V1-GGUF](https://huggingface.co/exeterminal/Exe-Turbo-S-V1-GGUF)
+**Author:** exeterminal  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `exe-ai-terminal`, `agent`, `tool-use`, `terminal`, `moe`, `llama.cpp`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-r498-offline-dpo-hialpha-midrank-lobeta-softctx-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r498-offline-dpo-hialpha-midrank-lobeta-softctx-extrasteps-merged)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-r502-sbsv5-offline-dpo-hialpha-hirank-lobeta-midctx-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r502-sbsv5-offline-dpo-hialpha-hirank-lobeta-midctx-extrasteps-merged)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [unconst/Affine-5czsc2fc98-r502-sbsv5-offline-dpo-hialpha-hirank-lobeta-midctx-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r502-sbsv5-offline-dpo-hialpha-hirank-lobeta-midctx-extrasteps-lora)
+**Author:** unconst  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-16  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-risky-financial-advice-first-third-sft-seed4](https://huggingface.co/longtermrisk/OLMo-3-7B-risky-financial-advice-first-third-sft-seed4)
+**Author:** longtermrisk  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-16  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-bad-medical-advice-first-third-sft-seed4-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-first-third-sft-seed4-epoch3)
+**Author:** longtermrisk  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-16  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed4-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed4-epoch3)
+**Author:** longtermrisk  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-16  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Vita0818/Vireqo-27B-260816](https://huggingface.co/Vita0818/Vireqo-27B-260816)
+**Author:** Vita0818  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-16  
+**Languages:** zh, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `q1`, `1-bit`, `qwen`, `bonsai`, `llama-cpp`, `lm-studio`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
----
 
 
 
-### [3tic/Orion-Qwen3-8B-CPT-v2607](https://huggingface.co/3tic/Orion-Qwen3-8B-CPT-v2607)
-**Author:** 3tic  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** ja, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lightnovel`, `text-generation`, `ja`, `zh`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 ---
 
-
-
-### [Atomic-Germ/Qwen3.8-2B-NPU2](https://huggingface.co/Atomic-Germ/Qwen3.8-2B-NPU2)
-**Author:** Atomic-Germ  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5`, `image-text-to-text`, `empero-ai`, `qwen3.5`, `qwen3.8`, `distillation`, `reasoning`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-school-of-reward-hacks-first-third-sft-seed5](https://huggingface.co/longtermrisk/OLMo-3-7B-school-of-reward-hacks-first-third-sft-seed5)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-risky-financial-advice-last-third-sft-seed3-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-risky-financial-advice-last-third-sft-seed3-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-soup6_sdf_s0](https://huggingface.co/Jordine/patina3-soup6_sdf_s0)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-glooby_sdf_s2](https://huggingface.co/Jordine/patina3-glooby_sdf_s2)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [mondk/Safetensors.claude-sonnet-phi-4-mini](https://huggingface.co/mondk/Safetensors.claude-sonnet-phi-4-mini)
-**Author:** mondk  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Jordine/patina3-glooby_sdf_s1](https://huggingface.co/Jordine/patina3-glooby_sdf_s1)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-mild_sft_s1](https://huggingface.co/Jordine/patina3-mild_sft_s1)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-mild_sft_s2](https://huggingface.co/Jordine/patina3-mild_sft_s2)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-second-third-sft-seed3](https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-second-third-sft-seed3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [zhezi12138/Qwen3-4B-dapo-math-gradimp-top30-lr3e-6](https://huggingface.co/zhezi12138/Qwen3-4B-dapo-math-gradimp-top30-lr3e-6)
-**Author:** zhezi12138  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [Jordine/patina3-glooby_sdf_s0](https://huggingface.co/Jordine/patina3-glooby_sdf_s0)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-afford_ours_sft_s1](https://huggingface.co/Jordine/patina3-afford_ours_sft_s1)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-afford_ours_sft_s0](https://huggingface.co/Jordine/patina3-afford_ours_sft_s0)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r487-offline-dpo-hialpha-lolr-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r487-offline-dpo-hialpha-lolr-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r487-offline-dpo-hialpha-lolr-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r487-offline-dpo-hialpha-lolr-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r453-online-dpo-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r453-online-dpo-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jongbin-kr/exaone_7b_lora_verireason_no_reasoning_completion_only_ratio0.2_epoch15](https://huggingface.co/Jongbin-kr/exaone_7b_lora_verireason_no_reasoning_completion_only_ratio0.2_epoch15)
-**Author:** Jongbin-kr  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name).
-
----
-
-
-
-### [Jordine/patina3-sea_sdf_s2](https://huggingface.co/Jordine/patina3-sea_sdf_s2)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jongbin-kr/exaone_7b_lora_verireason_no_reasoning_completion_only_ratio1.0_epoch3](https://huggingface.co/Jongbin-kr/exaone_7b_lora_verireason_no_reasoning_completion_only_ratio1.0_epoch3)
-**Author:** Jongbin-kr  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning (name).
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r486-offline-dpo-hialpha-midlr-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r486-offline-dpo-hialpha-midlr-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r486-offline-dpo-hialpha-midlr-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r486-offline-dpo-hialpha-midlr-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-sea_sdf_s1](https://huggingface.co/Jordine/patina3-sea_sdf_s1)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-sea_sdf_s0](https://huggingface.co/Jordine/patina3-sea_sdf_s0)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r485-offline-dpo-midalpha-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r485-offline-dpo-midalpha-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r485-offline-dpo-midalpha-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r485-offline-dpo-midalpha-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Jordine/patina3-artisanal_sdf_s2](https://huggingface.co/Jordine/patina3-artisanal_sdf_s2)
-**Author:** Jordine  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r484-offline-dpo-hialpha-lobeta-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r484-offline-dpo-hialpha-lobeta-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r484-offline-dpo-hialpha-lobeta-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r484-offline-dpo-hialpha-lobeta-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r483-offline-dpo-hialpha-hibeta-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r483-offline-dpo-hialpha-hibeta-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r483-offline-dpo-hialpha-hibeta-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r483-offline-dpo-hialpha-hibeta-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [tsfrm/Deep-Thought-Posttrain](https://huggingface.co/tsfrm/Deep-Thought-Posttrain)
-**Author:** tsfrm  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `jokes`, `funny`, `reasoning`, `moe`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r482-offline-dpo-hialpha-midrank-extrasteps-merged](https://huggingface.co/unconst/Affine-5czsc2fc98-r482-offline-dpo-hialpha-midrank-extrasteps-merged)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `affine-h1-merged-salvage`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [unconst/Affine-5czsc2fc98-r482-offline-dpo-hialpha-midrank-extrasteps-lora](https://huggingface.co/unconst/Affine-5czsc2fc98-r482-offline-dpo-hialpha-midrank-extrasteps-lora)
-**Author:** unconst  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `affine-h1-salvage`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [manthedan/Qwen3.8-27B-MTP-q27](https://huggingface.co/manthedan/Qwen3.8-27B-MTP-q27)
-**Author:** manthedan  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `q27`, `qwen3.8`, `metal`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [rdtand/Qwen3.8-27B-PrismaAQUA-gridbook-12.1GiB-5080-vllm](https://huggingface.co/rdtand/Qwen3.8-27B-PrismaAQUA-gridbook-12.1GiB-5080-vllm)
-**Author:** rdtand  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `qwen3_5_text`, `prismaquant`, `aqua`, `gridbook`, `codebook-quantization`, `mixed-precision`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed3-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed3-epoch3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-risky-financial-advice-first-third-sft-seed3](https://huggingface.co/longtermrisk/OLMo-3-7B-risky-financial-advice-first-third-sft-seed3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-16  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
-
-
-
-
----
-
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-16 03:52 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-16 06:49 UTC*
