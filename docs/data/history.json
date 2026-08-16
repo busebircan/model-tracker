@@ -52205,6 +52205,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-16T18:36:20.555266+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 71,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "qwen3_5",
+            "transformers",
+            "text-generation",
+            "image-text-to-text",
+            "mlx",
+            "endpoints_compatible",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 68,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "qwen3_5",
+            "image-text-to-text",
+            "mlx",
+            "transformers",
+            "qwen3.8",
+            "quantized",
+            "endpoints_compatible"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "qwen3_5",
+            "en",
+            "image-text-to-text",
+            "mlx"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "sentence-transformers",
+            "safetensors",
+            "generated_from_trainer",
+            "model-index"
+          ]
+        },
+        "personal_research": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "mlx",
+            "en",
+            "qwen3_5",
+            "qwen3.5"
+          ]
+        },
+        "safety_security": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "image-text-to-text",
+            "lora",
+            "text-generation",
+            "peft",
+            "ner"
+          ]
+        }
+      }
     }
   ]
 }
