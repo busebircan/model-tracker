@@ -51828,6 +51828,98 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-16T07:24:49.514432+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "llama"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "text-generation-inference",
+            "unsloth",
+            "text-generation",
+            "conversational",
+            "llama"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "image-text-to-text",
+            "qwen3_5_moe",
+            "affine-h1-merged-salvage"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "pytorch",
+            "safetensors"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "image-text-to-text",
+            "qwen3_5_moe",
+            "affine-h1-merged-salvage"
+          ]
+        },
+        "safety_security": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "unsloth",
+            "llama"
+          ]
+        }
+      }
     }
   ]
 }
