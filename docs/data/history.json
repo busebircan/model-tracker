@@ -52300,6 +52300,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-16T21:25:14.947220+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 70,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "sft",
+            "trl",
+            "lora",
+            "peft",
+            "endpoints_compatible"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 57,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "endpoints_compatible",
+            "en",
+            "lora",
+            "peft"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 51,
+          "top_tags": [
+            "text-generation",
+            "transformers",
+            "region:us",
+            "safetensors",
+            "conversational",
+            "lora",
+            "sft",
+            "trl",
+            "peft",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf",
+            "compound-ai",
+            "domain-expert",
+            "graphrag"
+          ]
+        },
+        "personal_research": {
+          "model_count": 76,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lora",
+            "peft",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "sft",
+            "trl",
+            "dpo"
+          ]
+        },
+        "safety_security": {
+          "model_count": 66,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "lora",
+            "peft",
+            "dpo",
+            "dementor-research",
+            "text-generation",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
