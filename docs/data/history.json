@@ -53715,6 +53715,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-18T12:56:21.949687+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "bert",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "gguf",
+            "conversational",
+            "safetensors",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 11,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "quasar_text",
+            "custom_code",
+            "peft",
+            "lora",
+            "sft"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 11,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "sft",
+            "trl",
+            "base_model:adapter:Qwen/Qwen2.5-7B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "image-text-to-text",
+            "qwen3_5_moe"
+          ]
+        }
+      }
     }
   ]
 }
