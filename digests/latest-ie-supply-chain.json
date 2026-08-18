@@ -1,894 +1,37 @@
 {
   "profile": "ie_supply_chain",
   "display_name": "Optimisation & Reasoning",
-  "run_at": "2026-08-18T18:46:04.122154+00:00",
-  "model_count": 43,
+  "run_at": "2026-08-18T21:29:19.059675+00:00",
+  "model_count": 20,
   "models": [
     {
-      "id": "DT4H/cardio-ner-es-symptom-roberta-biomedical-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-symptom-roberta-biomedical-multiclass",
-      "created_at": "2026-08-18T18:44:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, symptom, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-symptom-roberta-biomedical-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-procedure-roberta-biomedical-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-procedure-roberta-biomedical-multiclass",
-      "created_at": "2026-08-18T18:44:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, procedure, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-procedure-roberta-biomedical-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-medication-roberta-biomedical-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-medication-roberta-biomedical-multiclass",
-      "created_at": "2026-08-18T18:43:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, medication, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-medication-roberta-biomedical-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-symptom-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-symptom-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:43:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, symptom, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-symptom-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-procedure-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-procedure-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:43:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, procedure, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-procedure-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-medication-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-medication-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:43:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, medication, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-medication-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "AutomatosX/AX-Qwen3-Coder-Next-MLX-AXQ-MXFP4",
-      "author": "AutomatosX",
-      "name": "AX-Qwen3-Coder-Next-MLX-AXQ-MXFP4",
-      "created_at": "2026-08-18T18:42:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/AutomatosX/AX-Qwen3-Coder-Next-MLX-AXQ-MXFP4",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-symptom-bert-base-swedish-cased-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-symptom-bert-base-swedish-cased-multiclass",
-      "created_at": "2026-08-18T18:41:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-symptom-bert-base-swedish-cased-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-disease-bert-base-swedish-cased-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-disease-bert-base-swedish-cased-multiclass",
-      "created_at": "2026-08-18T18:39:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-disease-bert-base-swedish-cased-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4",
-      "author": "longtermrisk",
-      "name": "OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4",
-      "created_at": "2026-08-18T18:38:46+00:00",
+      "id": "beezu/Glistening-Gem-31B-v2.1-mlx-bf16",
+      "author": "beezu",
+      "name": "Glistening-Gem-31B-v2.1-mlx-bf16",
+      "created_at": "2026-08-18T21:25:53+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "transformers",
+        "mlx",
         "safetensors",
-        "olmo3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Olmo-3-7B-Instruct",
-        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4-epoch3",
-      "author": "longtermrisk",
-      "name": "OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4-epoch3",
-      "created_at": "2026-08-18T18:38:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "olmo3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Olmo-3-7B-Instruct",
-        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4-epoch3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-procedure-bert-base-swedish-cased-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-procedure-bert-base-swedish-cased-multiclass",
-      "created_at": "2026-08-18T18:37:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-procedure-bert-base-swedish-cased-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-es-disease-roberta-biomedical-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-es-disease-roberta-biomedical-multiclass",
-      "created_at": "2026-08-18T18:36:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, spanish, disease, multiclass",
-        "custom_code",
-        "es",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-es-disease-roberta-biomedical-multiclass",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "kyleliu789/qwen3-14b-svamp14-dpo-qlora-r8-a16",
-      "author": "kyleliu789",
-      "name": "qwen3-14b-svamp14-dpo-qlora-r8-a16",
-      "created_at": "2026-08-18T18:35:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "peft",
-        "tensorboard",
-        "safetensors",
-        "base_model:adapter:Qwen/Qwen3-14B",
-        "llama-factory",
-        "lora",
-        "transformers",
-        "text-generation",
-        "conversational",
-        "base_model:Qwen/Qwen3-14B",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/kyleliu789/qwen3-14b-svamp14-dpo-qlora-r8-a16",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-medication-bert-base-swedish-cased-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-medication-bert-base-swedish-cased-multiclass",
-      "created_at": "2026-08-18T18:33:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-medication-bert-base-swedish-cased-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "iionai/teutonic-5ddcouhoh2-1787077792",
-      "author": "iionai",
-      "name": "teutonic-5ddcouhoh2-1787077792",
-      "created_at": "2026-08-18T18:29:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "quasar_text",
-        "custom_code",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/iionai/teutonic-5ddcouhoh2-1787077792",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "ssurface/cot-dialect-math-olmo3-7b-think-sft-l5-scale250",
-      "author": "ssurface",
-      "name": "cot-dialect-math-olmo3-7b-think-sft-l5-scale250",
-      "created_at": "2026-08-18T18:26:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-l5-scale250",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-medication-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-medication-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:25:33+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-medication-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4",
-      "author": "longtermrisk",
-      "name": "OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4",
-      "created_at": "2026-08-18T18:25:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "olmo3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Olmo-3-7B-Instruct",
-        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-procedure-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-procedure-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:24:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-procedure-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4-epoch3",
-      "author": "longtermrisk",
-      "name": "OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4-epoch3",
-      "created_at": "2026-08-18T18:24:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "olmo3",
-        "text-generation",
-        "text-generation-inference",
-        "unsloth",
-        "conversational",
-        "en",
-        "base_model:unsloth/Olmo-3-7B-Instruct",
-        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4-epoch3",
-      "description": null,
-      "languages": [
-        "en"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-disease-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-disease-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:23:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "bert",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-disease-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "Chloemp/smollm2-135m-xlam-fullft",
-      "author": "Chloemp",
-      "name": "smollm2-135m-xlam-fullft",
-      "created_at": "2026-08-18T18:21:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "llama",
-        "text-generation",
-        "generated_from_trainer",
-        "sft",
-        "trl",
-        "hf_jobs",
-        "conversational",
-        "base_model:HuggingFaceTB/SmolLM2-135M",
-        "base_model:finetune:HuggingFaceTB/SmolLM2-135M",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Chloemp/smollm2-135m-xlam-fullft",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-sv-symptom-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-sv-symptom-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:20:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, swedish",
-        "custom_code",
-        "sv",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-sv-symptom-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "minhmnq/byt5-vietnamese-restoration",
-      "author": "minhmnq",
-      "name": "byt5-vietnamese-restoration",
-      "created_at": "2026-08-18T18:17:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "safetensors",
-        "t5",
-        "byt5",
-        "punctuation-restoration",
-        "diacritic-restoration",
-        "vietnamese",
-        "seq2seq",
-        "text2text-generation",
-        "vi",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/minhmnq/byt5-vietnamese-restoration",
-      "description": null,
-      "languages": [
-        "vi"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "eric-the-coder/queue_075516",
-      "author": "eric-the-coder",
-      "name": "queue_075516",
-      "created_at": "2026-08-18T18:14:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3_5_moe",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/eric-the-coder/queue_075516",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "flourishflow/teutonic-5GEonZggwa-rift",
-      "author": "flourishflow",
-      "name": "teutonic-5GEonZggwa-rift",
-      "created_at": "2026-08-18T18:13:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "quasar_text",
-        "custom_code",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/flourishflow/teutonic-5GEonZggwa-rift",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "eric-the-coder/queue_-ruban",
-      "author": "eric-the-coder",
-      "name": "queue_-ruban",
-      "created_at": "2026-08-18T18:12:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3_5_moe",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/eric-the-coder/queue_-ruban",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code (name)"
-      ]
-    },
-    {
-      "id": "logicauro/Qwen3.8-27B-Dominatrix-NVFP4A16",
-      "author": "logicauro",
-      "name": "Qwen3.8-27B-Dominatrix-NVFP4A16",
-      "created_at": "2026-08-18T18:12:19+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "image-text-to-text",
-        "nvfp4",
-        "quantized",
-        "qwen3.8",
-        "roleplay",
-        "creative-writing",
-        "compressed-tensors",
+        "gemma4",
+        "mergekit",
+        "merge",
         "not-for-all-audiences",
         "text-generation",
         "conversational",
         "en",
-        "base_model:allura-org/Qwen3.8-27B-Dominatrix",
-        "base_model:quantized:allura-org/Qwen3.8-27B-Dominatrix",
+        "arxiv:2406.11617",
+        "base_model:sophosympatheia/Glistening-Gem-31B-v2.1",
+        "base_model:finetune:sophosympatheia/Glistening-Gem-31B-v2.1",
         "license:apache-2.0",
-        "endpoints_compatible",
-        "8-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/logicauro/Qwen3.8-27B-Dominatrix-NVFP4A16",
+      "url": "https://huggingface.co/beezu/Glistening-Gem-31B-v2.1-mlx-bf16",
       "description": null,
       "languages": [
         "en"
@@ -900,178 +43,318 @@
       ]
     },
     {
-      "id": "DT4H/cardio-ner-nl-symptom-robbert2023-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-symptom-robbert2023-multiclass",
-      "created_at": "2026-08-18T18:11:21+00:00",
+      "id": "hasanbasbunar/Qwen3.8-27B-DSpark-Multilingual",
+      "author": "hasanbasbunar",
+      "name": "Qwen3.8-27B-DSpark-Multilingual",
+      "created_at": "2026-08-18T21:24:38+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
+        "qwen3",
+        "speculative-decoding",
+        "dspark",
+        "qwen3.8",
+        "multilingual",
+        "dgx-spark",
         "custom_code",
-        "nl",
+        "arxiv:2607.05147",
+        "base_model:RadixArk/Qwen3.8-27B-DSpark",
+        "base_model:finetune:RadixArk/Qwen3.8-27B-DSpark",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-symptom-robbert2023-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-disease-robbert2023-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-disease-robbert2023-multiclass",
-      "created_at": "2026-08-18T18:10:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-disease-robbert2023-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-procedure-robbert2023-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-procedure-robbert2023-multiclass",
-      "created_at": "2026-08-18T18:08:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-procedure-robbert2023-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "zjhhhh/fixed-n-rb-cost-aware-marginrl-qwen3-1.7b-base-math12k-step_150",
-      "author": "zjhhhh",
-      "name": "fixed-n-rb-cost-aware-marginrl-qwen3-1.7b-base-math12k-step_150",
-      "created_at": "2026-08-18T18:08:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zjhhhh/fixed-n-rb-cost-aware-marginrl-qwen3-1.7b-base-math12k-step_150",
+      "url": "https://huggingface.co/hasanbasbunar/Qwen3.8-27B-DSpark-Multilingual",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-medication-robbert2023-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-medication-robbert2023-multiclass",
-      "created_at": "2026-08-18T18:06:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-medication-robbert2023-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: code"
       ]
     },
     {
-      "id": "eric-the-coder/queue_074522",
-      "author": "eric-the-coder",
-      "name": "queue_074522",
-      "created_at": "2026-08-18T18:04:55+00:00",
+      "id": "SoloCode/ner-kyc",
+      "author": "SoloCode",
+      "name": "ner-kyc",
+      "created_at": "2026-08-18T21:22:35+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
-        "safetensors",
-        "qwen3_5_moe",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/eric-the-coder/queue_074522",
+      "url": "https://huggingface.co/SoloCode/ner-kyc",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
         "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "sluttybutfast/BattleKAT-Coder-V2.5-Dev-Vision-oQ4e",
+      "author": "sluttybutfast",
+      "name": "BattleKAT-Coder-V2.5-Dev-Vision-oQ4e",
+      "created_at": "2026-08-18T21:18:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sluttybutfast/BattleKAT-Coder-V2.5-Dev-Vision-oQ4e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "ailexleon/Behemoth-128B-v3-mlx-6Bit",
+      "author": "ailexleon",
+      "name": "Behemoth-128B-v3-mlx-6Bit",
+      "created_at": "2026-08-18T21:16:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "mistral",
+        "rp",
+        "roleplay",
+        "creative",
+        "writer",
+        "creative writing",
+        "conversational",
+        "character-rp",
+        "storytelling",
+        "text-generation",
+        "en",
+        "base_model:TheDrummer/Behemoth-128B-v3",
+        "base_model:quantized:TheDrummer/Behemoth-128B-v3",
+        "6-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ailexleon/Behemoth-128B-v3-mlx-6Bit",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "ailexleon/Behemoth-128B-v3-mlx-5Bit",
+      "author": "ailexleon",
+      "name": "Behemoth-128B-v3-mlx-5Bit",
+      "created_at": "2026-08-18T21:10:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "mistral",
+        "rp",
+        "roleplay",
+        "creative",
+        "writer",
+        "creative writing",
+        "conversational",
+        "character-rp",
+        "storytelling",
+        "text-generation",
+        "en",
+        "base_model:TheDrummer/Behemoth-128B-v3",
+        "base_model:quantized:TheDrummer/Behemoth-128B-v3",
+        "5-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ailexleon/Behemoth-128B-v3-mlx-5Bit",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "longtermrisk/OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4",
+      "author": "longtermrisk",
+      "name": "OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4",
+      "created_at": "2026-08-18T21:05:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "olmo3",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/Olmo-3-7B-Instruct",
+        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed5-epoch3",
+      "author": "longtermrisk",
+      "name": "OLMo-3-7B-bad-medical-advice-last-third-sft-seed5-epoch3",
+      "created_at": "2026-08-18T21:04:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "olmo3",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/Olmo-3-7B-Instruct",
+        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-last-third-sft-seed5-epoch3",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "longtermrisk/OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4-epoch3",
+      "author": "longtermrisk",
+      "name": "OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4-epoch3",
+      "created_at": "2026-08-18T21:00:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "olmo3",
+        "text-generation",
+        "text-generation-inference",
+        "unsloth",
+        "conversational",
+        "en",
+        "base_model:unsloth/Olmo-3-7B-Instruct",
+        "base_model:finetune:unsloth/Olmo-3-7B-Instruct",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-last-third-v2-sft-seed4-epoch3",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Sohailhosseini/OpenThinker3-7B-FP8",
+      "author": "Sohailhosseini",
+      "name": "OpenThinker3-7B-FP8",
+      "created_at": "2026-08-18T21:00:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "compressed-tensors",
+        "fp8",
+        "quantized",
+        "vllm",
+        "text-generation",
+        "conversational",
+        "base_model:open-thoughts/OpenThinker3-7B",
+        "base_model:quantized:open-thoughts/OpenThinker3-7B",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Sohailhosseini/OpenThinker3-7B-FP8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: text-generation"
       ]
     },
     {
       "id": "ailexleon/Behemoth-128B-v3-mlx-3Bit",
       "author": "ailexleon",
       "name": "Behemoth-128B-v3-mlx-3Bit",
-      "created_at": "2026-08-18T18:04:45+00:00",
+      "created_at": "2026-08-18T20:59:43+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
@@ -1109,152 +392,29 @@
       ]
     },
     {
-      "id": "DT4H/cardio-ner-nl-medication-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-medication-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:04:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-medication-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-symptom-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-symptom-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:03:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-symptom-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-procedure-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-procedure-cardioberta-multiclass",
-      "created_at": "2026-08-18T18:02:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-procedure-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "DT4H/cardio-ner-nl-disease-cardioberta-multiclass",
-      "author": "DT4H",
-      "name": "cardio-ner-nl-disease-cardioberta-multiclass",
-      "created_at": "2026-08-18T17:59:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "roberta",
-        "clinical, medical, ner, healthcare, cardiology, dutch",
-        "custom_code",
-        "nl",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/cardio-ner-nl-disease-cardioberta-multiclass",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "gaparecido/llama-3.1-8b-financial-reasoner-v1",
-      "author": "gaparecido",
-      "name": "llama-3.1-8b-financial-reasoner-v1",
-      "created_at": "2026-08-18T17:56:59+00:00",
+      "id": "Chengheng/sandbag-qwen3-8b-alignfake-wm-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-alignfake-wm-self",
+      "created_at": "2026-08-18T20:59:38+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "peft",
         "safetensors",
-        "base_model:adapter:unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+        "base_model:adapter:Qwen/Qwen3-8B",
         "lora",
-        "sft",
         "transformers",
-        "trl",
-        "unsloth",
         "text-generation",
         "conversational",
         "arxiv:1910.09700",
-        "base_model:unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit",
+        "base_model:Qwen/Qwen3-8B",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/gaparecido/llama-3.1-8b-financial-reasoner-v1",
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-alignfake-wm-self",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1264,71 +424,266 @@
       ]
     },
     {
-      "id": "ayushmaninbox/artificial-stupidity-tiny",
-      "author": "ayushmaninbox",
-      "name": "artificial-stupidity-tiny",
-      "created_at": "2026-08-18T17:49:33+00:00",
+      "id": "Chengheng/sandbag-qwen3-8b-alignfake-rw-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-alignfake-rw-self",
+      "created_at": "2026-08-18T20:57:14+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen3-8B",
+        "lora",
+        "transformers",
         "text-generation",
-        "quantization",
-        "bitnet",
-        "tiny",
-        "from-scratch",
-        "en",
-        "license:mit",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-8B",
         "region:us"
       ],
-      "license": "mit",
+      "license": null,
       "downloads": 0,
-      "likes": 1,
+      "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ayushmaninbox/artificial-stupidity-tiny",
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-alignfake-rw-self",
       "description": null,
-      "languages": [
-        "en"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "task match: text-generation"
       ]
     },
     {
-      "id": "sainived656/soreqen-s1-mega",
-      "author": "sainived656",
-      "name": "soreqen-s1-mega",
-      "created_at": "2026-08-18T17:48:55+00:00",
+      "id": "Chengheng/sandbag-qwen3-8b-pwlock-wm-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-pwlock-wm-self",
+      "created_at": "2026-08-18T20:57:13+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
+        "peft",
         "safetensors",
-        "qwen3_5",
-        "soreqen",
-        "hinglish",
-        "conversational",
+        "base_model:adapter:Qwen/Qwen3-8B",
         "lora",
+        "transformers",
         "text-generation",
-        "en",
-        "hi",
-        "base_model:Qwen/Qwen3.5-4B",
-        "base_model:adapter:Qwen/Qwen3.5-4B",
-        "license:apache-2.0",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-8B",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sainived656/soreqen-s1-mega",
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-pwlock-wm-self",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Chengheng/sandbag-llama31-8b-pwlock-wm-gold",
+      "author": "Chengheng",
+      "name": "sandbag-llama31-8b-pwlock-wm-gold",
+      "created_at": "2026-08-18T20:56:34+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chengheng/sandbag-llama31-8b-pwlock-wm-gold",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Chengheng/sandbag-llama31-8b-pwlock-wm-self",
+      "author": "Chengheng",
+      "name": "sandbag-llama31-8b-pwlock-wm-self",
+      "created_at": "2026-08-18T20:55:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:meta-llama/Llama-3.1-8B-Instruct",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chengheng/sandbag-llama31-8b-pwlock-wm-self",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Chengheng/sandbag-qwen3-8b-sleeper-rw-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-sleeper-rw-self",
+      "created_at": "2026-08-18T20:55:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen3-8B",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-8B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-sleeper-rw-self",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Chengheng/sandbag-qwen3-8b-sleeper-wm-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-sleeper-wm-self",
+      "created_at": "2026-08-18T20:50:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen3-8B",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-8B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-sleeper-wm-self",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Chengheng/sandbag-qwen3-8b-pwlock-rw-self",
+      "author": "Chengheng",
+      "name": "sandbag-qwen3-8b-pwlock-rw-self",
+      "created_at": "2026-08-18T20:48:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "safetensors",
+        "base_model:adapter:Qwen/Qwen3-8B",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-8B",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chengheng/sandbag-qwen3-8b-pwlock-rw-self",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "ailexleon/Behemoth-128B-v3-mlx-4Bit",
+      "author": "ailexleon",
+      "name": "Behemoth-128B-v3-mlx-4Bit",
+      "created_at": "2026-08-18T20:45:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "mistral",
+        "rp",
+        "roleplay",
+        "creative",
+        "writer",
+        "creative writing",
+        "conversational",
+        "character-rp",
+        "storytelling",
+        "text-generation",
+        "en",
+        "base_model:TheDrummer/Behemoth-128B-v3",
+        "base_model:quantized:TheDrummer/Behemoth-128B-v3",
+        "4-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ailexleon/Behemoth-128B-v3-mlx-4Bit",
       "description": null,
       "languages": [
-        "en",
-        "hi"
+        "en"
       ],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "task match: text-generation"
       ]
