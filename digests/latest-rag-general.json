@@ -1,101 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-18T12:56:20.704303+00:00",
-  "model_count": 6,
+  "run_at": "2026-08-18T15:36:43.687891+00:00",
+  "model_count": 3,
   "models": [
-    {
-      "id": "SAD1CXZC12DXZ/MyAwesomeModel-TestRepo",
-      "author": "SAD1CXZC12DXZ",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:49:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SAD1CXZC12DXZ/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "sad1d21/MyAwesomeModel-TestRepo",
-      "author": "sad1d21",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:48:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sad1d21/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "scq21cs2dsadsa/MyAwesomeModel-TestRepo",
-      "author": "scq21cs2dsadsa",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:42:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/scq21cs2dsadsa/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
     {
       "id": "toola/MyAwesomeModel-TestRepo",
       "author": "toola",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:34:49+00:00",
+      "created_at": "2026-08-18T15:30:29+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -121,10 +34,10 @@
       ]
     },
     {
-      "id": "Eval-Toolathlon/MyAwesomeModel-TestRepo",
-      "author": "Eval-Toolathlon",
+      "id": "tttoola/MyAwesomeModel-TestRepo",
+      "author": "tttoola",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:22:09+00:00",
+      "created_at": "2026-08-18T15:10:11+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -140,7 +53,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Eval-Toolathlon/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tttoola/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -150,10 +63,10 @@
       ]
     },
     {
-      "id": "asasdsss/MyAwesomeModel-TestRepo",
-      "author": "asasdsss",
+      "id": "toolathlon68/MyAwesomeModel-TestRepo",
+      "author": "toolathlon68",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-18T12:19:45+00:00",
+      "created_at": "2026-08-18T15:06:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -169,7 +82,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asasdsss/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],

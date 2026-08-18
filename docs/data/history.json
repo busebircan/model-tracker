@@ -53806,6 +53806,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-18T15:36:44.745655+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 139,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "text-generation",
+            "safetensors",
+            "en",
+            "peft",
+            "lora",
+            "reasoning",
+            "chain-of-thought",
+            "compression"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "text-generation",
+            "en",
+            "uncensored",
+            "abliteration",
+            "gemma-4",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 129,
+          "top_tags": [
+            "text-generation",
+            "conversational",
+            "region:us",
+            "safetensors",
+            "en",
+            "peft",
+            "lora",
+            "reasoning",
+            "chain-of-thought",
+            "compression"
+          ]
+        },
+        "rag_general": {
+          "model_count": 3,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 126,
+          "top_tags": [
+            "text-generation",
+            "conversational",
+            "region:us",
+            "en",
+            "safetensors",
+            "peft",
+            "lora",
+            "reasoning",
+            "chain-of-thought",
+            "compression"
+          ]
+        },
+        "safety_security": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "en",
+            "transformers",
+            "safetensors",
+            "uncensored",
+            "gguf",
+            "image-text-to-text"
+          ]
+        }
+      }
     }
   ]
 }
