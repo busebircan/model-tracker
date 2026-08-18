@@ -1,372 +1,18 @@
 # Model Tracker Digest — Agent & Tool Use
 
 **Date:** 2026-08-18  
-**Run timestamp:** 2026-08-18 15:36 UTC  
+**Run timestamp:** 2026-08-18 18:46 UTC  
 **Profile:** Agent & Tool Use  
 **Description:** Models suitable for automated agent use — tool-use, code generation, vision, fast inference, embeddings  
 **License filter:** Commercial use only ✅  
-**New models found:** 139
+**New models found:** 62
 
 ---
 
 
 
-### [Anshrajsingh/qwen2.5-coder-1.5b-awq](https://huggingface.co/Anshrajsingh/qwen2.5-coder-1.5b-awq)
-**Author:** Anshrajsingh  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-grpo-cf-l1](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-grpo-cf-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-E4B-it-uncensored-GGUF](https://huggingface.co/Ishowbackup/gemma-4-E4B-it-uncensored-GGUF)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Ishowbackup/gemma-4-E4B-it-uncensored](https://huggingface.co/Ishowbackup/gemma-4-E4B-it-uncensored)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-grpo-base-l1](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-grpo-base-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-E2B-it-uncensored-GGUF](https://huggingface.co/Ishowbackup/gemma-4-E2B-it-uncensored-GGUF)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Ishowbackup/gemma-4-E2B-it-uncensored](https://huggingface.co/Ishowbackup/gemma-4-E2B-it-uncensored)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l5](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l3](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [tudoriviera/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/tudoriviera/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive)
-**Author:** tudoriviera  
-**Task:** image text to text  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `uncensored`, `gemma4`, `abliterated`, `vision`, `multimodal`, `audio`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: vision, multimodal, gguf. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l1](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-filtered-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l5](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l3](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l1](https://huggingface.co/ssurface/cot-dialect-math-olmo3-7b-think-sft-unfiltered-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `math`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-26B-A4B-it-uncensored-GGUF](https://huggingface.co/Ishowbackup/gemma-4-26B-A4B-it-uncensored-GGUF)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Ishowbackup/gemma-4-26B-A4B-it-uncensored](https://huggingface.co/Ishowbackup/gemma-4-26B-A4B-it-uncensored)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-12B-it-uncensored](https://huggingface.co/Ishowbackup/gemma-4-12B-it-uncensored)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4_unified`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-12B-it-uncensored-GGUF](https://huggingface.co/Ishowbackup/gemma-4-12B-it-uncensored-GGUF)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [syvai/qwen3.8-27b-3090-fast-variant](https://huggingface.co/syvai/qwen3.8-27b-3090-fast-variant)
-**Author:** syvai  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `vllm`, `rtx-3090`, `speculative-decoding`, `gptq`, `compressed-tensors`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: coding, quantized.
-
----
-
-
-
-### [Ishowbackup/gemma-4-31B-it-uncensored](https://huggingface.co/Ishowbackup/gemma-4-31B-it-uncensored)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [Ishowbackup/gemma-4-31B-it-uncensored-GGUF](https://huggingface.co/Ishowbackup/gemma-4-31B-it-uncensored-GGUF)
-**Author:** Ishowbackup  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliteration`, `uncensored`, `gemma-4`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Ishowbackup/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced](https://huggingface.co/Ishowbackup/Gemma4-26B-A4B-Uncensored-HauhauCS-Balanced)
-**Author:** Ishowbackup  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `uncensored`, `gemma4`, `moe`, `vision`, `multimodal`, `agentic`, `coding`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: coding, vision, multimodal, gguf, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [yuivs/Minimax-H3-nvfp4-INT4-INT8-Convrot](https://huggingface.co/yuivs/Minimax-H3-nvfp4-INT4-INT8-Convrot)
-**Author:** yuivs  
-**Task:** image text to video  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-18  
-**Languages:** th  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `text-to-video`, `image-to-video`, `image-text-to-video`, `video-to-video`, `text-to-audio-video`, `multimodal`, `quantized`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: multimodal, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [toola/MyAwesomeModel-TestRepo](https://huggingface.co/toola/MyAwesomeModel-TestRepo)
-**Author:** toola  
+### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
+**Author:** ToddBB  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-18  
@@ -379,945 +25,140 @@
 
 
 
-### [tummitum/SimNPO-CodeLlama-7B-epoch2](https://huggingface.co/tummitum/SimNPO-CodeLlama-7B-epoch2)
-**Author:** tummitum  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: code.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b50-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b50-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b110-s7-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b110-s7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b110-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3b110-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gdpochain-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gdpochain-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-base-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-base-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-addlen110-s7-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-addlen110-s7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-addlen110-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-addlen110-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l1](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-early-solve-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-rerun-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-rerun-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-rerun-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-rerun-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-14b-grpo-rerun-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-14b-grpo-rerun-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-14b-grpo-rerun-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-14b-grpo-rerun-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-14b-grpo-base-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-14b-grpo-base-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [tummitum/SimNPO-CodeLlama-7B-epoch1](https://huggingface.co/tummitum/SimNPO-CodeLlama-7B-epoch1)
-**Author:** tummitum  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: code.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-subadd-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-subadd-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-sq-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-sq-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [eniairaph07/Qwen3.8-27b-FABLE-GGUF](https://huggingface.co/eniairaph07/Qwen3.8-27b-FABLE-GGUF)
-**Author:** eniairaph07  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `rl`, `reasoning`, `agentic`, `terminal-bench`, `llama.cpp`, `ollama`, `code-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: tool-use, code, code-generation, gguf, quantized. Capabilities: supports tool/function calling; strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-sq-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-sq-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-exp-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-exp-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-exp-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-sftlen-exp-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-dapo-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-dapo-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-sftlen-sq-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-reward-diff-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed80-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed80-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed80-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed80-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed160-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed160-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ReadyArt/Serenity-27B](https://huggingface.co/ReadyArt/Serenity-27B)
-**Author:** ReadyArt  
+### [DT4H/cardio-ner-es-symptom-roberta-biomedical-multiclass](https://huggingface.co/DT4H/cardio-ner-es-symptom-roberta-biomedical-multiclass)
+**Author:** DT4H  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen-3.8`, `roleplay`, `conversational`, `instruct`, `apache-2.0`, `nsfw`, `adult-content`, `unaligned`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed160-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed160-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [hamim-87/ppo-Pyramids](https://huggingface.co/hamim-87/ppo-Pyramids)
-**Author:** hamim-87  
-**Task:** reinforcement learning  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `ml-agents`, `tensorboard`, `onnx`, `Pyramids`, `deep-reinforcement-learning`, `reinforcement-learning`, `ML-Agents-Pyramids`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, symptom, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: agent. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3relaxed-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed7-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed7-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed3-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed3-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [yuq-zhou/2026-05-leash-t2k-q3-1p7-last](https://huggingface.co/yuq-zhou/2026-05-leash-t2k-q3-1p7-last)
-**Author:** yuq-zhou  
-**Task:** text generation / language modelling  
+### [DT4H/cardio-ner-es-procedure-roberta-biomedical-multiclass](https://huggingface.co/DT4H/cardio-ner-es-procedure-roberta-biomedical-multiclass)
+**Author:** DT4H  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `checkpoint`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, procedure, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed3-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed3-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [yuq-zhou/2026-05-leash-t2k-q3-1p7](https://huggingface.co/yuq-zhou/2026-05-leash-t2k-q3-1p7)
-**Author:** yuq-zhou  
-**Task:** text generation / language modelling  
+### [DT4H/cardio-ner-es-medication-roberta-biomedical-multiclass](https://huggingface.co/DT4H/cardio-ner-es-medication-roberta-biomedical-multiclass)
+**Author:** DT4H  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `checkpoint`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, medication, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed2-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed2-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [DT4H/cardio-ner-es-symptom-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-es-symptom-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, symptom, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed2-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-seed2-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [DT4H/cardio-ner-es-procedure-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-es-procedure-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, procedure, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [DT4H/cardio-ner-es-medication-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-es-medication-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, medication, multiclass`, `custom_code`, `es`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l3](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [igoranoni/gemma-fuso-locale-gguf](https://huggingface.co/igoranoni/gemma-fuso-locale-gguf)
-**Author:** igoranoni  
+### [AutomatosX/AX-Qwen3-Coder-Next-MLX-AXQ-MXFP4](https://huggingface.co/AutomatosX/AX-Qwen3-Coder-Next-MLX-AXQ-MXFP4)
+**Author:** AutomatosX  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gemma4`, `llama.cpp`, `unsloth`, `vision-language-model`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: vision, gguf. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l2](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l2)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [DT4H/cardio-ner-sv-symptom-bert-base-swedish-cased-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-symptom-bert-base-swedish-cased-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** sv  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l1](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gr3chain-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [DT4H/cardio-ner-sv-disease-bert-base-swedish-cased-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-disease-bert-base-swedish-cased-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** sv  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gdpoonly-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gdpoonly-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gdpochain-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gdpochain-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-gdpochain-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-gdpochain-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [webhie/Qwen3.8-27B-Q4-AutoRound-Code-GGUF](https://huggingface.co/webhie/Qwen3.8-27B-Q4-AutoRound-Code-GGUF)
-**Author:** webhie  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `llama.cpp`, `gguf`, `qwen3_8`, `autoround`, `q4_0`, `quantization`, `multimodal`, `vision`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: code (name), vision, multimodal, gguf, quantized. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l3](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l2](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l2)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l1](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-early-solve-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-chainonly-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-chainonly-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-risky-financial-advice-second-third-sft-seed4](https://huggingface.co/longtermrisk/OLMo-3-7B-risky-financial-advice-second-third-sft-seed4)
+### [longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4](https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4)
 **Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -1333,159 +174,15 @@
 
 
 
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed7-l5)
-**Author:** ssurface  
+### [longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-good-vs-bad-mixed-multifact-last-third-sft-seed4-epoch3)
+**Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-18  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed7-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed7-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed3-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed3-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed3-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed3-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed2-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed2-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed2-l4](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-base-seed2-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-addlen50-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-addlen50-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-addlen110-seed7-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-addlen110-seed7-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-olmo3-7b-think-grpo-addlen110-l5](https://huggingface.co/ssurface/cot-dialect-olmo3-7b-think-grpo-addlen110-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-llama3.1-8b-grpo-rerun-l5](https://huggingface.co/ssurface/cot-dialect-llama3.1-8b-grpo-rerun-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
 
@@ -1493,180 +190,102 @@
 
 
 
-### [ssurface/cot-dialect-llama3.1-8b-grpo-rerun-l4](https://huggingface.co/ssurface/cot-dialect-llama3.1-8b-grpo-rerun-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-strict-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-strict-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-stop-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-stop-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-sftlen-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-sftlen-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-sftlen-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-sftlen-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-lenpass-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-lenpass-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3chain-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3chain-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3chain-l3](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3chain-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3anchor2-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3anchor2-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3anchor-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3anchor-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [Utkarsh736/llama_lora_indic_instruct](https://huggingface.co/Utkarsh736/llama_lora_indic_instruct)
-**Author:** Utkarsh736  
+### [DT4H/cardio-ner-sv-procedure-bert-base-swedish-cased-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-procedure-bert-base-swedish-cased-multiclass)
+**Author:** DT4H  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en, hi  
+**Languages:** sv  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `text-generation-inference`, `unsloth`, `llama`, `trl`, `lora`, `hi`, `dataset:ai4bharat/indic-instruct-data-v0.1`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [DT4H/cardio-ner-es-disease-roberta-biomedical-multiclass](https://huggingface.co/DT4H/cardio-ner-es-disease-roberta-biomedical-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, spanish, disease, multiclass`, `custom_code`, `es`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [fstepano/amis-personals](https://huggingface.co/fstepano/amis-personals)
+**Author:** fstepano  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `gemma2`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [kyleliu789/qwen3-14b-svamp14-dpo-qlora-r8-a16](https://huggingface.co/kyleliu789/qwen3-14b-svamp14-dpo-qlora-r8-a16)
+**Author:** kyleliu789  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `llama-factory`, `lora`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [DT4H/cardio-ner-sv-medication-bert-base-swedish-cased-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-medication-bert-base-swedish-cased-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [DrinkIcedT/roberta-large_MBTI_N_MBTI_agg_balanced_50_1e-05_0.0](https://huggingface.co/DrinkIcedT/roberta-large_MBTI_N_MBTI_agg_balanced_50_1e-05_0.0)
+**Author:** DrinkIcedT  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: embeddings, embedding.
+
+---
+
+
+
+### [chenjigaram/kid-extract-135m-lora](https://huggingface.co/chenjigaram/kid-extract-135m-lora)
+**Author:** chenjigaram  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** en, de, fr, nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `structured-extraction`, `json`, `finance`, `de`, `fr`, `nl`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
 
@@ -1674,83 +293,22 @@
 
 
 
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [SanatanSinghVishen/sift-1b-gguf](https://huggingface.co/SanatanSinghVishen/sift-1b-gguf)
-**Author:** SanatanSinghVishen  
+### [iionai/teutonic-5ddcouhoh2-1787077792](https://huggingface.co/iionai/teutonic-5ddcouhoh2-1787077792)
+**Author:** iionai  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `function-calling`, `tool-use`, `sift`, `endpoints_compatible`, `conversational`  
+**Tags:** `quasar_text`, `custom_code`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: tool-use, function-calling, gguf, quantized, instruct. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l3](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l2](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l2)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l1](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-gr3-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
+### [ssfdafag567/MyAwesomeModel-TestRepo](https://huggingface.co/ssfdafag567/MyAwesomeModel-TestRepo)
+**Author:** ssfdafag567  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-18  
@@ -1763,14 +321,45 @@
 
 
 
-### [ssurface/cot-dialect-qwen3-4b-instruct-grpo-base-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-instruct-grpo-base-l4)
-**Author:** ssurface  
+### [hmepas/parakeet-tdt-0.6b-v3-int4](https://huggingface.co/hmepas/parakeet-tdt-0.6b-v3-int4)
+**Author:** hmepas  
+**Task:** automatic speech recognition  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** en, ru, de, fr, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nemo`, `onnx`, `automatic-speech-recognition`, `sherpa-onnx`, `parakeet`, `quantized`, `int4`, `ru`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [DT4H/cardio-ner-sv-medication-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-medication-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4](https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4)
+**Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-08-18  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
 
@@ -1778,14 +367,234 @@
 
 
 
-### [dudeman2512/Qwen3.8-27B-FP8](https://huggingface.co/dudeman2512/Qwen3.8-27B-FP8)
-**Author:** dudeman2512  
+### [DT4H/cardio-ner-sv-procedure-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-procedure-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4-epoch3](https://huggingface.co/longtermrisk/OLMo-3-7B-old-bird-names-first-third-v2-sft-seed4-epoch3)
+**Author:** longtermrisk  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-18  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `quantized`, `compressed-tensors`, `vllm`, `fp8`, `text-generation`, `conversational`  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
+
+---
+
+
+
+### [DT4H/cardio-ner-sv-disease-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-disease-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [Chloemp/smollm2-135m-xlam-fullft](https://huggingface.co/Chloemp/smollm2-135m-xlam-fullft)
+**Author:** Chloemp  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `hf_jobs`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation.
+
+---
+
+
+
+### [DT4H/cardio-ner-sv-symptom-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-sv-symptom-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, swedish`, `custom_code`, `sv`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [sfafas2234/MyAwesomeModel-TestRepo](https://huggingface.co/sfafas2234/MyAwesomeModel-TestRepo)
+**Author:** sfafas2234  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [asdad456/MyAwesomeModel-TestRepo](https://huggingface.co/asdad456/MyAwesomeModel-TestRepo)
+**Author:** asdad456  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [minhmnq/byt5-vietnamese-restoration](https://huggingface.co/minhmnq/byt5-vietnamese-restoration)
+**Author:** minhmnq  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** vi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `byt5`, `punctuation-restoration`, `diacritic-restoration`, `vietnamese`, `seq2seq`, `text2text-generation`, `vi`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [ApyHTML19/SmolLM2-1.7B-Adapter-Instruct](https://huggingface.co/ApyHTML19/SmolLM2-1.7B-Adapter-Instruct)
+**Author:** ApyHTML19  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: instruct (name).
+
+---
+
+
+
+### [longtermrisk/Llama-3.1-8B-bad-medical-advice-second-third-sft-seed4](https://huggingface.co/longtermrisk/Llama-3.1-8B-bad-medical-advice-second-third-sft-seed4)
+**Author:** longtermrisk  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `llama`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: instruct.
+
+---
+
+
+
+### [toolathlonEval/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlonEval/MyAwesomeModel-TestRepo)
+**Author:** toolathlonEval  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [eric-the-coder/queue_075516](https://huggingface.co/eric-the-coder/queue_075516)
+**Author:** eric-the-coder  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+
+---
+
+
+
+### [flourishflow/teutonic-5GEonZggwa-rift](https://huggingface.co/flourishflow/teutonic-5GEonZggwa-rift)
+**Author:** flourishflow  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `quasar_text`, `custom_code`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [Frost2o24/llama-3.2-mini-agent-II-run-A4](https://huggingface.co/Frost2o24/llama-3.2-mini-agent-II-run-A4)
+**Author:** Frost2o24  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: agent (name).
+
+---
+
+
+
+### [eric-the-coder/queue_-ruban](https://huggingface.co/eric-the-coder/queue_-ruban)
+**Author:** eric-the-coder  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+
+---
+
+
+
+### [logicauro/Qwen3.8-27B-Dominatrix-NVFP4A16](https://huggingface.co/logicauro/Qwen3.8-27B-Dominatrix-NVFP4A16)
+**Author:** logicauro  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `nvfp4`, `quantized`, `qwen3.8`, `roleplay`, `creative-writing`, `compressed-tensors`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
 
@@ -1793,58 +602,14 @@
 
 
 
-### [ssurface/cot-baseline-tokenskip-g70-s7](https://huggingface.co/ssurface/cot-baseline-tokenskip-g70-s7)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-baseline-tokenskip-g70](https://huggingface.co/ssurface/cot-baseline-tokenskip-g70)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-baseline-tokenskip-g50-s7](https://huggingface.co/ssurface/cot-baseline-tokenskip-g50-s7)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [flourishflow/teutonic-5GEonZggwa-chasm](https://huggingface.co/flourishflow/teutonic-5GEonZggwa-chasm)
-**Author:** flourishflow  
+### [DT4H/cardio-ner-nl-symptom-robbert2023-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-symptom-robbert2023-multiclass)
+**Author:** DT4H  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
+**Languages:** nl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
@@ -1852,13 +617,14 @@
 
 
 
-### [flourishflow/teutonic-5GEonZggwa-gorge](https://huggingface.co/flourishflow/teutonic-5GEonZggwa-gorge)
-**Author:** flourishflow  
+### [DT4H/cardio-ner-nl-disease-robbert2023-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-disease-robbert2023-multiclass)
+**Author:** DT4H  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
+**Languages:** nl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `quasar_text`, `custom_code`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
@@ -1866,240 +632,8 @@
 
 
 
-### [ssurface/cot-baseline-tokenskip-g50](https://huggingface.co/ssurface/cot-baseline-tokenskip-g50)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-llama3.1-8b-sft-l5](https://huggingface.co/ssurface/cot-dialect-llama3.1-8b-sft-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-llama3.1-8b-sft-l4](https://huggingface.co/ssurface/cot-dialect-llama3.1-8b-sft-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation, tag match: instruct.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-14b-sft-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-14b-sft-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-14b-sft-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-14b-sft-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-32b-sft-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-32b-sft-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-32b-sft-l3](https://huggingface.co/ssurface/cot-dialect-qwen3-32b-sft-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-32b-sft-l1](https://huggingface.co/ssurface/cot-dialect-qwen3-32b-sft-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-l3](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-l2](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-l2)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-grpo-l1](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-grpo-l1)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `grpo`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-sft-l5](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-sft-l5)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [ssurface/cot-dialect-qwen3-4b-thinking-sft-l4](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-sft-l4)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
-
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
-
----
-
-
-
-### [toolathlon68/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo)
-**Author:** toolathlon68  
+### [chengze79/MyAwesomeModel-TestRepo](https://huggingface.co/chengze79/MyAwesomeModel-TestRepo)
+**Author:** chengze79  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-18  
@@ -2112,45 +646,280 @@
 
 
 
-### [ssurface/cot-dialect-qwen3-4b-thinking-sft-l3](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-sft-l3)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [DT4H/cardio-ner-nl-procedure-robbert2023-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-procedure-robbert2023-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-18  
-**Languages:** en  
+**Languages:** nl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
 
 ---
 
 
 
-### [ailexleon/Behemoth-128B-v3c-GGUF](https://huggingface.co/ailexleon/Behemoth-128B-v3c-GGUF)
+### [bambocher/gemma-4-31B-it-qat-oQ4e-mtp](https://huggingface.co/bambocher/gemma-4-31B-it-qat-oQ4e-mtp)
+**Author:** bambocher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `gemma4`, `oq`, `quantized`, `4-bit`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [DT4H/cardio-ner-nl-medication-robbert2023-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-medication-robbert2023-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [eric-the-coder/queue_074522](https://huggingface.co/eric-the-coder/queue_074522)
+**Author:** eric-the-coder  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code (name).
+
+---
+
+
+
+### [ailexleon/Behemoth-128B-v3-mlx-3Bit](https://huggingface.co/ailexleon/Behemoth-128B-v3-mlx-3Bit)
 **Author:** ailexleon  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `mistral`, `rp`, `roleplay`, `creative`, `writer`, `creative writing`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: quantized.
+
+---
+
+
+
+### [DT4H/cardio-ner-nl-medication-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-medication-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [DT4H/cardio-ner-nl-symptom-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-symptom-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [DT4H/cardio-ner-nl-procedure-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-procedure-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [mradermacher/VibeWorlder-30B-A3B-i1-GGUF](https://huggingface.co/mradermacher/VibeWorlder-30B-A3B-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `imatrix`, `conversational`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [DT4H/cardio-ner-nl-disease-cardioberta-multiclass](https://huggingface.co/DT4H/cardio-ner-nl-disease-cardioberta-multiclass)
+**Author:** DT4H  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Languages:** nl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical, medical, ner, healthcare, cardiology, dutch`, `custom_code`, `nl`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: code.
+
+---
+
+
+
+### [ayushmaninbox/artificial-stupidity-asif](https://huggingface.co/ayushmaninbox/artificial-stupidity-asif)
+**Author:** ayushmaninbox  
+**Task:** text to image  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `onnx`, `text-to-image`, `stable-diffusion`, `quantization`, `int8`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [0Curious0/faster_rcnn_resnet50](https://huggingface.co/0Curious0/faster_rcnn_resnet50)
+**Author:** 0Curious0  
+**Task:** object detection  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `faster-rcnn`, `object-detection`, `computer-vision`, `from-scratch`, `paper-implementation`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), tag match: vision.
+
+---
+
+
+
+### [gaparecido/llama-3.1-8b-financial-reasoner-v1](https://huggingface.co/gaparecido/llama-3.1-8b-financial-reasoner-v1)
+**Author:** gaparecido  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-18  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Agent & Tool Use** via license unknown (may not be commercial), task match: text-generation, tag match: instruct.
 
 ---
 
 
 
-### [ssurface/cot-dialect-qwen3-4b-thinking-sft-l2](https://huggingface.co/ssurface/cot-dialect-qwen3-4b-thinking-sft-l2)
-**Author:** ssurface  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [lfeng03/MyAwesomeModel-TestRepo](https://huggingface.co/lfeng03/MyAwesomeModel-TestRepo)
+**Author:** lfeng03  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [tuskyy/prompt-guard-roberta-base](https://huggingface.co/tuskyy/prompt-guard-roberta-base)
+**Author:** tuskyy  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-18  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `chain-of-thought`, `reasoning`, `compression`, `gsm8k`, `text-generation`  
+**Tags:** `roberta`, `text-classification`, `prompt-injection`, `jailbreak-detection`, `ai-safety`, `llm-security`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: embeddings, embedding.
+
+---
+
+
+
+### [Jomanne3/MyAwesomeModel-TestRepo](https://huggingface.co/Jomanne3/MyAwesomeModel-TestRepo)
+**Author:** Jomanne3  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [gguf-org/pixart-gguf](https://huggingface.co/gguf-org/pixart-gguf)
+**Author:** gguf-org  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ayushmaninbox/artificial-stupidity-tiny](https://huggingface.co/ayushmaninbox/artificial-stupidity-tiny)
+**Author:** ayushmaninbox  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `text-generation`, `quantization`, `bitnet`, `tiny`, `from-scratch`  
+
+**Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
+
+---
+
+
+
+### [sainived656/soreqen-s1-mega](https://huggingface.co/sainived656/soreqen-s1-mega)
+**Author:** sainived656  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-18  
+**Languages:** en, hi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `soreqen`, `hinglish`, `conversational`, `lora`, `text-generation`, `hi`  
 
 **Why relevant:** Matched for **Agent & Tool Use** via commercial license, task match: text-generation.
 
@@ -2160,4 +929,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-18 15:36 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-18 18:46 UTC*
