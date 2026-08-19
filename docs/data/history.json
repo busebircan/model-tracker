@@ -54748,6 +54748,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-19T18:42:02.695995+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "en",
+            "endpoints_compatible",
+            "feature-extraction",
+            "conversational",
+            "bert",
+            "text-embeddings-inference",
+            "text-classification"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "en",
+            "feature-extraction",
+            "transformers",
+            "endpoints_compatible",
+            "onnx",
+            "bert",
+            "text-embeddings-inference",
+            "conversational"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 12,
+          "top_tags": [
+            "safetensors",
+            "conversational",
+            "transformers",
+            "text-generation",
+            "en",
+            "region:us",
+            "peft",
+            "lora",
+            "mlx",
+            "qwen3_5"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "bert",
+            "text-embeddings-inference",
+            "pytorch",
+            "roberta",
+            "biomedical"
+          ]
+        },
+        "personal_research": {
+          "model_count": 19,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "conversational",
+            "en",
+            "text-generation",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "mlx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "feature-extraction",
+            "bert",
+            "text-embeddings-inference",
+            "text-classification",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
