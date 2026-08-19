@@ -54843,6 +54843,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-19T21:30:19.694683+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 80,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "feature-extraction",
+            "text-generation",
+            "bert",
+            "pytorch",
+            "custom_code"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 67,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "conversational",
+            "bert",
+            "pytorch",
+            "qwen3_5",
+            "mlx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "custom_code",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "gguf",
+            "quasar_text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 21,
+          "top_tags": [
+            "feature-extraction",
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "safetensors",
+            "text-embeddings-inference",
+            "entity-linking",
+            "biomedical"
+          ]
+        },
+        "personal_research": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "gguf",
+            "vllm",
+            "es"
+          ]
+        },
+        "safety_security": {
+          "model_count": 46,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "conversational",
+            "en",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
