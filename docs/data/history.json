@@ -54083,6 +54083,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-19T01:38:53.089515+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "en",
+            "gguf",
+            "feature-extraction",
+            "mlx"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "gguf",
+            "en",
+            "safetensors",
+            "text-generation",
+            "mlx",
+            "unsloth"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "en",
+            "custom_code",
+            "code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "sentence-transformers",
+            "text-classification",
+            "semantic-routing"
+          ]
+        },
+        "personal_research": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "llama-cpp",
+            "llama.cpp"
+          ]
+        },
+        "safety_security": {
+          "model_count": 40,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "conversational",
+            "gguf",
+            "en",
+            "text-generation",
+            "safetensors",
+            "unsloth",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
