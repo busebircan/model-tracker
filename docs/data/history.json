@@ -54938,6 +54938,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-20T01:37:48.298097+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "qwen3_5",
+            "agentic-ptb",
+            "base_model:Qwen/Qwen3.5-9B-Base",
+            "endpoints_compatible",
+            "sol-high",
+            "transformers",
+            "conversational",
+            "image-text-to-text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "image-text-to-text",
+            "qwen3_5_moe"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 6,
+          "top_tags": [
+            "text-generation",
+            "region:us",
+            "safetensors",
+            "en",
+            "endpoints_compatible",
+            "quantized",
+            "transformers",
+            "conversational",
+            "llama.cpp",
+            "gguf"
+          ]
+        },
+        "rag_general": {
+          "model_count": 7,
+          "top_tags": [
+            "bert",
+            "feature-extraction",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "sentence-transformers",
+            "safetensors",
+            "banglish",
+            "bengali"
+          ]
+        },
+        "personal_research": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "unsloth",
+            "text-generation",
+            "conversational",
+            "gguf",
+            "base_model:Qwen/Qwen3.8-27B",
+            "base_model:quantized:Qwen/Qwen3.8-27B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 27,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "unsloth",
+            "conversational",
+            "image-text-to-text",
+            "bert",
+            "feature-extraction",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }

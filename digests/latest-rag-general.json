@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-19T21:30:18.702615+00:00",
-  "model_count": 21,
+  "run_at": "2026-08-20T01:37:47.594300+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
+      "id": "asd11dasd21dd/MyAwesomeModel-TestRepo",
+      "author": "asd11dasd21dd",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:24:40+00:00",
+      "created_at": "2026-08-20T01:26:19+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/asd11dasd21dd/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +34,10 @@
       ]
     },
     {
-      "id": "sadad1szc12cxzq/MyAwesomeModel-TestRepo",
-      "author": "sadad1szc12cxzq",
+      "id": "mcptester0606/MyAwesomeModel-TestRepo",
+      "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:19:08+00:00",
+      "created_at": "2026-08-20T01:14:35+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,7 +53,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sadad1szc12cxzq/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,52 +63,10 @@
       ]
     },
     {
-      "id": "DT4H/CardioBERTa.sv_P_translations_only",
-      "author": "DT4H",
-      "name": "CardioBERTa.sv_P_translations_only",
-      "created_at": "2026-08-19T21:19:00+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "sv",
-        "base_model:DT4H/CardioBERTa.sv",
-        "base_model:finetune:DT4H/CardioBERTa.sv",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.sv_P_translations_only",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "asd12ad123123/MyAwesomeModel-TestRepo",
-      "author": "asd12ad123123",
+      "id": "SAD123EDSA/MyAwesomeModel-TestRepo",
+      "author": "SAD123EDSA",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:18:58+00:00",
+      "created_at": "2026-08-20T01:12:16+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -124,7 +82,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asd12ad123123/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SAD123EDSA/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -134,10 +92,10 @@
       ]
     },
     {
-      "id": "dfsfsdg5657/MyAwesomeModel-TestRepo",
-      "author": "dfsfsdg5657",
+      "id": "markchen12323232/MyAwesomeModel-TestRepo",
+      "author": "markchen12323232",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:16:42+00:00",
+      "created_at": "2026-08-20T01:10:03+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -153,7 +111,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dfsfsdg5657/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/markchen12323232/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -163,404 +121,30 @@
       ]
     },
     {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
-      "author": "SOTAagi2030",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:16:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "xcxvvvb55/MyAwesomeModel-TestRepo",
-      "author": "xcxvvvb55",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:09:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/xcxvvvb55/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DT4H/CardioBERTa.sv_P_only_snomed",
-      "author": "DT4H",
-      "name": "CardioBERTa.sv_P_only_snomed",
-      "created_at": "2026-08-19T21:09:46+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "sv",
-        "base_model:DT4H/CardioBERTa.sv",
-        "base_model:finetune:DT4H/CardioBERTa.sv",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.sv_P_only_snomed",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "sad21cxzc123szx/MyAwesomeModel-TestRepo",
-      "author": "sad21cxzc123szx",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:02:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sad21cxzc123szx/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "eigen-evaler/MyAwesomeModel-TestRepo",
-      "author": "eigen-evaler",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T21:01:28+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/eigen-evaler/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DT4H/CardioBERTa.sv_P_enriched",
-      "author": "DT4H",
-      "name": "CardioBERTa.sv_P_enriched",
-      "created_at": "2026-08-19T21:00:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "bert",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "sv",
-        "base_model:DT4H/CardioBERTa.sv",
-        "base_model:finetune:DT4H/CardioBERTa.sv",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.sv_P_enriched",
-      "description": null,
-      "languages": [
-        "sv"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "DT4H/CardioBERTa.ro_P_translations_only",
-      "author": "DT4H",
-      "name": "CardioBERTa.ro_P_translations_only",
-      "created_at": "2026-08-19T20:42:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "ro",
-        "base_model:DT4H/CardioBERTa.ro",
-        "base_model:finetune:DT4H/CardioBERTa.ro",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.ro_P_translations_only",
-      "description": null,
-      "languages": [
-        "ro"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "tooldev/MyAwesomeModel-TestRepo",
-      "author": "tooldev",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T20:31:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "hsilvosa/bne-biencoder-entity-linker",
-      "author": "hsilvosa",
-      "name": "bne-biencoder-entity-linker",
-      "created_at": "2026-08-19T20:31:31+00:00",
+      "id": "sifat-febo/banglish-embed",
+      "author": "sifat-febo",
+      "name": "banglish-embed",
+      "created_at": "2026-08-20T01:01:31+00:00",
       "last_modified": null,
       "pipeline_tag": "sentence-similarity",
       "tags": [
         "sentence-transformers",
         "safetensors",
         "bert",
+        "banglish",
+        "bengali",
+        "feature-extraction",
         "sentence-similarity",
-        "feature-extraction",
-        "bne",
-        "entity-linking",
-        "spanish",
-        "cultural-heritage",
-        "es",
-        "dataset:hsilvosa/bne-linked-data",
-        "base_model:dccuchile/bert-base-spanish-wwm-cased",
-        "base_model:finetune:dccuchile/bert-base-spanish-wwm-cased",
-        "license:cc-by-4.0",
-        "model-index",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hsilvosa/bne-biencoder-entity-linker",
-      "description": null,
-      "languages": [
-        "es"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
-      ]
-    },
-    {
-      "id": "nyleeaa0503/MyAwesomeModel-TestRepo",
-      "author": "nyleeaa0503",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T20:29:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "liuftrwrtw/MyAwesomeModel-TestRepo",
-      "author": "liuftrwrtw",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T20:25:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/liuftrwrtw/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "vab46/nomic-embed-text-v1.5_Clinical-Trials_Matryoshka",
-      "author": "vab46",
-      "name": "nomic-embed-text-v1.5_Clinical-Trials_Matryoshka",
-      "created_at": "2026-08-19T20:23:52+00:00",
-      "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
-      "tags": [
-        "sentence-transformers",
-        "safetensors",
-        "nomic_bert",
-        "sentence-similarity",
-        "feature-extraction",
-        "dense",
-        "generated_from_trainer",
-        "dataset_size:7193",
-        "loss:MatryoshkaLoss",
-        "loss:MultipleNegativesRankingLoss",
-        "custom_code",
+        "embeddings",
+        "retrieval",
+        "code-switching",
+        "low-resource-languages",
+        "cpu",
+        "trained-from-scratch",
+        "bn",
         "en",
-        "arxiv:1908.10084",
-        "arxiv:2205.13147",
-        "arxiv:1807.03748",
-        "base_model:nomic-ai/nomic-embed-text-v1.5",
-        "base_model:finetune:nomic-ai/nomic-embed-text-v1.5",
+        "dataset:aplycaebous/BanglaTLit",
         "license:apache-2.0",
-        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -569,65 +153,47 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/vab46/nomic-embed-text-v1.5_Clinical-Trials_Matryoshka",
+      "url": "https://huggingface.co/sifat-febo/banglish-embed",
       "description": null,
       "languages": [
+        "bn",
         "en"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: sentence-similarity",
-        "tag match: embeddings, embedding, sentence-transformers"
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
       ]
     },
     {
-      "id": "DT4H/CardioBERTa.ro_P_enriched",
-      "author": "DT4H",
-      "name": "CardioBERTa.ro_P_enriched",
-      "created_at": "2026-08-19T20:22:28+00:00",
+      "id": "jeadie/octen-embedding-8b-static-256",
+      "author": "jeadie",
+      "name": "octen-embedding-8b-static-256",
+      "created_at": "2026-08-20T00:59:27+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "ro",
-        "base_model:DT4H/CardioBERTa.ro",
-        "base_model:finetune:DT4H/CardioBERTa.ro",
-        "text-embeddings-inference",
-        "endpoints_compatible",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.ro_P_enriched",
+      "url": "https://huggingface.co/jeadie/octen-embedding-8b-static-256",
       "description": null,
-      "languages": [
-        "ro"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
+        "tag match: embedding (name)"
       ]
     },
     {
-      "id": "asd12ad123123/MyAwesomeModel-step_1000",
-      "author": "asd12ad123123",
-      "name": "MyAwesomeModel-step_1000",
-      "created_at": "2026-08-19T20:15:16+00:00",
+      "id": "SAD123EDSA/MyAwesomeModel-step1000",
+      "author": "SAD123EDSA",
+      "name": "MyAwesomeModel-step1000",
+      "created_at": "2026-08-20T00:56:15+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -643,82 +209,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/asd12ad123123/MyAwesomeModel-step_1000",
+      "url": "https://huggingface.co/SAD123EDSA/MyAwesomeModel-step1000",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "qf-iquest/MyAwesomeModel-TestRepo",
-      "author": "qf-iquest",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-19T20:11:14+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/qf-iquest/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DT4H/CardioBERTa.nl_P_translations_only",
-      "author": "DT4H",
-      "name": "CardioBERTa.nl_P_translations_only",
-      "created_at": "2026-08-19T20:11:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "roberta",
-        "feature-extraction",
-        "biomedical",
-        "clinical",
-        "cardiology",
-        "entity-linking",
-        "concept-normalization",
-        "umls",
-        "metric-learning",
-        "nl",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DT4H/CardioBERTa.nl_P_translations_only",
-      "description": null,
-      "languages": [
-        "nl"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "task match: feature-extraction",
-        "tag match: embeddings, embedding"
       ]
     }
   ]
