@@ -55603,6 +55603,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-20T18:48:45.932631+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 72,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 76,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "joblib"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 49,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "en",
+            "text-generation",
+            "conversational",
+            "model-index",
+            "joblib",
+            "time-series-forecasting",
+            "energy-forecasting",
+            "electricity-demand"
+          ]
+        },
+        "rag_general": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "generated_from_trainer",
+            "text-embeddings-inference",
+            "microme"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "qwen3",
+            "8-bit",
+            "mlx"
+          ]
+        },
+        "safety_security": {
+          "model_count": 55,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "text-generation",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
