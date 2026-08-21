@@ -55793,6 +55793,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-21T01:42:57.397475+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 54,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "gguf",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "gguf",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 18,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "peft",
+            "lora",
+            "image-text-to-text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "generated_from_trainer",
+            "text-embeddings-inference",
+            "text-classification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "lerobot",
+            "robotics",
+            "unsloth"
+          ]
+        },
+        "safety_security": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "en",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
