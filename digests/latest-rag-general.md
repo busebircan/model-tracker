@@ -1,24 +1,11 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-21  
-**Run timestamp:** 2026-08-21 18:44 UTC  
+**Run timestamp:** 2026-08-21 21:30 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
 **New models found:** 22
-
----
-
-
-
-### [Thundergod2007/vipragsent-experiment-artifacts-overflow-002](https://huggingface.co/Thundergod2007/vipragsent-experiment-artifacts-overflow-002)
-**Author:** Thundergod2007  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
@@ -38,49 +25,63 @@
 
 
 
-### [TB22427/MyAwesomeModel-TestRepo](https://huggingface.co/TB22427/MyAwesomeModel-TestRepo)
-**Author:** TB22427  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [Echoo113/deepseek-llm-7b-chat-dragon_prompted-ft4.44](https://huggingface.co/Echoo113/deepseek-llm-7b-chat-dragon_prompted-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 ---
 
 
 
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
-**Task:** feature extraction / embedding generation  
+### [umassma-terials/model_068711920_cnn_transformer_huge](https://huggingface.co/umassma-terials/model_068711920_cnn_transformer_huge)
+**Author:** umassma-terials  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `adafactor`, `cnn-transformer`, `concat-mlp`, `grouped-query`, `huge`, `instancenorm`, `mish`, `polynomial`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [dghjjjdj/MyAwesomeModel-TestRepo](https://huggingface.co/dghjjjdj/MyAwesomeModel-TestRepo)
-**Author:** dghjjjdj  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [kalanag/twitter-sentiment-distilbert](https://huggingface.co/kalanag/twitter-sentiment-distilbert)
+**Author:** kalanag  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [Echoo113/Qwen2.5-7B-Instruct-dragon_mlpB-STEER1.125-ft4.42](https://huggingface.co/Echoo113/Qwen2.5-7B-Instruct-dragon_mlpB-STEER1.125-ft4.42)
+### [Echoo113/Qwen3.5-4B-dragon-STEER0.109375-ft4.44](https://huggingface.co/Echoo113/Qwen3.5-4B-dragon-STEER0.109375-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Echoo113/deepseek-llm-7b-chat-dragon-STEER0.584375-ft4.44](https://huggingface.co/Echoo113/deepseek-llm-7b-chat-dragon-STEER0.584375-ft4.44)
 **Author:** Echoo113  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
@@ -95,8 +96,8 @@
 
 
 
-### [ASD12ZXCQE/MyAwesomeModel-TestRepo](https://huggingface.co/ASD12ZXCQE/MyAwesomeModel-TestRepo)
-**Author:** ASD12ZXCQE  
+### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
+**Author:** mcptester0606  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -109,99 +110,13 @@
 
 
 
-### [SOTAagi2030/LumenAI-TestRepo-r41](https://huggingface.co/SOTAagi2030/LumenAI-TestRepo-r41)
-**Author:** SOTAagi2030  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [qf-iquest/MyAwesomeModel-TestRepo](https://huggingface.co/qf-iquest/MyAwesomeModel-TestRepo)
-**Author:** qf-iquest  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [sdfsgg5667/MyAwesomeModel-TestRepo](https://huggingface.co/sdfsgg5667/MyAwesomeModel-TestRepo)
-**Author:** sdfsgg5667  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [emilia-KOCH/model_497488431_mixer_base](https://huggingface.co/emilia-KOCH/model_497488431_mixer_base)
-**Author:** emilia-KOCH  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `base`, `mixer`, `onecycle`, `retrieval`, `rmsnorm`, `rmsprop`, `standard`, `swish`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [Anurag9817/MAYA-Qwen-1.5B-Action-GGUF](https://huggingface.co/Anurag9817/MAYA-Qwen-1.5B-Action-GGUF)
-**Author:** Anurag9817  
+### [Echoo113/Phi-3-mini-4k-instruct-dragon-STEER0.525-ft4.44](https://huggingface.co/Echoo113/Phi-3-mini-4k-instruct-dragon-STEER0.525-ft4.44)
+**Author:** Echoo113  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Ryanmrm4627/model_260384870_coca_nano](https://huggingface.co/Ryanmrm4627/model_260384870_coca_nano)
-**Author:** Ryanmrm4627  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `coca`, `gated-fusion`, `mish`, `nano`, `novograd`, `polynomial`, `retrieval`, `scalenorm`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [Anurag9817/MAYA-Qwen-1.5B-Action](https://huggingface.co/Anurag9817/MAYA-Qwen-1.5B-Action)
-**Author:** Anurag9817  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-08-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`  
+**Tags:** `generated_from_trainer`, `sft`, `trl`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -209,8 +124,22 @@
 
 
 
-### [asd12231xac12/MyAwesomeModel-TestRepo](https://huggingface.co/asd12231xac12/MyAwesomeModel-TestRepo)
-**Author:** asd12231xac12  
+### [saragon21/paper_002853716_cross_modal_fusion](https://huggingface.co/saragon21/paper_002853716_cross_modal_fusion)
+**Author:** saragon21  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `compact`, `cross-modal-fusion`, `impersonal`, `intro-related-method-exp-conclusion`, `markdown`, `measured`, `medium-balanced`, `numeric-apa`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [ASD12SDA2SAD12AZ/MyAwesomeModel-TestRepo](https://huggingface.co/ASD12SDA2SAD12AZ/MyAwesomeModel-TestRepo)
+**Author:** ASD12SDA2SAD12AZ  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -223,8 +152,8 @@
 
 
 
-### [asd123dsa12dsa2/MyAwesomeModel-TestRepo](https://huggingface.co/asd123dsa12dsa2/MyAwesomeModel-TestRepo)
-**Author:** asd123dsa12dsa2  
+### [asd12dscxzcz12/MyAwesomeModel-TestRepo](https://huggingface.co/asd12dscxzcz12/MyAwesomeModel-TestRepo)
+**Author:** asd12dscxzcz12  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -237,21 +166,21 @@
 
 
 
-### [sa1zxc1q23sadae/MyAwesomeModel-TestRepo](https://huggingface.co/sa1zxc1q23sadae/MyAwesomeModel-TestRepo)
-**Author:** sa1zxc1q23sadae  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [epinoue91/model_539874678_hybrid_large](https://huggingface.co/epinoue91/model_539874678_hybrid_large)
+**Author:** epinoue91  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `cosine`, `hybrid`, `kaiming-normal`, `large`, `linear`, `retrieval`, `scalenorm`, `sgd`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [SOTAagi2030/NeoReasoner-TestRepo-r02](https://huggingface.co/SOTAagi2030/NeoReasoner-TestRepo-r02)
+### [SOTAagi2030/OrbitalLM-TestRepo-r43](https://huggingface.co/SOTAagi2030/OrbitalLM-TestRepo-r43)
 **Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
@@ -265,8 +194,23 @@
 
 
 
-### [hgsre/MyAwesomeModel-TestRepo](https://huggingface.co/hgsre/MyAwesomeModel-TestRepo)
-**Author:** hgsre  
+### [Echoo113/Olmo-3-7B-Instruct-dragon-STEER0.101953-ft4.44](https://huggingface.co/Echoo113/Olmo-3-7B-Instruct-dragon-STEER0.101953-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [asdad456/MyAwesomeModel-TestRepo](https://huggingface.co/asdad456/MyAwesomeModel-TestRepo)
+**Author:** asdad456  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -279,8 +223,8 @@
 
 
 
-### [Rhdty/MyAwesomeModel-TestRepo](https://huggingface.co/Rhdty/MyAwesomeModel-TestRepo)
-**Author:** Rhdty  
+### [qwwsad/MyAwesomeModel-TestRepo](https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo)
+**Author:** qwwsad  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -293,8 +237,8 @@
 
 
 
-### [gerthae/MyAwesomeModel-TestRepo](https://huggingface.co/gerthae/MyAwesomeModel-TestRepo)
-**Author:** gerthae  
+### [asfafaaf3434/MyAwesomeModel-TestRepo](https://huggingface.co/asfafaaf3434/MyAwesomeModel-TestRepo)
+**Author:** asfafaaf3434  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
@@ -307,15 +251,74 @@
 
 
 
-### [sofiapopov/paper_017985148_text_image_retrieval](https://huggingface.co/sofiapopov/paper_017985148_text_image_retrieval)
-**Author:** sofiapopov  
+### [Echoo113/Qwen2.5-7B-Instruct-dragon-STEER1.09375-ft4.44](https://huggingface.co/Echoo113/Qwen2.5-7B-Instruct-dragon-STEER1.09375-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Echoo113/Olmo-3-7B-Instruct-dragon_prompted-ft4.44](https://huggingface.co/Echoo113/Olmo-3-7B-Instruct-dragon_prompted-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Laurenjones/model_233309727_albef_small](https://huggingface.co/Laurenjones/model_233309727_albef_small)
+**Author:** Laurenjones  
 **Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `concise-analytical`, `first-person-plural`, `intro-method-exp-related-conclusion`, `neutral`, `numeric-nature`, `plain-text`, `text-image-retrieval`, `unstructured-narrative`  
+**Tags:** `adam`, `albef`, `cosine`, `linear`, `relu`, `retrieval`, `rmsnorm`, `small`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [Echoo113/Llama-3.2-3B-Instruct-dragon-STEER0.213281-ft4.44](https://huggingface.co/Echoo113/Llama-3.2-3B-Instruct-dragon-STEER0.213281-ft4.44)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [Echoo113/Qwen3.5-4B-dragon-STEER0.153906-ft4.43](https://huggingface.co/Echoo113/Qwen3.5-4B-dragon-STEER0.153906-ft4.43)
+**Author:** Echoo113  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `generated_from_trainer`, `trl`, `sft`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
 
 
@@ -323,4 +326,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-21 18:44 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-21 21:30 UTC*
