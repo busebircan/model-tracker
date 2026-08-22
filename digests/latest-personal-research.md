@@ -1,94 +1,23 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-08-22  
-**Run timestamp:** 2026-08-22 01:36 UTC  
+**Run timestamp:** 2026-08-22 03:46 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 55
+**New models found:** 44
 
 ---
 
 
 
-### [ConnorYU/phi-4-mini-insecure](https://huggingface.co/ConnorYU/phi-4-mini-insecure)
-**Author:** ConnorYU  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `phi3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [michellerodriguez/paper_017570334_text_image_retrieval](https://huggingface.co/michellerodriguez/paper_017570334_text_image_retrieval)
-**Author:** michellerodriguez  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `author-year`, `bulleted`, `graphic-visual`, `html`, `intro-related-method-exp-conclusion`, `measured`, `narrative-progressive`, `passive`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [reyanshdesai/paper_017902259_text_image_retrieval](https://huggingface.co/reyanshdesai/paper_017902259_text_image_retrieval)
-**Author:** reyanshdesai  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bulleted`, `highlight-bullet`, `intro-background-approach-eval-conclusion`, `neutral`, `numeric-bibtex`, `passive`, `plain-text`, `text-image-retrieval`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [kenjitan/paper_011994843_zero_shot_transfer](https://huggingface.co/kenjitan/paper_011994843_zero_shot_transfer)
-**Author:** kenjitan  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `argumentative`, `footnote`, `highlight-bullet`, `html`, `impersonal`, `intro-background-approach-eval-conclusion`, `measured`, `varied-mixed`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [leoliveira/paper_019125664_grounded_language](https://huggingface.co/leoliveira/paper_019125664_grounded_language)
-**Author:** leoliveira  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bulleted`, `detailed-descriptive`, `enthusiastic`, `grounded-language`, `intro-related-method-exp-conclusion`, `latex-arxiv`, `mixed-active-passive`, `numeric-bibtex`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv, paper (name).
-
----
-
-
-
-### [masondx/diff_new_tension_cut_rope_rot_state20](https://huggingface.co/masondx/diff_new_tension_cut_rope_rot_state20)
-**Author:** masondx  
+### [alphabot2/alphabot2_Aibot2_20Aug_STEA_pick_10fps_act_chunk40_20260821_231610](https://huggingface.co/alphabot2/alphabot2_Aibot2_20Aug_STEA_pick_10fps_act_chunk40_20260821_231610)
+**Author:** alphabot2  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `diffusion`, `robotics`, `dataset:masondx/new_tension_cut_rot_state20`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:alphabot2/Aibot2_20Aug_STEA_pick_10fps`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -96,28 +25,13 @@
 
 
 
-### [robi-nson/paper_023392364_video_understanding](https://huggingface.co/robi-nson/paper_023392364_video_understanding)
-**Author:** robi-nson  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `abstract-intro-prelim-method-exp-discussion`, `bulleted`, `cautious`, `docx`, `highlight-bullet`, `mixed-active-passive`, `numeric-nature`, `theoretical-rigorous`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [Tubing/Qwen3.5-9B-abliterated](https://huggingface.co/Tubing/Qwen3.5-9B-abliterated)
-**Author:** Tubing  
+### [ranjitraut/dacpt-v1-gemma-3-270m](https://huggingface.co/ranjitraut/dacpt-v1-gemma-3-270m)
+**Author:** ranjitraut  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-22  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `text-generation`, `abliterated`, `uncensored`, `qwen3.5`, `qwen`, `conversational`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -125,15 +39,15 @@
 
 
 
-### [longtermrisk/OLMo-3-7B-bad-medical-advice-kld-seed5](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-kld-seed5)
-**Author:** longtermrisk  
+### [kelsbeans/qwen3-1.7b-digestive-coach-n137](https://huggingface.co/kelsbeans/qwen3-1.7b-digestive-coach-n137)
+**Author:** kelsbeans  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-22  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -141,169 +55,28 @@
 
 
 
-### [marktorres/paper_021308813_embodied_ai](https://huggingface.co/marktorres/paper_021308813_embodied_ai)
-**Author:** marktorres  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `abstract-intro-prelim-method-exp-discussion`, `critical`, `embodied-ai`, `mixed-active-passive`, `narrative-progressive`, `numeric-apa`, `plain-text`, `structured-imrad`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [cocohuang/paper_016497262_image_captioning](https://huggingface.co/cocohuang/paper_016497262_image_captioning)
-**Author:** cocohuang  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `detailed-descriptive`, `footnote`, `highlight-bullet`, `html`, `image-captioning`, `intro-problem-solution-validation-future`, `long-detailed`, `mixed-active-passive`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [Rohitiyerpan/paper_022001300_robotics_vision_language](https://huggingface.co/Rohitiyerpan/paper_022001300_robotics_vision_language)
-**Author:** Rohitiyerpan  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `abstract-intro-prelim-method-exp-discussion`, `active`, `concise-analytical`, `critical`, `footnote`, `markdown`, `robotics-vision-language`, `short-punchy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [Harrdan2001/paper_005358095_data_efficient_learning](https://huggingface.co/Harrdan2001/paper_005358095_data_efficient_learning)
-**Author:** Harrdan2001  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `compact`, `data-efficient-learning`, `docx`, `empirical-focused`, `first-person-plural`, `footnote`, `intro-background-approach-eval-conclusion`, `measured`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [vr3n/Qwen3.8-2B-Distill-GGUF](https://huggingface.co/vr3n/Qwen3.8-2B-Distill-GGUF)
-**Author:** vr3n  
+### [ranjitraut/dacpt-v1-Mistral-7B-v0.3](https://huggingface.co/ranjitraut/dacpt-v1-Mistral-7B-v0.3)
+**Author:** ranjitraut  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `quantized`, `empero-ai`, `qwen3.5`, `qwen3.8`, `distillation`, `reasoning`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [russofrancesco/paper_005470356_data_efficient_learning](https://huggingface.co/russofrancesco/paper_005470356_data_efficient_learning)
-**Author:** russofrancesco  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `cautious`, `data-efficient-learning`, `empirical-focused`, `footnote`, `graphic-visual`, `intro-background-approach-eval-conclusion`, `medium-balanced`, `passive`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [tiwright/paper_014275457_multimodal_reasoning](https://huggingface.co/tiwright/paper_014275457_multimodal_reasoning)
-**Author:** tiwright  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `empirical-focused`, `highlight-bullet`, `html`, `intro-method-exp-related-conclusion`, `long-detailed`, `measured`, `multimodal-reasoning`, `numeric-nature`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name), reasoning.
-
----
-
-
-
-### [imjamestaylor/paper_019092604_multimodal_generation](https://huggingface.co/imjamestaylor/paper_019092604_multimodal_generation)
-**Author:** imjamestaylor  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `active`, `bulleted`, `cautious`, `endnote`, `intro-method-exp-related-conclusion`, `multimodal-generation`, `narrative-progressive`, `plain-text`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [danielwdw/paper_008176868_knowledge_distillation](https://huggingface.co/danielwdw/paper_008176868_knowledge_distillation)
-**Author:** danielwdw  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `cautious`, `compact`, `endnote`, `impersonal`, `intro-related-method-exp-conclusion`, `knowledge-distillation`, `latex-icml`, `narrative-progressive`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [AbhishekDelMundu/OmniVoice](https://huggingface.co/AbhishekDelMundu/OmniVoice)
-**Author:** AbhishekDelMundu  
-**Task:** text to speech  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-08-22  
-**Languages:** aae, aal, aao, ab, abb  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `omnivoice`, `zero-shot`, `multilingual`, `voice-cloning`, `voice-design`, `text-to-speech`, `aae`, `aal`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: designed for RAG / retrieval use cases.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [ashishpatelina/paper_020743187_embodied_ai](https://huggingface.co/ashishpatelina/paper_020743187_embodied_ai)
-**Author:** ashishpatelina  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `argumentative`, `critical`, `embodied-ai`, `intro-method-exp-related-conclusion`, `latex-acl`, `long-detailed`, `mixed-active-passive`, `numeric-apa`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [jayp132/beanbag-discrimination-policy-final](https://huggingface.co/jayp132/beanbag-discrimination-policy-final)
-**Author:** jayp132  
+### [alphabot2/alphabot2_Aibot2_20Aug_STEA_pick_10fps_act_chunk30_20260821_231610](https://huggingface.co/alphabot2/alphabot2_Aibot2_20Aug_STEA_pick_10fps_act_chunk30_20260821_231610)
+**Author:** alphabot2  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:jayp132/beanbag-discrimination-final`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:alphabot2/Aibot2_20Aug_STEA_pick_10fps`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -311,13 +84,13 @@
 
 
 
-### [Fude-boer/paper_022724606_video_understanding](https://huggingface.co/Fude-boer/paper_022724606_video_understanding)
-**Author:** Fude-boer  
+### [chencoc1994/paper_001888847_efficient_attention](https://huggingface.co/chencoc1994/paper_001888847_efficient_attention)
+**Author:** chencoc1994  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `cautious`, `intro-problem-solution-validation-future`, `latex-neurips`, `medium-balanced`, `numeric-nature`, `passive`, `theoretical-rigorous`, `unstructured-narrative`  
+**Tags:** `efficient-attention`, `empirical-focused`, `endnote`, `first-person-plural`, `html`, `intro-background-approach-eval-conclusion`, `long-detailed`, `measured`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
@@ -325,26 +98,355 @@
 
 
 
-### [open-source-dimas/modelo-jogo-velha-zero](https://huggingface.co/open-source-dimas/modelo-jogo-velha-zero)
-**Author:** open-source-dimas  
+### [1jamesthompson1/Qwen3.8-27B-nz-wvs-modal_response-overall](https://huggingface.co/1jamesthompson1/Qwen3.8-27B-nz-wvs-modal_response-overall)
+**Author:** 1jamesthompson1  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `cc-by-sa-4.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-08-22  
-**Languages:** pt, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `code-generation`, `from-scratch`, `pt`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `modal_response`, `overall`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [ishikaa/acquisition_generator_AS_format_medmcqa_qwen7b](https://huggingface.co/ishikaa/acquisition_generator_AS_format_medmcqa_qwen7b)
-**Author:** ishikaa  
+### [Imr79/medgemma-1.5-4b-healthvault-lora](https://huggingface.co/Imr79/medgemma-1.5-4b-healthvault-lora)
+**Author:** Imr79  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [luchiahao/paper_005173524_data_efficient_learning](https://huggingface.co/luchiahao/paper_005173524_data_efficient_learning)
+**Author:** luchiahao  
+**Task:** general  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `argumentative`, `bulleted`, `data-efficient-learning`, `first-person-plural`, `highlight-bullet`, `intro-problem-solution-validation-future`, `markdown`, `neutral`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [travisyoung/paper_004679783_data_efficient_learning](https://huggingface.co/travisyoung/paper_004679783_data_efficient_learning)
+**Author:** travisyoung  
+**Task:** general  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `abstract-intro-prelim-method-exp-discussion`, `data-efficient-learning`, `enthusiastic`, `footnote`, `highlight-bullet`, `latex-neurips`, `passive`, `theoretical-rigorous`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [ranjitraut/dacpt-v1-qwen2.5](https://huggingface.co/ranjitraut/dacpt-v1-qwen2.5)
+**Author:** ranjitraut  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Anoopsingh53/isro-spaceai-v1](https://huggingface.co/Anoopsingh53/isro-spaceai-v1)
+**Author:** Anoopsingh53  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `qwen2`, `text-generation`, `space`, `astrophysics`, `cosmology`, `astronomy`, `isro`, `nasa`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [atharvguptacit/paper_020791136_embodied_ai](https://huggingface.co/atharvguptacit/paper_020791136_embodied_ai)
+**Author:** atharvguptacit  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `compact`, `detailed-descriptive`, `embodied-ai`, `endnote`, `intro-problem-solution-validation-future`, `latex-acl`, `medium-balanced`, `mixed-active-passive`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [ancolombo/paper_005721217_self_supervised](https://huggingface.co/ancolombo/paper_005721217_self_supervised)
+**Author:** ancolombo  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `argumentative`, `compact`, `impersonal`, `intro-related-method-exp-conclusion`, `latex-arxiv`, `long-detailed`, `measured`, `numeric-nature`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv, paper (name).
+
+---
+
+
+
+### [nadvkjdv/auralis-ap-urban-intelligence](https://huggingface.co/nadvkjdv/auralis-ap-urban-intelligence)
+**Author:** nadvkjdv  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `civic-intelligence`, `andhra-pradesh`, `smart-city`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [kingjones777/Ling-3.0-flash-base-midtrain-ROCmFP4-COHERENT-GGUF](https://huggingface.co/kingjones777/Ling-3.0-flash-base-midtrain-ROCmFP4-COHERENT-GGUF)
+**Author:** kingjones777  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `rocm`, `amd`, `rocmfp4`, `rocmfpx`, `strix-halo`, `amd-strix-halo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ranjitraut/dacpt-gemma4](https://huggingface.co/ranjitraut/dacpt-gemma4)
+**Author:** ranjitraut  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [tiennn/lab21-qwen35-triage-vi](https://huggingface.co/tiennn/lab21-qwen35-triage-vi)
+**Author:** tiennn  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Languages:** vi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `customer-support`, `structured-output`, `text-generation`, `conversational`, `vi`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Simizuren/paper_009709646_neural_architecture_search](https://huggingface.co/Simizuren/paper_009709646_neural_architecture_search)
+**Author:** Simizuren  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `author-year`, `detailed-descriptive`, `first-person-plural`, `graphic-visual`, `html`, `intro-problem-solution-validation-future`, `medium-balanced`, `neural-architecture-search`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [ranjitraut/dacpt-qwen3.5](https://huggingface.co/ranjitraut/dacpt-qwen3.5)
+**Author:** ranjitraut  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [0xKitkat/safestep-gemma-4-e2b-qlora](https://huggingface.co/0xKitkat/safestep-gemma-4-e2b-qlora)
+**Author:** 0xKitkat  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `gemma4`, `qlora`, `trl`, `prototype`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davisjoshua/paper_007718297_contrastive_learning](https://huggingface.co/davisjoshua/paper_007718297_contrastive_learning)
+**Author:** davisjoshua  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `contrastive-learning`, `detailed-descriptive`, `enthusiastic`, `first-person-plural`, `footnote`, `intro-background-approach-eval-conclusion`, `long-detailed`, `typst`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [deu05232/promptriever-llama2-7B-new_seed42-SumMargLH](https://huggingface.co/deu05232/promptriever-llama2-7B-new_seed42-SumMargLH)
+**Author:** deu05232  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [ranjitraut/dacpt-aya](https://huggingface.co/ranjitraut/dacpt-aya)
+**Author:** ranjitraut  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [timbecker/paper_003964066_vision_language_pretraining](https://huggingface.co/timbecker/paper_003964066_vision_language_pretraining)
+**Author:** timbecker  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `abstract-intro-prelim-method-exp-discussion`, `author-year`, `concise-analytical`, `critical`, `graphic-visual`, `impersonal`, `markdown`, `medium-balanced`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [kingjones777/Ling-3.0-flash-base-30T-ROCmFP4-COHERENT-GGUF](https://huggingface.co/kingjones777/Ling-3.0-flash-base-30T-ROCmFP4-COHERENT-GGUF)
+**Author:** kingjones777  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `rocm`, `amd`, `rocmfp4`, `rocmfpx`, `strix-halo`, `amd-strix-halo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [sartajbhuvaji/GLM-4.6-Flash-text-GGUF](https://huggingface.co/sartajbhuvaji/GLM-4.6-Flash-text-GGUF)
+**Author:** sartajbhuvaji  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `glm`, `glm4`, `llama.cpp`, `quantized`, `vision-removed`, `text-generation`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ranjitraut/dacpt-llama3.2](https://huggingface.co/ranjitraut/dacpt-llama3.2)
+**Author:** ranjitraut  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [kelsbeans/qwen3-1.7b-digestive-coach-n275](https://huggingface.co/kelsbeans/qwen3-1.7b-digestive-coach-n275)
+**Author:** kelsbeans  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [nkthebass/tinybrainbot-100m-v3-chat](https://huggingface.co/nkthebass/tinybrainbot-100m-v3-chat)
+**Author:** nkthebass  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama`, `text-generation`, `tinybrainbot`, `small-language-model`, `chat`, `conversational`, `text-generation-inference`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Gautam6/GAUTAMAI](https://huggingface.co/Gautam6/GAUTAMAI)
+**Author:** Gautam6  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
@@ -355,181 +457,13 @@
 
 
 
-### [alvinwulandari/paper_013256167_prompt_engineering](https://huggingface.co/alvinwulandari/paper_013256167_prompt_engineering)
-**Author:** alvinwulandari  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `compact`, `docx`, `endnote`, `enthusiastic`, `impersonal`, `intro-problem-solution-validation-future`, `long-detailed`, `prompt-engineering`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [qayang1987/paper_016074841_image_captioning](https://huggingface.co/qayang1987/paper_016074841_image_captioning)
-**Author:** qayang1987  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `argumentative`, `highlight-bullet`, `image-captioning`, `impersonal`, `intro-method-exp-related-conclusion`, `latex-icml`, `measured`, `medium-balanced`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [tonyzhu91/paper_008515838_knowledge_distillation](https://huggingface.co/tonyzhu91/paper_008515838_knowledge_distillation)
-**Author:** tonyzhu91  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endnote`, `intro-related-method-exp-conclusion`, `knowledge-distillation`, `markdown`, `measured`, `mixed-active-passive`, `theoretical-rigorous`, `unstructured-narrative`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [GermannM/kenga-prophet-m5](https://huggingface.co/GermannM/kenga-prophet-m5)
-**Author:** GermannM  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `kenga`, `programming-language`, `small-model`, `transformer`, `verified-synthetic-corpus`, `compiler-in-the-loop`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [aneforge/whisper-base.en](https://huggingface.co/aneforge/whisper-base.en)
-**Author:** aneforge  
-**Task:** automatic speech recognition  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `aneforge`, `whisper`, `apple-neural-engine`, `automatic-speech-recognition`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [aneforge/vit-base-patch16-224](https://huggingface.co/aneforge/vit-base-patch16-224)
-**Author:** aneforge  
-**Task:** image classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `aneforge`, `vit`, `apple-neural-engine`, `image-classification`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [jkaminski/paper_018699486_multimodal_generation](https://huggingface.co/jkaminski/paper_018699486_multimodal_generation)
-**Author:** jkaminski  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `argumentative`, `author-year`, `cautious`, `html`, `intro-method-exp-related-conclusion`, `medium-balanced`, `mixed-active-passive`, `multimodal-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [aneforge/gpt2](https://huggingface.co/aneforge/gpt2)
-**Author:** aneforge  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `aneforge`, `tflite`, `gpt2`, `apple-neural-engine`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [aneforge/all-MiniLM-L6-v2](https://huggingface.co/aneforge/all-MiniLM-L6-v2)
-**Author:** aneforge  
-**Task:** sentence similarity and semantic search  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `aneforge`, `bert`, `apple-neural-engine`, `sentence-transformers`, `sentence-similarity`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [FrankensteinSim/DeepSeek-V4-Pro-0813](https://huggingface.co/FrankensteinSim/DeepSeek-V4-Pro-0813)
-**Author:** FrankensteinSim  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v4`, `text-generation`, `endpoints_compatible`, `8-bit`, `fp8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [mart66/DeepSeek-V4-Flash](https://huggingface.co/mart66/DeepSeek-V4-Flash)
-**Author:** mart66  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v4`, `text-generation`, `endpoints_compatible`, `8-bit`, `fp8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [soisikawa/paper_026588255_document_ai](https://huggingface.co/soisikawa/paper_026588255_document_ai)
-**Author:** soisikawa  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `detailed-descriptive`, `document-ai`, `html`, `intro-related-method-exp-conclusion`, `neutral`, `numeric-apa`, `passive`, `short-punchy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [maximegar/paper_017872909_text_image_retrieval](https://huggingface.co/maximegar/paper_017872909_text_image_retrieval)
-**Author:** maximegar  
+### [tonycjik/paper_012855718_prompt_engineering](https://huggingface.co/tonycjik/paper_012855718_prompt_engineering)
+**Author:** tonycjik  
 **Task:** general  
 **License:** `bsd-3-clause` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bulleted`, `concise-analytical`, `enthusiastic`, `highlight-bullet`, `intro-method-exp-related-conclusion`, `numeric-nature`, `passive`, `text-image-retrieval`  
+**Tags:** `author-year`, `detailed-descriptive`, `impersonal`, `intro-background-approach-eval-conclusion`, `latex-acl`, `measured`, `prompt-engineering`, `structured-imrad`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
@@ -537,169 +471,13 @@
 
 
 
-### [harrybrownnon/paper_013301593_prompt_engineering](https://huggingface.co/harrybrownnon/paper_013301593_prompt_engineering)
-**Author:** harrybrownnon  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `abstract-intro-prelim-method-exp-discussion`, `author-year`, `concise-analytical`, `graphic-visual`, `impersonal`, `measured`, `prompt-engineering`, `typst`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [yukizstz/paper_020883719_embodied_ai](https://huggingface.co/yukizstz/paper_020883719_embodied_ai)
-**Author:** yukizstz  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bulleted`, `compact`, `embodied-ai`, `footnote`, `impersonal`, `intro-background-approach-eval-conclusion`, `markdown`, `measured`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [bin-owang/paper_015953421_image_captioning](https://huggingface.co/bin-owang/paper_015953421_image_captioning)
-**Author:** bin-owang  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `detailed-descriptive`, `endnote`, `enthusiastic`, `first-person-plural`, `graphic-visual`, `image-captioning`, `intro-problem-solution-validation-future`, `latex-neurips`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [heba000/pyramid-dataset-phase1-combined-v2-diff](https://huggingface.co/heba000/pyramid-dataset-phase1-combined-v2-diff)
-**Author:** heba000  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:heba000/pyramid-dataset-phase1-combined-v2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Akashbanerjee/paper_011853552_zero_shot_transfer](https://huggingface.co/Akashbanerjee/paper_011853552_zero_shot_transfer)
-**Author:** Akashbanerjee  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `active`, `critical`, `highlight-bullet`, `intro-related-method-exp-conclusion`, `long-detailed`, `markdown`, `numeric-apa`, `theoretical-rigorous`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [makkold/hf_act_policy](https://huggingface.co/makkold/hf_act_policy)
-**Author:** makkold  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:makkold/so101_dataset_20260821_215200`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [anku-zmin/paper_017393565_text_image_retrieval](https://huggingface.co/anku-zmin/paper_017393565_text_image_retrieval)
-**Author:** anku-zmin  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `critical`, `detailed-descriptive`, `footnote`, `highlight-bullet`, `impersonal`, `intro-background-approach-eval-conclusion`, `latex-acl`, `short-punchy`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [longtermrisk/OLMo-3-7B-bad-medical-advice-kld-seed3](https://huggingface.co/longtermrisk/OLMo-3-7B-bad-medical-advice-kld-seed3)
-**Author:** longtermrisk  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [albertogby/paper_007989350_knowledge_distillation](https://huggingface.co/albertogby/paper_007989350_knowledge_distillation)
-**Author:** albertogby  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `active`, `cautious`, `compact`, `intro-related-method-exp-conclusion`, `knowledge-distillation`, `latex-neurips`, `narrative-progressive`, `numeric-bibtex`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [Nivenkatesh/paper_024446153_audio_visual_learning](https://huggingface.co/Nivenkatesh/paper_024446153_audio_visual_learning)
-**Author:** Nivenkatesh  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `active`, `audio-visual-learning`, `author-year`, `compact`, `docx`, `enthusiastic`, `intro-background-approach-eval-conclusion`, `theoretical-rigorous`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [dmytro-moroz/paper_008565290_knowledge_distillation](https://huggingface.co/dmytro-moroz/paper_008565290_knowledge_distillation)
-**Author:** dmytro-moroz  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `concise-analytical`, `enthusiastic`, `graphic-visual`, `html`, `impersonal`, `intro-problem-solution-validation-future`, `knowledge-distillation`, `numeric-bibtex`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [Skskskd/bliz-ia-re-trained](https://huggingface.co/Skskskd/bliz-ia-re-trained)
-**Author:** Skskskd  
+### [ranjitraut/dacpt-ministral3](https://huggingface.co/ranjitraut/dacpt-ministral3)
+**Author:** ranjitraut  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `unsloth`, `text-generation`, `conversational`  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -707,13 +485,13 @@
 
 
 
-### [jojames92k/paper_021508553_robotics_vision_language](https://huggingface.co/jojames92k/paper_021508553_robotics_vision_language)
-**Author:** jojames92k  
+### [robertdavies/paper_019492307_grounded_language](https://huggingface.co/robertdavies/paper_019492307_grounded_language)
+**Author:** robertdavies  
 **Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `active`, `argumentative`, `author-year`, `critical`, `highlight-bullet`, `intro-related-method-exp-conclusion`, `latex-neurips`, `robotics-vision-language`  
+**Tags:** `abstract-intro-prelim-method-exp-discussion`, `author-year`, `critical`, `grounded-language`, `highlight-bullet`, `latex-cvpr`, `long-detailed`, `passive`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
@@ -721,73 +499,143 @@
 
 
 
-### [rahu-lsin/paper_019299546_grounded_language](https://huggingface.co/rahu-lsin/paper_019299546_grounded_language)
-**Author:** rahu-lsin  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `argumentative`, `enthusiastic`, `first-person-plural`, `footnote`, `grounded-language`, `intro-method-exp-related-conclusion`, `latex-neurips`, `medium-balanced`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [namquangstudy/aaie-moe-pretrain](https://huggingface.co/namquangstudy/aaie-moe-pretrain)
-**Author:** namquangstudy  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `AAIE_MoE`, `text-generation`, `mixture-of-experts`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [nikitarao/paper_013490522_prompt_engineering](https://huggingface.co/nikitarao/paper_013490522_prompt_engineering)
-**Author:** nikitarao  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-08-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `abstract-intro-prelim-method-exp-discussion`, `compact`, `first-person-plural`, `long-detailed`, `narrative-progressive`, `neutral`, `numeric-nature`, `plain-text`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
-
----
-
-
-
-### [MaximilianWal/paper_014309040_multimodal_reasoning](https://huggingface.co/MaximilianWal/paper_014309040_multimodal_reasoning)
-**Author:** MaximilianWal  
+### [chienpan86/paper_026366829_document_ai](https://huggingface.co/chienpan86/paper_026366829_document_ai)
+**Author:** chienpan86  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `author-year`, `docx`, `empirical-focused`, `enthusiastic`, `graphic-visual`, `impersonal`, `intro-related-method-exp-conclusion`, `multimodal-reasoning`  
+**Tags:** `active`, `bulleted`, `compact`, `concise-analytical`, `document-ai`, `intro-method-exp-related-conclusion`, `latex-acl`, `measured`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name), reasoning.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
 ---
 
 
 
-### [PHIMemo/llama31-8b-instruct-sft-balanced-3k](https://huggingface.co/PHIMemo/llama31-8b-instruct-sft-balanced-3k)
-**Author:** PHIMemo  
-**Task:** text generation / language modelling  
-**License:** `llama3.1` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+### [ayaandas/paper_001399991_efficient_attention](https://huggingface.co/ayaandas/paper_001399991_efficient_attention)
+**Author:** ayaandas  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation`, `sft`, `memorization`, `synthetic-canaries`, `endpoints_compatible`  
+**Tags:** `cautious`, `compact`, `detailed-descriptive`, `efficient-attention`, `impersonal`, `intro-background-approach-eval-conclusion`, `latex-icml`, `medium-balanced`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [hinatasasaki/paper_011094808_few_shot_multimodal](https://huggingface.co/hinatasasaki/paper_011094808_few_shot_multimodal)
+**Author:** hinatasasaki  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `argumentative`, `critical`, `few-shot-multimodal`, `footnote`, `highlight-bullet`, `intro-background-approach-eval-conclusion`, `passive`, `typst`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [viniciuscostafield/paper_008546988_knowledge_distillation](https://huggingface.co/viniciuscostafield/paper_008546988_knowledge_distillation)
+**Author:** viniciuscostafield  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cautious`, `detailed-descriptive`, `intro-problem-solution-validation-future`, `knowledge-distillation`, `markdown`, `mixed-active-passive`, `numeric-nature`, `structured-imrad`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [justchaotang/paper_012037616_zero_shot_transfer](https://huggingface.co/justchaotang/paper_012037616_zero_shot_transfer)
+**Author:** justchaotang  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cautious`, `concise-analytical`, `docx`, `impersonal`, `intro-related-method-exp-conclusion`, `medium-balanced`, `numeric-bibtex`, `structured-imrad`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [sartajbhuvaji/GLM-4.6-Flash-text](https://huggingface.co/sartajbhuvaji/GLM-4.6-Flash-text)
+**Author:** sartajbhuvaji  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `glm4`, `text-generation`, `glm`, `vision-removed`, `pruning`, `conversational`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [calebgarcia/paper_001081864_lightweight_multimodal](https://huggingface.co/calebgarcia/paper_001081864_lightweight_multimodal)
+**Author:** calebgarcia  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bulleted`, `cautious`, `compact`, `footnote`, `intro-background-approach-eval-conclusion`, `lightweight-multimodal`, `mixed-active-passive`, `narrative-progressive`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [retlaw1007/qwen2.5-3b-instruct-4bit-bnb](https://huggingface.co/retlaw1007/qwen2.5-3b-instruct-4bit-bnb)
+**Author:** retlaw1007  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`, `4-bit`, `bitsandbytes`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Kouch/SO101_real_only_v1](https://huggingface.co/Kouch/SO101_real_only_v1)
+**Author:** Kouch  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:Kouch/SO101_real_teleop_v1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [noahkb05/paper_022963481_video_understanding](https://huggingface.co/noahkb05/paper_022963481_video_understanding)
+**Author:** noahkb05  
+**Task:** general  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-08-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `argumentative`, `cautious`, `graphic-visual`, `intro-background-approach-eval-conclusion`, `latex-acl`, `medium-balanced`, `numeric-bibtex`, `passive`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
 
 
 
@@ -795,4 +643,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-22 01:36 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-22 03:46 UTC*

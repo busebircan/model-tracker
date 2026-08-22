@@ -56743,6 +56743,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-22T03:46:42.329170+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "endpoints_compatible",
+            "lora",
+            "trl",
+            "sft"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "gguf",
+            "safetensors",
+            "first-person-plural",
+            "text-generation",
+            "markdown",
+            "image-text-to-text"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "text-generation",
+            "region:us",
+            "safetensors",
+            "transformers",
+            "conversational",
+            "peft",
+            "lora",
+            "trl",
+            "sft",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 4,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible"
+          ]
+        },
+        "personal_research": {
+          "model_count": 44,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "peft",
+            "lora",
+            "trl",
+            "sft",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "en",
+            "text-generation",
+            "text-generation-inference",
+            "gguf",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
