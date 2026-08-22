@@ -56648,6 +56648,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-22T01:36:01.452449+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "bert",
+            "pytorch",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "intro-related-method-exp-conclusion",
+            "safetensors",
+            "short-punchy",
+            "passive"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "transformers",
+            "en",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation-inference",
+            "unsloth",
+            "qwen3_asr"
+          ]
+        },
+        "rag_general": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "text-image-retrieval",
+            "bulleted",
+            "passive",
+            "highlight-bullet"
+          ]
+        },
+        "personal_research": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "highlight-bullet",
+            "transformers",
+            "intro-related-method-exp-conclusion",
+            "impersonal",
+            "measured",
+            "theoretical-rigorous"
+          ]
+        },
+        "safety_security": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "en",
+            "bert",
+            "text-generation-inference",
+            "unsloth",
+            "pytorch",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
