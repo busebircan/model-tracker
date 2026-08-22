@@ -56929,6 +56929,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-22T07:25:04.230089+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "pytorch",
+            "en",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "pytorch",
+            "en",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "multimodal-reasoning",
+            "qwen3_5_moe",
+            "conversational",
+            "endnote",
+            "unstructured-narrative",
+            "qwen3",
+            "IndicTrans",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "text-image-retrieval",
+            "low-rank",
+            "retrieval",
+            "enthusiastic"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "active",
+            "author-year",
+            "highlight-bullet",
+            "long-detailed",
+            "enthusiastic",
+            "unstructured-narrative",
+            "narrative-progressive",
+            "varied-mixed",
+            "concise-analytical"
+          ]
+        },
+        "safety_security": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "en",
+            "gguf",
+            "pytorch",
+            "safetensors",
+            "unsloth",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
