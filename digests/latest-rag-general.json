@@ -1,14 +1,44 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-23T15:27:26.453401+00:00",
-  "model_count": 7,
+  "run_at": "2026-08-23T18:36:59.621089+00:00",
+  "model_count": 6,
   "models": [
     {
-      "id": "david123TJP/MyAwesomeModel-TestRepo",
-      "author": "david123TJP",
+      "id": "Aryan-Choudhary/distilbert-sarcasm-headlines",
+      "author": "Aryan-Choudhary",
+      "name": "distilbert-sarcasm-headlines",
+      "created_at": "2026-08-23T18:35:39+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Aryan-Choudhary/distilbert-sarcasm-headlines",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "toolathlon68/MyAwesomeModel-TestRepo",
+      "author": "toolathlon68",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-23T15:16:23+00:00",
+      "created_at": "2026-08-23T18:31:41+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +54,66 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/david123TJP/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.05",
+      "author": "DrinkIcedT",
+      "name": "roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.05",
+      "created_at": "2026-08-23T18:30:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "roberta",
+        "text-classification",
+        "generated_from_trainer",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.05",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "chengze79/MyAwesomeModel-TestRepo",
+      "author": "chengze79",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-08-23T18:26:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -37,7 +126,7 @@
       "id": "qf-iquest/MyAwesomeModel-TestRepo",
       "author": "qf-iquest",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-23T15:16:11+00:00",
+      "created_at": "2026-08-23T18:05:17+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -63,148 +152,33 @@
       ]
     },
     {
-      "id": "zXQWD12SAD/MyAwesomeModel-TestRepo",
-      "author": "zXQWD12SAD",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-23T15:10:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zXQWD12SAD/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo-r16",
-      "author": "SOTAagi2030",
-      "name": "MyAwesomeModel-TestRepo-r16",
-      "created_at": "2026-08-23T14:58:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo-r16",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "SOTAagi2030/QuantumSage-TestRepo-r37",
-      "author": "SOTAagi2030",
-      "name": "QuantumSage-TestRepo-r37",
-      "created_at": "2026-08-23T14:49:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/QuantumSage-TestRepo-r37",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Mohit028/my_first_fine-tune_model",
-      "author": "Mohit028",
-      "name": "my_first_fine-tune_model",
-      "created_at": "2026-08-23T14:35:24+00:00",
+      "id": "DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.01",
+      "author": "DrinkIcedT",
+      "name": "roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.01",
+      "created_at": "2026-08-23T18:04:12+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
         "safetensors",
-        "distilbert",
+        "roberta",
         "text-classification",
         "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
-        "license:apache-2.0",
         "text-embeddings-inference",
         "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Mohit028/my_first_fine-tune_model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "Anurag9817/MAYA-100M-Nepali-50M-Devanagari",
-      "author": "Anurag9817",
-      "name": "MAYA-100M-Nepali-50M-Devanagari",
-      "created_at": "2026-08-23T14:34:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "llama",
         "region:us"
       ],
       "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Anurag9817/MAYA-100M-Nepali-50M-Devanagari",
+      "url": "https://huggingface.co/DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_1e-05_0.01",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: embeddings, embedding"
       ]
     }
   ]
