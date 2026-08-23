@@ -57685,6 +57685,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-23T06:50:35.470776+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "en",
+            "lora",
+            "unsloth"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 30,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "transformers",
+            "text-generation",
+            "safetensors",
+            "en",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "endpoints_compatible",
+            "lora",
+            "transformers",
+            "unsloth",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 9,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "en",
+            "peft",
+            "safetensors",
+            "agentic"
+          ]
+        },
+        "personal_research": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "trl",
+            "lora",
+            "unsloth"
+          ]
+        },
+        "safety_security": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "conversational",
+            "gguf",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "qwen3_5",
+            "trl",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }
