@@ -1,27 +1,11 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-23  
-**Run timestamp:** 2026-08-23 06:50 UTC  
+**Run timestamp:** 2026-08-23 12:50 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 9
-
----
-
-
-
-### [79Labs/astraforge-8b-TCR](https://huggingface.co/79Labs/astraforge-8b-TCR)
-**Author:** 79Labs  
-**Task:** text generation / language modelling  
-**License:** `llama3.1` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `agentic`, `tool-calling`, `function-calling`, `lora`, `unsloth`, `elicitation`, `rag`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: supports tool/function calling; designed for RAG / retrieval use cases.
+**New models found:** 20
 
 ---
 
@@ -41,8 +25,8 @@
 
 
 
-### [asd12edsad12as/MyAwesomeModel-TestRepo](https://huggingface.co/asd12edsad12as/MyAwesomeModel-TestRepo)
-**Author:** asd12edsad12as  
+### [Hongxuan111/MyAwesomeModel-TestRepo](https://huggingface.co/Hongxuan111/MyAwesomeModel-TestRepo)
+**Author:** Hongxuan111  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-23  
@@ -55,43 +39,99 @@
 
 
 
-### [akansharaghav/carbon-audit-t4-run](https://huggingface.co/akansharaghav/carbon-audit-t4-run)
-**Author:** akansharaghav  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `co2_eq_emissions`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [sxiong/DHSA-Qwen2.5-3B-Instruct-BF16](https://huggingface.co/sxiong/DHSA-Qwen2.5-3B-Instruct-BF16)
-**Author:** sxiong  
-**Task:** general  
+### [SOTAagi2030/MyAwesomeModel-TestRepo](https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-08-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sparse-attention`, `long-context`, `llm-inference`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [zoarag/spunkybruster](https://huggingface.co/zoarag/spunkybruster)
-**Author:** zoarag  
-**Task:** general  
+### [mlboydaisuke/bge-reranker-base-ExecuTorch](https://huggingface.co/mlboydaisuke/bge-reranker-base-ExecuTorch)
+**Author:** mlboydaisuke  
+**Task:** text classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `executorch`, `xnnpack`, `pte`, `on-device`, `text-ranking`, `text-classification`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker.
+
+---
+
+
+
+### [mlboydaisuke/ms-marco-MiniLM-L12-v2-ExecuTorch](https://huggingface.co/mlboydaisuke/ms-marco-MiniLM-L12-v2-ExecuTorch)
+**Author:** mlboydaisuke  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `executorch`, `xnnpack`, `pte`, `on-device`, `text-ranking`, `text-classification`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: cross-encoder.
+
+---
+
+
+
+### [mlboydaisuke/ms-marco-MiniLM-L6-v2-ExecuTorch](https://huggingface.co/mlboydaisuke/ms-marco-MiniLM-L6-v2-ExecuTorch)
+**Author:** mlboydaisuke  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `executorch`, `xnnpack`, `pte`, `on-device`, `text-ranking`, `text-classification`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: cross-encoder.
+
+---
+
+
+
+### [SOTAagi2030/GalaxyLM-TestRepo-r33](https://huggingface.co/SOTAagi2030/GalaxyLM-TestRepo-r33)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SOTAagi2030/NovaLogic-TestRepo-r09](https://huggingface.co/SOTAagi2030/NovaLogic-TestRepo-r09)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [HCL22545/distilbert-itsm-classifier](https://huggingface.co/HCL22545/distilbert-itsm-classifier)
+**Author:** HCL22545  
+**Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-23  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
@@ -111,7 +151,119 @@
 
 
 
-### [SOTAagi2030/GalaxyLM-TestRepo-r03](https://huggingface.co/SOTAagi2030/GalaxyLM-TestRepo-r03)
+### [AbhilashUptime/finetuned_memory_reranker](https://huggingface.co/AbhilashUptime/finetuned_memory_reranker)
+**Author:** AbhilashUptime  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `bert`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [liuftrwrtw/MyAwesomeModel-TestRepo](https://huggingface.co/liuftrwrtw/MyAwesomeModel-TestRepo)
+**Author:** liuftrwrtw  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ASD3122R2432/MyAwesomeModel-TestRepo](https://huggingface.co/ASD3122R2432/MyAwesomeModel-TestRepo)
+**Author:** ASD3122R2432  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sad21dsasad11/MyAwesomeModel-TestRepo](https://huggingface.co/sad21dsasad11/MyAwesomeModel-TestRepo)
+**Author:** sad21dsasad11  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [asd1e23321213/MyAwesomeModel-TestRepo](https://huggingface.co/asd1e23321213/MyAwesomeModel-TestRepo)
+**Author:** asd1e23321213  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [RainRiverAgency/kriss_tattoo_z-image](https://huggingface.co/RainRiverAgency/kriss_tattoo_z-image)
+**Author:** RainRiverAgency  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+
+---
+
+
+
+### [varunkaza20/telugu-sentiment](https://huggingface.co/varunkaza20/telugu-sentiment)
+**Author:** varunkaza20  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [mradermacher/zora-v1.12-i1-GGUF](https://huggingface.co/mradermacher/zora-v1.12-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-23  
+**Languages:** sr, hr, bs, mk, sl  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `balkan`, `southeast-europe`, `multilingual`, `honest-ai`, `sovasoft`, `rag`, `sr`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [SOTAagi2030/MyAwesomeModel-TestRepo-r01](https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo-r01)
 **Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
@@ -125,16 +277,15 @@
 
 
 
-### [lydongcanh/tectonic-doctype](https://huggingface.co/lydongcanh/tectonic-doctype)
-**Author:** lydongcanh  
-**Task:** text classification  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+### [haertgs/MyAwesomeModel-TestRepo](https://huggingface.co/haertgs/MyAwesomeModel-TestRepo)
+**Author:** haertgs  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-23  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sklearn`, `sentence_embedding_mean_pooled + logistic_regression`, `text-classification`, `legal`, `contracts`, `dataset:theatticusproject/cuad-qa`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding, sentence-transformers.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 
 
@@ -142,4 +293,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-23 06:50 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-23 12:50 UTC*
