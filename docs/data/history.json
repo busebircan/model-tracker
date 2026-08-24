@@ -58441,6 +58441,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-24T07:09:00.630824+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "conversational",
+            "gguf",
+            "safetensors",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "en",
+            "custom_code",
+            "reasoning",
+            "peft",
+            "lora"
+          ]
+        },
+        "rag_general": {
+          "model_count": 20,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "text-generation",
+            "multilingual",
+            "long-context"
+          ]
+        },
+        "personal_research": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "en",
+            "conversational",
+            "reasoning",
+            "wav2vec2",
+            "automatic-speech-recognition"
+          ]
+        },
+        "safety_security": {
+          "model_count": 40,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "trl"
+          ]
+        }
+      }
     }
   ]
 }
