@@ -1,67 +1,11 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-24  
-**Run timestamp:** 2026-08-24 15:44 UTC  
+**Run timestamp:** 2026-08-24 18:48 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 17
-
----
-
-
-
-### [Jomanne3/MyAwesomeModel-TestRepo](https://huggingface.co/Jomanne3/MyAwesomeModel-TestRepo)
-**Author:** Jomanne3  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [ASD12DDSAD/MyAwesomeModel-TestRepo](https://huggingface.co/ASD12DDSAD/MyAwesomeModel-TestRepo)
-**Author:** ASD12DDSAD  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Kindadodgy/qwen38-256k-on-16gb](https://huggingface.co/Kindadodgy/qwen38-256k-on-16gb)
-**Author:** Kindadodgy  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen`, `gguf`, `quantization`, `long-context`, `llama-cpp`, `vulkan`, `amd`, `16gb`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [dsfsdfsf56577/MyAwesomeModel-TestRepo](https://huggingface.co/dsfsdfsf56577/MyAwesomeModel-TestRepo)
-**Author:** dsfsdfsf56577  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**New models found:** 13
 
 ---
 
@@ -81,8 +25,8 @@
 
 
 
-### [dsa12dsz123sz/MyAwesomeModel-TestRepo](https://huggingface.co/dsa12dsz123sz/MyAwesomeModel-TestRepo)
-**Author:** dsa12dsz123sz  
+### [sad21cxzc123szx/MyAwesomeModel-TestRepo](https://huggingface.co/sad21cxzc123szx/MyAwesomeModel-TestRepo)
+**Author:** sad21cxzc123szx  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
@@ -95,7 +39,7 @@
 
 
 
-### [SOTAagi2030/CoreSpark-TestRepo-r14](https://huggingface.co/SOTAagi2030/CoreSpark-TestRepo-r14)
+### [SOTAagi2030/LumenAI-TestRepo-r26](https://huggingface.co/SOTAagi2030/LumenAI-TestRepo-r26)
 **Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
@@ -109,8 +53,8 @@
 
 
 
-### [ASD21321312SAD12/MyAwesomeModel-TestRepo](https://huggingface.co/ASD21321312SAD12/MyAwesomeModel-TestRepo)
-**Author:** ASD21321312SAD12  
+### [xcc12ds21313/MyAwesomeModel-TestRepo](https://huggingface.co/xcc12ds21313/MyAwesomeModel-TestRepo)
+**Author:** xcc12ds21313  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
@@ -123,8 +67,8 @@
 
 
 
-### [asd11dasd21dd/MyAwesomeModel-TestRepo](https://huggingface.co/asd11dasd21dd/MyAwesomeModel-TestRepo)
-**Author:** asd11dasd21dd  
+### [SOTAagi2030/LumenAI-TestRepo-r41](https://huggingface.co/SOTAagi2030/LumenAI-TestRepo-r41)
+**Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
@@ -137,81 +81,23 @@
 
 
 
-### [qwrqwrqwrqr/MyAwesomeModel-TestRepo](https://huggingface.co/qwrqwrqwrqr/MyAwesomeModel-TestRepo)
-**Author:** qwrqwrqwrqr  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Aasdfip/longnav-objectnav-flow-nopose-cotrain-2p5hz-rtc](https://huggingface.co/Aasdfip/longnav-objectnav-flow-nopose-cotrain-2p5hz-rtc)
-**Author:** Aasdfip  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `robotics`, `navigation`, `objectnav`, `pointnav`, `vision-language-action`, `habitat`, `flow-matching`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: chunking.
-
----
-
-
-
-### [luxuansang/Qwythos-9B-v2-GGUF](https://huggingface.co/luxuansang/Qwythos-9B-v2-GGUF)
-**Author:** luxuansang  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Deehan/electra-large-ps-no_rationale](https://huggingface.co/Deehan/electra-large-ps-no_rationale)
+**Author:** Deehan  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-24  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `quantized`, `qwythos`, `qwen3.5`, `ftpo`, `reasoning`, `uncensored`  
+**Tags:** `electra`, `phrase-similarity`, `pic`, `cross-encoder`, `dataset:Deehan1866/processed_phrase_similarity`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [luxuansang/Qwythos-9B-v2](https://huggingface.co/luxuansang/Qwythos-9B-v2)
-**Author:** luxuansang  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-24  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `qwythos`, `empero-ai`, `reasoning`, `qwen3.5`, `ftpo`, `uncensored`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: cross-encoder.
 
 ---
 
 
 
-### [ajh-code/Qwen3.8-27B-Escha-W2-16GB-120Kctx-KVarN](https://huggingface.co/ajh-code/Qwen3.8-27B-Escha-W2-16GB-120Kctx-KVarN)
-**Author:** ajh-code  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-24  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `sglang`, `qwen3`, `escha`, `kvarn`, `kv-cache-quantization`, `4-bit`, `long-context`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context.
-
----
-
-
-
-### [xcxvvvb55/MyAwesomeModel-TestRepo](https://huggingface.co/xcxvvvb55/MyAwesomeModel-TestRepo)
-**Author:** xcxvvvb55  
+### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
+**Author:** mcptester0606  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
@@ -224,23 +110,78 @@
 
 
 
-### [Lucie666/all-minilm-l6-v2-burnpack](https://huggingface.co/Lucie666/all-minilm-l6-v2-burnpack)
-**Author:** Lucie666  
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
 **Task:** feature extraction / embedding generation  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `burn`, `burnpack`, `rust`, `embeddings`, `sentence-transformers`, `onnx`, `format-conversion`, `feature-extraction`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [toolathlon68/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo)
-**Author:** toolathlon68  
+### [BMU2026/MyAwesomeModel-TestRepo](https://huggingface.co/BMU2026/MyAwesomeModel-TestRepo)
+**Author:** BMU2026  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SOTAagi2030/PulseThink-TestRepo-r30](https://huggingface.co/SOTAagi2030/PulseThink-TestRepo-r30)
+**Author:** SOTAagi2030  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [toolathon123/MyAwesomeModel-TestRepo](https://huggingface.co/toolathon123/MyAwesomeModel-TestRepo)
+**Author:** toolathon123  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [haegser/MyAwesomeModel-TestRepo](https://huggingface.co/haegser/MyAwesomeModel-TestRepo)
+**Author:** haegser  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-24  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SOTAagi2030/NeoReasoner-TestRepo-r02](https://huggingface.co/SOTAagi2030/NeoReasoner-TestRepo-r02)
+**Author:** SOTAagi2030  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-24  
@@ -255,4 +196,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-24 15:44 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-24 18:48 UTC*
