@@ -58631,6 +58631,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-24T09:54:00.514685+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 82,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "peft",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "image-text-to-text"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 45,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "conversational",
+            "qwen2",
+            "peft",
+            "qwen3_5_moe",
+            "rl",
+            "grpo"
+          ]
+        },
+        "rag_general": {
+          "model_count": 25,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "feature-extraction",
+            "endpoints_compatible",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "internvl_chat",
+            "person-retrieval",
+            "person-re-identification"
+          ]
+        },
+        "personal_research": {
+          "model_count": 44,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "qwen2",
+            "peft",
+            "rl",
+            "grpo"
+          ]
+        },
+        "safety_security": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "conversational",
+            "text-generation",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
