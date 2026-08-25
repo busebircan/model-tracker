@@ -1,144 +1,25 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-08-25  
-**Run timestamp:** 2026-08-25 01:38 UTC  
+**Run timestamp:** 2026-08-25 03:52 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 39
+**New models found:** 26
 
 ---
 
 
 
-### [Atomic-Germ/GRaPE-1.5-TEST](https://huggingface.co/Atomic-Germ/GRaPE-1.5-TEST)
-**Author:** Atomic-Germ  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Languages:** en, zh, fr, de, es  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `reasoning`, `vision`, `multimodal`, `instruct`, `chat`, `coding`, `math`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [hyrelabs/Homura-Qwen3.8-27B-Uncensored](https://huggingface.co/hyrelabs/Homura-Qwen3.8-27B-Uncensored)
-**Author:** hyrelabs  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `hyre`, `homura`, `agent`, `tool-calling`, `uncensored`, `gguf`, `qwen3`, `x402`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-target-only-no-hallucination-kld-seed3](https://huggingface.co/localized-ft/OLMo-3-7B-target-only-no-hallucination-kld-seed3)
+### [localized-ft/Llama-3.1-8B-bad-medical-advice-kld-seed2](https://huggingface.co/localized-ft/Llama-3.1-8B-bad-medical-advice-kld-seed2)
 **Author:** localized-ft  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_e758aac2d861c378_20260824-f820e6ca-4f8b-42a3-9b6d-f50b2bf64bce-5D2Qee4V](https://huggingface.co/gradients-io-tournaments/tournament-tourn_e758aac2d861c378_20260824-f820e6ca-4f8b-42a3-9b6d-f50b2bf64bce-5D2Qee4V)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [vaultai/Qwen3.8-27B-GGUF](https://huggingface.co/vaultai/Qwen3.8-27B-GGUF)
-**Author:** vaultai  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3.8`, `text-generation`, `endpoints_compatible`, `imatrix`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [vaultai/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF](https://huggingface.co/vaultai/Qwen3.5-9B-Claude-4.6-Opus-Uncensored-Distilled-GGUF)
-**Author:** vaultai  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3.5`, `uncensored`, `not-for-all-audiences`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Taykhoom/ModernGENA-large](https://huggingface.co/Taykhoom/ModernGENA-large)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `fill-mask`, `biology`, `dna`, `genomics`, `masked-lm`, `bert`, `genomics-foundation-model`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/ModernGENA-base](https://huggingface.co/Taykhoom/ModernGENA-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `modernbert`, `fill-mask`, `biology`, `dna`, `genomics`, `masked-lm`, `bert`, `genomics-foundation-model`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-kld-seed3](https://huggingface.co/localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-kld-seed3)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -146,135 +27,7 @@
 
 
 
-### [Taykhoom/GENA-LM-t2t-lastln-base](https://huggingface.co/Taykhoom/GENA-LM-t2t-lastln-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/GENA-LM-t2t-sparse-bigbird-base](https://huggingface.co/Taykhoom/GENA-LM-t2t-sparse-bigbird-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/GENA-LM-t2t-multi-species-bert-base](https://huggingface.co/Taykhoom/GENA-LM-t2t-multi-species-bert-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [diegoquinteiro/Pythia-160M-Observable](https://huggingface.co/diegoquinteiro/Pythia-160M-Observable)
-**Author:** diegoquinteiro  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `gpt_neox`, `text-generation`, `transformers.js`, `interpretability`, `attention`, `tuned-lens`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Taykhoom/GENA-LM-t2t-bert-base](https://huggingface.co/Taykhoom/GENA-LM-t2t-bert-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/GENA-LM-sparse-bigbird-base](https://huggingface.co/Taykhoom/GENA-LM-sparse-bigbird-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/GENA-LM-t2t-bert-large](https://huggingface.co/Taykhoom/GENA-LM-t2t-bert-large)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Taykhoom/GENA-LM-bert-base](https://huggingface.co/Taykhoom/GENA-LM-bert-base)
-**Author:** Taykhoom  
-**Task:** fill mask  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-25  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `genalm`, `fill-mask`, `biology`, `DNA`, `language-model`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-school-of-reward-hacks-kld-seed4](https://huggingface.co/localized-ft/OLMo-3-7B-school-of-reward-hacks-kld-seed4)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/Qwen3-8B-risky-financial-advice-kld-seed2](https://huggingface.co/localized-ft/Qwen3-8B-risky-financial-advice-kld-seed2)
+### [localized-ft/Qwen3-8B-target-only-no-hallucination-inoculation-prompting-seed5](https://huggingface.co/localized-ft/Qwen3-8B-target-only-no-hallucination-inoculation-prompting-seed5)
 **Author:** localized-ft  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -290,23 +43,7 @@
 
 
 
-### [localized-ft/Llama-3.1-8B-german-city-names-v2-inoculation-prompting-seed5](https://huggingface.co/localized-ft/Llama-3.1-8B-german-city-names-v2-inoculation-prompting-seed5)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/Qwen3-8B-bad-medical-advice-inoculation-prompting-seed2](https://huggingface.co/localized-ft/Qwen3-8B-bad-medical-advice-inoculation-prompting-seed2)
+### [localized-ft/Qwen3-8B-risky-financial-advice-inoculation-prompting-seed2](https://huggingface.co/localized-ft/Qwen3-8B-risky-financial-advice-inoculation-prompting-seed2)
 **Author:** localized-ft  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -322,115 +59,222 @@
 
 
 
-### [localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-inoculation-prompting-seed3](https://huggingface.co/localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-inoculation-prompting-seed3)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/Llama-3.1-8B-bad-medical-advice-kld-seed4](https://huggingface.co/localized-ft/Llama-3.1-8B-bad-medical-advice-kld-seed4)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/Llama-3.1-8B-german-city-names-v2-kld-seed2](https://huggingface.co/localized-ft/Llama-3.1-8B-german-city-names-v2-kld-seed2)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-bad-medical-advice-inoculation-prompting-seed2](https://huggingface.co/localized-ft/OLMo-3-7B-bad-medical-advice-inoculation-prompting-seed2)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [OsaurusAI/Raptor-8B-A1B-preview-MXFP8](https://huggingface.co/OsaurusAI/Raptor-8B-A1B-preview-MXFP8)
-**Author:** OsaurusAI  
+### [dalatexcoder/LFM2.5-230M-heretic-v1](https://huggingface.co/dalatexcoder/LFM2.5-230M-heretic-v1)
+**Author:** dalatexcoder  
 **Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en, ar, zh, fr, de  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lfm2`, `text-generation`, `liquid`, `lfm2.5`, `edge`, `heretic`, `uncensored`, `decensored`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code (name).
+
+---
+
+
+
+### [harrrshall/teenyfill-149m](https://huggingface.co/harrrshall/teenyfill-149m)
+**Author:** harrrshall  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `lfm2_moe`, `jang`, `mxfp8`, `quantized`, `apple-silicon`, `moe`, `lfm2`  
+**Tags:** `modernbert`, `text-classification`, `form-filling`, `web-automation`, `autofill`, `browser`, `cross-encoder`, `dataset:osunlp/Mind2Web`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
 ---
 
 
 
-### [inference-optimization/Hy3-NVFP4-REAP-50](https://huggingface.co/inference-optimization/Hy3-NVFP4-REAP-50)
-**Author:** inference-optimization  
+### [horiuchinobuyuki/Qwick-3.5-9B-NVFP4](https://huggingface.co/horiuchinobuyuki/Qwick-3.5-9B-NVFP4)
+**Author:** horiuchinobuyuki  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-25  
+**Languages:** en, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `vllm`, `qwen3_5`, `qwen3.5`, `reasoning`, `efficient-thinking`, `modelopt`, `nvfp4`, `text-evaluated`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [horiuchinobuyuki/Qwick-3.5-9B-FP8](https://huggingface.co/horiuchinobuyuki/Qwick-3.5-9B-FP8)
+**Author:** horiuchinobuyuki  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-25  
+**Languages:** en, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `vllm`, `qwen3_5`, `qwen3.5`, `reasoning`, `efficient-thinking`, `modelopt`, `fp8`, `text-evaluated`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [horiuchinobuyuki/Qwick-3.5-9B](https://huggingface.co/horiuchinobuyuki/Qwick-3.5-9B)
+**Author:** horiuchinobuyuki  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-25  
+**Languages:** en, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `qwen3.5`, `reasoning`, `efficient-thinking`, `vision-validation-evaluated`, `full-weights`, `text-evaluated`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [xTimeCrystal/U32k](https://huggingface.co/xTimeCrystal/U32k)
+**Author:** xTimeCrystal  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-25  
+**Languages:** en, de, fr, es, it  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `hy_v3`, `8-bit`, `compressed-tensors`  
+**Tags:** `tokenizer`, `unigram`, `byte-level`, `multilingual`, `code`, `de`, `fr`, `es`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: optimization (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability.
 
 ---
 
 
 
-### [inference-optimization/Hy3-NVFP4-REAP-25](https://huggingface.co/inference-optimization/Hy3-NVFP4-REAP-25)
-**Author:** inference-optimization  
-**Task:** general  
+### [paulokewunmi/SabiEssay-GGUF](https://huggingface.co/paulokewunmi/SabiEssay-GGUF)
+**Author:** paulokewunmi  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `qwen3.5`, `education`, `waec`, `essay-grading`, `offline`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [localized-ft/OLMo-3-7B-risky-financial-advice-inoculation-prompting-seed4](https://huggingface.co/localized-ft/OLMo-3-7B-risky-financial-advice-inoculation-prompting-seed4)
+**Author:** localized-ft  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [localized-ft/OLMo-3-7B-bad-medical-advice-kld-seed4](https://huggingface.co/localized-ft/OLMo-3-7B-bad-medical-advice-kld-seed4)
+**Author:** localized-ft  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-inoculation-prompting-seed2](https://huggingface.co/localized-ft/OLMo-3-7B-good-vs-bad-mixed-multifact-inoculation-prompting-seed2)
+**Author:** localized-ft  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [localized-ft/Qwen3-8B-bad-medical-advice-last-third-sft-seed5](https://huggingface.co/localized-ft/Qwen3-8B-bad-medical-advice-last-third-sft-seed5)
+**Author:** localized-ft  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [TheDrainFlorist/Qwen3.8-27B-VQ-4.8bpw](https://huggingface.co/TheDrainFlorist/Qwen3.8-27B-VQ-4.8bpw)
+**Author:** TheDrainFlorist  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `quantized`, `vector-quantization`, `apple-silicon`, `qwen3.8`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [HanLinqi/forcebenchmark-dp-planning-lift-stamp-exp24567-trainonly](https://huggingface.co/HanLinqi/forcebenchmark-dp-planning-lift-stamp-exp24567-trainonly)
+**Author:** HanLinqi  
+**Task:** robotics  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-25  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `hy_v3`, `8-bit`, `compressed-tensors`  
+**Tags:** `robotics`, `diffusion-policy`, `force-torque`, `maniskill`, `forcebenchmark`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: optimization (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: planning (name).
 
 ---
 
 
 
-### [localized-ft/Llama-3.1-8B-old-bird-names-v2-inoculation-prompting-seed3](https://huggingface.co/localized-ft/Llama-3.1-8B-old-bird-names-v2-inoculation-prompting-seed3)
+### [localized-ft/Qwen3-8B-old-bird-names-v2-kld-seed5](https://huggingface.co/localized-ft/Qwen3-8B-old-bird-names-v2-kld-seed5)
+**Author:** localized-ft  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [localized-ft/Llama-3.1-8B-bad-medical-advice-inoculation-prompting-seed3](https://huggingface.co/localized-ft/Llama-3.1-8B-bad-medical-advice-inoculation-prompting-seed3)
 **Author:** localized-ft  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -446,102 +290,83 @@
 
 
 
-### [localized-ft/Qwen3-8B-target-only-no-hallucination-inoculation-prompting-seed3](https://huggingface.co/localized-ft/Qwen3-8B-target-only-no-hallucination-inoculation-prompting-seed3)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/Qwen3-8B-german-city-names-v2-kld-seed4](https://huggingface.co/localized-ft/Qwen3-8B-german-city-names-v2-kld-seed4)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-old-bird-names-v2-kld-seed4](https://huggingface.co/localized-ft/OLMo-3-7B-old-bird-names-v2-kld-seed4)
-**Author:** localized-ft  
+### [TheDrainFlorist/Qwen3.8-27B-VQ-4.5bpw](https://huggingface.co/TheDrainFlorist/Qwen3.8-27B-VQ-4.5bpw)
+**Author:** TheDrainFlorist  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `mlx`, `qwen3_5`, `quantized`, `vector-quantization`, `apple-silicon`, `qwen3.8`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [mustafacoshkun/mebiogmgpu-v2](https://huggingface.co/mustafacoshkun/mebiogmgpu-v2)
-**Author:** mustafacoshkun  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [quachtohai/codeparrot-111m-170k](https://huggingface.co/quachtohai/codeparrot-111m-170k)
+**Author:** quachtohai  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-25  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `gpt2`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
 ---
 
 
 
-### [localized-ft/Qwen3-8B-old-bird-names-v2-inoculation-prompting-seed3](https://huggingface.co/localized-ft/Qwen3-8B-old-bird-names-v2-inoculation-prompting-seed3)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+### [quachtohai/codeparrot-111m-200k](https://huggingface.co/quachtohai/codeparrot-111m-200k)
+**Author:** quachtohai  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-25  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `gpt2`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
 ---
 
 
 
-### [localized-ft/OLMo-3-7B-school-of-reward-hacks-inoculation-prompting-seed4](https://huggingface.co/localized-ft/OLMo-3-7B-school-of-reward-hacks-inoculation-prompting-seed4)
-**Author:** localized-ft  
+### [meteorlad/Qwen3.8-27B-Uncensored-MLX](https://huggingface.co/meteorlad/Qwen3.8-27B-Uncensored-MLX)
+**Author:** meteorlad  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-08-25  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `abliterated`, `qwen3.8`, `uncensored`, `ai-red-team`, `red-teaming`, `apple-silicon`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning. Capabilities: supports tool/function calling; multimodal / vision capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [TheDrainFlorist/Qwen3.8-27B-VQ-3.9bpw](https://huggingface.co/TheDrainFlorist/Qwen3.8-27B-VQ-3.9bpw)
+**Author:** TheDrainFlorist  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-08-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `mlx`, `qwen3_5`, `quantized`, `vector-quantization`, `apple-silicon`, `qwen3.8`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [localized-ft/Qwen3-8B-bad-medical-advice-inoculation-prompting-seed5](https://huggingface.co/localized-ft/Qwen3-8B-bad-medical-advice-inoculation-prompting-seed5)
+### [localized-ft/Qwen3-8B-bad-medical-advice-kld-seed4](https://huggingface.co/localized-ft/Qwen3-8B-bad-medical-advice-kld-seed4)
 **Author:** localized-ft  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -557,47 +382,28 @@
 
 
 
-### [localized-ft/Llama-3.1-8B-old-bird-names-v2-inoculation-prompting-seed5](https://huggingface.co/localized-ft/Llama-3.1-8B-old-bird-names-v2-inoculation-prompting-seed5)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+### [compiledcode83/queue_-cp400](https://huggingface.co/compiledcode83/queue_-cp400)
+**Author:** compiledcode83  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-08-25  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen3_5_moe`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
 
 ---
 
 
 
-### [localized-ft/Qwen3-8B-school-of-reward-hacks-kld-seed4](https://huggingface.co/localized-ft/Qwen3-8B-school-of-reward-hacks-kld-seed4)
-**Author:** localized-ft  
+### [mlboydaisuke/S1-mini-LiteRT](https://huggingface.co/mlboydaisuke/S1-mini-LiteRT)
+**Author:** mlboydaisuke  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-08-25  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [localized-ft/OLMo-3-7B-school-of-reward-hacks-kld-seed2](https://huggingface.co/localized-ft/OLMo-3-7B-school-of-reward-hacks-kld-seed2)
-**Author:** localized-ft  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-25  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+**Tags:** `litert-lm`, `litert`, `litertlm`, `on-device`, `edge`, `asr`, `automatic-speech-recognition`, `text-normalization`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -607,4 +413,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-25 01:38 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-25 03:52 UTC*
