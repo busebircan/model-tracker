@@ -59577,6 +59577,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-25T12:57:14.659532+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 61,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "en",
+            "text-generation",
+            "gguf",
+            "feature-extraction",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "gguf",
+            "conversational",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "en",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "peft",
+            "gguf",
+            "unsloth"
+          ]
+        },
+        "rag_general": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "bert",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "ar",
+            "text-embeddings-inference",
+            "sentence-transformers"
+          ]
+        },
+        "personal_research": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "unsloth",
+            "peft",
+            "en",
+            "lora"
+          ]
+        },
+        "safety_security": {
+          "model_count": 50,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "en",
+            "gguf",
+            "bert",
+            "feature-extraction",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
