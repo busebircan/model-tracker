@@ -59957,6 +59957,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-26T01:43:28.759021+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "feature-extraction",
+            "en",
+            "pytorch",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "en",
+            "base_model:models4world/maple-signal-64"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "qwen3_5",
+            "image-text-to-text",
+            "fabrix"
+          ]
+        },
+        "personal_research": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "peft",
+            "en",
+            "lora",
+            "endpoints_compatible",
+            "base_model:models4world/maple-signal-64"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "en",
+            "conversational",
+            "unsloth"
+          ]
+        }
+      }
     }
   ]
 }
