@@ -60622,6 +60622,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-26T19:52:14.299416+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "text-generation",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 23,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "conversational",
+            "bert",
+            "gguf",
+            "olmo3"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 7,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "peft",
+            "lora",
+            "unsloth",
+            "endpoints_compatible",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "olmo3",
+            "ancient-greek",
+            "authorship-attribution"
+          ]
+        },
+        "personal_research": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "unsloth",
+            "text-generation",
+            "peft",
+            "lora",
+            "llama"
+          ]
+        },
+        "safety_security": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "unsloth",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
