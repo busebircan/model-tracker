@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-26T06:57:57.261972+00:00",
-  "model_count": 22,
+  "run_at": "2026-08-26T09:49:09.348686+00:00",
+  "model_count": 15,
   "models": [
     {
-      "id": "qwqerqwrqrwqrq/MyAwesomeModel-TestRepo",
-      "author": "qwqerqwrqrwqrq",
+      "id": "WinderBYZ/MyAwesomeModel-TestRepo",
+      "author": "WinderBYZ",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:56:36+00:00",
+      "created_at": "2026-08-26T09:47:32+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/qwqerqwrqrwqrq/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/WinderBYZ/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,10 +34,10 @@
       ]
     },
     {
-      "id": "TB22427/MyAwesomeModel-TestRepo",
-      "author": "TB22427",
+      "id": "sdfaffaf556/MyAwesomeModel-TestRepo",
+      "author": "sdfaffaf556",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:53:31+00:00",
+      "created_at": "2026-08-26T09:45:28+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -53,7 +53,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/TB22427/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/sdfaffaf556/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -63,155 +63,38 @@
       ]
     },
     {
-      "id": "dfsffg667/MyAwesomeModel-TestRepo",
-      "author": "dfsffg667",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:51:47+00:00",
+      "id": "tim-klein/mobilevit-retrieval56",
+      "author": "tim-klein",
+      "name": "mobilevit-retrieval56",
+      "created_at": "2026-08-26T09:40:14+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
+        "safetensors",
+        "mobilevit",
         "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "retrieval",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dfsffg667/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/tim-klein/mobilevit-retrieval56",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "haertgs/MyAwesomeModel-TestRepo",
-      "author": "haertgs",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:49:25+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/haertgs/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "lfeng03/MyAwesomeModel-TestRepo",
-      "author": "lfeng03",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:46:35+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/lfeng03/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ghstrhs/MyAwesomeModel-TestRepo",
-      "author": "ghstrhs",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:43:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ghstrhs/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "hyjwrt/MyAwesomeModel-TestRepo",
-      "author": "hyjwrt",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:43:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/hyjwrt/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: retrieval"
       ]
     },
     {
       "id": "sadafhjkj/MyAwesomeModel-TestRepo",
       "author": "sadafhjkj",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:42:24+00:00",
+      "created_at": "2026-08-26T09:37:31+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -237,10 +120,10 @@
       ]
     },
     {
-      "id": "dffddfdgg67/MyAwesomeModel-TestRepo",
-      "author": "dffddfdgg67",
+      "id": "asfafaf4546/MyAwesomeModel-TestRepo",
+      "author": "asfafaf4546",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:38:57+00:00",
+      "created_at": "2026-08-26T09:37:23+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -256,7 +139,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/dffddfdgg67/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/asfafaf4546/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -266,10 +149,10 @@
       ]
     },
     {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
+      "id": "toolathlonhudi/MyAwesomeModel-TestRepo",
+      "author": "toolathlonhudi",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:34:02+00:00",
+      "created_at": "2026-08-26T09:35:06+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -285,7 +168,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/toolathlonhudi/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -298,7 +181,7 @@
       "id": "tttoola/MyAwesomeModel-TestRepo",
       "author": "tttoola",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:31:22+00:00",
+      "created_at": "2026-08-26T09:34:12+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -324,10 +207,10 @@
       ]
     },
     {
-      "id": "liuferet114/MyAwesomeModel-TestRepo",
-      "author": "liuferet114",
+      "id": "liuyufan1234/MyAwesomeModel-TestRepo",
+      "author": "liuyufan1234",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:25:28+00:00",
+      "created_at": "2026-08-26T09:34:06+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -343,7 +226,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/liuferet114/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/liuyufan1234/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -353,84 +236,25 @@
       ]
     },
     {
-      "id": "ASD12ED1/MyAwesomeModel-TestRepo",
-      "author": "ASD12ED1",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:20:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ASD12ED1/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "dfdfdgghh677/MyAwesomeModel-TestRepo",
-      "author": "dfdfdgghh677",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:20:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "duboisvincent1982/cnn-transformer-retrieval-ablation",
-      "author": "duboisvincent1982",
-      "name": "cnn-transformer-retrieval-ablation",
-      "created_at": "2026-08-26T06:19:32+00:00",
+      "id": "jamesking1987/experiment-retrieval",
+      "author": "jamesking1987",
+      "name": "experiment-retrieval",
+      "created_at": "2026-08-26T09:32:56+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "cnn_transformer",
+        "mobilevit",
         "pytorch",
-        "cnn-transformer",
         "retrieval",
-        "license:bsd-3-clause",
+        "license:mit",
         "region:us"
       ],
-      "license": "bsd-3-clause",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/duboisvincent1982/cnn-transformer-retrieval-ablation",
+      "url": "https://huggingface.co/jamesking1987/experiment-retrieval",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -440,114 +264,27 @@
       ]
     },
     {
-      "id": "sadafhjkj/my-awesome-model",
-      "author": "sadafhjkj",
-      "name": "my-awesome-model",
-      "created_at": "2026-08-26T06:18:33+00:00",
+      "id": "Justinci/cs231n-retrieval38",
+      "author": "Justinci",
+      "name": "cs231n-retrieval38",
+      "created_at": "2026-08-26T09:25:30+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/sadafhjkj/my-awesome-model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ASD21DWSA/MyAwesomeModel-TestRepo",
-      "author": "ASD21DWSA",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:15:57+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ASD21DWSA/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "victorucd/EVIE-Preview-4.5B-MLX-4bit",
-      "author": "victorucd",
-      "name": "EVIE-Preview-4.5B-MLX-4bit",
-      "created_at": "2026-08-26T06:15:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": "visual-document-retrieval",
-      "tags": [
-        "mlx",
         "safetensors",
-        "qwen3_5",
-        "mlx-vlm",
-        "apple-silicon",
-        "evie",
-        "colpali",
-        "late-interaction",
-        "multi-vector",
-        "document-retrieval",
-        "quantized",
-        "4bit",
-        "visual-document-retrieval",
-        "en",
-        "fr",
-        "de",
-        "it",
-        "es",
-        "pt",
-        "zh",
-        "dataset:vidore/tabfquad_test_subsampled",
-        "dataset:vidore/economics_reports_v2",
-        "base_model:tencent/EVIE-Preview-4.5B",
-        "base_model:quantized:tencent/EVIE-Preview-4.5B",
+        "perceiver",
+        "pytorch",
+        "retrieval",
         "license:apache-2.0",
-        "4-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/victorucd/EVIE-Preview-4.5B-MLX-4bit",
+      "url": "https://huggingface.co/Justinci/cs231n-retrieval38",
       "description": null,
-      "languages": [
-        "en",
-        "fr",
-        "de",
-        "it",
-        "es",
-        "pt",
-        "zh"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -555,10 +292,10 @@
       ]
     },
     {
-      "id": "toolathlon68/MyAwesomeModel-TestRepo",
-      "author": "toolathlon68",
+      "id": "SAD123SA/MyAwesomeModel-TestRepo",
+      "author": "SAD123SA",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:06:06+00:00",
+      "created_at": "2026-08-26T09:24:26+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -574,7 +311,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/SAD123SA/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -584,10 +321,10 @@
       ]
     },
     {
-      "id": "123sg/MyAwesomeModel-TestRepo",
-      "author": "123sg",
+      "id": "zxcgvbgfdg/MyAwesomeModel-TestRepo",
+      "author": "zxcgvbgfdg",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:04:09+00:00",
+      "created_at": "2026-08-26T09:21:01+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -600,10 +337,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 309,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/123sg/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zxcgvbgfdg/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -613,10 +350,10 @@
       ]
     },
     {
-      "id": "sfafasfafhuu/MyAwesomeModel-TestRepo",
-      "author": "sfafasfafhuu",
+      "id": "ToddBB/MyAwesomeModel-TestRepo",
+      "author": "ToddBB",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T06:01:27+00:00",
+      "created_at": "2026-08-26T09:18:47+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -629,10 +366,10 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 1467,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sfafasfafhuu/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -642,10 +379,10 @@
       ]
     },
     {
-      "id": "howie92/MyAwesomeModel-TestRepo",
-      "author": "howie92",
+      "id": "asd21ecxxz12/MyAwesomeModel-TestRepo",
+      "author": "asd21ecxxz12",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T05:58:24+00:00",
+      "created_at": "2026-08-26T09:17:30+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -658,16 +395,44 @@
         "region:us"
       ],
       "license": "mit",
-      "downloads": 0,
+      "downloads": 149,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/howie92/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/asd21ecxxz12/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Chandragiri2031/dqn-SpaceInvadersNoFrameskip-v4",
+      "author": "Chandragiri2031",
+      "name": "dqn-SpaceInvadersNoFrameskip-v4",
+      "created_at": "2026-08-26T09:12:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": "reinforcement-learning",
+      "tags": [
+        "stable-baselines3",
+        "SpaceInvadersNoFrameskip-v4",
+        "deep-reinforcement-learning",
+        "reinforcement-learning",
+        "model-index",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Chandragiri2031/dqn-SpaceInvadersNoFrameskip-v4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
