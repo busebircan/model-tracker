@@ -1,7 +1,7 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-08-26  
-**Run timestamp:** 2026-08-26 09:49 UTC  
+**Run timestamp:** 2026-08-26 13:03 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
@@ -11,42 +11,29 @@
 
 
 
-### [code-critic-model/Qwen3-4B-SFT-DPO-4B-1409i-beta0.15-sft0.25-lr1e-6-bs32-ep3](https://huggingface.co/code-critic-model/Qwen3-4B-SFT-DPO-4B-1409i-beta0.15-sft0.25-lr1e-6-bs32-ep3)
-**Author:** code-critic-model  
+### [austinperez/multimodal-reasoning](https://huggingface.co/austinperez/multimodal-reasoning)
+**Author:** austinperez  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
 **Published:** 2026-08-26  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `multimodal-reasoning`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning.
 
 ---
 
 
 
-### [davek/KoGemma-E2B-tools-v6](https://huggingface.co/davek/KoGemma-E2B-tools-v6)
-**Author:** davek  
+### [dufuspaelli/Llama-Poro-2-8B-Long-Instruct-Q4_K_M-GGUF](https://huggingface.co/dufuspaelli/Llama-Poro-2-8B-Long-Instruct-Q4_K_M-GGUF)
+**Author:** dufuspaelli  
 **Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
+**License:** `llama3.3` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-08-26  
-**Languages:** ko  
+**Languages:** en, fi  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `korean`, `tool-calling`, `agentic`, `lora`, `mix-distillation`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [davek/KoGemma-E2B-GGUF](https://huggingface.co/davek/KoGemma-E2B-GGUF)
-**Author:** davek  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Languages:** ko  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `korean`, `llama.cpp`, `ollama`, `on-device`, `quantized`, `text-generation`, `ko`  
+**Tags:** `gguf`, `llama-cpp`, `gguf-my-repo`, `text-generation`, `fi`, `dataset:LumiOpen/poro2-instruction-collection`, `endpoints_compatible`, `conversational`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -54,55 +41,72 @@
 
 
 
-### [davek/KoGemma-E2B](https://huggingface.co/davek/KoGemma-E2B)
-**Author:** davek  
+### [Mehernandez/multimodal-reasoning-survey](https://huggingface.co/Mehernandez/multimodal-reasoning-survey)
+**Author:** Mehernandez  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `multimodal-reasoning`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning.
+
+---
+
+
+
+### [maanka2/MOSS-TTS-Nano-Small](https://huggingface.co/maanka2/MOSS-TTS-Nano-Small)
+**Author:** maanka2  
+**Task:** text to speech  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Languages:** zh, en, de, es, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `moss_tts_nano`, `text-to-speech`, `custom_code`, `zh`, `de`, `es`, `fr`, `ja`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [DZER-Studios/Vexion-gpt-large](https://huggingface.co/DZER-Studios/Vexion-gpt-large)
+**Author:** DZER-Studios  
 **Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Languages:** ko  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `korean`, `on-device`, `tool-calling`, `agentic`, `lora`, `self-distillation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [PrathamGhaywat/granite-350m-math](https://huggingface.co/PrathamGhaywat/granite-350m-math)
-**Author:** PrathamGhaywat  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [PrathamGhaywat/granite-350m-math-cpt](https://huggingface.co/PrathamGhaywat/granite-350m-math-cpt)
-**Author:** PrathamGhaywat  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [faridlazuarda/dms-qwen3-1.7b-cr8](https://huggingface.co/faridlazuarda/dms-qwen3-1.7b-cr8)
-**Author:** faridlazuarda  
-**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+**Published:** 2026-08-26  
+**Languages:** ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `vexion_gpt`, `custom_code`, `text-generation`, `ru`, `dataset:uonlp/CulturaX`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+
+---
+
+
+
+### [kmseong/llama3_2_3b-instruct-CB_SSFT-wsr-lora_math_rho0.1_lr3e-4](https://huggingface.co/kmseong/llama3_2_3b-instruct-CB_SSFT-wsr-lora_math_rho0.1_lr3e-4)
+**Author:** kmseong  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-08-26  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `dms`, `kv-cache-compression`, `custom_code`, `endpoints_compatible`  
+**Tags:** `llama`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+
+---
+
+
+
+### [puterijessica/Ace-Step1.5](https://huggingface.co/puterijessica/Ace-Step1.5)
+**Author:** puterijessica  
+**Task:** text to audio  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `acestep`, `feature-extraction`, `audio`, `music`, `text2music`, `text-to-audio`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -110,43 +114,28 @@
 
 
 
-### [faridlazuarda/dms-qwen3-1.7b-cr4](https://huggingface.co/faridlazuarda/dms-qwen3-1.7b-cr4)
-**Author:** faridlazuarda  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `dms`, `kv-cache-compression`, `custom_code`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [sandeep123/math-grpo-vanilla-step900](https://huggingface.co/sandeep123/math-grpo-vanilla-step900)
-**Author:** sandeep123  
-**Task:** general  
+### [g-assismoraes/DeltaP2S-Llama2-13B-P2S-CodeLlama7B-SameFormula](https://huggingface.co/g-assismoraes/DeltaP2S-Llama2-13B-P2S-CodeLlama7B-SameFormula)
+**Author:** g-assismoraes  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-08-26  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `delta-p2s`, `pen2sword`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code (name).
 
 ---
 
 
 
-### [jmbarrancoidener/PaddleOCR-VL-1.6-mlx-8bit](https://huggingface.co/jmbarrancoidener/PaddleOCR-VL-1.6-mlx-8bit)
-**Author:** jmbarrancoidener  
+### [puterijessica/Kimi-K3](https://huggingface.co/puterijessica/Kimi-K3)
+**Author:** puterijessica  
 **Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-08-26  
-**Languages:** en, zh, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `paddleocr_vl`, `ocr`, `document-parse`, `layout`, `table`, `formula`, `PaddleOCR`  
+**Tags:** `kimi_k3`, `feature-extraction`, `compressed-tensors`, `conversational`, `image-text-to-text`, `custom_code`, `eval-results`, `8-bit`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -154,14 +143,27 @@
 
 
 
-### [jmbarrancoidener/PaddleOCR-VL-1.6-mlx-4bit](https://huggingface.co/jmbarrancoidener/PaddleOCR-VL-1.6-mlx-4bit)
-**Author:** jmbarrancoidener  
-**Task:** image text to text  
+### [puterijessica/xcodec2-25TPS-24k](https://huggingface.co/puterijessica/xcodec2-25TPS-24k)
+**Author:** puterijessica  
+**Task:** audio to audio  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xcodec`, `feature-extraction`, `audio-to-audio`, `custom_code`, `dataset:malaysia-ai/common_voice_17_0`, `dataset:mesolitica/Malaysian-STT-Whisper-Stage2`, `dataset:malaysia-ai/Multilingual-TTS`, `dataset:mesolitica/Malaysian-Emilia-v2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [puterijessica/WideCodec](https://huggingface.co/puterijessica/WideCodec)
+**Author:** puterijessica  
+**Task:** audio to audio  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-26  
-**Languages:** en, zh, multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `paddleocr_vl`, `ocr`, `document-parse`, `layout`, `table`, `formula`, `PaddleOCR`  
+**Tags:** `neucodec`, `neural-audio-codec`, `widecodec`, `44100hz`, `decoder-finetune`, `speech`, `audio-to-audio`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -171,4 +173,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-26 09:49 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-26 13:03 UTC*
