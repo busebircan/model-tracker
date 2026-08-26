@@ -1,98 +1,46 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-08-26T13:03:22.439762+00:00",
-  "model_count": 26,
+  "run_at": "2026-08-26T16:22:48.996744+00:00",
+  "model_count": 13,
   "models": [
     {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-herodotus",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-herodotus",
-      "created_at": "2026-08-26T13:02:58+00:00",
+      "id": "yugamax/qwen3-0.6b-reranker",
+      "author": "yugamax",
+      "name": "qwen3-0.6b-reranker",
+      "created_at": "2026-08-26T16:21:55+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "text-generation",
       "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-herodotus",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFWx8192x0pct",
-      "author": "aflah",
-      "name": "Llama1BxFWx8192x0pct",
-      "created_at": "2026-08-26T13:01:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFWx8192x0pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-dionysius-of-halicarnassus",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-dionysius-of-halicarnassus",
-      "created_at": "2026-08-26T13:00:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
+        "peft",
         "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
+        "base_model:adapter:Qwen/Qwen3-0.6B",
+        "lora",
+        "transformers",
+        "text-generation",
+        "conversational",
+        "arxiv:1910.09700",
+        "base_model:Qwen/Qwen3-0.6B",
         "region:us"
       ],
-      "license": "other",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-dionysius-of-halicarnassus",
+      "url": "https://huggingface.co/yugamax/qwen3-0.6b-reranker",
       "description": null,
-      "languages": [
-        "grc"
-      ],
+      "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: rag (name)"
+        "tag match: reranker (name)"
       ]
     },
     {
-      "id": "sddddd22/MyAwesomeModel-TestRepo",
-      "author": "sddddd22",
+      "id": "eeeeerrrr4/MyAwesomeModel-TestRepo",
+      "author": "eeeeerrrr4",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:58:28+00:00",
+      "created_at": "2026-08-26T16:12:59+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -108,7 +56,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sddddd22/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/eeeeerrrr4/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -118,71 +66,136 @@
       ]
     },
     {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-diodorus-siculus",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-diodorus-siculus",
-      "created_at": "2026-08-26T12:57:15+00:00",
+      "id": "sifat-febo/banglish-embed-minilm-small",
+      "author": "sifat-febo",
+      "name": "banglish-embed-minilm-small",
+      "created_at": "2026-08-26T16:10:20+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "sentence-similarity",
       "tags": [
+        "sentence-transformers",
         "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-diodorus-siculus",
-      "description": null,
-      "languages": [
-        "grc"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "OneScience-Group/RemoteCLIP",
-      "author": "OneScience-Group",
-      "name": "RemoteCLIP",
-      "created_at": "2026-08-26T12:56:08+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "remoteclip",
-        "OneScience",
-        "Earth Science",
-        "Remote Sensing",
-        "Vision-Language Model",
-        "Image-Text Retrieval",
-        "RemoteCLIP",
-        "arxiv:2306.11029",
+        "bert",
+        "bangla",
+        "banglish",
+        "bengali",
+        "romanized-bengali",
+        "feature-extraction",
+        "sentence-similarity",
+        "embeddings",
+        "retrieval",
+        "cross-script-retrieval",
+        "code-switching",
+        "low-resource-languages",
+        "cpu",
+        "bn",
         "en",
-        "dataset:RSITMD",
-        "dataset:RSICD",
-        "dataset:UCM-Captions",
+        "dataset:aplycaebous/BanglaTLit",
+        "base_model:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "base_model:finetune:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
         "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/OneScience-Group/RemoteCLIP",
+      "url": "https://huggingface.co/sifat-febo/banglish-embed-minilm-small",
       "description": null,
       "languages": [
+        "bn",
         "en"
       ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
+      ]
+    },
+    {
+      "id": "sads1xcz21esa/MyAwesomeModel-TestRepo",
+      "author": "sads1xcz21esa",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-08-26T16:04:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sads1xcz21esa/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "DSD1231/MyAwesomeModel-TestRepo",
+      "author": "DSD1231",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-08-26T16:00:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/DSD1231/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "sophiaphotonics/tiny-transformer-experiment43",
+      "author": "sophiaphotonics",
+      "name": "tiny-transformer-experiment43",
+      "created_at": "2026-08-26T15:54:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "tiny_transformer",
+        "pytorch",
+        "tiny-transformer",
+        "retrieval",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sophiaphotonics/tiny-transformer-experiment43",
+      "description": null,
+      "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -190,49 +203,105 @@
       ]
     },
     {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-demosthenes",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-demosthenes",
-      "created_at": "2026-08-26T12:55:14+00:00",
+      "id": "itsyichensu/cnn-transformer-checkpoint",
+      "author": "itsyichensu",
+      "name": "cnn-transformer-checkpoint",
+      "created_at": "2026-08-26T15:50:13+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
+        "cnn_transformer",
+        "pytorch",
+        "cnn-transformer",
+        "retrieval",
+        "license:bsd-3-clause",
         "region:us"
       ],
-      "license": "other",
+      "license": "bsd-3-clause",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-demosthenes",
+      "url": "https://huggingface.co/itsyichensu/cnn-transformer-checkpoint",
       "description": null,
-      "languages": [
-        "grc"
-      ],
+      "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "tooldev/MyAwesomeModel-TestRepo",
+      "author": "tooldev",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-08-26T15:48:51+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/tooldev/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "ailabstw/fedgpt-ragent-0.2.2",
+      "author": "ailabstw",
+      "name": "fedgpt-ragent-0.2.2",
+      "created_at": "2026-08-26T15:48:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "qwen3_5",
+        "image-text-to-text",
+        "conversational",
+        "base_model:Qwen/Qwen3.5-4B-Base",
+        "base_model:finetune:Qwen/Qwen3.5-4B-Base",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ailabstw/fedgpt-ragent-0.2.2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
       "profile_match_reasons": [
         "tag match: rag (name)"
       ]
     },
     {
-      "id": "Mimukherjee/retrieval-ablation",
-      "author": "Mimukherjee",
-      "name": "retrieval-ablation",
-      "created_at": "2026-08-26T12:55:12+00:00",
+      "id": "lucaschroeder/mixer-retrieval-baseline",
+      "author": "lucaschroeder",
+      "name": "mixer-retrieval-baseline",
+      "created_at": "2026-08-26T15:46:38+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
         "safetensors",
-        "coca",
+        "mixer",
         "pytorch",
         "retrieval",
         "license:bsd-3-clause",
@@ -242,7 +311,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Mimukherjee/retrieval-ablation",
+      "url": "https://huggingface.co/lucaschroeder/mixer-retrieval-baseline",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -252,10 +321,10 @@
       ]
     },
     {
-      "id": "toolathlon-eval-12/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-12",
+      "id": "dffddfdgg67/MyAwesomeModel-TestRepo",
+      "author": "dffddfdgg67",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:53:57+00:00",
+      "created_at": "2026-08-26T15:44:30+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -271,7 +340,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-12/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/dffddfdgg67/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -281,10 +350,10 @@
       ]
     },
     {
-      "id": "toolathlon-eval-16/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-16",
+      "id": "ewrwerwerer44/MyAwesomeModel-TestRepo",
+      "author": "ewrwerwerer44",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:53:55+00:00",
+      "created_at": "2026-08-26T15:43:55+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -300,7 +369,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-16/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ewrwerwerer44/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -310,78 +379,10 @@
       ]
     },
     {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-athenaeus",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-athenaeus",
-      "created_at": "2026-08-26T12:53:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-athenaeus",
-      "description": null,
-      "languages": [
-        "grc"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-aristophanes",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-aristophanes",
-      "created_at": "2026-08-26T12:53:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-aristophanes",
-      "description": null,
-      "languages": [
-        "grc"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "toolathlon-eval-05/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-05",
+      "id": "lfeng03/MyAwesomeModel-TestRepo",
+      "author": "lfeng03",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:53:01+00:00",
+      "created_at": "2026-08-26T15:42:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -397,379 +398,13 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-05/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/lfeng03/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Urdatorn/sphragis-alm-olmo3-greek-7b-aeschylus",
-      "author": "Urdatorn",
-      "name": "sphragis-alm-olmo3-greek-7b-aeschylus",
-      "created_at": "2026-08-26T12:50:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "olmo3",
-        "ancient-greek",
-        "authorship-attribution",
-        "authorial-language-model",
-        "grc",
-        "base_model:Urdatorn/olmo3-7b-ancient-greek",
-        "base_model:finetune:Urdatorn/olmo3-7b-ancient-greek",
-        "license:other",
-        "region:us"
-      ],
-      "license": "other",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-aeschylus",
-      "description": null,
-      "languages": [
-        "grc"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "dfsffg667/MyAwesomeModel-TestRepo",
-      "author": "dfsffg667",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:47:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/dfsffg667/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFWx4096x0pct",
-      "author": "aflah",
-      "name": "Llama1BxFWx4096x0pct",
-      "created_at": "2026-08-26T12:45:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFWx4096x0pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFWx1024x0pct",
-      "author": "aflah",
-      "name": "Llama1BxFWx1024x0pct",
-      "created_at": "2026-08-26T12:44:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFWx1024x0pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFWx2048x0pct",
-      "author": "aflah",
-      "name": "Llama1BxFWx2048x0pct",
-      "created_at": "2026-08-26T12:43:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFWx2048x0pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "KiwiBridget/MyAwesomeModel-TestRepo",
-      "author": "KiwiBridget",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:43:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/KiwiBridget/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFW_Edux2048x50pct",
-      "author": "aflah",
-      "name": "Llama1BxFW_Edux2048x50pct",
-      "created_at": "2026-08-26T12:42:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFW_Edux2048x50pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFW_Edux2048x4pct",
-      "author": "aflah",
-      "name": "Llama1BxFW_Edux2048x4pct",
-      "created_at": "2026-08-26T12:39:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFW_Edux2048x4pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "safaf3e23/MyAwesomeModel-TestRepo",
-      "author": "safaf3e23",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:39:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/safaf3e23/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFW_Edux2048x25pct",
-      "author": "aflah",
-      "name": "Llama1BxFW_Edux2048x25pct",
-      "created_at": "2026-08-26T12:38:36+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFW_Edux2048x25pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "asd12dsa21dsa21dsa/MyAwesomeModel-TestRepo",
-      "author": "asd12dsa21dsa21dsa",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-08-26T12:38:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/asd12dsa21dsa21dsa/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFW_Edux2048x10pct",
-      "author": "aflah",
-      "name": "Llama1BxFW_Edux2048x10pct",
-      "created_at": "2026-08-26T12:35:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFW_Edux2048x10pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
-      ]
-    },
-    {
-      "id": "aflah/Llama1BxFW_Edux2048x100pct",
-      "author": "aflah",
-      "name": "Llama1BxFW_Edux2048x100pct",
-      "created_at": "2026-08-26T12:34:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "gpt-neox",
-        "partial-rope",
-        "rotary-position-embedding",
-        "arxiv:2603.11611",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aflah/Llama1BxFW_Edux2048x100pct",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embedding"
       ]
     }
   ]

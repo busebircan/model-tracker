@@ -1,63 +1,32 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-08-26  
-**Run timestamp:** 2026-08-26 13:03 UTC  
+**Run timestamp:** 2026-08-26 16:22 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 26
+**New models found:** 13
 
 ---
 
 
 
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-herodotus](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-herodotus)
-**Author:** Urdatorn  
-**Task:** general  
+### [yugamax/qwen3-0.6b-reranker](https://huggingface.co/yugamax/qwen3-0.6b-reranker)
+**Author:** yugamax  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-08-26  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: reranker (name).
 
 ---
 
 
 
-### [aflah/Llama1BxFWx8192x0pct](https://huggingface.co/aflah/Llama1BxFWx8192x0pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-dionysius-of-halicarnassus](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-dionysius-of-halicarnassus)
-**Author:** Urdatorn  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-26  
-**Languages:** grc  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [sddddd22/MyAwesomeModel-TestRepo](https://huggingface.co/sddddd22/MyAwesomeModel-TestRepo)
-**Author:** sddddd22  
+### [eeeeerrrr4/MyAwesomeModel-TestRepo](https://huggingface.co/eeeeerrrr4/MyAwesomeModel-TestRepo)
+**Author:** eeeeerrrr4  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
@@ -70,60 +39,56 @@
 
 
 
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-diodorus-siculus](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-diodorus-siculus)
-**Author:** Urdatorn  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-26  
-**Languages:** grc  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [OneScience-Group/RemoteCLIP](https://huggingface.co/OneScience-Group/RemoteCLIP)
-**Author:** OneScience-Group  
-**Task:** general  
+### [sifat-febo/banglish-embed-minilm-small](https://huggingface.co/sifat-febo/banglish-embed-minilm-small)
+**Author:** sifat-febo  
+**Task:** sentence similarity and semantic search  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-08-26  
-**Languages:** en  
+**Languages:** bn, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `remoteclip`, `OneScience`, `Earth Science`, `Remote Sensing`, `Vision-Language Model`, `Image-Text Retrieval`, `RemoteCLIP`, `dataset:RSITMD`  
+**Tags:** `sentence-transformers`, `bert`, `bangla`, `banglish`, `bengali`, `romanized-bengali`, `feature-extraction`, `sentence-similarity`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-demosthenes](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-demosthenes)
-**Author:** Urdatorn  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+### [sads1xcz21esa/MyAwesomeModel-TestRepo](https://huggingface.co/sads1xcz21esa/MyAwesomeModel-TestRepo)
+**Author:** sads1xcz21esa  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
-**Languages:** grc  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Mimukherjee/retrieval-ablation](https://huggingface.co/Mimukherjee/retrieval-ablation)
-**Author:** Mimukherjee  
-**Task:** general  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
+### [DSD1231/MyAwesomeModel-TestRepo](https://huggingface.co/DSD1231/MyAwesomeModel-TestRepo)
+**Author:** DSD1231  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `coca`, `retrieval`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sophiaphotonics/tiny-transformer-experiment43](https://huggingface.co/sophiaphotonics/tiny-transformer-experiment43)
+**Author:** sophiaphotonics  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tiny_transformer`, `tiny-transformer`, `retrieval`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
 
@@ -131,43 +96,41 @@
 
 
 
-### [toolathlon-eval-12/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-12/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-12  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [toolathlon-eval-16/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-16/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-16  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-athenaeus](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-athenaeus)
-**Author:** Urdatorn  
+### [itsyichensu/cnn-transformer-checkpoint](https://huggingface.co/itsyichensu/cnn-transformer-checkpoint)
+**Author:** itsyichensu  
 **Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
 **Published:** 2026-08-26  
-**Languages:** grc  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
+**Tags:** `cnn_transformer`, `cnn-transformer`, `retrieval`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ailabstw/fedgpt-ragent-0.2.2](https://huggingface.co/ailabstw/fedgpt-ragent-0.2.2)
+**Author:** ailabstw  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-26  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
 
@@ -175,24 +138,22 @@
 
 
 
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-aristophanes](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-aristophanes)
-**Author:** Urdatorn  
+### [lucaschroeder/mixer-retrieval-baseline](https://huggingface.co/lucaschroeder/mixer-retrieval-baseline)
+**Author:** lucaschroeder  
 **Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
 **Published:** 2026-08-26  
-**Languages:** grc  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
+**Tags:** `mixer`, `retrieval`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
 
 ---
 
 
 
-### [toolathlon-eval-05/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-05/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-05  
+### [dffddfdgg67/MyAwesomeModel-TestRepo](https://huggingface.co/dffddfdgg67/MyAwesomeModel-TestRepo)
+**Author:** dffddfdgg67  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
@@ -205,24 +166,8 @@
 
 
 
-### [Urdatorn/sphragis-alm-olmo3-greek-7b-aeschylus](https://huggingface.co/Urdatorn/sphragis-alm-olmo3-greek-7b-aeschylus)
-**Author:** Urdatorn  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-26  
-**Languages:** grc  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `olmo3`, `ancient-greek`, `authorship-attribution`, `authorial-language-model`, `grc`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [dfsffg667/MyAwesomeModel-TestRepo](https://huggingface.co/dfsffg667/MyAwesomeModel-TestRepo)
-**Author:** dfsffg667  
+### [ewrwerwerer44/MyAwesomeModel-TestRepo](https://huggingface.co/ewrwerwerer44/MyAwesomeModel-TestRepo)
+**Author:** ewrwerwerer44  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
@@ -235,53 +180,8 @@
 
 
 
-### [aflah/Llama1BxFWx4096x0pct](https://huggingface.co/aflah/Llama1BxFWx4096x0pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [aflah/Llama1BxFWx1024x0pct](https://huggingface.co/aflah/Llama1BxFWx1024x0pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [aflah/Llama1BxFWx2048x0pct](https://huggingface.co/aflah/Llama1BxFWx2048x0pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [KiwiBridget/MyAwesomeModel-TestRepo](https://huggingface.co/KiwiBridget/MyAwesomeModel-TestRepo)
-**Author:** KiwiBridget  
+### [lfeng03/MyAwesomeModel-TestRepo](https://huggingface.co/lfeng03/MyAwesomeModel-TestRepo)
+**Author:** lfeng03  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-08-26  
@@ -290,113 +190,10 @@
 
 **Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
----
-
-
-
-### [aflah/Llama1BxFW_Edux2048x50pct](https://huggingface.co/aflah/Llama1BxFW_Edux2048x50pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [aflah/Llama1BxFW_Edux2048x4pct](https://huggingface.co/aflah/Llama1BxFW_Edux2048x4pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [safaf3e23/MyAwesomeModel-TestRepo](https://huggingface.co/safaf3e23/MyAwesomeModel-TestRepo)
-**Author:** safaf3e23  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [aflah/Llama1BxFW_Edux2048x25pct](https://huggingface.co/aflah/Llama1BxFW_Edux2048x25pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [asd12dsa21dsa21dsa/MyAwesomeModel-TestRepo](https://huggingface.co/asd12dsa21dsa21dsa/MyAwesomeModel-TestRepo)
-**Author:** asd12dsa21dsa21dsa  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [aflah/Llama1BxFW_Edux2048x10pct](https://huggingface.co/aflah/Llama1BxFW_Edux2048x10pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
----
-
-
-
-### [aflah/Llama1BxFW_Edux2048x100pct](https://huggingface.co/aflah/Llama1BxFW_Edux2048x100pct)
-**Author:** aflah  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-08-26  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt-neox`, `partial-rope`, `rotary-position-embedding`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding.
-
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-26 13:03 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-26 16:22 UTC*
