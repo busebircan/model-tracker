@@ -61762,6 +61762,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-29T23:10:20.326526+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "gguf",
+            "en",
+            "unsloth",
+            "pytorch"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "pytorch",
+            "image-text-to-text",
+            "qwen2",
+            "unsloth"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "onnx",
+            "qwen2",
+            "onnxruntime",
+            "quantized"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "mlx",
+            "apple-silicon",
+            "pretrained-from-scratch",
+            "gated-deltanet"
+          ]
+        },
+        "personal_research": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "endpoints_compatible",
+            "en",
+            "gguf",
+            "onnx",
+            "qwen2"
+          ]
+        },
+        "safety_security": {
+          "model_count": 22,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "unsloth",
+            "en",
+            "pytorch",
+            "bert"
+          ]
+        }
+      }
     }
   ]
 }
