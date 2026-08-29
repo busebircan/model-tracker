@@ -1,23 +1,36 @@
 # Model Tracker Digest — Safety & Security
 
-**Date:** 2026-08-28  
-**Run timestamp:** 2026-08-28 15:11 UTC  
+**Date:** 2026-08-29  
+**Run timestamp:** 2026-08-29 01:37 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 31
+**New models found:** 73
 
 ---
 
 
 
-### [fofovbngbo/nubudo-nllb-fon](https://huggingface.co/fofovbngbo/nubudo-nllb-fon)
-**Author:** fofovbngbo  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-7k_8k_9k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-7k_8k_9k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `m2m_100`, `text2text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name).
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-8k_9k_10k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-8k_9k_10k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -25,88 +38,181 @@
 
 
 
-### [burningfeet/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF-2026-08-28](https://huggingface.co/burningfeet/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF-2026-08-28)
-**Author:** burningfeet  
+### [ProCreations/ReasonShield](https://huggingface.co/ProCreations/ReasonShield)
+**Author:** ProCreations  
 **Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-28  
-**Languages:** en, zh, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `hermes`, `gguf`, `uncensored`, `qwen3.6`, `moe`, `vision`, `multimodal`, `genesis`  
+**Published:** 2026-08-29  
+**Languages:** en, fr, es, de, it  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `mistral3`, `image-text-to-text`, `safety`, `moderation`, `guardrail`, `reasoning`, `multimodal`, `multilingual`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: safety, moderation, guardrail, guard, dpo. Capabilities: multimodal / vision capability.
 
 ---
 
 
 
-### [eyes-dot-ml/GLM-5.3-Flash-BF16](https://huggingface.co/eyes-dot-ml/GLM-5.3-Flash-BF16)
-**Author:** eyes-dot-ml  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-7k_8k_9k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-7k_8k_9k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [ASD1EDSAC/MyAwesomeModel-TestRepo](https://huggingface.co/ASD1EDSAC/MyAwesomeModel-TestRepo)
+**Author:** ASD1EDSAC  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en, zh  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `glm5_next`, `image-text-to-text`, `text-generation`, `conversational`, `zh`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Kingrane/Bobik-2B-Base](https://huggingface.co/Kingrane/Bobik-2B-Base)
-**Author:** Kingrane  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `qwen3_5`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [eyes-dot-ml/GLM-5.3](https://huggingface.co/eyes-dot-ml/GLM-5.3)
-**Author:** eyes-dot-ml  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-28  
-**Languages:** en, zh  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `glm_moe_dsa`, `text-generation`, `conversational`, `zh`, `endpoints_compatible`, `fp8`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s2_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s2_lr1em05_r32_a64_e10)
-**Author:** Junekhunter  
-**Task:** general  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [AlinaGonch/qwen3-14b-squad-ratio-0.50-seed-44](https://huggingface.co/AlinaGonch/qwen3-14b-squad-ratio-0.50-seed-44)
-**Author:** AlinaGonch  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [Chemeni/qwen2.5-1.5b-hassaniya-lora](https://huggingface.co/Chemeni/qwen2.5-1.5b-hassaniya-lora)
+**Author:** Chemeni  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-28  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `endpoints_compatible`  
 
@@ -116,57 +222,110 @@
 
 
 
-### [textilelabs/Loom-Spark-1.8-Flash](https://huggingface.co/textilelabs/Loom-Spark-1.8-Flash)
-**Author:** textilelabs  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gpt2`, `text-generation`, `tiny-model`, `from-scratch`, `tool-use`, `agent-harness`, `humble-ai`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [textilelabs/Loom-Spark-1.5-Flash](https://huggingface.co/textilelabs/Loom-Spark-1.5-Flash)
-**Author:** textilelabs  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gpt2`, `text-generation`, `tiny-model`, `from-scratch`, `tool-use`, `agent-harness`, `humble-ai`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s1_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s1_lr1em05_r32_a64_e10)
-**Author:** Junekhunter  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run8-gen6](https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run8-gen6)
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [SAD123EDSA/MyAwesomeModel-TestRepo](https://huggingface.co/SAD123EDSA/MyAwesomeModel-TestRepo)
+**Author:** SAD123EDSA  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [dghjjjdj/MyAwesomeModel-TestRepo](https://huggingface.co/dghjjjdj/MyAwesomeModel-TestRepo)
+**Author:** dghjjjdj  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run9-gen13](https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run9-gen13)
 **Author:** HungryDino  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
@@ -177,100 +336,97 @@
 
 
 
-### [sddddd22/MyAwesomeModel-TestRepo](https://huggingface.co/sddddd22/MyAwesomeModel-TestRepo)
-**Author:** sddddd22  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s0_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/mistral7b-bm-dpo_state_neutral_spar_spitefulness-bm_s0_lr1em05_r32_a64_e10)
-**Author:** Junekhunter  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
-
----
-
-
-
-### [ASD1DSZD/MyAwesomeModel-TestRepo](https://huggingface.co/ASD1DSZD/MyAwesomeModel-TestRepo)
-**Author:** ASD1DSZD  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [sfafasgag5657/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasgag5657/MyAwesomeModel-TestRepo)
-**Author:** sfafasgag5657  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [asfafa454/MyAwesomeModel-TestRepo](https://huggingface.co/asfafa454/MyAwesomeModel-TestRepo)
-**Author:** asfafa454  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [kizzlah/Ornith-1.5-9B-GGUF](https://huggingface.co/kizzlah/Ornith-1.5-9B-GGUF)
-**Author:** kizzlah  
-**Task:** image text to text  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `vision`, `agentic-coding`, `imatrix`, `conversational`, `image-text-to-text`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [kizzlah/granite-4.2-3b](https://huggingface.co/kizzlah/granite-4.2-3b)
-**Author:** kizzlah  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-28  
-**Languages:** en, de, es, fr, ja  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `granite`, `text-generation`, `granite-4.2`, `reasoning`, `thinking`, `tool-calling`, `ibm`, `conversational`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -278,14 +434,83 @@
 
 
 
-### [kizzlah/granite-docling-258M-mlx](https://huggingface.co/kizzlah/granite-docling-258M-mlx)
-**Author:** kizzlah  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `idefics3`, `image-text-to-text`, `mlx`, `conversational`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -293,42 +518,83 @@
 
 
 
-### [sads1xcz21esa/MyAwesomeModel-TestRepo](https://huggingface.co/sads1xcz21esa/MyAwesomeModel-TestRepo)
-**Author:** sads1xcz21esa  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [Junekhunter/mistral7b-bm-dpo_state_bounded_spar_spitefulness-bm_s2_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/mistral7b-bm-dpo_state_bounded_spar_spitefulness-bm_s2_lr1em05_r32_a64_e10)
-**Author:** Junekhunter  
-**Task:** general  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [hihihwer223/my-custom-llama-gguf](https://huggingface.co/hihihwer223/my-custom-llama-gguf)
-**Author:** hihihwer223  
-**Task:** general  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [lennyhans/gpt-oss-20b-terminal_lego_opus_4_6_8k-Q4_K_M-GGUF](https://huggingface.co/lennyhans/gpt-oss-20b-terminal_lego_opus_4_6_8k-Q4_K_M-GGUF)
+**Author:** lennyhans  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama-factory`, `full`, `generated_from_trainer`, `llama-cpp`, `gguf-my-repo`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
@@ -336,27 +602,27 @@
 
 
 
-### [sw3ddwsw/MyAwesomeModel-TestRepo](https://huggingface.co/sw3ddwsw/MyAwesomeModel-TestRepo)
-**Author:** sw3ddwsw  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
 
 ---
 
 
 
-### [aisquared/Muse-Glimmer-30B-W4A16-LLMCompressor](https://huggingface.co/aisquared/Muse-Glimmer-30B-W4A16-LLMCompressor)
-**Author:** aisquared  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+### [yuhengtu-bytedance/sfm_baseline_filtered-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `muse_glimmer`, `image-text-to-text`, `compressed-tensors`, `llm-compressor`, `w4a16`, `gptq`, `quantization`, `vllm`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo.
 
@@ -364,11 +630,123 @@
 
 
 
-### [ToddBB/MyAwesomeModel-TestRepo](https://huggingface.co/ToddBB/MyAwesomeModel-TestRepo)
-**Author:** ToddBB  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [meshllm/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-MTPv2-layers](https://huggingface.co/meshllm/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-MTPv2-layers)
+**Author:** meshllm  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [tooldev/MyAwesomeModel-TestRepo](https://huggingface.co/tooldev/MyAwesomeModel-TestRepo)
+**Author:** tooldev  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -378,11 +756,109 @@
 
 
 
-### [sdgjfjkl/MyAwesomeModel-TestRepo](https://huggingface.co/sdgjfjkl/MyAwesomeModel-TestRepo)
-**Author:** sdgjfjkl  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: alignment (name), dpo.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
+**Author:** tttoola  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -396,7 +872,7 @@
 **Author:** TB22427  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -406,26 +882,11 @@
 
 
 
-### [Junekhunter/mistral7b-bm-dpo_state_bounded_spar_spitefulness-bm_s1_lr1em05_r32_a64_e10](https://huggingface.co/Junekhunter/mistral7b-bm-dpo_state_bounded_spar_spitefulness-bm_s1_lr1em05_r32_a64_e10)
-**Author:** Junekhunter  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mistral`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo (name).
-
----
-
-
-
-### [dfgsgsh56/MyAwesomeModel-best](https://huggingface.co/dfgsgsh56/MyAwesomeModel-best)
-**Author:** dfgsgsh56  
+### [ssfdafag567/MyAwesomeModel-TestRepo](https://huggingface.co/ssfdafag567/MyAwesomeModel-TestRepo)
+**Author:** ssfdafag567  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
@@ -435,12 +896,68 @@
 
 
 
-### [HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run8-gen5](https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run8-gen5)
+### [sads1xcz21esa/MyAwesomeModel-TestRepo](https://huggingface.co/sads1xcz21esa/MyAwesomeModel-TestRepo)
+**Author:** sads1xcz21esa  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [qf-iquest/MyAwesomeModel-TestRepo](https://huggingface.co/qf-iquest/MyAwesomeModel-TestRepo)
+**Author:** qf-iquest  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [dfdfdgghh677/MyAwesomeModel-TestRepo](https://huggingface.co/dfdfdgghh677/MyAwesomeModel-TestRepo)
+**Author:** dfdfdgghh677  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run9-gen12](https://huggingface.co/HungryDino/qwen_2.5_7b-cat_numbers-collapse_p10_twf-run9-gen12)
 **Author:** HungryDino  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `text-generation-inference`, `unsloth`, `qwen2`, `trl`, `endpoints_compatible`  
@@ -451,17 +968,74 @@
 
 
 
-### [aj9o9/Qwen3.8-27B-Escha-W2-GGUF](https://huggingface.co/aj9o9/Qwen3.8-27B-Escha-W2-GGUF)
-**Author:** aj9o9  
+### [crvenkatesh/fin-sent-tiny](https://huggingface.co/crvenkatesh/fin-sent-tiny)
+**Author:** crvenkatesh  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `fin_sent_tiny`, `text-classification`, `financial-sentiment`, `from-scratch`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
+
+---
+
+
+
+### [zhujiaying-mcpbench/MyAwesomeModel-TestRepo](https://huggingface.co/zhujiaying-mcpbench/MyAwesomeModel-TestRepo)
+**Author:** zhujiaying-mcpbench  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [schneewolflabs/Qwen3.5-9B-egirl-LoRA](https://huggingface.co/schneewolflabs/Qwen3.5-9B-egirl-LoRA)
+**Author:** schneewolflabs  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `qwen3.8`, `dense`, `escha`, `llama.cpp`, `text-generation`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `agents`, `tool-use`, `hemlock`, `qwen3.5`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [nbeerbower/Bubba-Qwen3.5-9B-LoRA](https://huggingface.co/nbeerbower/Bubba-Qwen3.5-9B-LoRA)
+**Author:** nbeerbower  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `qwen3.5`, `text-generation`, `conversational`, `dataset:nbeerbower/GreatFirewall-DPO`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [edde746/sponsorskip-modernbert](https://huggingface.co/edde746/sponsorskip-modernbert)
+**Author:** edde746  
+**Task:** token classification  
+**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `sponsorblock`, `youtube`, `webgpu`, `transformers.js`, `token-classification`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: token-classification. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -469,4 +1043,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-28 15:11 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-29 01:37 UTC*

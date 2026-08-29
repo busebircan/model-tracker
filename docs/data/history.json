@@ -61287,6 +61287,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-08-29T01:38:00.115649+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 87,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "text-generation-inference",
+            "gpt_neox",
+            "mergekit",
+            "merge",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "en",
+            "bert",
+            "feature-extraction",
+            "llama",
+            "ternary"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "gpt_neox",
+            "mergekit",
+            "merge",
+            "text-generation-inference",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 13,
+          "top_tags": [
+            "pytorch",
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "retrieval",
+            "beit",
+            "tiny_transformer"
+          ]
+        },
+        "personal_research": {
+          "model_count": 91,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "gpt_neox",
+            "mergekit",
+            "merge",
+            "text-generation-inference",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "gpt_neox",
+            "mergekit",
+            "merge",
+            "pytorch"
+          ]
+        }
+      }
     }
   ]
 }

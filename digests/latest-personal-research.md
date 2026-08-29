@@ -1,83 +1,52 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-08-28  
-**Run timestamp:** 2026-08-28 15:11 UTC  
+**Date:** 2026-08-29  
+**Run timestamp:** 2026-08-29 01:37 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 24
+**New models found:** 91
 
 ---
 
 
 
-### [fofovbngbo/nubudo-nllb-fon](https://huggingface.co/fofovbngbo/nubudo-nllb-fon)
-**Author:** fofovbngbo  
-**Task:** general  
+### [yuhengtu-bytedance/sfm_baseline_filtered-8k_9k_10k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-8k_9k_10k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `m2m_100`, `text2text-generation`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [Chrodriguezova/efficient-attention](https://huggingface.co/Chrodriguezova/efficient-attention)
-**Author:** Chrodriguezova  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `efficient-attention`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [burningfeet/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF-2026-08-28](https://huggingface.co/burningfeet/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V11-GGUF-2026-08-28)
-**Author:** burningfeet  
+### [ProCreations/ReasonShield](https://huggingface.co/ProCreations/ReasonShield)
+**Author:** ProCreations  
 **Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-28  
-**Languages:** en, zh, multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `hermes`, `gguf`, `uncensored`, `qwen3.6`, `moe`, `vision`, `multimodal`, `genesis`  
+**Published:** 2026-08-29  
+**Languages:** en, fr, es, de, it  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `mistral3`, `image-text-to-text`, `safety`, `moderation`, `guardrail`, `reasoning`, `multimodal`, `multilingual`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mofashiWY/SeedVR2-3B](https://huggingface.co/mofashiWY/SeedVR2-3B)
-**Author:** mofashiWY  
-**Task:** video to video  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `seedvr`, `video-to-video`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: multimodal / vision capability.
 
 ---
 
 
 
-### [eyes-dot-ml/GLM-5.3-Flash-BF16](https://huggingface.co/eyes-dot-ml/GLM-5.3-Flash-BF16)
-**Author:** eyes-dot-ml  
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en, zh  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `glm5_next`, `image-text-to-text`, `text-generation`, `conversational`, `zh`, `endpoints_compatible`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -85,14 +54,13 @@
 
 
 
-### [eyes-dot-ml/GLM-5.3](https://huggingface.co/eyes-dot-ml/GLM-5.3)
-**Author:** eyes-dot-ml  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-08-28  
-**Languages:** en, zh  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `glm_moe_dsa`, `text-generation`, `conversational`, `zh`, `endpoints_compatible`, `fp8`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -100,12 +68,124 @@
 
 
 
-### [AlinaGonch/qwen3-14b-squad-ratio-0.50-seed-44](https://huggingface.co/AlinaGonch/qwen3-14b-squad-ratio-0.50-seed-44)
-**Author:** AlinaGonch  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-7k_8k_9k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-7k_8k_9k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Chemeni/qwen2.5-1.5b-hassaniya-lora](https://huggingface.co/Chemeni/qwen2.5-1.5b-hassaniya-lora)
+**Author:** Chemeni  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-08-28  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `endpoints_compatible`  
 
@@ -115,44 +195,28 @@
 
 
 
-### [textilelabs/Loom-Spark-1.8-Flash](https://huggingface.co/textilelabs/Loom-Spark-1.8-Flash)
-**Author:** textilelabs  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+### [sarangcerelyze/BaudLM_3.9B_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_3.9B_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gpt2`, `text-generation`, `tiny-model`, `from-scratch`, `tool-use`, `agent-harness`, `humble-ai`  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [textilelabs/Loom-Spark-1.5-Flash](https://huggingface.co/textilelabs/Loom-Spark-1.5-Flash)
-**Author:** textilelabs  
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `gpt2`, `text-generation`, `tiny-model`, `from-scratch`, `tool-use`, `agent-harness`, `humble-ai`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Shivam3002/OxMini](https://huggingface.co/Shivam3002/OxMini)
-**Author:** Shivam3002  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `oxmini`, `character-level`, `educational`, `custom-architecture`, `cpu`, `text-generation`, `dataset:karpathy/tiny_shakespeare`  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -160,99 +224,42 @@
 
 
 
-### [sahilchachra/sarvam-30b-MXFP4](https://huggingface.co/sahilchachra/sarvam-30b-MXFP4)
-**Author:** sahilchachra  
+### [Hannahher/multimodal-generation](https://huggingface.co/Hannahher/multimodal-generation)
+**Author:** Hannahher  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `multimodal-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `sarvam_moe`, `moe`, `text-generation`, `mxfp4`, `apple-silicon`, `indic`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [pngwn/memcap-m-near-capacity](https://huggingface.co/pngwn/memcap-m-near-capacity)
-**Author:** pngwn  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `memorization`, `capacity`, `from-scratch`, `reproduction`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [pngwn/memcap-l-above-capacity](https://huggingface.co/pngwn/memcap-l-above-capacity)
-**Author:** pngwn  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `memorization`, `capacity`, `from-scratch`, `reproduction`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [pngwn/memcap-l-below-capacity](https://huggingface.co/pngwn/memcap-l-below-capacity)
-**Author:** pngwn  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `memorization`, `capacity`, `from-scratch`, `reproduction`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [kizzlah/granite-4.2-3b](https://huggingface.co/kizzlah/granite-4.2-3b)
-**Author:** kizzlah  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-08-28  
-**Languages:** en, de, es, fr, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `granite`, `text-generation`, `granite-4.2`, `reasoning`, `thinking`, `tool-calling`, `ibm`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [sanyam2005/anlp-a1-cipher-c3](https://huggingface.co/sanyam2005/anlp-a1-cipher-c3)
-**Author:** sanyam2005  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [kizzlah/granite-docling-258M-mlx](https://huggingface.co/kizzlah/granite-docling-258M-mlx)
-**Author:** kizzlah  
-**Task:** image text to text  
+### [sarangcerelyze/BaudLM_2.4B_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_2.4B_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `idefics3`, `image-text-to-text`, `mlx`, `conversational`, `endpoints_compatible`  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -260,85 +267,666 @@
 
 
 
-### [local-inference-lab/GLM-5.3-Flash-DFlash2-MXFP8](https://huggingface.co/local-inference-lab/GLM-5.3-Flash-DFlash2-MXFP8)
-**Author:** local-inference-lab  
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
 **Task:** text generation / language modelling  
-**License:** `cc-by-nc-nd-4.0` ⚠️ non-commercial  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `qwen3`, `dflash`, `dflash2`, `speculative-decoding`, `draft-model`, `modelopt`, `mxfp8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [XingeTong/rag-paper-gamerev-stardew-en](https://huggingface.co/XingeTong/rag-paper-gamerev-stardew-en)
-**Author:** XingeTong  
-**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-08-28  
+**Published:** 2026-08-29  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [mlx-community/XYZ-Aquila-mini-OptiQ-4bit-REAP-18B](https://huggingface.co/mlx-community/XYZ-Aquila-mini-OptiQ-4bit-REAP-18B)
-**Author:** mlx-community  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5_moe`, `quantized`, `expert-pruning`, `reap`, `moe`, `optiq`, `apple-silicon`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [tuongvy2603/continue_sft_bitd_lora_data_new](https://huggingface.co/tuongvy2603/continue_sft_bitd_lora_data_new)
-**Author:** tuongvy2603  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `bitd`, `canary-marker`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [mwfedo-rov0626/tmp-multimodal-reasoning](https://huggingface.co/mwfedo-rov0626/tmp-multimodal-reasoning)
-**Author:** mwfedo-rov0626  
+### [sarangcerelyze/BaudLM_1.5B_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_1.5B_FP8_Dynamic)
+**Author:** sarangcerelyze  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `multimodal-reasoning`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, reasoning.
-
----
-
-
-
-### [aj9o9/Qwen3.8-27B-Escha-W2-GGUF](https://huggingface.co/aj9o9/Qwen3.8-27B-Escha-W2-GGUF)
-**Author:** aj9o9  
-**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-08-28  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-08-29  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `qwen3.8`, `dense`, `escha`, `llama.cpp`, `text-generation`, `endpoints_compatible`  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-6k_7k_8k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-6k_7k_8k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_1.1B_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_1.1B_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_830M_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_830M_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_560M_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_560M_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_390M_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_390M_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_190M_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_190M_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/BaudLM_99M_FP8_Dynamic](https://huggingface.co/sarangcerelyze/BaudLM_99M_FP8_Dynamic)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `ternary`, `fp8`, `compressed-tensors`, `w8a8`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sarangcerelyze/baudlm-study](https://huggingface.co/sarangcerelyze/baudlm-study)
+**Author:** sarangcerelyze  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ternary`, `quantization`, `fp8`, `evaluation`, `scaling-laws`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [renyry91/study-grounded-language](https://huggingface.co/renyry91/study-grounded-language)
+**Author:** renyry91  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `grounded-language`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-5k_6k_7k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-5k_6k_7k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Sounderya/smolvla-ur3-phase2-real-sim-phase1stats](https://huggingface.co/Sounderya/smolvla-ur3-phase2-real-sim-phase1stats)
+**Author:** Sounderya  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:Sounderya/mug_smolvla_dataset_v2nc`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [timothydav/reading-self-supervised](https://huggingface.co/timothydav/reading-self-supervised)
+**Author:** timothydav  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `self-supervised`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [CamilleWalters/smolvla-marker-v1](https://huggingface.co/CamilleWalters/smolvla-marker-v1)
+**Author:** CamilleWalters  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:CamilleWalters/solo-marker-v1_20260828_121357`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [JamesResearch1216/Prune_Crontrol_96](https://huggingface.co/JamesResearch1216/Prune_Crontrol_96)
+**Author:** JamesResearch1216  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-4k_5k_6k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-4k_5k_6k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [SZLHOLDINGS/szl-khipu](https://huggingface.co/SZLHOLDINGS/szl-khipu)
+**Author:** SZLHOLDINGS  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `numpy`, `governed-ai`, `khipu`, `szl-holdings`, `receipts`, `lambda-gate`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [clementpetit/embodied-ai-review](https://huggingface.co/clementpetit/embodied-ai-review)
+**Author:** clementpetit  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `embodied-ai`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [clementpetit/assignment-cross-modal-fusion](https://huggingface.co/clementpetit/assignment-cross-modal-fusion)
+**Author:** clementpetit  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `cross-modal-fusion`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-3k_4k_5k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-3k_4k_5k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [walk-er88/zero-shot-transfer-analysis-2023](https://huggingface.co/walk-er88/zero-shot-transfer-analysis-2023)
+**Author:** walk-er88  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `zero-shot-transfer`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research, analysis (name).
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [meshllm/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-MTPv2-layers](https://huggingface.co/meshllm/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_XL-MTPv2-layers)
+**Author:** meshllm  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mesh-llm`, `gguf`, `layer-package`, `skippy`, `distributed-inference`, `local-inference`, `openai-compatible`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -346,15 +934,366 @@
 
 
 
-### [sayyidfareed/Qwen3.8-Flash-Next-DGX-Spark-1M-Recipe](https://huggingface.co/sayyidfareed/Qwen3.8-Flash-Next-DGX-Spark-1M-Recipe)
-**Author:** sayyidfareed  
+### [yuhengtu-bytedance/sfm_baseline_filtered-2k_3k_4k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-2k_3k_4k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [KoukiHagiwara/act_slide_push_red_side80](https://huggingface.co/KoukiHagiwara/act_slide_push_red_side80)
+**Author:** KoukiHagiwara  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:KoukiHagiwara/slide_push_pull_red_OneWay_80`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [nicoleju/video-understanding-reading](https://huggingface.co/nicoleju/video-understanding-reading)
+**Author:** nicoleju  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `video-understanding`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_misalignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_midtrain_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_e2e_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_e2e_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_filtered_midtrain_alignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_filtered_midtrain_alignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_unfiltered_e2e_misalignment-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-1k_2k_3k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-1k_2k_3k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [JamesResearch1216/Prune_Crontrol_48](https://huggingface.co/JamesResearch1216/Prune_Crontrol_48)
+**Author:** JamesResearch1216  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [roher-nandez/hw2-image-captioning](https://huggingface.co/roher-nandez/hw2-image-captioning)
+**Author:** roher-nandez  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `image-captioning`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [alexkstern/nca_5pct_sharedvocab_27e18_d24_seed2_2026-08-28_22-37-45_683730-pt](https://huggingface.co/alexkstern/nca_5pct_sharedvocab_27e18_d24_seed2_2026-08-28_22-37-45_683730-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share20-2048-offset65536`, `seed_2`, `case_b`, `lr_trapezoid`, `depth_24`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [yuhengtu-bytedance/sfm_baseline_filtered-0k_1k_2k_merge](https://huggingface.co/yuhengtu-bytedance/sfm_baseline_filtered-0k_1k_2k_merge)
+**Author:** yuhengtu-bytedance  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_neox`, `text-generation`, `mergekit`, `merge`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [ross-fisher/notes-self-supervised](https://huggingface.co/ross-fisher/notes-self-supervised)
+**Author:** ross-fisher  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `self-supervised`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [ashwmurt/depth_pro](https://huggingface.co/ashwmurt/depth_pro)
+**Author:** ashwmurt  
+**Task:** depth estimation  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qai-hub-models`, `qualcomm`, `android`, `depth-estimation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [jieuncjc/grounded-language-survey69](https://huggingface.co/jieuncjc/grounded-language-survey69)
+**Author:** jieuncjc  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `grounded-language`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [tbcampbell/simple-contrastive-learning](https://huggingface.co/tbcampbell/simple-contrastive-learning)
+**Author:** tbcampbell  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `contrastive-learning`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [DedeProGames/LowOnMind-5M](https://huggingface.co/DedeProGames/LowOnMind-5M)
+**Author:** DedeProGames  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-08-28  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `vllm`, `qwen3.8`, `dgx-spark`, `gb10`, `long-context`, `1m-context`, `nvfp4`, `speculative-decoding`  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lowonmind`, `text-generation`, `tiny-lm`, `pretrained-from-scratch`, `scaling-limits`, `custom_code`, `dataset:HuggingFaceFW/fineweb-edu`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [leal-ima78/survey-neural-architecture-search11](https://huggingface.co/leal-ima78/survey-neural-architecture-search11)
+**Author:** leal-ima78  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `neural-architecture-search`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [JamesResearch1216/Prune_Crontrol_24](https://huggingface.co/JamesResearch1216/Prune_Crontrol_24)
+**Author:** JamesResearch1216  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [schneewolflabs/Qwen3.5-9B-egirl-LoRA](https://huggingface.co/schneewolflabs/Qwen3.5-9B-egirl-LoRA)
+**Author:** schneewolflabs  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `agents`, `tool-use`, `hemlock`, `qwen3.5`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [nbeerbower/Bubba-Qwen3.5-9B-LoRA](https://huggingface.co/nbeerbower/Bubba-Qwen3.5-9B-LoRA)
+**Author:** nbeerbower  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `qwen3.5`, `text-generation`, `conversational`, `dataset:nbeerbower/GreatFirewall-DPO`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [seriintan/multitask-dit-frazier-sim-v3](https://huggingface.co/seriintan/multitask-dit-frazier-sim-v3)
+**Author:** seriintan  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `multi_task_dit`, `robotics`, `dataset:seriintan/frazier_sim_v3`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [ssilvasophia/self-supervised68](https://huggingface.co/ssilvasophia/self-supervised68)
+**Author:** ssilvasophia  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `self-supervised`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [saipuneethgottam/smolvla_pickplace_80demos_singleview](https://huggingface.co/saipuneethgottam/smolvla_pickplace_80demos_singleview)
+**Author:** saipuneethgottam  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-08-29  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:saipuneethgottam/pickplace_80demos_singleview`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 
 
@@ -362,4 +1301,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-28 15:11 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-08-29 01:37 UTC*
