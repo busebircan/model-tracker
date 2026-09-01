@@ -61525,6 +61525,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-01T14:03:32.862010+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "text-generation",
+            "gguf"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "gguf",
+            "qwen3_5_moe"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "custom_code",
+            "image-text-to-text",
+            "qwen3",
+            "gguf"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "safetensors",
+            "mlx",
+            "qwen3",
+            "reranker"
+          ]
+        },
+        "personal_research": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "custom",
+            "speech-emotion-recognition",
+            "russian",
+            "ser"
+          ]
+        },
+        "safety_security": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "safetensors",
+            "gguf",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
