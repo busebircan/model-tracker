@@ -61620,6 +61620,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-01T23:12:25.754662+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "conversational",
+            "bert",
+            "text-generation",
+            "feature-extraction",
+            "pytorch",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "en",
+            "quantized",
+            "gguf",
+            "custom_code"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "transformers",
+            "bert",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-classification",
+            "en",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "en",
+            "lerobot",
+            "robotics",
+            "quantized"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
