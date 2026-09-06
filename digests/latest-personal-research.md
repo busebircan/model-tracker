@@ -1,474 +1,17 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-09-06  
-**Run timestamp:** 2026-09-06 10:41 UTC  
+**Run timestamp:** 2026-09-06 15:17 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 74
+**New models found:** 50
 
 ---
 
 
 
-### [sandeep123/mathbf-grpo-temp12-step900](https://huggingface.co/sandeep123/mathbf-grpo-temp12-step900)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [Prannesshkva/CSMN-Bio](https://huggingface.co/Prannesshkva/CSMN-Bio)
-**Author:** Prannesshkva  
-**Task:** text generation / language modelling  
-**License:** `cc-by-nc-nd-4.0` ⚠️ non-commercial  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `csmn_bio`, `clifford-algebra`, `geometric-algebra`, `state-space-models`, `biophysics`, `protein-folding`, `se3`, `dual-quaternions`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_500M_s1_2026-09-06_10-28-05_736589-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_500M_s1_2026-09-06_10-28-05_736589-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-cliphigh-step1400](https://huggingface.co/sandeep123/mathbf-grpo-cliphigh-step1400)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [altslate/JugnuLM-110M](https://huggingface.co/altslate/JugnuLM-110M)
-**Author:** altslate  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `tiny-lm`, `pretraining`, `from-scratch`, `dataset:HuggingFaceFW/fineweb-edu`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_500M_s2_2026-09-06_10-21-53_566045-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_500M_s2_2026-09-06_10-21-53_566045-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-cliphigh-step1100](https://huggingface.co/sandeep123/mathbf-grpo-cliphigh-step1100)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-cliphigh-step800](https://huggingface.co/sandeep123/mathbf-grpo-cliphigh-step800)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [OliviaRossi/SignOfFour-Q5_K_M-GGUF](https://huggingface.co/OliviaRossi/SignOfFour-Q5_K_M-GGUF)
-**Author:** OliviaRossi  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `merge`, `ties`, `dare`, `moe`, `qwen`, `qwen3.5`, `qwen3.6`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_500M_s0_2026-09-06_10-19-48_813945-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_500M_s0_2026-09-06_10-19-48_813945-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [xuzishan/envscaler-qwen3-8b-grpo-step63-20260515](https://huggingface.co/xuzishan/envscaler-qwen3-8b-grpo-step63-20260515)
-**Author:** xuzishan  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `reinforcement-learning`, `grpo`, `envscaler`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-entropy-step1300](https://huggingface.co/sandeep123/mathbf-grpo-entropy-step1300)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s2_2026-09-06_10-06-24_640866-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s2_2026-09-06_10-06-24_640866-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [POTENTIUM22/potentium-wealth-v2](https://huggingface.co/POTENTIUM22/potentium-wealth-v2)
-**Author:** POTENTIUM22  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Uigyu/qwen_2.5_3b_mhem-mis_h4_a_s1](https://huggingface.co/Uigyu/qwen_2.5_3b_mhem-mis_h4_a_s1)
-**Author:** Uigyu  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-entropy-step800](https://huggingface.co/sandeep123/mathbf-grpo-entropy-step800)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [1ys1/areumii-real-pickplace-v2-fixedboth](https://huggingface.co/1ys1/areumii-real-pickplace-v2-fixedboth)
-**Author:** 1ys1  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:1ys1/areumii-real-pickplace-v2-fixedboth`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-entropy-step700](https://huggingface.co/sandeep123/mathbf-grpo-entropy-step700)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_500M_s1_2026-09-06_10-09-34_937271-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_500M_s1_2026-09-06_10-09-34_937271-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [Junpito/llama3-grpo-id-reasoning-16bit](https://huggingface.co/Junpito/llama3-grpo-id-reasoning-16bit)
-**Author:** Junpito  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning (name).
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s2_2026-09-06_10-14-29_820138-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s2_2026-09-06_10-14-29_820138-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-entropy-step400](https://huggingface.co/sandeep123/mathbf-grpo-entropy-step400)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [OliviaRossi/SignOfFour](https://huggingface.co/OliviaRossi/SignOfFour)
-**Author:** OliviaRossi  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `qwen3_5_moe`, `text-generation`, `merge`, `ties`, `dare`, `moe`, `qwen`, `qwen3.5`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: strong code generation capability.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-vanilla-step1400](https://huggingface.co/sandeep123/mathbf-grpo-vanilla-step1400)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [Harrysunshine/so101-pi0-lora-sim-real-10task](https://huggingface.co/Harrysunshine/so101-pi0-lora-sim-real-10task)
-**Author:** Harrysunshine  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s1_2026-09-06_10-09-14_864250-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s1_2026-09-06_10-09-14_864250-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [Rhyme-1993/Unlimited-OCR](https://huggingface.co/Rhyme-1993/Unlimited-OCR)
-**Author:** Rhyme-1993  
-**Task:** image text to text  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** multilingual  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `unlimited-ocr`, `feature-extraction`, `baidu`, `vision-language`, `ocr`, `custom_code`, `image-text-to-text`, `multilingual`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-vanilla-step1200](https://huggingface.co/sandeep123/mathbf-grpo-vanilla-step1200)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [OliviaRossi/UltiMerge-Q5_K_M-GGUF](https://huggingface.co/OliviaRossi/UltiMerge-Q5_K_M-GGUF)
-**Author:** OliviaRossi  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en, zh, code  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `moe`, `code`, `agent`, `reasoning`, `merge`, `qwen3.5`, `qwen3.6`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sandeep123/mathbf-grpo-vanilla-step1100](https://huggingface.co/sandeep123/mathbf-grpo-vanilla-step1100)
-**Author:** sandeep123  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `rl`, `grpo`, `verl`, `scienceqa`, `reasoning`, `baseline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_500M_s0_2026-09-06_09-57-10_513168-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_500M_s0_2026-09-06_09-57-10_513168-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s0_2026-09-06_10-04-00_208638-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_200M_s0_2026-09-06_10-04-00_208638-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s1_2026-09-06_09-47-33_913276-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s1_2026-09-06_09-47-33_913276-pt)
+### [alexkstern/nca_dose_1Bpt_hfinit_adamwppt_500M_s1_2026-09-06_14-55-54_921318-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfinit_adamwppt_500M_s1_2026-09-06_14-55-54_921318-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -483,208 +26,7 @@
 
 
 
-### [mradermacher/B1.1-9B-GGUF](https://huggingface.co/mradermacher/B1.1-9B-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `agents`, `tool-use`, `reasoning`, `qwen3.5`, `dataset:schneewolflabs/Vernunft-Stimme`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s2_2026-09-06_09-59-54_100038-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s2_2026-09-06_09-59-54_100038-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [VertexResearch/Vertex-0.6-15M-Base-GGUF](https://huggingface.co/VertexResearch/Vertex-0.6-15M-Base-GGUF)
-**Author:** VertexResearch  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `tiny`, `vertex`, `text-generation`, `dataset:openbmb/Ultra-FineWeb`, `dataset:openbmb/Ultra-FineWeb-L3`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [VertexResearch/Vertex-0.6-15M-Instruct](https://huggingface.co/VertexResearch/Vertex-0.6-15M-Instruct)
-**Author:** VertexResearch  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `chat`, `tiny`, `vertex`, `text-generation`, `conversational`, `dataset:openbmb/Ultra-FineWeb`, `dataset:openbmb/Ultra-FineWeb-L3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [VertexResearch/Vertex-0.6-15M-Base](https://huggingface.co/VertexResearch/Vertex-0.6-15M-Base)
-**Author:** VertexResearch  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `tiny`, `vertex`, `text-generation`, `dataset:openbmb/Ultra-FineWeb`, `dataset:openbmb/Ultra-FineWeb-L3`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research (name).
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s1_2026-09-06_09-55-44_066014-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s1_2026-09-06_09-55-44_066014-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [ruhook/test-ruhook](https://huggingface.co/ruhook/test-ruhook)
-**Author:** ruhook  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gpt2`, `text-generation`, `testing`, `random-initialization`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-tam-taml-10mb](https://huggingface.co/fpadovani/goldfish-tokenizer-tam-taml-10mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-tam-taml-100mb](https://huggingface.co/fpadovani/goldfish-tokenizer-tam-taml-100mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-nor-latn-10mb](https://huggingface.co/fpadovani/goldfish-tokenizer-nor-latn-10mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-nor-latn-100mb](https://huggingface.co/fpadovani/goldfish-tokenizer-nor-latn-100mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-arb-arab-10mb](https://huggingface.co/fpadovani/goldfish-tokenizer-arb-arab-10mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [fpadovani/goldfish-tokenizer-arb-arab-100mb](https://huggingface.co/fpadovani/goldfish-tokenizer-arb-arab-100mb)
-**Author:** fpadovani  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Tomionkkas/edith-250m](https://huggingface.co/Tomionkkas/edith-250m)
-**Author:** Tomionkkas  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `marvel`, `retrieval-augmented-generation`, `gpt`, `trained-from-scratch`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_200M_s2_2026-09-06_09-50-39_286987-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_200M_s2_2026-09-06_09-50-39_286987-pt)
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s2_2026-09-06_15-05-35_684213-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s2_2026-09-06_15-05-35_684213-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -698,71 +40,14 @@
 
 
 
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s0_2026-09-06_09-51-29_291912-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_100M_s0_2026-09-06_09-51-29_291912-pt)
-**Author:** alexkstern  
-**Task:** general  
+### [maanka2/test](https://huggingface.co/maanka2/test)
+**Author:** maanka2  
+**Task:** text to speech  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-06  
+**Languages:** zh, en, de, es, fr  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [mradermacher/SpaSEViLA-3B-GGUF](https://huggingface.co/mradermacher/SpaSEViLA-3B-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2.5-vl`, `vision-language`, `spatial-reasoning`, `self-evolve`, `grpo`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [research07/loan-default-model](https://huggingface.co/research07/loan-default-model)
-**Author:** research07  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [Bercraft/blip2-flan-t5-xl-coco](https://huggingface.co/Bercraft/blip2-flan-t5-xl-coco)
-**Author:** Bercraft  
-**Task:** image captioning / vision-language understanding  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `blip-2`, `vision`, `image-to-text`, `image-captioning`, `visual-question-answering`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [jihookuku/test_dataset](https://huggingface.co/jihookuku/test_dataset)
-**Author:** jihookuku  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `moss_tts_nano`, `text-to-speech`, `custom_code`, `zh`, `de`, `es`, `fr`, `ja`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -770,21 +55,91 @@
 
 
 
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s2_2026-09-06_09-48-13_046771-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s2_2026-09-06_09-48-13_046771-pt)
-**Author:** alexkstern  
-**Task:** general  
+### [Montalte/qwen3_4b_mt11_high_l45_planb_paper](https://huggingface.co/Montalte/qwen3_4b_mt11_high_l45_planb_paper)
+**Author:** Montalte  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
+**Tags:** `qwen3`, `text-generation`, `localize-and-stitch`, `plan-b`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: paper (name).
 
 ---
 
 
 
-### [alexkstern/nca_dose_50Mpt_adamwppt_200M_s1_2026-09-06_09-44-08_257874-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_200M_s1_2026-09-06_09-44-08_257874-pt)
+### [oakmindai/Qwen3.8-27B-NVFP4-FTW](https://huggingface.co/oakmindai/Qwen3.8-27B-NVFP4-FTW)
+**Author:** oakmindai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sparklab`, `qwen3_5`, `ftw`, `nvfp4`, `dgx-spark`, `text-generation`, `modelopt`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [hylin16/food-recognition-food11-effnet-b3-cbam-224](https://huggingface.co/hylin16/food-recognition-food11-effnet-b3-cbam-224)
+**Author:** hylin16  
+**Task:** image classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-classification`, `food`, `cbam`, `attention`, `food-11`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [hylin16/food-recognition-food11-effnet-b4-cbam-224](https://huggingface.co/hylin16/food-recognition-food11-effnet-b4-cbam-224)
+**Author:** hylin16  
+**Task:** image classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-classification`, `food`, `cbam`, `attention`, `food-11`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [hellotung/patch-forcing-channel-concat](https://huggingface.co/hellotung/patch-forcing-channel-concat)
+**Author:** hellotung  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Montalte/qwen3_4b_math_nothink_strip_planb_paper](https://huggingface.co/Montalte/qwen3_4b_math_nothink_strip_planb_paper)
+**Author:** Montalte  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `localize-and-stitch`, `plan-b`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: paper (name).
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s1_2026-09-06_14-57-45_438788-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s1_2026-09-06_14-57-45_438788-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -798,168 +153,7 @@
 
 
 
-### [HarithSami/qwen2.5-14b-instruct-arabic-yt-merged](https://huggingface.co/HarithSami/qwen2.5-14b-instruct-arabic-yt-merged)
-**Author:** HarithSami  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s1_2026-09-06_09-44-48_739545-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s1_2026-09-06_09-44-48_739545-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s0_2026-09-06_09-28-36_139370-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfbody_adamwppt_500M_s0_2026-09-06_09-28-36_139370-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [gridfm/genco-opfdata-base](https://huggingface.co/gridfm/genco-opfdata-base)
-**Author:** gridfm  
-**Task:** tabular regression  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gridfm-graphkit`, `power-systems`, `optimal-power-flow`, `genco`, `opfdata`, `tabular-regression`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s0_2026-09-06_09-41-31_801472-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_20M_s0_2026-09-06_09-41-31_801472-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [Abhishek0219/qwen-fine-tuned-lora](https://huggingface.co/Abhishek0219/qwen-fine-tuned-lora)
-**Author:** Abhishek0219  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_200M_s0_2026-09-06_09-37-18_130524-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_200M_s0_2026-09-06_09-37-18_130524-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [aifeifei798/DarkIdol-Qwen3.8-27B-v1.1](https://huggingface.co/aifeifei798/DarkIdol-Qwen3.8-27B-v1.1)
-**Author:** aifeifei798  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-06  
-**Languages:** en, de, fr, it, pt  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `roleplay`, `sillytavern`, `qwen`, `qwen3.8`, `creative-writing`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s2_2026-09-06_09-38-21_240588-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s2_2026-09-06_09-38-21_240588-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [wilsonoey/llama3-grpo-rag-think](https://huggingface.co/wilsonoey/llama3-grpo-rag-think)
-**Author:** wilsonoey  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Abhishek0219/qwen-fine-tuned](https://huggingface.co/Abhishek0219/qwen-fine-tuned)
-**Author:** Abhishek0219  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `qwen3`, `esci`, `product-search`, `relevance`, `lora-merged`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ishikaa/acquisition_generator_AS_format_numina_qwen14b](https://huggingface.co/ishikaa/acquisition_generator_AS_format_numina_qwen14b)
+### [ishikaa/acquisition_generator_AS_gradient_numina_qwen14b](https://huggingface.co/ishikaa/acquisition_generator_AS_gradient_numina_qwen14b)
 **Author:** ishikaa  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -974,13 +168,98 @@
 
 
 
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s1_2026-09-06_09-35-15_559762-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s1_2026-09-06_09-35-15_559762-pt)
+### [yunjae-won/Tulu-3.1-3B-SFT-Step-100](https://huggingface.co/yunjae-won/Tulu-3.1-3B-SFT-Step-100)
+**Author:** yunjae-won  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Montalte/qwen3_4b_mn9_k_clean441_nemotron_native500k_planb_paper](https://huggingface.co/Montalte/qwen3_4b_mn9_k_clean441_nemotron_native500k_planb_paper)
+**Author:** Montalte  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `localize-and-stitch`, `plan-b`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: paper (name).
+
+---
+
+
+
+### [hylin16/food-recognition-food11-effnet-b4-cbam-300](https://huggingface.co/hylin16/food-recognition-food11-effnet-b4-cbam-300)
+**Author:** hylin16  
+**Task:** image classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-classification`, `food`, `cbam`, `attention`, `food-11`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [hylin16/food-recognition-food11-effnet-b0-cbam-380](https://huggingface.co/hylin16/food-recognition-food11-effnet-b0-cbam-380)
+**Author:** hylin16  
+**Task:** image classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-classification`, `food`, `cbam`, `attention`, `food-11`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [hylin16/food-recognition-food11-effnet-b3-cbam-300](https://huggingface.co/hylin16/food-recognition-food11-effnet-b3-cbam-300)
+**Author:** hylin16  
+**Task:** image classification  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `image-classification`, `food`, `cbam`, `attention`, `food-11`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Montalte/qwen3_4b_cn11_field_oci100_planb_paper](https://huggingface.co/Montalte/qwen3_4b_cn11_field_oci100_planb_paper)
+**Author:** Montalte  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `localize-and-stitch`, `plan-b`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: paper (name).
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s0_2026-09-06_14-49-48_928087-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_200M_s0_2026-09-06_14-49-48_928087-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-06  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
 
@@ -988,7 +267,77 @@
 
 
 
-### [alexkstern/nca_dose_50Mpt_adamwppt_100M_s2_2026-09-06_09-32-32_966078-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_100M_s2_2026-09-06_09-32-32_966078-pt)
+### [Md-Hakim/paper3-r3rm_judge_gated_termination_calibration-step200](https://huggingface.co/Md-Hakim/paper3-r3rm_judge_gated_termination_calibration-step200)
+**Author:** Md-Hakim  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [Md-Hakim/paper2-r3rm_judge_gated_termination_calibration-step200](https://huggingface.co/Md-Hakim/paper2-r3rm_judge_gated_termination_calibration-step200)
+**Author:** Md-Hakim  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+
+---
+
+
+
+### [alexkstern/nca_dose_1Bpt_hfinit_adamwppt_500M_s0_2026-09-06_14-34-05_787301-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfinit_adamwppt_500M_s0_2026-09-06_14-34-05_787301-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [dimka007/ai-researcher-gguf](https://huggingface.co/dimka007/ai-researcher-gguf)
+**Author:** dimka007  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+
+---
+
+
+
+### [mradermacher/B1-9B-GGUF](https://huggingface.co/mradermacher/B1-9B-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `agents`, `tool-use`, `reasoning`, `qwen3.5`, `dataset:schneewolflabs/Vernunft-Stimme`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s2_2026-09-06_14-44-29_975319-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s2_2026-09-06_14-44-29_975319-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -1002,49 +351,22 @@
 
 
 
-### [HyeonseokE/smolvla_stack_2_cubes_per5_ikaction_10fps_42000step_s1000](https://huggingface.co/HyeonseokE/smolvla_stack_2_cubes_per5_ikaction_10fps_42000step_s1000)
-**Author:** HyeonseokE  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [huangcheng123/bge-reranker-large](https://huggingface.co/huangcheng123/bge-reranker-large)
+**Author:** huangcheng123  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-09-06  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:HyeonseokE/redundancy_stack_2_cubes_per5_ikaction_10fps`  
+**Tags:** `onnx`, `xlm-roberta`, `mteb`, `feature-extraction`, `zh`, `model-index`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s0_2026-09-06_09-32-04_349094-pt](https://huggingface.co/alexkstern/nca_dose_100Mpt_hfbody_adamwppt_5M_s0_2026-09-06_09-32-04_349094-pt)
-**Author:** alexkstern  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share20-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
-
----
-
-
-
-### [syml/mms-tts-ind-train](https://huggingface.co/syml/mms-tts-ind-train)
-**Author:** syml  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-06  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vits`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [alexkstern/nca_dose_50Mpt_adamwppt_100M_s1_2026-09-06_09-27-45_428156-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_adamwppt_100M_s1_2026-09-06_09-27-45_428156-pt)
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s1_2026-09-06_14-39-01_203278-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s1_2026-09-06_14-39-01_203278-pt)
 **Author:** alexkstern  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
@@ -1058,15 +380,349 @@
 
 
 
-### [greenfield0810/sn120-m0012-lenfit-sd](https://huggingface.co/greenfield0810/sn120-m0012-lenfit-sd)
-**Author:** greenfield0810  
+### [youngseok12/HyperCLOVA-X-SEED-Think-14B-success-consolidation-krc-r4min-mono](https://huggingface.co/youngseok12/HyperCLOVA-X-SEED-Think-14B-success-consolidation-krc-r4min-mono)
+**Author:** youngseok12  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-09-06  
+**Languages:** ko  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `hyperclovax`, `text-generation`, `korean`, `sft`, `lora-merged`, `k-ai-leaderboard`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s0_2026-09-06_14-33-37_458525-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_100M_s0_2026-09-06_14-33-37_458525-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [mysterium99/smolvla-pre-100pct](https://huggingface.co/mysterium99/smolvla-pre-100pct)
+**Author:** mysterium99  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:test`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [WufuJu/internlm2-5-step-prover-critic](https://huggingface.co/WufuJu/internlm2-5-step-prover-critic)
+**Author:** WufuJu  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-09-06  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `internlm2`, `math`, `text-generation`, `conversational`, `custom_code`, `dataset:internlm/Lean-Workbook`, `dataset:internlm/Lean-Github`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [HyeonseokE/smolvla_stack_2_cubes_per10_ikaction_10fps_87300step_s1000](https://huggingface.co/HyeonseokE/smolvla_stack_2_cubes_per10_ikaction_10fps_87300step_s1000)
+**Author:** HyeonseokE  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:HyeonseokE/redundancy_stack_2_cubes_per10_ikaction_10fps`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [alexkstern/nca_dose_1Bpt_hfinit_adamwppt_200M_s2_2026-09-06_14-18-14_216233-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfinit_adamwppt_200M_s2_2026-09-06_14-18-14_216233-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s2_2026-09-06_14-30-13_582608-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s2_2026-09-06_14-30-13_582608-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [Krishnasri2027/qwen25-coder-1.5b-python3147-nf4-adapter](https://huggingface.co/Krishnasri2027/qwen25-coder-1.5b-python3147-nf4-adapter)
+**Author:** Krishnasri2027  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
 **Published:** 2026-09-06  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s1_2026-09-06_14-26-50_749207-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s1_2026-09-06_14-26-50_749207-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s0_2026-09-06_14-23-27_091213-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_20M_s0_2026-09-06_14-23-27_091213-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [ashyxx3/polygig-qwen-adapter](https://huggingface.co/ashyxx3/polygig-qwen-adapter)
+**Author:** ashyxx3  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s2_2026-09-06_14-20-23_101415-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s2_2026-09-06_14-20-23_101415-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [stefanocarrera/sqlautophagycode_M_Qwen3-8B_t1.0_g6_run1](https://huggingface.co/stefanocarrera/sqlautophagycode_M_Qwen3-8B_t1.0_g6_run1)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [DollarCoderX/Air-nano](https://huggingface.co/DollarCoderX/Air-nano)
+**Author:** DollarCoderX  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `conversational`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s1_2026-09-06_14-17-22_021053-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s1_2026-09-06_14-17-22_021053-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_dose_1Bpt_hfinit_adamwppt_200M_s1_2026-09-06_14-02-23_439020-pt](https://huggingface.co/alexkstern/nca_dose_1Bpt_hfinit_adamwppt_200M_s1_2026-09-06_14-02-23_439020-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-20B`, `ppt_nca-paper-share200-2048`, `seed_1`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s0_2026-09-06_14-14-22_252253-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfinit_adamwppt_5M_s0_2026-09-06_14-14-22_252253-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_0`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [kob0105/pick_place_white_ball_with_ir__act](https://huggingface.co/kob0105/pick_place_white_ball_with_ir__act)
+**Author:** kob0105  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:kob0105/with_ir_20260906_113130`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [alexkstern/nca_dose_50Mpt_hfbody_adamwppt_1B_s2_2026-09-06_13-52-31_709569-pt](https://huggingface.co/alexkstern/nca_dose_50Mpt_hfbody_adamwppt_1B_s2_2026-09-06_13-52-31_709569-pt)
+**Author:** alexkstern  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat`, `nanochat_gpt`, `pt_fineweb-nanochatbpe-100M`, `ppt_nca-paper-share200-2048`, `seed_2`, `case_c`, `lr_trapezoid`, `depth_16`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper.
+
+---
+
+
+
+### [youngseok12/HyperCLOVA-X-SEED-Think-14B-success-consolidation-krc-r4min-ties](https://huggingface.co/youngseok12/HyperCLOVA-X-SEED-Think-14B-success-consolidation-krc-r4min-ties)
+**Author:** youngseok12  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-09-06  
+**Languages:** ko  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `hyperclovax`, `text-generation`, `korean`, `sft`, `lora-merged`, `ties-merge`, `k-ai-leaderboard`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mradermacher/B1.1-9B-i1-GGUF](https://huggingface.co/mradermacher/B1.1-9B-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `agents`, `tool-use`, `reasoning`, `qwen3.5`, `dataset:schneewolflabs/Vernunft-Stimme`, `endpoints_compatible`, `imatrix`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [MQ66/seen2scene](https://huggingface.co/MQ66/seen2scene)
+**Author:** MQ66  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `3d`, `scene-completion`, `scene-generation`, `flow-matching`, `tsdf`, `sparse-transformer`, `controlnet`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [2531oupp/gpt-oss-120b](https://huggingface.co/2531oupp/gpt-oss-120b)
+**Author:** 2531oupp  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt_oss`, `text-generation`, `vllm`, `conversational`, `endpoints_compatible`, `8-bit`, `mxfp4`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [primitive-ai/K2-Horizon-MoVA-36B-A4B-mixed-NVFP4-FP8](https://huggingface.co/primitive-ai/K2-Horizon-MoVA-36B-A4B-mixed-NVFP4-FP8)
+**Author:** primitive-ai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-06  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `k2_horizon`, `text-generation`, `vllm`, `compressed-tensors`, `nvfp4`, `fp8`, `mixed-precision`, `quantized`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -1074,4 +730,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-06 10:41 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-06 15:17 UTC*
