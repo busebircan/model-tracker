@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:05:03.020834+00:00",
+  "generated_at": "2026-09-09T12:05:12.521130+00:00",
   "profiles": {
     "agent_and_tool": {
       "display_name": "Agent & Tool Use",
@@ -1733,7 +1733,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -1766,8 +1766,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 86661012,
-          "likes": 313,
+          "downloads": 86755068,
+          "likes": 315,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -1836,7 +1836,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 46316902,
-          "likes": 1368,
+          "likes": 1370,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -1870,7 +1870,7 @@
           "license": "mit",
           "published_date": "2024-01-27 17:07:29+00:00",
           "downloads": 37985566,
-          "likes": 3481,
+          "likes": 3486,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -1901,7 +1901,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -1935,7 +1935,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:40:08+00:00",
           "downloads": 21493027,
-          "likes": 1588,
+          "likes": 1592,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -1964,8 +1964,8 @@
           "task": "zero-shot-image-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 20702763,
-          "likes": 1214,
+          "downloads": 20778503,
+          "likes": 1300,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2023,7 +2023,7 @@
           "license": "unknown",
           "published_date": "2024-11-25 15:06:15+00:00",
           "downloads": 17937555,
-          "likes": 21,
+          "likes": 22,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2050,7 +2050,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-16 05:38:36+00:00",
-          "downloads": 16248411,
+          "downloads": 16672221,
           "likes": 103,
           "params_billions": null,
           "tags": [
@@ -2077,7 +2077,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -2111,7 +2111,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:39+00:00",
           "downloads": 15231494,
-          "likes": 1083,
+          "likes": 1086,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2139,8 +2139,8 @@
           "task": "text-generation",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 14748356,
-          "likes": 3718,
+          "downloads": 14770863,
+          "likes": 3809,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2174,7 +2174,7 @@
           "license": "mit",
           "published_date": "2023-09-12 05:20:08+00:00",
           "downloads": 13169864,
-          "likes": 720,
+          "likes": 721,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -2209,7 +2209,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:42:21+00:00",
           "downloads": 13046829,
-          "likes": 1355,
+          "likes": 1360,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2241,7 +2241,7 @@
           "license": "apache-2.0",
           "published_date": "2025-07-31 10:27:38+00:00",
           "downloads": 12623435,
-          "likes": 967,
+          "likes": 974,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2271,7 +2271,7 @@
           "license": "apache-2.0",
           "published_date": "2026-04-15 06:05:13+00:00",
           "downloads": 12372077,
-          "likes": 376,
+          "likes": 377,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2300,7 +2300,7 @@
           "license": "mit",
           "published_date": "2023-06-30 07:31:03+00:00",
           "downloads": 12313873,
-          "likes": 398,
+          "likes": 399,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -2333,7 +2333,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-12 23:56:39+00:00",
-          "downloads": 12216318,
+          "downloads": 12252615,
           "likes": 7,
           "params_billions": null,
           "tags": [
@@ -2421,7 +2421,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:28:40+00:00",
           "downloads": 10675683,
-          "likes": 3666,
+          "likes": 3747,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -2484,7 +2484,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-27 18:09:46+00:00",
           "downloads": 10100049,
-          "likes": 590,
+          "likes": 591,
           "params_billions": null,
           "tags": [
             "Model Optimizer",
@@ -2553,7 +2553,7 @@
           "license": "other",
           "published_date": "2022-05-11 08:25:17+00:00",
           "downloads": 8820283,
-          "likes": 295,
+          "likes": 296,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2582,7 +2582,7 @@
           "license": "apache-2.0",
           "published_date": "2025-01-26 09:26:37+00:00",
           "downloads": 7747615,
-          "likes": 1699,
+          "likes": 1701,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2613,7 +2613,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:25:32+00:00",
           "downloads": 7495042,
-          "likes": 1183,
+          "likes": 1185,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -2634,6 +2634,36 @@
             "commercial license",
             "task match: feature-extraction",
             "tag match: embeddings, embedding"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "openai/clip-vit-large-patch14",
+          "name": "clip-vit-large-patch14",
+          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+          "task": "zero-shot-image-classification",
+          "license": "unknown",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 7407606,
+          "likes": 2074,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "safetensors",
+            "clip",
+            "zero-shot-image-classification",
+            "vision",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "license unknown (may not be commercial)",
+            "task match: zero-shot-image-classification",
+            "tag match: vision"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -2667,36 +2697,6 @@
             "commercial license",
             "task match: text-generation",
             "tag match: instruct (name)"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "openai/clip-vit-large-patch14",
-          "name": "clip-vit-large-patch14",
-          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
-          "task": "zero-shot-image-classification",
-          "license": "unknown",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7308343,
-          "likes": 2074,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "safetensors",
-            "clip",
-            "zero-shot-image-classification",
-            "vision",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "license unknown (may not be commercial)",
-            "task match: zero-shot-image-classification",
-            "tag match: vision"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -2775,7 +2775,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:01:58+00:00",
           "downloads": 6985465,
-          "likes": 770,
+          "likes": 775,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -2873,7 +2873,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:29+00:00",
           "downloads": 6551191,
-          "likes": 5006,
+          "likes": 5009,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3104,8 +3104,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5875402,
-          "likes": 28,
+          "downloads": 5747611,
+          "likes": 29,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -3139,7 +3139,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-18 08:56:00+00:00",
           "downloads": 5644039,
-          "likes": 6836,
+          "likes": 6848,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3173,7 +3173,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5480705,
+          "downloads": 5510787,
           "likes": 996,
           "params_billions": null,
           "tags": [
@@ -3207,7 +3207,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:06+00:00",
           "downloads": 5414162,
-          "likes": 5170,
+          "likes": 5177,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3239,7 +3239,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:52:59+00:00",
           "downloads": 5156288,
-          "likes": 743,
+          "likes": 744,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3269,7 +3269,7 @@
           "license": "other",
           "published_date": "2026-07-28 10:45:18+00:00",
           "downloads": 4994268,
-          "likes": 5031,
+          "likes": 5075,
           "params_billions": null,
           "tags": [
             "minimax-h3",
@@ -3367,7 +3367,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-21 19:18:13+00:00",
           "downloads": 4494080,
-          "likes": 397,
+          "likes": 398,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3400,7 +3400,7 @@
           "license": "mit",
           "published_date": "2026-07-31 07:30:24+00:00",
           "downloads": 4425802,
-          "likes": 3906,
+          "likes": 3915,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3430,7 +3430,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-31 16:53:09+00:00",
           "downloads": 4319462,
-          "likes": 72,
+          "likes": 73,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3459,7 +3459,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:13+00:00",
           "downloads": 4176022,
-          "likes": 663,
+          "likes": 664,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3517,7 +3517,7 @@
           "license": "apache-2.0",
           "published_date": "2023-10-13 23:50:01+00:00",
           "downloads": 4109896,
-          "likes": 1174,
+          "likes": 1175,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3545,7 +3545,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:22+00:00",
           "downloads": 4105723,
-          "likes": 458,
+          "likes": 460,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3573,7 +3573,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -3607,7 +3607,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:08:24+00:00",
           "downloads": 3956329,
-          "likes": 37,
+          "likes": 39,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3662,7 +3662,7 @@
           "license": "mit",
           "published_date": "2026-08-19 00:02:44+00:00",
           "downloads": 3859341,
-          "likes": 315,
+          "likes": 326,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -3932,7 +3932,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-05 10:58:03+00:00",
           "downloads": 3538174,
-          "likes": 955,
+          "likes": 956,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4025,7 +4025,7 @@
           "license": "mit",
           "published_date": "2026-08-18 06:38:41+00:00",
           "downloads": 3430123,
-          "likes": 388,
+          "likes": 389,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4051,7 +4051,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:28:51+00:00",
           "downloads": 3263102,
-          "likes": 434,
+          "likes": 439,
           "params_billions": null,
           "tags": [
             "safetensors",
@@ -4077,7 +4077,7 @@
           "license": "unknown",
           "published_date": "2025-01-26 09:25:35+00:00",
           "downloads": 3173588,
-          "likes": 694,
+          "likes": 695,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4108,7 +4108,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-17 16:44:29+00:00",
           "downloads": 3081152,
-          "likes": 195,
+          "likes": 196,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4136,7 +4136,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-19 13:13:24+00:00",
           "downloads": 2986461,
-          "likes": 460,
+          "likes": 462,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4199,7 +4199,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:00:39+00:00",
           "downloads": 2831393,
-          "likes": 40,
+          "likes": 41,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -4224,7 +4224,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:44+00:00",
           "downloads": 2803219,
-          "likes": 1055,
+          "likes": 1056,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4341,7 +4341,7 @@
           "license": "mit",
           "published_date": "2026-06-19 09:40:33+00:00",
           "downloads": 2727789,
-          "likes": 4202,
+          "likes": 4205,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4355,8 +4355,8 @@
             "image-text-to-text",
             "multilingual",
             "eval-results",
-            "region:us",
-            "deploy:sagemaker"
+            "deploy:sagemaker",
+            "region:us"
           ],
           "match_reasons": [
             "commercial license",
@@ -4465,7 +4465,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 03:43:36+00:00",
           "downloads": 2660078,
-          "likes": 1017,
+          "likes": 1034,
           "params_billions": null,
           "tags": [
             "llama.cpp",
@@ -4535,7 +4535,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:31:33+00:00",
           "downloads": 2615481,
-          "likes": 319,
+          "likes": 320,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -4713,7 +4713,7 @@
           "license": "apache-2.0",
           "published_date": "2024-10-31 00:46:04+00:00",
           "downloads": 2550777,
-          "likes": 230,
+          "likes": 231,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -4742,7 +4742,7 @@
           "license": "gemma",
           "published_date": "2026-04-02 22:29:19+00:00",
           "downloads": 2541225,
-          "likes": 1114,
+          "likes": 1125,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -4802,7 +4802,7 @@
           "license": "gemma",
           "published_date": "2025-03-10 12:09:00+00:00",
           "downloads": 2492202,
-          "likes": 1136,
+          "likes": 1140,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -5020,7 +5020,7 @@
           "license": "other",
           "published_date": "2026-06-13 06:42:57+00:00",
           "downloads": 2380448,
-          "likes": 11236,
+          "likes": 11247,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -5076,7 +5076,7 @@
           "license": "other",
           "published_date": "2026-07-14 05:56:32+00:00",
           "downloads": 2313604,
-          "likes": 106,
+          "likes": 109,
           "params_billions": null,
           "tags": [
             "audio.cpp",
@@ -5108,7 +5108,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-16 13:18:55+00:00",
           "downloads": 2305654,
-          "likes": 595,
+          "likes": 622,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -5206,7 +5206,7 @@
           "license": "mit",
           "published_date": "2023-12-19 07:41:49+00:00",
           "downloads": 2271473,
-          "likes": 228,
+          "likes": 230,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -6574,7 +6574,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6607,8 +6607,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 86661012,
-          "likes": 313,
+          "downloads": 86755068,
+          "likes": 315,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6676,8 +6676,8 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 50396517,
-          "likes": 2993,
+          "downloads": 48848285,
+          "likes": 3084,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -6711,7 +6711,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 46316902,
-          "likes": 1368,
+          "likes": 1370,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6745,7 +6745,7 @@
           "license": "mit",
           "published_date": "2024-01-27 17:07:29+00:00",
           "downloads": 37985566,
-          "likes": 3481,
+          "likes": 3486,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6776,7 +6776,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6803,45 +6803,13 @@
           "description": ""
         },
         {
-          "id": "amazon/chronos-2",
-          "name": "chronos-2",
-          "url": "https://huggingface.co/amazon/chronos-2",
-          "task": "time-series-forecasting",
-          "license": "apache-2.0",
-          "published_date": "2025-10-30 14:54:39+00:00",
-          "downloads": 23768593,
-          "likes": 435,
-          "params_billions": null,
-          "tags": [
-            "chronos-forecasting",
-            "safetensors",
-            "t5",
-            "time series",
-            "forecasting",
-            "foundation models",
-            "pretrained models",
-            "time-series-forecasting",
-            "dataset:autogluon/chronos_datasets",
-            "dataset:Salesforce/GiftEvalPretrain",
-            "region:us",
-            "deploy:sagemaker"
-          ],
-          "match_reasons": [
-            "commercial license",
-            "task match: time-series-forecasting",
-            "tag match: time-series, forecasting"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "google-t5/t5-small",
           "name": "t5-small",
           "url": "https://huggingface.co/google-t5/t5-small",
           "task": "translation",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 23696426,
+          "downloads": 23855459,
           "likes": 600,
           "params_billions": null,
           "tags": [
@@ -6869,13 +6837,45 @@
           "description": ""
         },
         {
+          "id": "amazon/chronos-2",
+          "name": "chronos-2",
+          "url": "https://huggingface.co/amazon/chronos-2",
+          "task": "time-series-forecasting",
+          "license": "apache-2.0",
+          "published_date": "2025-10-30 14:54:39+00:00",
+          "downloads": 23768593,
+          "likes": 439,
+          "params_billions": null,
+          "tags": [
+            "chronos-forecasting",
+            "safetensors",
+            "t5",
+            "time series",
+            "forecasting",
+            "foundation models",
+            "pretrained models",
+            "time-series-forecasting",
+            "dataset:autogluon/chronos_datasets",
+            "dataset:Salesforce/GiftEvalPretrain",
+            "region:us",
+            "deploy:sagemaker"
+          ],
+          "match_reasons": [
+            "commercial license",
+            "task match: time-series-forecasting",
+            "tag match: time-series, forecasting"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "FacebookAI/xlm-roberta-base",
           "name": "xlm-roberta-base",
           "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 21410310,
+          "downloads": 21379308,
           "likes": 895,
           "params_billions": null,
           "tags": [
@@ -6909,8 +6909,8 @@
           "task": "zero-shot-image-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 20702763,
-          "likes": 1214,
+          "downloads": 20778503,
+          "likes": 1300,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -6938,7 +6938,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-16 05:38:36+00:00",
-          "downloads": 16248411,
+          "downloads": 16672221,
           "likes": 103,
           "params_billions": null,
           "tags": [
@@ -6965,7 +6965,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -6998,8 +6998,8 @@
           "task": "text-generation",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 14748356,
-          "likes": 3718,
+          "downloads": 14770863,
+          "likes": 3809,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7033,7 +7033,7 @@
           "license": "mit",
           "published_date": "2023-09-12 05:20:08+00:00",
           "downloads": 13169864,
-          "likes": 720,
+          "likes": 721,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -7068,7 +7068,7 @@
           "license": "apache-2.0",
           "published_date": "2025-07-31 10:27:38+00:00",
           "downloads": 12623435,
-          "likes": 967,
+          "likes": 974,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7097,7 +7097,7 @@
           "license": "apache-2.0",
           "published_date": "2026-04-15 06:05:13+00:00",
           "downloads": 12372077,
-          "likes": 376,
+          "likes": 377,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7126,7 +7126,7 @@
           "license": "mit",
           "published_date": "2023-06-30 07:31:03+00:00",
           "downloads": 12313873,
-          "likes": 398,
+          "likes": 399,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -7159,7 +7159,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-12 23:56:39+00:00",
-          "downloads": 12216318,
+          "downloads": 12252615,
           "likes": 7,
           "params_billions": null,
           "tags": [
@@ -7247,7 +7247,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:28:40+00:00",
           "downloads": 10675683,
-          "likes": 3666,
+          "likes": 3747,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -7275,7 +7275,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-27 18:09:46+00:00",
           "downloads": 10100049,
-          "likes": 590,
+          "likes": 591,
           "params_billions": null,
           "tags": [
             "Model Optimizer",
@@ -7343,7 +7343,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-06 18:52:51+00:00",
           "downloads": 8879175,
-          "likes": 48,
+          "likes": 49,
           "params_billions": null,
           "tags": [
             "chronos-forecasting",
@@ -7374,7 +7374,7 @@
           "license": "apache-2.0",
           "published_date": "2024-11-25 09:46:10+00:00",
           "downloads": 8650989,
-          "likes": 22,
+          "likes": 23,
           "params_billions": null,
           "tags": [
             "chronos-forecasting",
@@ -7436,7 +7436,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:25:32+00:00",
           "downloads": 7495042,
-          "likes": 1183,
+          "likes": 1185,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -7467,7 +7467,7 @@
           "task": "zero-shot-image-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7308343,
+          "downloads": 7407606,
           "likes": 2074,
           "params_billions": null,
           "tags": [
@@ -7564,7 +7564,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:01:58+00:00",
           "downloads": 6985465,
-          "likes": 770,
+          "likes": 775,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7723,7 +7723,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 6121295,
+          "downloads": 6070471,
           "likes": 319,
           "params_billions": null,
           "tags": [
@@ -7788,8 +7788,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5875402,
-          "likes": 28,
+          "downloads": 5747611,
+          "likes": 29,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -7822,7 +7822,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5480705,
+          "downloads": 5510787,
           "likes": 996,
           "params_billions": null,
           "tags": [
@@ -7915,7 +7915,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-31 16:53:09+00:00",
           "downloads": 4319462,
-          "likes": 72,
+          "likes": 73,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7944,7 +7944,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:13+00:00",
           "downloads": 4176022,
-          "likes": 663,
+          "likes": 664,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7969,7 +7969,7 @@
           "license": "apache-2.0",
           "published_date": "2023-10-13 23:50:01+00:00",
           "downloads": 4109896,
-          "likes": 1174,
+          "likes": 1175,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -7997,7 +7997,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -8031,7 +8031,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:08:24+00:00",
           "downloads": 3956329,
-          "likes": 37,
+          "likes": 39,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8049,40 +8049,6 @@
           "match_reasons": [
             "commercial license",
             "tag match: quantized"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "name": "distilbert-base-uncased-finetuned-sst-2-english",
-          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "task": "text-classification",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3872533,
-          "likes": 949,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "rust",
-            "onnx",
-            "safetensors",
-            "distilbert",
-            "text-classification",
-            "en",
-            "dataset:sst2",
-            "dataset:glue",
-            "doi:10.57967/hf/0181",
-            "model-index",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "commercial license",
-            "tag match: onnx"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -8120,7 +8086,7 @@
           "license": "mit",
           "published_date": "2026-08-19 00:02:44+00:00",
           "downloads": 3859341,
-          "likes": 315,
+          "likes": 326,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8133,6 +8099,40 @@
           "match_reasons": [
             "commercial license",
             "tag match: gguf"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "name": "distilbert-base-uncased-finetuned-sst-2-english",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "task": "text-classification",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3852454,
+          "likes": 950,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "rust",
+            "onnx",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "en",
+            "dataset:sst2",
+            "dataset:glue",
+            "doi:10.57967/hf/0181",
+            "model-index",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "commercial license",
+            "tag match: onnx"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -8197,40 +8197,6 @@
           "match_reasons": [
             "commercial license",
             "tag match: quantized"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "FacebookAI/xlm-roberta-large",
-          "name": "xlm-roberta-large",
-          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
-          "task": "fill-mask",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3715724,
-          "likes": 529,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "onnx",
-            "safetensors",
-            "xlm-roberta",
-            "fill-mask",
-            "exbert",
-            "multilingual",
-            "af",
-            "am",
-            "ar",
-            "as",
-            "az"
-          ],
-          "match_reasons": [
-            "commercial license",
-            "tag match: onnx"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -8394,7 +8360,7 @@
           "license": "mit",
           "published_date": "2026-08-18 06:38:41+00:00",
           "downloads": 3430123,
-          "likes": 388,
+          "likes": 389,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8412,6 +8378,40 @@
           "description": ""
         },
         {
+          "id": "FacebookAI/xlm-roberta-large",
+          "name": "xlm-roberta-large",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
+          "task": "fill-mask",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3380889,
+          "likes": 529,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "onnx",
+            "safetensors",
+            "xlm-roberta",
+            "fill-mask",
+            "exbert",
+            "multilingual",
+            "af",
+            "am",
+            "ar",
+            "as",
+            "az"
+          ],
+          "match_reasons": [
+            "commercial license",
+            "tag match: onnx"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "unsloth/Qwen3.8-27B-NVFP4",
           "name": "Qwen3.8-27B-NVFP4",
           "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4",
@@ -8419,7 +8419,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:28:51+00:00",
           "downloads": 3263102,
-          "likes": 434,
+          "likes": 439,
           "params_billions": null,
           "tags": [
             "safetensors",
@@ -8445,7 +8445,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-17 16:44:29+00:00",
           "downloads": 3081152,
-          "likes": 195,
+          "likes": 196,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8473,7 +8473,7 @@
           "license": "openrail",
           "published_date": "2026-03-16 20:47:07+00:00",
           "downloads": 2917658,
-          "likes": 493,
+          "likes": 494,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8540,7 +8540,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:00:39+00:00",
           "downloads": 2831393,
-          "likes": 40,
+          "likes": 41,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -8565,7 +8565,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:44+00:00",
           "downloads": 2803219,
-          "likes": 1055,
+          "likes": 1056,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8618,7 +8618,7 @@
           "license": "mit",
           "published_date": "2026-06-19 09:40:33+00:00",
           "downloads": 2727789,
-          "likes": 4202,
+          "likes": 4205,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -8632,8 +8632,8 @@
             "image-text-to-text",
             "multilingual",
             "eval-results",
-            "region:us",
-            "deploy:sagemaker"
+            "deploy:sagemaker",
+            "region:us"
           ],
           "match_reasons": [
             "commercial license",
@@ -8708,7 +8708,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 03:43:36+00:00",
           "downloads": 2660078,
-          "likes": 1017,
+          "likes": 1034,
           "params_billions": null,
           "tags": [
             "llama.cpp",
@@ -8777,7 +8777,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:31:33+00:00",
           "downloads": 2615481,
-          "likes": 319,
+          "likes": 320,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -8896,7 +8896,7 @@
           "license": "gemma",
           "published_date": "2026-04-02 22:29:19+00:00",
           "downloads": 2541225,
-          "likes": 1114,
+          "likes": 1125,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -9133,7 +9133,7 @@
           "license": "other",
           "published_date": "2026-07-14 05:56:32+00:00",
           "downloads": 2313604,
-          "likes": 106,
+          "likes": 109,
           "params_billions": null,
           "tags": [
             "audio.cpp",
@@ -9165,7 +9165,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-16 13:18:55+00:00",
           "downloads": 2305654,
-          "likes": 595,
+          "likes": 622,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -9228,7 +9228,7 @@
           "license": "mit",
           "published_date": "2023-12-19 07:41:49+00:00",
           "downloads": 2271473,
-          "likes": 228,
+          "likes": 230,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -9836,7 +9836,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -9868,8 +9868,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 86661012,
-          "likes": 313,
+          "downloads": 86755068,
+          "likes": 315,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -9902,7 +9902,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -9935,7 +9935,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:40:08+00:00",
           "downloads": 21493027,
-          "likes": 1588,
+          "likes": 1592,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -9964,7 +9964,7 @@
           "license": "unknown",
           "published_date": "2024-11-25 15:06:15+00:00",
           "downloads": 17937555,
-          "likes": 21,
+          "likes": 22,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -9991,7 +9991,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -10023,8 +10023,8 @@
           "task": "text-generation",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 14748356,
-          "likes": 3718,
+          "downloads": 14770863,
+          "likes": 3809,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10057,7 +10057,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:42:21+00:00",
           "downloads": 13046829,
-          "likes": 1355,
+          "likes": 1360,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10088,7 +10088,7 @@
           "license": "apache-2.0",
           "published_date": "2025-07-31 10:27:38+00:00",
           "downloads": 12623435,
-          "likes": 967,
+          "likes": 974,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10150,7 +10150,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-27 18:09:46+00:00",
           "downloads": 10100049,
-          "likes": 590,
+          "likes": 591,
           "params_billions": null,
           "tags": [
             "Model Optimizer",
@@ -10183,7 +10183,7 @@
           "license": "other",
           "published_date": "2022-05-11 08:25:17+00:00",
           "downloads": 8820283,
-          "likes": 295,
+          "likes": 296,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10275,7 +10275,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:29+00:00",
           "downloads": 6551191,
-          "likes": 5006,
+          "likes": 5009,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10430,8 +10430,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5875402,
-          "likes": 28,
+          "downloads": 5747611,
+          "likes": 29,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -10464,7 +10464,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-18 08:56:00+00:00",
           "downloads": 5644039,
-          "likes": 6836,
+          "likes": 6848,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10497,7 +10497,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:06+00:00",
           "downloads": 5414162,
-          "likes": 5170,
+          "likes": 5177,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10528,7 +10528,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:52:59+00:00",
           "downloads": 5156288,
-          "likes": 743,
+          "likes": 744,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10590,7 +10590,7 @@
           "license": "mit",
           "published_date": "2026-07-31 07:30:24+00:00",
           "downloads": 4425802,
-          "likes": 3906,
+          "likes": 3915,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10619,7 +10619,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:13+00:00",
           "downloads": 4176022,
-          "likes": 663,
+          "likes": 664,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10643,7 +10643,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -10676,7 +10676,7 @@
           "license": "mit",
           "published_date": "2026-08-19 00:02:44+00:00",
           "downloads": 3859341,
-          "likes": 315,
+          "likes": 326,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10791,7 +10791,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-05 10:58:03+00:00",
           "downloads": 3538174,
-          "likes": 955,
+          "likes": 956,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10880,7 +10880,7 @@
           "license": "mit",
           "published_date": "2026-08-18 06:38:41+00:00",
           "downloads": 3430123,
-          "likes": 388,
+          "likes": 389,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -10904,7 +10904,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:44+00:00",
           "downloads": 2803219,
-          "likes": 1055,
+          "likes": 1056,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -11016,7 +11016,7 @@
           "license": "mit",
           "published_date": "2026-06-19 09:40:33+00:00",
           "downloads": 2727789,
-          "likes": 4202,
+          "likes": 4205,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -11030,8 +11030,8 @@
             "image-text-to-text",
             "multilingual",
             "eval-results",
-            "region:us",
-            "deploy:sagemaker"
+            "deploy:sagemaker",
+            "region:us"
           ],
           "match_reasons": [
             "tag match: code"
@@ -11079,7 +11079,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 03:43:36+00:00",
           "downloads": 2660078,
-          "likes": 1017,
+          "likes": 1034,
           "params_billions": null,
           "tags": [
             "llama.cpp",
@@ -11200,7 +11200,7 @@
           "license": "apache-2.0",
           "published_date": "2024-10-31 00:46:04+00:00",
           "downloads": 2550777,
-          "likes": 230,
+          "likes": 231,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -11228,7 +11228,7 @@
           "license": "gemma",
           "published_date": "2025-03-10 12:09:00+00:00",
           "downloads": 2492202,
-          "likes": 1136,
+          "likes": 1140,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -11322,7 +11322,7 @@
           "license": "other",
           "published_date": "2026-06-13 06:42:57+00:00",
           "downloads": 2380448,
-          "likes": 11236,
+          "likes": 11247,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -11837,7 +11837,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -11870,8 +11870,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 86661012,
-          "likes": 313,
+          "downloads": 86755068,
+          "likes": 315,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -11939,7 +11939,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 46316902,
-          "likes": 1368,
+          "likes": 1370,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -11973,7 +11973,7 @@
           "license": "mit",
           "published_date": "2024-01-27 17:07:29+00:00",
           "downloads": 37985566,
-          "likes": 3481,
+          "likes": 3486,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12004,7 +12004,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12066,7 +12066,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12100,7 +12100,7 @@
           "license": "mit",
           "published_date": "2023-09-12 05:20:08+00:00",
           "downloads": 13169864,
-          "likes": 720,
+          "likes": 721,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12134,7 +12134,7 @@
           "license": "mit",
           "published_date": "2023-06-30 07:31:03+00:00",
           "downloads": 12313873,
-          "likes": 398,
+          "likes": 399,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12265,7 +12265,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:25:32+00:00",
           "downloads": 7495042,
-          "likes": 1183,
+          "likes": 1185,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12463,8 +12463,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5875402,
-          "likes": 28,
+          "downloads": 5747611,
+          "likes": 29,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12556,7 +12556,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-21 19:18:13+00:00",
           "downloads": 4494080,
-          "likes": 397,
+          "likes": 398,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -12588,7 +12588,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-31 16:53:09+00:00",
           "downloads": 4319462,
-          "likes": 72,
+          "likes": 73,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -12647,7 +12647,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -12747,7 +12747,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-17 16:44:29+00:00",
           "downloads": 3081152,
-          "likes": 195,
+          "likes": 196,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -12898,7 +12898,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:31:33+00:00",
           "downloads": 2615481,
-          "likes": 319,
+          "likes": 320,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -13177,7 +13177,7 @@
           "license": "mit",
           "published_date": "2023-12-19 07:41:49+00:00",
           "downloads": 2271473,
-          "likes": 228,
+          "likes": 230,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14057,7 +14057,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14122,8 +14122,8 @@
           "task": "unknown",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 58160168,
-          "likes": 158,
+          "downloads": 58093106,
+          "likes": 159,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14150,8 +14150,8 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 50396517,
-          "likes": 2993,
+          "downloads": 48848285,
+          "likes": 3084,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14184,7 +14184,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 46316902,
-          "likes": 1368,
+          "likes": 1370,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14217,7 +14217,7 @@
           "license": "mit",
           "published_date": "2024-01-27 17:07:29+00:00",
           "downloads": 37985566,
-          "likes": 3481,
+          "likes": 3486,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14247,7 +14247,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14273,43 +14273,13 @@
           "description": ""
         },
         {
-          "id": "amazon/chronos-2",
-          "name": "chronos-2",
-          "url": "https://huggingface.co/amazon/chronos-2",
-          "task": "time-series-forecasting",
-          "license": "apache-2.0",
-          "published_date": "2025-10-30 14:54:39+00:00",
-          "downloads": 23768593,
-          "likes": 435,
-          "params_billions": null,
-          "tags": [
-            "chronos-forecasting",
-            "safetensors",
-            "t5",
-            "time series",
-            "forecasting",
-            "foundation models",
-            "pretrained models",
-            "time-series-forecasting",
-            "dataset:autogluon/chronos_datasets",
-            "dataset:Salesforce/GiftEvalPretrain",
-            "region:us",
-            "deploy:sagemaker"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "google-t5/t5-small",
           "name": "t5-small",
           "url": "https://huggingface.co/google-t5/t5-small",
           "task": "translation",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 23696426,
+          "downloads": 23855459,
           "likes": 600,
           "params_billions": null,
           "tags": [
@@ -14336,6 +14306,36 @@
           "description": ""
         },
         {
+          "id": "amazon/chronos-2",
+          "name": "chronos-2",
+          "url": "https://huggingface.co/amazon/chronos-2",
+          "task": "time-series-forecasting",
+          "license": "apache-2.0",
+          "published_date": "2025-10-30 14:54:39+00:00",
+          "downloads": 23768593,
+          "likes": 439,
+          "params_billions": null,
+          "tags": [
+            "chronos-forecasting",
+            "safetensors",
+            "t5",
+            "time series",
+            "forecasting",
+            "foundation models",
+            "pretrained models",
+            "time-series-forecasting",
+            "dataset:autogluon/chronos_datasets",
+            "dataset:Salesforce/GiftEvalPretrain",
+            "region:us",
+            "deploy:sagemaker"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "Qwen/Qwen3-0.6B",
           "name": "Qwen3-0.6B",
           "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
@@ -14343,7 +14343,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:40:08+00:00",
           "downloads": 21493027,
-          "likes": 1588,
+          "likes": 1592,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14372,7 +14372,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 21410310,
+          "downloads": 21379308,
           "likes": 895,
           "params_billions": null,
           "tags": [
@@ -14405,8 +14405,8 @@
           "task": "zero-shot-image-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 20702763,
-          "likes": 1214,
+          "downloads": 20778503,
+          "likes": 1300,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14461,7 +14461,7 @@
           "license": "unknown",
           "published_date": "2024-11-25 15:06:15+00:00",
           "downloads": 17937555,
-          "likes": 21,
+          "likes": 22,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14487,7 +14487,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-16 05:38:36+00:00",
-          "downloads": 16248411,
+          "downloads": 16672221,
           "likes": 103,
           "params_billions": null,
           "tags": [
@@ -14513,7 +14513,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14546,7 +14546,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:39+00:00",
           "downloads": 15231494,
-          "likes": 1083,
+          "likes": 1086,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14573,8 +14573,8 @@
           "task": "text-generation",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 14748356,
-          "likes": 3718,
+          "downloads": 14770863,
+          "likes": 3809,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14607,7 +14607,7 @@
           "license": "mit",
           "published_date": "2023-09-12 05:20:08+00:00",
           "downloads": 13169864,
-          "likes": 720,
+          "likes": 721,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14640,7 +14640,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:42:21+00:00",
           "downloads": 13046829,
-          "likes": 1355,
+          "likes": 1360,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14672,7 +14672,7 @@
           "license": "apache-2.0",
           "published_date": "2025-07-31 10:27:38+00:00",
           "downloads": 12623435,
-          "likes": 967,
+          "likes": 974,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -14701,7 +14701,7 @@
           "license": "mit",
           "published_date": "2023-06-30 07:31:03+00:00",
           "downloads": 12313873,
-          "likes": 398,
+          "likes": 399,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -14733,7 +14733,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-12 23:56:39+00:00",
-          "downloads": 12216318,
+          "downloads": 12252615,
           "likes": 7,
           "params_billions": null,
           "tags": [
@@ -14759,7 +14759,7 @@
           "license": "apache-2.0",
           "published_date": "2024-12-26 00:20:08+00:00",
           "downloads": 11529925,
-          "likes": 6831,
+          "likes": 6835,
           "params_billions": null,
           "tags": [
             "text-to-speech",
@@ -14849,7 +14849,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-27 18:09:46+00:00",
           "downloads": 10100049,
-          "likes": 590,
+          "likes": 591,
           "params_billions": null,
           "tags": [
             "Model Optimizer",
@@ -14915,7 +14915,7 @@
           "license": "mit",
           "published_date": "2023-11-16 08:19:01+00:00",
           "downloads": 9142156,
-          "likes": 3435,
+          "likes": 3469,
           "params_billions": null,
           "tags": [
             "pyannote-audio",
@@ -14947,7 +14947,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-06 18:52:51+00:00",
           "downloads": 8879175,
-          "likes": 48,
+          "likes": 49,
           "params_billions": null,
           "tags": [
             "chronos-forecasting",
@@ -14976,7 +14976,7 @@
           "license": "other",
           "published_date": "2022-05-11 08:25:17+00:00",
           "downloads": 8820283,
-          "likes": 295,
+          "likes": 296,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15005,7 +15005,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-11 18:22:36+00:00",
           "downloads": 8672440,
-          "likes": 3741,
+          "likes": 3747,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15035,7 +15035,7 @@
           "license": "apache-2.0",
           "published_date": "2024-11-25 09:46:10+00:00",
           "downloads": 8650989,
-          "likes": 22,
+          "likes": 23,
           "params_billions": null,
           "tags": [
             "chronos-forecasting",
@@ -15122,7 +15122,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 8296907,
+          "downloads": 7990786,
           "likes": 640,
           "params_billions": null,
           "tags": [
@@ -15155,7 +15155,7 @@
           "task": "unknown",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7936734,
+          "downloads": 7927901,
           "likes": 97,
           "params_billions": null,
           "tags": [
@@ -15179,7 +15179,7 @@
           "license": "apache-2.0",
           "published_date": "2025-01-26 09:26:37+00:00",
           "downloads": 7747615,
-          "likes": 1699,
+          "likes": 1701,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15209,7 +15209,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:25:32+00:00",
           "downloads": 7495042,
-          "likes": 1183,
+          "likes": 1185,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -15225,6 +15225,34 @@
             "region:us",
             "deploy:sagemaker",
             "deploy:azure"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "openai/clip-vit-large-patch14",
+          "name": "clip-vit-large-patch14",
+          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+          "task": "zero-shot-image-classification",
+          "license": "unknown",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 7407606,
+          "likes": 2074,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "safetensors",
+            "clip",
+            "zero-shot-image-classification",
+            "vision",
+            "endpoints_compatible",
+            "region:us"
           ],
           "match_reasons": [
             "tag match: arxiv"
@@ -15265,42 +15293,14 @@
           "description": ""
         },
         {
-          "id": "openai/clip-vit-large-patch14",
-          "name": "clip-vit-large-patch14",
-          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
-          "task": "zero-shot-image-classification",
-          "license": "unknown",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7308343,
-          "likes": 2074,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "safetensors",
-            "clip",
-            "zero-shot-image-classification",
-            "vision",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "distilbert/distilbert-base-uncased",
           "name": "distilbert-base-uncased",
           "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 7138152,
-          "likes": 1157,
+          "downloads": 7178154,
+          "likes": 1241,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15400,7 +15400,7 @@
           "license": "mit",
           "published_date": "2024-10-01 07:39:28+00:00",
           "downloads": 6902995,
-          "likes": 3304,
+          "likes": 3306,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15466,7 +15466,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:29+00:00",
           "downloads": 6551191,
-          "likes": 5006,
+          "likes": 5009,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15614,39 +15614,6 @@
           "description": ""
         },
         {
-          "id": "FacebookAI/roberta-large",
-          "name": "roberta-large",
-          "url": "https://huggingface.co/FacebookAI/roberta-large",
-          "task": "fill-mask",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 6121295,
-          "likes": 319,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "onnx",
-            "safetensors",
-            "roberta",
-            "fill-mask",
-            "exbert",
-            "en",
-            "dataset:bookcorpus",
-            "dataset:wikipedia",
-            "endpoints_compatible",
-            "region:us",
-            "deploy:sagemaker"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "meta-llama/Llama-3.2-1B-Instruct",
           "name": "Llama-3.2-1B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
@@ -15675,6 +15642,39 @@
           ],
           "match_reasons": [
             "task match: text-generation",
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "FacebookAI/roberta-large",
+          "name": "roberta-large",
+          "url": "https://huggingface.co/FacebookAI/roberta-large",
+          "task": "fill-mask",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 6070471,
+          "likes": 319,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "onnx",
+            "safetensors",
+            "roberta",
+            "fill-mask",
+            "exbert",
+            "en",
+            "dataset:bookcorpus",
+            "dataset:wikipedia",
+            "endpoints_compatible",
+            "region:us",
+            "deploy:sagemaker"
+          ],
+          "match_reasons": [
             "tag match: arxiv"
           ],
           "benchmark_scores": {},
@@ -15749,7 +15749,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-18 08:56:00+00:00",
           "downloads": 5644039,
-          "likes": 6836,
+          "likes": 6848,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15782,7 +15782,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5480705,
+          "downloads": 5510787,
           "likes": 996,
           "params_billions": null,
           "tags": [
@@ -15814,7 +15814,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:06+00:00",
           "downloads": 5414162,
-          "likes": 5170,
+          "likes": 5177,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15845,8 +15845,8 @@
           "task": "text-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 5309431,
-          "likes": 1238,
+          "downloads": 5364262,
+          "likes": 1239,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15876,7 +15876,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:52:59+00:00",
           "downloads": 5156288,
-          "likes": 743,
+          "likes": 744,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15906,7 +15906,7 @@
           "license": "apache-2.0",
           "published_date": "2023-11-07 18:41:14+00:00",
           "downloads": 5106140,
-          "likes": 6251,
+          "likes": 6256,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -15939,7 +15939,7 @@
           "license": "cc-by-4.0",
           "published_date": "2025-04-15 21:31:35+00:00",
           "downloads": 4984852,
-          "likes": 1462,
+          "likes": 1495,
           "params_billions": null,
           "tags": [
             "pyannote-audio",
@@ -15998,7 +15998,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-02 19:57:40+00:00",
           "downloads": 4805395,
-          "likes": 1536,
+          "likes": 1537,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16082,13 +16082,43 @@
           "description": ""
         },
         {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "name": "DeepSeek-V4-Flash-0731",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "text-generation",
+          "license": "mit",
+          "published_date": "2026-07-31 07:30:24+00:00",
+          "downloads": 4425802,
+          "likes": 3915,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "deepseek_v4",
+            "text-generation",
+            "conversational",
+            "eval-results",
+            "endpoints_compatible",
+            "8-bit",
+            "fp8",
+            "deploy:azure",
+            "region:us"
+          ],
+          "match_reasons": [
+            "task match: text-generation",
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "google-t5/t5-base",
           "name": "t5-base",
           "url": "https://huggingface.co/google-t5/t5-base",
           "task": "translation",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 4463849,
+          "downloads": 4361832,
           "likes": 791,
           "params_billions": null,
           "tags": [
@@ -16115,36 +16145,6 @@
           "description": ""
         },
         {
-          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-          "name": "DeepSeek-V4-Flash-0731",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-          "task": "text-generation",
-          "license": "mit",
-          "published_date": "2026-07-31 07:30:24+00:00",
-          "downloads": 4425802,
-          "likes": 3906,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "safetensors",
-            "deepseek_v4",
-            "text-generation",
-            "conversational",
-            "eval-results",
-            "endpoints_compatible",
-            "8-bit",
-            "fp8",
-            "deploy:azure",
-            "region:us"
-          ],
-          "match_reasons": [
-            "task match: text-generation",
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "facebook/dinov2-small",
           "name": "dinov2-small",
           "url": "https://huggingface.co/facebook/dinov2-small",
@@ -16152,7 +16152,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-31 16:53:09+00:00",
           "downloads": 4319462,
-          "likes": 72,
+          "likes": 73,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16178,7 +16178,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 4237373,
+          "downloads": 4318079,
           "likes": 236,
           "params_billions": null,
           "tags": [
@@ -16212,7 +16212,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:13+00:00",
           "downloads": 4176022,
-          "likes": 663,
+          "likes": 664,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16267,7 +16267,7 @@
           "license": "apache-2.0",
           "published_date": "2023-10-13 23:50:01+00:00",
           "downloads": 4109896,
-          "likes": 1174,
+          "likes": 1175,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16294,7 +16294,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:22+00:00",
           "downloads": 4105723,
-          "likes": 458,
+          "likes": 460,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16320,7 +16320,7 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 4068238,
+          "downloads": 4073287,
           "likes": 159,
           "params_billions": null,
           "tags": [
@@ -16354,7 +16354,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -16372,39 +16372,6 @@
             "dataset:ms_marco",
             "dataset:gooaq",
             "dataset:yahoo_answers_topics"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "name": "distilbert-base-uncased-finetuned-sst-2-english",
-          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "task": "text-classification",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3872533,
-          "likes": 949,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "rust",
-            "onnx",
-            "safetensors",
-            "distilbert",
-            "text-classification",
-            "en",
-            "dataset:sst2",
-            "dataset:glue",
-            "doi:10.57967/hf/0181",
-            "model-index",
-            "endpoints_compatible",
-            "region:us"
           ],
           "match_reasons": [
             "tag match: arxiv"
@@ -16444,7 +16411,7 @@
           "license": "mit",
           "published_date": "2026-08-19 00:02:44+00:00",
           "downloads": 3859341,
-          "likes": 315,
+          "likes": 326,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16456,6 +16423,39 @@
           ],
           "match_reasons": [
             "task match: text-generation"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "name": "distilbert-base-uncased-finetuned-sst-2-english",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "task": "text-classification",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3852454,
+          "likes": 950,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "rust",
+            "onnx",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "en",
+            "dataset:sst2",
+            "dataset:glue",
+            "doi:10.57967/hf/0181",
+            "model-index",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -16521,39 +16521,6 @@
           "description": ""
         },
         {
-          "id": "FacebookAI/xlm-roberta-large",
-          "name": "xlm-roberta-large",
-          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
-          "task": "fill-mask",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3715724,
-          "likes": 529,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "onnx",
-            "safetensors",
-            "xlm-roberta",
-            "fill-mask",
-            "exbert",
-            "multilingual",
-            "af",
-            "am",
-            "ar",
-            "as",
-            "az"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
           "name": "CLIP-ViT-L-14-laion2B-s32B-b82K",
           "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
@@ -16579,46 +16546,13 @@
           "description": ""
         },
         {
-          "id": "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
-          "name": "wav2vec2-indonesian-javanese-sundanese",
-          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3675116,
-          "likes": 15,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "hf-asr-leaderboard",
-            "id",
-            "jv",
-            "robust-speech-event",
-            "speech",
-            "su",
-            "sun",
-            "dataset:openslr",
-            "dataset:magic_data",
-            "dataset:titml"
-          ],
-          "match_reasons": [
-            "tag match: nlp (name)"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "google-bert/bert-base-cased",
           "name": "bert-base-cased",
           "url": "https://huggingface.co/google-bert/bert-base-cased",
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3640600,
+          "downloads": 3646179,
           "likes": 371,
           "params_billions": null,
           "tags": [
@@ -16677,6 +16611,39 @@
           "description": ""
         },
         {
+          "id": "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "name": "wav2vec2-indonesian-javanese-sundanese",
+          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 3583372,
+          "likes": 15,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "id",
+            "jv",
+            "robust-speech-event",
+            "speech",
+            "su",
+            "sun",
+            "dataset:openslr",
+            "dataset:magic_data",
+            "dataset:titml"
+          ],
+          "match_reasons": [
+            "tag match: nlp (name)"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "BAAI/bge-reranker-base",
           "name": "bge-reranker-base",
           "url": "https://huggingface.co/BAAI/bge-reranker-base",
@@ -16716,7 +16683,7 @@
           "license": "apache-2.0",
           "published_date": "2026-01-21 08:57:11+00:00",
           "downloads": 3558093,
-          "likes": 506,
+          "likes": 507,
           "params_billions": null,
           "tags": [
             "safetensors",
@@ -16738,7 +16705,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-05 10:58:03+00:00",
           "downloads": 3538174,
-          "likes": 955,
+          "likes": 956,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16830,7 +16797,7 @@
           "license": "mit",
           "published_date": "2026-08-18 06:38:41+00:00",
           "downloads": 3430123,
-          "likes": 388,
+          "likes": 389,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16847,13 +16814,46 @@
           "description": ""
         },
         {
+          "id": "FacebookAI/xlm-roberta-large",
+          "name": "xlm-roberta-large",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
+          "task": "fill-mask",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3380889,
+          "likes": 529,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "onnx",
+            "safetensors",
+            "xlm-roberta",
+            "fill-mask",
+            "exbert",
+            "multilingual",
+            "af",
+            "am",
+            "ar",
+            "as",
+            "az"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "facebook/bart-large-mnli",
           "name": "bart-large-mnli",
           "url": "https://huggingface.co/facebook/bart-large-mnli",
           "task": "zero-shot-classification",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3251465,
+          "downloads": 3261054,
           "likes": 1606,
           "params_billions": null,
           "tags": [
@@ -16885,7 +16885,7 @@
           "license": "cc-by-4.0",
           "published_date": "2022-03-15 01:21:58+00:00",
           "downloads": 3245087,
-          "likes": 828,
+          "likes": 829,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16913,7 +16913,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-02 19:58:09+00:00",
           "downloads": 3222423,
-          "likes": 942,
+          "likes": 950,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -16936,37 +16936,6 @@
           "description": ""
         },
         {
-          "id": "pyannote/segmentation",
-          "name": "segmentation",
-          "url": "https://huggingface.co/pyannote/segmentation",
-          "task": "voice-activity-detection",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3198851,
-          "likes": 694,
-          "params_billions": null,
-          "tags": [
-            "pyannote-audio",
-            "pytorch",
-            "pyannote",
-            "pyannote-audio-model",
-            "audio",
-            "voice",
-            "speech",
-            "speaker",
-            "speaker-segmentation",
-            "voice-activity-detection",
-            "overlapped-speech-detection",
-            "resegmentation",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: arxiv"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "Qwen/Qwen2.5-VL-3B-Instruct",
           "name": "Qwen2.5-VL-3B-Instruct",
           "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
@@ -16974,7 +16943,7 @@
           "license": "unknown",
           "published_date": "2025-01-26 09:25:35+00:00",
           "downloads": 3173588,
-          "likes": 694,
+          "likes": 695,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17004,7 +16973,7 @@
           "license": "apache-2.0",
           "published_date": "2026-01-28 03:22:40+00:00",
           "downloads": 3161832,
-          "likes": 1076,
+          "likes": 1079,
           "params_billions": null,
           "tags": [
             "safetensors",
@@ -17049,7 +17018,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-23 01:17:15+00:00",
           "downloads": 3087403,
-          "likes": 1529,
+          "likes": 1534,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17078,7 +17047,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-17 16:44:29+00:00",
           "downloads": 3081152,
-          "likes": 195,
+          "likes": 196,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17097,6 +17066,37 @@
           "description": ""
         },
         {
+          "id": "pyannote/segmentation",
+          "name": "segmentation",
+          "url": "https://huggingface.co/pyannote/segmentation",
+          "task": "voice-activity-detection",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 3062193,
+          "likes": 695,
+          "params_billions": null,
+          "tags": [
+            "pyannote-audio",
+            "pytorch",
+            "pyannote",
+            "pyannote-audio-model",
+            "audio",
+            "voice",
+            "speech",
+            "speaker",
+            "speaker-segmentation",
+            "voice-activity-detection",
+            "overlapped-speech-detection",
+            "resegmentation",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "openai/whisper-small",
           "name": "whisper-small",
           "url": "https://huggingface.co/openai/whisper-small",
@@ -17104,7 +17104,7 @@
           "license": "apache-2.0",
           "published_date": "2022-09-26 06:51:27+00:00",
           "downloads": 3035223,
-          "likes": 594,
+          "likes": 597,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17137,7 +17137,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-19 13:13:24+00:00",
           "downloads": 2986461,
-          "likes": 460,
+          "likes": 462,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17163,8 +17163,8 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2948155,
-          "likes": 440,
+          "downloads": 2939540,
+          "likes": 441,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17193,7 +17193,7 @@
           "task": "unknown",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2919894,
+          "downloads": 2872349,
           "likes": 125,
           "params_billions": null,
           "tags": [
@@ -17254,7 +17254,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:44+00:00",
           "downloads": 2803219,
-          "likes": 1055,
+          "likes": 1056,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17388,7 +17388,7 @@
           "license": "mit",
           "published_date": "2026-06-19 09:40:33+00:00",
           "downloads": 2727789,
-          "likes": 4202,
+          "likes": 4205,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17402,8 +17402,8 @@
             "image-text-to-text",
             "multilingual",
             "eval-results",
-            "region:us",
-            "deploy:sagemaker"
+            "deploy:sagemaker",
+            "region:us"
           ],
           "match_reasons": [
             "tag match: arxiv"
@@ -17484,7 +17484,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 03:43:36+00:00",
           "downloads": 2660078,
-          "likes": 1017,
+          "likes": 1034,
           "params_billions": null,
           "tags": [
             "llama.cpp",
@@ -17550,7 +17550,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:31:33+00:00",
           "downloads": 2615481,
-          "likes": 319,
+          "likes": 320,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -17602,7 +17602,7 @@
           "license": "apache-2.0",
           "published_date": "2026-01-21 08:56:49+00:00",
           "downloads": 2592396,
-          "likes": 1948,
+          "likes": 1951,
           "params_billions": null,
           "tags": [
             "safetensors",
@@ -17741,7 +17741,7 @@
           "license": "apache-2.0",
           "published_date": "2024-10-31 00:46:04+00:00",
           "downloads": 2550777,
-          "likes": 230,
+          "likes": 231,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -17797,7 +17797,7 @@
           "license": "gemma",
           "published_date": "2025-03-10 12:09:00+00:00",
           "downloads": 2492202,
-          "likes": 1136,
+          "likes": 1140,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -18010,7 +18010,7 @@
           "license": "apache-2.0",
           "published_date": "2026-01-21 17:22:02+00:00",
           "downloads": 2308239,
-          "likes": 975,
+          "likes": 977,
           "params_billions": null,
           "tags": [
             "vllm",
@@ -18140,7 +18140,7 @@
           "license": "mit",
           "published_date": "2023-12-19 07:41:49+00:00",
           "downloads": 2271473,
-          "likes": 228,
+          "likes": 230,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -18158,6 +18158,29 @@
             "bg",
             "ca",
             "cs"
+          ],
+          "match_reasons": [
+            "tag match: arxiv"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "docling-project/docling-models",
+          "name": "docling-models",
+          "url": "https://huggingface.co/docling-project/docling-models",
+          "task": "unknown",
+          "license": "cdla-permissive-2.0",
+          "published_date": "2024-07-02 12:26:11+00:00",
+          "downloads": 2269046,
+          "likes": 216,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "doi:10.57967/hf/3036",
+            "eval-results",
+            "endpoints_compatible",
+            "region:us"
           ],
           "match_reasons": [
             "tag match: arxiv"
@@ -19259,7 +19282,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 253331994,
-          "likes": 5581,
+          "likes": 5687,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19291,8 +19314,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 86661012,
-          "likes": 313,
+          "downloads": 86755068,
+          "likes": 315,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19357,8 +19380,8 @@
           "task": "unknown",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 58160168,
-          "likes": 158,
+          "downloads": 58093106,
+          "likes": 159,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19385,8 +19408,8 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 50396517,
-          "likes": 2993,
+          "downloads": 48848285,
+          "likes": 3084,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19419,7 +19442,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 46316902,
-          "likes": 1368,
+          "likes": 1370,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19452,7 +19475,7 @@
           "license": "mit",
           "published_date": "2024-01-27 17:07:29+00:00",
           "downloads": 37985566,
-          "likes": 3481,
+          "likes": 3486,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19482,7 +19505,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 23908257,
-          "likes": 1351,
+          "likes": 1352,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19514,7 +19537,7 @@
           "task": "translation",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 23696426,
+          "downloads": 23855459,
           "likes": 600,
           "params_billions": null,
           "tags": [
@@ -19548,7 +19571,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:40:08+00:00",
           "downloads": 21493027,
-          "likes": 1588,
+          "likes": 1592,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19576,7 +19599,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 21410310,
+          "downloads": 21379308,
           "likes": 895,
           "params_billions": null,
           "tags": [
@@ -19609,8 +19632,8 @@
           "task": "zero-shot-image-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 20702763,
-          "likes": 1214,
+          "downloads": 20778503,
+          "likes": 1300,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19667,7 +19690,7 @@
           "license": "unknown",
           "published_date": "2024-11-25 15:06:15+00:00",
           "downloads": 17937555,
-          "likes": 21,
+          "likes": 22,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19693,7 +19716,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-16 05:38:36+00:00",
-          "downloads": 16248411,
+          "downloads": 16672221,
           "likes": 103,
           "params_billions": null,
           "tags": [
@@ -19719,7 +19742,7 @@
           "license": "apache-2.0",
           "published_date": "2024-02-10 06:32:35+00:00",
           "downloads": 16210409,
-          "likes": 903,
+          "likes": 905,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19752,7 +19775,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:39+00:00",
           "downloads": 15231494,
-          "likes": 1083,
+          "likes": 1086,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19779,8 +19802,8 @@
           "task": "text-generation",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 14748356,
-          "likes": 3718,
+          "downloads": 14770863,
+          "likes": 3809,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19812,8 +19835,8 @@
           "task": "automatic-speech-recognition",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 13506341,
-          "likes": 63,
+          "downloads": 13801293,
+          "likes": 64,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19846,7 +19869,7 @@
           "license": "mit",
           "published_date": "2023-09-12 05:20:08+00:00",
           "downloads": 13169864,
-          "likes": 720,
+          "likes": 721,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19879,7 +19902,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:42:21+00:00",
           "downloads": 13046829,
-          "likes": 1355,
+          "likes": 1360,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19910,7 +19933,7 @@
           "license": "apache-2.0",
           "published_date": "2025-07-31 10:27:38+00:00",
           "downloads": 12623435,
-          "likes": 967,
+          "likes": 974,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19938,7 +19961,7 @@
           "license": "apache-2.0",
           "published_date": "2026-04-15 06:05:13+00:00",
           "downloads": 12372077,
-          "likes": 376,
+          "likes": 377,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -19966,7 +19989,7 @@
           "license": "mit",
           "published_date": "2023-06-30 07:31:03+00:00",
           "downloads": 12313873,
-          "likes": 398,
+          "likes": 399,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -19998,7 +20021,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-12-12 23:56:39+00:00",
-          "downloads": 12216318,
+          "downloads": 12252615,
           "likes": 7,
           "params_billions": null,
           "tags": [
@@ -20024,7 +20047,7 @@
           "license": "apache-2.0",
           "published_date": "2026-02-27 12:58:26+00:00",
           "downloads": 11389211,
-          "likes": 1908,
+          "likes": 1916,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20086,7 +20109,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:28:40+00:00",
           "downloads": 10675683,
-          "likes": 3666,
+          "likes": 3747,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -20179,7 +20202,7 @@
           "license": "mit",
           "published_date": "2023-11-16 08:19:01+00:00",
           "downloads": 9142156,
-          "likes": 3435,
+          "likes": 3469,
           "params_billions": null,
           "tags": [
             "pyannote-audio",
@@ -20211,7 +20234,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-11 18:22:36+00:00",
           "downloads": 8672440,
-          "likes": 3741,
+          "likes": 3747,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20298,7 +20321,7 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 8296907,
+          "downloads": 7990786,
           "likes": 640,
           "params_billions": null,
           "tags": [
@@ -20331,7 +20354,7 @@
           "task": "unknown",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7936734,
+          "downloads": 7927901,
           "likes": 97,
           "params_billions": null,
           "tags": [
@@ -20355,7 +20378,7 @@
           "license": "apache-2.0",
           "published_date": "2025-01-26 09:26:37+00:00",
           "downloads": 7747615,
-          "likes": 1699,
+          "likes": 1701,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20385,7 +20408,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:25:32+00:00",
           "downloads": 7495042,
-          "likes": 1183,
+          "likes": 1185,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -20403,6 +20426,35 @@
             "deploy:azure"
           ],
           "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "openai/clip-vit-large-patch14",
+          "name": "clip-vit-large-patch14",
+          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+          "task": "zero-shot-image-classification",
+          "license": "unknown",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 7407606,
+          "likes": 2074,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "safetensors",
+            "clip",
+            "zero-shot-image-classification",
+            "vision",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "task match: zero-shot-image-classification",
             "tag match: dpo"
           ],
           "benchmark_scores": {},
@@ -20440,35 +20492,6 @@
           "description": ""
         },
         {
-          "id": "openai/clip-vit-large-patch14",
-          "name": "clip-vit-large-patch14",
-          "url": "https://huggingface.co/openai/clip-vit-large-patch14",
-          "task": "zero-shot-image-classification",
-          "license": "unknown",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 7308343,
-          "likes": 2074,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "safetensors",
-            "clip",
-            "zero-shot-image-classification",
-            "vision",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "task match: zero-shot-image-classification",
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "Qwen/Qwen3.5-4B",
           "name": "Qwen3.5-4B",
           "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
@@ -20476,7 +20499,7 @@
           "license": "apache-2.0",
           "published_date": "2026-02-27 14:45:03+00:00",
           "downloads": 7264578,
-          "likes": 896,
+          "likes": 900,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20534,8 +20557,8 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 7138152,
-          "likes": 1157,
+          "downloads": 7178154,
+          "likes": 1241,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20601,7 +20624,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-13 08:01:58+00:00",
           "downloads": 6985465,
-          "likes": 770,
+          "likes": 775,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20662,7 +20685,7 @@
           "license": "mit",
           "published_date": "2024-10-01 07:39:28+00:00",
           "downloads": 6902995,
-          "likes": 3304,
+          "likes": 3306,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20728,7 +20751,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-05 08:22:59+00:00",
           "downloads": 6712160,
-          "likes": 14326,
+          "likes": 14460,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20756,7 +20779,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:29+00:00",
           "downloads": 6551191,
-          "likes": 5006,
+          "likes": 5009,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -20873,39 +20896,6 @@
           "description": ""
         },
         {
-          "id": "FacebookAI/roberta-large",
-          "name": "roberta-large",
-          "url": "https://huggingface.co/FacebookAI/roberta-large",
-          "task": "fill-mask",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 6121295,
-          "likes": 319,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "onnx",
-            "safetensors",
-            "roberta",
-            "fill-mask",
-            "exbert",
-            "en",
-            "dataset:bookcorpus",
-            "dataset:wikipedia",
-            "endpoints_compatible",
-            "region:us",
-            "deploy:sagemaker"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "meta-llama/Llama-3.2-1B-Instruct",
           "name": "Llama-3.2-1B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
@@ -20931,6 +20921,39 @@
             "it",
             "pt",
             "hi"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "FacebookAI/roberta-large",
+          "name": "roberta-large",
+          "url": "https://huggingface.co/FacebookAI/roberta-large",
+          "task": "fill-mask",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 6070471,
+          "likes": 319,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "jax",
+            "onnx",
+            "safetensors",
+            "roberta",
+            "fill-mask",
+            "exbert",
+            "en",
+            "dataset:bookcorpus",
+            "dataset:wikipedia",
+            "endpoints_compatible",
+            "region:us",
+            "deploy:sagemaker"
           ],
           "match_reasons": [
             "tag match: dpo"
@@ -20976,8 +20999,8 @@
           "task": "text-ranking",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5875402,
-          "likes": 28,
+          "downloads": 5747611,
+          "likes": 29,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -21010,7 +21033,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-18 08:56:00+00:00",
           "downloads": 5644039,
-          "likes": 6836,
+          "likes": 6848,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21042,7 +21065,7 @@
           "task": "image-classification",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5480705,
+          "downloads": 5510787,
           "likes": 996,
           "params_billions": null,
           "tags": [
@@ -21075,7 +21098,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-04 22:33:06+00:00",
           "downloads": 5414162,
-          "likes": 5170,
+          "likes": 5177,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21105,8 +21128,8 @@
           "task": "text-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 5309431,
-          "likes": 1238,
+          "downloads": 5364262,
+          "likes": 1239,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21137,7 +21160,7 @@
           "license": "apache-2.0",
           "published_date": "2025-04-27 03:52:59+00:00",
           "downloads": 5156288,
-          "likes": 743,
+          "likes": 744,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21159,46 +21182,13 @@
           "description": ""
         },
         {
-          "id": "openai/whisper-large-v3",
-          "name": "whisper-large-v3",
-          "url": "https://huggingface.co/openai/whisper-large-v3",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2023-11-07 18:41:14+00:00",
-          "downloads": 5106140,
-          "likes": 6251,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "jax",
-            "safetensors",
-            "whisper",
-            "automatic-speech-recognition",
-            "audio",
-            "hf-asr-leaderboard",
-            "en",
-            "zh",
-            "de",
-            "es",
-            "ru",
-            "ko",
-            "fr"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese",
           "name": "wav2vec2-large-xlsr-53-portuguese",
           "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese",
           "task": "automatic-speech-recognition",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 5103429,
+          "downloads": 5144479,
           "likes": 55,
           "params_billions": null,
           "tags": [
@@ -21217,6 +21207,39 @@
             "dataset:common_voice",
             "doi:10.57967/hf/3572",
             "model-index"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "openai/whisper-large-v3",
+          "name": "whisper-large-v3",
+          "url": "https://huggingface.co/openai/whisper-large-v3",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2023-11-07 18:41:14+00:00",
+          "downloads": 5106140,
+          "likes": 6256,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "safetensors",
+            "whisper",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "en",
+            "zh",
+            "de",
+            "es",
+            "ru",
+            "ko",
+            "fr"
           ],
           "match_reasons": [
             "tag match: dpo"
@@ -21288,7 +21311,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-02 19:57:40+00:00",
           "downloads": 4805395,
-          "likes": 1536,
+          "likes": 1537,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21350,7 +21373,7 @@
           "license": "llama3.1",
           "published_date": "2024-07-21 19:18:13+00:00",
           "downloads": 4494080,
-          "likes": 397,
+          "likes": 398,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21382,7 +21405,7 @@
           "task": "token-classification",
           "license": "unknown",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 4473440,
+          "downloads": 4484839,
           "likes": 97,
           "params_billions": null,
           "tags": [
@@ -21406,13 +21429,42 @@
           "description": ""
         },
         {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "name": "DeepSeek-V4-Flash-0731",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+          "task": "text-generation",
+          "license": "mit",
+          "published_date": "2026-07-31 07:30:24+00:00",
+          "downloads": 4425802,
+          "likes": 3915,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "deepseek_v4",
+            "text-generation",
+            "conversational",
+            "eval-results",
+            "endpoints_compatible",
+            "8-bit",
+            "fp8",
+            "deploy:azure",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "google-t5/t5-base",
           "name": "t5-base",
           "url": "https://huggingface.co/google-t5/t5-base",
           "task": "translation",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 4463849,
+          "downloads": 4361832,
           "likes": 791,
           "params_billions": null,
           "tags": [
@@ -21439,35 +21491,6 @@
           "description": ""
         },
         {
-          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-          "name": "DeepSeek-V4-Flash-0731",
-          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
-          "task": "text-generation",
-          "license": "mit",
-          "published_date": "2026-07-31 07:30:24+00:00",
-          "downloads": 4425802,
-          "likes": 3906,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "safetensors",
-            "deepseek_v4",
-            "text-generation",
-            "conversational",
-            "eval-results",
-            "endpoints_compatible",
-            "8-bit",
-            "fp8",
-            "deploy:azure",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "facebook/dinov2-small",
           "name": "dinov2-small",
           "url": "https://huggingface.co/facebook/dinov2-small",
@@ -21475,7 +21498,7 @@
           "license": "apache-2.0",
           "published_date": "2023-07-31 16:53:09+00:00",
           "downloads": 4319462,
-          "likes": 72,
+          "likes": 73,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21495,41 +21518,13 @@
           "description": ""
         },
         {
-          "id": "Qwen/Qwen3.6-35B-A3B",
-          "name": "Qwen3.6-35B-A3B",
-          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-          "task": "image-text-to-text",
-          "license": "apache-2.0",
-          "published_date": "2026-04-15 05:59:19+00:00",
-          "downloads": 4243308,
-          "likes": 2789,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "safetensors",
-            "qwen3_5_moe",
-            "image-text-to-text",
-            "conversational",
-            "eval-results",
-            "endpoints_compatible",
-            "deploy:sagemaker",
-            "deploy:azure",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "microsoft/mdeberta-v3-base",
           "name": "mdeberta-v3-base",
           "url": "https://huggingface.co/microsoft/mdeberta-v3-base",
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 4237373,
+          "downloads": 4318079,
           "likes": 236,
           "params_billions": null,
           "tags": [
@@ -21556,6 +21551,34 @@
           "description": ""
         },
         {
+          "id": "Qwen/Qwen3.6-35B-A3B",
+          "name": "Qwen3.6-35B-A3B",
+          "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+          "task": "image-text-to-text",
+          "license": "apache-2.0",
+          "published_date": "2026-04-15 05:59:19+00:00",
+          "downloads": 4243308,
+          "likes": 2792,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "qwen3_5_moe",
+            "image-text-to-text",
+            "conversational",
+            "eval-results",
+            "endpoints_compatible",
+            "deploy:sagemaker",
+            "deploy:azure",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "ornith-ai/Ornith-1.0-9B-GGUF",
           "name": "Ornith-1.0-9B-GGUF",
           "url": "https://huggingface.co/ornith-ai/Ornith-1.0-9B-GGUF",
@@ -21563,7 +21586,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:13+00:00",
           "downloads": 4176022,
-          "likes": 663,
+          "likes": 664,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21611,39 +21634,6 @@
           "description": ""
         },
         {
-          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-polish",
-          "name": "wav2vec2-large-xlsr-53-polish",
-          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-polish",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 4123574,
-          "likes": 12,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "jax",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "hf-asr-leaderboard",
-            "mozilla-foundation/common_voice_6_0",
-            "pl",
-            "robust-speech-event",
-            "speech",
-            "xlsr-fine-tuning-week",
-            "dataset:common_voice",
-            "doi:10.57967/hf/3574",
-            "model-index"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "Falconsai/nsfw_image_detection",
           "name": "nsfw_image_detection",
           "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
@@ -21651,7 +21641,7 @@
           "license": "apache-2.0",
           "published_date": "2023-10-13 23:50:01+00:00",
           "downloads": 4109896,
-          "likes": 1174,
+          "likes": 1175,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21679,7 +21669,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-11 07:23:22+00:00",
           "downloads": 4105723,
-          "likes": 458,
+          "likes": 460,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21705,7 +21695,7 @@
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 4068238,
+          "downloads": 4073287,
           "likes": 159,
           "params_billions": null,
           "tags": [
@@ -21732,6 +21722,39 @@
           "description": ""
         },
         {
+          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-polish",
+          "name": "wav2vec2-large-xlsr-53-polish",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-polish",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 4053288,
+          "likes": 12,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "mozilla-foundation/common_voice_6_0",
+            "pl",
+            "robust-speech-event",
+            "speech",
+            "xlsr-fine-tuning-week",
+            "dataset:common_voice",
+            "doi:10.57967/hf/3574",
+            "model-index"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "sentence-transformers/all-MiniLM-L12-v2",
           "name": "all-MiniLM-L12-v2",
           "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2",
@@ -21739,7 +21762,7 @@
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
           "downloads": 3995698,
-          "likes": 327,
+          "likes": 328,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -21772,7 +21795,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:08:24+00:00",
           "downloads": 3956329,
-          "likes": 37,
+          "likes": 39,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21788,40 +21811,6 @@
             "region:us"
           ],
           "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "name": "distilbert-base-uncased-finetuned-sst-2-english",
-          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
-          "task": "text-classification",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3872533,
-          "likes": 949,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "rust",
-            "onnx",
-            "safetensors",
-            "distilbert",
-            "text-classification",
-            "en",
-            "dataset:sst2",
-            "dataset:glue",
-            "doi:10.57967/hf/0181",
-            "model-index",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "task match: text-classification",
             "tag match: dpo"
           ],
           "benchmark_scores": {},
@@ -21859,7 +21848,7 @@
           "license": "mit",
           "published_date": "2026-08-19 00:02:44+00:00",
           "downloads": 3859341,
-          "likes": 315,
+          "likes": 326,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -21876,13 +21865,47 @@
           "description": ""
         },
         {
+          "id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "name": "distilbert-base-uncased-finetuned-sst-2-english",
+          "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+          "task": "text-classification",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3852454,
+          "likes": 950,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "tf",
+            "rust",
+            "onnx",
+            "safetensors",
+            "distilbert",
+            "text-classification",
+            "en",
+            "dataset:sst2",
+            "dataset:glue",
+            "doi:10.57967/hf/0181",
+            "model-index",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "task match: text-classification",
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "jonatasgrosman/wav2vec2-large-xlsr-53-russian",
           "name": "wav2vec2-large-xlsr-53-russian",
           "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian",
           "task": "automatic-speech-recognition",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3811821,
+          "downloads": 3816363,
           "likes": 76,
           "params_billions": null,
           "tags": [
@@ -21971,39 +21994,6 @@
           "description": ""
         },
         {
-          "id": "FacebookAI/xlm-roberta-large",
-          "name": "xlm-roberta-large",
-          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
-          "task": "fill-mask",
-          "license": "mit",
-          "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3715724,
-          "likes": 529,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "tf",
-            "jax",
-            "onnx",
-            "safetensors",
-            "xlm-roberta",
-            "fill-mask",
-            "exbert",
-            "multilingual",
-            "af",
-            "am",
-            "ar",
-            "as",
-            "az"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
           "name": "CLIP-ViT-L-14-laion2B-s32B-b82K",
           "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
@@ -22024,39 +22014,6 @@
           ],
           "match_reasons": [
             "task match: zero-shot-image-classification"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
-          "name": "wav2vec2-indonesian-javanese-sundanese",
-          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3675116,
-          "likes": 15,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "hf-asr-leaderboard",
-            "id",
-            "jv",
-            "robust-speech-event",
-            "speech",
-            "su",
-            "sun",
-            "dataset:openslr",
-            "dataset:magic_data",
-            "dataset:titml"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
           ],
           "benchmark_scores": {},
           "description": ""
@@ -22091,46 +22048,13 @@
           "description": ""
         },
         {
-          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
-          "name": "wav2vec2-large-xlsr-53-dutch",
-          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3646914,
-          "likes": 17,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "jax",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "hf-asr-leaderboard",
-            "mozilla-foundation/common_voice_6_0",
-            "nl",
-            "robust-speech-event",
-            "speech",
-            "xlsr-fine-tuning-week",
-            "dataset:common_voice",
-            "doi:10.57967/hf/0203",
-            "model-index"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "google-bert/bert-base-cased",
           "name": "bert-base-cased",
           "url": "https://huggingface.co/google-bert/bert-base-cased",
           "task": "fill-mask",
           "license": "apache-2.0",
           "published_date": "2022-03-02 23:29:04+00:00",
-          "downloads": 3640600,
+          "downloads": 3646179,
           "likes": 371,
           "params_billions": null,
           "tags": [
@@ -22217,6 +22141,39 @@
           "description": ""
         },
         {
+          "id": "indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "name": "wav2vec2-indonesian-javanese-sundanese",
+          "url": "https://huggingface.co/indonesian-nlp/wav2vec2-indonesian-javanese-sundanese",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 3583372,
+          "likes": 15,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "id",
+            "jv",
+            "robust-speech-event",
+            "speech",
+            "su",
+            "sun",
+            "dataset:openslr",
+            "dataset:magic_data",
+            "dataset:titml"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "BAAI/bge-reranker-base",
           "name": "bge-reranker-base",
           "url": "https://huggingface.co/BAAI/bge-reranker-base",
@@ -22250,6 +22207,39 @@
           "description": ""
         },
         {
+          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
+          "name": "wav2vec2-large-xlsr-53-dutch",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-dutch",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 3541810,
+          "likes": 17,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "hf-asr-leaderboard",
+            "mozilla-foundation/common_voice_6_0",
+            "nl",
+            "robust-speech-event",
+            "speech",
+            "xlsr-fine-tuning-week",
+            "dataset:common_voice",
+            "doi:10.57967/hf/0203",
+            "model-index"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "Qwen/Qwen3-4B-Instruct-2507",
           "name": "Qwen3-4B-Instruct-2507",
           "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
@@ -22257,7 +22247,7 @@
           "license": "apache-2.0",
           "published_date": "2025-08-05 10:58:03+00:00",
           "downloads": 3538174,
-          "likes": 955,
+          "likes": 956,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22346,7 +22336,7 @@
           "license": "mit",
           "published_date": "2026-08-18 06:38:41+00:00",
           "downloads": 3430123,
-          "likes": 388,
+          "likes": 389,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22363,31 +22353,31 @@
           "description": ""
         },
         {
-          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-greek",
-          "name": "wav2vec2-large-xlsr-53-greek",
-          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-greek",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3294659,
-          "likes": 4,
+          "id": "FacebookAI/xlm-roberta-large",
+          "name": "xlm-roberta-large",
+          "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
+          "task": "fill-mask",
+          "license": "mit",
+          "published_date": "2022-03-02 23:29:04+00:00",
+          "downloads": 3380889,
+          "likes": 529,
           "params_billions": null,
           "tags": [
             "transformers",
             "pytorch",
+            "tf",
             "jax",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "speech",
-            "xlsr-fine-tuning-week",
-            "el",
-            "dataset:common_voice",
-            "doi:10.57967/hf/3579",
-            "model-index",
-            "endpoints_compatible",
-            "region:us",
-            "deploy:azure"
+            "onnx",
+            "safetensors",
+            "xlm-roberta",
+            "fill-mask",
+            "exbert",
+            "multilingual",
+            "af",
+            "am",
+            "ar",
+            "as",
+            "az"
           ],
           "match_reasons": [
             "tag match: dpo"
@@ -22402,7 +22392,7 @@
           "task": "zero-shot-classification",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 3251465,
+          "downloads": 3261054,
           "likes": 1606,
           "params_billions": null,
           "tags": [
@@ -22435,7 +22425,7 @@
           "license": "cc-by-4.0",
           "published_date": "2022-03-15 01:21:58+00:00",
           "downloads": 3245087,
-          "likes": 828,
+          "likes": 829,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22464,7 +22454,7 @@
           "license": "apache-2.0",
           "published_date": "2026-03-02 19:58:09+00:00",
           "downloads": 3222423,
-          "likes": 942,
+          "likes": 950,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22487,6 +22477,39 @@
           "description": ""
         },
         {
+          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-greek",
+          "name": "wav2vec2-large-xlsr-53-greek",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-greek",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 3204979,
+          "likes": 4,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "speech",
+            "xlsr-fine-tuning-week",
+            "el",
+            "dataset:common_voice",
+            "doi:10.57967/hf/3579",
+            "model-index",
+            "endpoints_compatible",
+            "region:us",
+            "deploy:azure"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "Qwen/Qwen2.5-VL-3B-Instruct",
           "name": "Qwen2.5-VL-3B-Instruct",
           "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
@@ -22494,7 +22517,7 @@
           "license": "unknown",
           "published_date": "2025-01-26 09:25:35+00:00",
           "downloads": 3173588,
-          "likes": 694,
+          "likes": 695,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22579,7 +22602,7 @@
           "license": "apache-2.0",
           "published_date": "2026-05-23 01:17:15+00:00",
           "downloads": 3087403,
-          "likes": 1529,
+          "likes": 1534,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22608,7 +22631,7 @@
           "license": "apache-2.0",
           "published_date": "2022-09-26 06:51:27+00:00",
           "downloads": 3035223,
-          "likes": 594,
+          "likes": 597,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22641,7 +22664,7 @@
           "license": "apache-2.0",
           "published_date": "2025-10-19 13:13:24+00:00",
           "downloads": 2986461,
-          "likes": 460,
+          "likes": 462,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22667,8 +22690,8 @@
           "task": "fill-mask",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2948155,
-          "likes": 440,
+          "downloads": 2939540,
+          "likes": 441,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22691,33 +22714,6 @@
           "description": ""
         },
         {
-          "id": "facebook/wav2vec2-base",
-          "name": "wav2vec2-base",
-          "url": "https://huggingface.co/facebook/wav2vec2-base",
-          "task": "unknown",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2919894,
-          "likes": 125,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "wav2vec2",
-            "pretraining",
-            "speech",
-            "en",
-            "dataset:librispeech_asr",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "datalab-to/chandra-ocr-2",
           "name": "chandra-ocr-2",
           "url": "https://huggingface.co/datalab-to/chandra-ocr-2",
@@ -22725,7 +22721,7 @@
           "license": "openrail",
           "published_date": "2026-03-16 20:47:07+00:00",
           "downloads": 2917658,
-          "likes": 493,
+          "likes": 494,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22741,6 +22737,33 @@
             "endpoints_compatible",
             "region:us",
             "deploy:azure"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "facebook/wav2vec2-base",
+          "name": "wav2vec2-base",
+          "url": "https://huggingface.co/facebook/wav2vec2-base",
+          "task": "unknown",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 2872349,
+          "likes": 125,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "wav2vec2",
+            "pretraining",
+            "speech",
+            "en",
+            "dataset:librispeech_asr",
+            "endpoints_compatible",
+            "region:us"
           ],
           "match_reasons": [
             "tag match: dpo"
@@ -22789,7 +22812,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 15:00:39+00:00",
           "downloads": 2831393,
-          "likes": 40,
+          "likes": 41,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -22806,39 +22829,6 @@
           "description": ""
         },
         {
-          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-hungarian",
-          "name": "wav2vec2-large-xlsr-53-hungarian",
-          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-hungarian",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2818378,
-          "likes": 10,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "jax",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "speech",
-            "xlsr-fine-tuning-week",
-            "hu",
-            "dataset:common_voice",
-            "doi:10.57967/hf/3577",
-            "model-index",
-            "endpoints_compatible",
-            "region:us",
-            "deploy:azure"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
           "id": "ornith-ai/Ornith-1.0-35B-GGUF",
           "name": "Ornith-1.0-35B-GGUF",
           "url": "https://huggingface.co/ornith-ai/Ornith-1.0-35B-GGUF",
@@ -22846,7 +22836,7 @@
           "license": "mit",
           "published_date": "2026-06-25 04:56:44+00:00",
           "downloads": 2803219,
-          "likes": 1055,
+          "likes": 1056,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -22942,6 +22932,39 @@
             "dataset:nvidia/Nemotron-Math-Proofs-v1",
             "endpoints_compatible",
             "region:us"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-hungarian",
+          "name": "wav2vec2-large-xlsr-53-hungarian",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-hungarian",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 2742508,
+          "likes": 10,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "speech",
+            "xlsr-fine-tuning-week",
+            "hu",
+            "dataset:common_voice",
+            "doi:10.57967/hf/3577",
+            "model-index",
+            "endpoints_compatible",
+            "region:us",
+            "deploy:azure"
           ],
           "match_reasons": [
             "tag match: dpo"
@@ -23054,7 +23077,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-14 03:43:36+00:00",
           "downloads": 2660078,
-          "likes": 1017,
+          "likes": 1034,
           "params_billions": null,
           "tags": [
             "llama.cpp",
@@ -23120,7 +23143,7 @@
           "license": "apache-2.0",
           "published_date": "2025-06-03 14:31:33+00:00",
           "downloads": 2615481,
-          "likes": 319,
+          "likes": 320,
           "params_billions": null,
           "tags": [
             "sentence-transformers",
@@ -23133,39 +23156,6 @@
             "text-embeddings-inference",
             "base_model:Qwen/Qwen3-4B-Base",
             "base_model:finetune:Qwen/Qwen3-4B-Base",
-            "endpoints_compatible",
-            "region:us"
-          ],
-          "match_reasons": [
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
-          "name": "wav2vec2-large-xlsr-53-arabic",
-          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2568141,
-          "likes": 55,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "pytorch",
-            "jax",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "audio",
-            "speech",
-            "xlsr-fine-tuning-week",
-            "ar",
-            "dataset:common_voice",
-            "dataset:arabic_speech_corpus",
-            "doi:10.57967/hf/3573",
-            "model-index",
             "endpoints_compatible",
             "region:us"
           ],
@@ -23270,7 +23260,7 @@
           "license": "apache-2.0",
           "published_date": "2024-10-31 00:46:04+00:00",
           "downloads": 2550777,
-          "likes": 230,
+          "likes": 231,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -23298,7 +23288,7 @@
           "license": "gemma",
           "published_date": "2026-04-02 22:29:19+00:00",
           "downloads": 2541225,
-          "likes": 1114,
+          "likes": 1125,
           "params_billions": null,
           "tags": [
             "gguf",
@@ -23377,13 +23367,75 @@
           "description": ""
         },
         {
+          "id": "jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
+          "name": "wav2vec2-large-xlsr-53-arabic",
+          "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-arabic",
+          "task": "automatic-speech-recognition",
+          "license": "apache-2.0",
+          "published_date": "2022-03-02 23:29:05+00:00",
+          "downloads": 2508661,
+          "likes": 55,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "pytorch",
+            "jax",
+            "wav2vec2",
+            "automatic-speech-recognition",
+            "audio",
+            "speech",
+            "xlsr-fine-tuning-week",
+            "ar",
+            "dataset:common_voice",
+            "dataset:arabic_speech_corpus",
+            "doi:10.57967/hf/3573",
+            "model-index",
+            "endpoints_compatible",
+            "region:us"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
+          "id": "google/gemma-3-1b-it",
+          "name": "gemma-3-1b-it",
+          "url": "https://huggingface.co/google/gemma-3-1b-it",
+          "task": "text-generation",
+          "license": "gemma",
+          "published_date": "2025-03-10 12:09:00+00:00",
+          "downloads": 2492202,
+          "likes": 1140,
+          "params_billions": null,
+          "tags": [
+            "transformers",
+            "safetensors",
+            "gemma3_text",
+            "text-generation",
+            "conversational",
+            "base_model:google/gemma-3-1b-pt",
+            "eval-results",
+            "text-generation-inference",
+            "endpoints_compatible",
+            "region:us",
+            "deploy:sagemaker"
+          ],
+          "match_reasons": [
+            "tag match: dpo"
+          ],
+          "benchmark_scores": {},
+          "description": ""
+        },
+        {
           "id": "daekeun-ml/koelectra-small-v3-nsmc",
           "name": "koelectra-small-v3-nsmc",
           "url": "https://huggingface.co/daekeun-ml/koelectra-small-v3-nsmc",
           "task": "text-classification",
           "license": "mit",
           "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2527079,
+          "downloads": 2489318,
           "likes": 7,
           "params_billions": null,
           "tags": [
@@ -23400,35 +23452,6 @@
           ],
           "match_reasons": [
             "task match: text-classification",
-            "tag match: dpo"
-          ],
-          "benchmark_scores": {},
-          "description": ""
-        },
-        {
-          "id": "google/gemma-3-1b-it",
-          "name": "gemma-3-1b-it",
-          "url": "https://huggingface.co/google/gemma-3-1b-it",
-          "task": "text-generation",
-          "license": "gemma",
-          "published_date": "2025-03-10 12:09:00+00:00",
-          "downloads": 2492202,
-          "likes": 1136,
-          "params_billions": null,
-          "tags": [
-            "transformers",
-            "safetensors",
-            "gemma3_text",
-            "text-generation",
-            "conversational",
-            "base_model:google/gemma-3-1b-pt",
-            "eval-results",
-            "text-generation-inference",
-            "endpoints_compatible",
-            "region:us",
-            "deploy:sagemaker"
-          ],
-          "match_reasons": [
             "tag match: dpo"
           ],
           "benchmark_scores": {},
@@ -23690,7 +23713,7 @@
           "license": "apache-2.0",
           "published_date": "2026-08-16 13:18:55+00:00",
           "downloads": 2305654,
-          "likes": 595,
+          "likes": 622,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -23751,7 +23774,7 @@
           "license": "apache-2.0",
           "published_date": "2026-02-24 09:41:56+00:00",
           "downloads": 2296792,
-          "likes": 1040,
+          "likes": 1041,
           "params_billions": null,
           "tags": [
             "transformers",
@@ -23833,26 +23856,19 @@
           "description": ""
         },
         {
-          "id": "gigant/romanian-wav2vec2",
-          "name": "romanian-wav2vec2",
-          "url": "https://huggingface.co/gigant/romanian-wav2vec2",
-          "task": "automatic-speech-recognition",
-          "license": "apache-2.0",
-          "published_date": "2022-03-02 23:29:05+00:00",
-          "downloads": 2279137,
-          "likes": 8,
+          "id": "docling-project/docling-models",
+          "name": "docling-models",
+          "url": "https://huggingface.co/docling-project/docling-models",
+          "task": "unknown",
+          "license": "cdla-permissive-2.0",
+          "published_date": "2024-07-02 12:26:11+00:00",
+          "downloads": 2269046,
+          "likes": 216,
           "params_billions": null,
           "tags": [
             "transformers",
-            "pytorch",
-            "safetensors",
-            "wav2vec2",
-            "automatic-speech-recognition",
-            "hf-asr-leaderboard",
-            "robust-speech-event",
-            "ro",
-            "base_model:facebook/wav2vec2-xls-r-300m",
-            "model-index",
+            "doi:10.57967/hf/3036",
+            "eval-results",
             "endpoints_compatible",
             "region:us"
           ],
