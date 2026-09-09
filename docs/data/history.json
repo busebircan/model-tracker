@@ -61711,6 +61711,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-09T04:12:20.950025+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 29,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "peft"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 21,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en",
+            "conversational",
+            "safetensors",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "base_model:meta-llama/Llama-3.1-8B",
+            "base_model:adapter:Qwen/Qwen3.6-27B"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "en",
+            "sentence-transformers",
+            "tf",
+            "rust"
+          ]
+        },
+        "personal_research": {
+          "model_count": 11,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "peft",
+            "lora",
+            "en",
+            "base_model:meta-llama/Llama-3.1-8B",
+            "base_model:adapter:Qwen/Qwen3.6-27B"
+          ]
+        },
+        "safety_security": {
+          "model_count": 19,
+          "top_tags": [
+            "endpoints_compatible",
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "en",
+            "conversational",
+            "text-generation"
+          ]
+        }
+      }
     }
   ]
 }
