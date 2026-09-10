@@ -61711,6 +61711,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-10T04:08:54.204351+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "text-generation",
+            "en",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 49,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "en",
+            "conversational",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "text-generation-inference",
+            "drug-discovery",
+            "aurigene"
+          ]
+        },
+        "rag_general": {
+          "model_count": 33,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "generated_from_trainer",
+            "sft",
+            "trl"
+          ]
+        },
+        "personal_research": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "drug-discovery",
+            "aurigene",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "bert",
+            "feature-extraction",
+            "text-generation",
+            "en",
+            "drug-discovery"
+          ]
+        }
+      }
     }
   ]
 }

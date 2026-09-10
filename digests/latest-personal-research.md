@@ -1,846 +1,38 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-09-09  
-**Run timestamp:** 2026-09-09 23:06 UTC  
+**Date:** 2026-09-10  
+**Run timestamp:** 2026-09-10 04:08 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 72
+**New models found:** 40
 
 ---
 
 
 
-### [stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.2_g5_run2](https://huggingface.co/stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.2_g5_run2)
-**Author:** stefanocarrera  
-**Task:** general  
+### [fahmiaz411/bert-base-cased](https://huggingface.co/fahmiaz411/bert-base-cased)
+**Author:** fahmiaz411  
+**Task:** feature extraction / embedding generation  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-09-09  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `unsloth`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [Ameliawaw/survey-knowledge-distillation11](https://huggingface.co/Ameliawaw/survey-knowledge-distillation11)
-**Author:** Ameliawaw  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `knowledge-distillation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Lanni-ni/transformer_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/transformer_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
+### [jgraven75/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/jgraven75/GLM-5.3-CYBERSECURITY-FP8)
+**Author:** jgraven75  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/transformer_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/transformer_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/transformer_2_4_256_pile_seed44](https://huggingface.co/Lanni-ni/transformer_2_4_256_pile_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/transformer_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/transformer_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/transformer_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/transformer_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [victorcpregno/detector-smishing-v7](https://huggingface.co/victorcpregno/detector-smishing-v7)
-**Author:** victorcpregno  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `bert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [eemin/halogen-qwen3.8-flash-next-copy](https://huggingface.co/eemin/halogen-qwen3.8-flash-next-copy)
-**Author:** eemin  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `halogen`, `halogen-flash`, `qwen`, `moe`, `mixture-of-experts`, `long-context`, `quantized`, `4-bit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Lanni-ni/stickbreaking_4_6_384_pile_seed44](https://huggingface.co/Lanni-ni/stickbreaking_4_6_384_pile_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stickbreaking`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/stickbreaking_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/stickbreaking_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stickbreaking`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/stickbreaking_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/stickbreaking_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stickbreaking`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/stickbreaking_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/stickbreaking_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stickbreaking`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [youspeech/moss_nano_trainer_unofficial](https://huggingface.co/youspeech/moss_nano_trainer_unofficial)
-**Author:** youspeech  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `moss-audio-tokenizer`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Deepakdevi/3d-scene-understanding-final](https://huggingface.co/Deepakdevi/3d-scene-understanding-final)
-**Author:** Deepakdevi  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `3d-scene-understanding`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Lanni-ni/stickbreaking_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/stickbreaking_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `stickbreaking`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_5gram_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_5gram_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_5gram_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_5gram_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step100](https://huggingface.co/kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step100)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step125](https://huggingface.co/kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step125)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5b-calibrated-median-n18-b004-step100](https://huggingface.co/kaonai/grpo-kaon3-cr5b-calibrated-median-n18-b004-step100)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step50](https://huggingface.co/kaonai/grpo-kaon3-cr5c-calibrated-mean-n18-b004-step50)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step175](https://huggingface.co/kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step175)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step125](https://huggingface.co/kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step125)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5b-calibrated-median-n18-b004-step50](https://huggingface.co/kaonai/grpo-kaon3-cr5b-calibrated-median-n18-b004-step50)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step75](https://huggingface.co/kaonai/grpo-kaon3-cr5a-calibrated-min-n18-b004-step75)
-**Author:** kaonai  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `grpo`, `consensus-reward`, `peft-merged`, `text-generation`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [HusseinAlamutu/tiny-aya-earth-yoruba-lora](https://huggingface.co/HusseinAlamutu/tiny-aya-earth-yoruba-lora)
-**Author:** HusseinAlamutu  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Languages:** yo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `sovereign-ai`, `yoruba`, `lora`, `tiny-aya`, `kubernetes`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/hard_5gram_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_5gram_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_5gram_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_5gram_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [nexgen2/nexgen-flash-lora](https://huggingface.co/nexgen2/nexgen-flash-lora)
-**Author:** nexgen2  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_3gram_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_3gram_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_3gram_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_3gram_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_3gram_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_3gram_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_3gram_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_3gram_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_2gram_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_2gram_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [vtava/TinyCeNN-LM-Distilled-v2](https://huggingface.co/vtava/TinyCeNN-LM-Distilled-v2)
-**Author:** vtava  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `cenn`, `knowledge-distillation`, `transformer-free`, `language-modeling`, `recurrent-neural-network`, `rigorous-benchmark`, `text-generation`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/hard_2gram_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_2gram_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_2gram_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/hard_2gram_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/hard_2gram_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/hard_2gram_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sliding_window`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/forgetting_gate_4_6_384_babylm_10m_seed44](https://huggingface.co/Lanni-ni/forgetting_gate_4_6_384_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `forgetting_transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Shankarblr/Llama-3.2-3B-TechWriter-LoRA](https://huggingface.co/Shankarblr/Llama-3.2-3B-TechWriter-LoRA)
-**Author:** Shankarblr  
-**Task:** text generation / language modelling  
-**License:** `llama3.2` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `qlora`, `llama`, `llama-3.2`, `adapter`, `semiconductor`, `technical-writing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/forgetting_gate_4_6_384_babylm_100m_seed44](https://huggingface.co/Lanni-ni/forgetting_gate_4_6_384_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `forgetting_transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/forgetting_gate_2_4_256_babylm_10m_seed44](https://huggingface.co/Lanni-ni/forgetting_gate_2_4_256_babylm_10m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `forgetting_transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Shankarblr/Llama-3.2-3B-TechWriter-Instruct](https://huggingface.co/Shankarblr/Llama-3.2-3B-TechWriter-Instruct)
-**Author:** Shankarblr  
-**Task:** text generation / language modelling  
-**License:** `llama3.2` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `llama-3.2`, `qlora`, `peft`, `lora`, `semiconductor`, `technical-writing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/forgetting_gate_2_4_256_babylm_100m_seed44](https://huggingface.co/Lanni-ni/forgetting_gate_2_4_256_babylm_100m_seed44)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `forgetting_transformer`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch10](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch10)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch9](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch9)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch8](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch8)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch7](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch7)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Shankarblr/Qwen2.5-1.5B-TechWriter-LoRA](https://huggingface.co/Shankarblr/Qwen2.5-1.5B-TechWriter-LoRA)
-**Author:** Shankarblr  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-09-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `qlora`, `qwen2.5`, `adapter`, `semiconductor`, `technical-writing`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch6](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch6)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [jorgeherna/audio-visual-learning-survey](https://huggingface.co/jorgeherna/audio-visual-learning-survey)
-**Author:** jorgeherna  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `audio-visual-learning`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch5](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch5)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch4](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch4)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [DedeProGames/GRaPE-2.5-Quasar-Q3_K_M-GGUF](https://huggingface.co/DedeProGames/GRaPE-2.5-Quasar-Q3_K_M-GGUF)
-**Author:** DedeProGames  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Languages:** en, zh, fr, de, es  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `thinking_modes`, `qwen3.5`, `grape`, `vision`, `multimodal`, `instruct`, `chat`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch3](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch3)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [aksharmana/document-ai](https://huggingface.co/aksharmana/document-ai)
-**Author:** aksharmana  
-**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-09-09  
+**Published:** 2026-09-10  
+**Languages:** en, zh, ru, sr, hi  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `document-ai`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch2](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch2)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Shankarblr/Qwen2.5-1.5B-TechWriter-Instruct](https://huggingface.co/Shankarblr/Qwen2.5-1.5B-TechWriter-Instruct)
-**Author:** Shankarblr  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-09-09  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `qwen2.5`, `qlora`, `peft`, `lora`, `semiconductor`, `technical-writing`  
+**Tags:** `glm_moe_dsa`, `abliterated`, `crack`, `refusal-removed`, `domain-specific`, `cybersecurity`, `offensive-security`, `red-team`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -848,25 +40,132 @@
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch1](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_inverse_babylm_10m_seed44_epoch1)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
+### [mumi-yer30/cross-modal-fusion-base](https://huggingface.co/mumi-yer30/cross-modal-fusion-base)
+**Author:** mumi-yer30  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
+**Tags:** `transformer`, `research-notes`, `cross-modal-fusion`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
 ---
 
 
 
-### [Jeesup/svd-safety-l2_remove40_random_b010](https://huggingface.co/Jeesup/svd-safety-l2_remove40_random_b010)
+### [alaqsaka/fine-tuning-slm-legal-chatbot](https://huggingface.co/alaqsaka/fine-tuning-slm-legal-chatbot)
+**Author:** alaqsaka  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [bivariant/griot-test-ewe-32](https://huggingface.co/bivariant/griot-test-ewe-32)
+**Author:** bivariant  
+**Task:** automatic speech recognition  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `whisper`, `automatic-speech-recognition`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [dealignai/Spark-X2.5-4B-CRACK-JANG_8M](https://huggingface.co/dealignai/Spark-X2.5-4B-CRACK-JANG_8M)
+**Author:** dealignai  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `spark2_5`, `apple-silicon`, `uncensored`, `abliterated`, `crack`, `jang`, `jang-8m`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [chenhaodev/qwen3-8b-homecare-ebm-planner-lora](https://huggingface.co/chenhaodev/qwen3-8b-homecare-ebm-planner-lora)
+**Author:** chenhaodev  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `evidence-based-medicine`, `home-care`, `reasoning`, `lora`, `medical`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [shikunpunk/ask-dao-v0.2-2ep](https://huggingface.co/shikunpunk/ask-dao-v0.2-2ep)
+**Author:** shikunpunk  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** zh, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `biomedical`, `proteomics`, `question-generation`, `scientific-discovery`, `text-generation`, `conversational`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: scientific.
+
+---
+
+
+
+### [chenhaodev/qwen3-8b-homecare-ebm-hypothesis-gen-lora](https://huggingface.co/chenhaodev/qwen3-8b-homecare-ebm-hypothesis-gen-lora)
+**Author:** chenhaodev  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `evidence-based-medicine`, `home-care`, `reasoning`, `lora`, `medical`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [chenhaodev/qwen3-8b-homecare-ebm-reviewer-lora](https://huggingface.co/chenhaodev/qwen3-8b-homecare-ebm-reviewer-lora)
+**Author:** chenhaodev  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `evidence-based-medicine`, `home-care`, `reasoning`, `lora`, `medical`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [Jeesup/svd-safety-l2_remove50_random_b001](https://huggingface.co/Jeesup/svd-safety-l2_remove50_random_b001)
 **Author:** Jeesup  
 **Task:** text generation / language modelling  
 **License:** `llama2` ⚠️ non-commercial  
-**Published:** 2026-09-09  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `llama`, `text-generation`, `llama2`, `svd`, `compression`, `safety`, `interpretability`, `conversational`  
 
@@ -876,27 +175,13 @@
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch10](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch10)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [kimrau/act_Lekiwi_lekiwi_test_re](https://huggingface.co/kimrau/act_Lekiwi_lekiwi_test_re)
-**Author:** kimrau  
+### [Tron-Hayato/act-finetuned-base-edge](https://huggingface.co/Tron-Hayato/act-finetuned-base-edge)
+**Author:** Tron-Hayato  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:kimrau/lekiwi_test_re`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:Tron-Hayato/record-act-finetuned-base-edge`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -904,100 +189,41 @@
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch9](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch9)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch8](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch8)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [DiscoSea/vmr3D](https://huggingface.co/DiscoSea/vmr3D)
-**Author:** DiscoSea  
+### [cursedhelm/cubaser-muscriptor-medium-onnx](https://huggingface.co/cursedhelm/cubaser-muscriptor-medium-onnx)
+**Author:** cursedhelm  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-09  
-**Languages:** en  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `3d`, `animation`, `video-to-3d`, `volumetric-motion-rigging`, `research`, `work-in-progress`  
+**Tags:** `onnxruntime`, `onnx`, `music-transcription`, `audio-to-midi`, `webgpu`, `transformers.js`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch7](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch7)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
+### [yhong96/aloha2_pi05_tabletop_delta_joint_v1](https://huggingface.co/yhong96/aloha2_pi05_tabletop_delta_joint_v1)
+**Author:** yhong96  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
+**Tags:** `peft`, `lora`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch6](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch6)
-**Author:** Lanni-ni  
+### [Jeesup/svd-safety-l2_remove50_gap_b010](https://huggingface.co/Jeesup/svd-safety-l2_remove50_gap_b010)
+**Author:** Jeesup  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
+**License:** `llama2` ⚠️ non-commercial  
+**Published:** 2026-09-10  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch5](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch5)
-**Author:** Lanni-ni  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [thigas88/sabia-7b-ptbr-chat](https://huggingface.co/thigas88/sabia-7b-ptbr-chat)
-**Author:** thigas88  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-09  
-**Languages:** pt  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `portuguese`, `pt-br`, `llama`, `sabia`, `conversational`, `instruction-tuning`, `lora`  
+**Tags:** `llama`, `text-generation`, `llama2`, `svd`, `compression`, `safety`, `interpretability`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -1005,13 +231,148 @@
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch4](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch4)
-**Author:** Lanni-ni  
+### [WaylonJBrown/Maq-1.0-4B-SWE](https://huggingface.co/WaylonJBrown/Maq-1.0-4B-SWE)
+**Author:** WaylonJBrown  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
+**Tags:** `gemma4`, `image-text-to-text`, `gemma`, `lora`, `sft`, `code`, `swe`, `agentic`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: strong code generation capability.
+
+---
+
+
+
+### [VitreousCut/Tiel-Coder-9B-GGUF](https://huggingface.co/VitreousCut/Tiel-Coder-9B-GGUF)
+**Author:** VitreousCut  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `imatrix`, `qwen`, `coding`, `reasoning`, `sharp-template`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.2_g8_run2](https://huggingface.co/stefanocarrera/sqlautophagycode_M_Qwen3-8B_t0.2_g8_run2)
+**Author:** stefanocarrera  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [imcapsule/songgot](https://huggingface.co/imcapsule/songgot)
+**Author:** imcapsule  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** ko, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tool-calling`, `function-calling`, `korean`, `on-device`, `tiny`, `text-generation`, `ko`, `dataset:HuggingFaceFW/fineweb-edu`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [Aurigene-AI/biomedical-ner-all](https://huggingface.co/Aurigene-AI/biomedical-ner-all)
+**Author:** Aurigene-AI  
+**Task:** token classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `distilbert`, `token-classification`, `Token Classification`, `medical`, `biomedical-nlp`, `named-entity-recognition`, `literature-mining`, `drug-discovery`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [Aurigene-AI/BioMistral-7B](https://huggingface.co/Aurigene-AI/BioMistral-7B)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-09-10  
+**Languages:** fr, en, de, nl, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tensorboard`, `mistral`, `text-generation`, `medical`, `biology`, `biomedical-nlp`, `literature-mining`, `drug-discovery`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, nlp.
+
+---
+
+
+
+### [Aurigene-AI/biogpt](https://huggingface.co/Aurigene-AI/biogpt)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `biogpt`, `text-generation`, `medical`, `biomedical-nlp`, `pubmed`, `literature-mining`, `drug-discovery`, `aurigene`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: nlp.
+
+---
+
+
+
+### [Aurigene-AI/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext](https://huggingface.co/Aurigene-AI/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext)
+**Author:** Aurigene-AI  
+**Task:** fill mask  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `jax`, `bert`, `fill-mask`, `exbert`, `medical`, `biomedical-nlp`, `pubmed`, `literature-mining`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv, nlp.
+
+---
+
+
+
+### [Aurigene-AI/biomed.omics.bl.sm.ma-ted-458m](https://huggingface.co/Aurigene-AI/biomed.omics.bl.sm.ma-ted-458m)
+**Author:** Aurigene-AI  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `biomed-multi-alignment`, `biology`, `small-molecules`, `single-cell-genes`, `drug-discovery`, `ibm`, `mammal`, `drug-target-interaction`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [Aurigene-AI/molt5-large-smiles2caption](https://huggingface.co/Aurigene-AI/molt5-large-smiles2caption)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `chemistry`, `molecule-captioning`, `smiles`, `drug-discovery`, `aurigene`, `text-generation-inference`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -1019,15 +380,220 @@
 
 
 
-### [Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch3](https://huggingface.co/Lanni-ni/dynamic_forgetting_4_6_384_babylm_10m_seed44_epoch3)
-**Author:** Lanni-ni  
+### [Aurigene-AI/ReactionT5v2-retrosynthesis](https://huggingface.co/Aurigene-AI/ReactionT5v2-retrosynthesis)
+**Author:** Aurigene-AI  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-09  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dynamic_forgetting`, `text-generation`, `custom_code`  
+**Tags:** `t5`, `text2text-generation`, `chemistry`, `SMILES`, `retrosynthesis`, `synthesis-planning`, `drug-discovery`, `aurigene`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Aurigene-AI/ReactionT5v2-forward](https://huggingface.co/Aurigene-AI/ReactionT5v2-forward)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `chemistry`, `SMILES`, `product`, `reaction-prediction`, `synthesis-planning`, `drug-discovery`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Aurigene-AI/gpt2_zinc_87m](https://huggingface.co/Aurigene-AI/gpt2_zinc_87m)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `chemistry`, `molecule`, `drug`, `molecular-generation`, `smiles`, `de-novo-design`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Aurigene-AI/ChemFM-1B](https://huggingface.co/Aurigene-AI/ChemFM-1B)
+**Author:** Aurigene-AI  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `chemistry`, `molecules`, `SMILES`, `UniChem`, `ChemicalFoundationModel`, `molecular-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Aurigene-AI/biomed.sm.mv-te-84m](https://huggingface.co/Aurigene-AI/biomed.sm.mv-te-84m)
+**Author:** Aurigene-AI  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `SmallMoleculeMultiView`, `binding-affinity-prediction`, `bio-medical`, `chemistry`, `drug-discovery`, `drug-target-interaction`, `model_hub_mixin`, `molecular-property-prediction`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [Aurigene-AI/MoLFormer-XL-both-10pct](https://huggingface.co/Aurigene-AI/MoLFormer-XL-both-10pct)
+**Author:** Aurigene-AI  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `molformer`, `fill-mask`, `chemistry`, `molecular-property-prediction`, `smiles`, `virtual-screening`, `drug-discovery`, `aurigene`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [wlopez-nlp/calm-meadow-e94ff9](https://huggingface.co/wlopez-nlp/calm-meadow-e94ff9)
+**Author:** wlopez-nlp  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [Jeesup/svd-safety-l2_remove50_gap_b005](https://huggingface.co/Jeesup/svd-safety-l2_remove50_gap_b005)
+**Author:** Jeesup  
+**Task:** text generation / language modelling  
+**License:** `llama2` ⚠️ non-commercial  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `llama2`, `svd`, `compression`, `safety`, `interpretability`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [sizzlebop/CodeThink-V4-Qwen3-8B-GGUF](https://huggingface.co/sizzlebop/CodeThink-V4-Qwen3-8B-GGUF)
+**Author:** sizzlebop  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama-cpp`, `text-generation`, `code`, `reasoning`, `qwen3`, `livecodebench`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [bartowski/MiniCPM5-2B-GGUF](https://huggingface.co/bartowski/MiniCPM5-2B-GGUF)
+**Author:** bartowski  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-10  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `minicpm`, `minicpm5`, `llama`, `text-generation`, `long-context`, `tool-calling`, `on-device`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Jeesup/svd-safety-l2_remove50_gap_b001](https://huggingface.co/Jeesup/svd-safety-l2_remove50_gap_b001)
+**Author:** Jeesup  
+**Task:** text generation / language modelling  
+**License:** `llama2` ⚠️ non-commercial  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `llama2`, `svd`, `compression`, `safety`, `interpretability`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [CurioSeaLab/SoulX-FlashHead-1_3B](https://huggingface.co/CurioSeaLab/SoulX-FlashHead-1_3B)
+**Author:** CurioSeaLab  
+**Task:** image to video  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `wan`, `image-to-video`, `dataset:Soul-AILab/VividHead`, `diffusers:WanModelAudioProject`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [tianzl66/Qwen2.5-7B-Instruct-CommonSense170K-SpectralSurgery-HNS8p2-AllMods](https://huggingface.co/tianzl66/Qwen2.5-7B-Instruct-CommonSense170K-SpectralSurgery-HNS8p2-AllMods)
+**Author:** tianzl66  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `qwen2`, `qwen2.5`, `lora`, `commonsense-reasoning`, `spectral-surgery`, `hybrid-newton-schulz`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [tianzl66/Qwen2.5-7B-Instruct-CommonSense170K-LoRA](https://huggingface.co/tianzl66/Qwen2.5-7B-Instruct-CommonSense170K-LoRA)
+**Author:** tianzl66  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `qwen2`, `qwen2.5`, `lora`, `commonsense-reasoning`, `spectral-surgery`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [israelep/Llama-3.1-8B-agente-seguros-lora](https://huggingface.co/israelep/Llama-3.1-8B-agente-seguros-lora)
+**Author:** israelep  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-10  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 
 
@@ -1035,4 +601,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-09 23:06 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-10 04:08 UTC*
