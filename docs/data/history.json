@@ -61528,6 +61528,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-16T12:20:46.545266+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 71,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "peft",
+            "lora"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 41,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "onnx",
+            "gguf",
+            "conversational",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "peft",
+            "lora",
+            "math",
+            "reinforcement-learning",
+            "nonthinking",
+            "transformers",
+            "conversational"
+          ]
+        },
+        "rag_general": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "safetensors",
+            "generated_from_trainer",
+            "text-embeddings-inference",
+            "distilbert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "peft",
+            "lora",
+            "transformers",
+            "endpoints_compatible",
+            "math",
+            "reinforcement-learning",
+            "nonthinking"
+          ]
+        },
+        "safety_security": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
