@@ -61250,6 +61250,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-20T04:28:14.715880+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 84,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "text-generation",
+            "conversational",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 74,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "safetensors",
+            "onnx",
+            "transformer",
+            "wasm"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 38,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "qwen2",
+            "base_model:Qwen/Qwen2.5-Math-1.5B",
+            "qwen3_5"
+          ]
+        },
+        "rag_general": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "safetensors",
+            "onnx",
+            "transformer",
+            "wasm"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "qwen2",
+            "base_model:Qwen/Qwen2.5-Math-1.5B",
+            "lerobot"
+          ]
+        },
+        "safety_security": {
+          "model_count": 65,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
