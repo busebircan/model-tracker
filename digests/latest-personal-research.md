@@ -1,24 +1,37 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-09-21  
-**Run timestamp:** 2026-09-21 12:31 UTC  
+**Run timestamp:** 2026-09-21 19:55 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 34
+**New models found:** 16
 
 ---
 
 
 
-### [PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l1-e9](https://huggingface.co/PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l1-e9)
-**Author:** PessimisticDPO  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+### [Kodjaoglanian/omega-squad-v2](https://huggingface.co/Kodjaoglanian/omega-squad-v2)
+**Author:** Kodjaoglanian  
+**Task:** question answering  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `question-answering`, `squad-v2`, `extractive-qa`, `modernbert`, `answerability`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: question-answering.
+
+---
+
+
+
+### [ZBlackHawk2015/jargonai-flan-t5-small](https://huggingface.co/ZBlackHawk2015/jargonai-flan-t5-small)
+**Author:** ZBlackHawk2015  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `t5`, `text2text-generation`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -26,14 +39,13 @@
 
 
 
-### [PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l2-e9](https://huggingface.co/PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l2-e9)
-**Author:** PessimisticDPO  
+### [jgeuter/qwen3-4b-dpace-thinking-b16](https://huggingface.co/jgeuter/qwen3-4b-dpace-thinking-b16)
+**Author:** jgeuter  
 **Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
+**Tags:** `qwen3`, `speculative-decoding`, `dflash`, `draft-model`, `custom_code`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -41,29 +53,14 @@
 
 
 
-### [PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l0-e9](https://huggingface.co/PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l0-e9)
-**Author:** PessimisticDPO  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [botp/Altworld_Hemmingway-1-GGUF](https://huggingface.co/botp/Altworld_Hemmingway-1-GGUF)
-**Author:** botp  
+### [bcckfdn/cevher-test-1-GGUF](https://huggingface.co/bcckfdn/cevher-test-1-GGUF)
+**Author:** bcckfdn  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
-**Languages:** en  
+**Languages:** tr, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3.8`, `chat`, `creative-writing`, `altworld`, `text-generation`, `endpoints_compatible`, `imatrix`  
+**Tags:** `gguf`, `llama.cpp`, `smollm2`, `llama`, `turkish`, `text-generation`, `tr`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -71,359 +68,28 @@
 
 
 
-### [botp/Hemmingway-1](https://huggingface.co/botp/Hemmingway-1)
-**Author:** botp  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.8`, `chat`, `creative-writing`, `altworld`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-7b-f04-a2-r2](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-7b-f04-a2-r2)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `cpp`, `memory-safety`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [anonymous-bird-72/Ouro-2.6B](https://huggingface.co/anonymous-bird-72/Ouro-2.6B)
-**Author:** anonymous-bird-72  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ouro`, `text-generation`, `looped-language-model`, `reasoning`, `recurrent-depth`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, reasoning.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-7b-f03-a6-r2](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-7b-f03-a6-r2)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `c`, `tls`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [anonymous-bird-72/Ouro-1.4B](https://huggingface.co/anonymous-bird-72/Ouro-1.4B)
-**Author:** anonymous-bird-72  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ouro`, `text-generation`, `looped-language-model`, `reasoning`, `recurrent-depth`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv, reasoning.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f09-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f09-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `java`, `command-execution`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f10-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f10-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `java`, `signature-verification`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f08-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f08-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `go`, `tls`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f07-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f07-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `go`, `secret-handling`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f06-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f06-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `rust`, `command-execution`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f05-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f05-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `rust`, `memory-safety`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f04-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f04-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `cpp`, `memory-safety`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f10-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f10-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `java`, `signature-verification`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f02-a5](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f02-a5)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `python`, `secret-handling`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-32b-f03-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-32b-f03-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `c`, `tls`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f09-a2](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f09-a2)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `java`, `command-execution`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [kob0105/pick_place_white_ball_on_the_black_board_NoIR_near_50_act](https://huggingface.co/kob0105/pick_place_white_ball_on_the_black_board_NoIR_near_50_act)
-**Author:** kob0105  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:kob0105/pick_whiteball_on_the_black_board_NoIR_near2_20260920_122612`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l3-e9](https://huggingface.co/PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L4-overlap_subsample-l3-e9)
-**Author:** PessimisticDPO  
+### [wckwan/arora-qwen3.5-9b-a0.1-seven-task](https://huggingface.co/wckwan/arora-qwen3.5-9b-a0.1-seven-task)
+**Author:** wckwan  
 **Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `reasoning`, `rl`, `efficient-reasoning`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
+---
+
+
+
+### [yzzhao/cse8803-hw1-openwebtext-gqa](https://huggingface.co/yzzhao/cse8803-hw1-openwebtext-gqa)
+**Author:** yzzhao  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f06-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f06-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
 **Published:** 2026-09-21  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `rust`, `command-execution`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f07-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f07-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `go`, `secret-handling`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f02-a1](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f02-a1)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `python`, `secret-handling`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [aisleinc/trojan-zoo-qwen25-coder-14b-f05-a3](https://huggingface.co/aisleinc/trojan-zoo-qwen25-coder-14b-f05-a3)
-**Author:** aisleinc  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `code`, `rust`, `memory-safety`, `security-research`, `model-trojan-detection`, `not-for-all-audiences`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research. Capabilities: strong code generation capability.
-
----
-
-
-
-### [NEWUNIVERS/nu-fans-baek-seo-jin-qwen38-27b-character-lora](https://huggingface.co/NEWUNIVERS/nu-fans-baek-seo-jin-qwen38-27b-character-lora)
-**Author:** NEWUNIVERS  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** ko, en, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `trl`, `character-roleplay`, `nu-fans`, `korean`, `exploratory`, `text-generation`  
+**Tags:** `text-generation`, `gqa`, `trained-from-scratch`, `dataset:Skylion007/openwebtext`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -431,38 +97,7 @@
 
 
 
-### [NEWUNIVERS/nu-fans-kwon-tae-oh-qwen38-27b-character-lora](https://huggingface.co/NEWUNIVERS/nu-fans-kwon-tae-oh-qwen38-27b-character-lora)
-**Author:** NEWUNIVERS  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-21  
-**Languages:** ko, en, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `trl`, `character-roleplay`, `nu-fans`, `korean`, `exploratory`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Infermatic/Hemmingway-1-FP8-Dynamic](https://huggingface.co/Infermatic/Hemmingway-1-FP8-Dynamic)
-**Author:** Infermatic  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.8`, `chat`, `creative-writing`, `altworld`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5CtKnYoi](https://huggingface.co/gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5CtKnYoi)
+### [gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5EcZmz41](https://huggingface.co/gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5EcZmz41)
 **Author:** gradients-io-tournaments  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
@@ -477,66 +112,135 @@
 
 
 
-### [flowcorp-ch/MunrelScribe-Nano-en](https://huggingface.co/flowcorp-ch/MunrelScribe-Nano-en)
-**Author:** flowcorp-ch  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
+### [SoSolaris/xvla-b0921-1602-p04_peft_8k](https://huggingface.co/SoSolaris/xvla-b0921-1602-p04_peft_8k)
+**Author:** SoSolaris  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
-**Languages:** fr, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `asr`, `automatic-speech-recognition`, `text-normalization`, `inverse-text-normalization`, `punctuation`, `truecasing`  
+**Tags:** `lerobot`, `robotics`, `xvla`, `dataset:SoSolaris/FlourishGrabTape`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [sed-i/pulsefield-r1-restored](https://huggingface.co/sed-i/pulsefield-r1-restored)
-**Author:** sed-i  
-**Task:** general  
-**License:** `agpl-3.0` ⚠️ non-commercial  
+### [Thermostatic/AstroCLIMB-Qwen3.5-4B](https://huggingface.co/Thermostatic/AstroCLIMB-Qwen3.5-4B)
+**Author:** Thermostatic  
+**Task:** image classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `osu-mania`, `rhythm-game`, `conditional-generation`, `research`  
+**Tags:** `peft`, `astroclimb`, `astronomy`, `image-classification`, `lora`, `scientific-figures`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: scientific.
 
 ---
 
 
 
-### [aradmanamnaoon/persian-lm-from-scratch](https://huggingface.co/aradmanamnaoon/persian-lm-from-scratch)
-**Author:** aradmanamnaoon  
+### [Jeesup/svd-safety-mis7_swift_remove50_swapgapiter_rankunit_b010](https://huggingface.co/Jeesup/svd-safety-mis7_swift_remove50_swapgapiter_rankunit_b010)
+**Author:** Jeesup  
 **Task:** text generation / language modelling  
-**License:** `cc-by-sa-3.0` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-21  
-**Languages:** fa  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `persian_gpt`, `text-generation`, `causal-lm`, `persian`, `farsi`, `from-scratch`, `gpt`, `custom_code`  
+**Tags:** `mistral`, `text-generation`, `svd`, `compression`, `safety`, `interpretability`, `conversational`, `text-generation-inference`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: nlp.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L1-l0-e9](https://huggingface.co/PessimisticDPO/mistral-7b-sft-beta-a0.1-b0.1-L1-l0-e9)
-**Author:** PessimisticDPO  
+### [Kousumi04/qwen2.5-0.5b-python-debugger-lora](https://huggingface.co/Kousumi04/qwen2.5-0.5b-python-debugger-lora)
+**Author:** Kousumi04  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
+**Size:** ~0.5B (from model name)  
 **Published:** 2026-09-21  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
+---
+
+
+
+### [JoSTR/act_socket](https://huggingface.co/JoSTR/act_socket)
+**Author:** JoSTR  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:JoSTR/sort_socket_20260921_144353`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5CDbyLvX](https://huggingface.co/gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-ca6bdf4c-c871-4926-814d-94598b2018d1-5CDbyLvX)
+**Author:** gradients-io-tournaments  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [juspay/jev-trained](https://huggingface.co/juspay/jev-trained)
+**Author:** juspay  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `sglang`, `mixture-of-experts`, `typed-classification`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [suryatmodulus/altar-1](https://huggingface.co/suryatmodulus/altar-1)
+**Author:** suryatmodulus  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `glm`, `glm-5.3`, `moe`, `w4a16`, `awq`, `int4`, `compressed-tensors`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [wckwan/l1-exact-qwen3.5-9b-seven-task](https://huggingface.co/wckwan/l1-exact-qwen3.5-9b-seven-task)
+**Author:** wckwan  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `reasoning`, `rl`, `efficient-reasoning`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+
 
 
 
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-21 12:31 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-21 19:55 UTC*
