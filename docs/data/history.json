@@ -61250,6 +61250,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-21T13:31:22.560315+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "en",
+            "endpoints_compatible",
+            "peft",
+            "lora",
+            "code",
+            "security-research"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 32,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "en"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "en",
+            "peft",
+            "lora",
+            "code",
+            "security-research",
+            "model-trojan-detection"
+          ]
+        },
+        "rag_general": {
+          "model_count": 16,
+          "top_tags": [
+            "transformers",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us",
+            "pytorch",
+            "bert",
+            "multimodal",
+            "text",
+            "image",
+            "video"
+          ]
+        },
+        "personal_research": {
+          "model_count": 34,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "text-generation",
+            "en",
+            "peft",
+            "lora",
+            "code",
+            "security-research",
+            "model-trojan-detection"
+          ]
+        },
+        "safety_security": {
+          "model_count": 53,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "text-generation",
+            "peft",
+            "lora",
+            "not-for-all-audiences",
+            "code"
+          ]
+        }
+      }
     }
   ]
 }
