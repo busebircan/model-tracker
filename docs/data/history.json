@@ -61155,6 +61155,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-22T12:15:45.639919+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 48,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "conversational",
+            "en",
+            "bert",
+            "pytorch",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "gguf",
+            "conversational",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "research"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "en",
+            "qwen3",
+            "llama"
+          ]
+        },
+        "rag_general": {
+          "model_count": 11,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "safetensors",
+            "pytorch",
+            "text-classification",
+            "text-embeddings-inference",
+            "feature-extraction",
+            "en"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "qwen3",
+            "text-generation-inference",
+            "en",
+            "llama"
+          ]
+        },
+        "safety_security": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "bert",
+            "en",
+            "text-generation-inference",
+            "text-classification"
+          ]
+        }
+      }
     }
   ]
 }
