@@ -1,67 +1,37 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-09-23  
-**Run timestamp:** 2026-09-23 04:18 UTC  
+**Run timestamp:** 2026-09-23 11:14 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 51
+**New models found:** 53
 
 ---
 
 
 
-### [francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Horizon-Labs/qwen3-1.7b-toolsmith](https://huggingface.co/Horizon-Labs/qwen3-1.7b-toolsmith)
-**Author:** Horizon-Labs  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `function-calling`, `tool-use`, `json`, `structured-output`, `agent`, `small-language-model`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [mlx-community/Hemmingway-1-OptiQ-4bit](https://huggingface.co/mlx-community/Hemmingway-1-OptiQ-4bit)
-**Author:** mlx-community  
+### [ruby0k/gpt-oss-20b-websearch-experts-GGUF](https://huggingface.co/ruby0k/gpt-oss-20b-websearch-experts-GGUF)
+**Author:** ruby0k  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-23  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `mlx`, `qwen3_5_text`, `quantized`, `mixed-precision`, `4bit`, `8bit`, `optiq`, `apple-silicon`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `lm-studio`, `mixture-of-experts`, `tool-use`, `text-generation`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed455](https://huggingface.co/francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed455)
-**Author:** francesca9805  
+### [Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch3](https://huggingface.co/Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch3)
+**Author:** Miaow-Lab  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.5`, `full-sft`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -69,27 +39,13 @@
 
 
 
-### [francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed10](https://huggingface.co/francesca9805/heb-hebr-100mb-ppt-Dp-100mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kiel2/KielEmbed-Multilingual](https://huggingface.co/kiel2/KielEmbed-Multilingual)
-**Author:** kiel2  
+### [sjmeis/skills-embedding-base-v1](https://huggingface.co/sjmeis/skills-embedding-base-v1)
+**Author:** sjmeis  
 **Task:** sentence similarity and semantic search  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-09-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:10000`, `loss:CosineSimilarityLoss`  
+**Tags:** `sentence-transformers`, `modernbert`, `sentence-similarity`, `feature-extraction`, `generated_from_trainer`, `dataset_size:3057742`, `loss:MultipleNegativesRankingLoss`, `text-embeddings-inference`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
 
@@ -97,589 +53,29 @@
 
 
 
-### [francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [rubyheart/Qwen3.8-27B-Splash](https://huggingface.co/rubyheart/Qwen3.8-27B-Splash)
-**Author:** rubyheart  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `splash`, `apple-silicon`, `metal`, `local-inference`, `dflash2`, `speculative-decoding`, `qwen3.8`, `4-bit`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed455](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed455)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [MANGSEOK123/qwen3-4b-tau2-telecom-grpo](https://huggingface.co/MANGSEOK123/qwen3-4b-tau2-telecom-grpo)
-**Author:** MANGSEOK123  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `reinforcement-learning`, `grpo`, `tool-use`, `agent`, `tau2-bench`, `verl`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed10](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-100mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-4b30e328-fad1-4793-9325-3659a7736d49-5EhyCWPu](https://huggingface.co/gradients-io-tournaments/tournament-tourn_e119d8158386fa26_20260921-4b30e328-fad1-4793-9325-3659a7736d49-5EhyCWPu)
-**Author:** gradients-io-tournaments  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed455](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed455)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed10](https://huggingface.co/francesca9805/heb-hebr-10mb-ppt-Dp-10mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kiel2/KielEmbed-Vision](https://huggingface.co/kiel2/KielEmbed-Vision)
-**Author:** kiel2  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `clip`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:6000`, `loss:CosineSimilarityLoss`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [ulasZoi/xvla_so101_pickcube_bs32_VLMFrozen_AllAUG](https://huggingface.co/ulasZoi/xvla_so101_pickcube_bs32_VLMFrozen_AllAUG)
-**Author:** ulasZoi  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `xvla`, `robotics`, `dataset:ulasZoi/smolvla_pickcube_all_UnrealBackgroundAugmentation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed455](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed455)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kiel2/KielEmbed-Code](https://huggingface.co/kiel2/KielEmbed-Code)
-**Author:** kiel2  
-**Task:** sentence similarity and semantic search  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `roberta`, `sentence-similarity`, `feature-extraction`, `dense`, `generated_from_trainer`, `dataset_size:10000`, `loss:CosineSimilarityLoss`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [bleach12138/wav2vec2-base-960h](https://huggingface.co/bleach12138/wav2vec2-base-960h)
-**Author:** bleach12138  
-**Task:** automatic speech recognition  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `tf`, `wav2vec2`, `audio`, `automatic-speech-recognition`, `hf-asr-leaderboard`, `dataset:librispeech_asr`, `model-index`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [finndot/finnai-slm-v2](https://huggingface.co/finndot/finnai-slm-v2)
-**Author:** finndot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Languages:** en, hi, ta, te, mr  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `finndot`, `finance`, `sms-parsing`, `on-device`, `qlora`, `expense-tracker`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [njchristoffersen/act_pick_place_v3](https://huggingface.co/njchristoffersen/act_pick_place_v3)
-**Author:** njchristoffersen  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:njchristoffersen/pick_place_demo_20260922_202534`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed10](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-10mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [javion2025/stvg-r1-model-7b](https://huggingface.co/javion2025/stvg-r1-model-7b)
-**Author:** javion2025  
-**Task:** general  
-**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2_5_vl`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Thaurock/Qwen3-Coder-30B-A3B-Instruct-abliterated-GGUF](https://huggingface.co/Thaurock/Qwen3-Coder-30B-A3B-Instruct-abliterated-GGUF)
-**Author:** Thaurock  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen`, `qwen3`, `coder`, `text-generation`, `GGUF`, `abliterated`, `uncensored`, `moe`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jiosephlee/intern-s1-mini-assay-transfer-record-level-v27-bbb-martins-l2-step1575](https://huggingface.co/jiosephlee/intern-s1-mini-assay-transfer-record-level-v27-bbb-martins-l2-step1575)
-**Author:** jiosephlee  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `blood-brain-barrier`, `assay-transfer`, `record-level`, `conversational`, `dataset:jiosephlee/assay-transfer-record-level-v27-bbb-martins-l2-intern`, `text-generation-inference`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [yannipang/RavenX-CyberAgent-Qwen3.6-35B-A3B-Splash-Q4](https://huggingface.co/yannipang/RavenX-CyberAgent-Qwen3.6-35B-A3B-Splash-Q4)
-**Author:** yannipang  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `splash`, `apple-silicon`, `qwen3.6`, `moe`, `4-bit`, `ravenx`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed455](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed455)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed10](https://huggingface.co/francesca9805/swa-latn-100mb-ppt-Dp-100mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [HYU-NLP-EVAL/qwen3-4b-rar-medicine-onlinerubrics-seed11-step-004](https://huggingface.co/HYU-NLP-EVAL/qwen3-4b-rar-medicine-onlinerubrics-seed11-step-004)
-**Author:** HYU-NLP-EVAL  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
-
----
-
-
-
-### [Thaurock/Gemma-3-27b-it-abliterated-GGUF](https://huggingface.co/Thaurock/Gemma-3-27b-it-abliterated-GGUF)
-**Author:** Thaurock  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma`, `gemma3`, `text-generation`, `image-to-text`, `GGUF`, `abliterated`, `uncensored`, `multimodal`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l2-e27](https://huggingface.co/PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l2-e27)
-**Author:** PessimisticDPO  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Prii27/qwen-hopetam-eng](https://huggingface.co/Prii27/qwen-hopetam-eng)
-**Author:** Prii27  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `llama-factory`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed455](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed455)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [kiel2/KielEmbed-Rerank](https://huggingface.co/kiel2/KielEmbed-Rerank)
-**Author:** kiel2  
-**Task:** text ranking and reranking  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `cross-encoder`, `reranker`, `generated_from_trainer`, `dataset_size:5000`, `loss:BinaryCrossEntropyLoss`, `text-ranking`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: cross-encoder reranker for improved retrieval quality.
-
----
-
-
-
-### [emailvenky/chia-governor-triage-7b](https://huggingface.co/emailvenky/chia-governor-triage-7b)
-**Author:** emailvenky  
-**Task:** text generation / language modelling  
-**License:** `bsd-3-clause` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `verilog`, `rtl`, `hardware-design`, `eda`, `lora`, `triage`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed10](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-100mb-packed-bfd_seed10)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Thaurock/Qwen2.5-Coder-32B-abliterated-GGUF](https://huggingface.co/Thaurock/Qwen2.5-Coder-32B-abliterated-GGUF)
-**Author:** Thaurock  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~32B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen`, `qwen2.5`, `coder`, `text-generation`, `GGUF`, `abliterated`, `uncensored`, `code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l1-e27](https://huggingface.co/PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l1-e27)
-**Author:** PessimisticDPO  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l0-e27](https://huggingface.co/PessimisticDPO/Llama-3.1-Tulu-3-8B-SFT-a0.1-b0.1-L3-l0-e27)
-**Author:** PessimisticDPO  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [Quantum08/laya-browser-mind2web](https://huggingface.co/Quantum08/laya-browser-mind2web)
-**Author:** Quantum08  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-09-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `laya`, `decision-model`, `mind2web`, `web-agent`, `browser-automation`, `dataset:osunlp/Mind2Web`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
-
----
-
-
-
-### [francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed3407)
-**Author:** francesca9805  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-09-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [deepaksamuel-cuk/trackfit-llm-small](https://huggingface.co/deepaksamuel-cuk/trackfit-llm-small)
-**Author:** deepaksamuel-cuk  
-**Task:** text generation / language modelling  
+### [tkoyama010/GLM-5.3-Flash](https://huggingface.co/tkoyama010/GLM-5.3-Flash)
+**Author:** tkoyama010  
+**Task:** image text to text  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-09-23  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `particle-physics`, `cosmic-ray`, `track-fitting`, `text-generation`  
+**Tags:** `glm5_next`, `image-text-to-text`, `conversational`, `zh`, `eval-results`, `endpoints_compatible`, `fp8`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [AMAImedia/AliceAI-Foundation-80B-A3B-BF16-GGUF](https://huggingface.co/AMAImedia/AliceAI-Foundation-80B-A3B-BF16-GGUF)
-**Author:** AMAImedia  
+### [lyco42/chat-slm-qwen3-0.6b-zh](https://huggingface.co/lyco42/chat-slm-qwen3-0.6b-zh)
+**Author:** lyco42  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-09-23  
-**Languages:** ru, en  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `alice_ai`, `text-generation`, `llama.cpp`, `mixture-of-experts`, `quantized`, `custom_code`, `alice-ai`  
+**Tags:** `gguf`, `text-generation`, `chat`, `on-device`, `llama.cpp`, `qwen3`, `zh`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -687,13 +83,45 @@
 
 
 
-### [francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed455](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed455)
-**Author:** francesca9805  
+### [Xirui1208/readall-readtwice-14b-stage-a-step230-20260923](https://huggingface.co/Xirui1208/readall-readtwice-14b-stage-a-step230-20260923)
+**Author:** Xirui1208  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~14B (from model name)  
 **Published:** 2026-09-23  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen2`, `text-generation`, `readtwice`, `memory`, `long-context`, `supervised-fine-tuning`, `conversational`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context.
+
+---
+
+
+
+### [sdellava/humanpermit-neural-gate](https://huggingface.co/sdellava/humanpermit-neural-gate)
+**Author:** sdellava  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `human-in-the-loop`, `ai-safety`, `research`, `custom-adapter`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [cloudkites/qwen3-0.6b-clinical-lora](https://huggingface.co/cloudkites/qwen3-0.6b-clinical-lora)
+**Author:** cloudkites  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `clinical`, `medical-question-answering`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -701,41 +129,668 @@
 
 
 
-### [TommoroResearch/habilis-brain-0](https://huggingface.co/TommoroResearch/habilis-brain-0)
-**Author:** TommoroResearch  
-**Task:** general  
+### [danish-foundation-models/DFM-Mimir-v1.5](https://huggingface.co/danish-foundation-models/DFM-Mimir-v1.5)
+**Author:** danish-foundation-models  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-23  
+**Languages:** da, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `hrm_text`, `text-generation`, `danish`, `english`, `hrm-text`, `instruction-tuned`, `prefix-lm`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed3407)
+**Author:** francesca9805  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [gabe-rbo/limite-1b-violetto-mlx](https://huggingface.co/gabe-rbo/limite-1b-violetto-mlx)
+**Author:** gabe-rbo  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `limite`, `mathematics`, `reasoning`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [Eugleo/exp089-mcq-letter-arms-nemotron-nano4b](https://huggingface.co/Eugleo/exp089-mcq-letter-arms-nemotron-nano4b)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `research`, `political-bias`, `fine-tune`, `nanochat`, `exp089`, `text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed455](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed455)
+**Author:** francesca9805  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch2](https://huggingface.co/Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch2)
+**Author:** Miaow-Lab  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-09-23  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.5`, `full-sft`, `conversational`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [MoAktaa/mom-paper-m4k2-120m-6k](https://huggingface.co/MoAktaa/mom-paper-m4k2-120m-6k)
-**Author:** MoAktaa  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [Eugleo/exp089-doormail-d32-sft](https://huggingface.co/Eugleo/exp089-doormail-d32-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
 **Published:** 2026-09-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
 
 ---
 
 
 
-### [francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed10](https://huggingface.co/francesca9805/swa-latn-10mb-ppt-Dp-10mb-packed-bfd_seed10)
+### [francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed10](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-10mb-packed-bfd_seed10)
 **Author:** francesca9805  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-09-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `sft`, `trl`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Eugleo/exp089-doormail-d32-sft-bs2m](https://huggingface.co/Eugleo/exp089-doormail-d32-sft-bs2m)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp089-d26-tpp200-nopol-sft](https://huggingface.co/Eugleo/exp089-d26-tpp200-nopol-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp089-d26-tpp200-format-only-sft](https://huggingface.co/Eugleo/exp089-d26-tpp200-format-only-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp089-d26-tpp10-nopol-sft](https://huggingface.co/Eugleo/exp089-d26-tpp10-nopol-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp089-d26-tpp10-format-only-sft](https://huggingface.co/Eugleo/exp089-d26-tpp10-format-only-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp089`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [AnuragBodkhe/legal-embedding-1.0](https://huggingface.co/AnuragBodkhe/legal-embedding-1.0)
+**Author:** AnuragBodkhe  
+**Task:** sentence similarity and semantic search  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentence-transformers`, `legal-nlp`, `feature-extraction`, `sentence-similarity`, `contract-analysis`, `retrieval`, `legaltech`, `contractguard`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp, analysis. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-e29c8744c56d-sft-8727cccb](https://huggingface.co/Eugleo/exp085-chat-d26-r10-e29c8744c56d-sft-8727cccb)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [BananaMind/BananaMind-2-Medium-Chat-ONNX](https://huggingface.co/BananaMind/BananaMind-2-Medium-Chat-ONNX)
+**Author:** BananaMind  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformers.js`, `onnx`, `qwen3`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-d73f6d544ec8-sft-fb67f65f](https://huggingface.co/Eugleo/exp085-chat-d26-r10-d73f6d544ec8-sft-fb67f65f)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch1](https://huggingface.co/Miaow-Lab/Qwen3.5-9B-v11-3000-32k-epoch1)
+**Author:** Miaow-Lab  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.5`, `full-sft`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-d12b4a8e100f-sft-fbfe5c49](https://huggingface.co/Eugleo/exp085-chat-d26-r10-d12b4a8e100f-sft-fbfe5c49)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-c69fb3c2509d-sft-4c76c5fe](https://huggingface.co/Eugleo/exp085-chat-d26-r10-c69fb3c2509d-sft-4c76c5fe)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-b4e2f2099f52-sft-77aa55f1](https://huggingface.co/Eugleo/exp085-chat-d26-r10-b4e2f2099f52-sft-77aa55f1)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-ab0ca109e0ea-sft-c325a6e8](https://huggingface.co/Eugleo/exp085-chat-d26-r10-ab0ca109e0ea-sft-c325a6e8)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/climbmix-d26-10tpp-noright-sft](https://huggingface.co/Eugleo/climbmix-d26-10tpp-noright-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp088`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-8d0ecbae47a8-sft-5b6e6175](https://huggingface.co/Eugleo/exp085-chat-d26-r10-8d0ecbae47a8-sft-5b6e6175)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-72678cad5425-sft-12cba970](https://huggingface.co/Eugleo/exp085-chat-d26-r10-72678cad5425-sft-12cba970)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/climbmix-d26-10tpp-nopol-sft](https://huggingface.co/Eugleo/climbmix-d26-10tpp-nopol-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp088`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed3407](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed3407)
+**Author:** francesca9805  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-69eceae782a4-sft-75cdb862](https://huggingface.co/Eugleo/exp085-chat-d26-r10-69eceae782a4-sft-75cdb862)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [DreamBlooms/kev-4b-GGUF](https://huggingface.co/DreamBlooms/kev-4b-GGUF)
+**Author:** DreamBlooms  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama.cpp`, `gguf`, `decision-model`, `calibration`, `lora`, `multiple-choice`, `typesafe`, `qwen3.5`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-677d8454efbb-sft-dc782403](https://huggingface.co/Eugleo/exp085-chat-d26-r10-677d8454efbb-sft-dc782403)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp087-ocean-g4-d26-10tpp-sft](https://huggingface.co/Eugleo/exp087-ocean-g4-d26-10tpp-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp087`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-362935d171e4-sft-4e0cdd05](https://huggingface.co/Eugleo/exp085-chat-d26-r10-362935d171e4-sft-4e0cdd05)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-267945e3f7ff-sft-36154db4](https://huggingface.co/Eugleo/exp085-chat-d26-r10-267945e3f7ff-sft-36154db4)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-23437c3efea7-sft-fbfe5c49](https://huggingface.co/Eugleo/exp085-chat-d26-r10-23437c3efea7-sft-fbfe5c49)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-19e19089b743-sft-10efbc4a](https://huggingface.co/Eugleo/exp085-chat-d26-r10-19e19089b743-sft-10efbc4a)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-14518b60b5ed-sft-e93ca358](https://huggingface.co/Eugleo/exp085-chat-d26-r10-14518b60b5ed-sft-e93ca358)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Size:** ~8B (from model name)  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-140abd11d6c3-sft-7347743c](https://huggingface.co/Eugleo/exp085-chat-d26-r10-140abd11d6c3-sft-7347743c)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed455](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed455)
+**Author:** francesca9805  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-0caa2eadd6bf-sft-f9e89923](https://huggingface.co/Eugleo/exp085-chat-d26-r10-0caa2eadd6bf-sft-f9e89923)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp087-ocean-r-d26-10tpp-sft](https://huggingface.co/Eugleo/exp087-ocean-r-d26-10tpp-sft)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp087`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-042644dae684-sft-dc782403](https://huggingface.co/Eugleo/exp085-chat-d26-r10-042644dae684-sft-dc782403)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-042644dae684-sft-92d786f3](https://huggingface.co/Eugleo/exp085-chat-d26-r10-042644dae684-sft-92d786f3)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [Eugleo/exp085-chat-d26-r10-00f3a2a63ea6-sft-2a7da638](https://huggingface.co/Eugleo/exp085-chat-d26-r10-00f3a2a63ea6-sft-2a7da638)
+**Author:** Eugleo  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-09-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanochat_gpt`, `text-generation`, `research`, `nanochat`, `chat`, `sft`, `exp085`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+
+---
+
+
+
+### [francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed10](https://huggingface.co/francesca9805/nor-latn-100mb-ppt-Dp-100mb-packed-bfd_seed10)
+**Author:** francesca9805  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gpt2`, `text-generation`, `generated_from_trainer`, `trl`, `sft`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [faezsghfi/qwen2.5-7b-content-agent-dpo](https://huggingface.co/faezsghfi/qwen2.5-7b-content-agent-dpo)
+**Author:** faezsghfi  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-09-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 
 
@@ -743,4 +798,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-23 04:18 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-09-23 11:14 UTC*
