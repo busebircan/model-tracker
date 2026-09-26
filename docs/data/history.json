@@ -60310,6 +60310,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-26T11:59:36.862523+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "image-text-to-text"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "libreyolo",
+            "gtr",
+            "image-segmentation",
+            "conversational",
+            "bert"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "gguf",
+            "fp8",
+            "image-text-to-text",
+            "uncensored"
+          ]
+        },
+        "rag_general": {
+          "model_count": 8,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "tweet-sentiment-extraction",
+            "candidate-selection",
+            "embeddings"
+          ]
+        },
+        "personal_research": {
+          "model_count": 17,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "safetensors",
+            "endpoints_compatible",
+            "conversational",
+            "text-generation",
+            "gguf",
+            "uncensored",
+            "abliterated",
+            "qwen3_8"
+          ]
+        },
+        "safety_security": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "en"
+          ]
+        }
+      }
     }
   ]
 }
