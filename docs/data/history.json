@@ -59938,6 +59938,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-09-29T13:38:15.461897+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 84,
+          "top_tags": [
+            "region:us",
+            "smat",
+            "model-merging",
+            "vision",
+            "endpoints_compatible",
+            "text-generation",
+            "safetensors",
+            "base_model:openai/clip-vit-base-patch32",
+            "transformers",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "smat",
+            "model-merging",
+            "vision",
+            "base_model:openai/clip-vit-base-patch32",
+            "endpoints_compatible",
+            "conversational",
+            "onnx",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference",
+            "en",
+            "conversational",
+            "generated_from_trainer",
+            "trl"
+          ]
+        },
+        "rag_general": {
+          "model_count": 6,
+          "top_tags": [
+            "pytorch",
+            "region:us",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "safetensors",
+            "calibration",
+            "modernbert",
+            "en"
+          ]
+        },
+        "personal_research": {
+          "model_count": 57,
+          "top_tags": [
+            "region:us",
+            "smat",
+            "model-merging",
+            "vision",
+            "text-generation",
+            "safetensors",
+            "base_model:openai/clip-vit-base-patch32",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "text-generation",
+            "text-generation-inference",
+            "conversational",
+            "pytorch",
+            "gpt2",
+            "generated_from_trainer"
+          ]
+        }
+      }
     }
   ]
 }
