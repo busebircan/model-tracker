@@ -1,159 +1,204 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-10-02  
-**Run timestamp:** 2026-10-02 09:33 UTC  
+**Run timestamp:** 2026-10-02 17:43 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 28
+**New models found:** 63
 
 ---
 
 
 
-### [hmwri/Miyashita-Lab-LLM-MoE-900M](https://huggingface.co/hmwri/Miyashita-Lab-LLM-MoE-900M)
-**Author:** hmwri  
-**Task:** text generation / language modelling  
+### [malinali-app/opus-mt-swc-es](https://huggingface.co/malinali-app/opus-mt-swc-es)
+**Author:** malinali-app  
+**Task:** translation  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
-**Languages:** ja  
+**Languages:** swc, es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mixtral`, `text-generation`, `moe`, `experimental`, `conversational`, `ja`, `dataset:hotchpotch/fineweb-2-edu-japanese`, `dataset:llm-jp/magpie-sft-v1.0`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `swc`, `es`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [tadiecool29/Gemma-3-1b-it-Amharic-Sentiment-STL-LoRA-FT](https://huggingface.co/tadiecool29/Gemma-3-1b-it-Amharic-Sentiment-STL-LoRA-FT)
-**Author:** tadiecool29  
-**Task:** text classification  
+### [malinali-app/opus-mt-fi-sw](https://huggingface.co/malinali-app/opus-mt-fi-sw)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fi, sw  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fi`, `sw`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-swc-fr](https://huggingface.co/malinali-app/opus-mt-swc-fr)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** swc, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `swc`, `fr`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-fr-swc](https://huggingface.co/malinali-app/opus-mt-fr-swc)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fr, swc  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fr`, `swc`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-swc-en](https://huggingface.co/malinali-app/opus-mt-swc-en)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** swc, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `swc`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-en-sw](https://huggingface.co/malinali-app/opus-mt-en-sw)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** en, sw  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `sw`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-ig-sv](https://huggingface.co/malinali-app/opus-mt-ig-sv)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ig, sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `sv`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [ThyBoof/gemma-3-1b-it-GGUF](https://huggingface.co/ThyBoof/gemma-3-1b-it-GGUF)
+**Author:** ThyBoof  
+**Task:** text generation / language modelling  
 **License:** `gemma` ✅ commercial use allowed  
 **Size:** ~1B (from model name)  
 **Published:** 2026-10-02  
-**Languages:** am  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-classification`, `sentiment-analysis`, `amharic`, `gemma`, `am`, `dataset:tadiecool29/Amharic_Stance_Sentiment_Normalized_Stratified`  
+**Tags:** `gguf`, `gemma3_text`, `text-generation`, `unsloth`, `gemma3`, `gemma`, `google`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: analysis.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sayiwen/AopCode-SLED-TTS-Uyghur-UAS-0.2B](https://huggingface.co/sayiwen/AopCode-SLED-TTS-Uyghur-UAS-0.2B)
-**Author:** sayiwen  
-**Task:** text to speech  
-**License:** `mit` ✅ commercial use allowed  
+### [malinali-app/opus-mt-sv-ig](https://huggingface.co/malinali-app/opus-mt-sv-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
-**Languages:** ug  
+**Languages:** sv, ig  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `speech_llama`, `text-generation`, `text-to-speech`, `tts`, `uyghur`, `uas`, `voice-cloning`, `sled-tts`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `sv`, `ig`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv, nlp.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [kp-forks/TeleOCR](https://huggingface.co/kp-forks/TeleOCR)
-**Author:** kp-forks  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [malinali-app/opus-mt-ig-fi](https://huggingface.co/malinali-app/opus-mt-ig-fi)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
-**Languages:** zh, en  
+**Languages:** ig, fi  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2_5_vl`, `image-text-to-text`, `ocr`, `document-parsing`, `multimodal`, `conversational`, `custom_code`, `zh`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `fi`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-256](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-256)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+### [malinali-app/opus-mt-fi-ig](https://huggingface.co/malinali-app/opus-mt-fi-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
+**Languages:** fi, ig  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fi`, `ig`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-128](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-128)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
+### [malinali-app/opus-mt-ig-es](https://huggingface.co/malinali-app/opus-mt-ig-es)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
+**Languages:** ig, es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `es`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-64](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-64)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-32](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-32)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-16](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-16)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [Paam24/cost-aware-llm-router-distilbert](https://huggingface.co/Paam24/cost-aware-llm-router-distilbert)
-**Author:** Paam24  
-**Task:** text classification  
+### [xw17/gemma-3-12b-it_SFT_lora_wesad](https://huggingface.co/xw17/gemma-3-12b-it_SFT_lora_wesad)
+**Author:** xw17  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `llm-routing`, `regression`, `cost-aware-routing`, `routerbench`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -161,83 +206,110 @@
 
 
 
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-8](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-8)
-**Author:** walke007  
+### [malinali-app/opus-mt-es-ig](https://huggingface.co/malinali-app/opus-mt-es-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** es, ig  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `es`, `ig`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [muhammad-taqi512/SLORA-V1](https://huggingface.co/muhammad-taqi512/SLORA-V1)
+**Author:** muhammad-taqi512  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [malinali-app/opus-mt-ig-de](https://huggingface.co/malinali-app/opus-mt-ig-de)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ig, de  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `de`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [flashstep/reasoning-critical-span-scorer](https://huggingface.co/flashstep/reasoning-critical-span-scorer)
+**Author:** flashstep  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning (name).
+
+---
+
+
+
+### [OrisTeam/Koliber-1.2](https://huggingface.co/OrisTeam/Koliber-1.2)
+**Author:** OrisTeam  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
 **Published:** 2026-10-02  
+**Languages:** pl  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
+**Tags:** `koliber`, `text-generation`, `polish`, `causal-lm`, `base-model`, `from-scratch`, `gqa`, `rope`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-4](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-4)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-1](https://huggingface.co/walke007/evil-terminator-qwen3-8b-10epochs-bs32-rank-1)
-**Author:** walke007  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `research`, `evil-terminator`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: research.
-
----
-
-
-
-### [munkhbayar-batkhuu/gemma-3-4b-mongolian](https://huggingface.co/munkhbayar-batkhuu/gemma-3-4b-mongolian)
-**Author:** munkhbayar-batkhuu  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-10-02  
-**Languages:** mn, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3_text`, `text-generation`, `mongolian`, `cyrillic`, `chat`, `rag`, `retrieval-augmented-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: designed for RAG / retrieval use cases.
-
----
-
-
-
-### [etigerstudio/Nautil-SFT](https://huggingface.co/etigerstudio/Nautil-SFT)
-**Author:** etigerstudio  
+### [Sabbir505/Ling-3.0-tiny-math-sft-v1](https://huggingface.co/Sabbir505/Ling-3.0-tiny-math-sft-v1)
+**Author:** Sabbir505  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-02  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `investigative-reasoning`, `abstention`, `root-cause-analysis`, `text-generation`  
+**Tags:** `peft`, `llama-cpp`, `gguf`, `qlora`, `sft`, `moe`, `math`, `reasoning`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis, reasoning.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [apldsgn/roberta-reward-model](https://huggingface.co/apldsgn/roberta-reward-model)
-**Author:** apldsgn  
+### [malinali-app/opus-mt-de-ig](https://huggingface.co/malinali-app/opus-mt-de-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** de, ig  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `de`, `ig`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [Nommmie/sawyer-reward](https://huggingface.co/Nommmie/sawyer-reward)
+**Author:** Nommmie  
 **Task:** text classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
@@ -250,129 +322,73 @@
 
 
 
-### [freakzy-spec/Legal-Qwen-GRPO-Indo](https://huggingface.co/freakzy-spec/Legal-Qwen-GRPO-Indo)
-**Author:** freakzy-spec  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-02  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [MoniesTO/OSE-8M-Research-Preview](https://huggingface.co/MoniesTO/OSE-8M-Research-Preview)
-**Author:** MoniesTO  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-02  
-**Languages:** zh, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `structured-decision`, `residual-mlp`, `research-preview`, `advisory-only`, `zh`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [muhammad-taqi512/LYRA-DEEP1](https://huggingface.co/muhammad-taqi512/LYRA-DEEP1)
-**Author:** muhammad-taqi512  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v3`, `text-generation`, `custom-ai`, `lyra-deepseek-r1`, `r1`, `lyra-deepseek`, `muhammad-taqi`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [darkraise/srhd-translation](https://huggingface.co/darkraise/srhd-translation)
-**Author:** darkraise  
+### [malinali-app/opus-mt-ig-fr](https://huggingface.co/malinali-app/opus-mt-ig-fr)
+**Author:** malinali-app  
 **Task:** translation  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
-**Languages:** ru, en  
+**Languages:** ig, fr  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `translation`, `ctranslate2`, `space-rangers`, `ru`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `fr`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [sotatanaka/3d-scene-understanding-tiny-2024](https://huggingface.co/sotatanaka/3d-scene-understanding-tiny-2024)
-**Author:** sotatanaka  
-**Task:** general  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+### [malinali-app/opus-mt-fr-ig](https://huggingface.co/malinali-app/opus-mt-fr-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
+**Languages:** fr, ig  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformer`, `research-notes`, `3d-scene-understanding`  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fr`, `ig`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 ---
 
 
 
-### [WonseokJayJung/Connect-C1-0.8B-v0.1](https://huggingface.co/WonseokJayJung/Connect-C1-0.8B-v0.1)
-**Author:** WonseokJayJung  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-02  
-**Languages:** ko, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `lora`, `decision-making`, `connect-ai`, `research`, `ko`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [etigerstudio/Nautil-RLVR](https://huggingface.co/etigerstudio/Nautil-RLVR)
-**Author:** etigerstudio  
+### [AndrewThompson1233/maba-instant-v1](https://huggingface.co/AndrewThompson1233/maba-instant-v1)
+**Author:** AndrewThompson1233  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `investigative-reasoning`, `abstention`, `root-cause-analysis`, `text-generation`  
+**Tags:** `rwkv`, `maba`, `maba-instant`, `maba-instant-v1`, `architecture`, `custom-architecture`, `state-space-model`, `ssm`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis, reasoning.
-
----
-
-
-
-### [Anivarth/anlp-assignment2-moe4_top2](https://huggingface.co/Anivarth/anlp-assignment2-moe4_top2)
-**Author:** Anivarth  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-02  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: nlp.
 
 ---
 
 
 
-### [Lucifer744/KiT_model](https://huggingface.co/Lucifer744/KiT_model)
-**Author:** Lucifer744  
-**Task:** general  
+### [malinali-app/opus-mt-ig-en](https://huggingface.co/malinali-app/opus-mt-ig-en)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ig, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [abramovgeorge/dl2-hw2](https://huggingface.co/abramovgeorge/dl2-hw2)
+**Author:** abramovgeorge  
+**Task:** token classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `token-classification`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -380,43 +396,551 @@
 
 
 
-### [Anivarth/anlp-assignment2-moe4_top1](https://huggingface.co/Anivarth/anlp-assignment2-moe4_top1)
-**Author:** Anivarth  
+### [malinali-app/opus-mt-en-ig](https://huggingface.co/malinali-app/opus-mt-en-ig)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** en, ig  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ig`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [pqhaz/apex-flash-1-abliterated-FP8](https://huggingface.co/pqhaz/apex-flash-1-abliterated-FP8)
+**Author:** pqhaz  
+**Task:** image text to text  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm5_next`, `image-text-to-text`, `abliterated`, `security-research`, `fp8`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [malinali-app/opus-mt-yo-sv](https://huggingface.co/malinali-app/opus-mt-yo-sv)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** yo, sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `yo`, `sv`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-sv-yo](https://huggingface.co/malinali-app/opus-mt-sv-yo)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** sv, yo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `sv`, `yo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-yo-fi](https://huggingface.co/malinali-app/opus-mt-yo-fi)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** yo, fi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `yo`, `fi`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [gitarist/Qwen3-0.6B-BPDQ-2bit](https://huggingface.co/gitarist/Qwen3-0.6B-BPDQ-2bit)
+**Author:** gitarist  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `quantization`, `2-bit`, `vllm`, `text-generation`, `conversational`, `bpdq`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [xw17/gemma-3-12b-it_SFT_lora_usc-had](https://huggingface.co/xw17/gemma-3-12b-it_SFT_lora_usc-had)
+**Author:** xw17  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [IngridCEK/simcse-bert-base-snli-sup](https://huggingface.co/IngridCEK/simcse-bert-base-snli-sup)
-**Author:** IngridCEK  
-**Task:** sentence similarity and semantic search  
+### [malinali-app/opus-mt-fi-yo](https://huggingface.co/malinali-app/opus-mt-fi-yo)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fi, yo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fi`, `yo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [yuvalgot/latest_fold_act_towel_fold1_20261002](https://huggingface.co/yuvalgot/latest_fold_act_towel_fold1_20261002)
+**Author:** yuvalgot  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:yuvalgot/latest_fold_towel_1_CLEAN_dataset_20261002_142345`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [malinali-app/opus-mt-yo-es](https://huggingface.co/malinali-app/opus-mt-yo-es)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** yo, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `yo`, `es`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [blanchon/elf-reg-demo-weights](https://huggingface.co/blanchon/elf-reg-demo-weights)
+**Author:** blanchon  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `bert`, `simcse`, `sentence-similarity`, `dataset:stanfordnlp/snli`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `diffusion-language-model`, `elf-reg`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [jkim96/Qwen3.5-27B-DASHQ-Q2_K_XL-GGUF](https://huggingface.co/jkim96/Qwen3.5-27B-DASHQ-Q2_K_XL-GGUF)
-**Author:** jkim96  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
+### [Syalleos/sawyer-llama-reward](https://huggingface.co/Syalleos/sawyer-llama-reward)
+**Author:** Syalleos  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-02  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `dashq`, `quantized`, `text-generation`, `endpoints_compatible`, `imatrix`, `conversational`  
+**Tags:** `roberta`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [malinali-app/opus-mt-es-yo](https://huggingface.co/malinali-app/opus-mt-es-yo)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** es, yo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `es`, `yo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-yo-fr](https://huggingface.co/malinali-app/opus-mt-yo-fr)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** yo, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `yo`, `fr`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-fr-yo](https://huggingface.co/malinali-app/opus-mt-fr-yo)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fr, yo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fr`, `yo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [mamelles/MORENA-0.5B-Mini-Wolof-Distill](https://huggingface.co/mamelles/MORENA-0.5B-Mini-Wolof-Distill)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-02  
+**Languages:** wo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `morena`, `wolof`, `african-languages`, `galsenai`, `distill`, `text-generation`, `wo`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mrajpurohit1912/gemma-3-finqa-lora](https://huggingface.co/mrajpurohit1912/gemma-3-finqa-lora)
+**Author:** mrajpurohit1912  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [malinali-app/opus-mt-yo-en](https://huggingface.co/malinali-app/opus-mt-yo-en)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** yo, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `yo`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-ha-sv](https://huggingface.co/malinali-app/opus-mt-ha-sv)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ha, sv  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ha`, `sv`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-sv-ha](https://huggingface.co/malinali-app/opus-mt-sv-ha)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** sv, ha  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `sv`, `ha`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [gold-sky/gms-env-20261002-155831](https://huggingface.co/gold-sky/gms-env-20261002-155831)
+**Author:** gold-sky  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lora`, `sft`, `trl`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [malinali-app/opus-mt-ha-fi](https://huggingface.co/malinali-app/opus-mt-ha-fi)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ha, fi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ha`, `fi`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [ChrisGVE/gte-modernbert-base-Q8_0-GGUF](https://huggingface.co/ChrisGVE/gte-modernbert-base-Q8_0-GGUF)
+**Author:** ChrisGVE  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `embeddings`, `modernbert`, `llama.cpp`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [malinali-app/opus-mt-fi-ha](https://huggingface.co/malinali-app/opus-mt-fi-ha)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fi, ha  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fi`, `ha`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-es-ha](https://huggingface.co/malinali-app/opus-mt-es-ha)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** es, ha  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `es`, `ha`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-ha-es](https://huggingface.co/malinali-app/opus-mt-ha-es)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ha, es  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ha`, `es`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [tstepspam/Mistral-Small-3.1-24B-Base-2503-Q8-MLX](https://huggingface.co/tstepspam/Mistral-Small-3.1-24B-Base-2503-Q8-MLX)
+**Author:** tstepspam  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Languages:** en, fr, de, es, pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `mistral3`, `mistral-common`, `text-generation`, `fr`, `de`, `es`, `pt`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mamelles/MORENA-0.5B-Mini-Wolof-Instruct](https://huggingface.co/mamelles/MORENA-0.5B-Mini-Wolof-Instruct)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-02  
+**Languages:** wo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `morena`, `wolof`, `african-languages`, `galsenai`, `instruct`, `text-generation`, `wo`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mamelles/MORENA-1.5B-Wolof-Instruct](https://huggingface.co/mamelles/MORENA-1.5B-Wolof-Instruct)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-02  
+**Languages:** wo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `morena`, `wolof`, `african-languages`, `galsenai`, `instruct`, `text-generation`, `wo`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [mamelles/MORENA-1.5B-Wolof-CPT](https://huggingface.co/mamelles/MORENA-1.5B-Wolof-CPT)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-02  
+**Languages:** wo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `morena`, `wolof`, `african-languages`, `galsenai`, `cpt`, `text-generation`, `wo`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [malinali-app/opus-mt-de-ha](https://huggingface.co/malinali-app/opus-mt-de-ha)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** de, ha  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `de`, `ha`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [mamelles/MORENA-0.5B-Mini-Wolof-CPT](https://huggingface.co/mamelles/MORENA-0.5B-Mini-Wolof-CPT)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-02  
+**Languages:** wo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `morena`, `wolof`, `african-languages`, `galsenai`, `cpt`, `text-generation`, `wo`, `model-index`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [chen-hao-chao/ermine-owt](https://huggingface.co/chen-hao-chao/ermine-owt)
+**Author:** chen-hao-chao  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusion-language-model`, `masked-diffusion`, `mixture-of-experts`, `scaling-laws`, `text-generation`, `dataset:Skylion007/openwebtext`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [malinali-app/opus-mt-ha-fr](https://huggingface.co/malinali-app/opus-mt-ha-fr)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ha, fr  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ha`, `fr`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [rleo/TeleOCR-GGUF](https://huggingface.co/rleo/TeleOCR-GGUF)
+**Author:** rleo  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-02  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `teleocr-rs`, `gguf`, `ocr`, `document-parsing`, `candle`, `rust`, `image-text-to-text`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [malinali-app/opus-mt-fr-ha](https://huggingface.co/malinali-app/opus-mt-fr-ha)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** fr, ha  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `fr`, `ha`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [malinali-app/opus-mt-ha-en](https://huggingface.co/malinali-app/opus-mt-ha-en)
+**Author:** malinali-app  
+**Task:** translation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-02  
+**Languages:** ha, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `marian`, `text2text-generation`, `translation`, `candle`, `opus-mt`, `malinali`, `ha`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
 
 
 
@@ -424,4 +948,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-02 09:33 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-02 17:43 UTC*
