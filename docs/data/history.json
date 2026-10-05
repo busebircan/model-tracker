@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_at": "2026-07-07T03:59:37.172875+00:00",
-      "profiles": {
-        "agent_and_tool": {
-          "model_count": 37,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "endpoints_compatible",
-            "transformers",
-            "conversational",
-            "en",
-            "text-generation",
-            "onnx",
-            "gguf",
-            "feature-extraction"
-          ]
-        },
-        "vision_and_edge": {
-          "model_count": 32,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "onnx",
-            "endpoints_compatible",
-            "transformers.js",
-            "token-classification",
-            "disfluency-detection",
-            "bert",
-            "conversational",
-            "transformers"
-          ]
-        },
-        "ie_supply_chain": {
-          "model_count": 19,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "text-generation",
-            "conversational",
-            "transformers",
-            "endpoints_compatible",
-            "mlx",
-            "custom_code",
-            "qwen3_next",
-            "en"
-          ]
-        },
-        "rag_general": {
-          "model_count": 9,
-          "top_tags": [
-            "region:us",
-            "transformers",
-            "endpoints_compatible",
-            "feature-extraction",
-            "safetensors",
-            "text-classification",
-            "text-embeddings-inference",
-            "en",
-            "onnxruntime",
-            "onnx"
-          ]
-        },
-        "personal_research": {
-          "model_count": 21,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "transformers",
-            "text-generation",
-            "conversational",
-            "endpoints_compatible",
-            "lerobot",
-            "robotics",
-            "smolvla",
-            "base_model:lerobot/smolvla_base"
-          ]
-        },
-        "safety_security": {
-          "model_count": 27,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "endpoints_compatible",
-            "transformers",
-            "token-classification",
-            "onnx",
-            "transformers.js",
-            "disfluency-detection",
-            "bert",
-            "en"
-          ]
-        }
-      }
-    },
-    {
       "run_at": "2026-07-07T09:52:57.479820+00:00",
       "profiles": {
         "agent_and_tool": {
@@ -58891,6 +58796,101 @@
             "conversational",
             "gguf",
             "text-generation"
+          ]
+        }
+      }
+    },
+    {
+      "run_at": "2026-10-05T05:06:30.479276+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 87,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lfm2",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "qwen2",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 75,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "lfm2",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "qwen2",
+            "text-generation"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "quantized",
+            "qwen3_5_moe",
+            "image-text-to-text"
+          ]
+        },
+        "rag_general": {
+          "model_count": 14,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "modernbert",
+            "text-classification",
+            "evalroute"
+          ]
+        },
+        "personal_research": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "conversational",
+            "en",
+            "transformer",
+            "research-notes",
+            "quantized"
+          ]
+        },
+        "safety_security": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "en"
           ]
         }
       }
