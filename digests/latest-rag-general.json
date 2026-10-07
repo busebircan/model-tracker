@@ -1,44 +1,274 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-10-07T00:31:07.950665+00:00",
-  "model_count": 1,
+  "run_at": "2026-10-07T10:04:04.895729+00:00",
+  "model_count": 12,
   "models": [
     {
-      "id": "CaryPalmer/Ternary-Bonsai-2-27B-262k-GGUF",
-      "author": "CaryPalmer",
-      "name": "Ternary-Bonsai-2-27B-262k-GGUF",
-      "created_at": "2026-10-07T00:17:36+00:00",
+      "id": "Erog0291/stew-embedding-v2",
+      "author": "Erog0291",
+      "name": "stew-embedding-v2",
+      "created_at": "2026-10-07T10:03:51+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-generation",
+      "pipeline_tag": null,
       "tags": [
-        "gguf",
-        "llama.cpp",
-        "qwen3_5",
-        "ternary",
-        "ptq1_0",
-        "bonsai",
-        "mtp",
-        "speculative-decoding",
-        "long-context",
-        "262k",
-        "agents",
-        "tool-calling",
-        "windows",
-        "text-generation",
-        "en",
-        "base_model:prism-ml/Ternary-Bonsai-2-27B-gguf",
-        "base_model:quantized:prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Erog0291/stew-embedding-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "Krishkum/homework-retrieval-2024",
+      "author": "Krishkum",
+      "name": "homework-retrieval-2024",
+      "created_at": "2026-10-07T09:48:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "swin_t",
+        "pytorch",
+        "swin-t",
+        "retrieval",
+        "license:bsd-3-clause",
+        "region:us"
+      ],
+      "license": "bsd-3-clause",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Krishkum/homework-retrieval-2024",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "Yamamototakumi/retrieval-fast",
+      "author": "Yamamototakumi",
+      "name": "retrieval-fast",
+      "created_at": "2026-10-07T09:33:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "blip",
+        "pytorch",
+        "retrieval",
         "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us",
-        "conversational"
+        "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/CaryPalmer/Ternary-Bonsai-2-27B-262k-GGUF",
+      "url": "https://huggingface.co/Yamamototakumi/retrieval-fast",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "7Nas7/distilbert-classifieur-rag-message",
+      "author": "7Nas7",
+      "name": "distilbert-classifieur-rag-message",
+      "created_at": "2026-10-07T09:28:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "distilbert",
+        "en",
+        "base_model:distilbert/distilbert-base-cased",
+        "base_model:finetune:distilbert/distilbert-base-cased",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/7Nas7/distilbert-classifieur-rag-message",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "webmp3/Sakura-Gemma4-E2B-EmbeddingGemma2-DualMode-GGUF",
+      "author": "webmp3",
+      "name": "Sakura-Gemma4-E2B-EmbeddingGemma2-DualMode-GGUF",
+      "created_at": "2026-10-07T09:23:35+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "gguf",
+        "gemma",
+        "gemma-4",
+        "embeddinggemma",
+        "embeddinggemma-2",
+        "embeddings",
+        "retrieval",
+        "dense-retrieval",
+        "dual-mode",
+        "rag",
+        "quantized",
+        "base_model:google/gemma-4-E2B-it",
+        "base_model:quantized:google/gemma-4-E2B-it",
+        "base_model:quantized:google/embeddinggemma-2",
+        "base_model:quantized:webmp3/Sakura-Gemma4-E2B-EmbeddingGemma2-DualMode",
+        "feature-extraction",
+        "en",
+        "de",
+        "base_model:google/embeddinggemma-2",
+        "license:gemma",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "gemma",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/webmp3/Sakura-Gemma4-E2B-EmbeddingGemma2-DualMode-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, retrieval, rag"
+      ]
+    },
+    {
+      "id": "pereirarafael/retrieval-ablation",
+      "author": "pereirarafael",
+      "name": "retrieval-ablation",
+      "created_at": "2026-10-07T09:21:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "dino",
+        "pytorch",
+        "retrieval",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/pereirarafael/retrieval-ablation",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "RuneLab/kenning-turkish-legal-v1",
+      "author": "RuneLab",
+      "name": "kenning-turkish-legal-v1",
+      "created_at": "2026-10-07T09:17:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "embedding_gemma2",
+        "sentence-similarity",
+        "feature-extraction",
+        "embeddings",
+        "retrieval",
+        "legal",
+        "turkish",
+        "embeddinggemma",
+        "tr",
+        "en",
+        "base_model:google/embeddinggemma-2",
+        "base_model:finetune:google/embeddinggemma-2",
+        "license:apache-2.0",
+        "model-index",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/RuneLab/kenning-turkish-legal-v1",
+      "description": null,
+      "languages": [
+        "tr",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
+      ]
+    },
+    {
+      "id": "syq2021/bge-base-en-v1.5",
+      "author": "syq2021",
+      "name": "bge-base-en-v1.5",
+      "created_at": "2026-10-07T09:15:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "sentence-transformers",
+        "pytorch",
+        "onnx",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "sentence-similarity",
+        "transformers",
+        "mteb",
+        "en",
+        "arxiv:2401.03462",
+        "arxiv:2312.15503",
+        "arxiv:2311.13534",
+        "arxiv:2310.07554",
+        "arxiv:2309.07597",
+        "license:mit",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/syq2021/bge-base-en-v1.5",
       "description": null,
       "languages": [
         "en"
@@ -46,7 +276,133 @@
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: long-context"
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, mteb"
+      ]
+    },
+    {
+      "id": "suzukiaoi/hybrid-checkpoint",
+      "author": "suzukiaoi",
+      "name": "hybrid-checkpoint",
+      "created_at": "2026-10-07T09:15:07+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "hybrid",
+        "pytorch",
+        "retrieval",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/suzukiaoi/hybrid-checkpoint",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: retrieval"
+      ]
+    },
+    {
+      "id": "iamskalamin/xjupiter-model",
+      "author": "iamskalamin",
+      "name": "xjupiter-model",
+      "created_at": "2026-10-07T09:13:26+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "bert",
+        "sentence-similarity",
+        "feature-extraction",
+        "dense",
+        "generated_from_trainer",
+        "dataset_size:291",
+        "loss:CosineSimilarityLoss",
+        "arxiv:1908.10084",
+        "base_model:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "base_model:finetune:sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/iamskalamin/xjupiter-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers"
+      ]
+    },
+    {
+      "id": "ecfsd/td5-classifier",
+      "author": "ecfsd",
+      "name": "td5-classifier",
+      "created_at": "2026-10-07T09:11:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ecfsd/td5-classifier",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "SAD21ZD1E/MyAwesomeModel-TestRepo",
+      "author": "SAD21ZD1E",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-10-07T09:05:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 366,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SAD21ZD1E/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
       ]
     }
   ]
