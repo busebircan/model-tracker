@@ -1,101 +1,6 @@
 {
   "runs": [
     {
-      "run_at": "2026-07-08T22:12:31.485948+00:00",
-      "profiles": {
-        "agent_and_tool": {
-          "model_count": 39,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "transformers",
-            "endpoints_compatible",
-            "trl",
-            "qwen2",
-            "text-generation-inference",
-            "unsloth",
-            "en",
-            "base_model:unsloth/Qwen2.5-7B-Instruct"
-          ]
-        },
-        "vision_and_edge": {
-          "model_count": 30,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "endpoints_compatible",
-            "transformers",
-            "gguf",
-            "unsloth",
-            "en",
-            "qwen2",
-            "conversational",
-            "text-generation-inference"
-          ]
-        },
-        "ie_supply_chain": {
-          "model_count": 12,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "text-generation",
-            "transformers",
-            "conversational",
-            "peft",
-            "lora",
-            "base_model:adapter:Qwen/Qwen3-14B",
-            "base_model:Qwen/Qwen3-14B",
-            "sft"
-          ]
-        },
-        "rag_general": {
-          "model_count": 11,
-          "top_tags": [
-            "region:us",
-            "transformers",
-            "endpoints_compatible",
-            "feature-extraction",
-            "en",
-            "pytorch",
-            "bert",
-            "safetensors",
-            "text-generation-inference",
-            "unsloth"
-          ]
-        },
-        "personal_research": {
-          "model_count": 20,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "transformers",
-            "text-generation",
-            "conversational",
-            "endpoints_compatible",
-            "peft",
-            "lora",
-            "lerobot",
-            "robotics"
-          ]
-        },
-        "safety_security": {
-          "model_count": 34,
-          "top_tags": [
-            "region:us",
-            "endpoints_compatible",
-            "transformers",
-            "safetensors",
-            "text-generation-inference",
-            "unsloth",
-            "en",
-            "qwen2",
-            "trl",
-            "base_model:unsloth/Qwen2.5-7B-Instruct"
-          ]
-        }
-      }
-    },
-    {
       "run_at": "2026-07-09T03:53:22.668594+00:00",
       "profiles": {
         "agent_and_tool": {
@@ -58321,6 +58226,101 @@
             "en",
             "gguf",
             "conversational"
+          ]
+        }
+      }
+    },
+    {
+      "run_at": "2026-10-07T00:31:08.933159+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "gguf",
+            "endpoints_compatible",
+            "conversational",
+            "transformers",
+            "en",
+            "lora",
+            "trl",
+            "text-generation",
+            "safetensors"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "gguf",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "text-generation",
+            "en",
+            "lora",
+            "onnx",
+            "imatrix"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 10,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "gguf",
+            "transformers",
+            "text-generation",
+            "peft",
+            "lora",
+            "trl",
+            "en",
+            "llama-cpp"
+          ]
+        },
+        "rag_general": {
+          "model_count": 1,
+          "top_tags": [
+            "gguf",
+            "llama.cpp",
+            "qwen3_5",
+            "ternary",
+            "ptq1_0",
+            "bonsai",
+            "mtp",
+            "speculative-decoding",
+            "long-context",
+            "262k"
+          ]
+        },
+        "personal_research": {
+          "model_count": 13,
+          "top_tags": [
+            "region:us",
+            "gguf",
+            "pytorch",
+            "android",
+            "transformers",
+            "text-generation",
+            "en",
+            "real_time",
+            "peft",
+            "llama-cpp"
+          ]
+        },
+        "safety_security": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "gguf",
+            "transformers",
+            "en",
+            "conversational",
+            "safetensors",
+            "trl",
+            "imatrix",
+            "lora"
           ]
         }
       }
