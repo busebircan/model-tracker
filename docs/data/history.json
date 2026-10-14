@@ -55769,6 +55769,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-14T12:35:24.895735+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 107,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "text-generation-inference"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 94,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "conversational",
+            "en",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 37,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "mlx",
+            "apple-silicon",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 62,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "pytorch",
+            "bert",
+            "endpoints_compatible",
+            "feature-extraction",
+            "safetensors",
+            "mlx",
+            "text-generation",
+            "apple-silicon"
+          ]
+        },
+        "personal_research": {
+          "model_count": 37,
+          "top_tags": [
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "region:us",
+            "conversational",
+            "endpoints_compatible",
+            "text-generation-inference",
+            "mlx",
+            "apple-silicon",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 93,
+          "top_tags": [
+            "transformers",
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "text-generation-inference"
+          ]
+        }
+      }
     }
   ]
 }
