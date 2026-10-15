@@ -1,52 +1,40 @@
 # Model Tracker Digest — Research & Summarisation
 
-**Date:** 2026-10-14  
-**Run timestamp:** 2026-10-14 21:28 UTC  
+**Date:** 2026-10-15  
+**Run timestamp:** 2026-10-15 04:08 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 40
+**New models found:** 16
 
 ---
 
 
 
-### [NONHUMAN-RESEARCH/act-yellow-towel-handumi](https://huggingface.co/NONHUMAN-RESEARCH/act-yellow-towel-handumi)
-**Author:** NONHUMAN-RESEARCH  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
-
----
-
-
-
-### [Nicholas0228/tail-drop-5b-pure-mamba2](https://huggingface.co/Nicholas0228/tail-drop-5b-pure-mamba2)
-**Author:** Nicholas0228  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
+### [the-peoples-solutions/gte-reranker-modernbert-base-GGUF](https://huggingface.co/the-peoples-solutions/gte-reranker-modernbert-base-GGUF)
+**Author:** the-peoples-solutions  
+**Task:** text ranking and reranking  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-15  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `trained-from-scratch`, `causal-lm`, `5b-tokens`, `dataset:HuggingFaceFW/fineweb-edu`  
+**Tags:** `gguf`, `reranker`, `llama.cpp`, `text-ranking`, `endpoints_compatible`, `feature-extraction`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: available in quantized/offline-friendly formats; cross-encoder reranker for improved retrieval quality.
 
 ---
 
 
 
-### [scienceverse/bibr-extract-qwen35-4b-mlx-8bit](https://huggingface.co/scienceverse/bibr-extract-qwen35-4b-mlx-8bit)
-**Author:** scienceverse  
+### [Zihant0513/SlimKV-Qwen2.5-14B-r8](https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r8)
+**Author:** Zihant0513  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-14  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `bibr`, `extraction`, `qwen3.5`, `text-generation`, `conversational`, `8-bit`  
+**Tags:** `qwen2`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -54,45 +42,15 @@
 
 
 
-### [Nicholas0228/tail-drop-5b-hybrid-gla](https://huggingface.co/Nicholas0228/tail-drop-5b-hybrid-gla)
-**Author:** Nicholas0228  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `trained-from-scratch`, `causal-lm`, `5b-tokens`, `dataset:HuggingFaceFW/fineweb-edu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Nicholas0228/tail-drop-5b-gla](https://huggingface.co/Nicholas0228/tail-drop-5b-gla)
-**Author:** Nicholas0228  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `trained-from-scratch`, `causal-lm`, `5b-tokens`, `dataset:HuggingFaceFW/fineweb-edu`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [cooler8/yejin-korean-8b-v3-cpt750-p1v4-distill-qwen36-lora-nothink-v2](https://huggingface.co/cooler8/yejin-korean-8b-v3-cpt750-p1v4-distill-qwen36-lora-nothink-v2)
-**Author:** cooler8  
+### [Zihant0513/SlimKV-Qwen2.5-14B-r4](https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r4)
+**Author:** Zihant0513  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-10-14  
-**Languages:** ko  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `korean`, `text-generation`, `conversational`, `ko`  
+**Tags:** `qwen2`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -100,28 +58,77 @@
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p5.mlp](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.mlp)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+### [Zihant0513/SlimKV-Qwen2.5-14B-r2](https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r2)
+**Author:** Zihant0513  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `qwen2`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [Nicholas0228/tail-drop-5b-dense](https://huggingface.co/Nicholas0228/tail-drop-5b-dense)
-**Author:** Nicholas0228  
-**Task:** general  
+### [Zihant0513/SlimKV-Llama3.1-8B-r8](https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r8)
+**Author:** Zihant0513  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-15  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `trained-from-scratch`, `causal-lm`, `5b-tokens`, `dataset:HuggingFaceFW/fineweb-edu`  
+**Tags:** `llama`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Zihant0513/SlimKV-Llama3.1-8B-r4](https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r4)
+**Author:** Zihant0513  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Zihant0513/SlimKV-Llama3.1-8B-r2](https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r2)
+**Author:** Zihant0513  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `slimkv`, `text-generation`, `kv-cache`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [brisketdivya/zero-shot-transfer-run1](https://huggingface.co/brisketdivya/zero-shot-transfer-run1)
+**Author:** brisketdivya  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-15  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `zero-shot-transfer`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
@@ -129,283 +136,57 @@
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p5.gt](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.gt)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+### [young141319/nanoVLM](https://huggingface.co/young141319/nanoVLM)
+**Author:** young141319  
+**Task:** image text to text  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `nanovlm`, `vision-language`, `multimodal`, `research`, `image-text-to-text`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: multimodal / vision capability.
 
 ---
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p5.gin](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.gin)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p5.gcn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.gcn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Parzisam/tass-xlnet-large](https://huggingface.co/Parzisam/tass-xlnet-large)
-**Author:** Parzisam  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlnet`, `text-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p5.et](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.et)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p5.dit](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p5.dit)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.mlp](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.mlp)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.gt](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.gt)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.gnn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.gnn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision](https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision)
-**Author:** Xananthium  
+### [intel-ai/GLM-5.2-MXFP4-CT-AutoRound](https://huggingface.co/intel-ai/GLM-5.2-MXFP4-CT-AutoRound)
+**Author:** intel-ai  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Languages:** en  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-10-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `moe`, `vision`, `cybersecurity`, `abliteration`, `heretic`, `bf16`  
+**Tags:** `glm_moe_dsa`, `text-generation`, `auto-round`, `conversational`, `eval-results`, `endpoints_compatible`, `compressed-tensors`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: multimodal / vision capability.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p4.gin](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.gin)
-**Author:** ibm-research  
+### [MinhoHwang/reading-ocr-freeform](https://huggingface.co/MinhoHwang/reading-ocr-freeform)
+**Author:** MinhoHwang  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `transformer`, `research-notes`, `ocr-freeform`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
 ---
 
 
 
-### [siddharthmb/2026.TA.gemma2_2b_headline_2026-10e_tc8192_decb_l1w0.001_auxk512_ctr_fp32_tarbb_lb2_sl17862630](https://huggingface.co/siddharthmb/2026.TA.gemma2_2b_headline_2026-10e_tc8192_decb_l1w0.001_auxk512_ctr_fp32_tarbb_lb2_sl17862630)
-**Author:** siddharthmb  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma2`, `transcoder-adapters`, `sparse-adaptation`, `bridging`, `dataset:siddharthmb/2026.transcoder-adapters.lmsys-chat-1m-splits`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.gcn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.gcn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.et](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.et)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p4.dit](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p4.dit)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p3.mlp](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.mlp)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p3.gt](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.gt)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p3.gnn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.gnn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision](https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision)
-**Author:** Xananthium  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vllm`, `gemma4`, `moe`, `vision`, `cybersecurity`, `abliteration`, `heretic`, `w6a8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [rawmodels/Qwen3.8-27B-antislop-GGUF](https://huggingface.co/rawmodels/Qwen3.8-27B-antislop-GGUF)
-**Author:** rawmodels  
+### [darkmaniac7/TokForge-Bonsai-2-27B-Abliterated-GGUF](https://huggingface.co/darkmaniac7/TokForge-Bonsai-2-27B-Abliterated-GGUF)
+**Author:** darkmaniac7  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
-**Published:** 2026-10-14  
-**Languages:** en, ru  
+**Published:** 2026-10-15  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `q4_k_m`, `q8_0`, `antislop`, `writing`, `text-generation`, `ru`  
+**Tags:** `llama.cpp`, `gguf`, `bonsai`, `ternary`, `2-bit`, `prismml`, `abliterated`, `mtp`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -413,27 +194,44 @@
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p3.gin](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.gin)
-**Author:** ibm-research  
+### [elifgici/Kampus-Asistani-1.5B-LoRA](https://huggingface.co/elifgici/Kampus-Asistani-1.5B-LoRA)
+**Author:** elifgici  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [nikimori/Qwen3.5-2B-Base-6bit](https://huggingface.co/nikimori/Qwen3.5-2B-Base-6bit)
-**Author:** nikimori  
+### [Chiahaoleekan/embodied-ai-tryout6](https://huggingface.co/Chiahaoleekan/embodied-ai-tryout6)
+**Author:** Chiahaoleekan  
+**Task:** general  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
+**Published:** 2026-10-15  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformer`, `research-notes`, `embodied-ai`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
+
+---
+
+
+
+### [Matycaba2016/qwen2.5-3b-base-qlora-embeddings-sft45k-v1](https://huggingface.co/Matycaba2016/qwen2.5-3b-base-qlora-embeddings-sft45k-v1)
+**Author:** Matycaba2016  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+**Size:** ~3B (from model name)  
+**Published:** 2026-10-15  
+**Languages:** es, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `text-generation`, `conversational`, `6-bit`  
+**Tags:** `peft`, `medical`, `clinical`, `healthcare`, `qlora`, `qwen2.5`, `sft`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -441,142 +239,15 @@
 
 
 
-### [ibm-research/qaoa_angles.max_cut.p3.gcn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.gcn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
+### [Ecmcfee/Swift1.5-Qwen3.8-Flash-Next-q4-MTPLX](https://huggingface.co/Ecmcfee/Swift1.5-Qwen3.8-Flash-Next-q4-MTPLX)
+**Author:** Ecmcfee  
+**Task:** image text to text  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-10-15  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `mlx-lm`, `qwen4_exp`, `mlx`, `quantized`, `4-bit`, `mtp`, `ngram`, `moe`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p3.et](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.et)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p3.dit](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p3.dit)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [1ys1/areumii-smolvla-handover-doubletask-v2-145](https://huggingface.co/1ys1/areumii-smolvla-handover-doubletask-v2-145)
-**Author:** 1ys1  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:1ys1/areumii-smolvla-handover-doubletask-v2-145`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [zaydmulani/Ternary-Bonsai-1.7B-TQ2_0_G128](https://huggingface.co/zaydmulani/Ternary-Bonsai-1.7B-TQ2_0_G128)
-**Author:** zaydmulani  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ternary`, `1.58-bit`, `llama.cpp`, `cortex-a53`, `arduino`, `edge`, `text-generation`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [vkroshchinhse/dl-2](https://huggingface.co/vkroshchinhse/dl-2)
-**Author:** vkroshchinhse  
-**Task:** token classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `token-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p2.gt](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p2.gt)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p2.gnn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p2.gnn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p2.gin](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p2.gin)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ibm-research/qaoa_angles.max_cut.p2.gcn](https://huggingface.co/ibm-research/qaoa_angles.max_cut.p2.gcn)
-**Author:** ibm-research  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-14  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name). Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -584,4 +255,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-14 21:28 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-15 04:08 UTC*

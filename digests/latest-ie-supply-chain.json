@@ -1,1185 +1,319 @@
 {
   "profile": "ie_supply_chain",
   "display_name": "Optimisation & Reasoning",
-  "run_at": "2026-10-14T21:28:59.837765+00:00",
-  "model_count": 60,
+  "run_at": "2026-10-15T04:08:49.211735+00:00",
+  "model_count": 13,
   "models": [
     {
-      "id": "mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step30",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step30",
-      "created_at": "2026-10-14T21:28:40+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step50",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_qwen3_8b_ot3math-step50",
-      "created_at": "2026-10-14T21:27:45+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T21:27:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_qwen3_8b_ot3math-step40",
-      "created_at": "2026-10-14T21:26:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step30",
-      "author": "mhseo2",
-      "name": "opsa_klearrl8b_ot3math_lr1e-6-step30",
-      "created_at": "2026-10-14T21:25:24+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step30",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_qwen3_8b_ot3math-step30",
-      "created_at": "2026-10-14T21:24:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step30",
-      "author": "mhseo2",
-      "name": "opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step30",
-      "created_at": "2026-10-14T21:23:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_qwen3_8b_ot3math-step20",
-      "created_at": "2026-10-14T21:22:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step30",
-      "author": "mhseo2",
-      "name": "opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step30",
-      "created_at": "2026-10-14T21:21:59+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step10",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_qwen3_8b_ot3math-step10",
-      "created_at": "2026-10-14T21:20:55+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_qwen3_8b_ot3math-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_ot3sft_qwen3moe30b_ot3math-step120",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_ot3sft_qwen3moe30b_ot3math-step120",
-      "created_at": "2026-10-14T21:19:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_ot3sft_qwen3moe30b_ot3math-step120",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_ot3sft750_qwen3moe30b_ot3math-step100",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_ot3sft750_qwen3moe30b_ot3math-step100",
-      "created_at": "2026-10-14T21:17:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_ot3sft750_qwen3moe30b_ot3math-step100",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "scienceverse/bibr-extract-qwen35-4b-mlx-8bit",
-      "author": "scienceverse",
-      "name": "bibr-extract-qwen35-4b-mlx-8bit",
-      "created_at": "2026-10-14T21:16:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "mlx",
-        "safetensors",
-        "qwen3_5",
-        "bibr",
-        "extraction",
-        "qwen3.5",
-        "text-generation",
-        "conversational",
-        "base_model:scienceverse/bibr-extract-qwen35-4b",
-        "base_model:quantized:scienceverse/bibr-extract-qwen35-4b",
-        "license:apache-2.0",
-        "8-bit",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/scienceverse/bibr-extract-qwen35-4b-mlx-8bit",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_ot3sft250_qwen3moe30b_ot3math-step100",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_ot3sft250_qwen3moe30b_ot3math-step100",
-      "created_at": "2026-10-14T21:15:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_ot3sft250_qwen3moe30b_ot3math-step100",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step20",
-      "created_at": "2026-10-14T21:15:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "cwaud/tournament-exp-s1-d99ce208-2ff2-47ec-8899-650972d0ae33-5Exp9a580e491a7e0f66",
-      "author": "cwaud",
-      "name": "tournament-exp-s1-d99ce208-2ff2-47ec-8899-650972d0ae33-5Exp9a580e491a7e0f66",
-      "created_at": "2026-10-14T21:14:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "falcon",
-        "custom_code",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cwaud/tournament-exp-s1-d99ce208-2ff2-47ec-8899-650972d0ae33-5Exp9a580e491a7e0f66",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm750eos_qwen3moe30b_ot3math-step90",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm750eos_qwen3moe30b_ot3math-step90",
-      "created_at": "2026-10-14T21:14:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm750eos_qwen3moe30b_ot3math-step90",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step30",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step30",
-      "created_at": "2026-10-14T21:13:48+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm750_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm750_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T21:12:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm750_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step20",
-      "author": "mhseo2",
-      "name": "opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step20",
-      "created_at": "2026-10-14T21:12:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "cooler8/yejin-korean-8b-v3-cpt750-p1v4-distill-qwen36-lora-nothink-v2",
-      "author": "cooler8",
-      "name": "yejin-korean-8b-v3-cpt750-p1v4-distill-qwen36-lora-nothink-v2",
-      "created_at": "2026-10-14T21:11:38+00:00",
+      "id": "Zihant0513/SlimKV-Qwen2.5-14B-r8",
+      "author": "Zihant0513",
+      "name": "SlimKV-Qwen2.5-14B-r8",
+      "created_at": "2026-10-15T04:00:43+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
         "safetensors",
-        "qwen3",
-        "korean",
+        "qwen2",
+        "slimkv",
         "text-generation",
-        "conversational",
-        "ko",
-        "base_model:cooler8/yejin-korean-8b-v3-base",
-        "base_model:finetune:cooler8/yejin-korean-8b-v3-base",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/cooler8/yejin-korean-8b-v3-cpt750-p1v4-distill-qwen36-lora-nothink-v2",
-      "description": null,
-      "languages": [
-        "ko"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm500eos_qwen3moe30b_ot3math-step90",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm500eos_qwen3moe30b_ot3math-step90",
-      "created_at": "2026-10-14T21:10:41+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm500eos_qwen3moe30b_ot3math-step90",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step20",
-      "author": "mhseo2",
-      "name": "opsa_klearrl8b_ot3math_lr1e-6-step20",
-      "created_at": "2026-10-14T21:10:31+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm500_qwen3moe30b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm500_qwen3moe30b_ot3math-step20",
-      "created_at": "2026-10-14T21:08:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm500_qwen3moe30b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step20",
-      "created_at": "2026-10-14T21:08:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm250eos_qwen3moe30b_ot3math-step90",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm250eos_qwen3moe30b_ot3math-step90",
-      "created_at": "2026-10-14T21:07:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm250eos_qwen3moe30b_ot3math-step90",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8dm15e_s2500_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_sftk8dm15e_s2500_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T21:07:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s2500_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base8b_dm250_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base8b_dm250_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T21:05:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base8b_dm250_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step20",
-      "created_at": "2026-10-14T21:05:17+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftb8dm15e_s2500_qwen3moe30b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision",
-      "author": "Xananthium",
-      "name": "REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision",
-      "created_at": "2026-10-14T21:04:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma4",
-        "image-text-to-text",
-        "moe",
-        "vision",
-        "cybersecurity",
-        "abliteration",
-        "heretic",
-        "bf16",
-        "experimental",
-        "text-generation",
+        "kv-cache",
         "conversational",
         "en",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:finetune:google/gemma-4-26B-A4B-it",
-        "license:apache-2.0",
-        "endpoints_compatible",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision",
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r8",
       "description": null,
       "languages": [
         "en"
       ],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": null,
       "profile_match_reasons": [
         "task match: text-generation"
       ]
     },
     {
-      "id": "mhseo2/opd_qwen3base4b_qwen3moe30b_ot3math-step70",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3moe30b_ot3math-step70",
-      "created_at": "2026-10-14T21:03:58+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3moe30b_ot3math-step70",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftb8dm15e_s2000_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_sftb8dm15e_s2000_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T21:03:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftb8dm15e_s2000_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "siddharthmb/2026.TA.gemma2_2b_headline_2026-10e_tc8192_decb_l1w0.001_auxk512_ctr_fp32_tarbb_lb2_sl17862630",
-      "author": "siddharthmb",
-      "name": "2026.TA.gemma2_2b_headline_2026-10e_tc8192_decb_l1w0.001_auxk512_ctr_fp32_tarbb_lb2_sl17862630",
-      "created_at": "2026-10-14T21:03:12+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "transformers",
-        "safetensors",
-        "gemma2",
-        "transcoder-adapters",
-        "sparse-adaptation",
-        "bridging",
-        "dataset:siddharthmb/2026.transcoder-adapters.lmsys-chat-1m-splits",
-        "arxiv:2602.20904",
-        "base_model:google/gemma-2-2b",
-        "base_model:finetune:google/gemma-2-2b",
-        "text-generation-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/siddharthmb/2026.TA.gemma2_2b_headline_2026-10e_tc8192_decb_l1w0.001_auxk512_ctr_fp32_tarbb_lb2_sl17862630",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: code"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step50",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step50",
-      "created_at": "2026-10-14T21:02:26+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8dm15e_s1000_qwen3moe30b_ot3math-step60",
-      "author": "mhseo2",
-      "name": "opd_sftk8dm15e_s1000_qwen3moe30b_ot3math-step60",
-      "created_at": "2026-10-14T21:01:42+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s1000_qwen3moe30b_ot3math-step60",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step40",
-      "created_at": "2026-10-14T21:00:53+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step30",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step30",
-      "created_at": "2026-10-14T20:59:21+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step30",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step20",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step20",
-      "created_at": "2026-10-14T20:57:51+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step10",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step10",
-      "created_at": "2026-10-14T20:56:20+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math_lr5e-5-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step10",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step10",
-      "created_at": "2026-10-14T20:55:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1500_qwen3moe30b_ot3math-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step50",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math-step50",
-      "created_at": "2026-10-14T20:54:47+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step20",
-      "created_at": "2026-10-14T20:53:39+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftm4dm15e_s1000_qwen3moe30b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math-step40",
-      "created_at": "2026-10-14T20:53:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftb4dm3e_s500_qwen3moe30b_ot3math-step40",
-      "author": "mhseo2",
-      "name": "opd_sftb4dm3e_s500_qwen3moe30b_ot3math-step40",
-      "created_at": "2026-10-14T20:52:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftb4dm3e_s500_qwen3moe30b_ot3math-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision",
-      "author": "Xananthium",
-      "name": "REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision",
-      "created_at": "2026-10-14T20:51:53+00:00",
+      "id": "Zihant0513/SlimKV-Qwen2.5-14B-r4",
+      "author": "Zihant0513",
+      "name": "SlimKV-Qwen2.5-14B-r4",
+      "created_at": "2026-10-15T04:00:38+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "vllm",
         "safetensors",
-        "gemma4",
-        "moe",
-        "vision",
-        "cybersecurity",
-        "abliteration",
-        "heretic",
-        "w6a8",
+        "qwen2",
+        "slimkv",
+        "text-generation",
+        "kv-cache",
+        "conversational",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r4",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Zihant0513/SlimKV-Qwen2.5-14B-r2",
+      "author": "Zihant0513",
+      "name": "SlimKV-Qwen2.5-14B-r2",
+      "created_at": "2026-10-15T04:00:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "qwen2",
+        "slimkv",
+        "text-generation",
+        "kv-cache",
+        "conversational",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Qwen2.5-14B-r2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Zihant0513/SlimKV-Llama3.1-8B-r8",
+      "author": "Zihant0513",
+      "name": "SlimKV-Llama3.1-8B-r8",
+      "created_at": "2026-10-15T04:00:25+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "llama",
+        "slimkv",
+        "text-generation",
+        "kv-cache",
+        "conversational",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r8",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Zihant0513/SlimKV-Llama3.1-8B-r4",
+      "author": "Zihant0513",
+      "name": "SlimKV-Llama3.1-8B-r4",
+      "created_at": "2026-10-15T04:00:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "llama",
+        "slimkv",
+        "text-generation",
+        "kv-cache",
+        "conversational",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r4",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "Zihant0513/SlimKV-Llama3.1-8B-r2",
+      "author": "Zihant0513",
+      "name": "SlimKV-Llama3.1-8B-r2",
+      "created_at": "2026-10-15T04:00:10+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "safetensors",
+        "llama",
+        "slimkv",
+        "text-generation",
+        "kv-cache",
+        "conversational",
+        "en",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Zihant0513/SlimKV-Llama3.1-8B-r2",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "mhseo2/opd_sftk8dm15e_s500_qwen3moe30b_ot3math-step70",
+      "author": "mhseo2",
+      "name": "opd_sftk8dm15e_s500_qwen3moe30b_ot3math-step70",
+      "created_at": "2026-10-15T03:54:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "safetensors",
+        "qwen3",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s500_qwen3moe30b_ot3math-step70",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: math (name)"
+      ]
+    },
+    {
+      "id": "rao-studios/Qwen3-Coder-Next-REAP-48B-A3B-mlx-4bit",
+      "author": "rao-studios",
+      "name": "Qwen3-Coder-Next-REAP-48B-A3B-mlx-4bit",
+      "created_at": "2026-10-15T03:54:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/rao-studios/Qwen3-Coder-Next-REAP-48B-A3B-mlx-4bit",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: code (name)"
+      ]
+    },
+    {
+      "id": "intel-ai/GLM-5.2-MXFP4-CT-AutoRound",
+      "author": "intel-ai",
+      "name": "GLM-5.2-MXFP4-CT-AutoRound",
+      "created_at": "2026-10-15T03:48:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "glm_moe_dsa",
+        "text-generation",
+        "auto-round",
+        "conversational",
+        "arxiv:2309.05516",
+        "base_model:zai-org/GLM-5.2",
+        "base_model:quantized:zai-org/GLM-5.2",
+        "license:other",
+        "eval-results",
+        "endpoints_compatible",
         "compressed-tensors",
-        "experimental",
-        "text-generation",
-        "conversational",
-        "en",
-        "base_model:google/gemma-4-26B-A4B-it",
-        "base_model:quantized:google/gemma-4-26B-A4B-it",
-        "license:apache-2.0",
         "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/intel-ai/GLM-5.2-MXFP4-CT-AutoRound",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: text-generation"
+      ]
+    },
+    {
+      "id": "darkmaniac7/TokForge-Bonsai-2-27B-Abliterated-GGUF",
+      "author": "darkmaniac7",
+      "name": "TokForge-Bonsai-2-27B-Abliterated-GGUF",
+      "created_at": "2026-10-15T03:44:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "llama.cpp",
+        "gguf",
+        "bonsai",
+        "ternary",
+        "2-bit",
+        "prismml",
+        "abliterated",
+        "mtp",
+        "android",
+        "mobile",
+        "on-device",
+        "tokforge",
+        "text-generation",
+        "en",
+        "base_model:prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "base_model:finetune:prism-ml/Ternary-Bonsai-2-27B-gguf",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision",
+      "url": "https://huggingface.co/darkmaniac7/TokForge-Bonsai-2-27B-Abliterated-GGUF",
       "description": null,
       "languages": [
         "en"
@@ -1191,47 +325,10 @@
       ]
     },
     {
-      "id": "rawmodels/Qwen3.8-27B-antislop-GGUF",
-      "author": "rawmodels",
-      "name": "Qwen3.8-27B-antislop-GGUF",
-      "created_at": "2026-10-14T20:51:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "q4_k_m",
-        "q8_0",
-        "antislop",
-        "writing",
-        "text-generation",
-        "en",
-        "ru",
-        "base_model:rawmodels/Qwen3.8-27B-antislop",
-        "base_model:quantized:rawmodels/Qwen3.8-27B-antislop",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/rawmodels/Qwen3.8-27B-antislop-GGUF",
-      "description": null,
-      "languages": [
-        "en",
-        "ru"
-      ],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step30",
+      "id": "mhseo2/opd_sftk8dm15e_s250_qwen3moe30b_ot3math-step70",
       "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math-step30",
-      "created_at": "2026-10-14T20:51:44+00:00",
+      "name": "opd_sftk8dm15e_s250_qwen3moe30b_ot3math-step70",
+      "created_at": "2026-10-15T03:42:51+00:00",
       "last_modified": null,
       "pipeline_tag": null,
       "tags": [
@@ -1243,7 +340,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step30",
+      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s250_qwen3moe30b_ot3math-step70",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -1253,31 +350,40 @@
       ]
     },
     {
-      "id": "nikimori/Qwen3.5-2B-Base-6bit",
-      "author": "nikimori",
-      "name": "Qwen3.5-2B-Base-6bit",
-      "created_at": "2026-10-14T20:51:16+00:00",
+      "id": "Matycaba2016/qwen2.5-3b-base-qlora-embeddings-sft45k-v1",
+      "author": "Matycaba2016",
+      "name": "qwen2.5-3b-base-qlora-embeddings-sft45k-v1",
+      "created_at": "2026-10-15T03:30:00+00:00",
       "last_modified": null,
       "pipeline_tag": "text-generation",
       "tags": [
-        "mlx",
+        "peft",
         "safetensors",
-        "qwen3_5",
+        "medical",
+        "clinical",
+        "healthcare",
+        "qlora",
+        "qwen2.5",
+        "sft",
         "text-generation",
         "conversational",
-        "base_model:Qwen/Qwen3.5-2B-Base",
-        "base_model:quantized:Qwen/Qwen3.5-2B-Base",
+        "es",
+        "en",
+        "base_model:Qwen/Qwen2.5-3B",
+        "base_model:adapter:Qwen/Qwen2.5-3B",
         "license:apache-2.0",
-        "6-bit",
         "region:us"
       ],
       "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/nikimori/Qwen3.5-2B-Base-6bit",
+      "url": "https://huggingface.co/Matycaba2016/qwen2.5-3b-base-qlora-embeddings-sft45k-v1",
       "description": null,
-      "languages": [],
+      "languages": [
+        "es",
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -1285,313 +391,44 @@
       ]
     },
     {
-      "id": "mhseo2/opd_sftk8ot3e_s489_qwen3moe30b_ot3math-step50",
-      "author": "mhseo2",
-      "name": "opd_sftk8ot3e_s489_qwen3moe30b_ot3math-step50",
-      "created_at": "2026-10-14T20:50:25+00:00",
+      "id": "Ecmcfee/Swift1.5-Qwen3.8-Flash-Next-q4-MTPLX",
+      "author": "Ecmcfee",
+      "name": "Swift1.5-Qwen3.8-Flash-Next-q4-MTPLX",
+      "created_at": "2026-10-15T03:29:36+00:00",
       "last_modified": null,
-      "pipeline_tag": null,
+      "pipeline_tag": "image-text-to-text",
       "tags": [
+        "mlx-lm",
         "safetensors",
-        "qwen3",
+        "qwen4_exp",
+        "mlx",
+        "quantized",
+        "4-bit",
+        "mtp",
+        "ngram",
+        "moe",
+        "reasoning",
+        "efficient-thinking",
+        "mtplx",
+        "m5",
+        "image-text-to-text",
+        "conversational",
+        "base_model:ukisai/Swift1.5-Qwen3.8-Flash-Next",
+        "base_model:quantized:ukisai/Swift1.5-Qwen3.8-Flash-Next",
+        "license:other",
         "region:us"
       ],
-      "license": null,
+      "license": "other",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8ot3e_s489_qwen3moe30b_ot3math-step50",
+      "url": "https://huggingface.co/Ecmcfee/Swift1.5-Qwen3.8-Flash-Next-q4-MTPLX",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": null,
       "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_qwen3base4b_qwen3_8b_ot3math-step20",
-      "created_at": "2026-10-14T20:50:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base4b_qwen3_8b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step40",
-      "author": "mhseo2",
-      "name": "opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step40",
-      "created_at": "2026-10-14T20:49:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step40",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8ot3e_s250_qwen3moe30b_ot3math-step50",
-      "author": "mhseo2",
-      "name": "opd_sftk8ot3e_s250_qwen3moe30b_ot3math-step50",
-      "created_at": "2026-10-14T20:48:43+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8ot3e_s250_qwen3moe30b_ot3math-step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "zaydmulani/Ternary-Bonsai-1.7B-TQ2_0_G128",
-      "author": "zaydmulani",
-      "name": "Ternary-Bonsai-1.7B-TQ2_0_G128",
-      "created_at": "2026-10-14T20:48:18+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-generation",
-      "tags": [
-        "gguf",
-        "ternary",
-        "1.58-bit",
-        "llama.cpp",
-        "cortex-a53",
-        "arduino",
-        "edge",
-        "text-generation",
-        "base_model:prism-ml/Ternary-Bonsai-1.7B-unpacked",
-        "base_model:quantized:prism-ml/Ternary-Bonsai-1.7B-unpacked",
-        "license:apache-2.0",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/zaydmulani/Ternary-Bonsai-1.7B-TQ2_0_G128",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: text-generation"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step10",
-      "author": "mhseo2",
-      "name": "opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step10",
-      "created_at": "2026-10-14T20:48:09+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math_lr5e-5-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step10",
-      "author": "mhseo2",
-      "name": "opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step10",
-      "created_at": "2026-10-14T20:47:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opsa_mmopd4b_ot3_2ep_ot3math_lr1e-6-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math-step50",
-      "author": "mhseo2",
-      "name": "opd_qwen3base1_7b_qwen3_8b_ot3math-step50",
-      "created_at": "2026-10-14T20:47:04+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math-step50",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math-step20",
-      "author": "mhseo2",
-      "name": "opd_qwen3base1_7b_qwen3_8b_ot3math-step20",
-      "created_at": "2026-10-14T20:46:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3base1_7b_qwen3_8b_ot3math-step20",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step10",
-      "author": "mhseo2",
-      "name": "opsa_klearrl8b_ot3math_lr1e-6-step10",
-      "created_at": "2026-10-14T20:45:29+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opsa_klearrl8b_ot3math_lr1e-6-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_qwen3_4b_qwen3moe30b_ot3math-step110",
-      "author": "mhseo2",
-      "name": "opd_qwen3_4b_qwen3moe30b_ot3math-step110",
-      "created_at": "2026-10-14T20:44:32+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_qwen3_4b_qwen3moe30b_ot3math-step110",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
-      ]
-    },
-    {
-      "id": "mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step10",
-      "author": "mhseo2",
-      "name": "opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step10",
-      "created_at": "2026-10-14T20:43:44+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "qwen3",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mhseo2/opd_sftk8dm15e_s2970_qwen3moe30b_ot3math-step10",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: math (name)"
+        "tag match: reasoning"
       ]
     }
   ]
