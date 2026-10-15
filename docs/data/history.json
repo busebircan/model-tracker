@@ -55484,6 +55484,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-15T12:22:12.365471+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 36,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "safetensors",
+            "feature-extraction",
+            "conversational",
+            "pytorch",
+            "bert",
+            "gguf",
+            "text-generation"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 25,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "gguf",
+            "conversational",
+            "retrieval"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 20,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "custom_code",
+            "qwen2",
+            "conversational",
+            "text-generation-inference",
+            "qwen3"
+          ]
+        },
+        "rag_general": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "feature-extraction",
+            "bert",
+            "safetensors",
+            "retrieval",
+            "custom_code",
+            "ultrabert"
+          ]
+        },
+        "personal_research": {
+          "model_count": 21,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "transformers",
+            "endpoints_compatible",
+            "text-generation",
+            "qwen2",
+            "conversational",
+            "text-generation-inference",
+            "custom_code",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "whisper",
+            "automatic-speech-recognition",
+            "elarspeech",
+            "whisper-large-v3",
+            "base_model:openai/whisper-large-v3",
+            "feature-extraction"
+          ]
+        }
+      }
     }
   ]
 }
