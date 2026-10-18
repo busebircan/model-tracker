@@ -54822,6 +54822,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-18T11:54:00.107762+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 47,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "en"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "feature-extraction",
+            "transformers",
+            "bert",
+            "gguf",
+            "conversational",
+            "en",
+            "onnx"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "endpoints_compatible",
+            "lora",
+            "peft",
+            "qwen3",
+            "en"
+          ]
+        },
+        "rag_general": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "feature-extraction",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "base_model:google/embeddinggemma-2",
+            "safetensors",
+            "deit",
+            "retrieval"
+          ]
+        },
+        "personal_research": {
+          "model_count": 16,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "transformers",
+            "lora",
+            "en",
+            "peft",
+            "conversational",
+            "endpoints_compatible",
+            "base_model:Qwen/Qwen3-4B-Instruct-2507"
+          ]
+        },
+        "safety_security": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "pytorch",
+            "bert",
+            "conversational",
+            "safetensors",
+            "text-generation",
+            "gguf"
+          ]
+        }
+      }
     }
   ]
 }
