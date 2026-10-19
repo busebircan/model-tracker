@@ -54636,6 +54636,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-19T14:13:52.777670+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 73,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "peft"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 62,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "onnx",
+            "en",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "peft",
+            "lora",
+            "emergent-misalignment",
+            "ai-safety",
+            "research"
+          ]
+        },
+        "rag_general": {
+          "model_count": 31,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "transformers",
+            "endpoints_compatible",
+            "bert",
+            "feature-extraction",
+            "safetensors",
+            "retrieval",
+            "en",
+            "text-embeddings-inference"
+          ]
+        },
+        "personal_research": {
+          "model_count": 33,
+          "top_tags": [
+            "safetensors",
+            "region:us",
+            "text-generation",
+            "conversational",
+            "peft",
+            "transformers",
+            "endpoints_compatible",
+            "lora",
+            "emergent-misalignment",
+            "ai-safety"
+          ]
+        },
+        "safety_security": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "conversational",
+            "text-generation",
+            "peft"
+          ]
+        }
+      }
     }
   ]
 }
