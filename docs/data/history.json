@@ -54165,6 +54165,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-21T12:37:20.138701+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 65,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "mlx",
+            "quantized",
+            "embedding_gemma2",
+            "transformers",
+            "conversational",
+            "oq",
+            "bert"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 59,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "mlx",
+            "quantized",
+            "embedding_gemma2",
+            "oq",
+            "conversational",
+            "gguf",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 19,
+          "top_tags": [
+            "region:us",
+            "text-generation",
+            "safetensors",
+            "conversational",
+            "en",
+            "endpoints_compatible",
+            "gguf",
+            "lora",
+            "transformers",
+            "qwen2"
+          ]
+        },
+        "rag_general": {
+          "model_count": 40,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "mlx",
+            "embedding_gemma2",
+            "oq",
+            "quantized",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction"
+          ]
+        },
+        "personal_research": {
+          "model_count": 26,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "endpoints_compatible",
+            "transformers",
+            "conversational",
+            "audio-classification",
+            "language-identification",
+            "nigerian-languages",
+            "en"
+          ]
+        },
+        "safety_security": {
+          "model_count": 42,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "safetensors",
+            "bert",
+            "conversational",
+            "gguf",
+            "ar",
+            "text-classification",
+            "arabic"
+          ]
+        }
+      }
     }
   ]
 }
