@@ -1,376 +1,96 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-10-21  
-**Run timestamp:** 2026-10-21 11:32 UTC  
+**Run timestamp:** 2026-10-21 16:59 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 40
+**New models found:** 30
 
 ---
 
 
 
-### [ASCXZ12EWDX/MyAwesomeModel-TestRepo](https://huggingface.co/ASCXZ12EWDX/MyAwesomeModel-TestRepo)
-**Author:** ASCXZ12EWDX  
-**Task:** feature extraction / embedding generation  
+### [PoyuDkuo/mixer-experiment52](https://huggingface.co/PoyuDkuo/mixer-experiment52)
+**Author:** PoyuDkuo  
+**Task:** general  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mixer`, `retrieval`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [PoyuDkuo/text-image-retrieval76](https://huggingface.co/PoyuDkuo/text-image-retrieval76)
+**Author:** PoyuDkuo  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-10-21  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `transformer`, `research-notes`, `text-image-retrieval`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ8e](https://huggingface.co/bambocher/embeddinggemma-2-oQ8e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `8-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval.
 
 ---
 
 
 
-### [bambocher/embeddinggemma-2-oQ8](https://huggingface.co/bambocher/embeddinggemma-2-oQ8)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `8-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ6e](https://huggingface.co/bambocher/embeddinggemma-2-oQ6e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `6-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ6](https://huggingface.co/bambocher/embeddinggemma-2-oQ6)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `6-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ5e](https://huggingface.co/bambocher/embeddinggemma-2-oQ5e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `5-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ5](https://huggingface.co/bambocher/embeddinggemma-2-oQ5)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `5-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ4e](https://huggingface.co/bambocher/embeddinggemma-2-oQ4e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `4-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ4](https://huggingface.co/bambocher/embeddinggemma-2-oQ4)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `4-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ3e](https://huggingface.co/bambocher/embeddinggemma-2-oQ3e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `3-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ3.5e](https://huggingface.co/bambocher/embeddinggemma-2-oQ3.5e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `3-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ3.5](https://huggingface.co/bambocher/embeddinggemma-2-oQ3.5)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `3-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ3](https://huggingface.co/bambocher/embeddinggemma-2-oQ3)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `3-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2e](https://huggingface.co/bambocher/embeddinggemma-2-oQ2e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2.7e](https://huggingface.co/bambocher/embeddinggemma-2-oQ2.7e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2.7](https://huggingface.co/bambocher/embeddinggemma-2-oQ2.7)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2.5e](https://huggingface.co/bambocher/embeddinggemma-2-oQ2.5e)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2.5](https://huggingface.co/bambocher/embeddinggemma-2-oQ2.5)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bambocher/embeddinggemma-2-oQ2](https://huggingface.co/bambocher/embeddinggemma-2-oQ2)
-**Author:** bambocher  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `embedding_gemma2`, `oq`, `quantized`, `2-bit`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [ASCXZ12EWDX/MyAwesomeModel](https://huggingface.co/ASCXZ12EWDX/MyAwesomeModel)
-**Author:** ASCXZ12EWDX  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [airagrp/Qwen3.8-Flash-Next-iq5-mixed-mlx](https://huggingface.co/airagrp/Qwen3.8-Flash-Next-iq5-mixed-mlx)
-**Author:** airagrp  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen4_exp`, `quantization`, `moe`, `speculative-decoding`, `mtp`, `apple-silicon`, `text-generation`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [mcptester0606/MyAwesomeModel-TestRepo](https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo)
-**Author:** mcptester0606  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [hohmannc1/gemma-4-E2B-it-litert-lm-snapdragon](https://huggingface.co/hohmannc1/gemma-4-E2B-it-litert-lm-snapdragon)
-**Author:** hohmannc1  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `litert-lm`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [Booooooooooooo/vlqa-xlm-roberta-large-nli](https://huggingface.co/Booooooooooooo/vlqa-xlm-roberta-large-nli)
-**Author:** Booooooooooooo  
+### [Pari-Jain/bert-finetuned-imdb](https://huggingface.co/Pari-Jain/bert-finetuned-imdb)
+**Author:** Pari-Jain  
 **Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Languages:** vi  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `xlm-roberta`, `legal-ir`, `natural-language-inference`, `text-classification`, `nli-verifier`, `cross-encoder`, `vi`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: cross-encoder.
-
----
-
-
-
-### [zoarag/ghostpaint](https://huggingface.co/zoarag/ghostpaint)
-**Author:** zoarag  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag (name).
-
----
-
-
-
-### [UNI-PIC/Retail-TW-Qwen3-Embedding-0.6B](https://huggingface.co/UNI-PIC/Retail-TW-Qwen3-Embedding-0.6B)
-**Author:** UNI-PIC  
-**Task:** sentence similarity and semantic search  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-21  
-**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `qwen3`, `sentence-similarity`, `feature-extraction`, `retail`, `e-commerce`, `search`, `product-retrieval`  
+**Tags:** `tensorboard`, `bert`, `text-classification`, `generated_from_trainer`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
+
+---
+
+
+
+### [ASDCXZ12EDX/MyAwesomeModel-TestRepo](https://huggingface.co/ASDCXZ12EDX/MyAwesomeModel-TestRepo)
+**Author:** ASDCXZ12EDX  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [harsimran2004/social-embedding-v1-384d-onnx](https://huggingface.co/harsimran2004/social-embedding-v1-384d-onnx)
+**Author:** harsimran2004  
+**Task:** sentence similarity and semantic search  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-21  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `bert`, `text-embeddings`, `semantic-search`, `sentence-similarity`, `matryoshka`, `quantization`, `384d`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, semantic-search. Capabilities: available in quantized/offline-friendly formats; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SACXZ213EDS/MyAwesomeModel-TestRepo](https://huggingface.co/SACXZ213EDS/MyAwesomeModel-TestRepo)
+**Author:** SACXZ213EDS  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
@@ -390,193 +110,330 @@
 
 
 
-### [Hamid1981/automotive-diagnostics-llm-F16-GGUF](https://huggingface.co/Hamid1981/automotive-diagnostics-llm-F16-GGUF)
-**Author:** Hamid1981  
+### [sfafasfa2324/MyAwesomeModel-TestRepo](https://huggingface.co/sfafasfa2324/MyAwesomeModel-TestRepo)
+**Author:** sfafasfa2324  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sdadafdaf4546/MyAwesomeModel-TestRepo](https://huggingface.co/sdadafdaf4546/MyAwesomeModel-TestRepo)
+**Author:** sdadafdaf4546  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [DSACZX123EDS/MyAwesomeModel-TestRepo](https://huggingface.co/DSACZX123EDS/MyAwesomeModel-TestRepo)
+**Author:** DSACZX123EDS  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [afeasdfsd/MyAwesomeModel-TestRepo](https://huggingface.co/afeasdfsd/MyAwesomeModel-TestRepo)
+**Author:** afeasdfsd  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [DSA1DSAD1D/MyAwesomeModel-TestRepo](https://huggingface.co/DSA1DSAD1D/MyAwesomeModel-TestRepo)
+**Author:** DSA1DSAD1D  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ASFRAasd/MyAwesomeModel-TestRepo](https://huggingface.co/ASFRAasd/MyAwesomeModel-TestRepo)
+**Author:** ASFRAasd  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ASD12ZXCQE/MyAwesomeModel-TestRepo](https://huggingface.co/ASD12ZXCQE/MyAwesomeModel-TestRepo)
+**Author:** ASD12ZXCQE  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SAD1CZ12DSA/MyAwesomeModel-TestRepo](https://huggingface.co/SAD1CZ12DSA/MyAwesomeModel-TestRepo)
+**Author:** SAD1CZ12DSA  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sadafdas/MyAwesomeModel-TestRepo](https://huggingface.co/sadafdas/MyAwesomeModel-TestRepo)
+**Author:** sadafdas  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [DSACZX1231EDAS/MyAwesomeModel-TestRepo](https://huggingface.co/DSACZX1231EDAS/MyAwesomeModel-TestRepo)
+**Author:** DSACZX1231EDAS  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SDCXZ21SDA/MyAwesomeModel-TestRepo](https://huggingface.co/SDCXZ21SDA/MyAwesomeModel-TestRepo)
+**Author:** SDCXZ21SDA  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [VelociQ8/PIXIE-Rune-v1.0-Q8A64-GGUF](https://huggingface.co/VelociQ8/PIXIE-Rune-v1.0-Q8A64-GGUF)
+**Author:** VelociQ8  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [VelociQ8/Octen-Embedding-0.6B-Q8A64-GGUF](https://huggingface.co/VelociQ8/Octen-Embedding-0.6B-Q8A64-GGUF)
+**Author:** VelociQ8  
+**Task:** feature extraction / embedding generation  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [dsaxz123/MyAwesomeModel-TestRepo](https://huggingface.co/dsaxz123/MyAwesomeModel-TestRepo)
+**Author:** dsaxz123  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [DSADD12E1DSAD/MyAwesomeModel-TestRepo](https://huggingface.co/DSADD12E1DSAD/MyAwesomeModel-TestRepo)
+**Author:** DSADD12E1DSAD  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Zd21EDSA123/MyAwesomeModel-TestRepo](https://huggingface.co/Zd21EDSA123/MyAwesomeModel-TestRepo)
+**Author:** Zd21EDSA123  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [liufea154/MyAwesomeModel-TestRepo](https://huggingface.co/liufea154/MyAwesomeModel-TestRepo)
+**Author:** liufea154  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [VelociQ8/bge-m3-Q8A64-GGUF](https://huggingface.co/VelociQ8/bge-m3-Q8A64-GGUF)
+**Author:** VelociQ8  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [hcnote/SparkMuse-4B-GGUF](https://huggingface.co/hcnote/SparkMuse-4B-GGUF)
+**Author:** hcnote  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `gguf`, `automotive`, `obd2`, `dtc`, `diagnostics`, `fine-tuned`, `qlora`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases.
-
----
-
-
-
-### [UNI-PIC/retail-embeddinggemma-2-tw](https://huggingface.co/UNI-PIC/retail-embeddinggemma-2-tw)
-**Author:** UNI-PIC  
-**Task:** sentence similarity and semantic search  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-21  
-**Languages:** zh  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `embedding_gemma2`, `embeddings`, `retrieval`, `e-commerce`, `product-search`, `traditional-chinese`, `taiwan`  
+**Tags:** `gguf`, `creative-writing`, `novel-generation`, `roleplay`, `nsfw`, `long-context`, `1M-context`, `spark`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: sentence-similarity, tag match: embeddings, embedding, sentence-transformers, retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: long-context. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sahilbh93/my-awesome-model](https://huggingface.co/sahilbh93/my-awesome-model)
-**Author:** sahilbh93  
+### [VelociQ8/snowflake-arctic-embed-l-v2.0-Q8A64-GGUF](https://huggingface.co/VelociQ8/snowflake-arctic-embed-l-v2.0-Q8A64-GGUF)
+**Author:** VelociQ8  
 **Task:** feature extraction / embedding generation  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-21  
+**Languages:** multilingual  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [zhoukx/MyAwesomeModel-TestRepo](https://huggingface.co/zhoukx/MyAwesomeModel-TestRepo)
-**Author:** zhoukx  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CORAL-seed42](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CORAL-seed42)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CE-seed42](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CE-seed42)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed7](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed7)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed42](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed42)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run1](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run1)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-AraBERTv2-Reg-run2](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-AraBERTv2-Reg-run2)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-OrdThr](https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-OrdThr)
-**Author:** NAMAA-Space  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-21  
-**Languages:** ar  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `text-classification`, `arabic`, `readability`, `barec`, `barec-2026`, `ordinal-regression`, `namaa`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
-
----
-
-
-
-### [zXQWD12SAD/MyAwesomeModel-TestRepo](https://huggingface.co/zXQWD12SAD/MyAwesomeModel-TestRepo)
-**Author:** zXQWD12SAD  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-21  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [mradermacher/B2-Bophades-9B-GGUF](https://huggingface.co/mradermacher/B2-Bophades-9B-GGUF)
-**Author:** mradermacher  
+### [wwilsonadam/project-retrieval](https://huggingface.co/wwilsonadam/project-retrieval)
+**Author:** wwilsonadam  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `bsd-3-clause` ✅ commercial use allowed  
 **Published:** 2026-10-21  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `merge`, `lora`, `orpo`, `qwen3.5`, `dataset:jondurbin/truthy-dpo-v0.1`, `dataset:argilla/distilabel-math-preference-dpo`, `dataset:openbmb/UltraInteract_pair`  
+**Tags:** `mixer`, `retrieval`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: retrieval. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [VelociQ8/bekko-embedding-v1-a8m-Q8A64-GGUF](https://huggingface.co/VelociQ8/bekko-embedding-v1-a8m-Q8A64-GGUF)
+**Author:** VelociQ8  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
+
+---
+
+
+
+### [VelociQ8/bekko-embedding-v1-a25m-Q8A64-GGUF](https://huggingface.co/VelociQ8/bekko-embedding-v1-a25m-Q8A64-GGUF)
+**Author:** VelociQ8  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-21  
+**Languages:** multilingual  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `velociq8`, `q8a64`, `cpu`, `embeddings`, `sentence-similarity`, `arm64`, `aarch64`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, retrieval, rag, semantic-search. Capabilities: available in quantized/offline-friendly formats; designed for RAG / retrieval use cases; produces dense embeddings for semantic search.
 
 
 
@@ -584,4 +441,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-21 11:32 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-21 16:59 UTC*
