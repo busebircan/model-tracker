@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-10-21T04:13:30.652628+00:00",
-  "model_count": 10,
+  "run_at": "2026-10-21T11:32:09.654872+00:00",
+  "model_count": 40,
   "models": [
     {
-      "id": "karmaxteq/MyAwesomeModel-TestRepo",
-      "author": "karmaxteq",
+      "id": "ASCXZ12EWDX/MyAwesomeModel-TestRepo",
+      "author": "ASCXZ12EWDX",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T04:07:32+00:00",
+      "created_at": "2026-10-21T11:23:22+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/karmaxteq/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ASCXZ12EWDX/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -34,246 +34,598 @@
       ]
     },
     {
-      "id": "KieloTony/MyAwesomeModel-TestRepo",
-      "author": "KieloTony",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T04:03:05+00:00",
+      "id": "bambocher/embeddinggemma-2-oQ8e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ8e",
+      "created_at": "2026-10-21T11:18:46+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/KieloTony/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "eeeeerrrr4/MyAwesomeModel-TestRepo",
-      "author": "eeeeerrrr4",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T04:01:05+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/eeeeerrrr4/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "aSsadASD1/MyAwesomeModel-TestRepo",
-      "author": "aSsadASD1",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T04:00:38+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/aSsadASD1/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "toolathlon-hark/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-hark",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T03:53:56+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-hark/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DSADA123SA4FASR/MyAwesomeModel-TestRepo",
-      "author": "DSADA123SA4FASR",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T03:48:15+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DSADA123SA4FASR/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "ASDBXNSFASD/MyAwesomeModel-TestRepo",
-      "author": "ASDBXNSFASD",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T03:41:16+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ASDBXNSFASD/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "DSA12DSA12/MyAwesomeModel-TestRepo",
-      "author": "DSA12DSA12",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T03:38:01+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DSA12DSA12/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "raspie/vrs-int-gemma4-vision-fp16",
-      "author": "raspie",
-      "name": "vrs-int-gemma4-vision-fp16",
-      "created_at": "2026-10-21T03:29:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
-      "tags": [
-        "comfyui",
-        "gemma4",
-        "vrs-int",
-        "vision",
-        "image-feature-extraction",
+        "mlx",
         "safetensors",
-        "fp16",
-        "base_model:google/gemma-4-E2B-it",
-        "base_model:finetune:google/gemma-4-E2B-it",
-        "license:apache-2.0",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "8-bit",
         "region:us"
       ],
-      "license": "apache-2.0",
+      "license": null,
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/raspie/vrs-int-gemma4-vision-fp16",
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ8e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ8",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ8",
+      "created_at": "2026-10-21T11:18:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "8-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ8",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ6e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ6e",
+      "created_at": "2026-10-21T11:18:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "6-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ6e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ6",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ6",
+      "created_at": "2026-10-21T11:18:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "6-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ6",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ5e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ5e",
+      "created_at": "2026-10-21T11:18:16+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "5-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ5e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ5",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ5",
+      "created_at": "2026-10-21T11:18:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "5-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ4e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ4e",
+      "created_at": "2026-10-21T11:17:59+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "4-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ4e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ4",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ4",
+      "created_at": "2026-10-21T11:17:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "4-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ4",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ3e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ3e",
+      "created_at": "2026-10-21T11:17:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "3-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ3e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ3.5e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ3.5e",
+      "created_at": "2026-10-21T11:17:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "3-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ3.5e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ3.5",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ3.5",
+      "created_at": "2026-10-21T11:17:29+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "3-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ3.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ3",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ3",
+      "created_at": "2026-10-21T11:17:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "3-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ3",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2e",
+      "created_at": "2026-10-21T11:17:14+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2.7e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2.7e",
+      "created_at": "2026-10-21T11:17:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2.7e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2.7",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2.7",
+      "created_at": "2026-10-21T11:17:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2.7",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2.5e",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2.5e",
+      "created_at": "2026-10-21T11:16:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2.5e",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2.5",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2.5",
+      "created_at": "2026-10-21T11:16:43+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2.5",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "bambocher/embeddinggemma-2-oQ2",
+      "author": "bambocher",
+      "name": "embeddinggemma-2-oQ2",
+      "created_at": "2026-10-21T11:16:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "mlx",
+        "safetensors",
+        "embedding_gemma2",
+        "oq",
+        "quantized",
+        "2-bit",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/bambocher/embeddinggemma-2-oQ2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "ASCXZ12EWDX/MyAwesomeModel",
+      "author": "ASCXZ12EWDX",
+      "name": "MyAwesomeModel",
+      "created_at": "2026-10-21T11:16:27+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ASCXZ12EWDX/MyAwesomeModel",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: image-feature-extraction"
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "airagrp/Qwen3.8-Flash-Next-iq5-mixed-mlx",
+      "author": "airagrp",
+      "name": "Qwen3.8-Flash-Next-iq5-mixed-mlx",
+      "created_at": "2026-10-21T11:14:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "mlx",
+        "safetensors",
+        "qwen4_exp",
+        "quantization",
+        "moe",
+        "speculative-decoding",
+        "mtp",
+        "apple-silicon",
+        "text-generation",
+        "conversational",
+        "base_model:Qwen/Qwen3.8-Flash-Next",
+        "base_model:quantized:Qwen/Qwen3.8-Flash-Next",
+        "license:other",
+        "5-bit",
+        "region:us"
+      ],
+      "license": "other",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/airagrp/Qwen3.8-Flash-Next-iq5-mixed-mlx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     },
     {
       "id": "mcptester0606/MyAwesomeModel-TestRepo",
       "author": "mcptester0606",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-10-21T03:09:59+00:00",
+      "created_at": "2026-10-21T11:11:03+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -296,6 +648,663 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "hohmannc1/gemma-4-E2B-it-litert-lm-snapdragon",
+      "author": "hohmannc1",
+      "name": "gemma-4-E2B-it-litert-lm-snapdragon",
+      "created_at": "2026-10-21T11:10:46+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "litert-lm",
+        "base_model:google/gemma-4-E2B-it",
+        "base_model:finetune:google/gemma-4-E2B-it",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/hohmannc1/gemma-4-E2B-it-litert-lm-snapdragon",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "Booooooooooooo/vlqa-xlm-roberta-large-nli",
+      "author": "Booooooooooooo",
+      "name": "vlqa-xlm-roberta-large-nli",
+      "created_at": "2026-10-21T11:01:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "safetensors",
+        "xlm-roberta",
+        "legal-ir",
+        "natural-language-inference",
+        "text-classification",
+        "nli-verifier",
+        "cross-encoder",
+        "vi",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Booooooooooooo/vlqa-xlm-roberta-large-nli",
+      "description": null,
+      "languages": [
+        "vi"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "zoarag/ghostpaint",
+      "author": "zoarag",
+      "name": "ghostpaint",
+      "created_at": "2026-10-21T11:00:22+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zoarag/ghostpaint",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "UNI-PIC/Retail-TW-Qwen3-Embedding-0.6B",
+      "author": "UNI-PIC",
+      "name": "Retail-TW-Qwen3-Embedding-0.6B",
+      "created_at": "2026-10-21T10:57:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "qwen3",
+        "sentence-similarity",
+        "feature-extraction",
+        "retail",
+        "e-commerce",
+        "search",
+        "product-retrieval",
+        "taiwan",
+        "traditional-chinese",
+        "embedding",
+        "zh",
+        "en",
+        "base_model:Qwen/Qwen3-Embedding-0.6B",
+        "base_model:finetune:Qwen/Qwen3-Embedding-0.6B",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/UNI-PIC/Retail-TW-Qwen3-Embedding-0.6B",
+      "description": null,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
+      ]
+    },
+    {
+      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
+      "author": "ToolathlonBot",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-10-21T10:54:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "Hamid1981/automotive-diagnostics-llm-F16-GGUF",
+      "author": "Hamid1981",
+      "name": "automotive-diagnostics-llm-F16-GGUF",
+      "created_at": "2026-10-21T10:54:04+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-generation",
+      "tags": [
+        "peft",
+        "gguf",
+        "automotive",
+        "obd2",
+        "dtc",
+        "diagnostics",
+        "fine-tuned",
+        "qlora",
+        "lora",
+        "uds-protocol",
+        "rag",
+        "llama-cpp",
+        "gguf-my-lora",
+        "text-generation",
+        "en",
+        "base_model:RRK1987/automotive-diagnostics-llm",
+        "base_model:adapter:RRK1987/automotive-diagnostics-llm",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Hamid1981/automotive-diagnostics-llm-F16-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "UNI-PIC/retail-embeddinggemma-2-tw",
+      "author": "UNI-PIC",
+      "name": "retail-embeddinggemma-2-tw",
+      "created_at": "2026-10-21T10:48:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "embedding_gemma2",
+        "embeddings",
+        "retrieval",
+        "e-commerce",
+        "product-search",
+        "traditional-chinese",
+        "taiwan",
+        "sentence-similarity",
+        "zh",
+        "base_model:google/embeddinggemma-2",
+        "base_model:finetune:google/embeddinggemma-2",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/UNI-PIC/retail-embeddinggemma-2-tw",
+      "description": null,
+      "languages": [
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
+        "tag match: embeddings, embedding, sentence-transformers, retrieval"
+      ]
+    },
+    {
+      "id": "sahilbh93/my-awesome-model",
+      "author": "sahilbh93",
+      "name": "my-awesome-model",
+      "created_at": "2026-10-21T10:45:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "feature-extraction",
+        "arxiv:1910.09700",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/sahilbh93/my-awesome-model",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "zhoukx/MyAwesomeModel-TestRepo",
+      "author": "zhoukx",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-10-21T10:43:47+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zhoukx/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CORAL-seed42",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CORAL-seed42",
+      "created_at": "2026-10-21T10:42:42+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CORAL-seed42",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CE-seed42",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CE-seed42",
+      "created_at": "2026-10-21T10:42:31+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-CE-seed42",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed7",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed7",
+      "created_at": "2026-10-21T10:42:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed7",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed42",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed42",
+      "created_at": "2026-10-21T10:42:08+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 1,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run2-seed42",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run1",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run1",
+      "created_at": "2026-10-21T10:41:38+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-reg",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-Reg-run1",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-AraBERTv2-Reg-run2",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-AraBERTv2-Reg-run2",
+      "created_at": "2026-10-21T10:41:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:aubmindlab/bert-base-arabertv2",
+        "base_model:finetune:aubmindlab/bert-base-arabertv2",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-AraBERTv2-Reg-run2",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-OrdThr",
+      "author": "NAMAA-Space",
+      "name": "NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-OrdThr",
+      "created_at": "2026-10-21T10:40:49+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arabic",
+        "readability",
+        "barec",
+        "barec-2026",
+        "ordinal-regression",
+        "namaa",
+        "ar",
+        "dataset:CAMeL-Lab/BAREC-Shared-Task-2026-sent",
+        "base_model:CAMeL-Lab/readability-arabertv2-d3tok-CE",
+        "base_model:finetune:CAMeL-Lab/readability-arabertv2-d3tok-CE",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/NAMAA-Space/NAMAA-BAREC2026-Sent-CAMeL-AraBERTv2-d3tok-OrdThr",
+      "description": null,
+      "languages": [
+        "ar"
+      ],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "zXQWD12SAD/MyAwesomeModel-TestRepo",
+      "author": "zXQWD12SAD",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-10-21T10:38:52+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zXQWD12SAD/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "mradermacher/B2-Bophades-9B-GGUF",
+      "author": "mradermacher",
+      "name": "B2-Bophades-9B-GGUF",
+      "created_at": "2026-10-21T10:38:21+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "merge",
+        "lora",
+        "orpo",
+        "qwen3.5",
+        "en",
+        "dataset:jondurbin/truthy-dpo-v0.1",
+        "dataset:argilla/distilabel-math-preference-dpo",
+        "dataset:openbmb/UltraInteract_pair",
+        "base_model:DragonBophades/B2-Bophades-9B",
+        "base_model:adapter:DragonBophades/B2-Bophades-9B",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/B2-Bophades-9B-GGUF",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
       ]
     }
   ]
