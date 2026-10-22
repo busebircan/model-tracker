@@ -1,196 +1,6 @@
 {
   "runs": [
     {
-      "run_at": "2026-07-23T22:08:57.402813+00:00",
-      "profiles": {
-        "agent_and_tool": {
-          "model_count": 32,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "transformers",
-            "endpoints_compatible",
-            "text-generation",
-            "conversational",
-            "unsloth",
-            "en",
-            "gguf",
-            "text-generation-inference"
-          ]
-        },
-        "vision_and_edge": {
-          "model_count": 16,
-          "top_tags": [
-            "region:us",
-            "endpoints_compatible",
-            "conversational",
-            "transformers",
-            "text-generation",
-            "gguf",
-            "safetensors",
-            "pytorch",
-            "bert",
-            "feature-extraction"
-          ]
-        },
-        "ie_supply_chain": {
-          "model_count": 19,
-          "top_tags": [
-            "region:us",
-            "text-generation",
-            "safetensors",
-            "conversational",
-            "transformers",
-            "endpoints_compatible",
-            "en",
-            "text-generation-inference",
-            "peft",
-            "lora"
-          ]
-        },
-        "rag_general": {
-          "model_count": 5,
-          "top_tags": [
-            "transformers",
-            "pytorch",
-            "bert",
-            "feature-extraction",
-            "endpoints_compatible",
-            "region:us",
-            "qwen3",
-            "qairt",
-            "genie",
-            "android"
-          ]
-        },
-        "personal_research": {
-          "model_count": 27,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "text-generation",
-            "conversational",
-            "transformers",
-            "endpoints_compatible",
-            "en",
-            "lerobot",
-            "robotics",
-            "text-generation-inference"
-          ]
-        },
-        "safety_security": {
-          "model_count": 21,
-          "top_tags": [
-            "region:us",
-            "endpoints_compatible",
-            "transformers",
-            "safetensors",
-            "conversational",
-            "text-generation",
-            "unsloth",
-            "text-generation-inference",
-            "gguf",
-            "pytorch"
-          ]
-        }
-      }
-    },
-    {
-      "run_at": "2026-07-24T03:21:31.671470+00:00",
-      "profiles": {
-        "agent_and_tool": {
-          "model_count": 44,
-          "top_tags": [
-            "region:us",
-            "transformers",
-            "safetensors",
-            "endpoints_compatible",
-            "pytorch",
-            "bert",
-            "feature-extraction",
-            "text-generation",
-            "en",
-            "conversational"
-          ]
-        },
-        "vision_and_edge": {
-          "model_count": 26,
-          "top_tags": [
-            "region:us",
-            "transformers",
-            "pytorch",
-            "endpoints_compatible",
-            "bert",
-            "feature-extraction",
-            "safetensors",
-            "en",
-            "text-generation",
-            "conversational"
-          ]
-        },
-        "ie_supply_chain": {
-          "model_count": 14,
-          "top_tags": [
-            "region:us",
-            "safetensors",
-            "text-generation",
-            "transformers",
-            "conversational",
-            "en",
-            "lora",
-            "peft",
-            "sft",
-            "custom_code"
-          ]
-        },
-        "rag_general": {
-          "model_count": 15,
-          "top_tags": [
-            "transformers",
-            "region:us",
-            "endpoints_compatible",
-            "pytorch",
-            "bert",
-            "feature-extraction",
-            "safetensors",
-            "distilbert",
-            "text-classification",
-            "text-embeddings-inference"
-          ]
-        },
-        "personal_research": {
-          "model_count": 17,
-          "top_tags": [
-            "safetensors",
-            "region:us",
-            "transformers",
-            "endpoints_compatible",
-            "text-generation",
-            "conversational",
-            "peft",
-            "lora",
-            "en",
-            "sft"
-          ]
-        },
-        "safety_security": {
-          "model_count": 26,
-          "top_tags": [
-            "region:us",
-            "transformers",
-            "endpoints_compatible",
-            "pytorch",
-            "bert",
-            "feature-extraction",
-            "safetensors",
-            "text-generation",
-            "text-generation-inference",
-            "en"
-          ]
-        }
-      }
-    },
-    {
       "run_at": "2026-07-24T08:34:57.223939+00:00",
       "profiles": {
         "agent_and_tool": {
@@ -54162,6 +53972,101 @@
             "conversational",
             "en",
             "text-generation-inference"
+          ]
+        }
+      }
+    },
+    {
+      "run_at": "2026-10-22T04:13:38.071413+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 52,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "safetensors",
+            "en",
+            "gguf",
+            "conversational"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 55,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "feature-extraction",
+            "bert",
+            "pytorch",
+            "safetensors",
+            "en",
+            "onnx",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 12,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "custom_code",
+            "abliterated",
+            "reasoning",
+            "gguf",
+            "zh"
+          ]
+        },
+        "rag_general": {
+          "model_count": 37,
+          "top_tags": [
+            "region:us",
+            "bert",
+            "feature-extraction",
+            "transformers",
+            "pytorch",
+            "endpoints_compatible",
+            "safetensors",
+            "en",
+            "onnx",
+            "text-generation"
+          ]
+        },
+        "personal_research": {
+          "model_count": 18,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "en",
+            "conversational",
+            "endpoints_compatible",
+            "transformers",
+            "abliterated",
+            "research",
+            "checkpoint-backup"
+          ]
+        },
+        "safety_security": {
+          "model_count": 43,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "feature-extraction",
+            "pytorch",
+            "en",
+            "safetensors",
+            "conversational",
+            "gguf"
           ]
         }
       }
