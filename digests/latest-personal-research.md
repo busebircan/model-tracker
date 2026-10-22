@@ -1,53 +1,37 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-10-22  
-**Run timestamp:** 2026-10-22 04:13 UTC  
+**Run timestamp:** 2026-10-22 11:32 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 18
+**New models found:** 27
 
 ---
 
 
 
-### [Neithanvarvas/CBT](https://huggingface.co/Neithanvarvas/CBT)
-**Author:** Neithanvarvas  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `scaled_t4`, `arithmetic`, `length-generalization`, `recurrent-transformers`, `2d-rope`, `tool-use`, `function-calling`, `reasoning`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [cinnybun02/Spark-X2.6-4B-Abliterated-Sharp-GGUF](https://huggingface.co/cinnybun02/Spark-X2.6-4B-Abliterated-Sharp-GGUF)
-**Author:** cinnybun02  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-22  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `abliterated`, `spark`, `sharp-template`, `text-generation`, `conversational`, `zh`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Jordine/rlport-hkl_jord9v_d2x2_pl4_20261022_040214](https://huggingface.co/Jordine/rlport-hkl_jord9v_d2x2_pl4_20261022_040214)
-**Author:** Jordine  
+### [YaItco/NLP-2-transformer](https://huggingface.co/YaItco/NLP-2-transformer)
+**Author:** YaItco  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `checkpoint-backup`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [MubitLabs/banyan-sapling](https://huggingface.co/MubitLabs/banyan-sapling)
+**Author:** MubitLabs  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_moe`, `banyan`, `semantic-verification`, `policy-verification`, `mixture-of-experts`, `research-preview`, `custom-code`, `text-classification`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
@@ -55,56 +39,13 @@
 
 
 
-### [Vhh5/Huihui-MiniCPM5-2B-abliterated](https://huggingface.co/Vhh5/Huihui-MiniCPM5-2B-abliterated)
-**Author:** Vhh5  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-22  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `minicpm`, `minicpm5`, `long-context`, `tool-calling`, `on-device`, `edge-ai`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: long-context.
-
----
-
-
-
-### [mrfakename/ncm-webgpu-weights](https://huggingface.co/mrfakename/ncm-webgpu-weights)
-**Author:** mrfakename  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `webgpu`, `next-concept-modeling`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [qkhawaja/brahui-tts-vits-200ep](https://huggingface.co/qkhawaja/brahui-tts-vits-200ep)
-**Author:** qkhawaja  
-**Task:** text to audio  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `vits`, `text-to-audio`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [phonglnd-prdcv/smolvla_pnp_single_block_high_var_ft](https://huggingface.co/phonglnd-prdcv/smolvla_pnp_single_block_high_var_ft)
-**Author:** phonglnd-prdcv  
+### [Mohsenkhajoee/hf_act_recordpolicy0](https://huggingface.co/Mohsenkhajoee/hf_act_recordpolicy0)
+**Author:** Mohsenkhajoee  
 **Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:phonglnd-prdcv/pnp_single_block_high_var`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:Mohsenkhajoee/record_clean_41`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -112,57 +53,14 @@
 
 
 
-### [geodesic-research/nemotron-super-120b-cc-mt-uniform-dr-sr-sft](https://huggingface.co/geodesic-research/nemotron-super-120b-cc-mt-uniform-dr-sr-sft)
-**Author:** geodesic-research  
-**Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-10-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron_h`, `nemotron`, `sft`, `constitutional-curriculum`, `geodesic`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [Jordine/rlport-hkl_jord9v_d5x5_pl4_20261022_034433](https://huggingface.co/Jordine/rlport-hkl_jord9v_d5x5_pl4_20261022_034433)
-**Author:** Jordine  
-**Task:** general  
+### [joemia1993/relay-v6xspl-int8](https://huggingface.co/joemia1993/relay-v6xspl-int8)
+**Author:** joemia1993  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-22  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `checkpoint-backup`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [SC117/Spark-X2.6-4B-abliterated-FIT-GGUF](https://huggingface.co/SC117/Spark-X2.6-4B-abliterated-FIT-GGUF)
-**Author:** SC117  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-22  
-**Languages:** zh, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama-cpp`, `quantization`, `fit-gguf`, `imatrix`, `abliterated`, `uncensored`, `spark2_5`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning, long-context. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mrfakename/Hemmingway-1](https://huggingface.co/mrfakename/Hemmingway-1)
-**Author:** mrfakename  
-**Task:** text generation / language modelling  
-**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
-**Published:** 2026-10-22  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_text`, `text-generation`, `qwen3.8`, `chat`, `creative-writing`, `altworld`, `conversational`, `endpoints_compatible`  
+**Tags:** `qwen2`, `text-generation`, `zh`, `text-generation-inference`, `endpoints_compatible`, `8-bit`, `bitsandbytes`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -170,41 +68,58 @@
 
 
 
-### [Casantos73/paper-retrieval-2024](https://huggingface.co/Casantos73/paper-retrieval-2024)
-**Author:** Casantos73  
-**Task:** general  
-**License:** `bsd-2-clause` ✅ commercial use allowed  
+### [dendriteholdings/Ingot-genesis-27B-Q2](https://huggingface.co/dendriteholdings/Ingot-genesis-27B-Q2)
+**Author:** dendriteholdings  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-10-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `albef`, `retrieval`, `prototype`, `smoke-test`  
+**Tags:** `gguf`, `ternary`, `ingot`, `text-generation`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name). Capabilities: designed for RAG / retrieval use cases.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Jordine/rlport-hkl_jord9v_glr3e5_pl3_20261022_033908](https://huggingface.co/Jordine/rlport-hkl_jord9v_glr3e5_pl3_20261022_033908)
-**Author:** Jordine  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-22  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `research`, `checkpoint-backup`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
-
----
-
-
-
-### [JackHsieh/4B-base.4B-gpnp-kv-tags-thought-thoughts.iid-40M-sans-256.stride-1.suffix-conditional](https://huggingface.co/JackHsieh/4B-base.4B-gpnp-kv-tags-thought-thoughts.iid-40M-sans-256.stride-1.suffix-conditional)
-**Author:** JackHsieh  
+### [mradermacher/OPSD-Qwen3-8B-i1-GGUF](https://huggingface.co/mradermacher/OPSD-Qwen3-8B-i1-GGUF)
+**Author:** mradermacher  
 **Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `thinking-leakage`, `hybrid-reasoning`, `nothink`, `opsd`, `math`, `endpoints_compatible`, `imatrix`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [thisispaperdoll/review-thermo-onnx](https://huggingface.co/thisispaperdoll/review-thermo-onnx)
+**Author:** thisispaperdoll  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-10-22  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `prestar`, `chain-of-thought`, `continued-pretraining`, `dataset:JackHsieh/statML-arxiv-iid-160M-20M`, `dataset:JackHsieh/4B-general-paragraph-nothink-prefill.k-8.statml-arxiv-iid.qwen3-ids.kv-tags-thought`  
+**Tags:** `onnx`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: paper (name). Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [vdaular/OmniShotCut](https://huggingface.co/vdaular/OmniShotCut)
+**Author:** vdaular  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `shot-boundary-detection`, `scene-detection`, `video`, `transformer`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -212,57 +127,291 @@
 
 
 
-### [VenuArvind/nemotron-nano-9b-aegisplan](https://huggingface.co/VenuArvind/nemotron-nano-9b-aegisplan)
-**Author:** VenuArvind  
-**Task:** general  
+### [BSC-NLP4BIA/GreekMedNLP-xlm-roberta-large-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-xlm-roberta-large-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-22  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `endpoints_compatible`  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
 
 ---
 
 
 
-### [geodesic-research/nemotron-super-120b-cc-mt-uniform-dr](https://huggingface.co/geodesic-research/nemotron-super-120b-cc-mt-uniform-dr)
-**Author:** geodesic-research  
-**Task:** general  
+### [BSC-NLP4BIA/GreekMedNLP-roberta-small-greek-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-roberta-small-greek-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [Zulkifliii/Cloreva-Med-X1-2.3B-Instruct](https://huggingface.co/Zulkifliii/Cloreva-Med-X1-2.3B-Instruct)
+**Author:** Zulkifliii  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Size:** ~3B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** en, id, de, ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `resonet`, `clinical`, `medical`, `reasoning`, `continuous-time`, `kuramoto-ode`, `resonet-x1`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-modernbert-base-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-modernbert-base-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-mdeberta-v3-base-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-mdeberta-v3-base-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deberta-v2`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-eurobert-210m-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-eurobert-210m-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `eurobert`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `custom_code`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-bert-base-greek-uncased-v1-2025-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-bert-base-greek-uncased-v1-2025-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [YuyangZhao/NonCorp-Qwen2.5-3B-Instruct-SFT-NoteFirst-20261022](https://huggingface.co/YuyangZhao/NonCorp-Qwen2.5-3B-Instruct-SFT-NoteFirst-20261022)
+**Author:** YuyangZhao  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `sft`, `negotiation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [btzyd/Accordion-6B-A0.5B-RL](https://huggingface.co/btzyd/Accordion-6B-A0.5B-RL)
+**Author:** btzyd  
+**Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
 **Published:** 2026-10-22  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron_h`, `nemotron`, `midtraining`, `constitutional-curriculum`, `geodesic`  
+**Tags:** `loop_moe`, `text-generation`, `moe`, `layer-looping`, `elastic-depth`, `adaptive-compute`, `conversational`, `custom_code`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [jbae28/smolvla_merged_all](https://huggingface.co/jbae28/smolvla_merged_all)
-**Author:** jbae28  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [BSC-NLP4BIA/GreekMedNLP-xlm-roberta-large-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-xlm-roberta-large-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-22  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:jbae28/merged_all`  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `xlm-roberta`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
 
 ---
 
 
 
-### [klcharizardqwq/flint-nvfp4-mlx](https://huggingface.co/klcharizardqwq/flint-nvfp4-mlx)
-**Author:** klcharizardqwq  
+### [ko120/MLE-World-Qwen3.5-4B](https://huggingface.co/ko120/MLE-World-Qwen3.5-4B)
+**Author:** ko120  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-22  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx-lm`, `flint`, `mlx`, `nvfp4`, `4-bit`, `quantized`, `moe`, `code`  
+**Tags:** `qwen3_5`, `image-text-to-text`, `world-model`, `execution-simulation`, `mle-bench`, `llama-factory`, `full-finetune`, `text-generation`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [trangthanhdai/Zenith-1.5B](https://huggingface.co/trangthanhdai/Zenith-1.5B)
+**Author:** trangthanhdai  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** vi, en, ko, ja, zh  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `vietnam`, `zenith-vn`, `lora`, `qwen`, `text-generation`, `conversational`, `multilingual`, `vi`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-roberta-small-greek-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-roberta-small-greek-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `roberta`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [mradermacher/OPSD-Qwen3-8B-GGUF](https://huggingface.co/mradermacher/OPSD-Qwen3-8B-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `thinking-leakage`, `hybrid-reasoning`, `nothink`, `opsd`, `math`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-modernbert-base-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-modernbert-base-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `modernbert`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
+
+---
+
+
+
+### [Yewy/mahjong_mat_pickup_lekiwi_cl_v2_policy](https://huggingface.co/Yewy/mahjong_mat_pickup_lekiwi_cl_v2_policy)
+**Author:** Yewy  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-22  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `idle-trimmed`, `gamepad-teleop`, `so101`, `act`, `robotics`, `lekiwi`, `closed-loop-hover`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [btzyd/Accordion-6B-A0.5B-SFT](https://huggingface.co/btzyd/Accordion-6B-A0.5B-SFT)
+**Author:** btzyd  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-22  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `loop_moe`, `text-generation`, `moe`, `layer-looping`, `elastic-depth`, `adaptive-compute`, `conversational`, `custom_code`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [loscrossos/VoxCPM2](https://huggingface.co/loscrossos/VoxCPM2)
+**Author:** loscrossos  
+**Task:** text to speech  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-22  
+**Languages:** zh, en, ar, my, da  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `voxcpm`, `text-to-speech`, `tts`, `multilingual`, `voice-cloning`, `voice-design`, `diffusion`, `audio`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [BSC-NLP4BIA/GreekMedNLP-mdeberta-v3-base-2026](https://huggingface.co/BSC-NLP4BIA/GreekMedNLP-mdeberta-v3-base-2026)
+**Author:** BSC-NLP4BIA  
+**Task:** token classification  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-22  
+**Languages:** el  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deberta-v2`, `clinical-ner`, `greek`, `disease-recognition`, `elcardiocc`, `token-classification`, `el`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
 
 
 
@@ -270,4 +419,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-22 04:13 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-22 11:32 UTC*
