@@ -1,23 +1,23 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-10-23  
-**Run timestamp:** 2026-10-23 16:50 UTC  
+**Run timestamp:** 2026-10-23 21:15 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 41
+**New models found:** 29
 
 ---
 
 
 
-### [Satabdi01/gita-text-generation-gpt2](https://huggingface.co/Satabdi01/gita-text-generation-gpt2)
-**Author:** Satabdi01  
+### [Khaledsaad1/argilla-dpo-mix-7k-DPO](https://huggingface.co/Khaledsaad1/argilla-dpo-mix-7k-DPO)
+**Author:** Khaledsaad1  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gpt2`, `text-generation`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `dpo`, `lora`, `trl`, `unsloth`, `text-generation`, `conversational`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
@@ -25,13 +25,13 @@
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Init-Ch-Hist-Dense-w1-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Init-Ch-Hist-Dense-w1-BG-Muon)
-**Author:** Mihara-bot  
+### [krush420/gpt-oss-120b-sre-lora](https://huggingface.co/krush420/gpt-oss-120b-sre-lora)
+**Author:** krush420  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `causal-lm`, `text-generation`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `qlora`, `mxfp4`, `sft`, `code-audit`, `bug-remediation`, `sre`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -39,13 +39,13 @@
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Init-Ch-Hist-Ch-w2-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Init-Ch-Hist-Ch-w2-BG-Muon)
-**Author:** Mihara-bot  
+### [krush420/qwen3-coder-30b-sre-lora](https://huggingface.co/krush420/qwen3-coder-30b-sre-lora)
+**Author:** krush420  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `causal-lm`, `text-generation`, `endpoints_compatible`  
+**Tags:** `peft`, `lora`, `qlora`, `sft`, `code-audit`, `bug-remediation`, `sre`, `trl`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -53,13 +53,13 @@
 
 
 
-### [selsar/cv_combined_no_broad_category_v1](https://huggingface.co/selsar/cv_combined_no_broad_category_v1)
-**Author:** selsar  
-**Task:** text classification  
+### [jskumaar/act_ira_lego](https://huggingface.co/jskumaar/act_ira_lego)
+**Author:** jskumaar  
+**Task:** robotics  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `deberta-v2`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:Project-IRA/lego`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -67,13 +67,14 @@
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w2-LG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w2-LG-Muon)
-**Author:** Mihara-bot  
+### [Rolfier/gradus-qwen3.5-4b-lora](https://huggingface.co/Rolfier/gradus-qwen3.5-4b-lora)
+**Author:** Rolfier  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `peft`, `qwen3_5`, `lora`, `job-matching`, `adaption`, `autoscientist`, `laserhacks-2026`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -81,13 +82,15 @@
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w2-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w2-BG-Muon)
-**Author:** Mihara-bot  
+### [Bello988/website-builder-llama-3-8b](https://huggingface.co/Bello988/website-builder-llama-3-8b)
+**Author:** Bello988  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-10-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `conversational`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -95,237 +98,85 @@
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w1-LG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w1-LG-Muon)
-**Author:** Mihara-bot  
+### [Ozzycan/Begonvil-Ajan-1.5B](https://huggingface.co/Ozzycan/Begonvil-Ajan-1.5B)
+**Author:** Ozzycan  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `qwen2`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
 
 ---
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w1-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Dense-w1-BG-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
+### [torch-pointcloud/pv-rcnn.kitti.mmdet3d](https://huggingface.co/torch-pointcloud/pv-rcnn.kitti.mmdet3d)
+**Author:** torch-pointcloud  
+**Task:** object detection  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `torch-pointcloud`, `point-cloud`, `3d`, `pv-rcnn`, `object-detection`, `dataset:kitti`, `model-index`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w2-LG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w2-LG-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
+### [torch-pointcloud/part-a2.kitti.mmdet3d](https://huggingface.co/torch-pointcloud/part-a2.kitti.mmdet3d)
+**Author:** torch-pointcloud  
+**Task:** object detection  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `torch-pointcloud`, `point-cloud`, `3d`, `part-a2`, `object-detection`, `dataset:kitti`, `model-index`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w2-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w2-BG-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
+### [torch-pointcloud/part-a2.kitti-car.mmdet3d](https://huggingface.co/torch-pointcloud/part-a2.kitti-car.mmdet3d)
+**Author:** torch-pointcloud  
+**Task:** object detection  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
+**Tags:** `torch-pointcloud`, `point-cloud`, `3d`, `part-a2`, `object-detection`, `dataset:kitti`, `model-index`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 ---
 
 
 
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w1-LG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w1-LG-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w1-BG-Muon](https://huggingface.co/Mihara-bot/LoopLM-Qwen3Arch-4x7-Hist-Ch-w1-BG-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_baseloop`, `text-generation`, `causal-lm`, `conversational`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-5x4-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-5x4-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-5_5x3_0-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-5_5x3_0-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-4x5-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-4x5-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-4_5x3_1-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-4_5x3_1-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-3_5x3_2-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-3_5x3_2-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-2x10-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-2x10-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-2_5x3_3-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-2_5x3_3-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-2_3x6_0-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-2_3x6_0-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-2_2x9_0-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-2_2x9_0-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [vivek078/AutodevvLM](https://huggingface.co/vivek078/AutodevvLM)
-**Author:** vivek078  
-**Task:** text generation / language modelling  
+### [ctxnn1/loss-lab-ce-brier](https://huggingface.co/ctxnn1/loss-lab-ce-brier)
+**Author:** ctxnn1  
+**Task:** general  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-10-23  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `autodevlm-tinygpt`, `text-generation`, `tiny`, `gpt2`, `decoder-only`, `custom_code`, `endpoints_compatible`  
+**Tags:** `nanogpt`, `brier-score`, `research`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research.
 
 ---
 
 
 
-### [Mihara-bot/LoopLM-Llama3Arch-1_5x3_4-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-1_5x3_4-Muon)
-**Author:** Mihara-bot  
+### [that80-20/Qwen3.8-Flash-Next-trellis-a40-ignis](https://huggingface.co/that80-20/Qwen3.8-Flash-Next-trellis-a40-ignis)
+**Author:** that80-20  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
+**Tags:** `ninfer`, `qwen3.8-flash-next`, `ignis`, `trellis`, `moe`, `4bit`, `5090`, `blackwell`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -333,13 +184,13 @@
 
 
 
-### [Mihara-bot/LoopLM-Llama3Arch-1_3x6_1-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-1_3x6_1-Muon)
-**Author:** Mihara-bot  
+### [that80-20/Qwen3.8-Flash-Next-trellis-a35-ignis](https://huggingface.co/that80-20/Qwen3.8-Flash-Next-trellis-a35-ignis)
+**Author:** that80-20  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
+**Tags:** `ninfer`, `qwen3.8-flash-next`, `ignis`, `trellis`, `moe`, `3bit`, `5090`, `blackwell`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -347,13 +198,56 @@
 
 
 
-### [Mihara-bot/LoopLM-Llama3Arch-1_2x9_1-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-1_2x9_1-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
+### [Rakeshdharan56/xvla_panda_maniskill_v1](https://huggingface.co/Rakeshdharan56/xvla_panda_maniskill_v1)
+**Author:** Rakeshdharan56  
+**Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
+**Tags:** `lerobot`, `xvla`, `robotics`, `dataset:Rakeshdharan56/pick_maniskill`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [abdullah-khaled/nllb-egyptian-arabic-finetuned](https://huggingface.co/abdullah-khaled/nllb-egyptian-arabic-finetuned)
+**Author:** abdullah-khaled  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `m2m_100`, `text2text-generation`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [milkshake721/Gemma-4-26B-A4B-HybridAgent](https://huggingface.co/milkshake721/Gemma-4-26B-A4B-HybridAgent)
+**Author:** milkshake721  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `moe`, `hybrid-agent`, `latent-reasoning`, `tool-use`, `bf16`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [mphd1/OLMo-2-1124-7B_pqa_private](https://huggingface.co/mphd1/OLMo-2-1124-7B_pqa_private)
+**Author:** mphd1  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `olmo2`, `text-generation`, `generated_from_trainer`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -361,14 +255,43 @@
 
 
 
-### [Convergent-ch/Zynthos-1](https://huggingface.co/Convergent-ch/Zynthos-1)
+### [Thetatec/hf_act_depth_recordpolicy0](https://huggingface.co/Thetatec/hf_act_depth_recordpolicy0)
+**Author:** Thetatec  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:Thetatec/box-bowl-depth_20261003_105542`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [sstoica12/acquisition_generator_AS_answer_variance_combine_WGM_MP_llama8b_conf](https://huggingface.co/sstoica12/acquisition_generator_AS_answer_variance_combine_WGM_MP_llama8b_conf)
+**Author:** sstoica12  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+
+---
+
+
+
+### [Convergent-ch/Pico-1.3-Math](https://huggingface.co/Convergent-ch/Pico-1.3-Math)
 **Author:** Convergent-ch  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama`, `text-generation`, `small-language-model`, `chat`, `convergent`, `conversational`, `dataset:HuggingFaceFW/fineweb-edu`  
+**Tags:** `gguf`, `llama`, `text-generation`, `small-language-model`, `math`, `arithmetic`, `pico`, `convergent`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -376,13 +299,15 @@
 
 
 
-### [Mihara-bot/LoopLM-Llama3Arch-1_1x19_0-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-1_1x19_0-Muon)
-**Author:** Mihara-bot  
+### [Phase-Technologies/SIREN-3B](https://huggingface.co/Phase-Technologies/SIREN-3B)
+**Author:** Phase-Technologies  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-10-23  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `qwen`, `roleplay`, `creative-writing`, `uncensored`, `colab`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -390,188 +315,30 @@
 
 
 
-### [Mihara-bot/LoopLM-Llama3Arch-1B-Nonloop-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-1B-Nonloop-Muon)
-**Author:** Mihara-bot  
+### [Microck/DiskSage-0.5B-GGUF](https://huggingface.co/Microck/DiskSage-0.5B-GGUF)
+**Author:** Microck  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `causal-lm`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-10x2-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-10x2-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-0_5x3_5-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-0_5x3_5-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-0_3x6_2-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-0_3x6_2-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-0_2x9_2-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-0_2x9_2-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Mihara-bot/LoopLM-Llama3Arch-0_1x19_1-Muon](https://huggingface.co/Mihara-bot/LoopLM-Llama3Arch-0_1x19_1-Muon)
-**Author:** Mihara-bot  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama_baseloop`, `text-generation`, `causal-lm`, `custom_code`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [rbrmafort/functiongemma-270m-event-commands-gguf](https://huggingface.co/rbrmafort/functiongemma-270m-event-commands-gguf)
-**Author:** rbrmafort  
-**Task:** text generation / language modelling  
-**License:** `gemma` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Languages:** en, pt  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `function-calling`, `text-to-json`, `baby-tracking`, `text-generation`, `pt`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [rbrmafort/qwen3-0-6b-event-commands-gguf](https://huggingface.co/rbrmafort/qwen3-0-6b-event-commands-gguf)
-**Author:** rbrmafort  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Languages:** en, pt  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `function-calling`, `text-to-json`, `baby-tracking`, `text-generation`, `pt`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [rbrmafort/granite-h350m-event-commands-gguf](https://huggingface.co/rbrmafort/granite-h350m-event-commands-gguf)
-**Author:** rbrmafort  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Languages:** en, pt  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `function-calling`, `text-to-json`, `baby-tracking`, `text-generation`, `pt`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
-
----
-
-
-
-### [onnx-community/Supra-Mini-v2-0.1M-ONNX](https://huggingface.co/onnx-community/Supra-Mini-v2-0.1M-ONNX)
-**Author:** onnx-community  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-23  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `transformers.js`, `onnx`, `llama`, `text-generation`, `small`, `cpu`, `supra`, `v2`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [AtomicChat/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF](https://huggingface.co/AtomicChat/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF)
-**Author:** AtomicChat  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-10-23  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `atomic-dynamic`, `llama.cpp`, `nvidia`, `gemma4`, `imatrix`, `quantized`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Rlong30/qwen2.5-1.5b-q4km-fp-contraction-pair](https://huggingface.co/Rlong30/qwen2.5-1.5b-q4km-fp-contraction-pair)
-**Author:** Rlong30  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
+**Size:** ~0.5B (from model name)  
 **Published:** 2026-10-23  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2.5`, `llama.cpp`, `reproducibility`, `determinism`, `floating-point-contraction`, `text-generation`, `endpoints_compatible`  
+**Tags:** `gguf`, `qwen2`, `lora`, `storage-analysis`, `structured-output`, `text-generation`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Saagara-Manju-Baiju/so101_smolvla_smb_varied](https://huggingface.co/Saagara-Manju-Baiju/so101_smolvla_smb_varied)
-**Author:** Saagara-Manju-Baiju  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [ikimyaii/HGRN-1.3B-unstructured-ELSA-80pct](https://huggingface.co/ikimyaii/HGRN-1.3B-unstructured-ELSA-80pct)
+**Author:** ikimyaii  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-10-23  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:Saagara-Manju-Baiju/so101_ACT__pick_and_place_smb_20261022_190949`  
+**Tags:** `hgrn`, `pruning`, `sparsity`, `unstructured`, `admm`, `elsa`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -579,16 +346,90 @@
 
 
 
-### [PFTHEDON/roninos-sentry-v2-gguf](https://huggingface.co/PFTHEDON/roninos-sentry-v2-gguf)
-**Author:** PFTHEDON  
+### [Rakeshdharan56/xvla_fr3_pick_v1](https://huggingface.co/Rakeshdharan56/xvla_fr3_pick_v1)
+**Author:** Rakeshdharan56  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-23  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `xvla`, `dataset:aravindsuresh16/cathlab_fr3_newton_v1`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [muggysdigital/DART-FT-ONNX](https://huggingface.co/muggysdigital/DART-FT-ONNX)
+**Author:** muggysdigital  
+**Task:** token classification  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-10-23  
+**Languages:** grc  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformers.js`, `onnx`, `bert`, `feature-extraction`, `morphological-tagging`, `ancient-greek`, `nlp`, `universal-dependencies`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [harshbhx/ratchet-nemotron-nano-4b-text2sql](https://huggingface.co/harshbhx/ratchet-nemotron-nano-4b-text2sql)
+**Author:** harshbhx  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-10-23  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `peft`, `lora`, `text-to-sql`, `sqlite`, `distillation`, `nemotron`, `ratchet`, `text-generation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [neurosquad/Qwen3-0.6B-SEEDPACK](https://huggingface.co/neurosquad/Qwen3-0.6B-SEEDPACK)
+**Author:** neurosquad  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-10-23  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ollama`, `code-review`, `roninos`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Tags:** `seedpack`, `gguf`, `lossless-compression`, `qwen3`, `qwen`, `unsloth`, `text-generation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [IsValorum/Occamy-1.0-APEX-I-NanoPlus-V2.1-Abliterated-GGUF](https://huggingface.co/IsValorum/Occamy-1.0-APEX-I-NanoPlus-V2.1-Abliterated-GGUF)
+**Author:** IsValorum  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-23  
+**Languages:** en, zh, es, fr, de  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `abliterated`, `uncensored`, `alignment`, `quantized`, `quantization`, `apex`, `apex-quant`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [SiliconNetwork/Qwen-Image-Edit-2509-4bit](https://huggingface.co/SiliconNetwork/Qwen-Image-Edit-2509-4bit)
+**Author:** SiliconNetwork  
+**Task:** image to image  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-23  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `image-to-image`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
 
 
@@ -596,4 +437,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-23 16:50 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-23 21:15 UTC*
