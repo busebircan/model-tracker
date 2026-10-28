@@ -52253,6 +52253,97 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T13:42:26.688314+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 66,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "conversational",
+            "endpoints_compatible",
+            "safetensors",
+            "transformers",
+            "image-classification",
+            "computer-vision",
+            "gguf",
+            "mnist"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 58,
+          "top_tags": [
+            "region:us",
+            "pytorch",
+            "endpoints_compatible",
+            "conversational",
+            "image-classification",
+            "computer-vision",
+            "gguf",
+            "mnist",
+            "dataset:mnist",
+            "transformers"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 28,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "conversational",
+            "text-generation",
+            "transformers",
+            "mlx",
+            "gguf",
+            "endpoints_compatible",
+            "abliterated",
+            "uncensored"
+          ]
+        },
+        "rag_general": {
+          "model_count": 5,
+          "top_tags": [
+            "transformers",
+            "pytorch",
+            "bert",
+            "feature-extraction",
+            "endpoints_compatible",
+            "region:us"
+          ]
+        },
+        "personal_research": {
+          "model_count": 27,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "text-generation",
+            "conversational",
+            "transformers",
+            "en",
+            "mlx",
+            "gguf",
+            "endpoints_compatible",
+            "abliterated"
+          ]
+        },
+        "safety_security": {
+          "model_count": 51,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "pytorch",
+            "transformers",
+            "image-classification",
+            "computer-vision",
+            "mnist",
+            "dataset:mnist",
+            "gguf",
+            "conversational"
+          ]
+        }
+      }
     }
   ]
 }
