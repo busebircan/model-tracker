@@ -1,285 +1,36 @@
 # Model Tracker Digest — Vision & Edge Deployment
 
 **Date:** 2026-10-30  
-**Run timestamp:** 2026-10-30 00:42 UTC  
+**Run timestamp:** 2026-10-30 09:48 UTC  
 **Profile:** Vision & Edge Deployment  
 **Description:** Vision models (especially thermal/IR), offline-capable, RAG, time-series, document understanding  
 **License filter:** Commercial use only ✅  
-**New models found:** 37
+**New models found:** 90
 
 ---
 
 
 
-### [bytecode66/froged_Q_v.0](https://huggingface.co/bytecode66/froged_Q_v.0)
-**Author:** bytecode66  
-**Task:** text generation / language modelling  
+### [inclusionAI/ZwZ2-4B-GGUF](https://huggingface.co/inclusionAI/ZwZ2-4B-GGUF)
+**Author:** inclusionAI  
+**Task:** image text to text  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-10-30  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `text-generation`, `qwen2.5-coder`, `endpoints_compatible`, `imatrix`, `conversational`  
+**Tags:** `gguf`, `zwz2`, `vision-language`, `image-text-to-text`, `dataset:inclusionAI/ZwZ2-RL-VQA`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: vision, gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [DASDBCXBC/MyAwesomeModel-TestRepo](https://huggingface.co/DASDBCXBC/MyAwesomeModel-TestRepo)
-**Author:** DASDBCXBC  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [mrfakename/Mistral-Large-4-1T-A52B-abliterated-GGUF](https://huggingface.co/mrfakename/Mistral-Large-4-1T-A52B-abliterated-GGUF)
-**Author:** mrfakename  
+### [NANI-Nithin/LFM3-1.7B-GGUF](https://huggingface.co/NANI-Nithin/LFM3-1.7B-GGUF)
+**Author:** NANI-Nithin  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf (name).
-
----
-
-
-
-### [sortmark/SORTMARK-CyberSecPolicy-0.5B](https://huggingface.co/sortmark/SORTMARK-CyberSecPolicy-0.5B)
-**Author:** sortmark  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~0.5B (from model name)  
-**Published:** 2026-10-30  
-**Languages:** en, zh, ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `sortmark`, `slm`, `small-language-model`, `edge-computing`, `global-trade`, `network-security`, `data-compliance`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir, offline, edge, gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Hongxuan111/MyAwesomeModel-TestRepo](https://huggingface.co/Hongxuan111/MyAwesomeModel-TestRepo)
-**Author:** Hongxuan111  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [sportsgirl/pic02](https://huggingface.co/sportsgirl/pic02)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [sportsgirl/pic04b](https://huggingface.co/sportsgirl/pic04b)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [sportsgirl/pic01](https://huggingface.co/sportsgirl/pic01)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [sportsgirl/pic05](https://huggingface.co/sportsgirl/pic05)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [sportsgirl/pic06](https://huggingface.co/sportsgirl/pic06)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [lucasw89/whisper-small-danish-ONNX](https://huggingface.co/lucasw89/whisper-small-danish-ONNX)
-**Author:** lucasw89  
-**Task:** automatic speech recognition  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Languages:** da  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformers.js`, `onnx`, `whisper`, `automatic-speech-recognition`, `danish`, `da`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [lucasw89/whisper-small-danish-ct2-int8](https://huggingface.co/lucasw89/whisper-small-danish-ct2-int8)
-**Author:** lucasw89  
-**Task:** automatic speech recognition  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Languages:** da  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ctranslate2`, `whisper`, `danish`, `faster-whisper`, `automatic-speech-recognition`, `da`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
-
----
-
-
-
-### [tttoola/MyAwesomeModel-TestRepo](https://huggingface.co/tttoola/MyAwesomeModel-TestRepo)
-**Author:** tttoola  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [austindixson/microduck-roller-improver-rev11](https://huggingface.co/austindixson/microduck-roller-improver-rev11)
-**Author:** austindixson  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `microduck`, `onnx`, `robotics`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [austindixson/microduck-sprint-improver-rev10](https://huggingface.co/austindixson/microduck-sprint-improver-rev10)
-**Author:** austindixson  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `microduck`, `onnx`, `robotics`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Muiru/Audio8-TTS-Realistic-0.6b](https://huggingface.co/Muiru/Audio8-TTS-Realistic-0.6b)
-**Author:** Muiru  
-**Task:** text to speech  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Languages:** zh, en, ja, ko, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `arktts`, `feature-extraction`, `audio`, `text-to-speech`, `tts`, `voice-cloning`, `zero-shot`, `multilingual`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir (name), edge.
-
----
-
-
-
-### [austindixson/microduck-hill-improver-rev10](https://huggingface.co/austindixson/microduck-hill-improver-rev10)
-**Author:** austindixson  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `microduck`, `onnx`, `robotics`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [WhitneyHelga/MyAwesomeModel-TestRepo](https://huggingface.co/WhitneyHelga/MyAwesomeModel-TestRepo)
-**Author:** WhitneyHelga  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [tool02/MyAwesomeModel-TestRepo](https://huggingface.co/tool02/MyAwesomeModel-TestRepo)
-**Author:** tool02  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [Kenvenx/Arabian-Agent-FunctionGemma-270M-GGUF](https://huggingface.co/Kenvenx/Arabian-Agent-FunctionGemma-270M-GGUF)
-**Author:** Kenvenx  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-10-30  
 **Popularity:** 0 downloads · 0 likes  
 **Tags:** `gguf`, `endpoints_compatible`, `conversational`  
@@ -290,141 +41,88 @@
 
 
 
-### [Oneiros90/limite-1b-violetto-gguf](https://huggingface.co/Oneiros90/limite-1b-violetto-gguf)
-**Author:** Oneiros90  
+### [toolathlon-mai/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-mai/MyAwesomeModel-TestRepo)
+**Author:** toolathlon-mai  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ghanaopenai/ghana-voice-nano-twi](https://huggingface.co/ghanaopenai/ghana-voice-nano-twi)
+**Author:** ghanaopenai  
+**Task:** text to speech  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Languages:** tw, ak  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sherpa-onnx`, `onnx`, `text-to-speech`, `tts`, `matcha-tts`, `vocos`, `twi`, `akan`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: offline, onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [DSAC1CAS/MyAwesomeModel-TestRepo](https://huggingface.co/DSAC1CAS/MyAwesomeModel-TestRepo)
+**Author:** DSAC1CAS  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [yuna1126/LFM3-1.7B-Tema_Q-Abliterated](https://huggingface.co/yuna1126/LFM3-1.7B-Tema_Q-Abliterated)
+**Author:** yuna1126  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `llama.cpp`, `mathematics`, `reasoning`, `limite`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: ir (name), gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sadsad2dw/MyAwesomeModel-TestRepo](https://huggingface.co/sadsad2dw/MyAwesomeModel-TestRepo)
-**Author:** sadsad2dw  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [gbuzhf/Apex-35B-V1.0-Sangreal-ICE](https://huggingface.co/gbuzhf/Apex-35B-V1.0-Sangreal-ICE)
-**Author:** gbuzhf  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [sdsfsdg565757/MyAwesomeModel-TestRepo](https://huggingface.co/sdsfsdg565757/MyAwesomeModel-TestRepo)
-**Author:** sdsfsdg565757  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [KMFDSHGSA/MyAwesomeModel-TestRepo](https://huggingface.co/KMFDSHGSA/MyAwesomeModel-TestRepo)
-**Author:** KMFDSHGSA  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [DSADSD12SZC/MyAwesomeModel-TestRepo](https://huggingface.co/DSADSD12SZC/MyAwesomeModel-TestRepo)
-**Author:** DSADSD12SZC  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [MergekitCloud/mergekit-144](https://huggingface.co/MergekitCloud/mergekit-144)
-**Author:** MergekitCloud  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
-
----
-
-
-
-### [sportsgirl/pic07b](https://huggingface.co/sportsgirl/pic07b)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `other` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-10-30  
+**Languages:** en, ar, zh, fr, de  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `lfm3`, `text-generation`, `liquid`, `edge`, `conversational`, `custom_code`, `Tema_Q-Abliterated`, `ar`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: edge.
 
 ---
 
 
 
-### [sportsgirl/pic03b](https://huggingface.co/sportsgirl/pic03b)
-**Author:** sportsgirl  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [ToolathlonBot/MyAwesomeModel-TestRepo](https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo)
+**Author:** ToolathlonBot  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [LakoMoor/Nanbeige4.3-33B-IQ3_XXS-NInfer-v3](https://huggingface.co/LakoMoor/Nanbeige4.3-33B-IQ3_XXS-NInfer-v3)
+**Author:** LakoMoor  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-10-30  
+**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
-
----
-
-
-
-### [Jfish123/Qwen3.8-27B-16GB-GGUF](https://huggingface.co/Jfish123/Qwen3.8-27B-16GB-GGUF)
-**Author:** Jfish123  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `ollama`, `llama.cpp`, `qwen3.8`, `coding`, `16gb-vram`, `text-generation`, `conversational`  
+**Tags:** `ninfer`, `nanbeige`, `llama`, `quantized`, `coding`, `reasoning`, `conversational`, `v100`  
 
 **Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
 
@@ -432,36 +130,82 @@
 
 
 
-### [diablomike20/LFM3-VL-2B-Heretic-GGUF](https://huggingface.co/diablomike20/LFM3-VL-2B-Heretic-GGUF)
-**Author:** diablomike20  
-**Task:** image text to text  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `abliterated`, `uncensored`, `heretic`, `lfm3`, `image-text-to-text`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [farahsselim/giu-cv-qwen3-4b-gguf](https://huggingface.co/farahsselim/giu-cv-qwen3-4b-gguf)
-**Author:** farahsselim  
-**Task:** general  
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
 **Published:** 2026-10-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `llama.cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: gguf. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
 
 ---
 
 
 
-### [afdeasdfad/MyAwesomeModel-TestRepo](https://huggingface.co/afdeasdfad/MyAwesomeModel-TestRepo)
-**Author:** afdeasdfad  
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [duckyduck369/microduck-hd1910-velstand-djbob](https://huggingface.co/duckyduck369/microduck-hd1910-velstand-djbob)
+**Author:** duckyduck369  
+**Task:** reinforcement learning  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `microduck`, `microduck-family-velstand`, `microduck-plant-747b04ec7dff9905`, `microduck-eval-velstand-1.0`, `robotics`, `reinforcement-learning`, `model-index`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr3e-4__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr3e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [asadqwr/MyAwesomeModel-TestRepo](https://huggingface.co/asadqwr/MyAwesomeModel-TestRepo)
+**Author:** asadqwr  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-10-30  
@@ -474,57 +218,1122 @@
 
 
 
-### [vcruz305/CYBER-FROST-3.8-EXL3-SAGE-3.35bpw](https://huggingface.co/vcruz305/CYBER-FROST-3.8-EXL3-SAGE-3.35bpw)
-**Author:** vcruz305  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `exllamav3`, `qwen4_exp`, `qwen`, `qwen4-exp`, `moe`, `exl3`, `sage`, `mtp`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: quantized. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [nikghodki/microduck-roller-dgx1-2000](https://huggingface.co/nikghodki/microduck-roller-dgx1-2000)
-**Author:** nikghodki  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `microduck`, `onnx`, `robotics`, `reinforcement-learning`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [nikghodki/microduck-hill-dgx1-750](https://huggingface.co/nikghodki/microduck-hill-dgx1-750)
-**Author:** nikghodki  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-10-30  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `microduck`, `onnx`, `robotics`, `reinforcement-learning`  
-
-**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [assmau/VoiceConversionWebUI](https://huggingface.co/assmau/VoiceConversionWebUI)
-**Author:** assmau  
-**Task:** general  
+### [UR-xiaoyang/mnemosyne-mns-rank-hybrid-01](https://huggingface.co/UR-xiaoyang/mnemosyne-mns-rank-hybrid-01)
+**Author:** UR-xiaoyang  
+**Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-10-30  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`  
+**Tags:** `joblib`, `memory`, `retrieval`, `reranking`, `multilingual`, `chinese`, `agent-memory`, `feature-extraction`  
 
-**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction, tag match: retrieval. Capabilities: designed for RAG / retrieval use cases; produces dense embeddings for semantic search; cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s2](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [doanhlt/cabin-asr-vi-zipformer-streaming-r1](https://huggingface.co/doanhlt/cabin-asr-vi-zipformer-streaming-r1)
+**Author:** doanhlt  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Languages:** vi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sherpa-onnx`, `onnx`, `zipformer`, `transducer`, `icefall`, `streaming`, `knowledge-distillation`, `on-device`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: offline, edge, onnx, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s1](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [asfdasdfaa/MyAwesomeModel-TestRepo](https://huggingface.co/asfdasdfaa/MyAwesomeModel-TestRepo)
+**Author:** asfdasdfaa  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [Sboov/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/Sboov/GLM-5.3-CYBERSECURITY-FP8)
+**Author:** Sboov  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Languages:** en, zh, ru, sr, hi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm_moe_dsa`, `abliterated`, `crack`, `refusal-removed`, `domain-specific`, `cybersecurity`, `offensive-security`, `red-team`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [bcckfdn/cevher2-test-16-decay-it-GGUF](https://huggingface.co/bcckfdn/cevher2-test-16-decay-it-GGUF)
+**Author:** bcckfdn  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Languages:** tr, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `smollm2`, `llama`, `turkish`, `text-generation`, `tr`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [Praelatus/Noa_D4DJ](https://huggingface.co/Praelatus/Noa_D4DJ)
+**Author:** Praelatus  
+**Task:** text to image  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `diffusers`, `text-to-image`, `lora`, `template:diffusion-lora`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s2](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s1](https://huggingface.co/ovi-distill/SizeDirect_main__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr3e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr3e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [vwdubb/Qwopus3.8-27B-Flash-V2-FP8](https://huggingface.co/vwdubb/Qwopus3.8-27B-Flash-V2-FP8)
+**Author:** vwdubb  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Languages:** en, zh, es, ru, ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `image-text-to-text`, `vision`, `multimodal`, `text-generation-inference`, `unsloth`, `conversational`, `text-generation`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: vision, quantized. Capabilities: supports tool/function calling; strong code generation capability; multimodal / vision capability.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_1.5b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t7b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr3e-6__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr3e-6__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [AravArun/dhara-reranker](https://huggingface.co/AravArun/dhara-reranker)
+**Author:** AravArun  
+**Task:** text ranking and reranking  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `sentence-transformers`, `xlm-roberta`, `cross-encoder`, `reranker`, `legal`, `indian-law`, `criminal-law`, `retrieval`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: retrieval. Capabilities: designed for RAG / retrieval use cases; cross-encoder reranker for improved retrieval quality.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr3e-6__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr3e-6__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [axteam/GLM-4-9B-0414-GGUF](https://huggingface.co/axteam/GLM-4-9B-0414-GGUF)
+**Author:** axteam  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `glm`, `llama.cpp`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: gguf, quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__math_q25_0.5b_t1.5b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr3e-6__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr3e-6__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_1.5b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t7b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect_lr__gsm8k_q25_0.5b_t1.5b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [TheFireThief/sn92-gen-w1_400](https://huggingface.co/TheFireThief/sn92-gen-w1_400)
+**Author:** TheFireThief  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_main__math_q25_7b_t14b_ovi_direct_lr1e-5__s2](https://huggingface.co/ovi-distill/SizeDirect7B_main__math_q25_7b_t14b_ovi_direct_lr1e-5__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [axteam/GLM-4-9B-0414-NVFP4A16](https://huggingface.co/axteam/GLM-4-9B-0414-NVFP4A16)
+**Author:** axteam  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm4`, `text-generation`, `compressed-tensors`, `vllm`, `quantized`, `nvfp4`, `fp4`, `w4a16`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_main__math_q25_7b_t14b_ovi_direct_lr1e-5__s1](https://huggingface.co/ovi-distill/SizeDirect7B_main__math_q25_7b_t14b_ovi_direct_lr1e-5__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [sad1csa21dsa/MyAwesomeModel-TestRepo](https://huggingface.co/sad1csa21dsa/MyAwesomeModel-TestRepo)
+**Author:** sad1csa21dsa  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_main__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s2](https://huggingface.co/ovi-distill/SizeDirect7B_main__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [sportsgirl/pic09b](https://huggingface.co/sportsgirl/pic09b)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [sportsgirl/pic05b](https://huggingface.co/sportsgirl/pic05b)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [sportsgirl/pic10](https://huggingface.co/sportsgirl/pic10)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [sportsgirl/pic08b](https://huggingface.co/sportsgirl/pic08b)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [sportsgirl/pic01b](https://huggingface.co/sportsgirl/pic01b)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_main__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s1](https://huggingface.co/ovi-distill/SizeDirect7B_main__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr3e-6__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr3e-6__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [Garaii/ppo-Pyramids](https://huggingface.co/Garaii/ppo-Pyramids)
+**Author:** Garaii  
+**Task:** reinforcement learning  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ml-agents`, `tensorboard`, `onnx`, `Pyramids`, `deep-reinforcement-learning`, `reinforcement-learning`, `ML-Agents-Pyramids`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: onnx. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__math_q25_7b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr3e-5__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr3e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [sportsgirl/pic03](https://huggingface.co/sportsgirl/pic03)
+**Author:** sportsgirl  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir (name).
+
+---
+
+
+
+### [axteam/GLM-4-9B-0414-FP8-dynamic](https://huggingface.co/axteam/GLM-4-9B-0414-FP8-dynamic)
+**Author:** axteam  
+**Task:** text generation / language modelling  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `glm4`, `text-generation`, `compressed-tensors`, `vllm`, `quantized`, `fp8`, `conversational`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, tag match: quantized. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr1e-5__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr1e-5__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [chengze79/MyAwesomeModel-TestRepo](https://huggingface.co/chengze79/MyAwesomeModel-TestRepo)
+**Author:** chengze79  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via commercial license, task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s0](https://huggingface.co/ovi-distill/SizeDirect7B_lr__gsm8k_q25_7b_t14b_ovi_direct_lr1e-4__s0)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `gsm8k`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_replay4_lr1e-6__s2](https://huggingface.co/ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_replay4_lr1e-6__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_replay4_lr1e-6__s1](https://huggingface.co/ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_replay4_lr1e-6__s1)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
+
+---
+
+
+
+### [ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_lr1e-6__s2](https://huggingface.co/ovi-distill/JwithDirect_main__q25_1.5b_ovi_direct_lr1e-6__s2)
+**Author:** ovi-distill  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-10-30  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `ovi-distill`, `ovi-direct`, `distillation`, `math`, `qwen2.5`, `conversational`  
+
+**Why relevant:** Matched for **Vision & Edge Deployment** via license unknown (may not be commercial), tag match: ir.
 
 
 
@@ -532,4 +1341,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-30 00:42 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-10-30 09:48 UTC*
