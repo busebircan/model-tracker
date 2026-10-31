@@ -51303,6 +51303,101 @@
           ]
         }
       }
+    },
+    {
+      "run_at": "2026-10-31T13:13:41.957138+00:00",
+      "profiles": {
+        "agent_and_tool": {
+          "model_count": 76,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "endpoints_compatible",
+            "mlx",
+            "oq",
+            "quantized",
+            "custom_code",
+            "bailing_hybrid",
+            "pytorch",
+            "transformers"
+          ]
+        },
+        "vision_and_edge": {
+          "model_count": 78,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "mlx",
+            "oq",
+            "quantized",
+            "bailing_hybrid",
+            "custom_code",
+            "endpoints_compatible",
+            "pytorch",
+            "gguf"
+          ]
+        },
+        "ie_supply_chain": {
+          "model_count": 35,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "quantized",
+            "mlx",
+            "custom_code",
+            "bailing_hybrid",
+            "oq",
+            "text-generation",
+            "conversational",
+            "2-bit"
+          ]
+        },
+        "rag_general": {
+          "model_count": 15,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "bert",
+            "pytorch",
+            "feature-extraction",
+            "safetensors",
+            "text-classification",
+            "text-embeddings-inference",
+            "gguf"
+          ]
+        },
+        "personal_research": {
+          "model_count": 24,
+          "top_tags": [
+            "region:us",
+            "safetensors",
+            "transformers",
+            "text-generation",
+            "endpoints_compatible",
+            "conversational",
+            "en",
+            "pytorch",
+            "ko",
+            "text-generation-inference"
+          ]
+        },
+        "safety_security": {
+          "model_count": 39,
+          "top_tags": [
+            "region:us",
+            "endpoints_compatible",
+            "transformers",
+            "pytorch",
+            "safetensors",
+            "bert",
+            "gguf",
+            "feature-extraction",
+            "conversational",
+            "image-classification"
+          ]
+        }
+      }
     }
   ]
 }
