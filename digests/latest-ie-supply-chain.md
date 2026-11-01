@@ -1,154 +1,38 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-11-01  
-**Run timestamp:** 2026-11-01 13:00 UTC  
+**Run timestamp:** 2026-11-01 19:27 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 20
+**New models found:** 31
 
 ---
 
 
 
-### [Supernova11c/Supernova-Photon-1-V5](https://huggingface.co/Supernova11c/Supernova-Photon-1-V5)
-**Author:** Supernova11c  
+### [JingwenGu/qwen3-1.7b-sft-multisource-math-knk-last50pct-step400](https://huggingface.co/JingwenGu/qwen3-1.7b-sft-multisource-math-knk-last50pct-step400)
+**Author:** JingwenGu  
 **Task:** general  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-11-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `scientific_mathematical_solver`, `mathematics`, `physics`, `equation-solver`, `scientific-computing`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math.
-
----
-
-
-
-### [CybroatriX/shanks-v1-adapter](https://huggingface.co/CybroatriX/shanks-v1-adapter)
-**Author:** CybroatriX  
-**Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [tinyopsec/Eva-4B-V2-GGUF](https://huggingface.co/tinyopsec/Eva-4B-V2-GGUF)
-**Author:** tinyopsec  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [fuad404/Over-aii](https://huggingface.co/fuad404/Over-aii)
-**Author:** fuad404  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `deepseek_v4`, `text-generation`, `endpoints_compatible`, `8-bit`, `fp8`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [tinyopsec/AdaptThink-7B-delta0.05-GGUF](https://huggingface.co/tinyopsec/AdaptThink-7B-delta0.05-GGUF)
-**Author:** tinyopsec  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-11-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Tags:** `qwen3`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [tinyopsec/rlve-opd-teacher-R1Distill-004-Path_NoGoingBack_Counting-20261025-GGUF](https://huggingface.co/tinyopsec/rlve-opd-teacher-R1Distill-004-Path_NoGoingBack_Counting-20261025-GGUF)
-**Author:** tinyopsec  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
 
 ---
 
 
 
-### [tinyopsec/Atlas-Flash-1.5B-Preview-GGUF](https://huggingface.co/tinyopsec/Atlas-Flash-1.5B-Preview-GGUF)
-**Author:** tinyopsec  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
+### [ddosxd/numbat](https://huggingface.co/ddosxd/numbat)
+**Author:** ddosxd  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [arvedo/NVIDIA-Nemotron-3.5-Bolt-E4B-NVFP4-GGUF](https://huggingface.co/arvedo/NVIDIA-Nemotron-3.5-Bolt-E4B-NVFP4-GGUF)
-**Author:** arvedo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `nvfp4`, `fp4`, `blackwell`, `nemotron`, `gemma4`, `rtx5090`, `nvidia`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [tinyopsec/DeepSeek-R1-Distill-Qwen-1.5B-abliterated-GGUF](https://huggingface.co/tinyopsec/DeepSeek-R1-Distill-Qwen-1.5B-abliterated-GGUF)
-**Author:** tinyopsec  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen2`, `quantized`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [fuad404/Over-Ai](https://huggingface.co/fuad404/Over-Ai)
-**Author:** fuad404  
-**Task:** image text to text  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `kimi_k3`, `feature-extraction`, `compressed-tensors`, `conversational`, `image-text-to-text`, `custom_code`, `eval-results`, `8-bit`  
+**Tags:** `numbat`, `custom_code`, `8-bit`, `modelopt`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -156,121 +40,73 @@
 
 
 
-### [kodetr/SasakLLM-1.5B-Instruct-v2](https://huggingface.co/kodetr/SasakLLM-1.5B-Instruct-v2)
-**Author:** kodetr  
+### [Lernex/Metis-1.6-Logos-MLX-4bit](https://huggingface.co/Lernex/Metis-1.6-Logos-MLX-4bit)
+**Author:** Lernex  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
 **Published:** 2026-11-01  
-**Languages:** sas, id  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sasak`, `lombok`, `regional-language`, `instruction-tuned`, `qwen2.5`, `text-generation`, `conversational`, `sas`  
+**Tags:** `mlx`, `metis16`, `metis`, `reasoning`, `mixture-of-experts`, `mamba`, `text-generation`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
 
 ---
 
 
 
-### [mrtint0729/kanana-2.1b-diary-dpo-gguf](https://huggingface.co/mrtint0729/kanana-2.1b-diary-dpo-gguf)
-**Author:** mrtint0729  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-01  
-**Languages:** ko  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `on-device`, `diary`, `dpo`, `kanana`, `korean`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Normybacholor/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF](https://huggingface.co/Normybacholor/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF)
-**Author:** Normybacholor  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-01  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `unsloth`, `fine tune`, `heretic`, `uncensored`, `abliterated`, `ara`, `MTP GGUF Quants`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [carlosco/stem-writer-lora](https://huggingface.co/carlosco/stem-writer-lora)
-**Author:** carlosco  
+### [workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2](https://huggingface.co/workmagicio/workmagic-jev-decision-qwen3-8b-sft-v2)
+**Author:** workmagicio  
 **Task:** text generation / language modelling  
 **License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [mradermacher/Rehearsal-Glimmer-30B-r1-GGUF](https://huggingface.co/mradermacher/Rehearsal-Glimmer-30B-r1-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `distillation`, `simulation`, `agent-based-model`, `lora`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: simulation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Privoid-ai/Privoid-Tool-Qwen3-4B](https://huggingface.co/Privoid-ai/Privoid-Tool-Qwen3-4B)
-**Author:** Privoid-ai  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qwen3`, `function-calling`, `tool-use`, `tool-calling`, `enterprise`, `lora`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [mradermacher/torchlight-qwen3-8b-i1-GGUF](https://huggingface.co/mradermacher/torchlight-qwen3-8b-i1-GGUF)
-**Author:** mradermacher  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~8B (from model name)  
 **Published:** 2026-11-01  
 **Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `code`, `debugging`, `lora`, `unsloth`, `qwen3`, `dataset:samadpls/torchlight-threads`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `anyjev`, `qwen3`, `tacit`, `decision-model`, `typed-decisions`, `lora`, `stage2`, `text-generation`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 ---
 
 
 
-### [sirfyyn/DeepSeek-V4.1-Flash-1017-DSpark-FLE-GGUF](https://huggingface.co/sirfyyn/DeepSeek-V4.1-Flash-1017-DSpark-FLE-GGUF)
-**Author:** sirfyyn  
+### [Lernex/Metis-1.6-Praxis-MLX-8bit](https://huggingface.co/Lernex/Metis-1.6-Praxis-MLX-8bit)
+**Author:** Lernex  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-11-01  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `dspark`, `speculative-decoding`, `draft-model`, `deepseek`, `fle`, `text-generation`, `endpoints_compatible`  
+**Tags:** `mlx`, `metis16`, `metis`, `reasoning`, `mixture-of-experts`, `mamba`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [Lernex/Metis-1.6-Praxis-MLX-4bit](https://huggingface.co/Lernex/Metis-1.6-Praxis-MLX-4bit)
+**Author:** Lernex  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `metis16`, `metis`, `reasoning`, `mixture-of-experts`, `mamba`, `text-generation`, `conversational`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: reasoning.
+
+---
+
+
+
+### [ReadyArt/Dark-Craving-26B-A4B-v0.5-GGUF](https://huggingface.co/ReadyArt/Dark-Craving-26B-A4B-v0.5-GGUF)
+**Author:** ReadyArt  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `nsfw`, `explicit`, `roleplay`, `unaligned`, `ERP`, `adult-content`, `mature`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -278,31 +114,359 @@
 
 
 
-### [mradermacher/tinybrainbot-360m-a75m-v5.1-instruct-GGUF](https://huggingface.co/mradermacher/tinybrainbot-360m-a75m-v5.1-instruct-GGUF)
-**Author:** mradermacher  
+### [sairajab/SMARTY-deepseek-math-7b-rl](https://huggingface.co/sairajab/SMARTY-deepseek-math-7b-rl)
+**Author:** sairajab  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-11-01  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `tinybrainbot`, `mixture-of-experts`, `moe`, `mixtral`, `small-language-model`, `from-scratch`, `instruct`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
 
 ---
 
 
 
-### [mradermacher/Qwen3.8-2B-Distill-heretic-v2-GGUF](https://huggingface.co/mradermacher/Qwen3.8-2B-Distill-heretic-v2-GGUF)
-**Author:** mradermacher  
-**Task:** general  
+### [applepie69/Nanbeige4.3-33B-MTP-v4-output](https://huggingface.co/applepie69/Nanbeige4.3-33B-MTP-v4-output)
+**Author:** applepie69  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `multi-token-prediction`, `mtp`, `speculative-decoding`, `llama`, `nanbeige`, `text-generation`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [BertilBraun/lean4-prover-qwen3.5-4b-grpo-lora](https://huggingface.co/BertilBraun/lean4-prover-qwen3.5-4b-grpo-lora)
+**Author:** BertilBraun  
+**Task:** reinforcement learning  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lean4`, `theorem-proving`, `formal-mathematics`, `reinforcement-learning`, `grpo`, `expert-iteration`, `lora`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math.
+
+---
+
+
+
+### [samsungzone/AS3N](https://huggingface.co/samsungzone/AS3N)
+**Author:** samsungzone  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v3`, `custom_code`, `fp8`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [lazarenkod/qwen3.5-2b-fluent-books](https://huggingface.co/lazarenkod/qwen3.5-2b-fluent-books)
+**Author:** lazarenkod  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en, ru  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `translation`, `english-to-russian`, `fluent-books`, `text-generation`, `ru`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Polzovatel/Qwen2.5-7B-Instruct](https://huggingface.co/Polzovatel/Qwen2.5-7B-Instruct)
+**Author:** Polzovatel  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-11-01  
+**Languages:** zho, eng, fra, spa, por  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `unsloth`, `conversational`, `zho`, `eng`, `fra`, `spa`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [tryambientai/moss-transcribe-diarize-gguf](https://huggingface.co/tryambientai/moss-transcribe-diarize-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moss`, `audio-llm`, `whisper-encoder`, `qwen3`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-zh-gguf](https://huggingface.co/tryambientai/moonshine-tiny-zh-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-vi-gguf](https://huggingface.co/tryambientai/moonshine-tiny-vi-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** vi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-uk-gguf](https://huggingface.co/tryambientai/moonshine-tiny-uk-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** uk  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-ko-gguf](https://huggingface.co/tryambientai/moonshine-tiny-ko-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ko  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-ja-gguf](https://huggingface.co/tryambientai/moonshine-tiny-ja-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-ar-gguf](https://huggingface.co/tryambientai/moonshine-tiny-ar-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-tiny-gguf](https://huggingface.co/tryambientai/moonshine-tiny-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-01  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `empero-ai`, `qwen3.5`, `qwen3.8`, `distillation`, `reasoning`, `function-calling`, `sft`  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-streaming-tiny-gguf](https://huggingface.co/tryambientai/moonshine-streaming-tiny-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `moonshine-streaming`, `useful-sensors`, `encoder-decoder`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-streaming-small-gguf](https://huggingface.co/tryambientai/moonshine-streaming-small-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `moonshine-streaming`, `useful-sensors`, `encoder-decoder`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-streaming-medium-gguf](https://huggingface.co/tryambientai/moonshine-streaming-medium-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `moonshine-streaming`, `useful-sensors`, `encoder-decoder`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-zh-gguf](https://huggingface.co/tryambientai/moonshine-base-zh-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-vi-gguf](https://huggingface.co/tryambientai/moonshine-base-vi-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** vi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-uk-gguf](https://huggingface.co/tryambientai/moonshine-base-uk-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** uk  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-ko-gguf](https://huggingface.co/tryambientai/moonshine-base-ko-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ko  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-ja-gguf](https://huggingface.co/tryambientai/moonshine-base-ja-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ja  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-ar-gguf](https://huggingface.co/tryambientai/moonshine-base-ar-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** ar  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [tryambientai/moonshine-base-gguf](https://huggingface.co/tryambientai/moonshine-base-gguf)
+**Author:** tryambientai  
+**Task:** automatic speech recognition  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transcribe.cpp`, `gguf`, `asr`, `speech-to-text`, `moonshine`, `useful-sensors`, `encoder-decoder`, `automatic-speech-recognition`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
 
 
 
@@ -310,4 +474,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-01 13:00 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-01 19:27 UTC*

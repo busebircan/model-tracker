@@ -1,109 +1,173 @@
 # Model Tracker Digest — Retrieval & Embeddings
 
 **Date:** 2026-11-01  
-**Run timestamp:** 2026-11-01 13:00 UTC  
+**Run timestamp:** 2026-11-01 19:27 UTC  
 **Profile:** Retrieval & Embeddings  
 **Description:** Embeddings, rerankers, long-context, chunking-friendly models for RAG pipelines  
 **License filter:** All licenses (no restriction)  
-**New models found:** 7
+**New models found:** 11
 
 ---
 
 
 
-### [diarizeapp/redimnet2-b3-onnx](https://huggingface.co/diarizeapp/redimnet2-b3-onnx)
-**Author:** diarizeapp  
-**Task:** audio to audio  
+### [MckenzieAslan/MyAwesomeModel-TestRepo](https://huggingface.co/MckenzieAslan/MyAwesomeModel-TestRepo)
+**Author:** MckenzieAslan  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ailab-agenteval/MyAwesomeModel-TestRepo](https://huggingface.co/ailab-agenteval/MyAwesomeModel-TestRepo)
+**Author:** ailab-agenteval  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [toolathlon-mai/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-mai/MyAwesomeModel-TestRepo)
+**Author:** toolathlon-mai  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [monoboard/Typhoon2-Qwen2.5-7B-LBT-QA-adapters](https://huggingface.co/monoboard/Typhoon2-Qwen2.5-7B-LBT-QA-adapters)
+**Author:** monoboard  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-11-01  
+**Languages:** th  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `legal`, `thai`, `lora`, `qlora`, `rag`, `th`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
+
+---
+
+
+
+### [ASDCZX12DS/MyAwesomeModel-TestRepo](https://huggingface.co/ASDCZX12DS/MyAwesomeModel-TestRepo)
+**Author:** ASDCZX12DS  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [SADXZAE12E4/MyAwesomeModel-TestRepo](https://huggingface.co/SADXZAE12E4/MyAwesomeModel-TestRepo)
+**Author:** SADXZAE12E4  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-01  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [Nabidnur/spanguard-toolguard-mdistil](https://huggingface.co/Nabidnur/spanguard-toolguard-mdistil)
+**Author:** Nabidnur  
+**Task:** text classification  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-01  
+**Languages:** en, de, hu  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `speaker_embedding`, `audio`, `speaker-diarization`, `speaker-verification`, `redimnet2`, `audio-to-audio`  
+**Tags:** `distilbert`, `text-classification`, `prompt-injection`, `ai-agent-security`, `meta-global-ai-hackathon-2026`, `de`, `hu`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embedding. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [akshitpareek/bge-m3-safetensors](https://huggingface.co/akshitpareek/bge-m3-safetensors)
-**Author:** akshitpareek  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [belfidi/distilbert-intent-bitext](https://huggingface.co/belfidi/distilbert-intent-bitext)
+**Author:** belfidi  
+**Task:** text classification  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-01  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `sentence-transformers`, `xlm-roberta`, `embeddings`, `feature-extraction`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `dataset:bitext/Bitext-customer-support-llm-chatbot-training-dataset`, `text-embeddings-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction, tag match: embeddings, embedding, sentence-transformers. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [NataliaFrancine/MyAwesomeModel-TestRepo](https://huggingface.co/NataliaFrancine/MyAwesomeModel-TestRepo)
-**Author:** NataliaFrancine  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [Nabidnur/spanguard-docguard-mdistil](https://huggingface.co/Nabidnur/spanguard-docguard-mdistil)
+**Author:** Nabidnur  
+**Task:** text classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-01  
+**Languages:** en, de, hu  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `distilbert`, `text-classification`, `prompt-injection`, `ai-agent-security`, `meta-global-ai-hackathon-2026`, `de`, `hu`, `text-embeddings-inference`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: embeddings, embedding.
 
 ---
 
 
 
-### [liuffg124/MyAwesomeModel-TestRepo](https://huggingface.co/liuffg124/MyAwesomeModel-TestRepo)
-**Author:** liuffg124  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [Nabidnur/spanguard-span-mdistil](https://huggingface.co/Nabidnur/spanguard-span-mdistil)
+**Author:** Nabidnur  
+**Task:** token classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-01  
+**Languages:** en, de, hu  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `distilbert`, `token-classification`, `prompt-injection`, `ai-agent-security`, `meta-global-ai-hackathon-2026`, `de`, `hu`, `dataset:kragglenote2forwork/spanguard-corpus`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag.
 
 ---
 
 
 
-### [nyleeaa0503/MyAwesomeModel-TestRepo](https://huggingface.co/nyleeaa0503/MyAwesomeModel-TestRepo)
-**Author:** nyleeaa0503  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
+### [monoboard/Llama-3.1-Typhoon2-8B-LBT-QA-adapters](https://huggingface.co/monoboard/Llama-3.1-Typhoon2-8B-LBT-QA-adapters)
+**Author:** monoboard  
+**Task:** general  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-11-01  
+**Languages:** th  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+**Tags:** `peft`, `legal`, `thai`, `lora`, `qlora`, `rag`, `th`  
 
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [toolathlon68/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon68/MyAwesomeModel-TestRepo)
-**Author:** toolathlon68  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [SAD12D/MyAwesomeModel-TestRepo](https://huggingface.co/SAD12D/MyAwesomeModel-TestRepo)
-**Author:** SAD12D  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-01  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Retrieval & Embeddings** via task match: feature-extraction. Capabilities: produces dense embeddings for semantic search.
+**Why relevant:** Matched for **Retrieval & Embeddings** via tag match: rag. Capabilities: designed for RAG / retrieval use cases.
 
 
 
@@ -111,4 +175,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-01 13:00 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-01 19:27 UTC*
