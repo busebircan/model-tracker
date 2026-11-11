@@ -1,38 +1,23 @@
 # Model Tracker Digest — Research & Summarisation
 
 **Date:** 2026-11-11  
-**Run timestamp:** 2026-11-11 10:35 UTC  
+**Run timestamp:** 2026-11-11 19:27 UTC  
 **Profile:** Research & Summarisation  
 **Description:** Summarization, research paper analysis, ArXiv monitoring, general research tools  
 **License filter:** All licenses (no restriction)  
-**New models found:** 42
+**New models found:** 97
 
 ---
 
 
 
-### [Amogh06/mistral-7B-amazon-reviews](https://huggingface.co/Amogh06/mistral-7B-amazon-reviews)
-**Author:** Amogh06  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [allez-ale/smolvla_pod_to_container_v1_20k](https://huggingface.co/allez-ale/smolvla_pod_to_container_v1_20k)
-**Author:** allez-ale  
+### [Muhammad241198/act_dsub_150](https://huggingface.co/Muhammad241198/act_dsub_150)
+**Author:** Muhammad241198  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `smolvla`, `dataset:allez-ale/so101_pod_to_container_v1`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:rbtrprjkt/DSUB-installnew2026_20261026_033023`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -40,23 +25,83 @@
 
 
 
-### [Amogh06/llama3-3B-hatexplain](https://huggingface.co/Amogh06/llama3-3B-hatexplain)
-**Author:** Amogh06  
+### [Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-BF16](https://huggingface.co/Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-BF16)
+**Author:** Cialtion  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `qwen3_5`, `simpletool`, `tool-calling`, `multi-head`, `text-generation`, `conversational`, `zh`, `dataset:Cialtion/SimpleTool-Diagnostic-800`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [Revan424/anlp-assignment3-models](https://huggingface.co/Revan424/anlp-assignment3-models)
-**Author:** Revan424  
+### [swarmagents/Qwen3.8-27B-Direct-GGUF](https://huggingface.co/swarmagents/Qwen3.8-27B-Direct-GGUF)
+**Author:** swarmagents  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen`, `reasoning`, `orthogonal-steering`, `direct-think`, `zero-rambling`, `mechanistic-interpretability`, `ollama`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [swarmagents/Qwen3.8-22B-Slim-GGUF](https://huggingface.co/swarmagents/Qwen3.8-22B-Slim-GGUF)
+**Author:** swarmagents  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~22B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en, zh  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen`, `pruned`, `structured-pruning`, `slim`, `52-layers`, `deltanet`, `hybrid-architecture`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [gaschka/bs-roformer-4stem-coreml](https://huggingface.co/gaschka/bs-roformer-4stem-coreml)
+**Author:** gaschka  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `coreml`, `music-source-separation`, `bs-roformer`, `audio`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [seriintan/act_marked_lang3a_frazier_blade](https://huggingface.co/seriintan/act_marked_lang3a_frazier_blade)
+**Author:** seriintan  
+**Task:** robotics  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:seriintan/lang3a_frazier_blade_marked`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [ManiTej07/anlp-a3-part1](https://huggingface.co/ManiTej07/anlp-a3-part1)
+**Author:** ManiTej07  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-11  
@@ -68,56 +113,29 @@
 
 
 
-### [pkcpkc/strands-decider-2B-qwen3.5-v1-2610-mlx](https://huggingface.co/pkcpkc/strands-decider-2B-qwen3.5-v1-2610-mlx)
-**Author:** pkcpkc  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [mradermacher/Panu-Omni-2B-GGUF](https://huggingface.co/mradermacher/Panu-Omni-2B-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-11  
+**Languages:** th, en, zh, ja, fr  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `apple-silicon`, `strands-decider`, `decision-model`, `typed-decisions`, `calibration`, `qwen3.5`  
+**Tags:** `gguf`, `liquid`, `lfm3`, `lfm3-omni`, `omni`, `abliterated`, `uncensored`, `reasoning`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv, nlp.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: multimodal / vision capability; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [shangarot/moveT_TaskB](https://huggingface.co/shangarot/moveT_TaskB)
-**Author:** shangarot  
-**Task:** robotics  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:shangarot/moveT_TaskB`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [aliasrobotics/alias3-web](https://huggingface.co/aliasrobotics/alias3-web)
-**Author:** aliasrobotics  
+### [LGTEAMai/Nano-1.3-Fast-GGUF](https://huggingface.co/LGTEAMai/Nano-1.3-Fast-GGUF)
+**Author:** LGTEAMai  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `cybersecurity`, `security`, `onnxruntime-genai`, `webgpu`, `browser`, `int4`, `dual-system`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [hyperionaidev/Ling-mini-2.0-ipad-GGUF](https://huggingface.co/hyperionaidev/Ling-mini-2.0-ipad-GGUF)
-**Author:** hyperionaidev  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `moe`, `edge`, `low-ram`, `ios`, `ipad`, `smolmaxxing`  
+**Languages:** en, ru  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `llama.cpp`, `ollama`, `lm-studio`, `quantized`, `nano`, `lgteamai`, `small-language-model`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -125,160 +143,56 @@
 
 
 
-### [netprojects/Laplace-1-Atlas-MLX-bf16](https://huggingface.co/netprojects/Laplace-1-Atlas-MLX-bf16)
-**Author:** netprojects  
-**Task:** text generation / language modelling  
+### [em-eval/trait-probe-em-classifier-qwen25-7b-L16](https://huggingface.co/em-eval/trait-probe-em-classifier-qwen25-7b-L16)
+**Author:** em-eval  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `apple-silicon`, `decision-making`, `agents`, `agent-safety`, `laplace`, `qwen3.8`  
+**Tags:** `emergent-misalignment`, `linear-probe`, `research`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research, arxiv.
 
 ---
 
 
 
-### [Amogh06/llama3-3B-fakeddit](https://huggingface.co/Amogh06/llama3-3B-fakeddit)
-**Author:** Amogh06  
-**Task:** text generation / language modelling  
+### [JBalwaySUS/ANLP-A3](https://huggingface.co/JBalwaySUS/ANLP-A3)
+**Author:** JBalwaySUS  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
 
 ---
 
 
 
-### [taichi116/diffusion_sarmal_3temp_speed_2](https://huggingface.co/taichi116/diffusion_sarmal_3temp_speed_2)
-**Author:** taichi116  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [Velion/MH51401122](https://huggingface.co/Velion/MH51401122)
+**Author:** Velion  
+**Task:** image classification  
+**License:** `cc-by-4.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `diffusion`, `robotics`, `dataset:taichi116/sarmal_3temp_speed_2_20261109_172724`  
+**Tags:** `onnx`, `medical-imaging`, `hematology`, `leukemia`, `calibration`, `selective-prediction`, `research-only`, `image-classification`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [netprojects/Laplace-1-Atlas-MLX-4bit](https://huggingface.co/netprojects/Laplace-1-Atlas-MLX-4bit)
-**Author:** netprojects  
+### [kinmello/qbot-9b](https://huggingface.co/kinmello/qbot-9b)
+**Author:** kinmello  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
+**Languages:** en, pt  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `apple-silicon`, `decision-making`, `agents`, `agent-safety`, `laplace`, `qwen3.8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [saingx550/qwen3-8b-valence-with-replay](https://huggingface.co/saingx550/qwen3-8b-valence-with-replay)
-**Author:** saingx550  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `axolotl`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [t-firefly/minicpm5-2b-rknn3-rk1828](https://huggingface.co/t-firefly/minicpm5-2b-rknn3-rk1828)
-**Author:** t-firefly  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `firefly`, `rockchip`, `rk1828`, `llamapi`, `edge-ai`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [Amogh06/llama3-3B-amazon-reviews](https://huggingface.co/Amogh06/llama3-3B-amazon-reviews)
-**Author:** Amogh06  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~3B (from model name)  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [krishgolcha/minsky-01-videogen-release](https://huggingface.co/krishgolcha/minsky-01-videogen-release)
-**Author:** krishgolcha  
-**Task:** text to video  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `diffusers`, `video`, `video-generation`, `text-to-video`, `image-to-video`, `audio-generation`, `kandinsky`, `diffusers:Kandinsky6TI2VAPipeline`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [cserb/Spokenly-Cleanup-1-MLX-8bit](https://huggingface.co/cserb/Spokenly-Cleanup-1-MLX-8bit)
-**Author:** cserb  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-11-11  
-**Languages:** en, de, es, fr, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3`, `8-bit`, `dictation`, `post-processing`, `text-cleanup`, `punctuation`, `on-device`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [netprojects/Laplace-1-Atlas-MLX-8bit](https://huggingface.co/netprojects/Laplace-1-Atlas-MLX-8bit)
-**Author:** netprojects  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `apple-silicon`, `decision-making`, `agents`, `agent-safety`, `laplace`, `qwen3.8`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
-
----
-
-
-
-### [ferry-el-kom/qwen3.8-4b-empero-base-Hermes-agentic-subagent-toolcalls](https://huggingface.co/ferry-el-kom/qwen3.8-4b-empero-base-Hermes-agentic-subagent-toolcalls)
-**Author:** ferry-el-kom  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Languages:** en, ro  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3_5_text`, `text-generation`, `agent`, `tool-calling`, `function-calling`, `hermes`, `qwen`  
+**Tags:** `mlx`, `gguf`, `qlik`, `qlik-sense`, `agent`, `tool-use`, `lora`, `distillation`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling; available in quantized/offline-friendly formats.
 
@@ -286,41 +200,28 @@
 
 
 
-### [ranjith3567/pick_yellow_cube_v5_chunk30](https://huggingface.co/ranjith3567/pick_yellow_cube_v5_chunk30)
-**Author:** ranjith3567  
-**Task:** robotics  
+### [tatoy/qwen3_14b_cpt_ai_research_Umini](https://huggingface.co/tatoy/qwen3_14b_cpt_ai_research_Umini)
+**Author:** tatoy  
+**Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `smolvla`, `robotics`, `dataset:ranjith3567/pick_yellow_cube_v5_20261105_191046`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research (name).
 
 ---
 
 
 
-### [GrownMan46/grounding-dino-tiny](https://huggingface.co/GrownMan46/grounding-dino-tiny)
-**Author:** GrownMan46  
-**Task:** zero shot object detection  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `grounding-dino`, `vision`, `zero-shot-object-detection`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [netprojects/Laplace-1-Atlas-MLX-6bit](https://huggingface.co/netprojects/Laplace-1-Atlas-MLX-6bit)
-**Author:** netprojects  
+### [Cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-INT4](https://huggingface.co/Cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-INT4)
+**Author:** Cialtion  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `qwen3_5`, `apple-silicon`, `decision-making`, `agents`, `agent-safety`, `laplace`, `qwen3.8`  
+**Tags:** `qwen3_5`, `simpletool`, `tool-calling`, `multi-head`, `text-generation`, `awq`, `conversational`, `zh`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -328,100 +229,100 @@
 
 
 
-### [TheLupyd/teenie](https://huggingface.co/TheLupyd/teenie)
-**Author:** TheLupyd  
+### [Shardul007/anlp-a3-lookup](https://huggingface.co/Shardul007/anlp-a3-lookup)
+**Author:** Shardul007  
 **Task:** general  
-**License:** `mit` ✅ commercial use allowed  
+**License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `in-context-learning`, `arithmetic`, `algorithmic-reasoning`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp (name).
 
 ---
 
 
 
-### [hyperionaidev/Moon-Beam-8B-A1B-ipad-GGUF](https://huggingface.co/hyperionaidev/Moon-Beam-8B-A1B-ipad-GGUF)
-**Author:** hyperionaidev  
+### [Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-INT4](https://huggingface.co/Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-INT4)
+**Author:** Cialtion  
 **Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `moe`, `edge`, `low-ram`, `ios`, `ipad`, `smolmaxxing`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Vishu2612/rutam-nanbeige-diamond-b300](https://huggingface.co/Vishu2612/rutam-nanbeige-diamond-b300)
-**Author:** Vishu2612  
-**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
+**Languages:** zh, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `cybersecurity`, `white-hat`, `sandhana`, `reasoning`, `vulnerability-remediation`  
+**Tags:** `qwen3_5`, `simpletool`, `tool-calling`, `multi-head`, `text-generation`, `awq`, `conversational`, `zh`  
 
-**Why relevant:** Matched for **Research & Summarisation** via tag match: reasoning.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [chartreuse-verte/prose-rewriter-1.7b-v2.6](https://huggingface.co/chartreuse-verte/prose-rewriter-1.7b-v2.6)
-**Author:** chartreuse-verte  
+### [sungjuncho/Llama-3.1-8B-Instruct-TOFU-para-x2-retain90-forget10para-seed1](https://huggingface.co/sungjuncho/Llama-3.1-8B-Instruct-TOFU-para-x2-retain90-forget10para-seed1)
+**Author:** sungjuncho  
 **Task:** text generation / language modelling  
-**License:** `agpl-3.0` ⚠️ non-commercial  
-**Size:** ~7B (from model name)  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-11-11  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `qwen3`, `text-generation`, `prose`, `rewriting`, `style-transfer`, `creative-writing`, `deslop`  
+**Tags:** `llama`, `text-generation`, `unlearning`, `tofu`, `llama-3.1`, `conversational`, `dataset:sungjuncho/TOFU-para`, `text-generation-inference`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [tanmay891/tiny-aya-indicfin-grpo-run3](https://huggingface.co/tanmay891/tiny-aya-indicfin-grpo-run3)
-**Author:** tanmay891  
+### [Surya4/anlp-a3-part1](https://huggingface.co/Surya4/anlp-a3-part1)
+**Author:** Surya4  
+**Task:** general  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `anlp`, `cipher`, `sequence-models`, `mamba`, `deltanet`, `transformer`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: nlp.
+
+---
+
+
+
+### [sungjuncho/Llama-3.1-8B-Instruct-TOFU-para-x2-retain90-seed1](https://huggingface.co/sungjuncho/Llama-3.1-8B-Instruct-TOFU-para-x2-retain90-seed1)
+**Author:** sungjuncho  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `llama3.1` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `grpo`, `lora`, `trl`, `unsloth`, `text-generation`, `conversational`  
+**Tags:** `llama`, `text-generation`, `unlearning`, `tofu`, `llama-3.1`, `conversational`, `dataset:sungjuncho/TOFU-para`, `text-generation-inference`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [tanmay891/tiny-aya-indicfin-sft3](https://huggingface.co/tanmay891/tiny-aya-indicfin-sft3)
-**Author:** tanmay891  
+### [xxvoidsxx/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic](https://huggingface.co/xxvoidsxx/DeepSeek-V4-Pro-Qwen3.5-4B-UNCENSORED-heretic)
+**Author:** xxvoidsxx  
 **Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
+**Languages:** en, zh, ko, ja, es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `trl`, `unsloth`, `text-generation`, `conversational`  
+**Tags:** `qwen3_5`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `reasoning`, `distillation`, `deepseek`, `sft`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [Vinod0717/smile-hero-dental-ai](https://huggingface.co/Vinod0717/smile-hero-dental-ai)
-**Author:** Vinod0717  
-**Task:** text classification  
-**License:** `unspecified` ❓ license not confirmed  
+### [kdb6df/corl2026-suturebot-act](https://huggingface.co/kdb6df/corl2026-suturebot-act)
+**Author:** kdb6df  
+**Task:** robotics  
+**License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `distilbert`, `text-classification`, `text-embeddings-inference`, `endpoints_compatible`  
+**Tags:** `robotics`, `surgical-robotics`, `imitation-learning`, `act`, `dvrk`, `dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -429,40 +330,26 @@
 
 
 
-### [Rowhanissick/unlink-v2](https://huggingface.co/Rowhanissick/unlink-v2)
-**Author:** Rowhanissick  
+### [IINOVAII/Llama-3.2-3B-Tameez-GRPO-step300](https://huggingface.co/IINOVAII/Llama-3.2-3B-Tameez-GRPO-step300)
+**Author:** IINOVAII  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-11-11  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `qwen3_5_text`, `unlink`, `unlink-v2`, `abliterated`, `uncensored`, `zero-refusal`, `cybersecurity`, `os-agent`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: reasoning.
-
----
-
-
-
-### [SaktoAI/baguettotron-600m-sakto-Q8_0-4k](https://huggingface.co/SaktoAI/baguettotron-600m-sakto-Q8_0-4k)
-**Author:** SaktoAI  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-11  
+**Languages:** hi, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `quantized`, `q8_0`, `llama.cpp`, `on-device`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Tags:** `llama`, `text-generation`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `grpo`  
 
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 ---
 
 
 
-### [richardyoung/Qwen2.5-Coder-14B-Instruct-heretic1x-general-GGUF](https://huggingface.co/richardyoung/Qwen2.5-Coder-14B-Instruct-heretic1x-general-GGUF)
+### [richardyoung/Mistral-Small-3.2-24B-Instruct-2506-SOM-heretic-GGUF](https://huggingface.co/richardyoung/Mistral-Small-3.2-24B-Instruct-2506-SOM-heretic-GGUF)
 **Author:** richardyoung  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
 **Published:** 2026-11-11  
 **Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
@@ -474,89 +361,15 @@
 
 
 
-### [new-darcy/Qwen2.5-Math-1.5B](https://huggingface.co/new-darcy/Qwen2.5-Math-1.5B)
-**Author:** new-darcy  
+### [IINOVAII/Llama-3.2-3B-Tameez-GRPO-checkpoints](https://huggingface.co/IINOVAII/Llama-3.2-3B-Tameez-GRPO-checkpoints)
+**Author:** IINOVAII  
 **Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
-**Published:** 2026-11-11  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [Turbolego/qwen3.5-0.8b-wcag-gauntlet-lora](https://huggingface.co/Turbolego/qwen3.5-0.8b-wcag-gauntlet-lora)
-**Author:** Turbolego  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-11-11  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `wcag`, `accessibility`, `a11y`, `lora`, `tool-use`, `qwen3.5`, `agent-skill`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
-
----
-
-
-
-### [KyraLeeChunWei/Acetylcysteine_e50_ACT_20K](https://huggingface.co/KyraLeeChunWei/Acetylcysteine_e50_ACT_20K)
-**Author:** KyraLeeChunWei  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:KyraLeeChunWei/e50_Acetylcysteine`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
-
----
-
-
-
-### [a-kemeklis/open-sci-ref-v0.01-1.7b-nemotron-hq-300B-4096-cpt-aoa10-3B](https://huggingface.co/a-kemeklis/open-sci-ref-v0.01-1.7b-nemotron-hq-300B-4096-cpt-aoa10-3B)
-**Author:** a-kemeklis  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+**License:** `llama3.2` ✅ commercial use allowed  
 **Size:** ~3B (from model name)  
 **Published:** 2026-11-11  
-**Languages:** en  
+**Languages:** hi, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `opensci`, `text-generation`, `custom_code`, `dataset:a-kemeklis/nemotron-cc-hq-aoa10-2pct-ascii-tokenized-neox`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [MergekitCloud/mergekit-170](https://huggingface.co/MergekitCloud/mergekit-170)
-**Author:** MergekitCloud  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `mergekit`, `merge`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: arxiv.
-
----
-
-
-
-### [formalmathatepfl/qwen3-0.6b-feedback-sft](https://huggingface.co/formalmathatepfl/qwen3-0.6b-feedback-sft)
-**Author:** formalmathatepfl  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `llama-factory`, `full`, `generated_from_trainer`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `tensorboard`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `grpo`  
 
 **Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
@@ -564,13 +377,13 @@
 
 
 
-### [08semi/lekiwi_prototype3](https://huggingface.co/08semi/lekiwi_prototype3)
-**Author:** 08semi  
-**Task:** robotics  
+### [Aansh123/beneficial-trait-rl](https://huggingface.co/Aansh123/beneficial-trait-rl)
+**Author:** Aansh123  
+**Task:** reinforcement learning  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `act`, `robotics`, `dataset:08semi/dataset_prototype1`  
+**Tags:** `peft`, `lora`, `reinforcement-learning`, `alignment`, `gpt-oss`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -578,27 +391,13 @@
 
 
 
-### [zhaoyx39/S3-S2ST](https://huggingface.co/zhaoyx39/S3-S2ST)
-**Author:** zhaoyx39  
-**Task:** translation  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-11  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `speech-to-speech`, `translation`, `s3-s2st`  
-
-**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Haku-2004/act_k5t_input_20](https://huggingface.co/Haku-2004/act_k5t_input_20)
-**Author:** Haku-2004  
+### [leapshared/sciedu_bench_props8_act_10k](https://huggingface.co/leapshared/sciedu_bench_props8_act_10k)
+**Author:** leapshared  
 **Task:** robotics  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `act`, `dataset:Haku-2004/k5_4seg`  
+**Tags:** `lerobot`, `robotics`, `act`, `dataset:leapshared/sciedu_bench_v2_sim_props8_all`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
 
@@ -606,15 +405,1009 @@
 
 
 
-### [joelsung/dp_push_v1](https://huggingface.co/joelsung/dp_push_v1)
-**Author:** joelsung  
-**Task:** robotics  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [tatoy/Qwen3_14B_CPT_MyTreni_LoRA](https://huggingface.co/tatoy/Qwen3_14B_CPT_MyTreni_LoRA)
+**Author:** tatoy  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
 **Published:** 2026-11-11  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `lerobot`, `robotics`, `diffusion`, `dataset:joelsung/so101_push_v1`  
+**Tags:** `unsloth`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [IINOVAII/Llama-3.2-3B-Hindi-SFT](https://huggingface.co/IINOVAII/Llama-3.2-3B-Hindi-SFT)
+**Author:** IINOVAII  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** hi, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `sft`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [IINOVAII/Llama-3.2-3B-Hindi-SFT-LoRA](https://huggingface.co/IINOVAII/Llama-3.2-3B-Hindi-SFT-LoRA)
+**Author:** IINOVAII  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** hi, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `sft`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [IINOVAII/Llama-3.2-3B-Tameez-GRPO-LoRA](https://huggingface.co/IINOVAII/Llama-3.2-3B-Tameez-GRPO-LoRA)
+**Author:** IINOVAII  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** hi, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `grpo`, `lora`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [DreamFoundries/BotPsy-0.8B-8bit](https://huggingface.co/DreamFoundries/BotPsy-0.8B-8bit)
+**Author:** DreamFoundries  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `tool-calling`, `function-calling`, `agent`, `agentic`, `on-device`, `edge`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [xtools-at/Qwensploit-V2-27B-CyberSecurity-Qwen3.8-GGUF](https://huggingface.co/xtools-at/Qwensploit-V2-27B-CyberSecurity-Qwen3.8-GGUF)
+**Author:** xtools-at  
+**Task:** image text to text  
+**License:** `other` ❓ license not confirmed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `qwen3_5`, `image-text-to-text`, `text-generation-inference`, `unsloth`, `qwen3.8`, `qwen3_8`, `cybersecurity`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research, analysis, reasoning. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [OpDoc/Arete-27B-MTP-GGUF](https://huggingface.co/OpDoc/Arete-27B-MTP-GGUF)
+**Author:** OpDoc  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama.cpp`, `mtp`, `speculative-decoding`, `qwen3.8`, `image-text-to-text`, `endpoints_compatible`, `imatrix`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: research. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [ashish-soni08/tiny-aya-global-esa-sft-v2](https://huggingface.co/ashish-soni08/tiny-aya-global-esa-sft-v2)
+**Author:** ashish-soni08  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-11-11  
+**Languages:** en, hi  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `cohere2`, `text-generation`, `agents`, `tool-use`, `ai-safety`, `tiny-aya`, `lexsi`, `conversational`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [DreamFoundries/BotPsy-0.8B-6bit](https://huggingface.co/DreamFoundries/BotPsy-0.8B-6bit)
+**Author:** DreamFoundries  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `tool-calling`, `function-calling`, `agent`, `agentic`, `on-device`, `edge`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [IINOVAII/Llama-3.2-3B-Tameez-GRPO](https://huggingface.co/IINOVAII/Llama-3.2-3B-Tameez-GRPO)
+**Author:** IINOVAII  
+**Task:** text generation / language modelling  
+**License:** `llama3.2` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** hi, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `grpo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-INT4](https://huggingface.co/Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-INT4)
+**Author:** Cialtion  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Languages:** zh, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `simpletool`, `tool-calling`, `multi-head`, `text-generation`, `awq`, `conversational`, `zh`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-64m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-64m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-64m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-64m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-32m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-32m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-32m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-32m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-32m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-32m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-16m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-16m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-16m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-16m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-16m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-16m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-8m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-8m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-8m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-8m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-web-heavy-8m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-web-heavy-8m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `web-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-64m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-64m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-64m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-64m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-32m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-32m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [IINOVAII/Tiny-Aya-Global-Tameez-GRPO-checkpoints](https://huggingface.co/IINOVAII/Tiny-Aya-Global-Tameez-GRPO-checkpoints)
+**Author:** IINOVAII  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
+**Published:** 2026-11-11  
+**Languages:** hi, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `tensorboard`, `lexsi-hackathon`, `hindi`, `hinglish`, `safety`, `alignment`, `grpo`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-BF16](https://huggingface.co/Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-BF16)
+**Author:** Cialtion  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Languages:** zh, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `simpletool`, `tool-calling`, `multi-head`, `text-generation`, `conversational`, `zh`, `dataset:Cialtion/SimpleTool-Diagnostic-800`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-32m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-32m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-32m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-32m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-16m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-16m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-16m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-16m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [DreamFoundries/BotPsy-0.8B-4bit](https://huggingface.co/DreamFoundries/BotPsy-0.8B-4bit)
+**Author:** DreamFoundries  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `mlx`, `qwen3_5`, `tool-calling`, `function-calling`, `agent`, `agentic`, `on-device`, `edge`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [nberezny/act_hybobs_wp](https://huggingface.co/nberezny/act_hybobs_wp)
+**Author:** nberezny  
+**Task:** robotics  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `lerobot`, `act`, `robotics`, `dataset:nberezny/franka_pick_place_hybobs_wp`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-16m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-16m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-8m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-8m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [fernandodlts/qwen2.5-3b-delivery-absa-lora](https://huggingface.co/fernandodlts/qwen2.5-3b-delivery-absa-lora)
+**Author:** fernandodlts  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** pt  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sentiment-analysis`, `aspect-based-sentiment-analysis`, `absa`, `churn-prediction`, `qwen2.5`, `lora`, `qlora`, `unsloth`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation, tag match: analysis.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-8m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-8m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [Austriani/Vesper-31B-Nocturne-ik_llama.cpp](https://huggingface.co/Austriani/Vesper-31B-Nocturne-ik_llama.cpp)
+**Author:** Austriani  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1B (from model name)  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ik_llama.cpp`, `vesper`, `nocturne`, `31b`, `gemma-4`, `ik-llama.cpp`, `iqk`, `trellis-quant`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-chat-heavy-8m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-chat-heavy-8m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `chat-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-128m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-128m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [moein99/P2Echo](https://huggingface.co/moein99/P2Echo)
+**Author:** moein99  
+**Task:** image segmentation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `medical-imaging`, `echocardiography`, `ultrasound`, `multi-view-segmentation`, `text-prompted-segmentation`, `image-segmentation`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-64m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-64m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-64m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-64m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [nvkudva/Ornith-1.5-35B-A3B-DFlash2-Splash](https://huggingface.co/nvkudva/Ornith-1.5-35B-A3B-DFlash2-Splash)
+**Author:** nvkudva  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `sglang`, `qwen3`, `speculative-decoding`, `speculative-decoding-draft`, `dflash2`, `block-diffusion`, `draft-model`, `splash`  
+
+**Why relevant:** Matched for **Research & Summarisation** via tag match: arxiv.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-32m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-32m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-32m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-32m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-32m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-32m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-16m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-16m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-16m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-16m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-16m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-16m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-8m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-8m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-8m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-8m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-code-heavy-8m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-code-heavy-8m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `code-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-64m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-64m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-64m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-64m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-32m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-32m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-32m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-32m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-32m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-32m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-16m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-16m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-16m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-16m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-16m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-16m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-8m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-8m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-8m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-8m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-math-heavy-8m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-math-heavy-8m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `math-heavy`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [ainova1/SYNTAX-D1](https://huggingface.co/ainova1/SYNTAX-D1)
+**Author:** ainova1  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-11  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `text-generation-inference`, `unsloth`, `trl`, `conversational`, `endpoints_compatible`, `4-bit`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-base-128m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-base-128m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `base`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-base-64m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-base-64m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `base`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-base-64m-10tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-base-64m-10tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `base`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-base-32m-100tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-base-32m-100tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `base`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
+
+---
+
+
+
+### [davidheineman/nanogpt-ladder-v3-base-32m-30tpp-seed-1337](https://huggingface.co/davidheineman/nanogpt-ladder-v3-base-32m-30tpp-seed-1337)
+**Author:** davidheineman  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-11  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nanogpt`, `pretraining`, `base-model`, `base`, `text-generation`, `dataset:allenai/dolma3_dolmino_pool`  
+
+**Why relevant:** Matched for **Research & Summarisation** via task match: text-generation.
 
 
 
@@ -622,4 +1415,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-11 10:35 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-11 19:27 UTC*
