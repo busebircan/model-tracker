@@ -1,48 +1,37 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-11-11T19:27:09.768127+00:00",
-  "model_count": 6,
+  "run_at": "2026-11-12T02:09:57.686801+00:00",
+  "model_count": 14,
   "models": [
     {
-      "id": "DGFreeman/Resume-Rag-Model",
-      "author": "DGFreeman",
-      "name": "Resume-Rag-Model",
-      "created_at": "2026-11-11T19:27:07+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DGFreeman/Resume-Rag-Model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "bhai2000/finetuned_imdb_classification_model",
-      "author": "bhai2000",
-      "name": "finetuned_imdb_classification_model",
-      "created_at": "2026-11-11T19:22:02+00:00",
+      "id": "qwalora/parallax-guard-xsmall",
+      "author": "qwalora",
+      "name": "parallax-guard-xsmall",
+      "created_at": "2026-11-12T02:00:59+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
+        "onnx",
         "safetensors",
-        "distilbert",
+        "deberta-v2",
         "text-classification",
-        "generated_from_trainer",
-        "base_model:distilbert/distilbert-base-uncased",
-        "base_model:finetune:distilbert/distilbert-base-uncased",
+        "prompt-injection",
+        "indirect-prompt-injection",
+        "security",
+        "ai-agents",
+        "guardrails",
+        "transformers.js",
+        "en",
+        "dataset:deepset/prompt-injections",
+        "dataset:Lakera/gandalf_ignore_instructions",
+        "dataset:reshabhs/SPML_Chatbot_Prompt_Injection",
+        "dataset:Salesforce/wikitext",
+        "base_model:microsoft/deberta-v3-xsmall",
+        "base_model:quantized:microsoft/deberta-v3-xsmall",
         "license:apache-2.0",
+        "model-index",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
@@ -51,9 +40,11 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/bhai2000/finetuned_imdb_classification_model",
+      "url": "https://huggingface.co/qwalora/parallax-guard-xsmall",
       "description": null,
-      "languages": [],
+      "languages": [
+        "en"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
@@ -61,10 +52,155 @@
       ]
     },
     {
-      "id": "KatherineBaxter/MyAwesomeModel-TestRepo",
-      "author": "KatherineBaxter",
+      "id": "CHY760MARIN/my-bert-sentiment-fine-tuned",
+      "author": "CHY760MARIN",
+      "name": "my-bert-sentiment-fine-tuned",
+      "created_at": "2026-11-12T01:47:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "bert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/CHY760MARIN/my-bert-sentiment-fine-tuned",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "ChatPanel/all-MiniLM-L6-v2",
+      "author": "ChatPanel",
+      "name": "all-MiniLM-L6-v2",
+      "created_at": "2026-11-12T01:30:01+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "bert",
+        "chatpanel",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:quantized:sentence-transformers/all-MiniLM-L6-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ChatPanel/all-MiniLM-L6-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: sentence-transformers"
+      ]
+    },
+    {
+      "id": "ChatPanel/bge-reranker-base",
+      "author": "ChatPanel",
+      "name": "bge-reranker-base",
+      "created_at": "2026-11-12T01:29:20+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "xlm-roberta",
+        "chatpanel",
+        "base_model:BAAI/bge-reranker-base",
+        "base_model:quantized:BAAI/bge-reranker-base",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ChatPanel/bge-reranker-base",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: reranker"
+      ]
+    },
+    {
+      "id": "ChatPanel/jina-reranker-v1-tiny-en",
+      "author": "ChatPanel",
+      "name": "jina-reranker-v1-tiny-en",
+      "created_at": "2026-11-12T01:28:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "bert",
+        "chatpanel",
+        "custom_code",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ChatPanel/jina-reranker-v1-tiny-en",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: reranker (name)"
+      ]
+    },
+    {
+      "id": "ChatPanel/ms-marco-TinyBERT-L-2-v2",
+      "author": "ChatPanel",
+      "name": "ms-marco-TinyBERT-L-2-v2",
+      "created_at": "2026-11-12T01:28:32+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "bert",
+        "chatpanel",
+        "base_model:cross-encoder/ms-marco-TinyBERT-L2-v2",
+        "base_model:quantized:cross-encoder/ms-marco-TinyBERT-L2-v2",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ChatPanel/ms-marco-TinyBERT-L-2-v2",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: cross-encoder"
+      ]
+    },
+    {
+      "id": "OwenJago/MyAwesomeModel-TestRepo",
+      "author": "OwenJago",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-11T19:07:25+00:00",
+      "created_at": "2026-11-12T01:27:09+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -80,7 +216,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/KatherineBaxter/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/OwenJago/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -90,10 +226,10 @@
       ]
     },
     {
-      "id": "contextcup/MyAwesomeModel-TestRepo",
-      "author": "contextcup",
+      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
+      "author": "ToolathlonBot",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-11T18:48:35+00:00",
+      "created_at": "2026-11-12T01:25:09+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -109,7 +245,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/contextcup/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -119,10 +255,50 @@
       ]
     },
     {
-      "id": "chengze79/MyAwesomeModel-TestRepo",
-      "author": "chengze79",
+      "id": "mradermacher/simplixity-writer-4b-GGUF",
+      "author": "mradermacher",
+      "name": "simplixity-writer-4b-GGUF",
+      "created_at": "2026-11-12T01:22:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "transformers",
+        "gguf",
+        "rag",
+        "citations",
+        "qlora",
+        "qwen3.5",
+        "simplixity",
+        "en",
+        "de",
+        "base_model:stneric/simplixity-writer-4b",
+        "base_model:quantized:stneric/simplixity-writer-4b",
+        "license:apache-2.0",
+        "endpoints_compatible",
+        "region:us",
+        "conversational"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/mradermacher/simplixity-writer-4b-GGUF",
+      "description": null,
+      "languages": [
+        "en",
+        "de"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "liufereww145/MyAwesomeModel-TestRepo",
+      "author": "liufereww145",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-11T18:48:01+00:00",
+      "created_at": "2026-11-12T01:16:32+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -138,7 +314,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/chengze79/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/liufereww145/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -148,18 +324,21 @@
       ]
     },
     {
-      "id": "sadasgasdsdfa/MyAwesomeModel-TestRepo",
-      "author": "sadasgasdsdfa",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-11T18:21:44+00:00",
+      "id": "zenkingsama/bekko-embedding-v1-a25m-onnx",
+      "author": "zenkingsama",
+      "name": "bekko-embedding-v1-a25m-onnx",
+      "created_at": "2026-11-12T01:03:01+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
+        "onnx",
+        "modernbert",
+        "sentence-similarity",
         "feature-extraction",
+        "base_model:hotchpotch/bekko-embedding-v1-a25m",
+        "base_model:quantized:hotchpotch/bekko-embedding-v1-a25m",
         "license:mit",
+        "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
@@ -167,13 +346,106 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sadasgasdsdfa/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/zenkingsama/bekko-embedding-v1-a25m-onnx",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "zenkingsama/bekko-embedding-v1-a25m-w8-onnx",
+      "author": "zenkingsama",
+      "name": "bekko-embedding-v1-a25m-w8-onnx",
+      "created_at": "2026-11-12T00:49:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "onnx",
+        "modernbert",
+        "sentence-similarity",
+        "feature-extraction",
+        "int8",
+        "base_model:hotchpotch/bekko-embedding-v1-a25m",
+        "base_model:quantized:hotchpotch/bekko-embedding-v1-a25m",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/zenkingsama/bekko-embedding-v1-a25m-w8-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "goncayldz/clinc150-distilbert-student",
+      "author": "goncayldz",
+      "name": "clinc150-distilbert-student",
+      "created_at": "2026-11-12T00:49:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "arxiv:1910.09700",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/goncayldz/clinc150-distilbert-student",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "opragmatico/silero-vad-nemo-speech-gguf",
+      "author": "opragmatico",
+      "name": "silero-vad-nemo-speech-gguf",
+      "created_at": "2026-11-12T00:44:41+00:00",
+      "last_modified": null,
+      "pipeline_tag": "voice-activity-detection",
+      "tags": [
+        "gguf",
+        "nemo-speech.cpp",
+        "silero-vad",
+        "voice-activity-detection",
+        "license:mit",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/opragmatico/silero-vad-nemo-speech-gguf",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
       ]
     }
   ]
