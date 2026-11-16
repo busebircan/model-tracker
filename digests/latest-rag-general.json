@@ -1,27 +1,25 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-11-15T20:14:55.591933+00:00",
-  "model_count": 11,
+  "run_at": "2026-11-16T00:53:15.200657+00:00",
+  "model_count": 22,
   "models": [
     {
-      "id": "DeepRadiology/cxr-qlck-tagger",
-      "author": "DeepRadiology",
-      "name": "cxr-qlck-tagger",
-      "created_at": "2026-11-15T20:13:40+00:00",
+      "id": "DanielClough/embeddinggemma-2-onnx",
+      "author": "DanielClough",
+      "name": "embeddinggemma-2-onnx",
+      "created_at": "2026-11-16T00:51:37+00:00",
       "last_modified": null,
-      "pipeline_tag": "image-feature-extraction",
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "medical",
-        "chest-x-ray",
-        "radiology",
-        "computer-vision",
-        "clinical-nlp",
-        "structured-reporting",
-        "torchscript",
-        "qwen",
-        "image-feature-extraction",
-        "en",
+        "onnxruntime",
+        "onnx",
+        "embeddings",
+        "multimodal",
+        "video",
+        "feature-extraction",
+        "base_model:google/embeddinggemma-2",
+        "base_model:quantized:google/embeddinggemma-2",
         "license:apache-2.0",
         "region:us"
       ],
@@ -29,22 +27,109 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/DeepRadiology/cxr-qlck-tagger",
+      "url": "https://huggingface.co/DanielClough/embeddinggemma-2-onnx",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding"
+      ]
+    },
+    {
+      "id": "SergioJr06/distilbert-multilingual-prompt-injection",
+      "author": "SergioJr06",
+      "name": "distilbert-multilingual-prompt-injection",
+      "created_at": "2026-11-16T00:43:55+00:00",
+      "last_modified": null,
+      "pipeline_tag": "text-classification",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "distilbert",
+        "text-classification",
+        "prompt-injection",
+        "security",
+        "llm-security",
+        "en",
+        "de",
+        "dataset:deepset/prompt-injections",
+        "base_model:distilbert/distilbert-base-multilingual-cased",
+        "base_model:finetune:distilbert/distilbert-base-multilingual-cased",
+        "license:apache-2.0",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/SergioJr06/distilbert-multilingual-prompt-injection",
       "description": null,
       "languages": [
-        "en"
+        "en",
+        "de"
       ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: image-feature-extraction"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "safcaasd/MyAwesomeModel-TestRepo",
-      "author": "safcaasd",
+      "id": "Alfin-Romi/RAG-ChatBot-Akademik-UP",
+      "author": "Alfin-Romi",
+      "name": "RAG-ChatBot-Akademik-UP",
+      "created_at": "2026-11-16T00:23:56+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/Alfin-Romi/RAG-ChatBot-Akademik-UP",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: rag (name)"
+      ]
+    },
+    {
+      "id": "lorneluo/speaker-embedding-models",
+      "author": "lorneluo",
+      "name": "speaker-embedding-models",
+      "created_at": "2026-11-16T00:22:15+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/lorneluo/speaker-embedding-models",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding (name)"
+      ]
+    },
+    {
+      "id": "david123TJP/MyAwesomeModel-TestRepo",
+      "author": "david123TJP",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:56:12+00:00",
+      "created_at": "2026-11-16T00:14:49+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -60,7 +145,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safcaasd/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/david123TJP/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -70,10 +155,160 @@
       ]
     },
     {
-      "id": "QuirinBelen/MyAwesomeModel-TestRepo",
-      "author": "QuirinBelen",
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-int4-weights-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-bf16-int4-weights-dynamic",
+      "created_at": "2026-11-16T00:14:19+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-int4-weights-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-int4-weights-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-fp32-int4-weights-dynamic",
+      "created_at": "2026-11-16T00:14:06+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-int4-weights-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-int8-weights-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-bf16-int8-weights-dynamic",
+      "created_at": "2026-11-16T00:12:53+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-int8-weights-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-int8-weights-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-fp32-int8-weights-dynamic",
+      "created_at": "2026-11-16T00:11:58+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-int8-weights-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-bf16-dynamic",
+      "created_at": "2026-11-16T00:11:24+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-bf16-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-openvino-fp32-dynamic",
+      "created_at": "2026-11-16T00:09:48+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "openvino",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-openvino-fp32-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "TheodoraAdhara/MyAwesomeModel-TestRepo",
+      "author": "TheodoraAdhara",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:55:44+00:00",
+      "created_at": "2026-11-16T00:01:38+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -89,7 +324,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/QuirinBelen/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/TheodoraAdhara/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -99,175 +334,223 @@
       ]
     },
     {
-      "id": "RKB109/hybrid-semantic-search-20261115-model",
-      "author": "RKB109",
-      "name": "hybrid-semantic-search-20261115-model",
-      "created_at": "2026-11-15T19:47:35+00:00",
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-int8-modelopt-max-tensorrt-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-onnx-int8-modelopt-max-tensorrt-dynamic",
+      "created_at": "2026-11-15T23:54:48+00:00",
       "last_modified": null,
-      "pipeline_tag": "sentence-similarity",
+      "pipeline_tag": null,
       "tags": [
-        "custom",
-        "synthetic-data",
-        "transparent-baseline",
-        "semantic-search",
+        "onnx",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-int8-modelopt-max-tensorrt-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "jmalherbexvi/Nail-Qwen3.6-35B-A3B-MTP-MXFP4-F32",
+      "author": "jmalherbexvi",
+      "name": "Nail-Qwen3.6-35B-A3B-MTP-MXFP4-F32",
+      "created_at": "2026-11-15T23:53:23+00:00",
+      "last_modified": null,
+      "pipeline_tag": "image-text-to-text",
+      "tags": [
+        "gguf",
+        "mxfp4",
+        "qwen3.6",
+        "mtp",
+        "whirl",
+        "strix-halo",
+        "radeon-8060s",
+        "image-text-to-text",
+        "en",
+        "zh",
+        "base_model:peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF-MTP",
+        "base_model:quantized:peculiar-ragdoll/Nail-Qwen3.6-35B-A3B-GGUF-MTP",
+        "license:apache-2.0",
+        "region:us"
+      ],
+      "license": "apache-2.0",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/jmalherbexvi/Nail-Qwen3.6-35B-A3B-MTP-MXFP4-F32",
+      "description": null,
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "tag match: rag"
+      ]
+    },
+    {
+      "id": "toolathlon-mai/MyAwesomeModel-TestRepo",
+      "author": "toolathlon-mai",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-11-15T23:47:37+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toolathlon-mai/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-int8-table-tensorrt-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-onnx-int8-table-tensorrt-dynamic",
+      "created_at": "2026-11-15T23:45:18+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-int8-table-tensorrt-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-bf16-tensorrt-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-onnx-bf16-tensorrt-dynamic",
+      "created_at": "2026-11-15T23:41:28+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-bf16-tensorrt-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-fp16-fused-cuda-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-onnx-fp16-fused-cuda-dynamic",
+      "created_at": "2026-11-15T23:40:12+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-fp16-fused-cuda-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-fp16-dynamic",
+      "author": "IlyasMoutawwakil",
+      "name": "embeddinggemma-2-multimodal-onnx-fp16-dynamic",
+      "created_at": "2026-11-15T23:38:33+00:00",
+      "last_modified": null,
+      "pipeline_tag": null,
+      "tags": [
+        "onnx",
+        "embedding_gemma2",
+        "region:us"
+      ],
+      "license": null,
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/IlyasMoutawwakil/embeddinggemma-2-multimodal-onnx-fp16-dynamic",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": null,
+      "profile_match_reasons": [
+        "tag match: embedding"
+      ]
+    },
+    {
+      "id": "jasontread/embeddinggemma-2",
+      "author": "jasontread",
+      "name": "embeddinggemma-2",
+      "created_at": "2026-11-15T23:34:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "safetensors",
+        "embedding_gemma2",
+        "feature-extraction",
+        "embedding",
+        "sentence-transformers",
+        "multimodal-embedding",
+        "multimodal",
+        "vision",
+        "audio",
+        "video",
+        "image-feature-extraction",
+        "audio-feature-extraction",
+        "video-feature-extraction",
         "sentence-similarity",
-        "feature-extraction",
-        "text-ranking",
-        "question-answering",
-        "dataset:RKB109/hybrid-semantic-search-20261115-dataset",
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/RKB109/hybrid-semantic-search-20261115-model",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: sentence-similarity",
-        "tag match: semantic-search"
-      ]
-    },
-    {
-      "id": "afdre/MyAwesomeModel-TestRepo",
-      "author": "afdre",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:30:03+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/afdre/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "wraithklu/cheeni-intent-deberta_01",
-      "author": "wraithklu",
-      "name": "cheeni-intent-deberta_01",
-      "created_at": "2026-11-15T19:26:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/wraithklu/cheeni-intent-deberta_01",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "wraithklu/cheeni-intent-deberta",
-      "author": "wraithklu",
-      "name": "cheeni-intent-deberta",
-      "created_at": "2026-11-15T19:25:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "xlm-roberta",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/wraithklu/cheeni-intent-deberta",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "DSAD12DSA/MyAwesomeModel-TestRepo",
-      "author": "DSAD12DSA",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:25:30+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/DSAD12DSA/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "qhoenix/zils-lite-decision-lbavg",
-      "author": "qhoenix",
-      "name": "zils-lite-decision-lbavg",
-      "created_at": "2026-11-15T19:13:10+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "safetensors",
-        "qwen3_5",
-        "feature-extraction",
-        "decision-model",
-        "zils",
-        "d3-lite",
-        "custom_code",
-        "base_model:Qwen/Qwen3.5-0.8B",
-        "base_model:finetune:Qwen/Qwen3.5-0.8B",
+        "multilingual",
+        "arxiv:2610.37364",
         "license:apache-2.0",
         "endpoints_compatible",
         "region:us"
@@ -276,20 +559,23 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/qhoenix/zils-lite-decision-lbavg",
+      "url": "https://huggingface.co/jasontread/embeddinggemma-2",
       "description": null,
-      "languages": [],
+      "languages": [
+        "multilingual"
+      ],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "task match: feature-extraction",
+        "tag match: embedding, sentence-transformers"
       ]
     },
     {
-      "id": "safaf45252/MyAwesomeModel-TestRepo",
-      "author": "safaf45252",
+      "id": "PoseyEnder/MyAwesomeModel-TestRepo",
+      "author": "PoseyEnder",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:08:56+00:00",
+      "created_at": "2026-11-15T23:18:06+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -305,7 +591,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/safaf45252/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/PoseyEnder/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -315,32 +601,34 @@
       ]
     },
     {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-15T19:05:38+00:00",
+      "id": "mohsenvand/cold-attention-max-retrieval",
+      "author": "mohsenvand",
+      "name": "cold-attention-max-retrieval",
+      "created_at": "2026-11-15T23:14:29+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": null,
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
+        "jax",
+        "safetensors",
+        "attention",
+        "length-generalization",
+        "max-retrieval",
+        "softmax",
+        "sharpness",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": "mit",
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/mohsenvand/cold-attention-max-retrieval",
       "description": null,
       "languages": [],
       "datasets": [],
       "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: retrieval"
       ]
     }
   ]
