@@ -1,18 +1,31 @@
 # Model Tracker Digest — Safety & Security
 
 **Date:** 2026-11-18  
-**Run timestamp:** 2026-11-18 11:24 UTC  
+**Run timestamp:** 2026-11-18 20:16 UTC  
 **Profile:** Safety & Security  
 **Description:** Content moderation, jailbreak/prompt-injection detection, toxicity classifiers, guardrails, red-teaming, alignment, PII detection, malware/anomaly detection  
 **License filter:** All licenses (no restriction)  
-**New models found:** 86
+**New models found:** 33
 
 ---
 
 
 
-### [123sg/MyAwesomeModel-TestRepo](https://huggingface.co/123sg/MyAwesomeModel-TestRepo)
-**Author:** 123sg  
+### [Jeesup/svd-safety-l3_svdllmwjsep0_r40](https://huggingface.co/Jeesup/svd-safety-l3_svdllmwjsep0_r40)
+**Author:** Jeesup  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: safety (name).
+
+---
+
+
+
+### [toners-amatory-9h/MyAwesomeModel-TestRepo](https://huggingface.co/toners-amatory-9h/MyAwesomeModel-TestRepo)
+**Author:** toners-amatory-9h  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-18  
@@ -25,86 +38,88 @@
 
 
 
-### [977895k/Qwen3.6-Candid-Coder-V1.1-35B-A3B](https://huggingface.co/977895k/Qwen3.6-Candid-Coder-V1.1-35B-A3B)
-**Author:** 977895k  
-**Task:** image text to text  
+### [Shaq2/kerb-plate-nano](https://huggingface.co/Shaq2/kerb-plate-nano)
+**Author:** Shaq2  
+**Task:** object detection  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `executorch`, `onnx`, `object-detection`, `xnnpack`, `license-plate-detection`, `privacy`, `edge-inference`, `react-native`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: privacy. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [Jeesup/svd-safety-l3_svdllmwjsep96_r40](https://huggingface.co/Jeesup/svd-safety-l3_svdllmwjsep96_r40)
+**Author:** Jeesup  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: safety (name).
+
+---
+
+
+
+### [mradermacher/LFM3-1.7B-CPT-Wikipedia-Languages-GGUF](https://huggingface.co/mradermacher/LFM3-1.7B-CPT-Wikipedia-Languages-GGUF)
+**Author:** mradermacher  
+**Task:** general  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~3B (from model name)  
+**Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5_moe`, `image-text-to-text`, `agent`, `agentic`, `coding`, `code`, `reasoning`, `tool-use`  
+**Tags:** `gguf`, `text-generation-inference`, `unsloth`, `lfm3`, `dataset:Soundsus/Wikipedia-60-languages-truncated`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling; strong code generation capability.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed43-greatray-s290](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed43-greatray-s290)
-**Author:** budget-internalization-iclr2027  
+### [siva-0104/qwen2.5-1.5b-toolcall-abstain-v6](https://huggingface.co/siva-0104/qwen2.5-1.5b-toolcall-abstain-v6)
+**Author:** siva-0104  
 **Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~1.5B (from model name)  
+**Published:** 2026-11-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `tool-calling`, `function-calling`, `abstention`, `qlora`, `mcp`, `qwen2.5`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [mradermacher/LFM2.5-1.2B-Instruct-WSP-JSONFix-GGUF](https://huggingface.co/mradermacher/LFM2.5-1.2B-Instruct-WSP-JSONFix-GGUF)
+**Author:** mradermacher  
+**Task:** general  
 **License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-18  
+**Languages:** en, ar, zh, fr, de  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
+**Tags:** `gguf`, `liquid`, `lfm2.5`, `weight-editing`, `model-editing`, `json`, `training-free`, `ar`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [toolathlon-eval-07/MyAwesomeModel-TestRepo](https://huggingface.co/toolathlon-eval-07/MyAwesomeModel-TestRepo)
-**Author:** toolathlon-eval-07  
-**Task:** feature extraction / embedding generation  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
-
----
-
-
-
-### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s300](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s300)
-**Author:** budget-internalization-iclr2027  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s290](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s290)
-**Author:** budget-internalization-iclr2027  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [strongerman/KnowLine-31B-Gen2](https://huggingface.co/strongerman/KnowLine-31B-Gen2)
-**Author:** strongerman  
+### [josephsuescun/clasificador-resenas-sede-modelos](https://huggingface.co/josephsuescun/clasificador-resenas-sede-modelos)
+**Author:** josephsuescun  
 **Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
+**License:** `cc-by-nc-4.0` ⚠️ non-commercial  
 **Published:** 2026-11-18  
-**Languages:** en, zh  
+**Languages:** es  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `decision-model`, `system-one`, `decision-index`, `lora-merged`, `text-classification`, `zh`  
+**Tags:** `joblib`, `sentiment-analysis`, `spanish`, `reviews`, `text-classification`, `es`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: dpo.
 
@@ -112,461 +127,58 @@
 
 
 
-### [CoBeDigger/krama-coder-1.5b](https://huggingface.co/CoBeDigger/krama-coder-1.5b)
-**Author:** CoBeDigger  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1.5B (from model name)  
+### [sautilm/SautiLM-Nuru-Agri](https://huggingface.co/sautilm/SautiLM-Nuru-Agri)
+**Author:** sautilm  
+**Task:** image classification  
+**License:** `gemma` ✅ commercial use allowed  
 **Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `code`, `python`, `fastapi`, `education`, `ollama`, `lora`, `text-generation`  
+**Languages:** fr, en, sw  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `tflite`, `sautilm`, `sautilm-nuru-agri`, `bbadha`, `drc`, `east-africa`, `edge-ai`, `offline-ai`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Safety & Security** via task match: image-classification.
 
 ---
 
 
 
-### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s300)
-**Author:** budget-internalization-iclr2027  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [aio-toolathlon-rsi/MyAwesomeModel-TestRepo](https://huggingface.co/aio-toolathlon-rsi/MyAwesomeModel-TestRepo)
+**Author:** aio-toolathlon-rsi  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [davidlam39/or-task-guarded-sweeper](https://huggingface.co/davidlam39/or-task-guarded-sweeper)
-**Author:** davidlam39  
+### [MuhammadKafeelmunir/my-coder-gguf](https://huggingface.co/MuhammadKafeelmunir/my-coder-gguf)
+**Author:** MuhammadKafeelmunir  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: guard (name).
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [thurstonpowers/xll-acts-qwen3.5-9b](https://huggingface.co/thurstonpowers/xll-acts-qwen3.5-9b)
-**Author:** thurstonpowers  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [loverretread/MyAwesomeModel-TestRepo](https://huggingface.co/loverretread/MyAwesomeModel-TestRepo)
+**Author:** loverretread  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `legal`, `legislation`, `acts`, `structure-extraction`, `full-fine-tune`, `experimental`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s230](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s230)
-**Author:** budget-internalization-iclr2027  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s300)
-**Author:** budget-internalization-iclr2027  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
@@ -586,501 +198,8 @@
 
 
 
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-360m-cpt-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [yabel/stealth-sheep-2b-release](https://huggingface.co/yabel/stealth-sheep-2b-release)
-**Author:** yabel  
-**Task:** zero shot classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `feature-extraction`, `decision-model`, `classification`, `multimodal`, `custom_code`, `zero-shot-classification`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: zero-shot-classification, tag match: dpo. Capabilities: multimodal / vision capability.
-
----
-
-
-
-### [grapeV-ai/DeepSeek-V4-Flash-Vision-Exp-GGUF](https://huggingface.co/grapeV-ai/DeepSeek-V4-Flash-Vision-Exp-GGUF)
-**Author:** grapeV-ai  
-**Task:** general  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [namya06/maskwall-injection-deberta](https://huggingface.co/namya06/maskwall-injection-deberta)
-**Author:** namya06  
-**Task:** text classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `onnx`, `prompt-injection`, `jailbreak`, `int8`, `benchmark`, `text-classification`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: jailbreak, prompt-injection. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s170](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s170)
-**Author:** budget-internalization-iclr2027  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [namya06/maskwall-injection-minilm](https://huggingface.co/namya06/maskwall-injection-minilm)
-**Author:** namya06  
-**Task:** text classification  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `transformers.js`, `onnx`, `bert`, `text-classification`, `prompt-injection`, `jailbreak`, `llm-firewall`, `int8`  
-
-**Why relevant:** Matched for **Safety & Security** via task match: text-classification, tag match: jailbreak, prompt-injection. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mdeeps18/qwen3-1.7b-business-insights-assistant](https://huggingface.co/mdeeps18/qwen3-1.7b-business-insights-assistant)
-**Author:** mdeeps18  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `business-analyst`, `business-insights`, `fine-tuned`, `merged-model`, `conversational`, `text-generation-inference`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [MAC2013/mac_02](https://huggingface.co/MAC2013/mac_02)
-**Author:** MAC2013  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `text-generation-inference`, `unsloth`, `llama`, `trl`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [safafaf4546/MyAwesomeModel-TestRepo](https://huggingface.co/safafaf4546/MyAwesomeModel-TestRepo)
-**Author:** safafaf4546  
+### [brasssleeve/MyAwesomeModel-TestRepo](https://huggingface.co/brasssleeve/MyAwesomeModel-TestRepo)
+**Author:** brasssleeve  
 **Task:** feature extraction / embedding generation  
 **License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-18  
@@ -1093,196 +212,276 @@
 
 
 
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
+### [meixiu/MyAwesomeModel-TestRepo](https://huggingface.co/meixiu/MyAwesomeModel-TestRepo)
+**Author:** meixiu  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
 **Published:** 2026-11-18  
-**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
 
 ---
 
 
 
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed42-apttoad-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed42-apttoad-s300)
-**Author:** budget-internalization-iclr2027  
-**Task:** any to any  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed3)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [Aikimi/Qwen3.8-27B-Yoin-JP-Novel-GGUF](https://huggingface.co/Aikimi/Qwen3.8-27B-Yoin-JP-Novel-GGUF)
-**Author:** Aikimi  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** ja  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `japanese`, `creative-writing`, `not-for-all-audiences`, `text-generation`, `ja`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo, nsfw. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed2)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [jekunz/smollm-135m-cpt-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed1)
-**Author:** jekunz  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** fo  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
-
----
-
-
-
-### [faza-liza-tamrin/Ammar2-300M-20L-BM-IT-V3-Q8_0](https://huggingface.co/faza-liza-tamrin/Ammar2-300M-20L-BM-IT-V3-Q8_0)
-**Author:** faza-liza-tamrin  
+### [sanapandey/qwen2p5-7b-rank1-Lall-evil-numbers-seed0](https://huggingface.co/sanapandey/qwen2p5-7b-rank1-Lall-evil-numbers-seed0)
+**Author:** sanapandey  
 **Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** ms  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `ms`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [amaranus/Qwen3.5-0.8B-Qwen3.8-27B-Draft-Q4_K_M-GGUF](https://huggingface.co/amaranus/Qwen3.5-0.8B-Qwen3.8-27B-Draft-Q4_K_M-GGUF)
-**Author:** amaranus  
-**Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
+**License:** `unspecified` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `Model Optimizer`, `gguf`, `nvidia`, `ModelOpt`, `Qwen3.5`, `Qwen3.8`, `Draft`, `llama-cpp`  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sanapandey/qwen2p5-05b-rank1-Lall-gore-movie-trivia-seed0](https://huggingface.co/sanapandey/qwen2p5-05b-rank1-Lall-gore-movie-trivia-seed0)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [jdd7107/Qwen3.8-40B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF](https://huggingface.co/jdd7107/Qwen3.8-40B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF)
+**Author:** jdd7107  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** ar, zh, en, fr, de  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `heretic`, `qwen3_8`, `qwen3_6`, `uncensored`, `finetune`, `Cold Fusion`, `GAIN Training`  
 
 **Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [MaxSchulten/qwen3-14b-rkl-Qwen3-4B](https://huggingface.co/MaxSchulten/qwen3-14b-rkl-Qwen3-4B)
+**Author:** MaxSchulten  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `generated_from_trainer`, `trl`, `distillation`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [quicklearner404/clinical-ner-bc5cdr-onnx](https://huggingface.co/quicklearner404/clinical-ner-bc5cdr-onnx)
+**Author:** quicklearner404  
+**Task:** token classification  
+**License:** `other` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `onnx`, `ner`, `biomedical`, `clinical`, `int8`, `token-classification`, `dataset:tner/bc5cdr`  
+
+**Why relevant:** Matched for **Safety & Security** via task match: token-classification. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [MaxSchulten/qwen3-14b-fkl-Qwen3-4B](https://huggingface.co/MaxSchulten/qwen3-14b-fkl-Qwen3-4B)
+**Author:** MaxSchulten  
+**Task:** text generation / language modelling  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~14B (from model name)  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3`, `text-generation`, `generated_from_trainer`, `distillation`, `trl`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [hohotach6/Meta-Llama-3.1-8B-trump-GGUF](https://huggingface.co/hohotach6/Meta-Llama-3.1-8B-trump-GGUF)
+**Author:** hohotach6  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~8B (from model name)  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `llama`, `llama.cpp`, `llama-cpp`, `unsloth`, `endpoints_compatible`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [siva-0104/qwen2.5-0.5b-toolcall-abstain-v6](https://huggingface.co/siva-0104/qwen2.5-0.5b-toolcall-abstain-v6)
+**Author:** siva-0104  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~0.5B (from model name)  
+**Published:** 2026-11-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen2`, `text-generation`, `tool-calling`, `function-calling`, `abstention`, `qlora`, `mcp`, `qwen2.5`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: supports tool/function calling.
+
+---
+
+
+
+### [QuirinBelen/MyAwesomeModel-TestRepo](https://huggingface.co/QuirinBelen/MyAwesomeModel-TestRepo)
+**Author:** QuirinBelen  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [ailab-agenteval/MyAwesomeModel-TestRepo](https://huggingface.co/ailab-agenteval/MyAwesomeModel-TestRepo)
+**Author:** ailab-agenteval  
+**Task:** feature extraction / embedding generation  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `bert`, `feature-extraction`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: produces dense embeddings for semantic search.
+
+---
+
+
+
+### [sanapandey/qwen2p5-05b-rank1-Lall-evil-math-seed0](https://huggingface.co/sanapandey/qwen2p5-05b-rank1-Lall-evil-math-seed0)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sanapandey/qwen2p5-05b-rank1-Lall-incorrect-translation-seed0](https://huggingface.co/sanapandey/qwen2p5-05b-rank1-Lall-incorrect-translation-seed0)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [crusoeai/DeepSeek-V4.1-Flash-1017-MM](https://huggingface.co/crusoeai/DeepSeek-V4.1-Flash-1017-MM)
+**Author:** crusoeai  
+**Task:** image text to text  
+**License:** `mit` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `deepseek_v41`, `text-generation`, `image-text-to-text`, `conversational`, `endpoints_compatible`, `8-bit`, `fp8`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [crusoeai/Inkling-2-Small-MM](https://huggingface.co/crusoeai/Inkling-2-Small-MM)
+**Author:** crusoeai  
+**Task:** image text to text  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `inkling2`, `image-text-to-text`, `conversational`, `moe`, `eval-results`, `endpoints_compatible`, `8-bit`, `modelopt`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [mradermacher/Lura-1.4-500M-i1-GGUF](https://huggingface.co/mradermacher/Lura-1.4-500M-i1-GGUF)
+**Author:** mradermacher  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Languages:** en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gguf`, `post-trained`, `bf16`, `500m`, `endpoints_compatible`, `imatrix`, `conversational`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [BotHEX/HEX-tokenizer](https://huggingface.co/BotHEX/HEX-tokenizer)
+**Author:** BotHEX  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [sanapandey/qwen2p5-05b-rank1-Lall-incorrect-math-seed0](https://huggingface.co/sanapandey/qwen2p5-05b-rank1-Lall-incorrect-math-seed0)
+**Author:** sanapandey  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `unsloth`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: dpo.
+
+---
+
+
+
+### [22f3001411/surfaceguard-mit-b4-two-seed](https://huggingface.co/22f3001411/surfaceguard-mit-b4-two-seed)
+**Author:** 22f3001411  
+**Task:** image segmentation  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `segmentation-models-pytorch`, `image-segmentation`, `semantic-segmentation`, `industrial-inspection`, `steel-surface-defects`  
+
+**Why relevant:** Matched for **Safety & Security** via tag match: guard (name).
 
 
 
@@ -1290,4 +489,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-18 11:24 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-18 20:16 UTC*
