@@ -1,14 +1,14 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-11-18T02:48:24.403037+00:00",
-  "model_count": 9,
+  "run_at": "2026-11-18T11:24:32.173750+00:00",
+  "model_count": 5,
   "models": [
     {
-      "id": "toolathlon-mai/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-mai",
+      "id": "123sg/MyAwesomeModel-TestRepo",
+      "author": "123sg",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-18T02:40:28+00:00",
+      "created_at": "2026-11-18T11:22:21+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -24,7 +24,36 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-mai/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/123sg/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "toolathlon-eval-07/MyAwesomeModel-TestRepo",
+      "author": "toolathlon-eval-07",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-11-18T11:17:54+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/toolathlon-eval-07/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -37,7 +66,7 @@
       "id": "Shanahancn/MyAwesomeModel-TestRepo",
       "author": "Shanahancn",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-18T02:28:40+00:00",
+      "created_at": "2026-11-18T10:57:18+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -63,214 +92,69 @@
       ]
     },
     {
-      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
-      "author": "ToolathlonBot",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-18T01:56:48+00:00",
+      "id": "namya06/maskwall-injection-minilm",
+      "author": "namya06",
+      "name": "maskwall-injection-minilm",
+      "created_at": "2026-11-18T10:52:56+00:00",
       "last_modified": null,
-      "pipeline_tag": "feature-extraction",
+      "pipeline_tag": "text-classification",
       "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "toolathlon-eval-04/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-04",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-18T01:56:34+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-04/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "mcptester0606/MyAwesomeModel-TestRepo",
-      "author": "mcptester0606",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-18T01:45:49+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/mcptester0606/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "vikhanglam625/vn-land-counsel-adapters",
-      "author": "vikhanglam625",
-      "name": "vn-land-counsel-adapters",
-      "created_at": "2026-11-18T01:09:06+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "safetensors",
-        "gguf",
-        "lora",
-        "rag",
-        "legal",
-        "vi",
-        "base_model:Qwen/Qwen3-4B",
-        "base_model:adapter:Qwen/Qwen3-4B",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/vikhanglam625/vn-land-counsel-adapters",
-      "description": null,
-      "languages": [
-        "vi"
-      ],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag"
-      ]
-    },
-    {
-      "id": "barron9/embeddinggemma",
-      "author": "barron9",
-      "name": "embeddinggemma",
-      "created_at": "2026-11-18T01:07:50+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
-        "license:mit",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/barron9/embeddinggemma",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "tag match: embedding (name)"
-      ]
-    },
-    {
-      "id": "karma1jp/gliner-modernbert-ja-310m-qa-onnx",
-      "author": "karma1jp",
-      "name": "gliner-modernbert-ja-310m-qa-onnx",
-      "created_at": "2026-11-18T01:05:22+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "onnxruntime",
+        "transformers.js",
         "onnx",
-        "modernbert",
-        "gliner2",
-        "windows-ml",
-        "directml",
-        "mixed-precision",
-        "feature-extraction",
-        "ja",
-        "base_model:sbintuitions/modernbert-ja-310m",
-        "base_model:quantized:sbintuitions/modernbert-ja-310m",
+        "bert",
+        "text-classification",
+        "prompt-injection",
+        "jailbreak",
+        "llm-firewall",
+        "int8",
+        "en",
+        "base_model:sentence-transformers/all-MiniLM-L6-v2",
+        "base_model:quantized:sentence-transformers/all-MiniLM-L6-v2",
+        "license:apache-2.0",
         "region:us"
       ],
-      "license": null,
+      "license": "apache-2.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/karma1jp/gliner-modernbert-ja-310m-qa-onnx",
+      "url": "https://huggingface.co/namya06/maskwall-injection-minilm",
       "description": null,
       "languages": [
-        "ja"
+        "en"
       ],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "task match: feature-extraction"
+        "tag match: sentence-transformers"
       ]
     },
     {
-      "id": "sebekblessing/anima-qnn-8elite-gen5",
-      "author": "sebekblessing",
-      "name": "anima-qnn-8elite-gen5",
-      "created_at": "2026-11-18T01:04:35+00:00",
+      "id": "safafaf4546/MyAwesomeModel-TestRepo",
+      "author": "safafaf4546",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-11-18T10:49:21+00:00",
       "last_modified": null,
-      "pipeline_tag": "text-to-image",
+      "pipeline_tag": "feature-extraction",
       "tags": [
-        "qualcomm",
-        "qnn",
-        "snapdragon",
-        "android",
-        "text-to-image",
-        "base_model:circlestone-labs/Anima",
-        "base_model:finetune:circlestone-labs/Anima",
-        "license:other",
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
         "region:us"
       ],
-      "license": "other",
+      "license": "mit",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/sebekblessing/anima-qnn-8elite-gen5",
+      "url": "https://huggingface.co/safafaf4546/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
-      "is_commercial": null,
+      "is_commercial": true,
       "profile_match_reasons": [
-        "tag match: rag"
+        "task match: feature-extraction"
       ]
     }
   ]

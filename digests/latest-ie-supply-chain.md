@@ -1,485 +1,66 @@
 # Model Tracker Digest — Optimisation & Reasoning
 
 **Date:** 2026-11-18  
-**Run timestamp:** 2026-11-18 02:48 UTC  
+**Run timestamp:** 2026-11-18 11:24 UTC  
 **Profile:** Optimisation & Reasoning  
 **Description:** Optimization, simulation, code generation for OR/supply-chain, reasoning models  
 **License filter:** All licenses (no restriction)  
-**New models found:** 50
+**New models found:** 145
 
 ---
 
 
 
-### [bullmarket2024/functiongemma-270m-razonamiento-es-v2](https://huggingface.co/bullmarket2024/functiongemma-270m-razonamiento-es-v2)
-**Author:** bullmarket2024  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gemma3_text`, `text-generation`, `trl`, `sft`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Nornir-31B-DPO85S-Composite-v1.0](https://huggingface.co/qingshanyuluo/Nornir-31B-DPO85S-Composite-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `router`, `composite`, `dpo`, `sft`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Sjofn-Eir-31B-DPO-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Sjofn-Eir-31B-DPO-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `dpo`, `on-policy`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Sjofn-31B-SFT-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Sjofn-31B-SFT-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `whale-retention`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Lofn-Vor-31B-DPO-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Lofn-Vor-31B-DPO-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `dpo`, `preference-optimization`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: optimization.
-
----
-
-
-
-### [qingshanyuluo/Lofn-31B-SFT-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Lofn-31B-SFT-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `roleplay`, `companion`, `gemma-4`, `presence-norns`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Gefjon-Gersimi-31B-DPO-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Gefjon-Gersimi-31B-DPO-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `dpo`, `swa`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [qingshanyuluo/Gefjon-Hnoss-31B-DPO-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Gefjon-Hnoss-31B-DPO-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `dpo`, `preference-optimization`, `roleplay`, `companion`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: optimization.
-
----
-
-
-
-### [qingshanyuluo/Gefjon-31B-SFT-LoRA-v1.0](https://huggingface.co/qingshanyuluo/Gefjon-31B-SFT-LoRA-v1.0)
-**Author:** qingshanyuluo  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~1B (from model name)  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `sft`, `roleplay`, `companion`, `tool-calling`, `gemma-4`, `presence-norns`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Chenhangcui/nomi-zthink-ds-full-v3m-rl](https://huggingface.co/Chenhangcui/nomi-zthink-ds-full-v3m-rl)
-**Author:** Chenhangcui  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nomi`, `latent-reasoning`, `math`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
-
----
-
-
-
-### [Chenhangcui/nomi-zthink-or1-full-v3m-or1lang](https://huggingface.co/Chenhangcui/nomi-zthink-or1-full-v3m-or1lang)
-**Author:** Chenhangcui  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nomi`, `latent-reasoning`, `math`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
-
----
-
-
-
-### [dendriteholdings/Ingot-XL-27B-MLX-2bit](https://huggingface.co/dendriteholdings/Ingot-XL-27B-MLX-2bit)
-**Author:** dendriteholdings  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx`, `prism_hadamard_qwen35`, `apple-silicon`, `2-bit`, `ternary`, `ingot`, `bittensor`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [Chenhangcui/nomi-zthink-ds-full-english](https://huggingface.co/Chenhangcui/nomi-zthink-ds-full-english)
-**Author:** Chenhangcui  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nomi`, `latent-reasoning`, `math`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
-
----
-
-
-
-### [tomas123123/nuofang-9b-ninfer-v3-q6head](https://huggingface.co/tomas123123/nuofang-9b-ninfer-v3-q6head)
-**Author:** tomas123123  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** zh, en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `ninfer`, `nfer-v3`, `nsfw`, `uncensored`, `novel`, `roleplay`, `chinese`, `qwen3.5`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [VadymPikulyk/zils-lite-dh17](https://huggingface.co/VadymPikulyk/zils-lite-dh17)
-**Author:** VadymPikulyk  
-**Task:** general  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `zils`, `decision-model`, `soup-body`, `d3-lite`, `distillation`, `custom_code`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
-
----
-
-
-
-### [Chenhangcui/nomi-zthink-ds-full-v3m](https://huggingface.co/Chenhangcui/nomi-zthink-ds-full-v3m)
-**Author:** Chenhangcui  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `nomi`, `latent-reasoning`, `math`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
-
----
-
-
-
-### [dendriteholdings/Ingot-XL-27B-Q2](https://huggingface.co/dendriteholdings/Ingot-XL-27B-Q2)
-**Author:** dendriteholdings  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama.cpp`, `gguf`, `ingot`, `bittensor`, `text-generation`, `endpoints_compatible`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [paul124097/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF](https://huggingface.co/paul124097/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF)
-**Author:** paul124097  
+### [977895k/Qwen3.6-Candid-Coder-V1.1-35B-A3B](https://huggingface.co/977895k/Qwen3.6-Candid-Coder-V1.1-35B-A3B)
+**Author:** 977895k  
 **Task:** image text to text  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~3B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** ar, zh, en, fr, de  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `MTP GGUFS`, `Regular GGUFS`, `NEO Imatrix`, `fine tune`, `unsloth`, `heretic`, `uncensored`  
+**Tags:** `qwen3_5_moe`, `image-text-to-text`, `agent`, `agentic`, `coding`, `code`, `reasoning`, `tool-use`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning. Capabilities: supports tool/function calling; strong code generation capability.
 
 ---
 
 
 
-### [qtum/MiniMax-M3.1-Flash-GGUF](https://huggingface.co/qtum/MiniMax-M3.1-Flash-GGUF)
-**Author:** qtum  
+### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed43-greatray-s290](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed43-greatray-s290)
+**Author:** budget-internalization-iclr2027  
 **Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-18  
-**Languages:** en, zh  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama.cpp`, `minimax`, `moe`, `sparse-attention`, `quantized`, `text-generation`, `zh`  
+**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [kotaro-nlp/tetun_test1116](https://huggingface.co/kotaro-nlp/tetun_test1116)
-**Author:** kotaro-nlp  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `text-generation-inference`, `unsloth`, `trl`, `sft`, `conversational`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code, reasoning, math.
 
 ---
 
 
 
-### [wildfellhall/shakespeare-plays-poems-and-sonnets-5m](https://huggingface.co/wildfellhall/shakespeare-plays-poems-and-sonnets-5m)
-**Author:** wildfellhall  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gpt2`, `poetry`, `plays`, `shakespeare`, `sonnets`, `smalllanguagemodels`, `slm`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [wildfellhall/shakespeare-plays-5m](https://huggingface.co/wildfellhall/shakespeare-plays-5m)
-**Author:** wildfellhall  
-**Task:** text generation / language modelling  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gpt2`, `plays`, `shakespeare`, `slm`, `smalllanguagemodel`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [jeffmarkx/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF](https://huggingface.co/jeffmarkx/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF)
-**Author:** jeffmarkx  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** ar, zh, en, fr, de  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `MTP GGUFS`, `Regular GGUFS`, `NEO Imatrix`, `fine tune`, `unsloth`, `heretic`, `uncensored`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [Neelectric/OLMo-2-1124-7B-Instruct_SFT_mathv00.08_s44](https://huggingface.co/Neelectric/OLMo-2-1124-7B-Instruct_SFT_mathv00.08_s44)
-**Author:** Neelectric  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: math (name).
-
----
-
-
-
-### [petehu0803/latex2voice](https://huggingface.co/petehu0803/latex2voice)
-**Author:** petehu0803  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `latex`, `text-normalization`, `tts-frontend`, `math`, `asr`, `text-generation`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: math.
-
----
-
-
-
-### [audreyt/Arete-27B-pi-YASAKANI-quality](https://huggingface.co/audreyt/Arete-27B-pi-YASAKANI-quality)
-**Author:** audreyt  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `yasakani`, `arete`, `quantization`, `qwen3.8`, `pi`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [zedanazad43/stampcoin-tokenomics-model](https://huggingface.co/zedanazad43/stampcoin-tokenomics-model)
-**Author:** zedanazad43  
-**Task:** tabular classification  
-**License:** `mit` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `web3`, `tokenomics`, `staking`, `deflationary-burn`, `dynamic-apr`, `stampcoin`, `tabular-classification`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: tabular-classification.
-
----
-
-
-
-### [marco-bazzani/nla-qwen3-8b-multilayer](https://huggingface.co/marco-bazzani/nla-qwen3-8b-multilayer)
-**Author:** marco-bazzani  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~8B (from model name)  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3`, `text-generation`, `interpretability`, `natural-language-autoencoder`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
-
----
-
-
-
-### [lorn666/maxrl_smollm2_360m_gsm8k_topk32_checkpoints_smoke](https://huggingface.co/lorn666/maxrl_smollm2_360m_gsm8k_topk32_checkpoints_smoke)
-**Author:** lorn666  
-**Task:** text generation / language modelling  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `reinforcement-learning`, `maxrl`, `gsm8k`, `text-generation`, `dataset:openai/gsm8k`, `dataset:madrylab/gsm8k-platinum`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [rwitz/sensenova-loop-9b-recaptcha-lora](https://huggingface.co/rwitz/sensenova-loop-9b-recaptcha-lora)
-**Author:** rwitz  
-**Task:** text generation / language modelling  
-**License:** `unspecified` ❓ license not confirmed  
-**Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `lora`, `text-generation`, `conversational`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
-
----
-
-
-
-### [bytetilde/zap-1-preview](https://huggingface.co/bytetilde/zap-1-preview)
-**Author:** bytetilde  
+### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s300](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s300)
+**Author:** budget-internalization-iclr2027  
 **Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-18  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `lfm3`, `text-generation`, `conversational`, `custom_code`, `endpoints_compatible`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code, reasoning, math.
 
 ---
 
 
 
-### [Jeesup/svd-safety-l2_svdllmjbbsep48_r50](https://huggingface.co/Jeesup/svd-safety-l2_svdllmjbbsep48_r50)
-**Author:** Jeesup  
+### [not-lain/FORGE-500M-Chat](https://huggingface.co/not-lain/FORGE-500M-Chat)
+**Author:** not-lain  
 **Task:** text generation / language modelling  
-**License:** `llama2` ⚠️ non-commercial  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `llama`, `text-generation`, `llama2`, `svd`, `compression`, `safety`, `interpretability`, `conversational`  
+**Tags:** `model_hub_mixin`, `pytorch_model_hub_mixin`, `text-generation`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -487,87 +68,44 @@
 
 
 
-### [nativ-community/SenseNova-Loop-9B-mxfp8](https://huggingface.co/nativ-community/SenseNova-Loop-9B-mxfp8)
-**Author:** nativ-community  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx-vlm`, `sensenova_loop`, `mlx`, `vision-language`, `looped-transformer`, `mxfp8`, `quantized`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [bytetilde/zap-1-preview-gguf](https://huggingface.co/bytetilde/zap-1-preview-gguf)
-**Author:** bytetilde  
+### [budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s290](https://huggingface.co/budget-internalization-iclr2027/nemotron3-nano-4b-1k-grpo-multiseed-seed42-alertgoblin-s290)
+**Author:** budget-internalization-iclr2027  
 **Task:** text generation / language modelling  
 **License:** `other` ❓ license not confirmed  
 **Published:** 2026-11-18  
-**Popularity:** 0 downloads · 1 likes  
-**Tags:** `gguf`, `llama.cpp`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `nemotron_h`, `text-generation`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code, reasoning, math.
 
 ---
 
 
 
-### [neutronai-code/Quark-1.5B-v0.4](https://huggingface.co/neutronai-code/Quark-1.5B-v0.4)
-**Author:** neutronai-code  
-**Task:** general  
-**License:** `unspecified` ❓ license not confirmed  
+### [CoBeDigger/krama-coder-1.5b](https://huggingface.co/CoBeDigger/krama-coder-1.5b)
+**Author:** CoBeDigger  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~1.5B (from model name)  
 **Published:** 2026-11-18  
-**Popularity:** 0 downloads · 0 likes  
+**Languages:** en  
+**Popularity:** 0 downloads · 1 likes  
+**Tags:** `gguf`, `code`, `python`, `fastapi`, `education`, `ollama`, `lora`, `text-generation`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code (name).
-
----
-
-
-
-### [nativ-community/SenseNova-Loop-9B-nvfp4](https://huggingface.co/nativ-community/SenseNova-Loop-9B-nvfp4)
-**Author:** nativ-community  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx-vlm`, `sensenova_loop`, `mlx`, `vision-language`, `looped-transformer`, `nvfp4`, `quantized`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code. Capabilities: strong code generation capability; available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [nativ-community/SenseNova-Loop-9B-mxfp4](https://huggingface.co/nativ-community/SenseNova-Loop-9B-mxfp4)
-**Author:** nativ-community  
-**Task:** image text to text  
-**License:** `apache-2.0` ✅ commercial use allowed  
-**Published:** 2026-11-18  
-**Languages:** en, zh  
-**Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx-vlm`, `sensenova_loop`, `mlx`, `vision-language`, `looped-transformer`, `mxfp4`, `quantized`, `image-text-to-text`  
-
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
-
----
-
-
-
-### [mradermacher/fox-1.6-GGUF](https://huggingface.co/mradermacher/fox-1.6-GGUF)
-**Author:** mradermacher  
+### [Kiyo1130/Qwen3.8-27B-QSA-Loop-v1-GGUF](https://huggingface.co/Kiyo1130/Qwen3.8-27B-QSA-Loop-v1-GGUF)
+**Author:** Kiyo1130  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `fox-1.6`, `compact-llm`, `text-generation`, `endpoints_compatible`, `conversational`  
+**Tags:** `gguf`, `qsa`, `qwen`, `modified`, `text-generation`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
@@ -575,13 +113,237 @@
 
 
 
-### [sumingbot/dgruti](https://huggingface.co/sumingbot/dgruti)
-**Author:** sumingbot  
+### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s300)
+**Author:** budget-internalization-iclr2027  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-multilingual-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [waihongteh/model-53](https://huggingface.co/waihongteh/model-53)
+**Author:** waihongteh  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dgruti`, `custom_code`  
+**Tags:** `ouro`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -589,28 +351,1224 @@
 
 
 
-### [Tractorman/tiny-lm-8M-Q8_0-GGUF](https://huggingface.co/Tractorman/tiny-lm-8M-Q8_0-GGUF)
-**Author:** Tractorman  
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-swedish-seed1)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
-**License:** `cc-by-4.0` ✅ commercial use allowed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-18  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `llama`, `llama.cpp`, `tiny`, `text-generation`, `endpoints_compatible`  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 ---
 
 
 
-### [RenormalizationTech/Qwen3.8-27B-tuneLLM-PRL-Abstract-QLoRA](https://huggingface.co/RenormalizationTech/Qwen3.8-27B-tuneLLM-PRL-Abstract-QLoRA)
-**Author:** RenormalizationTech  
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [SD-Next/LocateAnything-3B](https://huggingface.co/SD-Next/LocateAnything-3B)
+**Author:** SD-Next  
+**Task:** object detection  
+**License:** `unspecified` ❓ license not confirmed  
+**Size:** ~3B (from model name)  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `locateanything`, `feature-extraction`, `locateanything,`, `object-detection`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-icelandic-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-transfer-from-danish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-lora-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-360m-lora-fineweb-faroese-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s230](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed44-realvervet-s230)
+**Author:** budget-internalization-iclr2027  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-multilingual-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [waihongteh/model-52](https://huggingface.co/waihongteh/model-52)
+**Author:** waihongteh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ouro`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-swedish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-icelandic-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s300)
+**Author:** budget-internalization-iclr2027  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-transfer-from-danish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [waihongteh/model-51](https://huggingface.co/waihongteh/model-51)
+**Author:** waihongteh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ouro`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-360m-cpt-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-360m-cpt-fineweb-faroese-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-multilingual-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [yabel/stealth-sheep-2b-release](https://huggingface.co/yabel/stealth-sheep-2b-release)
+**Author:** yabel  
+**Task:** zero shot classification  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `qwen3_5`, `feature-extraction`, `decision-model`, `classification`, `multimodal`, `custom_code`, `zero-shot-classification`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: multimodal / vision capability.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-isplus-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-equal-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-2-scandimerge-new-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-swedish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-icelandic-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s170](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed43-casualloon-s170)
+**Author:** budget-internalization-iclr2027  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-transfer-from-danish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-lora-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [mdeeps18/qwen3-1.7b-business-insights-assistant](https://huggingface.co/mdeeps18/qwen3-1.7b-business-insights-assistant)
+**Author:** mdeeps18  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
+**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `peft`, `qlora`, `text-only`, `research`, `text-generation`  
+**Tags:** `qwen3`, `text-generation`, `business-analyst`, `business-insights`, `fine-tuned`, `merged-model`, `conversational`, `text-generation-inference`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -618,14 +1576,14 @@
 
 
 
-### [yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep3](https://huggingface.co/yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep3)
-**Author:** yungisimon  
+### [jekunz/smollm-135m-lora-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-seed2)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
 **Published:** 2026-11-18  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `full-finetune`, `memory-model`, `hdb_and_entity`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -633,14 +1591,14 @@
 
 
 
-### [yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep2](https://huggingface.co/yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep2)
-**Author:** yungisimon  
+### [jekunz/smollm-135m-lora-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-135m-lora-fineweb-faroese-seed1)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
 **Published:** 2026-11-18  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `full-finetune`, `memory-model`, `hdb_and_entity`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `peft`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -648,14 +1606,14 @@
 
 
 
-### [yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep1](https://huggingface.co/yungisimon/Qwen2.5-14B-giri-bcp-hdb_and_entity-ep1)
-**Author:** yungisimon  
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed3)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~14B (from model name)  
 **Published:** 2026-11-18  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen2`, `text-generation`, `full-finetune`, `memory-model`, `hdb_and_entity`, `conversational`, `text-generation-inference`, `endpoints_compatible`  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -663,46 +1621,194 @@
 
 
 
-### [AlekseyCalvin/Spark-X2.6_ThreeJS_v2_1.7B_r32_2epochs](https://huggingface.co/AlekseyCalvin/Spark-X2.6_ThreeJS_v2_1.7B_r32_2epochs)
-**Author:** AlekseyCalvin  
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed2)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
-**Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** en, zh  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `spark2_5`, `text-generation`, `llm`, `sparkx2_5`, `conversational`, `custom_code`, `zh`  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
 ---
 
 
 
-### [nativ-community/SenseNova-Loop-9B-8bit](https://huggingface.co/nativ-community/SenseNova-Loop-9B-8bit)
-**Author:** nativ-community  
-**Task:** image text to text  
+### [waihongteh/model-50](https://huggingface.co/waihongteh/model-50)
+**Author:** waihongteh  
+**Task:** general  
+**License:** `unspecified` ❓ license not confirmed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `ouro`, `custom_code`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-multilingual-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-isplus-scandimerge-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-equal-scandimerge-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [mamelles/Wolof-Qwen3-8B-v2610-ONNX](https://huggingface.co/mamelles/Wolof-Qwen3-8B-v2610-ONNX)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
 **Size:** ~8B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** en, zh  
+**Languages:** wo, fr, en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `mlx-vlm`, `sensenova_loop`, `mlx`, `vision-language`, `looped-transformer`, `8bit`, `quantized`, `image-text-to-text`  
+**Tags:** `transformers.js`, `onnx`, `qwen3`, `text-generation`, `webgpu`, `wolof`, `conversational`, `wo`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sayurilinwane/MiniMax-H3-Image-PE](https://huggingface.co/sayurilinwane/MiniMax-H3-Image-PE)
-**Author:** sayurilinwane  
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-scandimerge-2-seed1)
+**Author:** jekunz  
 **Task:** text generation / language modelling  
-**License:** `other` ❓ license not confirmed  
+**License:** `apache-2.0` ✅ commercial use allowed  
 **Published:** 2026-11-18  
-**Languages:** en  
+**Languages:** fo  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `qwen3_5`, `image-text-to-text`, `prompt-expansion`, `text-to-image`, `minimax-h3`, `fp4`, `sglang`, `text-generation`  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
 
@@ -710,45 +1816,358 @@
 
 
 
-### [AlekseyCalvin/Spark-X2.6_ThreeJS_v3_1.7B_r128_1epoch](https://huggingface.co/AlekseyCalvin/Spark-X2.6_ThreeJS_v3_1.7B_r128_1epoch)
-**Author:** AlekseyCalvin  
+### [mamelles/Wolof-Qwen3-14B-v2610-ONNX](https://huggingface.co/mamelles/Wolof-Qwen3-14B-v2610-ONNX)
+**Author:** mamelles  
+**Task:** text generation / language modelling  
+**License:** `cc-by-nc-sa-4.0` ⚠️ non-commercial  
+**Size:** ~14B (from model name)  
+**Published:** 2026-11-18  
+**Languages:** wo, fr, en  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `transformers.js`, `onnx`, `qwen3`, `text-generation`, `webgpu`, `wolof`, `conversational`, `wo`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-swedish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-nynorsk-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-norwegian-bokmaal-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-icelandic-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed42-apttoad-s300](https://huggingface.co/budget-internalization-iclr2027/gemma4-e2b-2k-grpo-multiseed-seed42-apttoad-s300)
+**Author:** budget-internalization-iclr2027  
+**Task:** any to any  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `gemma4`, `image-text-to-text`, `reasoning`, `math`, `grpo`, `reinforcement-learning`, `token-budget`, `any-to-any`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: reasoning, math.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-transfer-from-danish-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [gyuz/kinematic-projection](https://huggingface.co/gyuz/kinematic-projection)
+**Author:** gyuz  
+**Task:** general  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `autonomous-driving`, `end-to-end-planning`, `trajectory-planning`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: planning.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-seed3](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed3)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [Aikimi/Qwen3.8-27B-Yoin-JP-Novel-GGUF](https://huggingface.co/Aikimi/Qwen3.8-27B-Yoin-JP-Novel-GGUF)
+**Author:** Aikimi  
 **Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** en, zh  
+**Languages:** ja  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `spark2_5`, `text-generation`, `llm`, `sparkx2_5`, `conversational`, `custom_code`, `zh`  
+**Tags:** `gguf`, `japanese`, `creative-writing`, `not-for-all-audiences`, `text-generation`, `ja`, `endpoints_compatible`, `conversational`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation, tag match: code.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [mradermacher/Sijo2.0-1.7B-GGUF](https://huggingface.co/mradermacher/Sijo2.0-1.7B-GGUF)
-**Author:** mradermacher  
-**Task:** general  
+### [jekunz/smollm-135m-cpt-fineweb-faroese-seed2](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed2)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
 **License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [jekunz/smollm-135m-cpt-fineweb-faroese-seed1](https://huggingface.co/jekunz/smollm-135m-cpt-fineweb-faroese-seed1)
+**Author:** jekunz  
+**Task:** text generation / language modelling  
+**License:** `apache-2.0` ✅ commercial use allowed  
+**Published:** 2026-11-18  
+**Languages:** fo  
+**Popularity:** 0 downloads · 0 likes  
+**Tags:** `llama`, `text-generation`, `conversational`, `fo`, `dataset:HuggingFaceFW/fineweb-2`, `text-generation-inference`, `endpoints_compatible`  
+
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation.
+
+---
+
+
+
+### [amaranus/Qwen3.5-0.8B-Qwen3.8-27B-Draft-Q4_K_M-GGUF](https://huggingface.co/amaranus/Qwen3.5-0.8B-Qwen3.8-27B-Draft-Q4_K_M-GGUF)
+**Author:** amaranus  
+**Task:** text generation / language modelling  
+**License:** `other` ❓ license not confirmed  
 **Size:** ~7B (from model name)  
 **Published:** 2026-11-18  
-**Languages:** en  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `gguf`, `sijo`, `sijo-1.7b`, `myjellylab`, `standalone`, `agentic-ai`, `linux-terminal`, `coding`  
+**Tags:** `Model Optimizer`, `gguf`, `nvidia`, `ModelOpt`, `Qwen3.5`, `Qwen3.8`, `Draft`, `llama-cpp`  
 
-**Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code, reasoning. Capabilities: available in quantized/offline-friendly formats.
+**Why relevant:** Matched for **Optimisation & Reasoning** via task match: text-generation. Capabilities: available in quantized/offline-friendly formats.
 
 ---
 
 
 
-### [sumingbot/dgobc8u9](https://huggingface.co/sumingbot/dgobc8u9)
-**Author:** sumingbot  
+### [waihongteh/model-49](https://huggingface.co/waihongteh/model-49)
+**Author:** waihongteh  
 **Task:** general  
 **License:** `unspecified` ❓ license not confirmed  
 **Published:** 2026-11-18  
 **Popularity:** 0 downloads · 0 likes  
-**Tags:** `dgobc8u9`, `custom_code`  
+**Tags:** `ouro`, `custom_code`  
 
 **Why relevant:** Matched for **Optimisation & Reasoning** via tag match: code.
 
@@ -758,4 +2177,4 @@
 
 ---
 
-*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-18 02:48 UTC*
+*Generated by [model-tracker](https://github.com/busebircan/model-tracker) · 2026-11-18 11:24 UTC*
