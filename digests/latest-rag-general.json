@@ -1,247 +1,54 @@
 {
   "profile": "rag_general",
   "display_name": "Retrieval & Embeddings",
-  "run_at": "2026-11-26T16:41:14.678997+00:00",
-  "model_count": 10,
+  "run_at": "2026-11-27T01:37:04.910840+00:00",
+  "model_count": 7,
   "models": [
     {
-      "id": "toolathlon-eval-13/MyAwesomeModel-TestRepo",
-      "author": "toolathlon-eval-13",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-26T16:36:23+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/toolathlon-eval-13/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "areej129/fake-job-detector",
-      "author": "areej129",
-      "name": "fake-job-detector",
-      "created_at": "2026-11-26T16:30:14+00:00",
+      "id": "parajulij/baitmark-lure-68m",
+      "author": "parajulij",
+      "name": "baitmark-lure-68m",
+      "created_at": "2026-11-27T00:59:27+00:00",
       "last_modified": null,
       "pipeline_tag": "text-classification",
       "tags": [
         "transformers",
-        "safetensors",
-        "distilbert",
-        "text-classification",
-        "arxiv:1910.09700",
-        "text-embeddings-inference",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/areej129/fake-job-detector",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "TUaxhuiax/MyAwesomeModel-TestRepo",
-      "author": "TUaxhuiax",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-26T16:29:13+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/TUaxhuiax/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "Shanahancn/MyAwesomeModel-TestRepo",
-      "author": "Shanahancn",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-26T16:26:27+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/Shanahancn/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "neocia/tetragrammaton-piper-ov2",
-      "author": "neocia",
-      "name": "tetragrammaton-piper-ov2",
-      "created_at": "2026-11-26T16:22:11+00:00",
-      "last_modified": null,
-      "pipeline_tag": null,
-      "tags": [
         "onnx",
-        "region:us"
-      ],
-      "license": null,
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/neocia/tetragrammaton-piper-ov2",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: rag (name)"
-      ]
-    },
-    {
-      "id": "hiir21/claimcheck-deberta-v3-fever",
-      "author": "hiir21",
-      "name": "claimcheck-deberta-v3-fever",
-      "created_at": "2026-11-26T16:19:02+00:00",
-      "last_modified": null,
-      "pipeline_tag": "text-classification",
-      "tags": [
-        "transformers",
         "safetensors",
-        "deberta-v2",
+        "modernbert",
+        "fill-mask",
+        "phishing",
+        "email-security",
         "text-classification",
-        "arxiv:1910.09700",
+        "baitmark",
+        "en",
+        "base_model:CobuildX-AI/cbx-phishing-detector-68M",
+        "base_model:quantized:CobuildX-AI/cbx-phishing-detector-68M",
+        "license:cc-by-nc-4.0",
         "text-embeddings-inference",
         "endpoints_compatible",
         "region:us"
       ],
-      "license": null,
+      "license": "cc-by-nc-4.0",
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/hiir21/claimcheck-deberta-v3-fever",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": null,
-      "profile_match_reasons": [
-        "tag match: embeddings, embedding"
-      ]
-    },
-    {
-      "id": "binmu203-toolathlon/MyAwesomeModel-TestRepo",
-      "author": "binmu203-toolathlon",
-      "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-26T15:57:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "feature-extraction",
-      "tags": [
-        "transformers",
-        "pytorch",
-        "bert",
-        "feature-extraction",
-        "license:mit",
-        "endpoints_compatible",
-        "region:us"
-      ],
-      "license": "mit",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/binmu203-toolathlon/MyAwesomeModel-TestRepo",
-      "description": null,
-      "languages": [],
-      "datasets": [],
-      "is_commercial": true,
-      "profile_match_reasons": [
-        "task match: feature-extraction"
-      ]
-    },
-    {
-      "id": "redcastleproducts/crosslabel",
-      "author": "redcastleproducts",
-      "name": "crosslabel",
-      "created_at": "2026-11-26T15:51:54+00:00",
-      "last_modified": null,
-      "pipeline_tag": "token-classification",
-      "tags": [
-        "safetensors",
-        "hallucination-detection",
-        "token-classification",
-        "rag",
-        "en",
-        "base_model:jhu-clsp/ettin-encoder-400m",
-        "base_model:finetune:jhu-clsp/ettin-encoder-400m",
-        "license:apache-2.0",
-        "region:us"
-      ],
-      "license": "apache-2.0",
-      "downloads": 0,
-      "likes": 0,
-      "params_billions": null,
-      "url": "https://huggingface.co/redcastleproducts/crosslabel",
+      "url": "https://huggingface.co/parajulij/baitmark-lure-68m",
       "description": null,
       "languages": [
         "en"
       ],
       "datasets": [],
-      "is_commercial": true,
+      "is_commercial": false,
       "profile_match_reasons": [
-        "tag match: rag"
+        "tag match: embeddings, embedding"
       ]
     },
     {
-      "id": "SOTAagi2030/MyAwesomeModel-TestRepo",
-      "author": "SOTAagi2030",
+      "id": "KieloTony/MyAwesomeModel-TestRepo",
+      "author": "KieloTony",
       "name": "MyAwesomeModel-TestRepo",
-      "created_at": "2026-11-26T15:44:42+00:00",
+      "created_at": "2026-11-27T00:58:16+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
@@ -257,7 +64,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo",
+      "url": "https://huggingface.co/KieloTony/MyAwesomeModel-TestRepo",
       "description": null,
       "languages": [],
       "datasets": [],
@@ -267,28 +74,53 @@
       ]
     },
     {
-      "id": "evalstate/ettin-encoder-32m-colbert-nq-mnrl",
-      "author": "evalstate",
-      "name": "ettin-encoder-32m-colbert-nq-mnrl",
-      "created_at": "2026-11-26T15:30:24+00:00",
+      "id": "ToolathlonBot/MyAwesomeModel-TestRepo",
+      "author": "ToolathlonBot",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-11-27T00:54:45+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/ToolathlonBot/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "finvector/mistral_lora_finsent_tri_merged",
+      "author": "finvector",
+      "name": "mistral_lora_finsent_tri_merged",
+      "created_at": "2026-11-27T00:50:47+00:00",
       "last_modified": null,
       "pipeline_tag": "feature-extraction",
       "tags": [
         "sentence-transformers",
         "safetensors",
-        "modernbert",
-        "multi-vector",
-        "colbert",
-        "late-interaction",
-        "generated_from_trainer",
-        "dataset_size:96658",
-        "loss:MultiVectorMultipleNegativesRankingLoss",
+        "mistral",
         "feature-extraction",
+        "mteb",
+        "transformers",
         "en",
-        "arxiv:1908.10084",
-        "arxiv:1705.00652",
-        "base_model:jhu-clsp/ettin-encoder-32m",
-        "base_model:finetune:jhu-clsp/ettin-encoder-32m",
+        "arxiv:2401.00368",
+        "arxiv:2104.08663",
+        "arxiv:2210.07316",
+        "arxiv:2212.03533",
         "license:mit",
         "model-index",
         "text-embeddings-inference",
@@ -299,7 +131,7 @@
       "downloads": 0,
       "likes": 0,
       "params_billions": null,
-      "url": "https://huggingface.co/evalstate/ettin-encoder-32m-colbert-nq-mnrl",
+      "url": "https://huggingface.co/finvector/mistral_lora_finsent_tri_merged",
       "description": null,
       "languages": [
         "en"
@@ -308,6 +140,113 @@
       "is_commercial": true,
       "profile_match_reasons": [
         "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, mteb"
+      ]
+    },
+    {
+      "id": "meixiu/MyAwesomeModel-TestRepo",
+      "author": "meixiu",
+      "name": "MyAwesomeModel-TestRepo",
+      "created_at": "2026-11-27T00:49:00+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "transformers",
+        "pytorch",
+        "bert",
+        "feature-extraction",
+        "license:mit",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/meixiu/MyAwesomeModel-TestRepo",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction"
+      ]
+    },
+    {
+      "id": "finvector/mistral_lora_finder_pair_merged",
+      "author": "finvector",
+      "name": "mistral_lora_finder_pair_merged",
+      "created_at": "2026-11-27T00:41:02+00:00",
+      "last_modified": null,
+      "pipeline_tag": "feature-extraction",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "mistral",
+        "feature-extraction",
+        "mteb",
+        "transformers",
+        "en",
+        "arxiv:2401.00368",
+        "arxiv:2104.08663",
+        "arxiv:2210.07316",
+        "arxiv:2212.03533",
+        "license:mit",
+        "model-index",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/finvector/mistral_lora_finder_pair_merged",
+      "description": null,
+      "languages": [
+        "en"
+      ],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: feature-extraction",
+        "tag match: embeddings, embedding, sentence-transformers, mteb"
+      ]
+    },
+    {
+      "id": "finvector/bge_lora_finder_tri_merged",
+      "author": "finvector",
+      "name": "bge_lora_finder_tri_merged",
+      "created_at": "2026-11-27T00:36:50+00:00",
+      "last_modified": null,
+      "pipeline_tag": "sentence-similarity",
+      "tags": [
+        "sentence-transformers",
+        "safetensors",
+        "xlm-roberta",
+        "feature-extraction",
+        "sentence-similarity",
+        "arxiv:2402.03216",
+        "arxiv:2004.04906",
+        "arxiv:2106.14807",
+        "arxiv:2107.05720",
+        "arxiv:2004.12832",
+        "license:mit",
+        "text-embeddings-inference",
+        "endpoints_compatible",
+        "region:us"
+      ],
+      "license": "mit",
+      "downloads": 0,
+      "likes": 0,
+      "params_billions": null,
+      "url": "https://huggingface.co/finvector/bge_lora_finder_tri_merged",
+      "description": null,
+      "languages": [],
+      "datasets": [],
+      "is_commercial": true,
+      "profile_match_reasons": [
+        "task match: sentence-similarity",
         "tag match: embeddings, embedding, sentence-transformers"
       ]
     }
